@@ -1,0 +1,32 @@
+file,supergroup,group,subgroup,title
+,I,,,Vocal music
+masses,,A,,Masses
+,,,1,pure a capella style
+,,,2,free a capella style
+,,,3,modern style
+,,,4,lost works
+,,,5,spurious works
+requiems,,B,,Requiems
+liturgical_works,,C,,Short liturgical works
+,,,1,Graduals
+,,,2,Hymns
+,,,3,Motets
+,,,4,Offertories
+vespers,,D,,Vespers
+,,,1,Complete vespers
+,,,2,Psalms
+,,,3,Magnificats
+responsories,,E,,Responsories
+marian_antiphons,,F,,Marian antiphons
+,,,1,Alma Redemptoris mater
+,,,2,Ave Regina coelorum
+,,,3,Salve Regina
+sequences,,G,,Sequences
+litanies,,H,,Litanies
+misc_vocal,,I,,Varia
+,II,,,Instrumental music
+sonatas,,J,,Sonatas
+sinfonias,,K,,Sinfonias
+partitas,,L,,Partitas
+misc_instrumental,,M,,Varia
+spurious,,Z,,Spurious and uncertain attributions
