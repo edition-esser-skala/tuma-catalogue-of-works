@@ -1,0 +1,47 @@
+project:
+  type: book
+
+book:
+  title: František Ignác Antonín Tůma
+  subtitle: A thematic catalogue of his works (Fiat)
+  author: Wolfgang Esser-Skala
+  date: today
+  date-format: "YYYY-MM-DD [(v0.0.0.9000)]"
+  sidebar:
+    title: František Ignác Antonín Tůma. A thematic catalogue of his works (Fiat)
+  chapters:
+    - index.qmd
+    - guidelines.qmd
+    - groups/overview.qmd
+    - part: "Vocal music"
+      chapters:
+        - groups/masses.qmd
+        - groups/requiems.qmd
+        - groups/liturgical_works.qmd
+        - groups/vespers.qmd
+        - groups/responsories.qmd
+        - groups/marian_antiphons.qmd
+        - groups/sequences.qmd
+        - groups/litanies.qmd
+        - groups/misc_vocal.qmd
+    - part: "Instrumental music"
+      chapters:
+        - groups/sonatas.qmd
+        - groups/sinfonias.qmd
+        - groups/partitas.qmd
+        - groups/misc_instrumental.qmd
+    - part: "Appendix"
+      chapters:
+        - groups/spurious.qmd
+  page-navigation: false
+  favicon: images/favicon.png
+
+bibliography: references.bib
+csl: "apa-6th-edition.csl"
+
+format:
+  html:
+    toc-depth: 2
+    theme:
+      light: [flatly, styling.scss]
+      dark: [darkly, styling.scss]
