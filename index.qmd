@@ -61,7 +61,7 @@ Currently, the catalogue contains the following information for each work:
 
 For an increasing number of works, detailed metadata in MEI format [@MEI2023] is available.
 
-Works in the catalogue should be cited by the abbreviation “Fiat”, followed by the group, subgroup (if applicable), and work number; the latter three components should be separated by a period.
+Works in the catalogue should be cited by the abbreviation “TumW”, followed by the group, subgroup (if applicable), and work number; the latter three components should be separated by a period.
 
 
 ## Methods
@@ -74,10 +74,10 @@ We consulted the following sources, of which some contain partial catalogues of 
 - @Eitner1903 – sources known around 1900
 - @Riedel1979 – works in the Göttweig Abbey archive
 
-The work list assembled from these sources (`data/catalogue_works.csv`) was checked against and supplemented by RISM entries. To this end, entries were downloaded via [*sru-downloader*](https://github.com/rism-international/sru-downloader) on 2023-01-27, yielding 305 entries:
+The work list assembled from these sources (`data/catalogue_works.csv`) was checked against and supplemented by RISM entries. To this end, entries were downloaded via [*sru-downloader*](https://github.com/rism-international/sru-downloader) on 2024-05-26, yielding 309 entries:
 
 ```bash
-java -jar SRUDownloader.jar "https://muscat.rism.info/sru/sources?operation=searchRetrieve&version=1.1&query=creator=%22T%C5%AFma,%20Franti%C5%A1ek%20Ign%C3%A1c%20Anton%C3%ADn%22&maximumRecords=100"
+java -jar SRUDownloader.jar "https://muscat.rism.info/sru/sources?operation=searchRetrieve&version=1.1&query=creator=%22T%C5%AFma,+Franti%C5%A1ek+Ign%C3%A1c%22&maximumRecords=100"
 grep -v "<zs:" output.xml | \
   grep -v "</zs:" | \
   grep -v "<marc:collection" | \

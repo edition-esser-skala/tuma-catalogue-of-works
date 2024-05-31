@@ -3,12 +3,12 @@ project:
 
 book:
   title: František Ignác Antonín Tůma
-  subtitle: A thematic catalogue of his works (Fiat)
+  subtitle: A thematic catalogue of his works (TumW)
   author: Wolfgang Esser-Skala
   date: today
-  date-format: "YYYY-MM-DD [(v0.0.0.9000)]"
+  date-format: "YYYY-MM-DD [(v0.1.0)]"
   sidebar:
-    title: František Ignác Antonín Tůma. A thematic catalogue of his works (Fiat)
+    title: František Ignác Antonín Tůma. A thematic catalogue of his works (TumW)
   chapters:
     - index.qmd
     - guidelines.qmd
