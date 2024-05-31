@@ -1,3 +1,8 @@
+# copied from edition-esser-skala/werner-catalogue-of-works
+# modifications:
+# (1) selection of siglum columns for catalogue_siglum
+# (2) remove lines that should be removed anyway in data valiation
+
 library(tidyverse)
 library(fs)
 library(gt)
@@ -320,7 +325,7 @@ make_incipit <- function(group, number, sources) {
 #     pluck(1)
 # )
 
-make_work_entry <- function(group, subgroup, number, title, key, sources, ...) {
+make_work_entry <- function(group, subgroup, number, title, sources, ...) {
   if (!is.na(subgroup)) {
     group_subgroup <- str_c(group, subgroup, sep = "_")
     subgroup <- paste0(".", subgroup)
