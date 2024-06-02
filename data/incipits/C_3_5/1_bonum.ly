@@ -93,7 +93,6 @@ BassFigures = \figuremode {
     \new StaffGroup <<
       \new Staff {
         \set Staff.instrumentName = \markup \center-column { "org" "b" }
-        % \transpose c c,
         \Organo
       }
     >>
