@@ -6,7 +6,7 @@ book:
   subtitle: A thematic catalogue of his works (TumW)
   author: Wolfgang Esser-Skala
   date: today
-  date-format: "YYYY-MM-DD [(v0.1.0.9000)]"
+  date-format: "YYYY-MM-DD [(v0.2.0)]"
   site-url: http://tumw.esser-skala.at
   sidebar:
     title: František Ignác Antonín Tůma. A thematic catalogue of his works (TumW)
@@ -34,6 +34,7 @@ book:
     - part: "Appendix"
       chapters:
         - groups/spurious.qmd
+        - changelog.qmd
   page-navigation: false
   favicon: images/favicon.png
 
