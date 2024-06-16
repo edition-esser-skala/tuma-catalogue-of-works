@@ -1,10 +1,3 @@
-# copied from edition-esser-skala/werner-catalogue-of-works
-# modifications:
-# (1) selection of siglum columns for catalogue_siglum
-# (2) remove lines that should be removed anyway in data valiation
-
-
-
 library(tidyverse)
 source("script/utils.R")
 
