@@ -4,4 +4,12 @@ lightbox: true
 
 # Guidelines {.unnumbered}
 
-see guidelines of our [catalogue of works](https://www.gregor-joseph-werner.at/guidelines.html) by Gregor Joseph Werner
+Generally, follow the guidelines of the [catalogue of works](https://www.gregor-joseph-werner.at/guidelines.html) by Gregor Joseph Werner, with the following exceptions:
+
+- The name of the XML file is `TumW_[group]_[number].xml`.
+- Work, identification
+  - TumW: number according to this catalogue (e.g., TumW B.1)
+  - Klinka: number in Klinka’s thematic catalogue (e.g., Klinka Masses 45)
+  - Peschek: number in Peschek’s thematic catalogue (e.g., Peschek C 13)
+  - Vogg: number in Vogg’s thematic catalogue (e.g., Vogg A.I.52)
+
