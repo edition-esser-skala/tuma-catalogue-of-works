@@ -2,6 +2,7 @@ library(tidyverse)
 library(fs)
 library(gt)
 source("script/utils.R")
+source("script/parse_mei.R")
 
 
 
@@ -107,10 +108,10 @@ make_incipit <- function(group, number) {
   }
 
   # (2) SVG incipit available
-  incipit_image <- str_glue("{target_dir}/main.svg")
+  incipit_image <- str_glue("{target_dir}/main_1.svg")
   if (file_exists(incipit_image)) {
     info("  … found '{incipit_image}'")
-    return(str_glue('<img src="/{target_dir}/main.svg" ',
+    return(str_glue('<img src="/{target_dir}/main_1.svg" ',
                     'class="incipit img-fluid">'))
   }
 
@@ -143,8 +144,8 @@ make_work_entry <- function(group, subgroup, number, title, sources, ...) {
     str_flatten(collapse = " · ")
 
   details <- ""
-  if (file_exists(str_glue("data/works_html/{group_subgroup}_{number}.html")))
-    details <- str_glue("[Details](/works/{group_subgroup}_{number}.html)")
+  if (file_exists(str_glue("data/works_mei/{group_subgroup}_{number}.xml")))
+    details <- get_work_details(str_glue("{group_subgroup}_{number}"))
 
   str_glue(work_template)
 }
@@ -180,11 +181,10 @@ make_group_page <- function(file, group, title, subgroups) {
 
 if (dir_exists("groups")) dir_delete("groups")
 if (dir_exists("_book/incipits")) dir_delete("_book/incipits")
-if (dir_exists("_book/works")) dir_delete("_book/works")
+if (dir_exists("_book/metadata")) dir_delete("_book/metadata")
 
 dir_create("groups")
-dir_copy("data/works_html", "_book/works")
-dir_copy("data/works_mei", "_book/works/metadata")
+dir_copy("data/works_mei", "_book/metadata")
 pwalk(work_pages, make_group_page)
 
 dir_copy("incipits", "_book/incipits")
@@ -214,16 +214,14 @@ overview_table_groups <-
     by = "group"
   ) %>%
   unite(group_name, title, col = "group_name", sep = ": ", na.rm = TRUE) %>%
-  unite(group, subgroup, col = "group", sep = ".", na.rm = TRUE) %>%
-  {.}
+  unite(group, subgroup, col = "group", sep = ".", na.rm = TRUE)
 
 overview_table_details <-
   tibble(
     WerW =
-      dir_ls("data/works_html", type = "file") %>%
-      str_extract("works_html/(.*)\\.html$", group = 1),
-    Details = str_glue("[details](/works/{WerW}.html)"),
-    Metadata = str_glue("[XML](/works/metadata/{WerW}.xml)"),
+      dir_ls("data/works_mei", type = "file") %>%
+      str_extract("works_mei/(.*)\\.xml$", group = 1),
+    Metadata = str_glue("[XML](/metadata/{WerW}.xml)"),
   ) %>%
   mutate(WerW = str_replace_all(WerW, "_", "."))
 
@@ -232,22 +230,21 @@ overview_table <-
   unite(group, subgroup, col = "group", sep = ".", na.rm = TRUE) %>%
   left_join(overview_table_groups, by = "group") %>%
   unite(group, number, col = "WerW", sep = ".") %>%
-  mutate(Summary = str_glue("[summary](/groups/{file}.html#work-{WerW})")) %>%
-  select(group_name, WerW, Title = title, Summary) %>%
   left_join(overview_table_details, by = "WerW") %>%
   mutate(
-    Details = replace_na(Details, ""),
+    label = if_else(is.na(Metadata), "summary", "summary & details"),
+    Description = str_glue("[{label}](/groups/{file}.html#work-{WerW})"),
     Metadata = replace_na(Metadata, "")
   ) %>%
+  select(group_name, WerW, Title = title, Description, Metadata) %>%
   gt(groupname_col = "group_name") %>%
-  fmt_markdown(columns = c("Details", "Summary", "Metadata")) %>%
+  fmt_markdown(columns = c("Description", "Metadata")) %>%
   tab_options(
     column_labels.font.weight = "bold",
     row_group.background.color = "grey90",
     row_group.font.weight =
   ) %>%
-  as_raw_html(FALSE) %>%
-  {.}
+  as_raw_html(FALSE)
 
 str_glue(overview_template) %>%
   write_file("groups/overview.qmd")
