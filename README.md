@@ -6,14 +6,16 @@ This repository and all of its scripts are based upon [edition-esser-skala/werne
 ## Changes to technical pipeline
 
 - `script/make_catalogue.R`:
-  1. selection of siglum columns for `catalogue_siglum`
-  2. in data validation, remove lines that should be removed anyway
+  - `cols_library` and `cols_library`
+  - in data validation, remove lines that should be removed anyway
+- `script/prepage_pages.R`:
+  - `cols_identifiers`
 
 
 ## How to create the webpage
 
 1. Create the catalogue: `Rscript script/make_catalogue.R`.
-2. Create PAE sources for RISM incipits: `Rscript script/create_rism_incipits_pae.R`.
+2. Create PAE sources for RISM incipits: `Rscript script/create_rism_incipits.R`.
 3. Engrave all incipits: `make -f script/make_incipits.mk`.
 4. Prepare webpages: `Rscript script/prepare_pages.R`.
 5. Render with Quarto: `quarto render`.

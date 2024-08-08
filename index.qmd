@@ -17,16 +17,11 @@ For general and biographical information on Werner, see @Postolka2001 and @Slavi
 
 ## Overview
 
-We classify Tůma's works as *Vocal music* (groups A to I) and *instrumental music* (groups J to M); moreover, an appendix contains spurious and uncertain attributions (group Z). Groups A, C, D, and F are further divided into subgroups to provide a more fine-grained classification and to preserve work numbering if further works are discovered. The catalogue also cites lost works whose existence has been sufficiently proven.
+We classify Tůma's works as *Vocal music* (groups A to I) and *instrumental music* (groups J to M). Groups C, D, and F are further divided into subgroups to provide a more fine-grained classification and to preserve work numbering if further works are discovered. Following works with ascertained authorship, lost works (prefix L followed by consecutive number) and spurious and uncertain attributions (prefix S followed by consecutive number) are included.
 
 **Vocal music** comprises
 
 - *A. Masses*<br/>
-  (1) pure a capella style<br/>
-  (2) free a capella style<br/>
-  (3) modern style<br/>
-  (4) lost works<br/>
-  (5) spurious works
 - *B. Requiems*
 - *C. Short liturgical works*<br/>
   (1) Graduals<br/>
@@ -53,13 +48,16 @@ We classify Tůma's works as *Vocal music* (groups A to I) and *instrumental mus
 - *L. Partitas*
 - *M. Miscellaneous instrumental works*
 
-Currently, the catalogue contains the following information for each work:
+The catalogue contains at least the following information for each work:
 
 - title
-- sources (linked to the respective RISM entry), and
-- one preliminary incipit (i.e., the first incipit of the first source with RISM entry).
+- one or more incipits
+- identifiers in other catalogues
+- sources (linked to the respective RISM entry, if available)
+- miscellaneous notes
+- relevant literature
 
-For an increasing number of works, detailed metadata in MEI format [@MEI2023] is available.
+In addition, we are annotating more and more works with [detailed metadata](metadata.qmd) in MEI format [@MEI2023].
 
 Works in the catalogue should be cited by the abbreviation “TumW”, followed by the group, subgroup (if applicable), and work number; the latter three components should be separated by a period.
 
@@ -70,11 +68,11 @@ Works in the catalogue should be cited by the abbreviation “TumW”, followed 
 
 We consulted the following sources, of which some contain partial catalogues of Werner's works:
 
-- @Vogg1951 – works known around 1950
-- @Peschek1956 – masses known in the 1950s
-- @Klinka1975 – vocal works, including practical editions of several motets
 - @Eitner1903 – sources known around 1900
-- @Riedel1979 – works in the Göttweig Abbey archive
+- @Klinka1975 – vocal works, including practical editions of several motets
+- @Peschek1956 – masses known in the 1950s
+- @Reichert1935 – masses known in the 1930s
+- @Vogg1951 – works known around 1950
 
 ### Analysis
 
@@ -91,7 +89,6 @@ grep -v "<zs:" output.xml | \
   > rism_entries.xml
 rm output.xml
 ```
-From this file, searchable HTML tables were created via `script/parse_rism_search_results.py` and `make_rism_tables.R` and stored in `data_generated/rism_tables/`.
 
 Pages for all groups of works were generated automatically from `catalogue_overview.csv` and `catalogue_works.csv`. If manually curated incipits were unavailable for a work, the first incipit of the first source with a RISM entry was included. Data from the [RISM Catalogue](https://opac.rism.info) (e.g., Plaine & Easie Code for incipits) by the *Répertoire International des Sources Musicales* is licensed under a Creative Commons Attribution CC-BY 3.0 Unported License.
 
@@ -107,11 +104,14 @@ Datasets and code used for preparing this catalogue are available from [GitHub](
 
 Assistance of the following people and institutions is gratefully acknowledged:
 Thomas Dolezal (Dommusikarchiv Eisenstadt – A-Ed),
+P. Roman Nägele (Stift Heiligenkreuz im Wienerwald, Musikarchiv – A-HE),
 P. Altman Pötsch (Benediktinerstift Kremsmünster, Regenterei und Musikarchiv – A-KR),
 Peter Deinhammer (Benediktinerstift Lambach, Musikarchiv – A-LA),
 Christian Schüller (Röm.-Kath. Pfarramt Maria Taferl – A-MT),
 Ludmila Šmídová (Národní knihovna České republiky, Praha – CZ-Pu),
 Christian Filips (Sing-Akademie zu Berlin, Notenarchiv – D-Bsa),
+Martin Lang (Bistum Passau, Archiv – D-Po),
+Alessia Ravagnani (Museo internazionale e biblioteca della musica di Bologna – I-Bc),
 Sebastian Lindblom (Musik- och teaterbiblioteket, Stockholm – S-Skma),
 as well as the staff of
 the Österreichische Nationalbibliothek, Musiksammlung, Wien (A-Wn),
@@ -130,7 +130,7 @@ and the Universitetsbiblioteket Lund (S-L).
 
 ## Contact
 
-Do you work on a similar catalogue? Would like to team up or support the project? Feel free to reach out to me via [email](mailto:wolfgang@esser-skala.at)!
+Would like to team up or support the project? Feel free to reach out to me via [email](mailto:wolfgang@esser-skala.at)!
 
 Disclosure (§25 Mediengesetz)
 : This website is privately provided and maintained by Wolfgang Esser-Skala, Wolfgangseestraße 31g, 5023 Koppl.

@@ -3,12 +3,28 @@ source("script/utils.R")
 
 
 
+# Parameters --------------------------------------------------------------
+
+# columns in data/catalogue_works.csv with that correspond to a library
+cols_library <- c(
+  "A-GÖ", "A-H", "A-HE", "A-KN", "A-KR", "A-LA", "A-M", "A-SEI", "A-Wgm",
+  "A-WIL", "A-Wn", "A-Ws", "CZ-Pak", "CZ-Pkřiž", "CZ-Pn", "D-B", "D-Dl"
+)
+
+# columns that contain other metadata,
+# e.g., title, catalogue of works numbers, references, notes
+cols_metadata <- c("title",
+                   "KliCh", "PesMa", "ReiMa", "VogIn",
+                   "literature", "notes")
+
+
+
 # Load data ---------------------------------------------------------------
 
 # (1) the manually curated catalogue of works
 catalogue <- read_csv(
   "data/catalogue_works.csv",
-  col_types = cols(subgroup = "i", number = "i", .default = "c")
+  col_types = cols(.default = "c")
 )
 
 # (2) known individual works/copies
@@ -32,7 +48,7 @@ known_works <- bind_rows(rism_entries, rism_missing)
 
 catalogue_siglum <-
   catalogue %>%
-  select(group:title, `A-GÖ`:`D-Dl`) %>%
+  select(group:title, all_of(cols_library)) %>%
   pivot_longer(
     !group:title,
     names_to = "siglum",
@@ -118,14 +134,14 @@ catalogue_all_with_rism <-
         by = join_by(siglum, shelfmark, rism_id)
       )
   ) %>%
-  select(group:number, siglum, shelfmark, rism_id) %>%
   unite(siglum, shelfmark, col = "source", sep = " ")
 
 works <-
   catalogue %>%
-  select(group:title) %>%
+  select(group:number, all_of(cols_metadata)) %>%
   left_join(
-    catalogue_all_with_rism,
+    catalogue_all_with_rism %>%
+      nest(.by = group:number, .key = "sources"),
     by = join_by(group, subgroup, number)
   )
 
@@ -133,9 +149,9 @@ works <-
 
 # Save data ---------------------------------------------------------------
 
-works %>% write_csv("data_generated/works.csv")
+works %>% write_rds("data_generated/works.rds")
 
-works %>%
+catalogue_all_with_rism %>%
   separate_wider_delim(
     source,
     delim = " ",

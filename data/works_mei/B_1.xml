@@ -51,9 +51,9 @@
     <workList xml:id="workList_4826e601">
       <work xml:id="work_829f001a">
         <identifier xml:id="identifier_dca83b92" label="TumW">B.1</identifier>
-        <identifier label="Klinka" xml:id="identifier_3c21db4b">Masses 45</identifier>
-        <identifier label="Peschek" xml:id="identifier_c58e46ee">C 13</identifier>
-        <identifier label="Vogg" xml:id="identifier_c3b22dab">A.I.52</identifier>
+        <identifier label="KlinCh" xml:id="identifier_3c21db4b">Masses 45</identifier>
+        <identifier label="PesMa" xml:id="identifier_c58e46ee">C 13</identifier>
+        <identifier label="VogIn" xml:id="identifier_c3b22dab">A.I.52</identifier>
         <title xml:lang="it" xml:id="title_64b30d70">Messa della morte</title>
         <contributor xml:id="contributor_f5043ab9">
           <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118624539" xml:id="persName_060615d7">Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma</persName>
@@ -61,7 +61,7 @@
         </contributor>
         <creation xml:id="creation_d0359332">
           <date xml:id="date_3ff93a34" isodate="1742">1742</date>
-          <geogName role="" xml:id="geogName_4b0c4d10">[Vienna]</geogName>
+          <geogName role="" xml:id="geogName_4b0c4d10">Vienna (?)</geogName>
         </creation>
         <history xml:id="history_bc2e8caa"/>
         <langUsage xml:id="langUsage_b726fa14">
@@ -71,13 +71,13 @@
           <expression xml:id="expression_97c4f1b6">
             <title xml:lang="en" xml:id="title_1a20b4d5"/>
             <incip xml:id="incip_e6f61ce3">
-              <graphic target="main_1.png" targettype="lowres" xml:id="graphic_0b1e2931"/>
-              <graphic target="main_2.png" targettype="lowres" xml:id="graphic_f80f18a5"/>
-              <graphic target="main_3.png" targettype="lowres" xml:id="graphic_59d493d8"/>
-              <graphic target="main_4.png" targettype="lowres" xml:id="graphic_6ce95d9a"/>
-              <graphic target="main_5.png" targettype="lowres" xml:id="graphic_188e9bc2"/>
-              <graphic target="main_6.png" targettype="lowres" xml:id="graphic_299ca671"/>
-              <graphic target="main_7.png" targettype="lowres" xml:id="graphic_259f771a"/>
+              <graphic target="main_1" targettype="lowres" xml:id="graphic_0b1e2931"/>
+              <graphic target="main_2" targettype="lowres" xml:id="graphic_f80f18a5"/>
+              <graphic target="main_3" targettype="lowres" xml:id="graphic_59d493d8"/>
+              <graphic target="main_4" targettype="lowres" xml:id="graphic_6ce95d9a"/>
+              <graphic target="main_5" targettype="lowres" xml:id="graphic_188e9bc2"/>
+              <graphic target="main_6" targettype="lowres" xml:id="graphic_299ca671"/>
+              <graphic target="main_7" targettype="lowres" xml:id="graphic_259f771a"/>
             </incip>
             <creation xml:id="creation_f1f8af89">
               <date xml:id="date_10057330"/>
@@ -86,6 +86,13 @@
             <history xml:id="history_d4d92340"/>
             <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="perfMedium_05489552">
               <perfResList xml:id="perfResList_993416a2">
+                <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="Mixed choir (SATB)" xml:id="perfResList_9dd3f9ec">
+                  <head xml:lang="en" xml:id="head_c41e698b_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">soli</head>
+                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en" xml:id="perfRes_f533d3ce">S</perfRes>
+                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en" xml:id="perfRes_0c10e9b8">A</perfRes>
+                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en" xml:id="perfRes_f5b35cf8">T</perfRes>
+                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en" xml:id="perfRes_07f28ac6">B</perfRes>
+                </perfResList>
                 <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="Mixed choir (SATB)" xml:id="perfResList_66d28b19">
                   <head xml:lang="en" xml:id="head_d6e11616_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">coro</head>
                   <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en" xml:id="perfRes_6172d386">S</perfRes>
@@ -100,13 +107,6 @@
                 <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" xml:id="perfRes_04cd870e" xml:lang="en">vl</perfRes>
                 <perfRes codedval="sve" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" xml:id="perfRes_f9f0ab78" xml:lang="en">vlne</perfRes>
                 <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" xml:id="perfRes_ad23fd9a" xml:lang="en">org</perfRes>
-                <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="Mixed choir (SATB)" xml:id="perfResList_9dd3f9ec">
-                  <head xml:lang="en" xml:id="head_c41e698b_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0">soli</head>
-                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en" xml:id="perfRes_f533d3ce">S</perfRes>
-                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en" xml:id="perfRes_0c10e9b8">A</perfRes>
-                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en" xml:id="perfRes_f5b35cf8">T</perfRes>
-                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en" xml:id="perfRes_07f28ac6">B</perfRes>
-                </perfResList>
               </perfResList>
             </perfMedium>
             <classification xml:id="classification_da800246">
@@ -1204,6 +1204,11 @@
         <titleStmt xml:id="titleStmt_586135dc">
           <title xml:id="title_936ef72e">Manuscript copy</title>
         </titleStmt>
+        <pubStmt xml:id="pubStmt_af0836a2">
+          <publisher xml:id="publisher_26a7e184"/>
+          <pubPlace xml:id="pubPlace_b1aca2cd"/>
+          <date isodate="1742-01-01" xml:id="date_af571887">1742</date>
+        </pubStmt>
         <classification xml:id="classification_2d1b5efb">
           <termList xml:id="termList_c6c8ae02">
             <term xml:id="term_670b99c1">Notated music</term>
@@ -1222,8 +1227,29 @@
                 <p>Messa della morte | a 4 voci | 2 violini | e | 2 Tromboni | in conc: | con | Rip:ni e clarini col | surdino ad lib:tum | Partes 36. | Requiem e Kyrie . | Del sg: France&#x17F;co Tuma | Maestro di Cap:a di S: Maesta | Ces: L'Imp:ce Elis: Vedova | L'Anno 1742<lb/>[top left corner, light brown ink:] 20 8bre 742<lb/>[below, pencil:] 27 &#x2013; 743 | [unreadable] (april 759<lb/>[below, dark brown ink:] 20 decemb apud capuc: pro Imperatrice<lb/>[top center, pencil:] AN.65.A.163. | 20 Auflagst. | 15<lb/>[bottom, pencil:] 16934. 55 Blt. 20 Auflagstimmen</p>
               </titlePage>
               <extent quantity="" xml:id="extent_591ddbf5">21 parts</extent>
+              <dimensions xml:id="dimensions_8b9e568a">
+                <locusGrp xml:id="locusGrp_f2fddc9c">
+                  <locus xml:id="locus_b6a358db"/>
+                </locusGrp>
+                <term xml:id="term_26aa3a4f"/>
+                <extent quantity="" xml:id="extent_e649e539"> lines</extent>
+                <dimensions type="format" xml:id="dimensions_c2b5cf63">
+                  <height quantity="" unit="cm" xml:id="height_40f4a0b7"/>
+                  <width quantity="" unit="cm" xml:id="width_67fee264"/>
+                </dimensions>
+                <dimensions type="rastral_mirror" xml:id="dimensions_8d3afa6d">
+                  <height quantity="" unit="cm" xml:id="height_0861db8a"/>
+                  <width quantity="" unit="cm" xml:id="width_bef0095a"/>
+                </dimensions>
+              </dimensions>
+              <dimensions xml:id="dimensions_71800d39">
+                <height quantity="" xml:id="height_1225dfd8"/>
+                <width quantity="" xml:id="width_c926f442"/>
+                <depth quantity="" xml:id="depth_27d7eab4"/>
+                <dim quantity="" xml:id="dim_efd4c753"/>
+              </dimensions>
               <physMedium xml:id="physMedium_4cedd3bc">
-                <p>In 4o; upright format. Hand-ruled paper, 10 staves per page in light brown ink and music in dark brown ink.</p>
+                <p>hand-ruled paper, 10 staves</p>
               </physMedium>
             </physDesc>
             <physLoc xml:id="physLoc_5f63b297">
@@ -1237,128 +1263,25 @@
             </physLoc>
             <notesStmt xml:id="notesStmt_f051a2ea">
               <annot type="source_description" xml:id="annot_25113714">
+                <p>S solo (6), A solo (6), T solo (6), B solo (5), S coro (4), A coro (2x; 4, 3), T coro (4), B coro (4), cnto (3), fag (3), clno 1 (2), clno 2 (2), trb 1 (3), trb 2 (3) vl 1 (5), vl 2 (5), vlc (7), vlne (7), org (6), mdc (8)</p>
                 <p>Comprises the Introitus and Kyrie.</p>
               </annot>
             </notesStmt>
-            <componentList xml:id="componentList_8f3c72aa">
-              <item label="Soprano Conc:" xml:id="item_6ab6da4a">
-                <physDesc xml:id="physDesc_83c346d6">
-                  <extent quantity="" xml:id="extent_93f89518">6 p.</extent>
-                </physDesc>
-              </item>
-              <item label="Alto Conc:" xml:id="item_995e5d73">
-                <physDesc xml:id="physDesc_94aac69b">
-                  <extent quantity="" xml:id="extent_37fc4a3d">6 p.</extent>
-                </physDesc>
-              </item>
-              <item label="Tenore Conc:" xml:id="item_edb1b6ed">
-                <physDesc xml:id="physDesc_b06ab7b7">
-                  <extent quantity="" xml:id="extent_46feda35">6 p.</extent>
-                </physDesc>
-              </item>
-              <item label="Ba&#x17F;so Conc:" xml:id="item_d946de17">
-                <physDesc xml:id="physDesc_6e7112fa">
-                  <extent quantity="" xml:id="extent_c7a81b53">5 p.</extent>
-                </physDesc>
-              </item>
-              <item label="Soprano Rip:no" xml:id="item_82174e59">
-                <physDesc xml:id="physDesc_7f9c965b">
-                  <extent quantity="" xml:id="extent_48820268">4 p.</extent>
-                </physDesc>
-              </item>
-              <item label="Alto Rip:no" xml:id="item_5a0fcb44">
-                <physDesc xml:id="physDesc_73954999">
-                  <extent quantity="" xml:id="extent_3080ec7c">4 p.</extent>
-                </physDesc>
-              </item>
-              <item label="Alto Rip:no" xml:id="item_9cd4a3b6">
-                <physDesc xml:id="physDesc_ef92bdc4">
-                  <extent quantity="" xml:id="extent_9b961af1">3 p.</extent>
-                </physDesc>
-              </item>
-              <item label="Tenore Rip:no" xml:id="item_c6567569">
-                <physDesc xml:id="physDesc_c5521617">
-                  <extent quantity="" xml:id="extent_9dc33bac">4 p.</extent>
-                </physDesc>
-              </item>
-              <item label="Basso Rip:no" xml:id="item_8c714538">
-                <physDesc xml:id="physDesc_0eb9a60b">
-                  <extent quantity="" xml:id="extent_17b9caeb">4 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_e426658a" label="Violino Primo">
-                <physDesc xml:id="physDesc_a96b6846">
-                  <extent quantity="" xml:id="extent_e1087a95">5 p.</extent>
-                </physDesc>
-              </item>
-              <item label="Violino Secondo" xml:id="item_ed400f32">
-                <physDesc xml:id="physDesc_b78e25ec">
-                  <extent quantity="" xml:id="extent_f3bb400d">5 p.</extent>
-                </physDesc>
-              </item>
-              <item label="Violoncello" xml:id="item_6a2969ca">
-                <physDesc xml:id="physDesc_41e9a4de">
-                  <extent quantity="" xml:id="extent_bd3861ff">7 p.</extent>
-                </physDesc>
-              </item>
-              <item label="Violone" xml:id="item_4a470db5">
-                <physDesc xml:id="physDesc_c89c3522">
-                  <extent quantity="" xml:id="extent_615ff982">7 p.</extent>
-                </physDesc>
-              </item>
-              <item label="Clarino Primo" xml:id="item_d628a62d">
-                <physDesc xml:id="physDesc_7114a214">
-                  <extent quantity="" xml:id="extent_a40d6957">2 p.</extent>
-                </physDesc>
-              </item>
-              <item label="Clarino Secondo" xml:id="item_8b6fa0b0">
-                <physDesc xml:id="physDesc_0e7388a3">
-                  <extent quantity="" xml:id="extent_0f9f6457">2 p.</extent>
-                </physDesc>
-              </item>
-              <item label="Cornetto" xml:id="item_ab2839c4">
-                <physDesc xml:id="physDesc_9ab55a50">
-                  <extent quantity="" xml:id="extent_a226ca9a">3 p.</extent>
-                </physDesc>
-              </item>
-              <item label="Fagotto" xml:id="item_14a43976">
-                <physDesc xml:id="physDesc_9d658559">
-                  <extent quantity="" xml:id="extent_9ca75a96">3 p.</extent>
-                </physDesc>
-              </item>
-              <item label="Trombone Primo" xml:id="item_9948d01a">
-                <physDesc xml:id="physDesc_e0d56965">
-                  <extent quantity="" xml:id="extent_7576a85a">3 p.</extent>
-                </physDesc>
-              </item>
-              <item label="Trombone Secondo" xml:id="item_f100b798">
-                <physDesc xml:id="physDesc_bea64b0d">
-                  <extent quantity="" xml:id="extent_6d98a1ea">3 p.</extent>
-                </physDesc>
-              </item>
-              <item label="Organo" xml:id="item_3e8f7e42">
-                <physDesc xml:id="physDesc_48a30169">
-                  <extent quantity="" xml:id="extent_ea76509b">6 p.</extent>
-                </physDesc>
-              </item>
-              <item label="M:D:C:" xml:id="item_423e02c0">
-                <physDesc xml:id="physDesc_ea6c3266">
-                  <extent quantity="" xml:id="extent_c9117ab7">8 p.</extent>
-                </physDesc>
-              </item>
-            </componentList>
+            <componentList xml:id="componentList_8f3c72aa"/>
           </item>
         </itemList>
         <componentList xml:id="componentList_fee64288"/>
-        <relationList xml:id="relationList_a6615cdf">
-          <relation rel="isEmbodimentOf" xml:id="relation_474e256d"/>
-        </relationList>
       </manifestation>
       <manifestation xml:id="manifestation_3fe40ee2">
         <identifier xml:id="identifier_546af72b"/>
         <titleStmt xml:id="titleStmt_9c9c8443">
           <title xml:id="title_aaeb8cca">Manuscript copy</title>
         </titleStmt>
+        <pubStmt xml:id="pubStmt_6b92a1ed">
+          <publisher xml:id="publisher_c9f604dc"/>
+          <pubPlace xml:id="pubPlace_b8353e0c"/>
+          <date isodate="1742-01-01" xml:id="date_96ceb6ab">1742</date>
+        </pubStmt>
         <classification xml:id="classification_3ee09e35">
           <termList xml:id="termList_7207dc86">
             <term xml:id="term_af5d2aec">Notated music</term>
@@ -1383,7 +1306,8 @@
               </titlePage>
               <extent quantity="" xml:id="extent_ce0a63cc">20, 22, and 22 parts</extent>
               <physMedium xml:id="physMedium_a17419b6">
-                <p>In 4o; upright format. Hand-ruled paper, 10 staves per page in light brown ink and music in dark brown ink. Three sets of parts in three wrappers, comprising (1) the Sequentia (20 parts), (2) the Offertorium (22 parts), as well as (3) the Sanctus, Benedictus, and Agnus Dei (22 parts), respectively.</p>
+                <p>hand-ruled paper, 10 staves</p>
+                <p>Three sets of parts in three wrappers, comprising (1) the Sequentia (20 parts), (2) the Offertorium (22 parts), as well as (3) the Sanctus, Benedictus, and Agnus Dei (22 parts), respectively.</p>
               </physMedium>
             </physDesc>
             <physLoc xml:id="physLoc_14d310cd">
@@ -1397,114 +1321,15 @@
             </physLoc>
             <notesStmt xml:id="notesStmt_559ccbe6">
               <annot type="source_description" xml:id="annot_6dbaaffc">
-                <p>Comprises Sequentia to Agnus Dei. These movements have been archived under a shelfmark with an Introitus and Kyrie by Georg Reutter the Younger. Thus, they have been attributed to the latter (see P. Norbert Hofer&#x2019;s edition in Denkm&#xE4;ler der Tonkunst in &#xD6;sterreich, vol. 88 (1952), and his<lb/>catalogue of Reutter&#x2019;s works, entry 46/4).</p>
+                <p>Sequentia: S solo (5), A solo (5), T solo (6), B solo (5), S coro (4), A coro (4), T coro (4), B coro (4), cnto (4), fag (4), clno 1 (2), clno 2 (2), trb 1 (6), trb 2 (4), vl 1 (5), vl 2 (5), vlc (7), vlne (7), org (7), mdc (7)<lb/>Offertorium: A solo (4), T solo (2), S coro (2x; 2, 2), A coro (2x; 2, 2), T coro (2x; 2, 2), B coro (2x, 2, 2), cnto (2), fag (2), trb 1 (2), trb 2 (2), vl 1 (2x; 3, 3), vl 2 (2x; 3, 3), vlc (2), vlne (2), org (3), mdc (3)<lb/>Sanctus to Agnus Dei: S solo (4), A solo (4), T solo (4), B solo (4), S coro (3), A coro (3), T coro (3), B coro (3), cnto (2), fag (2), clno 1 (2), clno 2 (2), trb 1 (3), trb 2 (3), vl 1 (2x; 4, 4), vl 2 (2x; 4, 4), vlc (4), vlne (4), org (4), mdc (4)</p>
+                <p>Comprises Sequentia to Agnus Dei.</p>
+                <p>These movements have been archived under a shelfmark with an Introitus and Kyrie by Georg Reutter the Younger. Thus, they have been attributed to the latter (see P. Norbert Hofer&#x2019;s edition in Denkm&#xE4;ler der Tonkunst in &#xD6;sterreich, vol. 88 (1952), and his catalogue of Reutter&#x2019;s works, entry 46/4).</p>
               </annot>
               <annot type="links" xml:id="annot_54bf725d">
                 <ptr mimetype="" xml:id="ptr_d6e397_0_0"/>
               </annot>
             </notesStmt>
-            <componentList xml:id="componentList_be5e5441">
-              <item xml:id="item_5d6609d6" label="Soprano Conc:">
-                <physDesc xml:id="physDesc_674d8d9d">
-                  <extent quantity="" xml:id="extent_7f3500c7">5, 0, 4 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_d0dc9545" label="Soprano Rip:no">
-                <physDesc xml:id="physDesc_7b7d68a5">
-                  <extent quantity="" xml:id="extent_6e7aece8">4, 2 x 2, 3 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_446f4ac6" label="Alto Conc:o">
-                <physDesc xml:id="physDesc_fcfa1741">
-                  <extent quantity="" xml:id="extent_7e1ce0ae">5, 4, 4 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_da6649ac" label="Alto Rip:no">
-                <physDesc xml:id="physDesc_df9c545a">
-                  <extent quantity="" xml:id="extent_69218880">4, 2 x 2, 3 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_252ca76e" label="Tenore Conc:">
-                <physDesc xml:id="physDesc_2c050028">
-                  <extent quantity="" xml:id="extent_108516cb">6, 2, 4 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_3cf9a0a2" label="Tenore Rip:no">
-                <physDesc xml:id="physDesc_74ff0dd8">
-                  <extent quantity="" xml:id="extent_e76fc155">4, 2 x 2, 3 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_0514c2a6" label="Ba&#x17F;so Conc:">
-                <physDesc xml:id="physDesc_f8916486">
-                  <extent quantity="" xml:id="extent_deed673f">5, 0, 4 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_227a5789" label="Ba&#x17F;so Rip:no">
-                <physDesc xml:id="physDesc_ea6d8f87">
-                  <extent quantity="" xml:id="extent_009cf634">4, 2 x 2, 3 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_9b59a2eb" label="Cornetto">
-                <physDesc xml:id="physDesc_31b51c11">
-                  <extent quantity="" xml:id="extent_9e351416">4, 2, 2 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_4ccb4762" label="Fagotto">
-                <physDesc xml:id="physDesc_dfd46a89">
-                  <extent quantity="" xml:id="extent_38a3152b">4, 2, 2 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_7cd8758e" label="Clarino Primo">
-                <physDesc xml:id="physDesc_26c0b862">
-                  <extent quantity="" xml:id="extent_3cd1ef53">2, 0, 2 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_3004955c" label="Clarino Secondo">
-                <physDesc xml:id="physDesc_27d1a93f">
-                  <extent quantity="" xml:id="extent_7f6a1582">2, 0, 2 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_3415f36f" label="Trombone Primo Conc:">
-                <physDesc xml:id="physDesc_2d69c6a0">
-                  <extent quantity="" xml:id="extent_83b110c2">6, 2, 3 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_f228e695" label="Trombone Secondo Conc:">
-                <physDesc xml:id="physDesc_d31da6aa">
-                  <extent quantity="" xml:id="extent_e7f0a758">4, 2, 3 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_f59323d8" label="Violino Primo">
-                <physDesc xml:id="physDesc_5d44b792">
-                  <extent quantity="" xml:id="extent_8558b5c9">5, 2 x 3, 2 x 4 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_e541e021" label="Violino Secondo">
-                <physDesc xml:id="physDesc_fb9d1fcf">
-                  <extent quantity="" xml:id="extent_5ac847a1">5, 2 x 3, 2 x 4 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_7cb1abaf" label="Violoncello">
-                <physDesc xml:id="physDesc_41e3caf4">
-                  <extent quantity="" xml:id="extent_9daca9ec">7, 2, 4 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_f4fbea19" label="Violone">
-                <physDesc xml:id="physDesc_3aeeca01">
-                  <extent quantity="" xml:id="extent_6ecd41a8">7, 2, 4 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_0581c7f6" label="Organo">
-                <physDesc xml:id="physDesc_2cbc17a0">
-                  <extent quantity="" xml:id="extent_97d70424">7, 3, 4 p.</extent>
-                </physDesc>
-              </item>
-              <item xml:id="item_aff20a05" label="M: D: C:">
-                <physDesc xml:id="physDesc_45b2c47a">
-                  <extent quantity="" xml:id="extent_2fe13cab">7, 3, 4 p.</extent>
-                </physDesc>
-              </item>
-            </componentList>
+            <componentList xml:id="componentList_be5e5441"/>
           </item>
         </itemList>
         <componentList xml:id="componentList_825836d0"/>
@@ -1553,7 +1378,7 @@
                   <width quantity="" unit="cm" xml:id="width_be945f0d"/>
                 </dimensions>
               </dimensions>
-              <titlePage label="[cover title]" xml:id="titlePage_8d970434">
+              <titlePage label="[wrapper]" xml:id="titlePage_8d970434">
                 <p>Messa | della morte | a | 4 voci concert: | Due Violini concerti: | Due Tromboni concerti: Due Clarini con Sordini Oblig: | Tympano con Sordini | Con | Organo e Violone | Del Signore Francesco Thuma | M: D. C. della Imperat: Elisabeth: vedova</p>
               </titlePage>
               <extent quantity="" xml:id="extent_d5732a29">13 parts</extent>
@@ -1574,10 +1399,8 @@
             </physLoc>
             <notesStmt xml:id="notesStmt_9d569eac">
               <annot type="source_description" xml:id="annot_665f29ff">
-                <p>parts for S, A, T, B (solo and coro), clno 1, clno 2, trb 1, trb 2, timp, vl 1, vl 2, vlne, and org</p>
-              </annot>
-              <annot type="links" xml:id="annot_8c49891c">
-                <ptr mimetype="" xml:id="ptr_d6e397_1_0"/>
+                <p>S solo and coro, A solo and coro, T solo and coro, B solo and coro, clno 1, clno 2, trb 1, trb 2, timp, vl 1, vl 2, vlne, and org</p>
+                <p>catalogued according to RISM entry</p>
               </annot>
             </notesStmt>
             <componentList xml:id="componentList_0d1f96ce"/>
@@ -1630,10 +1453,8 @@
             </physLoc>
             <notesStmt xml:id="notesStmt_d1fba3ad">
               <annot type="source_description" xml:id="annot_4f7afdc8">
-                <p>Full score copied by Otto Schmid.</p>
-              </annot>
-              <annot type="links" xml:id="annot_090e4432">
-                <ptr mimetype="" xml:id="ptr_d6e397_0_1"/>
+                <p>full score copied by Otto Schmid</p>
+                <p>catalogued according to RISM entry</p>
               </annot>
             </notesStmt>
             <componentList xml:id="componentList_6c665f00"/>
@@ -1680,10 +1501,8 @@
             </physLoc>
             <notesStmt xml:id="notesStmt_70ef5a1f">
               <annot type="source_description" xml:id="annot_85b8607a">
-                <p>Full score copied by Jaroslav U&#x161;&#xE1;k.</p>
-              </annot>
-              <annot type="links" xml:id="annot_10c1e509">
-                <ptr mimetype="" xml:id="ptr_d6e397_1_1"/>
+                <p>full score copied by Jaroslav U&#x161;&#xE1;k</p>
+                <p>catalogued according to RISM entry</p>
               </annot>
             </notesStmt>
             <componentList xml:id="componentList_e7090afb"/>

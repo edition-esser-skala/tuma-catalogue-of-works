@@ -28,10 +28,13 @@ partBc = \markup \remark "B coro"
 partFl = \markup \remark "fl"
 partClni = \markup \remark "clno 1, 2"
 partTrbi = \markup \remark "trb 1"
+partV = \markup \remark "vl"
 partVi = \markup \remark "vl 1"
 partVii = \markup \remark "vl 2"
 partVla = \markup \remark "vla"
 partVlcSolo = \markup \remark "vlc solo"
+partUnk = \markup \remark "[unknown]"
+partOrg = \markup \remark "org"
 
 gotoBar = #(define-music-function
   (parser location num)
