@@ -1,87 +1,86 @@
 group,subgroup,number,title,incipit,A-GÖ,A-H,A-HE,A-KN,A-KR,A-LA,A-M,A-SEI,A-Wgm,A-WIL,A-Wn,A-Ws,CZ-Pak,CZ-Pkřiž,CZ-Pn,D-B,D-Dl,other,KliCh,PesMa,ReiMa,VogIn,literature,notes
 A,,1,Missa in feriis Rogatorum,,,,,A 2/7 | B 113/1,,,,,,,,,,,,,,,Masses 47,A2,26,A.I.18,,
 A,,2,Missa,,,,,(not in catalogue),,,,,,,,,,,,,,,Masses 8,A3,25,A.I.17,,
-A,,3,Missa,,,,,,,,,,,,Mus.Hs.14216,,,,,,,,Masses 28,A4,N/A,A.I.40,,
-A,,4,Missa,,Wondratsch 636,"II,172",,,,,I/9,,,,,,,,,,,,Masses 26,A5,40,A.I.38,,A-H lost
-A,,5,Missa,,,,,,,M 364,,,,,,,,,,,,,,deest,,deest,,
+A,,3,Missa,,,,,,,,,,,,Mus.Hs.14216,,,,,,,,Masses 28,A4,,A.I.40,,
+A,,4,Missa,,Wondratsch 636,"II,172",,,,,I/9,,,,,,,,,,,,Masses 26,A5,40,A.I.38,@Riedel1979 [p. 104],A-H source lost
+A,,5,Missa,,,,,,,M 364,,,,,,,,,,,,,,,,,"@Sherman2001 [p. 73, 362]",
 A,,6,Missa,,,,,,,,,,I/11559,,,,,,,,,,Masses 22,B1,35,A.I.33,,
 A,,7,Missa,,,,,A 11/60 | B 113/8,,,,,,,,,,,,,,,Masses 33,B2,58,A.I.45,,
-A,,8,Missa,,Wondratsch 638,"II,170",,,A 44/134,,I/10,,,,,,,,,,,,Masses 38,B3,60,A.I.51,,only A-M complete
+A,,8,Missa,,Wondratsch 638,"II,170",,,A 44/134,,I/10,,,,,,,,,,,,Masses 38,B3,60,A.I.51,@Riedel1979 [p. 104],only A-M source complete
 A,,9,Missa pro festivitate Sancti Leopoldi,,,,,B 113/5,,,,,,,,,,,,,,,Masses 51,B4,19,A.I.9,,
-A,,10,Missa,,,"II,171",,,B 12/316,,I/11,,,,,,,,,,,,Masses 15,B5,50,A.I.25,,A-H lost
+A,,10,Missa,,,"II,171",,,B 12/316,,I/11,,,,,,,,,,,,Masses 15,B5,50,A.I.25,,A-H source lost
 A,,11,Missa,,,,,B 113/6,,,,,,,,,,,,,,,Masses 17,B6,52,A.I.27,,
-A,,12,Missa Sanctae Elisabethae,,Wondratsch 626,"II,138",,,,,,,,1093,,,,XXXV B 3,XVI C 63,,,"A-Wps 42 | CH-E 297,3",Masses 18,B7,53,A.I.28,,A-H lost; CZ-Pkřiž old: 168
-A,,13,Missa,,,"II,143",,B 114/10,A 3/15,M 363,,,,,,,,,,,,,Masses 30,B8,57,A.I.42,,A-H lost
+A,,12,Missa Sanctae Elisabethae,,Wondratsch 626,"II,138",,,,,,,,1093,,,,XXXV B 3,XVI C 63,,,"A-Wps 42 | CH-E 297,3",Masses 18,B7,53,A.I.28,"@Mitterschiffthaler1979 [p. 236], @Riedel1979 [p. 103]",A-H source lost; CZ-Pkřiž old signature: 168
+A,,13,Missa,,,"II,143",,B 114/10,A 3/15,M 363,,,,,,,,,,,,,Masses 30,B8,57,A.I.42,"@Sherman2001 [p. 47, 338]",A-H source lost
 A,,14,Missa,,,"II,141",,,,,,,,,,,,,,,,,Masses 39,B9,21,A.I.d,,
-A,,15,Missa brevissima,,,"I,118",,B 113/2,B 39/570,,,,,,,,,,,,,,Masses 1,C1,7,A.I.2,,A-H lost
-A,,16,Missa Sancti Eustachii,,Wondratsch 630,"II,103",,B 113/3,,,,,,,,,,,,,,,Masses 37,C2,61,A.I.50,,A-H lost
+A,,15,Missa brevissima,,,"I,118",,B 113/2,B 39/570,,,,,,,,,,,,,,Masses 1,C1,7,A.I.2,,A-H source lost
+A,,16,Missa Sancti Eustachii,,Wondratsch 630,"II,103",,B 113/3,,,,,,,,,,,,,,,Masses 37,C2,61,A.I.50,@Riedel1979 [p. 103],A-H source lost
 A,,17,Missa Sancti Mauri,,,,,,,,,,,,,(n.s.),,,,,,,Masses 61,C3,3,A.I.5,,
-A,,18,Missa Sancti Stephani,,Wondratsch 621,"II,14",,,,,,,I/27552,1094,Mus.Hs.18992,,,,,,,,Masses 34,C4,56,A.I.46,,A-H lost
-A,,19,Missa Sancti Joannis Evangelistae,,,,,,,,,,,,,(n.s.),953,,,,,,Masses 60,C5,10,A.I.12,,
+A,,18,Missa Sancti Stephani,,Wondratsch 621,"II,14",,,,,,,I/27552,1094,Mus.Hs.18992,,,,,,,,Masses 34,C4,56,A.I.46,"@Mitterschiffthaler1979 [p. 236], @Riedel1979 [p. 102]",A-H source lost
+A,,19,Missa Sancti Joannis Evangelistae,,,,,,,,,,,,,E 3/24,953 | 1322,,,,,,Masses 60,C5,10,A.I.12,"@Opatrny2012 [p.347ff], @Stefan1985 [p. 246]",
 A,,20,Missa Veni Pater pauperum,,,,,,,,,,,,,(n.s.),,,,,,,Masses 65,C6,4,A.I.6,,
 A,,21,Missa consolator optime,,,,,,,,,,,,,(n.s.),,,,,,,Masses 43,C7,2,A.I.4,,
-A,,22,Missa Auxilium meum,,,,,,,,,,,,,(n.s.),,,,,,,-,C8,5,deest,,
-A,,23,Missa all’Onor e Preggio del Patriarcha,,Wondratsch 629,"I,49",VIII a 5 [600090623],,,M 458,,E-VII 3 f,,,,(n.s.),,XXXV B 19,,,,D-OB MO 811,Masses 53,C9,1,A.I.1,,A-H lost; CZ-Pkřiž old: 1612
-A,,24,Missa Sancti Thomas,,Wondratsch 619,"II,112",,,,M 397,,,,,,(n.s.),1329,XXXV E 141,,,,,Masses 13,C10,27,A.I.23,,A-H lost; CZ-Pkřiž old: 1205
-A,,25,Missa patientiae,,,,(n.s.),,,,,,,,,(n.s.),,,,,,,Masses 50,C11,20,A.I.16,,A-HE only Benedictus
+A,,22,Missa Auxilium meum,,,,,,,,,,,,,(n.s.),,,,,,,-,C8,5,,,
+A,,23,Missa all’Onor e Preggio del Patriarcha,,Wondratsch 629,"I,49",VIII a 5 [600090623],,,M 458,,E-VII 3 f,,,,(n.s.),,XXXV B 19,,,,D-OB MO 811,Masses 53,C9,1,A.I.1,"@Riedel1979 [p. 103], @Sherman2001 [p. 47, 339]",A-H source lost; CZ-Pkřiž old signature: 1612
+A,,24,Missa Sancti Thomas,,Wondratsch 619,"II,112",,,,M 397,,,,,,(n.s.),1329,XXXV E 141,,,,,Masses 13,C10,27,A.I.23,"@Riedel1979 [p. 102], @Sherman2001 [p. 47, 339], @Stefan1985 [p. 250]",A-H source lost; CZ-Pkřiž old signature: 1205
+A,,25,Missa patientiae,,,,(n.s.),,,,,,,,,(n.s.),,,,,,,Masses 50,C11,20,A.I.16,,A-HE source only comprises Benedictus
 A,,26,Missa tibi soli,,,,,,,,,,I/1997,,,(n.s.),,,,,,,Masses 6,C12,11,A.I.13,,
-A,,27,Missa Sanctae Theresae / Andreae,,Wondratsch 620,"I,52",,B 113/4,B 39/573,M 412,,E VII 3 e,,,,,,,,,,D-OB MO 809,Masses 3,C14,23,A.I.7,,A-H lost
-A,,28,Missa Sancti Antonii,,,,III a,,,,,,,,Mus.Hs.19009,,,159,XVI C 66 | XVI C 62,,,PL-WRu 62505Muz.,Masses 12,C15,29,A.I.22,,CZ-Pkřiž lost
-A,,29,Missa,,Wondratsch 622,"I,51",,,,,,F XXIV/14,,,,,,,,,,D-OB MO 810,Masses 2,C16,14,A.I.3,,A-H lost
-A,,30,Missa Sancti Placidi / Offertoria,,Wondratsch 623,"I,108",,,,,,,,,,,,,,,,,Masses 4,C17,15,A.I.8,,A-H lost
-A,,31,Missa Sancti Mauri,,Wondratsch 624,,,,,,,,,,,,1323,,,,,,Masses 62,C18,16,A.I.14,,
-A,,32,Missa Sanctae Elisabethae,,Wondratsch 632,"II,109",,,B 39/572,M 456,,,,1092,,Fonds Doppler 231,1327,XXXV B 9,VIII E 246 | XLIII D 100,,,CZ-Pk A-I-R 1117 | CZ-Bm A 14652,Masses 35,C19,44,A.I.47,,A-H lost
-A,,33,Missa Sancti Ignatii,,Wondratsch 625,,,,,,,,,,,,,XXXV A 227,,,,PL-WRu 62504 Muz.,Masses 5,C20,9,A.I.11,,CZ-Pkřiž old: 169
-A,,34,Missa Sancti Eremberti,,Wondratsch 627,,,,,,,,,,,,1317,XXXV B 87,XVI C 65 | XLVI A 270,,,CZ-LIT 526,Masses 59,C21,46,A.I.48,,CZ-Pkřiž old: 158
-A,,35,Missa Vale,,,"II,107",,,,,,E VII 3 g,,,,,1326,155,,,,CZ-ME 285 | CZ-Pu 59 R 6210,Masses 31 | Masses 64,C22,59,A.I.43 | A.I.m,,A-H and CZ-Pkřiž lost
-A,,36,Missa Jucundare,,Wondratsch 633,"II,108",,,,,,,,,,,1319,XXXV B 18,XVI C 67,,,,Masses 16,C23,51,A.I.26,,A-H lost; CZ-Pkřiž old: 160
-A,,37,Missa Sancti Francisci,,Wondratsch 634,"II,135",,,,,,,,,,,,,,,,,Masses 11,C24,30,A.I.21,,A-H lost
-A,,38,Missa Sancti Engelberti,,,"II,140",,B 114/9,,,,,,,,,1328,XXXV A 106,XVI C 64 | XLVI A 269,,,CZ-LIT 525,Masses 27,C25,42,A.I.39,,A-H lost; CZ-Pkřiž old: 156
-A,,39,Missa Sancti Bertholdi / Bernardi,,,"I,185",,B 113/7,,,,,,,,,,,,,,,Masses 7,C26,8,A.I.15,,A-H lost
-A,,40,Missa Sanctae Andreae,,,"II,139",,,,,,,,,,(n.s.),,XXXV E 140,,,,,Masses 25,C27,32,A.I.37,,A-H lost; CZ-Pkřiž old: 1168
-A,,41,Missa Sanctae Elisabethae,,,,,,B 39/571,,,,,,,,1320,,,,,,Masses 52,D1,6,A.I.10,,
-A,,42,Missa,,Wondratsch 631,,,,,,,,,,,,,,,,,,Masses 21,D2,28,A.I.32,,
-A,,43,Missa,,Wondratsch 637,,,,,M 459,,,,,,,,,,,,,Masses 56,D3,N/A,A.I.31,,
-A,,44,Missa,,Wondratsch 635,,,,,,,,,,,,,,,,,,Masses 19,D4,54,A.I.29,,
-A,,45,Missa Sancti Ambrosi,,,"II,136",,,B 39/575,,,,,,,,,,,,,CZ-Bm A 14819,Masses 32,D5,41,A.I.44,,A-H presumably lost
-A,,46,Missa gratiastis,,,"II,111",,,C 11/678,,,,,,,,,,,,,,Masses 20,D14,55,A.I.30,,A-H lost
+A,,27,Missa Sanctae Theresae / Andreae,,Wondratsch 620,"I,52",,B 113/4,B 39/573,M 412,,E VII 3 e,,,,,,,,,,D-OB MO 809,Masses 3,C14,23,A.I.7,"@Riedel1979 [p. 102], @Sherman2001 [p. 47, 339]",A-H source lost
+A,,28,Missa Sancti Antonii,,,,III a,,,,,,,,Mus.Hs.19009,,,159,XVI C 66 | XVI C 62,,,PL-WRu 62505Muz.,Masses 12,C15,29,A.I.22,,CZ-Pkřiž source lost
+A,,29,Missa,,Wondratsch 622,"I,51",,,,,,F XXIV/14,,,,,,,,,,D-OB MO 810,Masses 2,C16,14,A.I.3,@Riedel1979 [p. 102],A-H source lost
+A,,30,Missa Sancti Placidi / Offertoria,,Wondratsch 623,"I,108",,,,,,,,,,,,,,,,,Masses 4,C17,15,A.I.8,@Riedel1979 [p. 102],A-H source lost
+A,,31,Missa Sancti Mauri,,Wondratsch 624,,,,,,,,,,,,1323,,,,,,Masses 62,C18,16,A.I.14,"@Riedel1979 [p. 102], @Stefan1985 [p. 247]",
+A,,32,Missa Sanctae Elisabethae,,Wondratsch 632,"II,109",,,B 39/572,M 456,,,,1092,,Fonds Doppler 231,1327,XXXV B 9,VIII E 246 | XLIII D 100,,,CZ-Pk A-I-R 1117 | CZ-Bm A 14652,Masses 35,C19,44,A.I.47,"@Mitterschiffthaler1979 [p. 236], @Riedel1979 [p. 103], @Sherman2001 [p. 47, 338f], @Stefan1985 [p. 250]",A-H source lost
+A,,33,Missa Sancti Ignatii,,Wondratsch 625,,,,,,,,,,,,,XXXV A 227,,,,PL-WRu 62504 Muz.,Masses 5,C20,9,A.I.11,@Riedel1979 [p. 102],CZ-Pkřiž old signature: 169
+A,,34,Missa Sancti Eremberti,,Wondratsch 627,,,,,,,,,,,,1317,XXXV B 87,XVI C 65 | XLVI A 270,,,CZ-LIT 526,Masses 59,C21,46,A.I.48,"@Riedel1979 [p. 103], @Stefan1985 [p. 241]",CZ-Pkřiž old signature: 158
+A,,35,Missa Vale,,,"II,107",,,,,,E VII 3 g,,,,,1326,155,,,,CZ-ME 285 | CZ-Pu 59 R 6210,Masses 31 | Masses 64,C22,59,A.I.43 | A.I.m,@Stefan1985 [p. 243],A-H and CZ-Pkřiž sources lost
+A,,36,Missa Jucundare,,Wondratsch 633,"II,108",,,,,,,,,,,1319,XXXV B 18,XVI C 67,,,,Masses 16,C23,51,A.I.26,"@Riedel1979 [p. 104], @Stefan1985 [p. 242]",A-H source lost; CZ-Pkřiž old signature: 160
+A,,37,Missa Sancti Francisci,,Wondratsch 634,"II,135",,,,,,,,,,,,,,,,,Masses 11,C24,30,A.I.21,@Riedel1979 [p. 104],A-H source lost
+A,,38,Missa Sancti Engelberti,,,"II,140",,B 114/9,,,,,,,,,1328,XXXV A 106,XVI C 64 | XLVI A 269,,,CZ-LIT 525,Masses 27,C25,42,A.I.39,@Stefan1985 [p. 249],A-H source lost; CZ-Pkřiž old signature: 156
+A,,39,Missa Sancti Bertholdi / Bernardi,,,"I,185",,B 113/7,,,,,,,,,,,,,,,Masses 7,C26,8,A.I.15,,A-H source lost
+A,,40,Missa Sanctae Andreae,,,"II,139",,,,,,,,,,(n.s.),,XXXV E 140,,,,,Masses 25,C27,32,A.I.37,,A-H source lost; CZ-Pkřiž old signature: 1168
+A,,41,Missa Sanctae Elisabethae,,,,,,B 39/571,,,,,,,,1320,,,,,,Masses 52,D1,6,A.I.10,@Stefan1985 [p. 245],
+A,,42,Missa,,Wondratsch 631,,,,,,,,,,,,,,,,,,Masses 21,D2,28,A.I.32,@Riedel1979 [p. 103],
+A,,43,Missa,,Wondratsch 637,,,,,M 459,,,,,,,,,,,,,Masses 56,D3,,A.I.31,@Riedel1979 [p. 104],
+A,,44,Missa,,Wondratsch 635,,,,,,,,,,,,,,,,,,Masses 19,D4,54,A.I.29,@Riedel1979 [p. 104],
+A,,45,Missa Sancti Ambrosi,,,"II,136",,,B 39/575,,,,,,,,,,,,,CZ-Bm A 14819,Masses 32,D5,41,A.I.44,,A-H source presumably lost
+A,,46,Missa gratiastis,,,"II,111",,,C 11/678,,,,,,,,,,,,,,Masses 20,D14,55,A.I.30,,A-H source lost
 A,,47,Missa,,,,,,B 39/577,,,,,,,,,,,,,,Masses 24,D17,38,A.I.35,,
 A,,48,"Credo, Sanctus, Benedictus, Agnus",,,,,,B 39/574,,,,,,,,,,,,,,Masses 44,D19,39,A.I.36,,
-A,,49,Missa,,,,,,,M 457,,,,,,,,,,,,,,deest,,deest,,
-A,,50,Missa,,,,,,,,,,,,,,,,,,,D-Po Tuma 1,,deest,,deest,,
-A,,51,Missa,,,,,,,,,,,,,,,,,,,D-Po Tuma 2,,deest,,deest,,
-A,,52,Kyrie et Gloria,,,,,,,,,,,,,,1312,,,,,,,deest,,deest,,
-A,,53,Kyrie et Gloria,,,,,,,,,,,,,,1316,,,,,,,deest,,deest,,
-A,,54,Missa Cantate Domino,,,,,,,,,,,,,,1318,,,,,,,deest,,deest,,
-A,,55,Missa de dono fortitudinis,,,,,,,,,,,,,,1321,,,,,,,deest,,deest,,
-A,,56,Missa de dono intellectus,,,,,,,,,,,,,,1322,,,,,,,deest,,deest,,
-A,,57,Missa de dono Scientiae,,,,,,,,,,,,,,1324,,,,,,,deest,,deest,,
-A,,58,Missa gaudii,,,,,,,,,,,,,,1325,,,,,,,deest,,deest,,
-A,,59,"Sanctus, Benedictus, Agnus Dei",,,,,,,,,,,,,,1331a | 1331b,,,,,,,deest,,deest,,
-A,,60,Missa,,,,,,,,,,,,,,,,XXVIII E 160,,,,,,,,,
-A,,61,Missa,,,,,,,,,,,,,,,,XXVIII E 161,,,,,,,,,
-A,,62,Missa,,,,,,,,,,,,,,,,XXVIII E 162,,,,,,,,,
-A,,63,Missa,,,,,,,,,,,,,,,,XXVIII E 163,,,,,,,,,
-A,,L1,Missa Sanctae Elisabethae,,,"I,137",,,,,,,,,,,,,,,,,Masses 57,D6,12,A.I.a,,A-H lost
-A,,L2,Missa,,,"II,142",,,,,,,,,,,,,,,,,Masses 40,D7,22,A.I.e,,A-H lost
-A,,L3,Missa oblata,,,"I,115",,,,,,,,,,,,,,,,,Masses 49,D8,18,A.I.c,,A-H lost
-A,,L4,Missa,,,"I,136",,,,,,,,,,,,,,,,,Masses 41,D9,24,A.I.f,,A-H lost
-A,,L5,Missa Sancti Dominic,,,"II,134",,,,,,,,,,,,,,,,,Masses 58,D10,49,A.I.l,,A-H lost
-A,,L6,Missa,,,"I,135",,,,,,,,,,,,,,,,,Masses 42,D11,33,A.I.g,,A-H lost
-A,,L7,Missa desolata,,,"I,123",,,,,,,,,,,,,,,,,Masses 46,D12,34,A.I.h,,A-H lost
-A,,L8,Missa solemnis,,,"I,134",,,,,,,,,,,,,,,,,Masses 55,D13,36,A.I.j,,A-H lost
-A,,L9,Missa Sancti Petri Piperacensis,,,"II,15",,,,,,,,,,,,,,,,,Masses 63,D15,45,A.I.k,,A-H lost
-A,,L10,Missa matutina,,,"II,110",,,,,,,,,,,,,,,,,Masses 48,D16,62,A.I.n,,A-H lost
-A,,L11,Missa,,,,,,,,,,,,,,,163,,,,,Masses 36,D18,N/A,A.I.49,,single source CZ-Pkřiž presumably lost
-A,,S1,Missa Sancti Joannis / pro Dominica Quinquagesima / Cantate,,Wondratsch 628,"II,104",VIII a 5 [600090621],(n.s.),,,,,,,,,,,,,,,Masses 10,E1,47,A.I.20,,A-H lost
-A,,S2,Missa,,,,,,,,,,I/11573,,Mus.Hs.17333,,,,,,,,Masses 14,E2,31,A.I.24,,A-Wn attributed to Timmer
-A,,S3,Missa,,,,,,,,,,I/11558,,,,,,,,,,Masses 23,E3,37,A.I.34,,
-A,,S4,Missa,,Wondratsch 639,,,,,,I/41,,,,,,,,,,,,Masses 29,E4,43,A.I.41,,A-M attributed to Zechner
-A,,S5,Missa,,Wondratsch 640,"II,151",,,,,I/44,,,,,,,,,,,,Masses 9,E5,48,A.I.19,,
-A,,S6,Missa Sicut Lilium,,,"I,107 | I,67",,,,,,,,,,(n.s.),,,,,,,Masses 54,E6,17,A.I.b,,"A-H I/107 lost, other two sources attributed to Öttl"
-A,,S7,Missa,,,,,,,,,,,,,,,,,,,A-Wps 43,,,,deest,,in RISM 600090487 by Zechner
-B,,1,Messa della morte,,,(n.s.),,,D 41/11,,,,,,Mus.Hs.16934 | HK.793,,,,,,Mus.2968-D-504,CZ-Bu RKPMus-0538.954,Masses 45,C13,N/A,A.I.52,,HK.793* wrongly attributed to Reutter
-B,,2,Requiem,,,,,B 571/1,,,,,,,,,,,,,,,Masses 66,A1,N/A,A.I.53,,
+A,,49,Missa,,,,,,,M 457,,,,,,,,,,,,,,,,,"@Sherman2001 [p. 47, 339]",
+A,,50,Missa,,,,,,,,,,,,,,,,,,,D-Po Tuma 1,,,,,@Haberkamp1993 [p. 201],
+A,,51,Missa,,,,,,,,,,,,,,,,,,,D-Po Tuma 2,,,,,@Haberkamp1993 [p. 201],
+A,,52,Kyrie et Gloria,,,,,,,,,,,,,,1312,,,,,,,,,,@Stefan1985 [p. 240],
+A,,53,Kyrie et Gloria,,,,,,,,,,,,,,1316,,,,,,,,,,@Stefan1985 [p. 240],
+A,,54,Missa Cantate Domino,,,,,,,,,,,,,,1318,,,,,,,,,,@Stefan1985 [p. 243],
+A,,55,Missa de dono fortitudinis,,,,,,,,,,,,,,1321,,,,,,,,,,@Stefan1985 [p. 246],
+A,,56,Missa de dono Scientiae,,,,,,,,,,,,,,1324,,,,,,,,,,@Stefan1985 [p. 248],
+A,,57,Missa gaudii,,,,,,,,,,,,,,1325,,,,,,,,,,@Stefan1985 [p. 244],
+A,,58,"Sanctus, Benedictus, Agnus Dei",,,,,,,,,,,,,,1331a | 1331b,,,,,,,,,,@Stefan1985 [p. 251f],
+A,,59,Missa,,,,,,,,,,,,,,,,XXVIII E 160,,,,,,,,,
+A,,60,Missa,,,,,,,,,,,,,,,,XXVIII E 161,,,,,,,,,
+A,,61,Missa,,,,,,,,,,,,,,,,XXVIII E 162,,,,,,,,,
+A,,62,Missa,,,,,,,,,,,,,,,,XXVIII E 163,,,,,,,,,
+A,,L1,Missa Sanctae Elisabethae,,,"I,137",,,,,,,,,,,,,,,,,Masses 57,D6,12,A.I.a,,
+A,,L2,Missa,,,"II,142",,,,,,,,,,,,,,,,,Masses 40,D7,22,A.I.e,,
+A,,L3,Missa oblata,,,"I,115",,,,,,,,,,,,,,,,,Masses 49,D8,18,A.I.c,,
+A,,L4,Missa,,,"I,136",,,,,,,,,,,,,,,,,Masses 41,D9,24,A.I.f,,
+A,,L5,Missa Sancti Dominic,,,"II,134",,,,,,,,,,,,,,,,,Masses 58,D10,49,A.I.l,,
+A,,L6,Missa,,,"I,135",,,,,,,,,,,,,,,,,Masses 42,D11,33,A.I.g,,
+A,,L7,Missa desolata,,,"I,123",,,,,,,,,,,,,,,,,Masses 46,D12,34,A.I.h,,
+A,,L8,Missa solemnis,,,"I,134",,,,,,,,,,,,,,,,,Masses 55,D13,36,A.I.j,,
+A,,L9,Missa Sancti Petri Piperacensis,,,"II,15",,,,,,,,,,,,,,,,,Masses 63,D15,45,A.I.k,,
+A,,L10,Missa matutina,,,"II,110",,,,,,,,,,,,,,,,,Masses 48,D16,62,A.I.n,,
+A,,L11,Missa,,,,,,,,,,,,,,,163,,,,,Masses 36,D18,,A.I.49,,
+A,,S1,Missa Sancti Joannis / pro Dominica Quinquagesima / Cantate,,Wondratsch 628,"II,104",VIII a 5 [600090621],(n.s.),,,,,,,,,,,,,,,Masses 10,E1,47,A.I.20,@Riedel1979 [p. 103],A-H source lost
+A,,S2,Missa,,,,,,,,,,I/11573,,Mus.Hs.17333,,,,,,,,Masses 14,E2,31,A.I.24,,A-Wn source attributed to Timmer
+A,,S3,Missa,,,,,,,,,,I/11558,,,,,,,,,,Masses 23,E3,37,A.I.34,,A-Wn source attributed to Timmer
+A,,S4,Missa,,Wondratsch 639,,,,,,I/41,,,,,,,,,,,,Masses 29,E4,43,A.I.41,@Riedel1979 [p. 104],A-M source attributed to Zechner
+A,,S5,Missa,,Wondratsch 640,"II,151",,,,,I/44,,,,,,,,,,,,Masses 9,E5,48,A.I.19,@Riedel1979 [p. 105],A-H and A-M sources attributed to Zechner
+A,,S6,Missa Sicut Lilium,,,"I,107 | I,76",,,,,,,,,,,,,,,,,Masses 54,E6,17,A.I.b,@Opatrny2012 [p.185ff],"A-H source I,107 lost, other source attributed to Öttl (thematic catalogue no. A/I/26)"
+A,,S7,Missa,,,,VIII a 6,,,,,,,,,,,,,,,A-Wps 43,,,,,,A-HE source attributed to Zechner
+B,,1,Messa della morte,,,(n.s.),,,D 41/11,,,,,,Mus.Hs.16934 | HK.793,,,,,,Mus.2968-D-504,CZ-Bu RKPMus-0538.954,Masses 45,C13,,A.I.52,,HK.793* wrongly attributed to Reutter
+B,,2,Requiem,,,,,B 571/1,,,,,,,,,,,,,,,Masses 66,A1,,A.I.53,,
 C,1,1,Alleluia,,,,,(n.s.),,,,,,,,,,,,,,,Graduals 1,,,A.II.1,,
 C,1,2,Justus ut palma,,,,,E 42,,,,,I/1648/1,,,,,,,,,,Graduals 2,,,A.II.2,,
 C,2,1,Pange lingua,,,,,,,,,,,,Mus.Hs.15686,,,,,,,,Hymns 8,,,A.V.1,,
@@ -90,18 +89,18 @@ C,2,3,Invietus heros numinis,,,,,,,,,,,,Mus.Hs.15682,,,,,,,,Hymns 2,,,A.V.3,,
 C,2,4,Iam fasces lictor ferat,,,,,,,,,,,,Mus.Hs.15683,,,,,,,,Hymns 3,,,A.V.4,,
 C,2,5,Iam sol recedit igneus,,,,,,,,,,,,Mus.Hs.15684,,,,,,,,Hymns 4,,,A.V.5,,
 C,2,6,Te lucis ante terminum,,,,,,,,,,,,Mus.Hs.15772,,,,,"Mus.ms.autogr. Salieri, A. 4 (5) | Mus.ms.autogr. Tuma, F. 2 M",,,Hymns 1,,,A.V.6,,
-C,2,7,Regis superni nuntia,,,,,,,525,,,,,Mus.Hs.15681,,,,,,,,Hymns 7,,,A.V.7,,
+C,2,7,Regis superni nuntia,,,,,,,525,,,,,Mus.Hs.15681,,,,,,,,Hymns 7,,,A.V.7,@Sherman2001 [p. 111],
 C,2,8,Placare Christi servulis,,,,,,,,,,,,Mus.Hs.15685,,,,,,,,Hymns 6,,,A.V.8,,
 C,2,9,Pange lingua,,,,,,,,,,,,,,,,XLVII B 54,,,,,,,,,
 C,3,1,O altitudo divitiarum,,,,,,,,,,,,Mus.Hs.15716,,,,,,,,Motets 4,,,A.IV.1,,
 C,3,2,Qui charitate accensus,,,,,,,,,,,,Mus.Hs.15717,,,,,,,,Motets 19,,,A.IV.2,,
-C,3,3,Succurre roginates,,Wondratsch 1636,,,,,,,,,,,,,,,,,,Motets 1,,,A.IV.3,,
+C,3,3,Succurre roginates,,Wondratsch 1636,,,,,,,,,,,,,,,,,,Motets 1,,,A.IV.3,@Riedel1979 [p. 257],
 C,3,4,O magnum mysterium,,,,,,,,,,,,Mus.Hs.15720,,,,,,,,Motets 11,,,A.IV.4,,
 C,3,5,Domine in virtute tua,,,,,,,,,,,,Mus.Hs.15706,,,,,,,,Motets 13,,,A.IV.5,,
 C,3,6,Bonum est confiteri,,,,,,,,,,,,Mus.Hs.15705,,,,,,,,Motets 12,,,A.IV.6,,
 C,3,7,"O, quam suavis est",,,,,,,,,,,,Mus.Hs.15714,,,,,,,,Motets 5,,,A.IV.7,,
 C,3,8,Vilescit mihi mundus,,,,,,,,,,,,Mus.Hs.15702,,,,,,,,Motets 20,,,A.IV.8,,
-C,3,9,Per labra nectar bibitur,,Wondratsch 1637,,,,,,,,,,Mus.Hs.15709,,,,,,,,Motets 15,,,A.IV.9,,
+C,3,9,Per labra nectar bibitur,,Wondratsch 1637,,,,,,,,,,Mus.Hs.15709,,,,,,,,Motets 15,,,A.IV.9,@Riedel1979 [p. 257],
 C,3,10,Firmamentum et refugium,,,,,,,,,,,,Mus.Hs.15710,,,,,,,,Motets 18,,,A.IV.10,,
 C,3,11,Adeste animae,,,,,,,,,,,,Mus.Hs.15715,,,,,,,,Motets 6,,,A.IV.11,,
 C,3,12,Laudes Mariae resonans,,,,,,,,,,,,Mus.Hs.15719,,,,,2767 (?),,CZ-Bm A 14651,Motets 10,,,A.IV.12,,
@@ -113,20 +112,21 @@ C,3,17,Audite insulae,,,,,,,,,,,,Mus.Hs.15718,,,,,,,,Motets 2,,,A.IV.17,,
 C,3,18,Venite ad me,,,,,,,,,,,,Mus.Hs.15712,,,,,,,,Motets 8,,,A.IV.18,,
 C,3,19,Maria gustum sentio,,,,,,,,,,,,Mus.Hs.15708,,,,,,,,Motets 16,,,A.IV.19,,
 C,3,20,Mulier quae erat,,,,,,,,,,,,Mus.Hs.15713,,,,,,,,Motets 17,,,A.IV.20,,
-C,3,21,Improperium exspectavit,,,,,,,,,,,,,,,,XVI C 68 | XLVI A 338 (2) | XLVI A 273,,,CZ-LIT 168,,,,deest,,
-C,3,22,Audivi vocem de caelo,,,,,,,,,,,,,,1330,,,,,,,,,deest,,
+C,3,21,Improperium exspectavit,,,,,,,,,,,,,,,,XVI C 68 | XLVI A 338 (2) | XLVI A 273,,,CZ-LIT 168,,,,,,
+C,3,22,Audivi vocem de caelo,,,,,,,,,,,,,,1330,,,,,,,,,,@Stefan1985 [p. 251],
 C,4,1,Confitebor Domino,,,,,,,,,,I/1648/2,,,,,,,,,,Offertories 1,,,A.II.3,,
 C,4,2,Benedictus,,,,,,,,,,,,Mus.Hs.15721,,,,,,,,Offertories 2,,,A.II.4,,
 C,4,3,Offertorium,,,,,(n.s.),,,,,,,,,,,,,,,Offertories 3,,,A.II.5,,
-C,4,4,Te splendor et virtus,,,,,,,,,,,,,,,,,,,H-PH Mus.sacr.ant. T 2,,,,deest,,
-C,4,5,Benedictus,,,,,,,,,,,,,,,,XVI C 71 | X E 234 | XLVI A 274,,,CZ-Pnm XLVI B 212 | CZ-Pu 59 R 1640 [551003278],,,,deest,,
-C,4,6,Perfice gressus meos,,,,,,,,,,,,,,,,X E 235 | XVI C 69 | XLVI A 268,,,CZ-Pu 59 R 1640 [551003277],,,,deest,,
+C,4,4,Te splendor et virtus,,,,,,,,,,,,,,,,,,,H-PH Mus.sacr.ant. T 2,,,,,,
+C,4,5,Benedictus,,,,,,,,,,,,,,,,XVI C 71 | X E 234 | XLVI A 274,,,CZ-Pnm XLVI B 212 | CZ-Pu 59 R 1640 [551003278],,,,,,
+C,4,6,Perfice gressus meos,,,,,,,,,,,,,,,,X E 235 | XVI C 69 | XLVI A 268,,,CZ-Pu 59 R 1640 [551003277],,,,,,
 C,4,7,Confitebor,,,,,,,,,,,,,,,,XVI C 70 | XLVI A 338 (1),,,,,,,,,
-D,1,1,Vesper (Dixit Dominus),,Wondratsch 2117,,,B 351/1a,,,,,,,Mus.Hs.15726,,1595,XXXV E 138,XX D 560,,,,Vespers 24,,,A.III.8,,CZ-Pkřiž old: 1034
-D,1,2,Vesper (Dixit Dominus),,Wondratsch 2118,,,B 351/1b,E 26/172,582,,,,,,,,,,,,D-OB MO 815,Vespers 27,,,A.III.9,,
+D,1,1,Vesper (Dixit Dominus),,Wondratsch 2117,,,B 351/1a,,,,,,,Mus.Hs.15726,,1595,XXXV E 138,XX D 560,,,,Vespers 24,,,A.III.8,"@Riedel1979 [p. 332], @Stefan1985 [p. 377]",CZ-Pkřiž old signature: 1034
+D,1,2,Vesper (Dixit Dominus),,Wondratsch 2118,,,B 351/1b,E 26/172,582,,,,,,,,,,,,D-OB MO 815,Vespers 27,,,A.III.9,@Riedel1979 [p. 332],
 D,1,3,Vesper (Dixit Dominus),,,,,,,583,,,,,Mus.Hs.15727,,,,,,,"H-Gk AMC, T. 9.",Vespers 25,,,A.III.12,,
-D,1,4,Vesper (Dixit Dominus),,,,,,E 12/38,,,,,,Mus.Hs.15728,,,,,,Mus.2968-D-508,,Vespers 26,,,A.III.13,,"A-KR E 11,31 attributed to Ehrenhardt"
+D,1,4,Vesper (Dixit Dominus),,,,,,E 11/31 | E 12/38,,,,,,Mus.Hs.15728,,,,,,Mus.2968-D-508,,Vespers 26,,,A.III.13,,A-KR E 11/31 attributed to Ehrenhardt
 D,1,5,Vesper (Domine probasti me),,,,,B 351/1d,,,,,,,,,,,,,,,Vespers 28,,,A.III.14,,
+D,1,L1,Vesper,(none known),,,,,,,,,,,,,,,,,,PL-CZ II-364,,,,,,only title page available
 D,2,1,Benedictus,,,,,,,,,,I/1693,,,,,,,,,,Vespers 1,,,A.III.1,,
 D,2,2,Confitebor,,,,,,,,,,,,Mus.Hs.15677,,,,,,,,Vespers 2,,,A.III.2,,
 D,2,3,Confitebor,,,,VIII b 3 [600090617],,,,,,,,,,,,,,,,Vespers 4,,,A.III.3,,
@@ -134,26 +134,26 @@ D,2,4,Confitebor,,,,,,,,,,,,Mus.Hs.15678,,,,,,,,Vespers 3,,,A.III.4,,
 D,2,5,Cum invocarem,,,,,,,,,,(n.s.),,Mus.Hs.19194,,,,,,,,Vespers 5,,,A.III.5,,
 D,2,6,De profundis,,,,,,,,,,,,Mus.Hs.15724/1,,,,,,,,Vespers 7,,,A.III.6,,
 D,2,7,De profundis,,,,,,,,,,,,Mus.Hs.15723,,,,,,Mus.2968-E-500,,Vespers 6,,,A.III.7,,
-D,2,8,Dixit Dominus,,Wondratsch 2119,,,,,,,,,,Mus.Hs.15680,,,,,,,,Vespers 9,,,A.III.10,,
+D,2,8,Dixit Dominus,,Wondratsch 2119,,,,,,,,,,Mus.Hs.15680,,,,,,,,Vespers 9,,,A.III.10,@Riedel1979 [p. 332],
 D,2,9,Dixit Dominus,,,,,,,,,,,,Mus.Hs.15679,,,,,,,,Vespers 8,,,A.III.11,,
 D,2,10,Laetatus sum,,,,,,,,,,,,Mus.Hs.15688/2,,,,,,,,Vespers 10,,,A.III.15,,
 D,2,11,Lauda Jerusalem,,,,,,,,,,,,Mus.Hs.15687,,,,,,,,Vespers 11,,,A.III.16,,
 D,2,12,Laudate Deum,,,,,B 351/1c,,,,,,,,,,,,,,,Vespers 29,,,A.III.17,,
-D,2,13,Laudate pueri,,Wondratsch 2143,,,,,,,,,,Mus.Hs.15688/1,,,,,,,,Vespers 12,,,A.III.18,,
-D,2,14,Laudate pueri,,,,,,,,,,,,Mus.Hs.15689,,1313,,,,,,Vespers 13,,,A.III.19,,
+D,2,13,Laudate pueri,,Wondratsch 2143,,,,,,,,,,Mus.Hs.15688/1,,,,,,,,Vespers 12,,,A.III.18,@Riedel1979 [p. 335],
+D,2,14,Laudate pueri,,,,,,,,,,,,Mus.Hs.15689,,1313,,,,,,Vespers 13,,,A.III.19,@Stefan1985 [p. 241],
 D,2,15,Memento,,,,,,,,,,,,Mus.Hs.15699,,,,,,,,Vespers 21,,,A.III.20,,
 D,2,16,Memento,,,,,,,,,,,,Mus.Hs.15700 | Mus.Hs.15724/2,,,,,,,,Vespers 22,,,A.III.21,,
-D,2,17,Miserere,,Wondratsch 2587,,,,,,,,,,,,,,,Mus.ms. 22104/2 | Mus.ms. 30284,,D-OB MO 808,Vespers 14,,,A.III.22,,
+D,2,17,Miserere,,Wondratsch 2587,,,,,,,,,,,,,,,Mus.ms. 22104/2 | Mus.ms. 30284,,D-OB MO 808,Vespers 14,,,A.III.22,@Riedel1979 [p. 410],
 D,2,18,Miserere,,,,,,,,,,I/1693,,,,,,,,,,Vespers 15,,,A.III.23,,
-D,2,19,Miserere,,Wondratsch 2589,,,,,,,,,,,,,,,,,,Vespers 16,,,A.III.24,,
-D,2,20,Miserere,,,,,,F 21/12,,III/56,,I/1709,,,,,XXXV E 156,,,,,Vespers 17,,,A.III.25,,CZ-Pkřiž old: 2561
-D,2,21,Miserere,,,,,,,,III/55,,,,,,1314,XXXV E 157,XVI C 73,,,,Vespers 18,,,A.III.26,,CZ-Pkřiž old: 2582
-D,2,22,Miserere,,Wondratsch 2588,,,,,,,,,,SA.67.H.4,,,,,Mus.ms. 22104 | Mus.ms. 22104/1,,D-MÜs SANT Hs 4195,Vespers 19,,,A.III.27,,
-D,2,23,Miserere,,Wondratsch 2590,,,,,,,,,,Mus.Hs.15701,,,,,,,"H-Gk AMC, T. 7. | D-OB MO 807",Vespers 20,,,A.III.28,,
-D,2,24,Miserere,(none known),,,,,,,,,,,,,,,,,,I-Bc KK.239 ,-,,,A.III.a,,probably same as D.26
-D,2,25,Miserere,,,,,,,,,,,,,,1311 | 1315,,,,,,,,,deest,,
+D,2,19,Miserere,,Wondratsch 2589,,,,,,,,,,,,,,,,,,Vespers 16,,,A.III.24,@Riedel1979 [p. 410],
+D,2,20,Miserere,,,,,,F 21/12,,III/56,,I/1709,,,,,XXXV E 156,,,,,Vespers 17,,,A.III.25,,CZ-Pkřiž old signature: 2561
+D,2,21,Miserere,,,,,,,,III/55,,,,,,1314,XXXV E 157,XVI C 73,,,,Vespers 18,,,A.III.26,@Stefan1985 [p. 241],CZ-Pkřiž old signature: 2582
+D,2,22,Miserere,,Wondratsch 2588,,,,,,,,,,SA.67.H.4,,,,,Mus.ms. 22104 | Mus.ms. 22104/1,,D-MÜs SANT Hs 4195 | A-Ee N1447 | A-Ee N1448,Vespers 19,,,A.III.27,"@Kiesewetter1847 [p. 84], @Riedel1979 [p. 410]",A-Ee sources not reviewed
+D,2,23,Miserere,,Wondratsch 2590,,,,,,,,,,Mus.Hs.15701,,,,,,,"H-Gk AMC, T. 7. | D-OB MO 807",Vespers 20,,,A.III.28,@Riedel1979 [p. 410],
+D,2,24,Miserere,(none known),,,,,,,,,,,,,,,,,,I-Bc KK.239 ,-,,,A.III.a,,
+D,2,25,Miserere,,,,,,,,,,,,,,1311 | 1315,,,,,,,,,,@Stefan1985 [p. 240f],
 D,2,26,Nisi Dominus,,,,,,,,,,,,Mus.Hs.15722,,,,,,,,Vespers 23,,,A.III.29,,
-D,3,1,Magnificat,,,,,,,,,,,,Mus.Hs.15697,,,XXXV E 139,,,,,Magnificats 1,,,A.X.1,,CZ-Pkřiž old: 1042
+D,3,1,Magnificat,,,,,,,,,,,,Mus.Hs.15697,,,XXXV E 139,,,,,Magnificats 1,,,A.X.1,,CZ-Pkřiž old signature: 1042
 D,3,2,Magnificat,,,,,,,,,,,,Mus.Hs.15698,,,,,,,,Magnificats 2,,,A.X.2,,
 D,3,3,Magnificat,,,,VIII b 3 [600090620],,,,,,,,,,,,,,,,Magnificats 3,,,A.X.3,,
 E,,1,In monte oliveti,,,,,(n.s.),,,,,I/1693,,,,,,,,,,Responsories 1,,,A.VI.1a,,
@@ -185,12 +185,12 @@ E,,26,Aestimatus sum,,,,,,,,,,I/1693,,,,,,,,,,Responsories 1,,,A.VI.1c,,
 E,,27,Sepulto Domino,,,,,,,,,,I/1693,,,,,,,,,,Responsories 1,,,A.VI.1c,,
 E,,28,Tenebrae factae sunt,,,,,B 582/5,,,,,,,,,,,,,,,Responsories 2,,,A.VI.2,,
 E,,29,Tenebrae factae sunt,,,,,B 582/6,,,,,,,,,,,,,,,Responsories 3,,,A.VI.3,,
-E,,30,Tradiderunt me,,,,,,,,,,,,,,,XXXV E 137 [550266971],XVI C 72 | XLVI A 267,,,,,,,deest,,
+E,,30,Tradiderunt me,,,,,,,,,,,,,,,XXXV E 137 [550266971],XVI C 72 | XLVI A 267,,,,,,,,,
 F,1,1,Alma Redemptoris mater,,,,,,,,,,,,Mus.Hs.15667,,,,,,,,Antiphons 1,,,A.VII.1,,
 F,1,2,Alma Redemptoris mater,,,,,,,,,,,,Mus.Hs.15668,,,,,,,,Antiphons 2,,,A.VII.2,,
 F,1,3,Alma Redemptoris mater,,,,,,,,,,,,Mus.Hs.15669,,,,,,,,Antiphons 3,,,A.VII.3,,
 F,1,4,Alma Redemptoris mater,,,,,,,,,,,,Mus.Hs.15670,,,,,,,,Antiphons 4,,,A.VII.4,,
-F,1,5,Alma Redemptoris mater,,,,,,,,,,,,,,,,,,,CZ-LIT 748,,,,deest,,
+F,1,5,Alma Redemptoris mater,,,,,,,,,,,,,,,,,,,CZ-LIT 748,,,,,,
 F,1,6,Alma Redemptoris mater,,,,,,,,,,,,,,,,XXVIII E 159,,,,,,,,,
 F,2,1,Ave Regina coelorum,,,,,,,,,,I/17564,,Mus.Hs.15774,,,,,,,,Antiphons 12,,,A.VII.5,,
 F,2,2,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15675/2,,,,,,,,Antiphons 10,,,A.VII.6,,
@@ -200,41 +200,42 @@ F,2,5,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15674,,,,,,,,Antiphons 8,,,A.VII.9,,
 F,2,6,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15676,,,,,,,,Antiphons 11,,,A.VII.10,,
 F,2,7,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15675/1,,,,,,,,Antiphons 9,,,A.VII.11,,
 F,2,8,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15673,,,,,,,,Antiphons 7,,,A.VII.12,,
-F,3,1,Salve Regina,,,,,,F 5/128,,,,,,,,,XXXV E 142,,,,"PL-KŁwnm Am-203, 15 | CZ-LIT 671",Antiphons 13,,,A.VII.13,,CZ-Pkřiž old: 2264
-F,3,2,Salve Regina,,,,,,,,,,,,,,,,,,,A-Ed K 8,-,,,deest,,
+F,3,1,Salve Regina,,,,,,F 5/128,,,,,,,,,XXXV E 142,,,,"PL-KŁwnm Am-203, 15 | CZ-LIT 671",Antiphons 13,,,A.VII.13,,CZ-Pkřiž old signature: 2264
+F,3,2,Salve Regina,,,,,,,,,,,,,,,,,,,A-Ed K 8,-,,,,,
 G,,1,Stabat mater,,,,,,,,,,,,Mus.Hs.15725,,,,,,Mus.2968-D-509,,Sequences 1,,,A.VIII.1,,
-G,,2,Stabat mater,,Wondratsch 1786,,,,,,,,,,SA.67.H.5,,,,,Mus.ms. 22100 | Mus.ms. 22100/1 | Mus.ms. 30180,Mus.2968-D-5,US-Bp M.222.47 (2) | US-R ML96.C127 | RUS-Mk XI-433 | H-PH Mus.sacr.ant. T 1 | D-MÜs SANT Hs 4196 | D-MHjk ohne Signatur | D-LEm PM 7189,Sequences 2,,,A.VIII.2,,
-G,,3,Stabat mater,,,,,,,,,,I/1718,,,,1333,,,,Mus.2968-D-514,D-OB MO 814,Sequences 3,,,A.VIII.3,,
-G,,4,Stabat mater,,,,,,,,,,,,,,,XXXV E 137 [550266970],XVI C 74 | XLVI A 266,,,,Sequences 4,,,A.VIII.4,,CZ-Pkřiž old: 787
-G,,5,Stabat mater,,Wondratsch 1785,,,,,,,,,,,,,,,,,,Sequences 5,,,A.VIII.5,,
-G,,6,Stabat mater,,,,,,,,,R 34,,,,,,,,,,,,,,deest,,
-G,,7,Stabat mater,,,,,,,,,,,,,,,,,,,D-OB MO 813,,,,deest,,
-G,,8,Stabat mater,,,,,,,,,,,,,,1332,,,,,,,,,deest,,
+G,,2,Stabat mater,,Wondratsch 1786,,,,,,,,,,SA.67.H.5,,,,,Mus.ms. 22100 | Mus.ms. 22100/1 | Mus.ms. 30180,Mus.2968-D-5,US-Bp M.222.47 (2) | US-R ML96.C127 | RUS-Mk XI-433 | H-PH Mus.sacr.ant. T 1 | D-MÜs SANT Hs 4196 | D-MHjk ohne Signatur | D-LEm PM 7189,Sequences 2,,,A.VIII.2,"@Kiesewetter1847 [p. 84], @Riedel1979 [p. 282]",
+G,,3,Stabat mater,,,,,,,,,,I/1718,,,,1333,,,,Mus.2968-D-514,D-OB MO 814,Sequences 3,,,A.VIII.3,@Stefan1985 [p. 252],
+G,,4,Stabat mater,,,,,,,,,,,,,,,XXXV E 137 [550266970],XVI C 74 | XLVI A 266,,,,Sequences 4,,,A.VIII.4,,CZ-Pkřiž old signature: 787
+G,,5,Stabat mater,,Wondratsch 1785,,,,,,,,,,,,,,,,,,Sequences 5,,,A.VIII.5,@Riedel1979 [p. 282],
+G,,6,Stabat mater,,,,,,,,,R 34,,,,,,,,,,,,,,,,
+G,,7,Stabat mater,,,,,,,,,,,,,,,,,,,D-OB MO 813,,,,,,
+G,,8,Stabat mater,,,,,,,,,,,,,,1332,,,,,,,,,,@Stefan1985 [p. 252],
 G,,9,Veni sancte,,,,,B 538/1,,,,,,,,,,,,,,,Sequences 6,,,A.VIII.6,,
-H,,1,Litaniae lauretanae,,,,,,,,,,,1096,,,,XXXV E 150,,,,CZ-Bm A 3812,Litanies 7,,,A.IX.1,,CZ-Pkřiž old: 2308
-H,,2,Litaniae lauretanae,,,,,,,,,,,,,,,XXXV E 158 | XXXV E 155,,,,,Litanies 10,,,A.IX.2,,CZ-Pkřiž old: 2332 and 932
-H,,3,Litaniae lauretanae,,,,,,,,,,,,,,,XXXV E 147,,,,,Litanies 12,,,A.IX.3,,CZ-Pkřiž old: 2305
-H,,4,Litaniae lauretanae,,,,,,,,,,,,,,,XXXV E 151,,,,,Litanies 14,,,A.IX.4,,CZ-Pkřiž old: 2309
-H,,5,Litaniae lauretanae,,,,,,,,,,,,,,,XXXV E 149,,,,,Litanies 13,,,A.IX.5,,CZ-Pkřiž old: 2307
+H,,1,Litaniae lauretanae,,,,,,,,,,,1096,,,,XXXV E 150,,,,CZ-Bm A 3812,Litanies 7,,,A.IX.1,@Mitterschiffthaler1979 [p. 236],CZ-Pkřiž old signature: 2308
+H,,2,Litaniae lauretanae,,,,,,,,,,,,,,,XXXV E 158 | XXXV E 155,,,,,Litanies 10,,,A.IX.2,,CZ-Pkřiž old signatures: 2332 and 932
+H,,3,Litaniae lauretanae,,,,,,,,,,,,,,,XXXV E 147,,,,,Litanies 12,,,A.IX.3,,CZ-Pkřiž old signature: 2305
+H,,4,Litaniae lauretanae,,,,,,,,,,,,,,,XXXV E 151,,,,,Litanies 14,,,A.IX.4,,CZ-Pkřiž old signature: 2309
+H,,5,Litaniae lauretanae,,,,,,,,,,,,,,,XXXV E 149,,,,,Litanies 13,,,A.IX.5,,CZ-Pkřiž old signature: 2307
 H,,6,Litaniae lauretanae,,,,,,,,,,,,Mus.Hs.15696,,,,,,,,Litanies 9,,,A.IX.6,,
 H,,7,Litaniae lauretanae,,,,,,,,,,,,,,,,,,,A-MT 52 L.,Litanies 15,,,A.IX.7,,
-H,,8,Litaniae lauretanae,,,,,,,,,,,1097,,,,XXXV E 154,,,,CZ-Bm A 3816,Litanies 18,,,A.IX.8,,CZ-Pkřiž old: 2312
-H,,9,Litaniae lauretanae,,Wondratsch 1900,,,,,,,,,,Mus.Hs.15695,,,XXXV E 153,,,,,Litanies 1,,,A.IX.9,,CZ-Pkřiž old: 2310
+H,,8,Litaniae lauretanae,,,,,,,,,,,1097,,,,XXXV E 154,,,,CZ-Bm A 3816,Litanies 18,,,A.IX.8,@Mitterschiffthaler1979 [p. 236],CZ-Pkřiž old signature: 2312
+H,,9,Litaniae lauretanae,,Wondratsch 1900,,,,,,,,,,Mus.Hs.15695,,,XXXV E 153,,,,,Litanies 1,,,A.IX.9,@Riedel1979 [p. 299],CZ-Pkřiž old signature: 2310
 H,,10,Litaniae lauretanae,,,,,,E 48/130,,,,,,,,,,,,,,Litanies 5,,,A.IX.10,,
-H,,11,Litaniae lauretanae,,Wondratsch 1899,,,,,,,,,,Mus.Hs.15692,,,XXXV E 143,,,,D-OB MO 806,Litanies 16,,,A.IX.11,,CZ-Pkřiž old: 2300
+H,,11,Litaniae lauretanae,,Wondratsch 1899,,,,,,,,,,Mus.Hs.15692,,,XXXV E 143,,,,D-OB MO 806,Litanies 16,,,A.IX.11,@Riedel1979 [p. 299],CZ-Pkřiž old signature: 2300
 H,,12,Litaniae lauretanae,,,,,,E 48/131 [600178678] | E 48/131 [600178679],,,,,,,,,,,,,,Litanies 4,,,A.IX.12,,
-H,,13,Litaniae lauretanae,,,,,,,,,,,,,,,XXXV E 145,,,,,Litanies 11,,,A.IX.13,,CZ-Pkřiž old: 2302
-H,,14,Litaniae lauretanae,,,,,,,,,,,,Mus.Hs.15693,,,XXXVI B 193,,,,,Litanies 17,,,A.IX.14,,in CZ-Pkřiž by Reichenauer (old: 2293)
-H,,15,Litaniae lauretanae,,Wondratsch 1898,,III b 3 [600090619],,,,,,,,,,,XXXV E 152,,,,,Litanies 19,,,A.IX.15,,CZ-Pkřiž old: 2310
-H,,16,Litaniae lauretanae,,,,,,,,,,,1095,,,,XXXV E 148,,,,,Litanies 3,,,A.IX.16,,CZ-Pkřiž old: 2306
+H,,13,Litaniae lauretanae,,,,,,,,,,,,,,,XXXV E 145,,,,,Litanies 11,,,A.IX.13,,CZ-Pkřiž old signature: 2302
+H,,14,Litaniae lauretanae,,,,,,,,,,,,Mus.Hs.15693,,,XXXVI B 193,,,,,Litanies 17,,,A.IX.14,,in CZ-Pkřiž by Reichenauer (old signature: 2293)
+H,,15,Litaniae lauretanae,,Wondratsch 1898,,III b 3 [600090619],,,,,,,,,,,XXXV E 152,,,,,Litanies 19,,,A.IX.15,@Riedel1979 [p. 299],CZ-Pkřiž old signature: 2310
+H,,16,Litaniae lauretanae,,,,,,,,,,,1095,,,,XXXV E 148,,,,,Litanies 3,,,A.IX.16,@Mitterschiffthaler1979 [p. 236],CZ-Pkřiž old signature: 2306
 H,,17,Litaniae lauretanae,,,,,,,,,,,,Mus.Hs.15691,,,,,,,,Litanies 8,,,A.IX.17,,
-H,,18,Litaniae lauretanae,,,,,B 386/1,,,,,,,,,,,XVI C 75,,,,Litanies 2,,,A.IX.18,,CZ-Pn not validated
-H,,19,Litaniae lauretanae,,,,III b 3 [600090618],,,,,,,,Mus.Hs.15694,,,XXXV E 146,XXXII C 125,,,,Litanies 20,,,A.IX.19,,CZ-Pkřiž old: 2304
-H,,20,Litaniae lauretanae,,Wondratsch 1897,,,,,,,,,,,,,XXXV E 144,,,,,Litanies 6,,,A.IX.20,,CZ-Pkřiž old: 2301
-H,,21,Litaniae lauretanae,,,,,,,,,,,,,,,,,,,A-Ed G 1,-,,,deest,,
+H,,18,Litaniae lauretanae,,,,,B 386/1,,,,,,,,,,,XVI C 75,,,,Litanies 2,,,A.IX.18,,
+H,,19,Litaniae lauretanae,,,,III b 3 [600090618],,,,,,,,Mus.Hs.15694,,,XXXV E 146,XXXII C 125,,,,Litanies 20,,,A.IX.19,,CZ-Pkřiž old signature: 2304
+H,,20,Litaniae lauretanae,,Wondratsch 1897,,,,,,,,,,,,,XXXV E 144,,,,,Litanies 6,,,A.IX.20,@Riedel1979 [p. 299],CZ-Pkřiž old signature: 2301
+H,,21,Litaniae lauretanae,,,,,,,,,,,,,,,,,,,A-Ed G 1,-,,,,,
 I,,1,Lamentationes Jeremiae Prophetae,,,,,,,,,,I/7364,,,,,,,,Mus.2968-E-502,,Miscellaneous 1,,,A.XII.1,,
 I,,2,Lectiones,,,,,,,,,,,,Mus.Hs.15690,,,,,,,,Miscellaneous 2,,,A.XII.2,,
-I,,3,Te Deum,,,,,,,,,,,1091,,,,,,,,,Miscellaneous 3,,,A.XII.3,,
+I,,3,Te Deum,,,,,,,,,,,1091,,,,,,,,,Miscellaneous 3,,,A.XII.3,@Mitterschiffthaler1979 [p. 237],
+I,,S1,Miscellaneous vocal works,(none known),,,,,,,,,,,,,,,,,,D-Dl Mus.2968-D-500 | D-Dl Mus.2968-D-501 | D-Dl Mus.2968-D-502 | D-Dl Mus.2968-D-503 | D-Dl Mus.2968-D-505 | D-Dl Mus.2968-D-506 | D-Dl Mus.2968-D-507 | D-Dl Mus.2968-D-510 | D-Dl Mus.2968-D-511 | D-Dl Mus.2968-D-512 | D-Dl Mus.2968-D-513 | D-Dl Mus.2968-D-515 | D-Dl Mus.2968-D-516 | D-Dl Mus.2968-D-517 | D-Dl Mus.2968-E-501,,,,,,various copies by Otto Schmid; only index cards recorded in RISM; no incipits known
 J,,1,Sonata,,,,,,,,,,,,,,,,,"Mus.ms.autogr. Tuma, F. 1 M",,,,,,B.I.1,,
 J,,2,Sonata,,,,,,,,,,,,Mus.Hs.3742/1,,,,,,,,,,,B.I.2,,
 J,,3,Sonata,,,,,,,,,,,,Mus.Hs.3743/3,,,,,,,,,,,B.I.3,,
@@ -252,6 +253,8 @@ J,,14,Sonata,,,,,,,,,,IX/29191,,,,,,,,,,,,,B.I.14,,
 J,,15,Sonata,,,,,,,,,,,,Mus.Hs.3744/5,,,,,,,CZ-Bu RKPMus-0450.218,,,,B.I.15,,
 J,,16,Sonata,,,,,,,,,,,,Mus.Hs.3744/1,,,,,,,,,,,B.I.16,,
 J,,17,Sonata,,,,,,,,,,,,,,,,XLI B 55,,,,,,,,,
+J,,L1,Sonata,,,,,,,,,,,,,,,,,,,,,,,,"@StPeterInv [p. 34, no. 41]",
+J,,L2,Sonata,,,,,,,,,,,,,,,,,,,,,,,,"@StPeterInv [p. 34, no. 42]",
 K,,1,Sinfonia,,,,,,,,,,IX/5485,,,,,,,,,,,,,B.II.1,,
 K,,2,Sinfonia,,,,,,,,,,IX/5486,,,,,,,,,,,,,B.II.2,,
 K,,3,Sinfonia,,,,,,,,,,IX/29189,,,,,,,,,,,,,B.II.3,,
@@ -260,44 +263,44 @@ K,,5,Sinfonia,,,,,,,,,,IX/5484,,,,,,XXXVII B 688,,,,,,,B.II.5,,
 K,,6,Sinfonia,,,,,,,,,,IX/5767,,,,,,,,,S-L Saml.Engelhart 492 | D-Mbs Mus.ms. 8307 [450100637],,,,B.II.6,,
 K,,7,Sinfonia,,,,,,,,,,IX/29178,,,,,,,,,,,,,B.II.7,,
 K,,8,Sinfonia,,,,,,,,,,IX/29180,,,,,,,,,CZ-Bu RKPMus-0450.219,,,,B.II.8,,
-K,,9,Sinfonia,,,,,,,,,,(n.s.),,,,,,,,,,,,,B.II.9,,no source in Vogg
-K,,10,Sinfonia,,,,,,,,,,(n.s.),,,,,,,,,H-KE 2101,,,,B.II.10,,no source in Vogg
+K,,9,Sinfonia,,,,,,,,,,(n.s.),,,,,,,,,,,,,B.II.9,,no source given in Vogg
+K,,10,Sinfonia,,,,,,,,,,(n.s.),,,,,,,,,H-KE 2101,,,,B.II.10,,no source given in Vogg
 K,,11,Sinfonia,,,,,,,252,,,IX/29182,,,,,,,,,,,,,B.II.11,,
-K,,12,Sinfonia,,,,,,,,,,IX/29183,,,,,,XXXIV E 99,,,CZ-Bu RKPMus-0450.214,,,,B.II.12,,CZ-Pn contains 6 sonatas
-K,,13,Sinfonia,,,,,,,,,,IX/29188,,,,,,,,Mus.2968-N-1 | Mus.2968-N-1a,,,,,B.II.13,,
-K,,14,Sinfonia,,,,,,,,,,,,,,,,,55 MS 10052,,,,,,deest,,
-K,,15,Sinfonia,,,,,,,273,,,,,,,,,,,,D-As 4 Cod mus 85,,,,deest,,
-K,,16,Sinfonia,,,,,,,251,,,,,,,,,,,,,,,,deest,,
-K,,17,Sinfonia,,,,,,,360,,,,,,,,,,,,,,,,deest,,
-K,,18,Sinfonia,,,,,,,,,V 1034,,,,,,,,,,,,,,deest,,
-K,,19,Sinfonia,,,,,,,,,,,,,,,,,,,S-Skma Alströmer saml. 170:2,,,,deest,,
-K,,20,Sinfonia,,,,,,,,,,,,,,,,,,,H-KE 0/92,,,,deest,,
-K,,21,Sinfonia,,,,,,,,,,,,,,,,,,,D-Bhm RH 0655,,,,deest,,
-K,,22,Sinfonia,,,,,,,,,,,,,,,,,Mus.ms. 22105,,,,,,deest,,
-L,,1,Parthia,,,,,,,,,,IX/29176,,,,,,,,,,,,,B.III.1,,
-L,,2,Parthia,,,,,,,,,,IX/29169,,,,,,,,Mus.2968-P-508,,,,,B.III.2,,
-L,,3,Parthia,,,,,,,,,,IX/29186,,,,,,,,,,,,,B.III.3,,
-L,,4,Parthia,,,,,,,,,,IX/29177,,,,,,,,,,,,,B.III.4,,
-L,,5,Parthia,,,,,,,,,,IX/29173,,,,,,,,,,,,,B.III.5,,
-L,,6,Parthia,,,,,,,,,,IX/29185,,,,,,,,,,,,,B.III.6,,
-L,,7,Parthia,,,,,,,,,,IX/29187,,,,,,,,,,,,,B.III.7,,
-L,,8,Parthia,,,,,,,,,,IX/29171,,,,,,,,,,,,,B.III.8,,
-L,,9,Parthia,,,,,,,,,,,,,,,,,,,D-KA Mus. Hs. 969,,,,B.III.9,,
-L,,10,Parthia,,,,,,,,,,IX/29184,,,,,,,,,,,,,B.III.10,,
-L,,11,Parthia,,,,,,,,,,IX/5488,,,,,,,,,,,,,B.III.11,,
-L,,12,Parthia,,,,,,,,,,IX/29175,,,,,,,,,,,,,B.III.12,,
-L,,13,Parthia,,,,,,,,,,IX/29170,,,,,,,,,,,,,B.III.13,,
-L,,14,Parthia,,,,,,,,,,IX/5766,,,,,,,,,,,,,B.III.14,,
-L,,15,Parthia,,,,,,,,,,IX/29190,,,,,,,,,,,,,B.III.15,,
-L,,16,Parthia,,,,,,,,,,IX/29174,,,,,,,,,,,,,B.III.16,,
-L,,17,Parthia,,,,,,,,,,IX/29179,,,,,,,,,,,,,B.III.17,,
-L,,18,Parthia,,,,,,,,,,IX/5487,,,,,,,,,CZ-Bu RKPMus-0450.216,,,,B.III.18,,
-L,,19,Parthia,,,,,,,,,,,,,,,,XXXIV E 93,,,,,,,,,
+K,,12,Sinfonia,,,,,,,,,,IX/29183,,,,,,XXXIV E 99,,,CZ-Bu RKPMus-0450.214,,,,B.II.12,,CZ-Pn source contains 6 sonatas
+K,,13,Sinfonia,,,,,,,,,,IX/29188,,,,,,,,Mus.2968-N-1 | Mus.2968-N-1a,,,,,B.II.13,"@StPeterInv [p. 34, no. 43]",
+K,,14,Sinfonia,,,,,,,,,,,,,,,,,55 MS 10052,,,,,,,,
+K,,15,Sinfonia,,,,,,,273,,,,,,,,,,,,D-As 4 Cod mus 85,,,,,"@Harich1975 [p. 47, no. D.2], @StPeterInv [p. 33, no. 40]",
+K,,16,Sinfonia,,,,,,,251,,,,,,,,,,,,,,,,,,
+K,,17,Sinfonia,,,,,,,360,,,,,,,,,,,,,,,,,@Sherman2001 [p. 263],
+K,,18,Sinfonia,,,,,,,,,V 1034,,,,,,,,,,,,,,,,
+K,,19,Sinfonia,,,,,,,,,,,,,,,,,,,S-Skma Alströmer saml. 170:2,,,,,,
+K,,20,Sinfonia,,,,,,,,,,,,,,,,,,,H-KE 0/92,,,,,,
+K,,21,Sinfonia,,,,,,,,,,,,,,,,,,,D-Bhm RH 0655,,,,,,
+K,,22,Sinfonia,,,,,,,,,,,,,,,,,Mus.ms. 22105,,,,,,,,
+L,,1,Partita,,,,,,,,,,IX/29176,,,,,,,,,,,,,B.III.1,,
+L,,2,Partita,,,,,,,,,,IX/29169,,,,,,,,Mus.2968-P-508,,,,,B.III.2,,
+L,,3,Partita,,,,,,,,,,IX/29186,,,,,,,,,,,,,B.III.3,,
+L,,4,Partita,,,,,,,,,,IX/29177,,,,,,,,,,,,,B.III.4,,
+L,,5,Partita,,,,,,,,,,IX/29173,,,,,,,,,,,,,B.III.5,,
+L,,6,Partita,,,,,,,,,,IX/29185,,,,,,,,,,,,,B.III.6,,
+L,,7,Partita,,,,,,,,,,IX/29187,,,,,,,,,,,,,B.III.7,,
+L,,8,Partita,,,,,,,,,,IX/29171,,,,,,,,,,,,,B.III.8,,
+L,,9,Partita,,,,,,,,,,,,,,,,,,,D-KA Mus. Hs. 969,,,,B.III.9,,
+L,,10,Partita,,,,,,,,,,IX/29184,,,,,,,,,,,,,B.III.10,,
+L,,11,Partita,,,,,,,,,,IX/5488,,,,,,,,,,,,,B.III.11,,
+L,,12,Partita,,,,,,,,,,IX/29175,,,,,,,,,,,,,B.III.12,,
+L,,13,Partita,,,,,,,,,,IX/29170,,,,,,,,,,,,,B.III.13,,
+L,,14,Partita,,,,,,,,,,IX/5766,,,,,,,,,,,,,B.III.14,,
+L,,15,Partita,,,,,,,,,,IX/29190,,,,,,,,,,,,,B.III.15,,
+L,,16,Partita,,,,,,,,,,IX/29174,,,,,,,,,,,,,B.III.16,,
+L,,17,Partita,,,,,,,,,,IX/29179,,,,,,,,,,,,,B.III.17,,
+L,,18,Partita,,,,,,,,,,IX/5487,,,,,,,,,CZ-Bu RKPMus-0450.216,,,,B.III.18,,
+L,,19,Partita,,,,,,,,,,,,,,,,XXXIV E 93,,,,,,,,,
+L,,L.1,Partita,,,,,,,,,,,,,,,,,,,,,,,,"@Harich1975 [p. 48, no. D.9]",
 M,,1,Orgelfuge,,,,,,,,,,,,Mus.Hs.24412,,,,,,,,,,,B.IV.1,,
-M,,2,Quodlibet,,,,,,,,,,,,,,,,,,,D-WWW K 7 Nr.40,,,,deest,,
-M,,3,Ouverture,,,,,,,,,,,,,,,,,,,"H-Gk AMC, T. 8.",,,,deest,,
-M,,4,Trio,,,,,,,,,,,,,,,,,,,D-Bsa SA 3852 | CZ-Pmua KZN 38,,,,deest,,
-M,,5,Fuga,,,,,,,,,,,,,,,,,,,D-Bsa SA 3541 (5),,,,deest,,
-M,,6,Trio,,,,,,,,,,,,,,,,,,,CZ-Bu RKPMus-0450.213,,,,deest,,
-Z,,1,Vesper,(none known),,,,,,,,,,,,,,,,,,PL-CZ II-364,,,,deest,,only title page available
-Z,,2,Miscellaneous works,(none known),,,,,,,,,,,,,,,,,,D-Dl Mus. 2968-P-510 | D-Dl Mus. 2968-P-512 | D-Dl Mus.2968-D-500 | D-Dl Mus.2968-D-501 | D-Dl Mus.2968-D-502 | D-Dl Mus.2968-D-503 | D-Dl Mus.2968-D-505 | D-Dl Mus.2968-D-506 | D-Dl Mus.2968-D-507 | D-Dl Mus.2968-D-510 | D-Dl Mus.2968-D-511 | D-Dl Mus.2968-D-512 | D-Dl Mus.2968-D-513 | D-Dl Mus.2968-D-515 | D-Dl Mus.2968-D-516 | D-Dl Mus.2968-D-517 | D-Dl Mus.2968-E-501 | D-Dl Mus.2968-O-500 | D-Dl Mus.2968-P-500 | D-Dl Mus.2968-P-501 | D-Dl Mus.2968-P-502 | D-Dl Mus.2968-P-503 | D-Dl Mus.2968-P-504 | D-Dl Mus.2968-P-505 | D-Dl Mus.2968-P-506 | D-Dl Mus.2968-P-507 | D-Dl Mus.2968-P-509 | D-Dl Mus.2968-P-511 | D-Dl Mus.2968-P-513 | D-Dl Mus.2968-P-514 | D-Dl Mus.2968-P-515 | D-Dl Mus.2968-P-516 | D-Dl Mus.2968-U-500 ,,,,deest,,"all in D-Dl, only index card recorded, thus no incipits known"
+M,,3,Ouverture,,,,,,,,,,,,,,,,,,,"H-Gk AMC, T. 8.",,,,,,
+M,,4,Trio,,,,,,,,,,,,,,,,,,,D-Bsa SA 3852 | CZ-Pmua KZN 38,,,,,,
+M,,5,Fuga,,,,,,,,,,,,,,,,,,,D-Bsa SA 3541 (5),,,,,,
+M,,6,Trio,,,,,,,,,,,,,,,,,,,CZ-Bu RKPMus-0450.213,,,,,,
+M,,S1,Quodlibet,,,,,,,,,,,,,,,,,,,D-WWW K 7 Nr.40,,,,,,authorship due to provenance and genre unlikely
+M,,S2,Miscellaneous instrumental works,(none known),,,,,,,,,,,,,,,,,,D-Dl Mus.2968-O-500 | D-Dl Mus.2968-P-500 | D-Dl Mus.2968-P-501 | D-Dl Mus.2968-P-502 | D-Dl Mus.2968-P-503 | D-Dl Mus.2968-P-504 | D-Dl Mus.2968-P-505 | D-Dl Mus.2968-P-506 | D-Dl Mus.2968-P-507 | D-Dl Mus.2968-P-509 | D-Dl Mus.2968-P-510 | D-Dl Mus.2968-P-511 | D-Dl Mus.2968-P-512 | D-Dl Mus.2968-P-513 | D-Dl Mus.2968-P-514 | D-Dl Mus.2968-P-515 | D-Dl Mus.2968-P-516 | D-Dl Mus.2968-U-500 ,,,,,,various copies by Otto Schmid; only index cards recorded in RISM; no incipits known
