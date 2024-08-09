@@ -120,7 +120,7 @@
                 <contributor xml:id="contributor_cffcadef"/>
                 <incip xml:id="incip_a6d33e04">
                   <incipText xml:id="incipText_b36c5faf"/>
-                  <graphic targettype="lowres" xml:id="graphic_30449818" target="1_introitus.png"/>
+                  <graphic targettype="lowres" xml:id="graphic_30449818" target="1_introitus"/>
                 </incip>
                 <tempo xml:id="tempo_4889cf5e">Adagio</tempo>
                 <key xml:id="key_15e0f7e7" pname="c" mode="dorian"/>
@@ -286,7 +286,7 @@
                 <contributor xml:id="contributor_2f7a7975"/>
                 <incip xml:id="incip_47cfe5a5">
                   <incipText xml:id="incipText_817dfc99"/>
-                  <graphic targettype="lowres" xml:id="graphic_abacebaa" target="2_kyrie.png"/>
+                  <graphic targettype="lowres" xml:id="graphic_abacebaa" target="2_kyrie"/>
                 </incip>
                 <tempo xml:id="tempo_9e0c1f8f">[no tempo]</tempo>
                 <key xml:id="key_53dedbd0" pname="c" mode="dorian"/>
@@ -416,7 +416,7 @@
                 <contributor xml:id="contributor_32b34594"/>
                 <incip xml:id="incip_4d431f1d">
                   <incipText xml:id="incipText_4d0f3d86"/>
-                  <graphic targettype="lowres" xml:id="graphic_c9f98fba" target="3_sequentia.png"/>
+                  <graphic targettype="lowres" xml:id="graphic_c9f98fba" target="3_sequentia"/>
                 </incip>
                 <tempo xml:id="tempo_35ba7a0d">Adagio</tempo>
                 <key xml:id="key_29886aac" pname="c" mode="dorian"/>
@@ -720,7 +720,7 @@
                 <contributor xml:id="contributor_fc80178e"/>
                 <incip xml:id="incip_9f85f9aa">
                   <incipText xml:id="incipText_837a8236"/>
-                  <graphic targettype="lowres" xml:id="graphic_ee6a3b9d" target="4_offertorium.png"/>
+                  <graphic targettype="lowres" xml:id="graphic_ee6a3b9d" target="4_offertorium"/>
                 </incip>
                 <tempo xml:id="tempo_10244eed">Adagio</tempo>
                 <key xml:id="key_f347a02b" pname="f" mode="dorian"/>
@@ -898,7 +898,7 @@
                 <contributor xml:id="contributor_785392f2"/>
                 <incip xml:id="incip_5007f57f">
                   <incipText xml:id="incipText_4741949a"/>
-                  <graphic targettype="lowres" xml:id="graphic_db415f13" target="5_sanctus.png"/>
+                  <graphic targettype="lowres" xml:id="graphic_db415f13" target="5_sanctus"/>
                 </incip>
                 <tempo xml:id="tempo_da8c9280">Adagio</tempo>
                 <key xml:id="key_8dfd9ae9" pname="c" mode="dorian"/>
@@ -929,7 +929,7 @@
                 <contributor xml:id="contributor_218ce938"/>
                 <incip xml:id="incip_9aea3f38">
                   <incipText xml:id="incipText_5585377d"/>
-                  <graphic targettype="lowres" xml:id="graphic_04989196" target="6_benedictus.png"/>
+                  <graphic targettype="lowres" xml:id="graphic_04989196" target="6_benedictus"/>
                 </incip>
                 <tempo xml:id="tempo_36cec3fc">Andante</tempo>
                 <key xml:id="key_9e77649c" pname="e" accid="f" mode="major"/>
@@ -1018,7 +1018,7 @@
                 <contributor xml:id="contributor_2320b2ee"/>
                 <incip xml:id="incip_54288bc5">
                   <incipText xml:id="incipText_ee7fbd08"/>
-                  <graphic targettype="lowres" xml:id="graphic_392b53dc" target="7_agnus.png"/>
+                  <graphic targettype="lowres" xml:id="graphic_392b53dc" target="7_agnus"/>
                 </incip>
                 <tempo xml:id="tempo_04abeebf">Adagio</tempo>
                 <key xml:id="key_84c9c83c" pname="c" mode="dorian"/>
