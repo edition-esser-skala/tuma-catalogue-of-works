@@ -1,5 +1,24 @@
 # Changelog {.unnumbered}
 
+## 0.5.0 – 2024-08-09
+
+### Added
+
+- incipits for TumW C.3.2 and H.7
+- The catalogue now also comprises spurious and lost works (with incipits where known).
+- Reference columns in the catalogue have been renamed: KliCh (Klinka), ReiMa (Reichert), PesMa (Peschek), and VogIn (Vogg).
+- references: Haberkamp 1993, Harich 1975, Kiesewetter 1847, Mitterschiffthaler 1997, Opatrny 2012, Sherman 2001, Štefan 1985, and St Peter Inventory
+
+### Changed
+
+- The bibliography now appears on a separate page.
+- technically equivalent to WerW v0.7.0
+
+### Removed
+
+- subgroups of masses (group A)
+
+
 ## 0.4.0 – 2024-07-13
 
 ### Added
