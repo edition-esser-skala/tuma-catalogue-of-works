@@ -9,13 +9,6 @@
   paper-width = 100\cm
 }
 
-% \layout{
-%   \context {
-%     \Staff
-%     \override Clef.full-size-change = ##t
-%   }
-% }
-
 partSs = \markup \remark "S solo"
 partAs = \markup \remark "A solo"
 partTs = \markup \remark "T solo"
@@ -50,3 +43,10 @@ gotoBar = #(define-music-function
                         key-signature
                         time-signature))
   #})
+
+hy = \markup { \override #'(thickness . 1.25) \raise #.52 \draw-line #'(.5 . 0) }
+
+skips = #(define-music-function
+  (parser location n)
+  (number?)
+  #{ \repeat unfold #n { \skip 8 } #})
