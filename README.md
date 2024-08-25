@@ -8,7 +8,7 @@ This repository and all of its scripts are based upon [edition-esser-skala/werne
 - `script/make_catalogue.R`:
   - `cols_library` and `cols_library`
   - in data validation, remove lines that should be removed anyway
-- `script/prepage_pages.R`:
+- `script/parse_mei.R`:
   - `cols_identifiers`
 
 
