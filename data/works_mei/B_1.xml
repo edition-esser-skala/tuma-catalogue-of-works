@@ -67,6 +67,12 @@
         <langUsage xml:id="langUsage_b726fa14">
           <language xml:id="language_d4e54" xml:lang="la"/>
         </langUsage>
+        <biblList xml:id="biblList_2b58f005">
+          <head xml:id="head_4c9e6fa3">Bibliography</head>
+          <bibl>
+            <ref target="@Eybl1996 [p. 58]"/>
+          </bibl>
+        </biblList>
         <expressionList xml:id="expressionList_2946a3c4">
           <expression xml:id="expression_97c4f1b6">
             <title xml:lang="en" xml:id="title_1a20b4d5"/>
@@ -1265,6 +1271,7 @@
               <annot type="source_description" xml:id="annot_25113714">
                 <p>S solo (6), A solo (6), T solo (6), B solo (5), S coro (4), A coro (2x; 4, 3), T coro (4), B coro (4), cnto (3), fag (3), clno 1 (2), clno 2 (2), trb 1 (3), trb 2 (3) vl 1 (5), vl 2 (5), vlc (7), vlne (7), org (6), mdc (8)</p>
                 <p>Comprises the Introitus and Kyrie.</p>
+                <p>A copy by Joseph Leysser and copyist A.</p>
               </annot>
             </notesStmt>
             <componentList xml:id="componentList_8f3c72aa"/>
@@ -1324,6 +1331,7 @@
                 <p>Sequentia: S solo (5), A solo (5), T solo (6), B solo (5), S coro (4), A coro (4), T coro (4), B coro (4), cnto (4), fag (4), clno 1 (2), clno 2 (2), trb 1 (6), trb 2 (4), vl 1 (5), vl 2 (5), vlc (7), vlne (7), org (7), mdc (7)<lb/>Offertorium: A solo (4), T solo (2), S coro (2x; 2, 2), A coro (2x; 2, 2), T coro (2x; 2, 2), B coro (2x, 2, 2), cnto (2), fag (2), trb 1 (2), trb 2 (2), vl 1 (2x; 3, 3), vl 2 (2x; 3, 3), vlc (2), vlne (2), org (3), mdc (3)<lb/>Sanctus to Agnus Dei: S solo (4), A solo (4), T solo (4), B solo (4), S coro (3), A coro (3), T coro (3), B coro (3), cnto (2), fag (2), clno 1 (2), clno 2 (2), trb 1 (3), trb 2 (3), vl 1 (2x; 4, 4), vl 2 (2x; 4, 4), vlc (4), vlne (4), org (4), mdc (4)</p>
                 <p>Comprises Sequentia to Agnus Dei.</p>
                 <p>These movements have been archived under a shelfmark with an Introitus and Kyrie by Georg Reutter the Younger. Thus, they have been attributed to the latter (see P. Norbert Hofer&#x2019;s edition in Denkm&#xE4;ler der Tonkunst in &#xD6;sterreich, vol. 88 (1952), and his catalogue of Reutter&#x2019;s works, entry 46/4).</p>
+                <p>A copy by Joseph Leysser and copyist A.</p>
               </annot>
               <annot type="links" xml:id="annot_54bf725d">
                 <ptr mimetype="" xml:id="ptr_d6e397_0_0"/>
