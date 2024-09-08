@@ -1,0 +1,35 @@
+catalogue_columns:
+  # columns in data/catalogue_works.csv that contain general metadata
+  metadata:
+    - title
+    - literature
+    - notes
+
+  # columns that correspond to a library
+  library:
+    - A-GÖ
+    - A-H
+    - A-HE
+    - A-KN
+    - A-KR
+    - A-LA
+    - A-M
+    - A-SEI
+    - A-Wgm
+    - A-WIL
+    - A-Wn
+    - A-Ws
+    - CZ-Pak
+    - CZ-Pkřiž
+    - CZ-Pn
+    - D-B
+    - D-Dl
+
+  # names: column names in the works table with catalogue of works numbers
+  # values: their references (empty string if no reference should be linked)
+  identifiers:
+    TumW: ""
+    KliCh: Klinka1975
+    PesMa: Peschek1956
+    ReiMa: Reichert1935
+    VogIn: Vogg1951

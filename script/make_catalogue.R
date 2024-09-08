@@ -1,21 +1,17 @@
 library(tidyverse)
+library(yaml)
 source("script/utils.R")
 
 
 
 # Parameters --------------------------------------------------------------
 
-# columns in data/catalogue_works.csv with that correspond to a library
-cols_library <- c(
-  "A-GÖ", "A-H", "A-HE", "A-KN", "A-KR", "A-LA", "A-M", "A-SEI", "A-Wgm",
-  "A-WIL", "A-Wn", "A-Ws", "CZ-Pak", "CZ-Pkřiž", "CZ-Pn", "D-B", "D-Dl"
+params <- read_yaml("script/config.yml")
+cols_library <- params$catalogue_columns$library
+cols_metadata <- c(
+  params$catalogue_columns$metadata,
+  names(params$catalogue_columns$identifiers)
 )
-
-# columns that contain other metadata,
-# e.g., title, catalogue of works numbers, references, notes
-cols_metadata <- c("title",
-                   "KliCh", "PesMa", "ReiMa", "VogIn",
-                   "literature", "notes")
 
 
 
@@ -37,7 +33,7 @@ rism_entries <-
   select(siglum, shelfmark, title, rism_id)
 
 # (b) works missing in RISM
-rism_missing <- read_csv("data/works_missing_in_rism.csv")
+rism_missing <- read_csv("data/works_missing_in_rism.csv", comment = "#")
 
 # (a+b) all known works
 known_works <- bind_rows(rism_entries, rism_missing)
@@ -138,7 +134,7 @@ catalogue_all_with_rism <-
 
 works <-
   catalogue %>%
-  select(group:number, all_of(cols_metadata)) %>%
+  select(group:number, any_of(cols_metadata)) %>%
   left_join(
     catalogue_all_with_rism %>%
       nest(.by = group:number, .key = "sources"),

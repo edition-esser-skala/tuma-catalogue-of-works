@@ -1,6 +1,16 @@
 library(xml2)
+library(yaml)
 library(tidyverse)
 source("script/utils.R")
+
+
+
+# Parameters --------------------------------------------------------------
+
+params <- read_yaml("script/config.yml")
+cols_identifiers <-
+  params$catalogue_columns$identifiers %>%
+  list_simplify()
 
 
 
@@ -18,11 +28,18 @@ WORK_TEMPLATE_DETAILED <- '
 ::: {{.callout-note collapse="true" .column-page-right}}
 # Details
 
+{work_description}
+
 Identification
 : {identifiers}
 
 Scoring
 : {work_scoring}
+
+{roles}
+
+Genre
+: {genre}
 
 Place and date of composition
 : {creation}
@@ -52,6 +69,7 @@ MOVEMENT_TEMPLATE <- '
 |*Meter*|{meter}|
 |*Extent*|{extent}|
 |*Scoring*|{scoring}|
+{notes}
 
 : {{tbl-colwidths="[10,90]" .movement-details}}
 
@@ -90,6 +108,17 @@ Components and notes
 ## RISM ----
 
 RISM_TEMPLATE <- "[{label}](https://opac.rism.info/search?id={rism_id})"
+
+
+## Identifier ----
+
+IDENTIFIER_TEMPLATE <- '<span class="citation" data-cites="{ref}"><a href="#ref-{ref}" role="doc-biblioref" aria-expanded="false">{catalogue}</a> {id}</span>'
+IDENTIFIER_TEMPLATE_NOLINK <- '{catalogue} {id}'
+
+
+## Subtitle ----
+
+SUBTITLE_TEMPLATE <- "[{title}]{{.other-title}}"
 
 
 
@@ -162,6 +191,22 @@ format_key <- function(k) {
   )
 }
 
+# formats titles
+format_title <- function(d) {
+  title_indices <-
+    names(d) %>%
+    str_which("title")
+
+  main_title <- d[[title_indices[1]]][[1]]
+  other_titles <- map_chr(
+    title_indices[-1],
+    \(i) use_template(SUBTITLE_TEMPLATE, title = d[[i]][[1]])
+  )
+
+  c(main_title, other_titles) %>%
+    str_flatten("<br/>")
+}
+
 # format incipits (lightbox expanding to orchestral incipit)
 format_incipits <- function(incipit_list, work_id) {
   target_dir <- str_glue("incipits/{work_id}")
@@ -187,32 +232,69 @@ format_incipits <- function(incipit_list, work_id) {
     str_flatten("\n\n")
 }
 
+# format identifiers as links to bibliography
+# id_list: named vector (catalogue = id)
+# sep: separator between identifiers
+format_identifiers <- function(id_list, sep) {
+  imap_chr(
+    cols_identifiers,
+    \(ref, catalogue) {
+      id <- pluck(id_list, catalogue)
+      if (is.null(id) || is.na(id))
+        return(NA)
+      if (ref == "") {
+        use_template(
+          IDENTIFIER_TEMPLATE_NOLINK,
+          catalogue = catalogue,
+          id = id
+        )
+      } else {
+        use_template(
+          IDENTIFIER_TEMPLATE,
+          ref = ref,
+          catalogue = catalogue,
+          id = id
+        )
+      }
+    }
+  ) %>%
+    str_flatten(sep, na.rm = TRUE)
+}
+
 # format list of instruments
 format_instrument <- function(i) {
   name <- i[[1]]
-  count <- attr(i, "count")
-  solo <- attr(i, "solo")
+
+  count <- attr(i, "count") %||% "1"
   if (count != "1")
     name <- paste(count, name)
+
+  solo <- attr(i, "solo") %||% "false"
   if (solo == "true")
     name <- paste(name, "(solo)")
+
   name
 }
 
 # format list of ensembles
 format_ensemble <- function(e) {
   head <- e$head[[1]]
-  e[-1]
-  instruments <- map_chr(e[-1], \(i) i[[1]]) %>% str_flatten_comma()
-  paste0(head, " (", instruments, ")")
+  instruments <- map_chr(e[-1], format_instrument)
+  if (length(instruments) == 1
+      & head == "soli"
+      & !str_detect(instruments[1], "^\\d"))
+    head <- "solo"
+  paste0(head, " (", str_flatten_comma(instruments), ")")
 }
 
 # format the total scoring
 format_scoring <- function(s) {
-  music_ensembles <- map_chr(
-    names(s) %>% str_which("perfResList"),
-    \(i) format_ensemble(s[[i]])
-  )
+  music_ensembles <-
+    map_chr(
+      names(s) %>% str_which("perfResList"),
+      \(i) format_ensemble(s[[i]])
+    ) %>%
+    str_sort(decreasing = TRUE) # ensures that "solo" comes before "coro"
 
   music_instruments <- map_chr(
     names(s) %>% str_which("perfRes$"),
@@ -221,6 +303,27 @@ format_scoring <- function(s) {
 
   c(music_ensembles, music_instruments) %>%
     str_flatten_comma()
+}
+
+# format genre(s)
+format_classification <- function(c) {
+  if (is.null(c))
+    stop("Classification missing.")
+
+  c$termList %>%
+    map_chr(\(t) t[[1]]) %>%
+    str_flatten_comma()
+}
+
+# format roles
+format_roles <- function(roles) {
+  if (is.null(roles))
+    return("")
+
+  roles <-
+    map_chr(roles, \(r) str_glue("{r$role$name[[1]]} ({r$perfRes[[1]]})")) %>%
+    str_flatten_comma()
+  return(paste0("Roles\n: ", roles))
 }
 
 # format date and place of creation/composition
@@ -277,6 +380,10 @@ format_movement <- function(m, work_id) {
   extent <- m$extent[[1]]
   scoring <- format_scoring(m$perfMedium$perfResList)
 
+  notes <- attr(m$notesStmt[[1]], "markdown_text") %||% ""
+  if (notes != "")
+    notes <- str_glue("|*Notes*|{notes}|")
+
   incipit_file <- attr(m$incip$graphic, "target")
   if (is.null(incipit_file))
     incipit <- "(incipit missing)"
@@ -310,6 +417,7 @@ format_movement <- function(m, work_id) {
     key = key,
     extent = extent,
     scoring = scoring,
+    notes = notes,
     incipit = incipit,
     sections = sections
   )
@@ -457,7 +565,7 @@ get_work_details <- function(group, subgroup, number) {
   if (str_starts(number, "L"))
     number_formatted <- str_glue("[{number}]{{.text-warning}}")
 
-  title <- data_work$title[[1]]
+  title <- format_title(data_work)
 
   incipits <- format_incipits(data_music$incip, work_id)
 
@@ -468,17 +576,32 @@ get_work_details <- function(group, subgroup, number) {
     ) %>%
     str_flatten(" · ")
 
-  identifiers <-
-    map_chr(
-      names(data_work) %>% str_which("identifier"),
-      \(i) paste(
-        attr(data_work[[i]], "label"),
-        data_work[[i]][[1]]
-      )
-    ) %>%
-      str_flatten("<br/>")
+  data_work$notesStmt <-
+    data_work$notesStmt %>%
+    keep(\(annot) attr(annot, "type") == "general_description")
+  work_description <- attr(data_work$notesStmt[[1]], "markdown_text") %||% ""
+
+  identifier_indices <-
+    names(data_work) %>%
+    str_which("identifier")
+  identifier_ids <- map_chr(
+    identifier_indices,
+    \(i) data_work[[i]][[1]]
+  )
+  identifier_catalogues <- map_chr(
+    identifier_indices,
+    \(i) attr(data_work[[i]], "label")
+  )
+  identifiers <- format_identifiers(
+    set_names(identifier_ids, identifier_catalogues),
+    sep = "<br/>"
+  )
 
   work_scoring <- format_scoring(data_music$perfMedium$perfResList)
+
+  roles <- format_roles(data_music$perfMedium$castList)
+
+  genre <- format_classification(data_work$classification)
 
   creation <- format_creation(data_work$creation)
 
@@ -503,8 +626,11 @@ get_work_details <- function(group, subgroup, number) {
     title = title,
     incipits = incipits,
     sources_short = sources_short,
+    work_description = work_description,
     identifiers = identifiers,
     work_scoring = work_scoring,
+    roles = roles,
+    genre = genre,
     creation = creation,
     bibliography = bibliography,
     movements = movements,

@@ -5,14 +5,18 @@ Each individual work is documented as follows in MEI metadata. (For a technical 
 
 ## General metadata
 
+- **title** (one main, possibly fictitious, title; additional titles for works with several named movements such as responsories and vespers)
 - **incipits**
+- **work notes** (e.g., why is an attribution spurious?)
 - **identification**
   - *TumW*: number according to this catalogue
   - *KliCh*: number in the thematic catalogue by @Klinka1975
   - *PesMa*: number in the thematic catalogue of masses by @Peschek1956
   - *ReiMa*: number in the thematic catalogue of masses by @Reichert1935
   - *VogIn*: number in the thematic catalogue by @Vogg1951
+- **genre**
 - **scoring** ([abbreviations](https://opac.rism.info/scoring-abbreviations) as used in RISM)
+- **roles** (optional; names of the vocal soloists)
 - **place** and **date of composition**
 - **bibliography**
 
@@ -37,7 +41,7 @@ This section describes the individual movements of the work.
 
 This section describes the known sources of the work.
 
-- **source type** (autograph manuscript, manuscript copy, print)
+- **source type** (autograph manuscript, partly autograph manuscript, manuscript copy, or print)
 - **classification** using a range of keywords
 - **location** (library siglum, shelfmark, link to digitized version)
 - **RISM identifier**

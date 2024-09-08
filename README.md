@@ -5,11 +5,7 @@ This repository and all of its scripts are based upon [edition-esser-skala/werne
 
 ## Changes to technical pipeline
 
-- `script/make_catalogue.R`:
-  - `cols_library` and `cols_library`
-  - in data validation, remove lines that should be removed anyway
-- `script/parse_mei.R`:
-  - `cols_identifiers`
+- `script/config.yml`
 
 
 ## How to create the webpage
