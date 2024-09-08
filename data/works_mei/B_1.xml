@@ -69,10 +69,15 @@
         </langUsage>
         <biblList xml:id="biblList_2b58f005">
           <head xml:id="head_4c9e6fa3">Bibliography</head>
-          <bibl>
-            <ref target="@Eybl1996 [p. 58]"/>
+          <bibl xml:id="bibl_5f251977">
+            <ref target="@Eybl1996 [p. 58]" label=""/>
           </bibl>
         </biblList>
+        <classification xml:id="classification_fa525b5a">
+          <termList xml:id="termList_4ea253dd">
+            <term xml:id="term_a8328077">Requiem</term>
+          </termList>
+        </classification>
         <expressionList xml:id="expressionList_2946a3c4">
           <expression xml:id="expression_97c4f1b6">
             <title xml:lang="en" xml:id="title_1a20b4d5"/>
