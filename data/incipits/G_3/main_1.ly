@@ -12,7 +12,7 @@ notes = \relative c' {
 }
 
 text = \lyricmode {
-  \repeat unfold 7 { \skip 8 }
+  \skips 7
   Sta -- bat Sta -- bat
   ma -- ter do -- "lo -"
 }

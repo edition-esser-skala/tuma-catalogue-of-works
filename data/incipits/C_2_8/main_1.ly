@@ -12,7 +12,7 @@ notes = \relative c' {
 }
 
 text = \lyricmode {
-  \repeat unfold 19 { \skip 8 }
+  \skips 19
   Pla -- %7
   ca -- re, Chri -- ste,
   ser -- vu -- lis, pla -- ca -- re

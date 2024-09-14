@@ -12,7 +12,7 @@ notes = \relative c' {
 }
 
 text = \lyricmode {
-  \repeat unfold 9 { \skip 8 }
+  \skips 9
   "Re -" Re -- qui --
   em ae -- ter -- _
   nam, ae -- "ter -"

@@ -11,7 +11,7 @@ notes = \relative c' {
 }
 
 text = \lyricmode {
-  \repeat unfold 13 { \skip 8 }
+  \skips 13
   Ve --
   ni -- te, ve -- ni -- te, ve --
   ni -- te, ve -- ni -- te

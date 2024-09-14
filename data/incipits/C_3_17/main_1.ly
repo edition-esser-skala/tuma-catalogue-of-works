@@ -12,7 +12,7 @@ notes = \relative c' {
 }
 
 text = \lyricmode {
-  \repeat unfold 25 { \skip 8 }
+  \skips 25
   Au --
   di -- te, au -- di -- te in -- su --
   lae,

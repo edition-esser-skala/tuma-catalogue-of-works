@@ -12,7 +12,7 @@ notes = \relative c' {
 }
 
 text = \lyricmode {
-  \repeat unfold 15 { \skip 8 }
+  \skips 15
   Ad --
   e -- ste,
 }

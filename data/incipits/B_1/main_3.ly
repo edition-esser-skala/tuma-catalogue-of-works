@@ -12,7 +12,7 @@ notes = \relative c' {
 }
 
 text = \lyricmode {
-  \repeat unfold 14 { \skip 8 }
+  \skips 14
   Di -- es
   i -- rae, di -- es
   i -- rae, di -- es

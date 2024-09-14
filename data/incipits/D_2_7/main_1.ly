@@ -12,7 +12,7 @@ notes = \relative c' {
 }
 
 text = \lyricmode {
-  \repeat unfold 14 { \skip 8 }
+  \skips 14
   De pro -- %3
   fun -- dis, de pro --
   fun -- dis cla -- "ma -"

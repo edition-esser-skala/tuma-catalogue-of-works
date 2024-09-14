@@ -11,7 +11,7 @@ notes = \relative c' {
 }
 
 text = \lyricmode {
-  \repeat unfold 23 { \skip8 }
+  \skips 23
   Per la -- bra
   ne -- ctar bi -- bi -- tur,
 }

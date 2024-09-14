@@ -12,7 +12,7 @@ notes = \relative c' {
 text = \lyricmode {
   Sta -- bat ma -- ter
   do -- lo -- ro -- sa, do --
-  lo -- "ro -"
+  lo -- ro -- \hy
 }
 
 \score {
