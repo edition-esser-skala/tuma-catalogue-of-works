@@ -3,18 +3,19 @@
 
 notes = \relative c' {
   \clef treble
-  \key c \major \time 4/4 \autoBeamOff \tempoMarkup "Allegro"
-  << { g''8^\partClni e16 g f e f d } \\ { e8 c16 e d c d h } >>
-    \clef alto g4^\partAs e
-  a8. a16 g4 a8 g16 a f4
-  e \autoBeamOn \clef treble e'16^\partVi c c'8 \appoggiatura c h4 r
-  r16 a b a f d d'8 \appoggiatura d c4 r
+  \key c \dorian \time 4/4 \tempoMarkup "Adagio"
+  c16(^\partVi g') g( es) c( es) g( c) as2
+  f16( b) b( f) b,( d) f( b) g2~
+  g16 c, f e f4 \clef bass \autoBeamOff g,,4.^\partBc g8
+  c4 c f,4. f8
+  b4 b8 b es4. c8 %5
 }
 
 text = \lyricmode {
-  Di -- xit
-  Do -- mi -- nus Do -- mi -- no me --
-  o,
+  \skips 14
+  De pro -- %3
+  fun -- dis, de pro --
+  fun -- dis cla -- "ma -"
 }
 
 \score {

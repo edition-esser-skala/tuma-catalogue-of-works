@@ -3,17 +3,21 @@
 
 notes = \relative c' {
   \clef treble
-  \key c \major \time 4/4 \tempoMarkup "Largo"
-  c16^\partVi e e g g e e c c f f a a f f c
-  \clef soprano \autoBeamOff r4^\partSc c' c h8[ a]
-  h2 r
-
+  \key e \minor \time 3/2 \tempoMarkup "Adagio"
+  g''2^\partVi g g
+  fis4. e8 fis2 r \gotoBar "11"
+  \clef soprano \autoBeamOff h,1 c2
+  c4 h h1
+  r2 h gis
+  a1 a2
 }
 
 text = \lyricmode {
-  \skips 16
-  Ma -- gni -- fi --
-  cat
+  \skips 6
+  Mi -- se --
+  re -- _ re,
+  mi -- se
+  re -- re
 }
 
 \score {

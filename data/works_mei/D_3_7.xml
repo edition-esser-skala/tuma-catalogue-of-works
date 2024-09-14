@@ -50,7 +50,7 @@
     </encodingDesc>
     <workList xml:id="workList_4826e601">
       <work xml:id="work_829f001a">
-        <identifier xml:id="identifier_dca83b92" label="TumW">D.2.23</identifier>
+        <identifier xml:id="identifier_dca83b92" label="TumW">D.3.7</identifier>
         <identifier label="KliCh" xml:id="identifier_a3c6e272">Vespers 20</identifier>
         <identifier label="VogIn" xml:id="identifier_0b004da7">A.III.28</identifier>
         <title xml:lang="la" xml:id="title_64b30d70">Miserere</title>
@@ -68,11 +68,11 @@
         </langUsage>
         <biblList xml:id="biblList_2fb9ef48">
           <head xml:id="head_a48c4bac">Bibliography</head>
-          <bibl>
-            <ref target="@Eybl1996 [p. 56]"/>
+          <bibl xml:id="bibl_d4e67">
+            <ref target="@Eybl1996 [p. 56]" label=""/>
           </bibl>
-          <bibl>
-            <ref target="@Riedel1979 [p. 410]"/>
+          <bibl xml:id="bibl_d4e69">
+            <ref target="@Riedel1979 [p. 410]" label=""/>
           </bibl>
         </biblList>
         <classification xml:id="classification_6c61aeca">
@@ -92,7 +92,7 @@
               <geogName role="" xml:id="geogName_51b5ff43"/>
             </creation>
             <history xml:id="history_d4d92340"/>
-            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="perfMedium_05489552">
+            <perfMedium xml:id="perfMedium_05489552">
               <perfResList xml:id="perfResList_993416a2">
                 <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" xml:id="perfResList_71da3fb0">
                   <head xml:lang="en" xml:id="head_74a6d23e_0_0_0_0_0_0">soli</head>
@@ -137,7 +137,7 @@
                 <tempo xml:id="tempo_dce63e19">Adagio</tempo>
                 <key pname="f" mode="dorian" xml:id="key_b4bb281e"/>
                 <meter count="3" unit="2" xml:id="meter_3b74df21"/>
-                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="perfMedium_9a124a48">
+                <perfMedium xml:id="perfMedium_9a124a48">
                   <perfResList xml:id="perfResList_8c5d34b4">
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_71da3fb0" xml:id="perfResList_3ccef313">
                       <head xml:lang="en" xml:id="head_170581d8">soli</head>
@@ -180,7 +180,7 @@
                     <tempo xml:id="tempo_15cf871d">Adagio</tempo>
                     <key xml:id="key_6c9d1c7b" pname="f" mode="dorian"/>
                     <meter xml:id="meter_6c64ef90" count="3" unit="2"/>
-                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="perfMedium_30ed2e9f">
+                    <perfMedium xml:id="perfMedium_30ed2e9f">
                       <perfResList xml:id="perfResList_9d701306">
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" xml:id="perfResList_126ef6dc" n="perfResList_71da3fb0">
                           <head xml:lang="en" xml:id="head_74a6d23e_1">soli</head>
@@ -225,7 +225,7 @@
                     <tempo xml:id="tempo_ddc949ab">Andante</tempo>
                     <key xml:id="key_2ef19285" pname="c" mode="dorian"/>
                     <meter xml:id="meter_82ae8ce8" sym="common"/>
-                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="perfMedium_631b0b94">
+                    <perfMedium xml:id="perfMedium_631b0b94">
                       <perfResList xml:id="perfResList_83110ec0">
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" xml:id="perfResList_93d2090a" n="perfResList_71da3fb0">
                           <head xml:lang="en" xml:id="head_74a6d23e_0_1">soli</head>
@@ -260,7 +260,7 @@
                     <tempo xml:id="tempo_1f98e203">Adagio &#x2013; Andante</tempo>
                     <key xml:id="key_494ca796" pname="c" mode="dorian"/>
                     <meter xml:id="meter_82ebc49f"/>
-                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="perfMedium_f687e818">
+                    <perfMedium xml:id="perfMedium_f687e818">
                       <perfResList xml:id="perfResList_41b95c38">
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" xml:id="perfResList_a0d182dd" n="perfResList_71da3fb0">
                           <head xml:lang="en" xml:id="head_74a6d23e_0_0_1">soli</head>
@@ -307,7 +307,7 @@
                     <tempo xml:id="tempo_ebe45b20">Andante</tempo>
                     <key xml:id="key_16f11e88" pname="e" accid="f" mode="major"/>
                     <meter xml:id="meter_96f53ad1" count="3" unit="4"/>
-                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="perfMedium_7e318977">
+                    <perfMedium xml:id="perfMedium_7e318977">
                       <perfResList xml:id="perfResList_0a41b405">
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" xml:id="perfResList_53c90bf5" n="perfResList_71da3fb0">
                           <head xml:lang="en" xml:id="head_74a6d23e_0_0_0_1">soli</head>
@@ -346,7 +346,7 @@
                     <tempo xml:id="tempo_bfa668bc">[no tempo]</tempo>
                     <key xml:id="key_7b765630" pname="g" mode="minor"/>
                     <meter xml:id="meter_93377b0d" sym="common"/>
-                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="perfMedium_33df5178">
+                    <perfMedium xml:id="perfMedium_33df5178">
                       <perfResList xml:id="perfResList_bc903e49">
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" xml:id="perfResList_10158941" n="perfResList_a272e085">
                           <head xml:lang="en" xml:id="head_3277247c_0_0_1">coro</head>
@@ -387,7 +387,7 @@
                     <tempo xml:id="tempo_00d054c0">Adagio</tempo>
                     <key xml:id="key_02aa3583" pname="f" mode="dorian"/>
                     <meter xml:id="meter_ba5f5a25" sym="common"/>
-                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="perfMedium_2217886a">
+                    <perfMedium xml:id="perfMedium_2217886a">
                       <perfResList xml:id="perfResList_0d049e44">
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" xml:id="perfResList_4380d53c" n="perfResList_71da3fb0">
                           <head xml:lang="en" xml:id="head_74a6d23e_0_0_0_0_1">soli</head>
@@ -424,7 +424,7 @@
                     <tempo xml:id="tempo_e7a321d0">Andante</tempo>
                     <key xml:id="key_5766ac45" pname="c" mode="minor"/>
                     <meter xml:id="meter_3fa62038" sym="common"/>
-                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="perfMedium_1b187c34">
+                    <perfMedium xml:id="perfMedium_1b187c34">
                       <perfResList xml:id="perfResList_aeeefffc">
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" xml:id="perfResList_d134f560" n="perfResList_71da3fb0">
                           <head xml:lang="en" xml:id="head_74a6d23e_0_0_0_0_0_1">soli</head>
@@ -461,7 +461,7 @@
                     <tempo xml:id="tempo_76d4e8ab">[no tempo]</tempo>
                     <key xml:id="key_373190a6" pname="f" mode="dorian"/>
                     <meter xml:id="meter_f42e7bd8" count="3" unit="2"/>
-                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="perfMedium_73dd4990">
+                    <perfMedium xml:id="perfMedium_73dd4990">
                       <perfResList xml:id="perfResList_c8d11414">
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" xml:id="perfResList_758ef66a" n="perfResList_a272e085">
                           <head xml:lang="en" xml:id="head_3277247c_0_0_0_1">coro</head>
@@ -502,7 +502,7 @@
                     <tempo xml:id="tempo_3aa5460d">[no tempo]</tempo>
                     <key xml:id="key_765e821c" pname="f" mode="dorian"/>
                     <meter xml:id="meter_40dc3878" sym="common"/>
-                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="perfMedium_e2639419">
+                    <perfMedium xml:id="perfMedium_e2639419">
                       <perfResList xml:id="perfResList_bebcd335">
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" xml:id="perfResList_b50d1237" n="perfResList_a272e085">
                           <head xml:lang="en" xml:id="head_3277247c_0_0_0_0_1">coro</head>
