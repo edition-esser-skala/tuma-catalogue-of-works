@@ -3,10 +3,10 @@
 
 notes = \relative c' {
   \clef treble
-  \key c \major \time 4/4 \tempoMarkup "Allegro"
-  c'16^\markup \remark "clno 1" e d c c e d c g'8 g h a16 h
-  c8 h16 a g8 f e16 d e f e f g a
-  d, c d e
+  \key es \lydian \time 3/4 \tempoMarkup "[no tempo]"
+  es'4^\partVii d8 c b as
+  \set Staff.forceClef = ##t b'4^\partVi as8 g f es
+  d4. b8 es4
 }
 
 \score {

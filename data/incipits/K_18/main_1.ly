@@ -3,8 +3,10 @@
 
 notes = \relative c' {
   \clef treble
-  \key d \major \time 4/4 \tempoMarkup ""
-  d8^\partVi d' d,16 e32 fis g a h cis d8 d, d16 e32 fis g a h cis
+  \key g \major \time 4/4 \tempoMarkup "[no tempo]"
+  d'4~^\partVi d16 e fis g g,4. g'8
+  g,4~ g16 g' fis g g,4~ g16 g' a h
+  a d, d d c h h a \tuplet 3/2 8 { h a g } g'8 \tuplet 3/2 8 { h,16 a g } g'8
 }
 
 \score {
