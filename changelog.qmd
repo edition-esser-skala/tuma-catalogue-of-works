@@ -1,5 +1,98 @@
 # Changelog {.unnumbered}
 
+## 0.6.0 – 2024-09-14
+
+### Added
+
+- incipits for TumW D.3.8
+- metadata for TumW D.3.7/8
+- manual incipits for almost all works, since many incipits were previously missing in the catalogue
+- a new subgroup for Misereres (D.3)
+- reference Eybl 1996
+- acknowledgements for A-GÖ
+- information on the currently undiscoverable A-HE source for TumW H.19
+
+### Changed
+
+- Incipits for almost all sources (copies by Schmid) in D-Dl are now available. Thus, the sources previously summarized in TumW I.S1 and M.S2 could be assigned to their respective works.
+- Many works have been renumbered, reclassified, split, merged, or removed, as summarized in the following table (renumbering is not explicitly annotated).
+
+::: {.callout-note title="Details" collapse="true"}
+
+|old|new|notes|
+|-|-|-|
+|A.43|A.10|merged|
+|A.44|A.43||
+|A.45|A.44||
+|A.46|A.45||
+|A.47|A.46||
+|A.48|A.47||
+|A.49|A.15|merged|
+|A.50|A.S8||
+|A.51|A.S9||
+|A.52|A.48||
+|A.53|A.49||
+|A.54|A.50||
+|A.55|A.51||
+|A.56|A.52||
+|A.57|A.53||
+|A.58|A.54||
+|A.59|–|removed|
+|A.60|–|removed|
+|A.61|–|removed|
+|A.62|–|removed|
+|C.3.21|C.4.8||
+|C.3.22|C.3.21||
+|D.2.11|D.2.3|merged|
+|D.2.5|D.2.5 to 7|split|
+|D.2.6|D.2.8||
+|D.2.7|D.2.9||
+|D.2.8|D.2.10||
+|D.2.9|D.2.11||
+|D.2.10|D.2.12||
+|D.2.12|D.2.13||
+|D.2.13|D.2.14||
+|D.2.14|D.2.15||
+|D.2.15|D.2.16||
+|D.2.16|D.2.17||
+|D.2.17|D.3.1|new subgroup|
+|D.2.18|D.3.2||
+|D.2.19|D.3.3||
+|D.2.20|D.3.4||
+|D.2.21|D.3.5||
+|D.2.22|D.3.6||
+|D.2.23|D.3.7||
+|D.2.24|D.3.8||
+|D.2.25|D.3.9||
+|D.2.26|D.2.18||
+|D.3.x|D.4.x||
+|E.30|C.3.22||
+|F.1.6|–|removed|
+|H.21|H.S1||
+|J.17|J.19||
+|J.18|J.20||
+|K.16|J.17/18|split|
+|K.17|K.16||
+|K.18|K.17||
+|K.19|K.18||
+|K.20|K.19||
+|K.21|K.S1||
+|K.22|K.20||
+|M.3|M.2||
+|M.4|J.21||
+|M.5|M.3||
+|M.6|J.22||
+
+:::
+
+- Group D has been renamed (Vespers → Vespers and psalms).
+- technically equivalent to WerW v0.8.0
+
+### Removed
+
+- the catalogue in ODS format with incipits (`data/catalogue_works.ods`)
+
+
 ## 0.5.0 – 2024-08-09
 
 ### Added
