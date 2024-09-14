@@ -8,12 +8,12 @@ A,,6,Missa,,,,,,,,,,I/11559,,,,,,,,,,Masses 22,B1,35,A.I.33,,
 A,,7,Missa,,,,,A 11/60 | B 113/8,,,,,,,,,,,,,,,Masses 33,B2,58,A.I.45,,
 A,,8,Missa,,Wondratsch 638,"II,170",,,A 44/134,,I/10,,,,,,,,,,Mus.2968-D-503,,Masses 38,B3,60,A.I.51,@Riedel1979 [p. 104],only A-M source complete
 A,,9,Missa pro festivitate Sancti Leopoldi,,,,,B 113/5,,,,,,,,,,,,,,,Masses 51,B4,19,A.I.9,,
-A,,10,Missa,,,"II,171",,,B 12/316,,I/11,,,,,,,,,,Mus.2968-D-511,,Masses 15,B5,50,A.I.25,,A-H source lost
+A,,10,Missa,,Wondratsch 637,"II,171",,,B 12/316,M 459,I/11,,,,,,,,,,Mus.2968-D-511,,Masses 15/56,B5/D3,50,A.I.25/31,@Riedel1979 [p. 104],A-H source lost
 A,,11,Missa,,,,,B 113/6,,,,,,,,,,,,,,,Masses 17,B6,52,A.I.27,,
 A,,12,Missa Sanctae Elisabethae,,Wondratsch 626,"II,138",,,,,,,,1093,,,,XXXV B 3,XVI C 63,,,"A-Wps 42 | CH-E 297,3",Masses 18,B7,53,A.I.28,"@Mitterschiffthaler1979 [p. 236], @Riedel1979 [p. 103]",A-H source lost; CZ-Pkřiž old signature: 168
 A,,13,Missa,,,"II,143",,B 114/10,A 3/15,M 363,,,,,,,,,,,Mus.2968-D-502,,Masses 30,B8,57,A.I.42,"@Sherman2001 [p. 47, 338]",A-H source lost
 A,,14,Missa,,,"II,141",,,,,,,,,,,,,,,,,Masses 39,B9,21,A.I.d,,
-A,,15,Missa brevissima,,,"I,118",,B 113/2,B 39/570,,,,,,,,,,,,,,Masses 1,C1,7,A.I.2,,A-H source lost
+A,,15,Missa brevissima,,,"I,118",,B 113/2,B 39/570,M 457,,,,,,,,,,,,,Masses 1,C1,7,A.I.2,"@Sherman2001 [p. 47, 339]",A-H source lost
 A,,16,Missa Sancti Eustachii,,Wondratsch 630,"II,103",,B 113/3,,,,,,,,,,,,,,,Masses 37,C2,61,A.I.50,@Riedel1979 [p. 103],A-H source lost
 A,,17,Missa Sancti Mauri,,,,,,,,,,,,,(n.s.),,,,,,,Masses 61,C3,3,A.I.5,,
 A,,18,Missa Sancti Stephani,,Wondratsch 621,"II,14",,,,,,,I/27552,1094,Mus.Hs.18992,,,,,,,,Masses 34,C4,56,A.I.46,"@Mitterschiffthaler1979 [p. 236], @Riedel1979 [p. 102]",A-H source lost
@@ -41,26 +41,18 @@ A,,39,Missa Sancti Bertholdi / Bernardi,,,"I,185",,B 113/7,,,,,,,,,,,,,,,Masses 
 A,,40,Missa Sanctae Andreae,,,"II,139",,,,,,,,,,(n.s.),,XXXV E 140,,,,,Masses 25,C27,32,A.I.37,,A-H source lost; CZ-Pkřiž old signature: 1168
 A,,41,Missa Sanctae Elisabethae,,,,,,B 39/571,,,,,,,,1320,,,,Mus.2968-D-501,,Masses 52,D1,6,A.I.10,@Stefan1985 [p. 245],
 A,,42,Missa,,Wondratsch 631,,,,,,,,,,,,,,,,,,Masses 21,D2,28,A.I.32,@Riedel1979 [p. 103],
-A,,43,Missa,,Wondratsch 637,,,,,M 459,,,,,,,,,,,,,Masses 56,D3,,A.I.31,@Riedel1979 [p. 104],
-A,,44,Missa,,Wondratsch 635,,,,,,,,,,,,,,,,,,Masses 19,D4,54,A.I.29,@Riedel1979 [p. 104],
-A,,45,Missa Sancti Ambrosi,,,"II,136",,,B 39/575,,,,,,,,,,,,,CZ-Bm A 14819,Masses 32,D5,41,A.I.44,,A-H source presumably lost
-A,,46,Missa gratiastis,,,"II,111",,,C 11/678,,,,,,,,,,,,Mus.2968-D-505,,Masses 20,D14,55,A.I.30,,A-H source lost
-A,,47,Missa,,,,,,B 39/577,,,,,,,,,,,,,,Masses 24,D17,38,A.I.35,,
-A,,48,"Credo, Sanctus, Benedictus, Agnus",,,,,,B 39/574,,,,,,,,,,,,Mus.2968-D-510 | Mus.2968-D-516,,Masses 44,D19,39,A.I.36,,
-A,,49,Missa,,,,,,,M 457,,,,,,,,,,,,,,,,,"@Sherman2001 [p. 47, 339]",
-A,,50,Missa,,,,,,,,,,,,,,,,,,,D-Po Tuma 1,,,,,@Haberkamp1993 [p. 201],
-A,,51,Missa,,,,,,,,,,,,,,,,,,,D-Po Tuma 2,,,,,@Haberkamp1993 [p. 201],
-A,,52,Kyrie et Gloria,,,,,,,,,,,,,,1312,,,,,,,,,,@Stefan1985 [p. 240],
-A,,53,Kyrie et Gloria,,,,,,,,,,,,,,1316,,,,,,,,,,@Stefan1985 [p. 240],
-A,,54,Missa Cantate Domino,,,,,,,,,,,,,,1318,,,,,,,,,,@Stefan1985 [p. 243],
-A,,55,Missa de dono fortitudinis,,,,,,,,,,,,,,1321,,,,,,,,,,@Stefan1985 [p. 246],
-A,,56,Missa de dono Scientiae,,,,,,,,,,,,,,1324,,,,,,,,,,@Stefan1985 [p. 248],
-A,,57,Missa gaudii,,,,,,,,,,,,,,1325,,,,,,,,,,@Stefan1985 [p. 244],
-A,,58,"Sanctus, Benedictus, Agnus Dei",,,,,,,,,,,,,,1331a | 1331b,,,,,,,,,,@Stefan1985 [p. 251f],
-A,,59,Missa,,,,,,,,,,,,,,,,XXVIII E 160,,,,,,,,,
-A,,60,Missa,,,,,,,,,,,,,,,,XXVIII E 161,,,,,,,,,
-A,,61,Missa,,,,,,,,,,,,,,,,XXVIII E 162,,,,,,,,,
-A,,62,Missa,,,,,,,,,,,,,,,,XXVIII E 163,,,,,,,,,
+A,,43,Missa,,Wondratsch 635,,,,,,,,,,,,,,,,,,Masses 19,D4,54,A.I.29,@Riedel1979 [p. 104],
+A,,44,Missa Sancti Ambrosi,,,"II,136",,,B 39/575,,,,,,,,,,,,,CZ-Bm A 14819,Masses 32,D5,41,A.I.44,,A-H source presumably lost
+A,,45,Missa gratiastis,,,"II,111",,,C 11/678,,,,,,,,,,,,Mus.2968-D-505,,Masses 20,D14,55,A.I.30,,A-H source lost
+A,,46,Missa,,,,,,B 39/577,,,,,,,,,,,,,,Masses 24,D17,38,A.I.35,,
+A,,47,"Credo, Sanctus, Benedictus, Agnus",,,,,,B 39/574,,,,,,,,,,,,Mus.2968-D-510 | Mus.2968-D-516,,Masses 44,D19,39,A.I.36,,
+A,,48,Kyrie et Gloria,,,,,,,,,,,,,,1312,,,,,,,,,,@Stefan1985 [p. 240],
+A,,49,Kyrie et Gloria,,,,,,,,,,,,,,1316,,,,,,,,,,@Stefan1985 [p. 240],
+A,,50,Missa Cantate Domino,,,,,,,,,,,,,,1318,,,,,,,,,,@Stefan1985 [p. 243],
+A,,51,Missa de dono fortitudinis,,,,,,,,,,,,,,1321,,,,,,,,,,@Stefan1985 [p. 246],
+A,,52,Missa de dono Scientiae,,,,,,,,,,,,,,1324,,,,,,,,,,@Stefan1985 [p. 248],
+A,,53,Missa gaudii,,,,,,,,,,,,,,1325,,,,,,,,,,@Stefan1985 [p. 244],
+A,,54,"Sanctus, Benedictus, Agnus Dei",,,,,,,,,,,,,,1331a | 1331b,,,,,,,,,,@Stefan1985 [p. 251f],
 A,,L1,Missa Sanctae Elisabethae,,,"I,137",,,,,,,,,,,,,,,,,Masses 57,D6,12,A.I.a,,
 A,,L2,Missa,,,"II,142",,,,,,,,,,,,,,,,,Masses 40,D7,22,A.I.e,,
 A,,L3,Missa oblata,,,"I,115",,,,,,,,,,,,,,,,,Masses 49,D8,18,A.I.c,,
@@ -79,6 +71,8 @@ A,,S4,Missa,,Wondratsch 639,,,,,,I/41,,,,,,,,,,,,Masses 29,E4,43,A.I.41,@Riedel1
 A,,S5,Missa,,Wondratsch 640,"II,151",,,,,I/44,,,,,,,,,,,,Masses 9,E5,48,A.I.19,@Riedel1979 [p. 105],A-H and A-M sources attributed to Zechner
 A,,S6,Missa Sicut Lilium,,,"I,107 | I,76",,,,,,,,,,,,,,,,,Masses 54,E6,17,A.I.b,@Opatrny2012 [p.185ff],"A-H source I,107 lost, other source attributed to Öttl (thematic catalogue no. A/I/26)"
 A,,S7,Missa,,,,VIII a 6,,,,,,,,,,,,,,,A-Wps 43,,,,,,A-HE source attributed to Zechner
+A,,S8,Missa,,,,,,,,,,,,,,,,,,,D-Po Tuma 1,,,,,@Haberkamp1993 [p. 201],
+A,,S9,Missa,,,,,,,,,,,,,,,,,,,D-Po Tuma 2,,,,,@Haberkamp1993 [p. 201],
 B,,1,Messa della morte,,,(n.s.),,,D 41/11,,,,,,Mus.Hs.16934 | HK.793,,,,,,Mus.2968-D-504,CZ-Bu RKPMus-0538.954,Masses 45,C13,,A.I.52,,HK.793* wrongly attributed to Reutter
 B,,2,Requiem,,,,,B 571/1,,,,,,,,,,,,,,,Masses 66,A1,,A.I.53,,
 C,1,1,Alleluia,,,,,(n.s.),,,,,,,,,,,,,,,Graduals 1,,,A.II.1,,
