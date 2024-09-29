@@ -21,13 +21,13 @@ A,,19,Missa Sancti Joannis Evangelistae,,,,,,,,,,,,E 3/24,953 | 1322,,,,,,Masses
 A,,20,Missa Veni Pater pauperum,,,,,,,,,,,,(n.s.),,,,,,,Masses 65,C6,4,A.I.6,,
 A,,21,Missa consolator optime,,,,,,,,,,,,(n.s.),,,,,,,Masses 43,C7,2,A.I.4,,
 A,,22,Missa Auxilium meum,,,,,,,,,,,,(n.s.),,,,,,,-,C8,5,,,
-A,,23,Missa all’Onor e Preggio del Patriarcha,Wondratsch 629,"I,49",VIII a 5 [600090623],,,M 458,,E-VII 3 f,,,,(n.s.),,XXXV B 19,,,,D-OB MO 811,Masses 53,C9,1,A.I.1,"@Riedel1979 [p. 103], @Sherman2001 [p. 47, 339]",A-H source lost; CZ-Pkřiž old signature: 1612
+A,,23,Missa all’Onor e Preggio del Patriarcha,Wondratsch 629,"I,49",VIII a 5 [600090623],,,M 458,,E VII 3 f,,,,(n.s.),,XXXV B 19,,,,D-OB MO 811,Masses 53,C9,1,A.I.1,"@Riedel1979 [p. 103], @Sherman2001 [p. 47, 339]",A-H source lost; CZ-Pkřiž old signature: 1612
 A,,24,Missa Sancti Thomas,Wondratsch 619,"II,112",,,,M 397,,,,,,(n.s.),1329,XXXV E 141,,,,,Masses 13,C10,27,A.I.23,"@Riedel1979 [p. 102], @Sherman2001 [p. 47, 339], @Stefan1985 [p. 250]",A-H source lost; CZ-Pkřiž old signature: 1205
 A,,25,Missa patientiae,,,(n.s.),,,,,,,,,(n.s.),,,,,,,Masses 50,C11,20,A.I.16,,A-HE source only comprises Benedictus
 A,,26,Missa tibi soli,,,,,,,,,I/1997,,,(n.s.),,,,,,,Masses 6,C12,11,A.I.13,,
 A,,27,Missa Sanctae Theresae / Andreae,Wondratsch 620,"I,52",,B 113/4,B 39/573,M 412,,E VII 3 e,,,,,,,,,,D-OB MO 809,Masses 3,C14,23,A.I.7,"@Riedel1979 [p. 102], @Sherman2001 [p. 47, 339]",A-H source lost
 A,,28,Missa Sancti Antonii,,,III a,,,,,,,,Mus.Hs.19009,,,159,XVI C 66 | XVI C 62,,,PL-WRu 62505Muz.,Masses 12,C15,29,A.I.22,,CZ-Pkřiž source lost
-A,,29,Missa,Wondratsch 622,"I,51",,,,,,F XXIV/14,,,,,,,,,,D-OB MO 810,Masses 2,C16,14,A.I.3,@Riedel1979 [p. 102],A-H source lost
+A,,29,Missa,Wondratsch 622,"I,51",,,,,,F XXIV 14,,,,,,,,,,D-OB MO 810,Masses 2,C16,14,A.I.3,@Riedel1979 [p. 102],A-H source lost
 A,,30,Missa Sancti Placidi / Offertoria,Wondratsch 623,"I,108",,,,,,,,,,,,,,,,,Masses 4,C17,15,A.I.8,@Riedel1979 [p. 102],A-H source lost
 A,,31,Missa Sancti Mauri,Wondratsch 624,,,,,,,,,,,,1323,,,,,,Masses 62,C18,16,A.I.14,"@Riedel1979 [p. 102], @Stefan1985 [p. 247]",
 A,,32,Missa Sanctae Elisabethae,Wondratsch 632,"II,109",,,B 39/572,M 456,,,,1092,,Fonds Doppler 231,1327,XXXV B 9,VIII E 246 | XLIII D 100,,Mus.2968-D-507,CZ-Pk A-I-R 1117 | CZ-Bm A 14652,Masses 35,C19,44,A.I.47,"@Mitterschiffthaler1979 [p. 236], @Riedel1979 [p. 103], @Sherman2001 [p. 47, 338f], @Stefan1985 [p. 250]",A-H source lost
@@ -117,11 +117,12 @@ C,4,6,Perfice gressus meos,,,,,,,,,,,,,,,X E 235 | XVI C 69 | XLVI A 268,,,CZ-Pu
 C,4,7,Confitebor,,,,,,,,,,,,,,,XVI C 70 | XLVI A 338 (1),,,,,,,,,
 C,4,8,Improperium exspectavit,,,,,,,,,,,,,,,XVI C 68 | XLVI A 338 (2) | XLVI A 273,,,CZ-LIT 168,,,,,,
 D,1,1,Vesperae de Confessore,Wondratsch 2117,,,B 351/1a,,,,,,,Mus.Hs.15726,,1595,XXXV E 138,XX D 560,,,,Vespers 24,,,A.III.8,"@Riedel1979 [p. 332], @Stefan1985 [p. 377]",CZ-Pkřiž old signature: 1034
-D,1,2,Vesperae de Beatissima Maria Virgine,Wondratsch 2118,,,B 351/1b,E 26/172,582,,,,,,,,,,,,D-OB MO 815 | H-P C 25,Vespers 27,,,A.III.9,@Riedel1979 [p. 332],
+D,1,2,Vesperae de Beatissima Maria Virgine,Wondratsch 2118,,,B 351/1b,E 26/172,582,,E XXII 9 b | E XXII 9 c,,,,,,,,,,D-OB MO 815 | H-P C 25,Vespers 27,,,A.III.9,@Riedel1979 [p. 332],
 D,1,3,Vesperae de Dominica et Confessore,,,,,,583,,,,,Mus.Hs.15727,,,,,,,"H-Gk AMC, T. 9.",Vespers 25,,,A.III.12,,
 D,1,4,Vesperae de Confessore,,,,,E 11/31 | E 12/38,,,,,,Mus.Hs.15728,,,,,,Mus.2968-D-508,,Vespers 26,,,A.III.13,,A-KR E 11/31 attributed to Ehrenhardt
 D,1,5,Vesper (Domine probasti me),,,,B 351/1d,,,,,,,,,,,,,,,Vespers 28,,,A.III.14,,
 D,1,L1,Vesper,,,,,,,,,,,,,,,,,,PL-CZ II-364,,,,,,only title page available
+D,1,S1,Vesperae de Dominica et Beata,,,,,,,,E XXII 9 a,,,,,,,,,,,,,,,,by Reutter (HofR 110/16)
 D,2,1,Benedictus,,,,,,,,,I/1693,,,,,,,,,,Vespers 1,,,A.III.1,,
 D,2,2,Confitebor,,,,,,,,,,,Mus.Hs.15677,,,,,,,,Vespers 2,,,A.III.2,,
 D,2,3,Confitebor / Lauda Jerusalem,,,VIII b 3 [600090617],,,,,,,,Mus.Hs.15687,,,,,,,,Vespers 4/11,,,A.III.3/16,,
@@ -131,7 +132,7 @@ D,2,6,Ecce nunc benedicite,,,,,,,,,(n.s.),,Mus.Hs.19194/2,,,,,,,,Vespers 5,,,A.I
 D,2,7,Nunc dimittis,,,,,,,,,(n.s.),,Mus.Hs.19194/3,,,,,,,,Vespers 5,,,A.III.5,,
 D,2,8,De profundis,,,,,,,,,,,Mus.Hs.15724/1,,,,,,,,Vespers 7,,,A.III.6,,
 D,2,9,De profundis,,,,,,,,,,,Mus.Hs.15723,,,,,,Mus.2968-E-500,,Vespers 6,,,A.III.7,,
-D,2,10,Dixit Dominus,Wondratsch 2119,,,,,,,,,,Mus.Hs.15680,,,,,,,,Vespers 9,,,A.III.10,@Riedel1979 [p. 332],
+D,2,10,Dixit Dominus,Wondratsch 2119,,,,,,,E XV 2 a IV (2),,,Mus.Hs.15680,,,,,,,,Vespers 9,,,A.III.10,@Riedel1979 [p. 332],A-SEI also contains trb 1/2 of another Dixit
 D,2,11,Dixit Dominus,,,,,,,,,,,Mus.Hs.15679,,,,,,,,Vespers 8,,,A.III.11,,
 D,2,12,Laetatus sum,,,,,,,,,,,Mus.Hs.15688/2,,,,,,,,Vespers 10,,,A.III.15,,
 D,2,13,Laudate Deum,,,,B 351/1c,,,,,,,,,,,,,,,Vespers 29,,,A.III.17,,
@@ -140,13 +141,14 @@ D,2,15,Laudate pueri,,,,,,,,,,,Mus.Hs.15689,,1313,,,,,,Vespers 13,,,A.III.19,@St
 D,2,16,Memento,,,,,,,,,,,Mus.Hs.15699,,,,,,,,Vespers 21,,,A.III.20,,
 D,2,17,Memento,,,,,,,,,,,Mus.Hs.15700 | Mus.Hs.15724/2,,,,,,,,Vespers 22,,,A.III.21,,
 D,2,18,Nisi Dominus,,,,,,,,,,,Mus.Hs.15722,,,,,,,,Vespers 23,,,A.III.29,,
-D,3,1,Miserere,Wondratsch 2587,,,,,,,,,,,,,,,Mus.ms. 22104/2 | Mus.ms. 30284,,D-OB MO 808,Vespers 14,,,A.III.22,@Riedel1979 [p. 410],
+D,2,S1,Dixit Dominus,,,,,,,,E XV 2 a IV (1),,,,,,,,,,,,,,,,by Schmidt (see RISM 600198037)
+D,3,1,Miserere,Wondratsch 2587,,,,,,,E XVII 1 c I,,,,,,,,Mus.ms. 22104/2 | Mus.ms. 30284,,D-OB MO 808,Vespers 14,,,A.III.22,@Riedel1979 [p. 410],
 D,3,2,Miserere,,,,,,,,,I/1693,,,,,,,,,,Vespers 15,,,A.III.23,,
 D,3,3,Miserere,Wondratsch 2589,,,,,,,,,,,,,,,,,,Vespers 16,,,A.III.24,@Riedel1979 [p. 410],
 D,3,4,Miserere,,,,,F 21/12,,III/56,,I/1709,,,,,XXXV E 156,,,,,Vespers 17,,,A.III.25,,CZ-Pkřiž old signature: 2561
 D,3,5,Miserere,,,,,,,III/55,,,,,,1314,XXXV E 157,XVI C 73,,,,Vespers 18,,,A.III.26,@Stefan1985 [p. 241],CZ-Pkřiž old signature: 2582
 D,3,6,Miserere,Wondratsch 2588,,,,,,,,,,SA.67.H.4,,,,,Mus.ms. 22104 | Mus.ms. 22104/1,Mus.2968-D-506,D-MÜs SANT Hs 4195 | A-Ee N1447 | A-Ee N1448,Vespers 19,,,A.III.27,"@Kiesewetter1847 [p. 84], @Riedel1979 [p. 410]",A-Ee sources not reviewed
-D,3,7,Miserere,Wondratsch 2590,,,,,,,,,,Mus.Hs.15701,,,,,,Mus.2968-D-500 ,"H-Gk AMC, T. 7. | D-OB MO 807",Vespers 20,,,A.III.28,@Riedel1979 [p. 410],
+D,3,7,Miserere,Wondratsch 2590,,,,,,,E XVII 1 c II,,,Mus.Hs.15701,,,,,,Mus.2968-D-500 ,"H-Gk AMC, T. 7. | D-OB MO 807",Vespers 20,,,A.III.28,@Riedel1979 [p. 410],
 D,3,8,Miserere,,,,,,,,,,,,,,,,,,I-Bc KK.239 ,,,,A.III.a,,
 D,3,9,Miserere,,,,,,,,,,,,,1311 | 1315,,,,,,,,,,@Stefan1985 [p. 240f],
 D,4,1,Magnificat,,,,,,,,,,,Mus.Hs.15697,,,XXXV E 139,,,,,Magnificats 1,,,A.X.1,,CZ-Pkřiž old signature: 1042
