@@ -4,7 +4,7 @@
 notes = \relative c' {
   \clef soprano
   \key f \dorian \time 4/4 \autoBeamOff \tempoMarkup "Grave"
-  c'2 c
+  c'2^\partSc c
   c8[ des c b] as[ b as g]
   f2 g4 c~
   c c c h
