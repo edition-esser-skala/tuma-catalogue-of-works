@@ -11,6 +11,12 @@ params <- read_yaml("script/config.yml")
 cols_identifiers <-
   params$catalogue_columns$identifiers %>%
   list_simplify()
+catalogue_prefix <- params$catalogue_prefix
+
+work_page_names <-
+  read_csv("data/catalogue_overview.csv") %>%
+  distinct(group, file) %>%
+  deframe()
 
 
 
@@ -28,8 +34,6 @@ WORK_TEMPLATE_DETAILED <- '
 ::: {{.callout-note collapse="true" .column-page-right}}
 # Details
 
-{work_description}
-
 Identification
 : {identifiers}
 
@@ -44,8 +48,9 @@ Genre
 Place and date of composition
 : {creation}
 
-Bibliography
-: {bibliography}
+{bibliography}
+
+{work_description}
 
 ### Music
 {movements}
@@ -127,7 +132,28 @@ SUBTITLE_TEMPLATE <- "[{title}]{{.other-title}}"
 # add an attribute "markdown_text" to each XML node with rich text,
 # which contains the node contents with markdown formatting instead
 # of the MEI formatting nodes
+# add hyperlinks when referencing other works or RISM entries
 format_mei_text <- function(xml_data) {
+  pattern_work <- paste(catalogue_prefix, "([A-Z])(\\.[\\dSL]+)?(\\.[\\dSL]+)")
+  pattern_rism <- "RISM (\\d+)"
+
+  link_work <- function(s) {
+    ref <- str_match(s, pattern_work)[1,]
+    link_text <- ref[1]
+    group <- ref[2]
+    work_id <- str_flatten(ref[-1], na.rm = TRUE)
+
+    str_glue(
+      "[{link_text}]",
+      "(/groups/{work_page_names[group]}.qmd#work-{work_id})"
+    )
+  }
+
+  link_rism <- function(s) {
+    ref <- str_match(s, pattern_rism)[1,]
+    use_template(RISM_TEMPLATE, label = ref[1], rism_id = ref[2])
+  }
+
   xpath <-
     c(
       "//d1:titlePage",
@@ -149,7 +175,9 @@ format_mei_text <- function(xml_data) {
           "<lb/>" = "<br/>",
           "<rend fontstyle=\"italic\">(.+?)</rend>" = "<i>\\1</i>",
           "<rend rend=\"underline\\(2\\)\">(.+?)</rend>" = "<u>\\1</u>"
-        ))
+        )) %>%
+        str_replace_all(pattern_work, link_work) %>%
+        str_replace_all(pattern_rism, link_rism)
       xml_set_attr(n, "markdown_text", new_text)
     }
   )
@@ -339,19 +367,60 @@ format_creation <- function(c) {
 # format bibliography (PanDoc style)
 format_bibliography <- function(b) {
   if (is.null(b))
-    return("–")
+    return("")
 
-  res <-
-    map_chr(
-      names(b) %>% str_which("bibl"),
-      \(i) attr(b[[i]]$ref, "target")
-    ) %>%
-    str_sort() %>%
-    str_flatten_comma()
-  if (res == "")
-    res <- "–"
+  entries_ref <-
+    b %>%
+    keep(\(x) !is.null(x$genre) && x$genre == "reference") %>%
+    map_chr(\(i) attr(i$ptr, "target")) %>%
+    str_sort()
 
-  res
+  entries_score <-
+    b %>%
+    keep(\(x) !is.null(x$genre) && x$genre == "score") %>%
+    map_chr(\(i) {
+      imprint <-
+        c(i$imprint$publisher, i$imprint$pubPlace, i$imprint$date) %>%
+        str_flatten_comma()
+
+      if (is.null(i$editor))
+        editor <- NA
+      else
+        editor <- paste("Edited by", i$editor)
+
+      if (is.null(i$ptr))
+        url <- NA
+      else
+        url <- str_glue("[{attr(i$ptr, 'label')}]({attr(i$ptr, 'target')})")
+
+      c(i$composer, i$title, editor, i$identifier, imprint, url) %>%
+        str_flatten(". ")
+    })
+
+  str_flatten(
+    c(
+      if_else(
+        length(entries_ref) > 0,
+        paste("Bibliography\n:", str_flatten_comma(entries_ref)),
+        ""
+      ),
+      if_else(
+        length(entries_score) > 0,
+        paste("Editions\n:", str_flatten(entries_score, "<br/>")),
+        ""
+      )
+    ),
+    "\n\n"
+  )
+}
+
+# format work description
+format_work_description <- function(n) {
+  notes <- attr(n[[1]], "markdown_text")
+  if (is.null(notes))
+    ""
+  else
+    paste("Notes\n:", notes)
 }
 
 # format a section of a movement
@@ -579,7 +648,6 @@ get_work_details <- function(group, subgroup, number) {
   data_work$notesStmt <-
     data_work$notesStmt %>%
     keep(\(annot) attr(annot, "type") == "general_description")
-  work_description <- attr(data_work$notesStmt[[1]], "markdown_text") %||% ""
 
   identifier_indices <-
     names(data_work) %>%
@@ -607,6 +675,8 @@ get_work_details <- function(group, subgroup, number) {
 
   bibliography <- format_bibliography(data_work$biblList)
 
+  work_description <- format_work_description(data_work$notesStmt)
+
   info("  movements")
   movements <-
     map_chr(data_movements, \(m) format_movement(m, work_id)) %>%
@@ -626,23 +696,25 @@ get_work_details <- function(group, subgroup, number) {
     title = title,
     incipits = incipits,
     sources_short = sources_short,
-    work_description = work_description,
     identifiers = identifiers,
     work_scoring = work_scoring,
     roles = roles,
     genre = genre,
     creation = creation,
     bibliography = bibliography,
+    work_description = work_description,
     movements = movements,
     sources = sources,
     work_id = work_id
   )
 }
 
+
+
+# Testing -----------------------------------------------------------------
+
+# data <- read_xml("data/works_mei/D_3_7.xml")
 # get_work_details("B", NA, "46")
 # get_work_details("D", "1", "1")
-# get_work_details("D", "1", "2")
-# get_work_details("D", "1", "3")
-# get_work_details("D", "1", "4")
 # get_work_details("I", "4", "54")
 # get_work_details("Q", NA, "2")
