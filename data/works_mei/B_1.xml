@@ -51,6 +51,7 @@
     <workList xml:id="workList_4826e601">
       <work xml:id="work_829f001a">
         <identifier xml:id="identifier_dca83b92" label="TumW">B.1</identifier>
+        <identifier label="BalTh" xml:id="identifier_ec6746dc">B.X</identifier>
         <identifier label="KlinCh" xml:id="identifier_3c21db4b">Masses 45</identifier>
         <identifier label="PesMa" xml:id="identifier_c58e46ee">C 13</identifier>
         <identifier label="VogIn" xml:id="identifier_c3b22dab">A.I.52</identifier>
@@ -69,13 +70,14 @@
         </langUsage>
         <biblList xml:id="biblList_2b58f005">
           <head xml:id="head_4c9e6fa3">Bibliography</head>
-          <bibl xml:id="bibl_5f251977">
-            <ref target="@Eybl1996 [p. 58]" label=""/>
+          <bibl xml:id="bibl_d4e71">
+            <genre>reference</genre>
+            <ptr target="@Eybl1996 [p. 58]" targettype="pandoc-citation" xml:id="ptr_d6e73"/>
           </bibl>
         </biblList>
         <classification xml:id="classification_fa525b5a">
           <termList xml:id="termList_4ea253dd">
-            <term xml:id="term_a8328077">Requiem</term>
+            <term xml:id="term_a8328077">requiem</term>
           </termList>
         </classification>
         <expressionList xml:id="expressionList_2946a3c4">
@@ -1461,12 +1463,13 @@
                 <corpName xml:id="corpName_846482df" role=""/>
                 <geogName xml:id="geogName_9df85ba2" role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info" xml:id="identifier_6df8d4e4">D-Dl</identifier>
+                <ptr target="https://digital.slub-dresden.de/id1888233699" mimetype="" label="digitized version" xml:id="ptr_d6e381"/>
               </repository>
               <identifier xml:id="identifier_df85d601">Mus.2968-D-504</identifier>
             </physLoc>
             <notesStmt xml:id="notesStmt_d1fba3ad">
               <annot type="source_description" xml:id="annot_4f7afdc8">
-                <p>full score copied by Otto Schmid</p>
+                <p>full score from the collection of Otto Schmid</p>
                 <p>catalogued according to RISM entry</p>
               </annot>
             </notesStmt>
