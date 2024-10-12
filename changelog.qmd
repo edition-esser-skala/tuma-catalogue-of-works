@@ -1,5 +1,26 @@
 # Changelog {.unnumbered}
 
+## 0.7.0 – 2024-10-12
+
+### Added
+
+- works: TumW A.55–57/L12–14, C.3.L1/2, C.4./L1, D.1.S1, D.2.S1, F.1.6/7, F.3.L1/2, H.L1, I.4, K.21/L1-3, L.L2–5H.1/8/16, and I.3
+- incipits for TumW A.10/12, D.1.4, and G.5
+- metadata for TumW A.10/12, D.1.4, and G.5
+- short incipits for TumW A.55-57/L12-14, C.3.L1/2, C.4.L1, F.1.6/7, F.3.L1/2, H.1/8/16/L1, I.3, K.21/L1-3, and L.L2-5
+- references: Ball 1900, Bartos 2013, Bartos 2018, Brown 1996, Brtnice Inventory, Eybl 2011, Freeman 1992, Haberkamp 1986, MacIntyre 1984, Oppova 2013, Rajhrad Inventory A and B, Rampackova 2009, Sanders 1973, Schröder 1991, Slavicky 2004, Strakova 1963, 1965, Tichy 2014, and Tichy 2014b
+- sources:
+  - A-SEI: E XV 2 a IV (1) and (2), E XVII 1 c I and II, E XXII 9 a, b and c
+  - H-P: C 25
+- acknowledgements for A-SEI, A-WIL, A-Wps, and H-P
+
+### Changed
+
+- Within subgroup D.2, the following works have been renumbered: 3 → 11, 4/5 → 3/4, 6 → 9, 7 → 18, 8–11 → 5–8, 12 → 10, and 13–18 → 12–17.
+- Subgroup F.3 has been renumbered to F.4, since two (lost) *Regina coeli* have been added.
+- technically equivalent to WerW v0.9.0
+
+
 ## 0.6.0 – 2024-09-14
 
 ### Added
