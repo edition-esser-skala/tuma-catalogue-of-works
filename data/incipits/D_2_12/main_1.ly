@@ -1,23 +1,17 @@
 \version "2.24.2"
 \include "header.ly"
 
-notes = \relative c' {
-  \clef soprano
-  \key g \major \time 4/4 \autoBeamOff
-  r4^\partSs r8 d' h16[ c h c] d[ e d e]
-  g,[ a g a] h[ c h c] d[ e d e] c[ h] c[ d]
-  h4 r r2
-}
-
-text = \lyricmode {
-  Lae -- ta -- _
-  _ _ _ _ tus
-  sum
+notes = \relative c {
+  \clef bass
+  \key c \dorian \time 4/4 \autoBeamOff
+  g'4.^\partOrg c8 b4 a
+  g4 r g h,
+  c r c f
+  b, r
 }
 
 \score {
   <<
     \new Voice = "incipit" { \notes }
-    \new Lyrics \lyricsto "incipit" { \text }
   >>
 }

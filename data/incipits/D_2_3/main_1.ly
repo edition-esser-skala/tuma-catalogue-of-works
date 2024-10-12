@@ -2,17 +2,17 @@
 \include "header.ly"
 
 notes = \relative c' {
-  \clef treble
-  \key a \major \time 4/4 \tempoMarkup "Andante"
-  e'16 fis e fis d e d e cis d cis d h cis h cis \gotoBar "5"
-  \clef tenor \autoBeamOff e,16[^\partTs fis] e[ fis] d[ e] d[ e] cis[ d] cis[ d] h[ cis] h[ cis]
-  a8 h16[ cis] d8 cis16[ h] \clef soprano e'16[^\partSs fis] e[ fis] d[ e] d[ e]
+  \clef tenor
+  \key d \minor \time 4/4 \autoBeamOff
+  d4^\partTs cis d8 a b a16[ g]
+  a8. d,16 d8 d g16[ a] b8 b a16[ g]
+  f[ e] d8 r4 r2
 }
 
 text = \lyricmode {
-  \skips 16
-  Con -- fi -- te -- bor, con -- fi -- te -- bor
-  ti -- bi, ti -- bi, con -- fi -- te -- bor
+  Con -- fi -- te -- bor ti -- bi
+  Do -- mi -- ne in to -- to cor -- de
+  me -- o
 }
 
 \score {

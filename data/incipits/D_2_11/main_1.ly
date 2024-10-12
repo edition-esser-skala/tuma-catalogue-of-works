@@ -3,18 +3,16 @@
 
 notes = \relative c' {
   \clef treble
-  \key c \major \time 4/4 \autoBeamOff \tempoMarkup "Allegro"
-  << { g''8^\partClni e16 g f e f d } \\ { e8 c16 e d c d h } >>
-    \clef alto g4^\partAs e
-  a8. a16 g4 a8 g16 a f4
-  e \autoBeamOn \clef treble e'16^\partVi c c'8 \appoggiatura c h4 r
-  r16 a b a f d d'8 \appoggiatura d c4 r
+  \key a \major \time 4/4 \tempoMarkup "Andante"
+  e'16 fis e fis d e d e cis d cis d h cis h cis \gotoBar "5"
+  \clef tenor \autoBeamOff e,16[^\partTs fis] e[ fis] d[ e] d[ e] cis[ d] cis[ d] h[ cis] h[ cis]
+  a8 h16[ cis] d8 cis16[ h] \clef soprano e'16[^\partSs fis] e[ fis] d[ e] d[ e]
 }
 
 text = \lyricmode {
-  Di -- xit
-  Do -- mi -- nus Do -- mi -- no me --
-  o,
+  \skips 16
+  Con -- fi -- te -- bor, con -- fi -- te -- bor
+  ti -- bi, ti -- bi, con -- fi -- te -- bor
 }
 
 \score {
