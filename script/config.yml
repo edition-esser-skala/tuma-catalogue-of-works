@@ -29,6 +29,7 @@ catalogue_columns:
   # values: their references (empty string if no reference should be linked)
   identifiers:
     TumW: ""
+    BalTh: Ball1900
     KliCh: Klinka1975
     PesMa: Peschek1956
     ReiMa: Reichert1935
