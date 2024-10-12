@@ -3,8 +3,8 @@
 
 notes = \relative c' {
   \clef alto
-  \key e \minor \time 2/2 \autoBeamOff
-  e4.^\partAc e8 fis4 g8[ a]
+  \key e \minor \time 4/4 \tempoMarkup "Adagio" \autoBeamOff
+  e4^\partAc e fis g8[ a]
   \clef soprano h4^\partSc h cis d8[ e]
   d h e2 d4~
   d c2 h8[ a]
