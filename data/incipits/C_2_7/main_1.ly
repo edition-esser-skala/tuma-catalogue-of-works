@@ -3,17 +3,19 @@
 
 notes = \relative c' {
   \clef alto
-  \key g \minor \time 4/4 \tempoMarkup "Tempo moderato"
-  d4^\partTrbi g8. a16 fis8 g es8.\trill es16
-  d4 r8 g~ g16 fis a g fis es! d c \gotoBar "7"
-  b b' a g fis8.\trill g16 \set Staff.forceClef = ##t \clef alto \autoBeamOff d4^\partAs g8. a16
-  fis8 g es8. es16 d4 r8 g
+  \key c \dorian \time 4/4 \tempoMarkup "Larghetto"
+  g'8^\partTrbi es16 d c8 as' g es16 d c8 as'
+  g16 g f es f f es d es4 \gotoBar "7"
+    \set Staff.forceClef = ##t \clef alto \autoBeamOff g^\partAc
+  as2~ as8 d, g f
+  e8. e16 f8 f f4 es?
 }
 
 text = \lyricmode {
-  \skips 22
-  Re -- gis su -- %7
-  per -- ni nun -- ti -- a "do -"
+  \skips 19
+  Pla -- %7
+  ca -- re, Chri -- ste,
+  ser -- vu -- lis, pla -- ca -- re
 }
 
 \score {

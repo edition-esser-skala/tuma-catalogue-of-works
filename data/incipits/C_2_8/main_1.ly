@@ -2,20 +2,27 @@
 \include "header.ly"
 
 notes = \relative c' {
-  \clef alto
-  \key c \dorian \time 4/4 \tempoMarkup "Larghetto"
-  g'8^\partTrbi es16 d c8 as' g es16 d c8 as'
-  g16 g f es f f es d es4 \gotoBar "7"
-    \set Staff.forceClef = ##t \clef alto \autoBeamOff g^\partAc
-  as2~ as8 d, g f
-  e8. e16 f8 f f4 es?
+  \clef soprano
+  \key c \major \time 2/2 \autoBeamOff
+  h'2^\partSc c
+  c h
+  c1
+  c2 e
+  d1
+  e
+  e2 e
+  d
 }
 
 text = \lyricmode {
-  \skips 19
-  Pla -- %7
-  ca -- re, Chri -- ste,
-  ser -- vu -- lis, pla -- ca -- re
+  Pan -- ge
+  lin -- _
+  gua
+  glo -- ri --
+  o --
+  si
+  cor -- po --
+  ris
 }
 
 \score {

@@ -1,18 +1,18 @@
 \version "2.24.2"
 \include "header.ly"
 
-notes = \relative c' {
-  \clef alto
-  \key f \major \time 4/4 \autoBeamOff
-  r8^\partAs c f4 e8 g a a
-  g f16[ e] f8 e16[ d] c4 r
-  R1
-  r8 a'16[ g] f[ e] d[ c] h[ a] h8 d4
+notes = \relative c {
+  \clef bass
+  \key b \major \time 6/8 \autoBeamOff
+  b'8^\partBs a16[ g] f[ es] d8.[ es16] d[ es]
+  f8 b, r r4 r8
+  r b' d c16[ b a g] f8
+  b16[ a] g[ f] e[ g] a8 f, r
 }
 
 text = \lyricmode {
-  In -- vie -- tus, in -- vie -- tus
-  he -- ros nu -- mi -- nis
+  Iam fa -- sces li -- ctor
+  fe -- rat
 }
 
 \score {

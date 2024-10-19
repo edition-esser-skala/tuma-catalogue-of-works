@@ -2,16 +2,22 @@
 \include "header.ly"
 
 notes = \relative c' {
-  \clef bass
-  \key a \major \time 4/4
-  a4.^\partOrg gis8 fis e r e
-  d4 e8 e, \clef treble e'''^\partVi gis16 a h, a' gis h,
-  a cis fis fis gis, fis' e g, fis a d d e, d' cis e,
+  \clef alto
+  \key f \major \time 4/4 \autoBeamOff
+  r8^\partAs c f4 e8 g a a
+  g f16[ e] f8 e16[ d] c4 r
+  R1
+  r8 a'16[ g] f[ e] d[ c] h[ a] h8 d4
+}
 
+text = \lyricmode {
+  In -- vie -- tus, in -- vie -- tus
+  he -- ros nu -- mi -- nis
 }
 
 \score {
   <<
     \new Voice = "incipit" { \notes }
+    \new Lyrics \lyricsto "incipit" { \text }
   >>
 }
