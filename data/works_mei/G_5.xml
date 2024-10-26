@@ -68,9 +68,9 @@
         </langUsage>
         <biblList xml:id="biblList_57a57f09">
           <head xml:id="head_2c361531">Bibliography</head>
-          <bibl>
+          <bibl xml:id="bibl_d4e67">
             <genre>reference</genre>
-            <ptr target="@Riedel1979 [p. 282]" targettype="pandoc-citation"/>
+            <ptr target="@Riedel1979 [p. 282]" targettype="pandoc-citation" xml:id="ptr_d6e69"/>
           </bibl>
         </biblList>
         <classification xml:id="classification_12ac2fc3">
@@ -126,7 +126,7 @@
                   <incipText xml:id="incipText_e45e0630">
                     <p xml:lang="en" xml:id="p_237caaed"/>
                   </incipText>
-                  <graphic targettype="lowres" target="1_stabat" xml:id="graphic_84534e13"/>
+                  <graphic targettype="lowres" target="1_stabat_mater" xml:id="graphic_84534e13"/>
                 </incip>
                 <tempo xml:id="tempo_b2334505">Grave</tempo>
                 <key pname="f" mode="dorian" xml:id="key_2799cc54"/>
