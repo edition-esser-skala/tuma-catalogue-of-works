@@ -995,6 +995,86 @@
           <relation rel="isEmbodimentOf" xml:id="relation_acfa6cc3"/>
         </relationList>
       </manifestation>
+      <manifestation xml:id="manifestation_d07085b3">
+        <identifier xml:id="identifier_1bc3ecb3"/>
+        <titleStmt xml:id="titleStmt_65e6cd23">
+          <title xml:id="title_e2a3d14c">Manuscript copy</title>
+        </titleStmt>
+        <pubStmt xml:id="pubStmt_bb43196a">
+          <publisher xml:id="publisher_3b5c68a2"/>
+          <pubPlace xml:id="pubPlace_c4a9c74d"/>
+          <date notbefore="1791-01-01" notafter="1800-12-31" xml:id="date_e7851a8d">1791&#x2013;1800</date>
+        </pubStmt>
+        <classification xml:id="classification_0b42e9a4">
+          <termList xml:id="termList_b00af2c1">
+            <term xml:id="term_0884b760">Notated music</term>
+            <term xml:id="term_6856bf05">Manuscript</term>
+            <term xml:id="term_1f5d18ba">Copy</term>
+            <term xml:id="term_9a39cc74">Score</term>
+            <term xml:id="term_fffdf574">Fair copy</term>
+            <term xml:id="term_28d8e15f">Complete</term>
+          </termList>
+        </classification>
+        <itemList xml:id="itemList_ea45cddd">
+          <item xml:id="item_63075d15">
+            <identifier xml:id="identifier_9c0f37ca"/>
+            <physDesc xml:id="physDesc_b3a8ceb5">
+              <dimensions xml:id="dimensions_b9806bd0">
+                <locusGrp xml:id="locusGrp_1325110d">
+                  <locus xml:id="locus_320c305d"/>
+                </locusGrp>
+                <height quantity="25" unit="cm" xml:id="height_ee6eec4a">25 (height in cm)</height>
+                <width quantity="36" unit="cm" xml:id="width_ab6eeac2">36 (height in cm)</width>
+                <term xml:id="term_e1b610da"/>
+                <extent quantity="" xml:id="extent_18194b63"> lines</extent>
+                <dimensions type="format" xml:id="dimensions_e1c492c4">
+                  <height quantity="" unit="cm" xml:id="height_4f493c1d"/>
+                  <width quantity="" unit="cm" xml:id="width_056b152b"/>
+                </dimensions>
+                <dimensions type="rastral_mirror" xml:id="dimensions_89dbafdd">
+                  <height quantity="" unit="cm" xml:id="height_70b9a89c"/>
+                  <width quantity="" unit="cm" xml:id="width_c0c010b1"/>
+                </dimensions>
+              </dimensions>
+              <titlePage label="[title]" xml:id="titlePage_579d35ca">
+                <p>il Pianto | della Madre Dolorosa | Composto | &#xE1; quattro voci in pieno | per | Clementissimo commando | della | Sac: Ces: e Real Ma:t&#xE1; | di Maria Teresa | Imperadrice Regnante | da Francesco Tuma N:D:C: della f&#xFA; Ma:t&#xE1; d'Imperadrice Elisabetta | di piissima memoria</p>
+              </titlePage>
+              <extent quantity="" xml:id="extent_67ea95f0">19 f.</extent>
+              <dimensions xml:id="dimensions_6cae3cea">
+                <height quantity="" xml:id="height_e38e1dec"/>
+                <width quantity="" xml:id="width_ebf969ee"/>
+                <depth quantity="" xml:id="depth_1771869f"/>
+                <dim quantity="" xml:id="dim_4ea8dd36"/>
+              </dimensions>
+              <physMedium xml:id="physMedium_1a2ce457">
+                <p>hand-ruled paper</p>
+              </physMedium>
+            </physDesc>
+            <physLoc xml:id="physLoc_006b1150">
+              <repository xml:id="repository_7e9fed8d">
+                <corpName xml:id="corpName_3c103bd0" role=""/>
+                <geogName xml:id="geogName_74778e1a" role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info" xml:id="identifier_c4af07aa">I-Rsc</identifier>
+                <ptr target="http://cloud.sbn.it/opac2/RMR/dettaglio/documento/MSM0051945" mimetype="" label="catalogue entry" xml:id="ptr_d6e381"/>
+              </repository>
+              <identifier xml:id="identifier_fbc9f289">A-Ms 523</identifier>
+            </physLoc>
+            <notesStmt xml:id="notesStmt_29894c82">
+              <annot type="source_description" xml:id="annot_3a305f90">
+                <p>catalogued according to catalogue entry and @Bartos2018 [p. 82]</p>
+              </annot>
+              <annot type="links" xml:id="annot_a56a98ee">
+                <ptr mimetype="" xml:id="ptr_d6e397_0"/>
+              </annot>
+            </notesStmt>
+            <componentList xml:id="componentList_c10fd6b6"/>
+          </item>
+        </itemList>
+        <componentList xml:id="componentList_1f5bdd34"/>
+        <relationList xml:id="relationList_42c40e05">
+          <relation rel="isEmbodimentOf" xml:id="relation_50f9ee36"/>
+        </relationList>
+      </manifestation>
       <manifestation xml:id="manifestation_8546bb4a">
         <identifier xml:id="identifier_c1302729"/>
         <titleStmt xml:id="titleStmt_27fc5d6b">
@@ -1546,7 +1626,7 @@
                 <p>catalogued according to RISM entry</p>
               </annot>
               <annot type="links" xml:id="annot_981e5faf">
-                <ptr mimetype="" xml:id="ptr_d6e397"/>
+                <ptr mimetype="" xml:id="ptr_d6e397_1"/>
               </annot>
             </notesStmt>
             <componentList xml:id="componentList_bd70185b"/>
