@@ -3,11 +3,10 @@
 
 notes = \relative c' {
   \clef soprano
-  \key b \major \time 4/4 \autoBeamOff \tempoMarkup "Adagio"
-  b'4.^\partSc b8 b4 b
-  h2 c4 c
-  a4. a8 b4 b8 b
-  b4( es) a, r
+  \key d \dorian \time 4/4 \autoBeamOff
+  a'8.^\partSc a16 a8 g a a a4
+  a8 b a8. a16 a8 a a a
+  a a a g a a a a
 }
 
 text = \lyricmode {
