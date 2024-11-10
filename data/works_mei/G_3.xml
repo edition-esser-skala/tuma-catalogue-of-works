@@ -69,13 +69,13 @@
         </langUsage>
         <biblList xml:id="biblList_fffeb2a9">
           <head xml:id="head_f87050ba">Bibliography</head>
-          <bibl>
+          <bibl xml:id="bibl_d4e69">
             <genre>reference</genre>
-            <ptr target="@Stefan1985 [p. 252, no. 1393]" targettype="pandoc-citation"/>
+            <ptr target="@Stefan1985 [p. 252, no. 1393]" targettype="pandoc-citation" xml:id="ptr_d6e71"/>
           </bibl>
-          <bibl>
+          <bibl xml:id="bibl_d4e72">
             <genre>reference</genre>
-            <ptr target="@Haberkamp1986 [p. 207]" targettype="pandoc-citation"/>
+            <ptr target="@Haberkamp1986 [p. 207]" targettype="pandoc-citation" xml:id="ptr_d6e74"/>
           </bibl>
         </biblList>
         <classification xml:id="classification_59b030b6">
@@ -642,7 +642,7 @@
                 </dimensions>
               </dimensions>
               <titlePage label="[wrapper]" xml:id="titlePage_99cfba0c">
-                <p>Stabat Mater. | &#xE2; | Canto Alto. | Tenere Basso Concti. | 2. Violini. | Alto Viola | Con | Organo | Auth Thuma.</p>
+                <p>Stabat Mater. | &#xE2; | Canto = Alto. | Tenere [sic!] = Ba&#x17F;so. } Concti. | 2. Violini. | Alto Viola | Con | Organo | Auth Thuma.</p>
               </titlePage>
               <extent quantity="" xml:id="extent_e5e964df">9 parts</extent>
               <dimensions xml:id="dimensions_576d5496">
@@ -652,7 +652,7 @@
                 <dim quantity="" xml:id="dim_abfabb5e"/>
               </dimensions>
               <physMedium xml:id="physMedium_2d5cd181">
-                <p>hand-ruled paper</p>
+                <p>hand-ruled paper, 10 staves (10 mm)<lb/>vlne: 30 x 22 cm, 10 staves (10 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc xml:id="physLoc_4440ec1f">
@@ -665,8 +665,7 @@
             </physLoc>
             <notesStmt xml:id="notesStmt_7b8aeed6">
               <annot type="source_description" xml:id="annot_bf93d4b5">
-                <p>S solo and coro (2 f.), A solo and coro (2 f.), T solo and coro (2 f.), B solo and coro (2 f.), vl 1 (2 f.), vl 2 (2 f.), vla (1 f.), vlne (2 f.), org (3 f.)</p>
-                <p>catalogued according to RISM entry</p>
+                <p>S solo and coro (4), A solo and coro (4), T solo and coro (4), B solo and coro (3), vl 1 (4), vl 2 (3), vla (2), vlne (4), org (5)</p>
               </annot>
               <annot type="links" xml:id="annot_776ff023">
                 <ptr mimetype="" xml:id="ptr_d6e397_1_1"/>

@@ -69,21 +69,21 @@
         </langUsage>
         <biblList xml:id="biblList_2fb9ef48">
           <head xml:id="head_a48c4bac">Bibliography</head>
-          <bibl>
+          <bibl xml:id="bibl_d4e69">
             <genre>reference</genre>
-            <ptr target="@Eybl1996 [p. 56]" targettype="pandoc-citation"/>
+            <ptr target="@Eybl1996 [p. 56]" targettype="pandoc-citation" xml:id="ptr_d6e71"/>
           </bibl>
-          <bibl>
+          <bibl xml:id="bibl_d4e72">
             <genre>reference</genre>
-            <ptr target="@Haberkamp1986 [p. 207]" targettype="pandoc-citation"/>
+            <ptr target="@Haberkamp1986 [p. 207]" targettype="pandoc-citation" xml:id="ptr_d6e74"/>
           </bibl>
-          <bibl>
+          <bibl xml:id="bibl_d4e75">
             <genre>reference</genre>
-            <ptr target="@Riedel1979 [p. 410]" targettype="pandoc-citation"/>
+            <ptr target="@Riedel1979 [p. 410]" targettype="pandoc-citation" xml:id="ptr_d6e77"/>
           </bibl>
-          <bibl>
+          <bibl xml:id="bibl_d4e78">
             <genre>reference</genre>
-            <ptr target="@Bardos1980 [p. 526, no. 1414]" targettype="pandoc-citation"/>
+            <ptr target="@Bardos1980 [p. 526, no. 1414]" targettype="pandoc-citation" xml:id="ptr_d6e80"/>
           </bibl>
         </biblList>
         <classification xml:id="classification_6c61aeca">
@@ -867,8 +867,8 @@
                 <locusGrp xml:id="locusGrp_bd9799d4">
                   <locus xml:id="locus_84bdcb42"/>
                 </locusGrp>
-                <height quantity="29.5" unit="cm" xml:id="height_23dcbd34">29.5 (height in cm)</height>
-                <width quantity="21" unit="cm" xml:id="width_5fffe932">21 (height in cm)</width>
+                <height quantity="29" unit="cm" xml:id="height_23dcbd34">29 (height in cm)</height>
+                <width quantity="20.5" unit="cm" xml:id="width_5fffe932">20.5 (width in cm)</width>
                 <term xml:id="term_8baf81f3"/>
                 <extent quantity="" xml:id="extent_f4478d66"> lines</extent>
                 <dimensions type="format" xml:id="dimensions_faa7374d">
@@ -881,7 +881,7 @@
                 </dimensions>
               </dimensions>
               <titlePage label="[wrapper]" xml:id="titlePage_84607e23">
-                <p>Miserere | &#xE0; | 4. Voc: Conc: | Canto Alto. | Tenore Basso. | 2. Violini | 2. Tromboni | 1. Viola obligata | Con | Organo. | Del Sig. Francesco Tuma. | Maestro di Cap.la della | S: C: M: Impratrice Elisabete</p>
+                <p>Miserere | &#xE0; | 4. Voc: Conc: | Canto = Alto. | Tenore = Ba&#x17F;so. | 2. = Violini | 2. = Tromboni | 1. Viola obligata | Con | Organo. | Del Sige: Francesco Tuma. | Maestro di Cap.la della | S: C: M: Impratrice Elisabete</p>
               </titlePage>
               <extent quantity="" xml:id="extent_7b7285ea">11 parts</extent>
               <dimensions xml:id="dimensions_63f32c79">
@@ -891,7 +891,7 @@
                 <dim quantity="" xml:id="dim_a067ca10"/>
               </dimensions>
               <physMedium xml:id="physMedium_d00a9bdf">
-                <p>hand-ruled paper</p>
+                <p>hand-ruled paper, 10 staves (9 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc xml:id="physLoc_95a8c847">
@@ -904,8 +904,7 @@
             </physLoc>
             <notesStmt xml:id="notesStmt_209d23bd">
               <annot type="source_description" xml:id="annot_68138133">
-                <p>S solo and coro (3 f.), A solo and coro (3 f.), T solo and coro (3 f.), B solo and coro (3 f.), trb 1 (2 f.), trb 2 (2 f.), vl 1 (3 f.), vl 2 (3 f.), vla (1 f.), vlne (4 f.), org (4 f.)</p>
-                <p>catalogued according to RISM entry</p>
+                <p>S solo and coro (5), A solo and coro (5), T solo and coro (6), B solo and coro (5), trb 1 (3), trb 2 (3), vl 1 (6), vl 2 (6), vla (2), vlne (7), org (7)</p>
               </annot>
               <annot type="links" xml:id="annot_ba486865">
                 <ptr mimetype="" xml:id="ptr_d6e397_0_1"/>
