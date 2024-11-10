@@ -1,12 +1,13 @@
 library(tidyverse)
 library(yaml)
 source("script/utils.R")
+options(readr.show_col_types = FALSE)
 
 
 
 # Parameters --------------------------------------------------------------
 
-params <- read_yaml("script/config.yml")
+params <- read_yaml("data/config.yml")
 cols_library <- params$catalogue_columns$library
 cols_metadata <- c(
   params$catalogue_columns$metadata,

@@ -2,12 +2,26 @@ library(xml2)
 library(yaml)
 library(tidyverse)
 source("script/utils.R")
+options(readr.show_col_types = FALSE)
 
 
 
 # Parameters --------------------------------------------------------------
 
-params <- read_yaml("script/config.yml")
+GLOBAL_instruments <- c()
+GLOBAL_sigla <- c()
+
+SOURCE_TYPES <- c(
+  "Autograph manuscript" = "A",
+  "Partly autograph manuscript" = "A",
+  "Manuscript copy" = "C",
+  "Print" = "P"
+)
+
+
+## Config file ----
+
+params <- read_yaml("data/config.yml")
 cols_identifiers <-
   params$catalogue_columns$identifiers %>%
   list_simplify()
@@ -17,6 +31,22 @@ work_page_names <-
   read_csv("data/catalogue_overview.csv") %>%
   distinct(group, file) %>%
   deframe()
+
+
+## Available editions ----
+
+get_available_editions <- function() {
+  tmp_dir <- dir_create(path_temp("cw"))
+
+  if (dir_exists(tmp_dir)) dir_delete(tmp_dir)
+  system(paste("git clone", params$edition$repo, tmp_dir))
+
+  paste0(tmp_dir, "/works") %>%
+    dir_ls() %>%
+    path_file()
+}
+
+AVAILABLE_EDITIONS <- get_available_editions()
 
 
 
@@ -29,7 +59,7 @@ WORK_TEMPLATE_DETAILED <- '
 
 {incipits}
 
-*Sources*&emsp;{sources_short}
+{sources_short}
 
 ::: {{.callout-note collapse="true" .column-page-right}}
 # Details
@@ -124,6 +154,11 @@ IDENTIFIER_TEMPLATE_NOLINK <- '{catalogue} {id}'
 ## Subtitle ----
 
 SUBTITLE_TEMPLATE <- "[{title}]{{.other-title}}"
+
+
+## EES edition link ----
+
+EDITION_LINK_TEMPLATE <- "[![](../images/ees_link.svg)]({link})"
 
 
 
@@ -260,17 +295,48 @@ format_incipits <- function(incipit_list, work_id) {
     str_flatten("\n\n")
 }
 
+# format the short sources as table
+format_sources_short <- function(ss) {
+  sources <-
+    map(ss, \(s) get_source_location(s) %>% as_tibble_row()) %>%
+    list_rbind() %>%
+    arrange(type, siglum, shelfmark) %>%
+    summarise(
+      .by = type,
+      sources = str_flatten(source, " · "),
+      end = ""
+    ) %>%
+    add_column(
+      .before = 1,
+      label = c("|*Sources*", rep("|", times = nrow(.) - 1))
+    ) %>%
+    unite(everything(), col = "tbl", sep = "|") %>%
+    pull(tbl) %>%
+    str_flatten("\n")
+
+  paste(
+    "||||",
+    "|-|-|-|",
+    sources,
+    "",
+    ': {tbl-colwidths="[10,4,86]" .movement-details}',
+    "",
+    sep = "\n"
+  )
+}
+
 # format identifiers as links to bibliography
 # id_list: named vector (catalogue = id)
 # sep: separator between identifiers
-format_identifiers <- function(id_list, sep) {
+# add_links: whether to add links if available
+format_identifiers <- function(id_list, sep, add_links = TRUE) {
   imap_chr(
     cols_identifiers,
     \(ref, catalogue) {
       id <- pluck(id_list, catalogue)
       if (is.null(id) || is.na(id))
         return(NA)
-      if (ref == "") {
+      if (ref == "" || !add_links) {
         use_template(
           IDENTIFIER_TEMPLATE_NOLINK,
           catalogue = catalogue,
@@ -290,8 +356,11 @@ format_identifiers <- function(id_list, sep) {
 }
 
 # format list of instruments
+# also write instrument name to global variable
+# for assembling a list of abbreviations later
 format_instrument <- function(i) {
   name <- i[[1]]
+  GLOBAL_instruments <<- c(GLOBAL_instruments, name)
 
   count <- attr(i, "count") %||% "1"
   if (count != "1")
@@ -365,9 +434,11 @@ format_creation <- function(c) {
 }
 
 # format bibliography (PanDoc style)
-format_bibliography <- function(b) {
-  if (is.null(b))
-    return("")
+# also adds a link to the EES edition if available
+# returns a list containing the markdown-formatted bibliography
+# as well as the raw entries
+format_bibliography <- function(b, work_id) {
+  b <- b %||% list()
 
   entries_ref <-
     b %>%
@@ -397,7 +468,19 @@ format_bibliography <- function(b) {
         str_flatten(". ")
     })
 
-  str_flatten(
+
+  if (work_id %in% AVAILABLE_EDITIONS) {
+    link <- paste0(
+      params$edition$url,
+      str_to_lower(work_id) %>% str_replace_all("_", "-")
+    )
+    entries_score <- c(
+      entries_score,
+      use_template(EDITION_LINK_TEMPLATE, link = link)
+    )
+  }
+
+  markdown <- str_flatten(
     c(
       if_else(
         length(entries_ref) > 0,
@@ -411,6 +494,12 @@ format_bibliography <- function(b) {
       )
     ),
     "\n\n"
+  )
+
+  list(
+    markdown = markdown,
+    entries_ref = entries_ref,
+    entries_score = entries_score
   )
 }
 
@@ -543,9 +632,18 @@ format_physdesc <- function(p) {
   )
 }
 
-# get siglum, shelfmark, link to digitized version, and RISM ID of a source
+# get type, siglum, shelfmark, link to digitized version,
+# and RISM ID of a source
+# also write siglum to global variable
+# for assembling a list of abbreviations later
 get_source_location <- function(s) {
+  type_long <- s$titleStmt$title[[1]]
+  type <- SOURCE_TYPES[type_long]
+  if (is.na(type))
+    stop("Unknown source type: ", type_long)
+
   siglum <- s$itemList$item$physLoc$repository$identifier[[1]]
+  GLOBAL_sigla <<- c(GLOBAL_sigla, siglum)
   shelfmark <- s$itemList$item$physLoc$identifier[[1]]
   source <- paste(siglum, shelfmark)
 
@@ -565,6 +663,7 @@ get_source_location <- function(s) {
   }
 
   list(
+    type = type,
     siglum = siglum,
     shelfmark = shelfmark,
     link = link,
@@ -613,9 +712,78 @@ format_source <- function(s) {
 
 
 
+# Validation --------------------------------------------------------------
+
+# stops the script if two strings are not equal
+check_equal_string <- function(a, b) {
+  if (a != b)
+    stop("These strings must be the same:",
+         "\n(MEI) ", a,
+         "\n(CSV) ", b)
+}
+
+# stops the script if two string lists contain different elements
+# the lists may be unsorted and contain duplicates
+check_equal_list <- function(a, b) {
+  a <- str_sort(a) %>% unique()
+  b <- str_sort(b) %>% unique()
+  if (!all(a == b))
+    stop("These lists must be the same:",
+         "\n(MEI) ", str_flatten_comma(a),
+         "\n(CSV) ", str_flatten_comma(b))
+}
+
+# compares MEI to CSV metadata
+validate_metadata <- function(group,
+                              subgroup,
+                              number,
+                              title,
+                              bibliography,
+                              identifiers,
+                              sources,
+                              table_metadata,
+                              table_sources) {
+  # work title
+  title <- str_split_1(title, "<br/>")[1]
+  check_equal_string(title, table_metadata$title)
+
+  # references
+  table_bibliography <-
+    table_metadata$literature %>%
+    replace_na("") %>%
+    str_split_1(", @") %>%
+    str_remove("@")
+  check_equal_list(str_remove(bibliography, "@"), table_bibliography)
+
+  # identifiers
+  table_metadata[[catalogue_prefix]] <-
+    str_flatten(c(group, subgroup, number), ".", na.rm = TRUE)
+  check_equal_string(
+    format_identifiers(identifiers, sep = " · ", add_links = FALSE),
+    format_identifiers(table_metadata, sep = " · ", add_links = FALSE)
+  )
+
+  # sources
+  mei_sources <-
+    map(sources, \(s) get_source_location(s) %>% as_tibble_row()) %>%
+    list_rbind() %>%
+    mutate(
+      source = str_c(siglum, shelfmark, sep = " "),
+      .keep = "none"
+    ) %>%
+    pull(source)
+  check_equal_list(mei_sources, table_sources$source)
+}
+
+
+
 # Main workflow -----------------------------------------------------------
 
-get_work_details <- function(group, subgroup, number) {
+get_work_details <- function(group,
+                             subgroup,
+                             number,
+                             table_metadata,
+                             table_sources) {
   work_id <- str_flatten(c(group, subgroup, number), "_", na.rm = TRUE)
   data <- read_xml(str_glue("data/works_mei/{work_id}.xml"))
   format_mei_text(data)
@@ -638,12 +806,7 @@ get_work_details <- function(group, subgroup, number) {
 
   incipits <- format_incipits(data_music$incip, work_id)
 
-  sources_short <-
-    map_chr(
-      data_sources,
-      \(s) get_source_location(s)$source
-    ) %>%
-    str_flatten(" · ")
+  sources_short <- format_sources_short(data_sources)
 
   data_work$notesStmt <-
     data_work$notesStmt %>%
@@ -673,7 +836,7 @@ get_work_details <- function(group, subgroup, number) {
 
   creation <- format_creation(data_work$creation)
 
-  bibliography <- format_bibliography(data_work$biblList)
+  bibliography <- format_bibliography(data_work$biblList, work_id)
 
   work_description <- format_work_description(data_work$notesStmt)
 
@@ -686,6 +849,19 @@ get_work_details <- function(group, subgroup, number) {
   sources <-
     map_chr(data_sources, format_source) %>%
     str_flatten("\n\n")
+
+  info("  Comparing data in MEI and CSV")
+  validate_metadata(
+    group = group,
+    subgroup = subgroup,
+    number = number,
+    title = title,
+    bibliography = bibliography$entries_ref,
+    identifiers = set_names(identifier_ids, identifier_catalogues),
+    sources = data_sources,
+    table_metadata = table_metadata,
+    table_sources = table_sources
+  )
 
   use_template(
     WORK_TEMPLATE_DETAILED,
@@ -701,7 +877,7 @@ get_work_details <- function(group, subgroup, number) {
     roles = roles,
     genre = genre,
     creation = creation,
-    bibliography = bibliography,
+    bibliography = bibliography$markdown,
     work_description = work_description,
     movements = movements,
     sources = sources,

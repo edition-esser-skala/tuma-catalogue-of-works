@@ -5,7 +5,7 @@ This repository and all of its scripts are based upon [edition-esser-skala/werne
 
 ## Changes to technical pipeline
 
-- `script/config.yml`
+- `data/config.yml`
 
 
 ## How to create the webpage
