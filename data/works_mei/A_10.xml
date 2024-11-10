@@ -848,7 +848,7 @@
                 <identifier auth="RISM" auth.uri="http://www.rism.info" xml:id="identifier_527e6178">D-Dl</identifier>
                 <ptr target="https://digital.slub-dresden.de/id189864795X" mimetype="" label="digitized version" xml:id="ptr_d6e381"/>
               </repository>
-              <identifier xml:id="identifier_c690fd31">Mus.2968-D-511 </identifier>
+              <identifier xml:id="identifier_c690fd31">Mus.2968-D-511</identifier>
             </physLoc>
             <notesStmt xml:id="notesStmt_564dec15">
               <annot type="source_description" xml:id="annot_5a32f4b2">

@@ -306,7 +306,7 @@
                 <identifier auth="RISM" auth.uri="http://www.rism.info" xml:id="identifier_f081414b">D-Dl</identifier>
                 <ptr target="https://digital.slub-dresden.de/id480932069" mimetype="" label="digitized version" xml:id="ptr_d6e381_1"/>
               </repository>
-              <identifier xml:id="identifier_1fdc9f60">Mus.2968-D-509 </identifier>
+              <identifier xml:id="identifier_1fdc9f60">Mus.2968-D-509</identifier>
             </physLoc>
             <notesStmt xml:id="notesStmt_887655bd">
               <annot type="source_description" xml:id="annot_9e820cb7">

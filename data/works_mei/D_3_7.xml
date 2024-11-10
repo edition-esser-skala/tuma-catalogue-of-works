@@ -81,6 +81,10 @@
             <genre>reference</genre>
             <ptr target="@Riedel1979 [p. 410]" targettype="pandoc-citation"/>
           </bibl>
+          <bibl>
+            <genre>reference</genre>
+            <ptr target="@Bardos1980 [p. 526, no. 1414]" targettype="pandoc-citation"/>
+          </bibl>
         </biblList>
         <classification xml:id="classification_6c61aeca">
           <termList xml:id="termList_bc3d3d39">

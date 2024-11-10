@@ -52,8 +52,8 @@
       <work xml:id="work_829f001a">
         <identifier xml:id="identifier_dca83b92" label="TumW">B.1</identifier>
         <identifier label="BalTh" xml:id="identifier_ec6746dc">B.X</identifier>
-        <identifier label="KlinCh" xml:id="identifier_3c21db4b">Masses 45</identifier>
-        <identifier label="PesMa" xml:id="identifier_c58e46ee">C 13</identifier>
+        <identifier label="KliCh" xml:id="identifier_3c21db4b">Masses 45</identifier>
+        <identifier label="PesMa" xml:id="identifier_c58e46ee">C13</identifier>
         <identifier label="VogIn" xml:id="identifier_c3b22dab">A.I.52</identifier>
         <title xml:lang="it" xml:id="title_64b30d70">Messa della morte</title>
         <contributor xml:id="contributor_f5043ab9">
@@ -1350,6 +1350,54 @@
         <componentList xml:id="componentList_825836d0"/>
         <relationList xml:id="relationList_d87b0681">
           <relation rel="isEmbodimentOf" xml:id="relation_162f2962"/>
+        </relationList>
+      </manifestation>
+      <manifestation xml:id="manifestation_704595bd">
+        <identifier xml:id="identifier_6bd44665"/>
+        <titleStmt xml:id="titleStmt_f6e10bf8">
+          <title xml:id="title_749f70d6">Manuscript copy</title>
+        </titleStmt>
+        <pubStmt xml:id="pubStmt_8df80c93">
+          <publisher xml:id="publisher_c4b5dc4e"/>
+          <pubPlace xml:id="pubPlace_f4f85568"/>
+          <date isodate="1758-01-01" xml:id="date_ac8b18e4">1758</date>
+        </pubStmt>
+        <classification xml:id="classification_58041361">
+          <termList xml:id="termList_40a718c0">
+            <term xml:id="term_ac411a35">Notated music</term>
+            <term xml:id="term_76a86228">Manuscript</term>
+            <term xml:id="term_47b9fc66">Copy</term>
+            <term xml:id="term_adf3a0e3">Parts</term>
+            <term xml:id="term_93d0273a">Fair copy</term>
+            <term xml:id="term_1b0ce8b8">Incomplete</term>
+          </termList>
+        </classification>
+        <itemList xml:id="itemList_769fe33a">
+          <item xml:id="item_5a7ae833">
+            <identifier xml:id="identifier_e696f332"/>
+            <physDesc xml:id="physDesc_c87d40e9"/>
+            <physLoc xml:id="physLoc_1b4c7108">
+              <repository xml:id="repository_cb67b32b">
+                <corpName xml:id="corpName_473434e5" role=""/>
+                <geogName xml:id="geogName_27c3cdec" role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info" xml:id="identifier_bd5be7eb">A-H</identifier>
+              </repository>
+              <identifier xml:id="identifier_bccc3a7d">A.22.18</identifier>
+            </physLoc>
+            <notesStmt xml:id="notesStmt_fb5d7195">
+              <annot type="source_description" xml:id="annot_4ef94c1c">
+                <p>some parts missing</p>
+              </annot>
+              <annot type="links" xml:id="annot_2cbf95e5">
+                <ptr mimetype="" xml:id="ptr_d6e397"/>
+              </annot>
+            </notesStmt>
+            <componentList xml:id="componentList_5724747c"/>
+          </item>
+        </itemList>
+        <componentList xml:id="componentList_0f195bb4"/>
+        <relationList xml:id="relationList_ba277e52">
+          <relation rel="isEmbodimentOf" xml:id="relation_2aacb5bc"/>
         </relationList>
       </manifestation>
       <manifestation xml:id="manifestation_5d3262fd">

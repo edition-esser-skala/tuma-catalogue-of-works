@@ -53,7 +53,7 @@
         <identifier xml:id="identifier_dca83b92" label="TumW">A.12</identifier>
         <identifier label="BalTh" xml:id="identifier_d1992e00">B.I.6</identifier>
         <identifier label="KliCh" xml:id="identifier_c630e10a">Masses 18</identifier>
-        <identifier label="PesMa" xml:id="identifier_c3a30c41">B 7</identifier>
+        <identifier label="PesMa" xml:id="identifier_c3a30c41">B7</identifier>
         <identifier label="ReiMa" xml:id="identifier_a5eae532">53</identifier>
         <identifier label="VogIn" xml:id="identifier_33317956">A.I.28</identifier>
         <title xml:lang="la" xml:id="title_64b30d70">Missa Sanctae Elisabethae</title>
@@ -1217,7 +1217,7 @@
                 <geogName xml:id="geogName_69f67533" role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info" xml:id="identifier_c6703a7e">CZ-Pk&#x159;i&#x17E;</identifier>
               </repository>
-              <identifier xml:id="identifier_0fed4111">XXXV B 3 [old: 168]</identifier>
+              <identifier xml:id="identifier_0fed4111">XXXV B 3</identifier>
             </physLoc>
             <notesStmt xml:id="notesStmt_270db4d7">
               <annot type="source_description" xml:id="annot_c5b09da1">

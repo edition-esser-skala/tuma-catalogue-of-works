@@ -73,6 +73,10 @@
             <genre>reference</genre>
             <ptr target="@Eybl1996 [p. 58]" targettype="pandoc-citation" xml:id="ptr_d6e71"/>
           </bibl>
+          <bibl xml:id="bibl_d4e72">
+            <genre>reference</genre>
+            <ptr target="@Hornbacher2023 [p. 214-217]" targettype="pandoc-citation" xml:id="ptr_d6e74"/>
+          </bibl>
         </biblList>
         <classification xml:id="classification_4cc71bdc">
           <termList xml:id="termList_fa1cf892">
@@ -409,6 +413,46 @@
       </work>
     </workList>
     <manifestationList xml:id="manifestationList_ccee73d1">
+      <manifestation xml:id="manifestation_92f085c6">
+        <identifier xml:id="identifier_706f2dce"/>
+        <titleStmt xml:id="titleStmt_e2be01d9">
+          <title xml:id="title_6e6bb35b">Manuscript copy</title>
+        </titleStmt>
+        <pubStmt xml:id="pubStmt_f804c12c">
+          <publisher xml:id="publisher_3ed6806e"/>
+          <pubPlace xml:id="pubPlace_1566987b"/>
+          <date isodate="1750-01-01" xml:id="date_895cfd04">mid 18th century</date>
+        </pubStmt>
+        <classification xml:id="classification_be26b4d6">
+          <termList xml:id="termList_d3b947ae">
+            <term xml:id="term_345da7dd">Notated music</term>
+            <term xml:id="term_ba82acb0">Manuscript</term>
+            <term xml:id="term_1bfd4f12">Copy</term>
+            <term xml:id="term_c7bac1fc">Parts</term>
+            <term xml:id="term_5b669a82">Fair copy</term>
+            <term xml:id="term_8a866ae5">Complete</term>
+          </termList>
+        </classification>
+        <itemList xml:id="itemList_622e92d0">
+          <item xml:id="item_8c8522f0">
+            <identifier xml:id="identifier_9b5dfe4f"/>
+            <physDesc xml:id="physDesc_5641c699"/>
+            <physLoc xml:id="physLoc_1e84ca61">
+              <repository xml:id="repository_3c792825">
+                <corpName xml:id="corpName_209fae60" role=""/>
+                <geogName xml:id="geogName_3e7a400c" role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info" xml:id="identifier_28df7afb">A-H</identifier>
+              </repository>
+              <identifier xml:id="identifier_d7fd3bb4">Mus.Hs. 884 (B.14.11)</identifier>
+            </physLoc>
+            <componentList xml:id="componentList_132e635e"/>
+          </item>
+        </itemList>
+        <componentList xml:id="componentList_512964db"/>
+        <relationList xml:id="relationList_0d61e42b">
+          <relation rel="isEmbodimentOf" xml:id="relation_33bbe2d3"/>
+        </relationList>
+      </manifestation>
       <manifestation xml:id="manifestation_caede3e2">
         <identifier xml:id="identifier_343d8f1e"/>
         <titleStmt xml:id="titleStmt_586135dc">

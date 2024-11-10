@@ -667,7 +667,7 @@
                 <geogName xml:id="geogName_ece5d16d" role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info" xml:id="identifier_e822ec07">D-B</identifier>
               </repository>
-              <identifier xml:id="identifier_97e38828">Mus.ms. 22100 </identifier>
+              <identifier xml:id="identifier_97e38828">Mus.ms. 22100</identifier>
             </physLoc>
             <notesStmt xml:id="notesStmt_6202c86f">
               <annot type="links" xml:id="annot_8aecb9b8">
@@ -897,7 +897,7 @@
                 <identifier auth="RISM" auth.uri="http://www.rism.info" xml:id="identifier_8b589a22">D-Dl</identifier>
                 <ptr target="https://digital.slub-dresden.de/id1898638381" mimetype="" label="digitized version" xml:id="ptr_d6e381_1_0"/>
               </repository>
-              <identifier xml:id="identifier_31b63588">Mus.2968-D-5 </identifier>
+              <identifier xml:id="identifier_31b63588">Mus.2968-D-5</identifier>
             </physLoc>
             <notesStmt xml:id="notesStmt_746bf74b">
               <annot type="source_description" xml:id="annot_b83f9ed8">
@@ -977,7 +977,7 @@
                 <identifier auth="RISM" auth.uri="http://www.rism.info" xml:id="identifier_d0540ebd">D-Dl</identifier>
                 <ptr target="https://digital.slub-dresden.de/id1898665494" mimetype="" label="digitized version" xml:id="ptr_d6e381_0_1"/>
               </repository>
-              <identifier xml:id="identifier_bbf1eb9e">Mus.2968-D-515 </identifier>
+              <identifier xml:id="identifier_bbf1eb9e">Mus.2968-D-515</identifier>
             </physLoc>
             <notesStmt xml:id="notesStmt_0e730c47">
               <annot type="source_description" xml:id="annot_cb2efcc3">
