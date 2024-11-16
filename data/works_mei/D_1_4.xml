@@ -69,9 +69,13 @@
         </langUsage>
         <biblList xml:id="biblList_7cbeb905">
           <head xml:id="head_4757c6b4">Bibliography</head>
-          <bibl xml:id="bibl_d4e69">
+          <bibl xml:id="bibl_d4e69_0">
             <genre>reference</genre>
-            <ptr target="@Eybl1996 [p. 58]" targettype="pandoc-citation" xml:id="ptr_d6e71"/>
+            <ptr target="@HerzogenburgInvB [fol. 107r, no. 14.11]" targettype="pandoc-citation" xml:id="ptr_d6e71_0"/>
+          </bibl>
+          <bibl xml:id="bibl_d4e69_1">
+            <genre>reference</genre>
+            <ptr target="@Eybl1996 [p. 58]" targettype="pandoc-citation" xml:id="ptr_d6e71_1"/>
           </bibl>
           <bibl xml:id="bibl_d4e72">
             <genre>reference</genre>
@@ -421,7 +425,7 @@
         <pubStmt xml:id="pubStmt_f804c12c">
           <publisher xml:id="publisher_3ed6806e"/>
           <pubPlace xml:id="pubPlace_1566987b"/>
-          <date isodate="1750-01-01" xml:id="date_895cfd04">mid 18th century</date>
+          <date isodate="1753-01-01" xml:id="date_895cfd04">1753</date>
         </pubStmt>
         <classification xml:id="classification_be26b4d6">
           <termList xml:id="termList_d3b947ae">
@@ -436,15 +440,55 @@
         <itemList xml:id="itemList_622e92d0">
           <item xml:id="item_8c8522f0">
             <identifier xml:id="identifier_9b5dfe4f"/>
-            <physDesc xml:id="physDesc_5641c699"/>
+            <physDesc xml:id="physDesc_5641c699">
+              <dimensions xml:id="dimensions_b60fcfe0">
+                <locusGrp xml:id="locusGrp_7cb81dd6">
+                  <locus xml:id="locus_e6412aef"/>
+                </locusGrp>
+                <height quantity="31" xml:id="height_b1a84ef1" unit="mm">31 (height in mm)</height>
+                <width quantity="24" xml:id="width_39ec607b" unit="mm">24 (height in mm)</width>
+                <term xml:id="term_431a0f03"/>
+                <extent quantity="" xml:id="extent_542cb5b4"> lines</extent>
+                <dimensions type="format" xml:id="dimensions_f0a3baec">
+                  <height quantity="" unit="cm" xml:id="height_42a81e46"/>
+                  <width quantity="" unit="cm" xml:id="width_2f042f68"/>
+                </dimensions>
+                <dimensions type="rastral_mirror" xml:id="dimensions_7d7b2e3a">
+                  <height quantity="" unit="cm" xml:id="height_2154405b"/>
+                  <width quantity="" unit="cm" xml:id="width_efa16ebc"/>
+                </dimensions>
+              </dimensions>
+              <titlePage label="[wrapper]" xml:id="titlePage_5f752c39">
+                <p>Nr. 3: | Vesper&#xE6; de Confe&#x17F;sore | a | 4tor Voc Conc:tis | Con stromenti | Parti 16 | Del Sige Francesco Thuma | pro Chor Ducumbgsi desc: 753</p>
+              </titlePage>
+              <extent quantity="" xml:id="extent_c391fffd">10 parts</extent>
+              <dimensions xml:id="dimensions_77c2b2e5">
+                <height quantity="" xml:id="height_89f553ad"/>
+                <width quantity="" xml:id="width_861eadc6"/>
+                <depth quantity="" xml:id="depth_48b0dbdc"/>
+                <dim quantity="" xml:id="dim_00c3f9af"/>
+              </dimensions>
+              <physMedium xml:id="physMedium_637a7096">
+                <p>hand-ruled paper, 10 staves (11 mm)</p>
+              </physMedium>
+            </physDesc>
             <physLoc xml:id="physLoc_1e84ca61">
               <repository xml:id="repository_3c792825">
                 <corpName xml:id="corpName_209fae60" role=""/>
                 <geogName xml:id="geogName_3e7a400c" role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info" xml:id="identifier_28df7afb">A-H</identifier>
               </repository>
-              <identifier xml:id="identifier_d7fd3bb4">Mus.Hs. 884 (B.14.11)</identifier>
+              <identifier xml:id="identifier_d7fd3bb4">884</identifier>
             </physLoc>
+            <notesStmt xml:id="notesStmt_d6962688">
+              <annot type="source_description" xml:id="annot_77b4abc0">
+                <p>S solo and coro (6), A solo and coro (7), T solo and coro (8), B solo and coro (6), trb 1 (4), trb 2 (4), vl 1 (6), vl 2 (6), vlne (7), org (8)</p>
+                <p>wrapper (fol. 1v) contains ca. 50 performance dates from 1754 to 1774, written in pencil and largely illegible</p>
+              </annot>
+              <annot type="links" xml:id="annot_8e932348">
+                <ptr mimetype="" xml:id="ptr_d6e397_0_0"/>
+              </annot>
+            </notesStmt>
             <componentList xml:id="componentList_132e635e"/>
           </item>
         </itemList>
@@ -522,7 +566,7 @@
                 <p>catalogued according to RISM</p>
               </annot>
               <annot type="links" xml:id="annot_0744e266">
-                <ptr mimetype="" xml:id="ptr_d6e397_0"/>
+                <ptr mimetype="" xml:id="ptr_d6e397_0_1"/>
               </annot>
             </notesStmt>
             <componentList xml:id="componentList_cc323078"/>
@@ -683,7 +727,7 @@
                 <p>A copy by Anton Ristl an other writers.</p>
               </annot>
               <annot type="links" xml:id="annot_78e4131b">
-                <ptr mimetype="" xml:id="ptr_d6e397_1"/>
+                <ptr mimetype="" xml:id="ptr_d6e397_1_0"/>
               </annot>
             </notesStmt>
             <componentList xml:id="componentList_0144fd42"/>
@@ -764,7 +808,7 @@
                 <p>catalogued according to RISM entry</p>
               </annot>
               <annot type="links" xml:id="annot_a7acecea">
-                <ptr mimetype="" xml:id="ptr_d6e397"/>
+                <ptr mimetype="" xml:id="ptr_d6e397_1_1"/>
               </annot>
             </notesStmt>
             <componentList xml:id="componentList_109417b3"/>
