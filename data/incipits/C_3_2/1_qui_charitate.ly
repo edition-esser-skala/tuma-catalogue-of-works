@@ -77,7 +77,7 @@ BassFigures = \figuremode {
       \new GrandStaff \with { \smallGroupDistance } <<
         \set GrandStaff.instrumentName = "vl"
         \new Staff {
-          \set Staff.instrumentName = "1I"
+          \set Staff.instrumentName = "1"
           \ViolinoI
         }
         \new Staff {
