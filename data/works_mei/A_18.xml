@@ -89,14 +89,6 @@
             <ptr target="@Bartos2018 [p. 262]" targettype="pandoc-citation" xml:id="ptr_d6e87"/>
           </bibl>
         </biblList>
-        <notesStmt xml:id="notesStmt_4176ad95">
-          <annot type="links" xml:id="annot_fa9583ba">
-            <ptr mimetype="" xml:id="ptr_d6e131"/>
-          </annot>
-          <annot type="general_description" xml:id="annot_8cef969a">
-            <p>A source in A-H (II,14) has been lost.</p>
-          </annot>
-        </notesStmt>
         <classification xml:id="classification_b881eec0">
           <termList xml:id="termList_48e2aaa1">
             <term xml:id="term_416c44af">mass</term>
@@ -1201,6 +1193,41 @@
         <componentList xml:id="componentList_0452d25c"/>
         <relationList xml:id="relationList_63d31736">
           <relation rel="isEmbodimentOf" xml:id="relation_5004213e"/>
+        </relationList>
+      </manifestation>
+      <manifestation xml:id="manifestation_a78628ac">
+        <identifier xml:id="identifier_941c7536"/>
+        <titleStmt xml:id="titleStmt_91c3ac35">
+          <title xml:id="title_0825c419">Lost manuscript</title>
+        </titleStmt>
+        <classification xml:id="classification_61c543fc">
+          <termList xml:id="termList_d19b1b27">
+            <term xml:id="term_47e9bd70">Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Lost</term>
+          </termList>
+        </classification>
+        <itemList xml:id="itemList_fa370ae3">
+          <item xml:id="item_9a891d53">
+            <identifier xml:id="identifier_d630cc9d"/>
+            <physDesc xml:id="physDesc_f7d93d78"/>
+            <physLoc xml:id="physLoc_8efa0192">
+              <repository xml:id="repository_f385303a">
+                <corpName xml:id="corpName_b21c035e" role=""/>
+                <geogName xml:id="geogName_1c730af5" role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info" xml:id="identifier_092caaa2">A-H</identifier>
+              </repository>
+              <identifier xml:id="identifier_1113aaa4">A.2.14</identifier>
+            </physLoc>
+            <componentList xml:id="componentList_640995c1"/>
+          </item>
+        </itemList>
+        <componentList xml:id="componentList_9becb230"/>
+        <relationList xml:id="relationList_20717f9c">
+          <relation rel="isEmbodimentOf" xml:id="relation_4bb434c9"/>
         </relationList>
       </manifestation>
     </manifestationList>

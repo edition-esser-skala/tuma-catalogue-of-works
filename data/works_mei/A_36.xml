@@ -80,14 +80,6 @@
             <ptr target="@Stefan1985 [p. 242, no. 1378]" targettype="pandoc-citation" xml:id="ptr_d6e79"/>
           </bibl>
         </biblList>
-        <notesStmt xml:id="notesStmt_85b49583">
-          <annot type="links" xml:id="annot_4707e37a">
-            <ptr mimetype="" xml:id="ptr_d6e131"/>
-          </annot>
-          <annot type="general_description" xml:id="annot_c98857b1">
-            <p>A source in A-H (II,108) has been lost.</p>
-          </annot>
-        </notesStmt>
         <classification xml:id="classification_327c6224">
           <termList xml:id="termList_c99f6eb4">
             <term xml:id="term_4353c653">mass</term>
@@ -1189,6 +1181,41 @@
         <componentList xml:id="componentList_a2cee405"/>
         <relationList xml:id="relationList_67c76203">
           <relation rel="isEmbodimentOf" xml:id="relation_17b41edb"/>
+        </relationList>
+      </manifestation>
+      <manifestation xml:id="manifestation_086f0396">
+        <identifier xml:id="identifier_571cc9be"/>
+        <titleStmt xml:id="titleStmt_82bd0425">
+          <title xml:id="title_a6c3f8b0">Lost manuscript</title>
+        </titleStmt>
+        <classification xml:id="classification_d098483f">
+          <termList xml:id="termList_e0d17fd5">
+            <term xml:id="term_007c4675">Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Lost</term>
+          </termList>
+        </classification>
+        <itemList xml:id="itemList_6e694853">
+          <item xml:id="item_128f9d39">
+            <identifier xml:id="identifier_e724e1bf"/>
+            <physDesc xml:id="physDesc_4b5ed31c"/>
+            <physLoc xml:id="physLoc_ee37efe3">
+              <repository xml:id="repository_9973257d">
+                <corpName xml:id="corpName_dbe86715" role=""/>
+                <geogName xml:id="geogName_a4a9f937" role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info" xml:id="identifier_f83a8b71">A-H</identifier>
+              </repository>
+              <identifier xml:id="identifier_def41e8b">A.2.108</identifier>
+            </physLoc>
+            <componentList xml:id="componentList_0ca1ab72"/>
+          </item>
+        </itemList>
+        <componentList xml:id="componentList_0b97b15b"/>
+        <relationList xml:id="relationList_37ab0f72">
+          <relation rel="isEmbodimentOf" xml:id="relation_4b016fb4"/>
         </relationList>
       </manifestation>
     </manifestationList>

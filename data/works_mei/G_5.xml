@@ -549,6 +549,41 @@
           <relation rel="isEmbodimentOf" xml:id="relation_474e256d"/>
         </relationList>
       </manifestation>
+      <manifestation xml:id="manifestation_15696975">
+        <identifier xml:id="identifier_1deb0ca6"/>
+        <titleStmt xml:id="titleStmt_39bfba4a">
+          <title xml:id="title_46dd076c">Lost manuscript</title>
+        </titleStmt>
+        <classification xml:id="classification_cbdfc14d">
+          <termList xml:id="termList_e46e396c">
+            <term xml:id="term_ecce422b">Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Lost</term>
+          </termList>
+        </classification>
+        <itemList xml:id="itemList_472bca3f">
+          <item xml:id="item_f46d2598">
+            <identifier xml:id="identifier_432c92f6"/>
+            <physDesc xml:id="physDesc_d0b82802"/>
+            <physLoc xml:id="physLoc_fb1d56c4">
+              <repository xml:id="repository_e58b2fb5">
+                <corpName xml:id="corpName_5766bd3c" role=""/>
+                <geogName xml:id="geogName_e3e6e9ce" role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info" xml:id="identifier_d8617c20">A-H</identifier>
+              </repository>
+              <identifier xml:id="identifier_368bef97">A.24.10</identifier>
+            </physLoc>
+            <componentList xml:id="componentList_f015a551"/>
+          </item>
+        </itemList>
+        <componentList xml:id="componentList_eeda0ecb"/>
+        <relationList xml:id="relationList_abafc3b9">
+          <relation rel="isEmbodimentOf" xml:id="relation_1f8fce1b"/>
+        </relationList>
+      </manifestation>
     </manifestationList>
   </meiHead>
   <music/>

@@ -70,13 +70,13 @@
         </langUsage>
         <biblList xml:id="biblList_81b75a13">
           <head xml:id="head_3389934a">Bibliography</head>
-          <bibl>
+          <bibl xml:id="bibl_d4e71">
             <genre>reference</genre>
-            <ptr target="@Riedel1979 [p. 104]" targettype="pandoc-citation"/>
+            <ptr target="@Riedel1979 [p. 104]" targettype="pandoc-citation" xml:id="ptr_d6e73"/>
           </bibl>
-          <bibl>
+          <bibl xml:id="bibl_d4e74">
             <genre>reference</genre>
-            <ptr target="@Freeman1992 [p. 47]" targettype="pandoc-citation"/>
+            <ptr target="@Freeman1992 [p. 47]" targettype="pandoc-citation" xml:id="ptr_d6e76"/>
           </bibl>
         </biblList>
         <notesStmt xml:id="notesStmt_9c8708a2">
@@ -84,7 +84,7 @@
             <ptr mimetype="" xml:id="ptr_d6e131"/>
           </annot>
           <annot type="general_description" xml:id="annot_a1d2b9e2">
-            <p>Some sources also comprise colla parte instrumental parts (vl, trb) for this a capella mass. A source in A-H (II, 171) has been lost.</p>
+            <p>Some sources also comprise colla parte instrumental parts (vl, trb) for this a capella mass.</p>
           </annot>
         </notesStmt>
         <classification xml:id="classification_133d68ca">
@@ -856,7 +856,7 @@
                 <p>catalogued according to RISM entry</p>
               </annot>
               <annot type="links" xml:id="annot_fde935f8">
-                <ptr mimetype="" xml:id="ptr_d6e397"/>
+                <ptr mimetype="" xml:id="ptr_d6e397_0"/>
               </annot>
             </notesStmt>
             <componentList xml:id="componentList_8d376000"/>
@@ -865,6 +865,41 @@
         <componentList xml:id="componentList_72c9e7ef"/>
         <relationList xml:id="relationList_571f6782">
           <relation rel="isEmbodimentOf" xml:id="relation_3c460bc5"/>
+        </relationList>
+      </manifestation>
+      <manifestation xml:id="manifestation_0bb8a3ea">
+        <identifier xml:id="identifier_814c979c"/>
+        <titleStmt xml:id="titleStmt_c9786899">
+          <title xml:id="title_9e3ffe63">Lost manuscript</title>
+        </titleStmt>
+        <classification xml:id="classification_c5fa2a2e">
+          <termList xml:id="termList_7e123ef1">
+            <term xml:id="term_2ee43456">Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Lost</term>
+          </termList>
+        </classification>
+        <itemList xml:id="itemList_88286a03">
+          <item xml:id="item_6a848605">
+            <identifier xml:id="identifier_049f7899"/>
+            <physDesc xml:id="physDesc_c81fa3a1"/>
+            <physLoc xml:id="physLoc_280e3070">
+              <repository xml:id="repository_5d690388">
+                <corpName xml:id="corpName_d41cfa28" role=""/>
+                <geogName xml:id="geogName_93dc695e" role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info" xml:id="identifier_3764fca4">A-H</identifier>
+              </repository>
+              <identifier xml:id="identifier_59b9969d">A.2.171</identifier>
+            </physLoc>
+            <componentList xml:id="componentList_468ad6ba"/>
+          </item>
+        </itemList>
+        <componentList xml:id="componentList_c3988f2e"/>
+        <relationList xml:id="relationList_39b368e8">
+          <relation rel="isEmbodimentOf" xml:id="relation_579b6a3a"/>
         </relationList>
       </manifestation>
     </manifestationList>
