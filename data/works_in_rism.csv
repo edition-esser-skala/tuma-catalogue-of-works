@@ -1,5 +1,7 @@
 rism_id,title,title_alt,genre,siglum,shelfmark,notes
 600038399,Vespers,,Vespers,A-Ed,G 1,
+600038463,Litanies,,Litanies,A-Ed,G 61/1,added and split manually
+600038463,Sub tuum praesidium,,Litanies,A-Ed,G 61/2,added and split manually
 600038567,Salve regina,,Antiphons,A-Ed,K 8,
 600090622,Masses,Missa S Antonii,Masses,A-HE,III a,
 600090618,Litanies,,Litanies,A-HE,III b 3,
@@ -24,8 +26,8 @@ rism_id,title,title_alt,genre,siglum,shelfmark,notes
 600178682,Vespers,Vesperae de Confessore,Vespers,A-KR,E 12/38,
 600178681,Vespers,,Vespers,A-KR,E 26/172,
 600178675,Litanies,,Litanies,A-KR,E 48/130,
-600178678,Litanies,,Litanies,A-KR,E 48/131,
-600178679,Sub tuum praesidium,,Sacred songs,A-KR,E 48/131,
+600178678,Litanies,,Litanies,A-KR,E 48/131/1,shelfmark changed manually
+600178679,Sub tuum praesidium,,Sacred songs,A-KR,E 48/131/2,shelfmark changed manually
 600178680,Miserere,,Psalms,A-KR,F 21/12,
 600178676,Salve regina,,Antiphons,A-KR,F 5/128,
 603000421,Sonatas,,Sonatas,A-LA,112,
@@ -86,7 +88,8 @@ rism_id,title,title_alt,genre,siglum,shelfmark,notes
 600138717,Lectiones ad officium defunctorum a 4 voci con violini e tromboni in concerto,,Chormusik,A-Wn,Mus.Hs.15690,
 600138746,Litanie breve a 4 voci in pieno,,Chormusik,A-Wn,Mus.Hs.15691,
 600138807,Litaniae della madonna santissima,,Chormusik,A-Wn,Mus.Hs.15692,
-600138848,"Litaniae a 4 voci concerti, 2 violini, violino primo obligato e ripieni",,Chormusik,A-Wn,Mus.Hs.15693,
+600138848,"Litaniae a 4 voci concerti, 2 violini, violino primo obligato e ripieni",,Chormusik,A-Wn,Mus.Hs.15693/1,split manually
+600138848,Sub tuum praesidium,,Chormusik,A-Wn,Mus.Hs.15693/2,split manually
 600101474,Lytaniae lauretanae,,Chormusik,A-Wn,Mus.Hs.15694,
 600138844,"Litaniae a 4 voci concertanti, 2 violini concertanti e organo concertante",,Chormusik,A-Wn,Mus.Hs.15695,
 600138872,Litanie breve a 5 voci in pieno,,Chormusik,A-Wn,Mus.Hs.15696,

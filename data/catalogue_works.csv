@@ -224,6 +224,10 @@ F,4,1,Salve Regina,,,,,F 5/128,,,,,,,,,XXXV E 142,,,,"PL-KŁwnm Am-203, 15 | CZ-
 F,4,2,Salve Regina,,,,,,,,,,,,,,,,,,A-Ed K 8,,,,,,,
 F,4,L1,Salve Regina,,A.31.6,,,,,,,,,,,,,,,,,,,,,,,
 F,4,L2,Salve Regina,,A.31.93,,,,,,,,,,,,,,,,,,,,,,,
+F,5,1,Sub tuum praesidium,,879/2,,,,,,,,,,,,,,,,,,,,,,,
+F,5,2,Sub tuum praesidium,,887,,,,,,,,,,,,,,,,,,,,,,,
+F,5,3,Sub tuum praesidium,,,,,E 48/131/2,,,,,,,,,,,,,A-Ed G 61/2,,,,,,,probably by Schmidt
+F,5,4,Sub tuum praesidium,,,,,,,,,,,Mus.Hs.15693/2,,,,,,,,,,,,,,
 G,,1,Stabat mater,,,,,,,,,,,Mus.Hs.15725,,,,,,Mus.2968-D-509,,Sequences 1,,,A.VIII.1,B.VIII.4,@Eybl1996 [p. 58],
 G,,2,Stabat mater,1786,A.24.11,,,,,,,,,SA.67.H.5,,,,,Mus.ms. 22100 | Mus.ms. 22100/1 | Mus.ms. 30180,Mus.2968-D-5 | Mus.2968-D-515,US-Bp M.222.47 (2) | US-R ML96.C127 | RUS-Mk XI-433 | H-PH Mus.sacr.ant. T 1 | D-MÜs SANT Hs 4196 | D-MHjk ohne Signatur | D-LEm PM 7189 | I-Rsc A-Ms 523,Sequences 2,,,A.VIII.2,B.VIII.3,"@Kiesewetter1847 [p. 84], @Riedel1979 [p. 282]",A-H source lost
 G,,3,Stabat mater,,,,,,,,,I/1718,,,,1333,,,,Mus.2968-D-514,D-OB MO 814,Sequences 3,,,A.VIII.3,B.VIII.2,"@Stefan1985 [p. 252, no. 1393], @Haberkamp1986 [p. 207]",
@@ -244,9 +248,9 @@ H,,8,Litaniae lauretanae,,,,,,,,,,1097,,,,XXXV E 154,,,,CZ-Bm A 3816,Litanies 18
 H,,9,Litaniae lauretanae,1900,878,,,,,,,,,Mus.Hs.15695,,,XXXV E 153,,,,,Litanies 1,,,A.IX.9,B.IX.5,"@BrtniceInv [p. 109, no. 3], @Strakova1963, @Strakova1965, @Riedel1979 [p. 299]",CZ-Pkřiž old signature: 2310
 H,,10,Litaniae lauretanae,,,,,E 48/130,,,,,,,,,,,,,,Litanies 5,,,A.IX.10,,,
 H,,11,Litaniae lauretanae,1899,880,,,,,,,,,Mus.Hs.15692,,,XXXV E 143,,,,D-OB MO 806,Litanies 16,,,A.IX.11,B.IX.2,"@HerzogenburgInvA [p. 400, no. 25.23], @Riedel1979 [p. 299], @Haberkamp1986 [p. 206]",CZ-Pkřiž old signature: 2300
-H,,12,Litaniae lauretanae,,,,,E 48/131 [600178678] | E 48/131 [600178679],,,,,,,,,,,,,,Litanies 4,,,A.IX.12,,,
+H,,12,Litaniae lauretanae,,,,,E 48/131/1,,,,,,,,,,,,,A-Ed G 61/1,Litanies 4,,,A.IX.12,,,probably by Schmidt
 H,,13,Litaniae lauretanae,,,,,,,,,,,,,,XXXV E 145,,,,,Litanies 11,,,A.IX.13,,,CZ-Pkřiž old signature: 2302
-H,,14,Litaniae lauretanae,,A.26.22,,,,,,,,,Mus.Hs.15693,,1518,XXXVI B 193 | XXXV E 148,,,,,"Litanies 3, Litanies 17",,,"A.IX.14, A.IX.16",B.IX.3,"@BrtniceInv [p. 109, no. 2], @Strakova1963, @Strakova1965",one CZ-Pkřiž source by Reichenauer; old CZ-Pkřiž signatures: 2293 and 2306; in CZ-Pak by Sehling
+H,,14,Litaniae lauretanae,,A.26.22,,,,,,,,,Mus.Hs.15693/1,,1518,XXXVI B 193 | XXXV E 148,,,,,"Litanies 3, Litanies 17",,,"A.IX.14, A.IX.16",B.IX.3,"@BrtniceInv [p. 109, no. 2], @Strakova1963, @Strakova1965",one CZ-Pkřiž source by Reichenauer; old CZ-Pkřiž signatures: 2293 and 2306; in CZ-Pak by Sehling
 H,,15,Litaniae lauretanae,1898,A.26.45,III b 3 [600090619],,,,,,,,,,,XXXV E 152,,,,,Litanies 19,,,A.IX.15,,"@BrtniceInv [p. 111, no. 8], @Strakova1963, @Strakova1965, @Riedel1979 [p. 299]",CZ-Pkřiž old signature: 2310
 H,,16,Litaniae lauretanae,,,,,,,,,,,Mus.Hs.15691,,,,,,,,Litanies 8,,,A.IX.17,B.IX.1,,
 H,,17,Litaniae lauretanae,,,,B 386/1,,,,,,,,,,,XVI C 75,,,,Litanies 2,,,A.IX.18,,,
@@ -262,7 +266,7 @@ H,,L7,Litaniae lauretanae,,A.26.56,,,,,,,,,,,,,,,,,,,,,,,
 H,,L8,Litaniae lauretanae,,881,,,,,,,,,,,,,,,,,,,,,,"@HerzogenburgInvA [p. 429, no. 26.57]",
 H,,L9,Litaniae lauretanae,,877,,,,,,,,,,,,,,,,,,,,,,"@HerzogenburgInvA [p. 429, no. 26.59], @HerzogenburgInvB [fol. 205r, no. 30.53]",
 H,,L10,Litaniae lauretanae,,A.26.60,,,,,,,,,,,,,,,,,,,,,,,
-H,,L11,Litaniae lauretanae / Sub tuum,,879,,,,,,,,,,,,,,,,,,,,,,"@HerzogenburgInvA [p. 430, no. 26.61], @HerzogenburgInvB [fol. 205r, no. 30.55]",
+H,,L11,Litaniae lauretanae,,879/1,,,,,,,,,,,,,,,,,,,,,,"@HerzogenburgInvA [p. 430, no. 26.61], @HerzogenburgInvB [fol. 205r, no. 30.55]",
 H,,L12,Litaniae lauretanae,,A.26.62,,,,,,,,,,,,,,,,,,,,,,,
 H,,S1,Litaniae lauretanae,,,,,,,,,,,,,,,,,,A-Ed G 1,,,,,,,"title page describes a vesper, but shelfmark contains a litany by Schmidt (same as A-Ed G 60)"
 I,,1,Lamentationes Jeremiae Prophetae,,,,,,,,,I/7364,,,,,,,,Mus.2968-E-502,,Miscellaneous 1,,,A.XII.1,B.XIII.8,,
