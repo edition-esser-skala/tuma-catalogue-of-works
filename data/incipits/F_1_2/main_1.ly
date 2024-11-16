@@ -10,7 +10,9 @@ notes = \relative c' {
 }
 
 text = \lyricmode {
-  Al -- ma
+  Al -- ma Re -- dem -- pto -- ris
+  ma -- ter, quae per -- vi -- a coe -- li
+  por -- ta ma -- nes et stel -- la
 }
 
 \score {

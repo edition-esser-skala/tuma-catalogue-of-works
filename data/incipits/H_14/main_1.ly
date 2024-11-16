@@ -11,7 +11,8 @@ notes = \relative c' {
 
 text = \lyricmode {
   Ky -- ri -- e e -- lei --
-  son
+  son, e -- lei -- son, e -- lei --
+  son, e -- lei -- \hy
 }
 
 \score {

@@ -14,7 +14,9 @@ notes = \relative c' {
 text = \lyricmode {
   Me -- men -- to
   Do -- mi -- ne Da --
-  vid
+  vid et o -- mnes man -- sue --
+  tu -- di -- nis e --
+  ius
 }
 
 \score {
