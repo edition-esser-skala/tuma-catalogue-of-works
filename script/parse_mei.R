@@ -15,7 +15,8 @@ SOURCE_TYPES <- c(
   "Autograph manuscript" = "A",
   "Partly autograph manuscript" = "A",
   "Manuscript copy" = "C",
-  "Print" = "P"
+  "Print" = "P",
+  "Lost manuscript" = "L"
 )
 
 
@@ -139,6 +140,23 @@ Physical description
 Components and notes
 : {source_description}
 '
+
+
+## Lost source ----
+
+LOST_SOURCE_TEMPLATE <- '
+#### {title}
+
+Classification
+: {classification}
+
+Location
+: {siglum} {shelfmark} {link}
+
+Components and notes
+: {source_description}
+'
+
 
 ## RISM ----
 
@@ -679,8 +697,7 @@ format_source <- function(s) {
 
   classification <-
     s$classification$termList %>%
-    map_chr(\(t) t[[1]]) %>%
-    str_flatten_comma()
+    map_chr(\(t) t[[1]])
 
   location <- get_source_location(s)
 
@@ -695,10 +712,23 @@ format_source <- function(s) {
   source_description <-
     attr(s$itemList$item$notesStmt[[1]], "markdown_text") %||% "–"
 
+  if (classification[6] == "Lost")
+    return(
+      use_template(
+        LOST_SOURCE_TEMPLATE,
+        title = title,
+        classification = str_flatten_comma(classification),
+        siglum = location$siglum,
+        shelfmark = location$shelfmark,
+        link = location$link,
+        source_description = source_description
+      )
+    )
+
   use_template(
     SOURCE_TEMPLATE,
     title = title,
-    classification = classification,
+    classification = str_flatten_comma(classification),
     siglum = location$siglum,
     shelfmark = location$shelfmark,
     link = location$link,
@@ -716,10 +746,8 @@ format_source <- function(s) {
 
 # stops the script if two strings are not equal
 check_equal_string <- function(a, b) {
-  if (a != b)
-    stop("These strings must be the same:",
-         "\n(MEI) ", a,
-         "\n(CSV) ", b)
+  if (a == b) return()
+  str_glue("These strings must be the same:\n(MEI) {a}\n(CSV) {b}")
 }
 
 # stops the script if two string lists contain different elements
@@ -727,10 +755,10 @@ check_equal_string <- function(a, b) {
 check_equal_list <- function(a, b) {
   a <- str_sort(a) %>% unique()
   b <- str_sort(b) %>% unique()
-  if (!all(a == b))
-    stop("These lists must be the same:",
-         "\n(MEI) ", str_flatten_comma(a),
-         "\n(CSV) ", str_flatten_comma(b))
+  if (all(a == b)) return()
+  str_glue("These lists must be the same:",
+           "\n(MEI) {str_flatten_comma(a)}",
+           "\n(CSV) {str_flatten_comma(b)}")
 }
 
 # compares MEI to CSV metadata
@@ -742,10 +770,23 @@ validate_metadata <- function(group,
                               identifiers,
                               sources,
                               table_metadata,
-                              table_sources) {
+                              table_sources,
+                              loglevel = c("error", "warn")) {
+  loglevel <- rlang::arg_match(loglevel)
+  report <- function(msg) {
+    if (is.null(msg))
+      return()
+    if (loglevel == "error") {
+      error(msg)
+      stop()
+    }
+    warn(msg)
+  }
+
   # work title
   title <- str_split_1(title, "<br/>")[1]
-  check_equal_string(title, table_metadata$title)
+  check_equal_string(title, table_metadata$title) %>%
+    report()
 
   # references
   table_bibliography <-
@@ -753,7 +794,8 @@ validate_metadata <- function(group,
     replace_na("") %>%
     str_split_1(", @") %>%
     str_remove("@")
-  check_equal_list(str_remove(bibliography, "@"), table_bibliography)
+  check_equal_list(str_remove(bibliography, "@"), table_bibliography) %>%
+    report()
 
   # identifiers
   table_metadata[[catalogue_prefix]] <-
@@ -761,7 +803,8 @@ validate_metadata <- function(group,
   check_equal_string(
     format_identifiers(identifiers, sep = " · ", add_links = FALSE),
     format_identifiers(table_metadata, sep = " · ", add_links = FALSE)
-  )
+  ) %>%
+    report()
 
   # sources
   mei_sources <-
@@ -772,7 +815,8 @@ validate_metadata <- function(group,
       .keep = "none"
     ) %>%
     pull(source)
-  check_equal_list(mei_sources, table_sources$source)
+  check_equal_list(mei_sources, table_sources$source) %>%
+    report()
 }
 
 
@@ -860,7 +904,8 @@ get_work_details <- function(group,
     identifiers = set_names(identifier_ids, identifier_catalogues),
     sources = data_sources,
     table_metadata = table_metadata,
-    table_sources = table_sources
+    table_sources = table_sources,
+    loglevel = "error"
   )
 
   use_template(
