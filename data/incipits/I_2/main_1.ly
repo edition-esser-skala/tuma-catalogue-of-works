@@ -6,13 +6,12 @@ notes = \relative c' {
   \key g \minor \time 4/4 \tempoMarkup "Adagio"
   d'8^\partVi es16 d b'8 g16 es c2
   c8 d16 c a'8 fis16 c h2
-  c8 d16 c g'8 es16 c fis4 g~
-  g fis\trill \clef tenor \autoBeamOff d,4.^\partTs es8
+  g'4 fis\trill \clef tenor \autoBeamOff d,4.^\partTs es8
   c4 c c8. c16 b8 a
 }
 
 text = \lyricmode {
-  \skips 23
+  \skips 16
   Par -- ce
   mi -- hi, par -- ce mi -- hi
 }
