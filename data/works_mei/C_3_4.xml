@@ -73,6 +73,18 @@
             <genre>reference</genre>
             <ptr target="@Eybl1996 [p. 58]" targettype="pandoc-citation" xml:id="ptr_d6e71"/>
           </bibl>
+          <bibl>
+            <genre>score</genre>
+            <composer>Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma</composer>
+            <title level="m">O magnum mysterium</title>
+            <editor>Friedrich H&#xE4;gele</editor>
+            <identifier>BU 2454</identifier>
+            <imprint>
+              <publisher>Dr. J. Butz Musikverlag</publisher>
+              <pubPlace>Bonn</pubPlace>
+              <date isodate="2011-01-01">2011</date>
+            </imprint>
+          </bibl>
         </biblList>
         <classification xml:id="classification_96d86dc2">
           <termList xml:id="termList_a7864120">
