@@ -448,9 +448,9 @@
             <physDesc xml:id="physDesc_f6835f5c"/>
             <physLoc xml:id="physLoc_01a57312">
               <repository xml:id="repository_8fd80e41">
-                <corpName xml:id="corpName_591ac7db" role=""/>
+                <corpName xml:id="corpName_591ac7db" role="">Brtnice inventory</corpName>
                 <geogName xml:id="geogName_0bb0ac7d" role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info" xml:id="identifier_9b98b1bd">Brtnice inventory</identifier>
+                <identifier auth="RISM" auth.uri="http://www.rism.info" xml:id="identifier_9b98b1bd"/>
               </repository>
               <identifier xml:id="identifier_21b340e1">p. 111, no. 5</identifier>
             </physLoc>

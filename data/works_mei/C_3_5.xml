@@ -81,9 +81,9 @@
             <genre>reference</genre>
             <ptr target="@Strakova1965" targettype="pandoc-citation" xml:id="ptr_d6e77"/>
           </bibl>
-          <bibl>
+          <bibl xml:id="bibl_d4e78">
             <genre>reference</genre>
-            <ptr target="@BrtniceInv [p. 111, no. 4]" targettype="pandoc-citation"/>
+            <ptr target="@BrtniceInv [p. 111, no. 4]" targettype="pandoc-citation" xml:id="ptr_d6e80"/>
           </bibl>
         </biblList>
         <classification xml:id="classification_8f485fac">
@@ -399,9 +399,9 @@
             <physDesc xml:id="physDesc_1fcc0912"/>
             <physLoc xml:id="physLoc_6806dbea">
               <repository xml:id="repository_4cf07f2c">
-                <corpName xml:id="corpName_8305b79c" role=""/>
+                <corpName xml:id="corpName_8305b79c" role="">Brtnice inventory</corpName>
                 <geogName xml:id="geogName_0c047a03" role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info" xml:id="identifier_418847c5">Brtnice inventory</identifier>
+                <identifier auth="RISM" auth.uri="http://www.rism.info" xml:id="identifier_418847c5"/>
               </repository>
               <identifier xml:id="identifier_71d7b159">p. 111, no. 4</identifier>
             </physLoc>
