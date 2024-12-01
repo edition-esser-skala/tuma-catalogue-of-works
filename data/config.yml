@@ -43,3 +43,8 @@ edition:
 
   # url prefix for PDFs
   url: https://edition.esser-skala.at/scores/frantisek-ignac-antonin-tuma/#work-tumw-
+
+# allowed labels for the link to the source location
+location_link_labels:
+  - digitized version
+  - catalogue entry

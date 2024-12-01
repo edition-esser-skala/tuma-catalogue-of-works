@@ -211,7 +211,7 @@
                         <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" xml:id="perfRes_534cfd09">org</perfRes>
                       </perfResList>
                     </perfMedium>
-                    <extent quantity="" xml:id="extent_f6e56fe1">33 bars</extent>
+                    <extent quantity="" xml:id="extent_f6e56fe1">39 bars</extent>
                     <notesStmt xml:id="notesStmt_051a2301">
                       <annot xml:id="annot_5c2ff37f"/>
                     </notesStmt>
@@ -246,7 +246,7 @@
                         <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" xml:id="perfRes_ca3dc032">org</perfRes>
                       </perfResList>
                     </perfMedium>
-                    <extent quantity="" xml:id="extent_9b08c374">39 bars</extent>
+                    <extent quantity="" xml:id="extent_9b08c374">32 bars</extent>
                     <notesStmt xml:id="notesStmt_a17f2d30">
                       <annot xml:id="annot_b17203f3"/>
                     </notesStmt>
@@ -285,7 +285,7 @@
                         <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" xml:id="perfRes_75af584a">org</perfRes>
                       </perfResList>
                     </perfMedium>
-                    <extent quantity="" xml:id="extent_ebc210a6">32 bars</extent>
+                    <extent quantity="" xml:id="extent_ebc210a6">42 bars</extent>
                     <notesStmt xml:id="notesStmt_539f9c8a">
                       <annot xml:id="annot_1f6ef64b"/>
                     </notesStmt>
@@ -321,7 +321,7 @@
                         <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" xml:id="perfRes_c51a2ec3">org</perfRes>
                       </perfResList>
                     </perfMedium>
-                    <extent quantity="" xml:id="extent_a7b527d7">42 bars</extent>
+                    <extent quantity="" xml:id="extent_a7b527d7">28 bars</extent>
                     <notesStmt xml:id="notesStmt_f2bdc2ca">
                       <annot xml:id="annot_312c7ad0"/>
                     </notesStmt>

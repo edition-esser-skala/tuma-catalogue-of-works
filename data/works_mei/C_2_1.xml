@@ -357,7 +357,7 @@
                         <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" xml:id="perfRes_9a5c9af7">org</perfRes>
                       </perfResList>
                     </perfMedium>
-                    <extent quantity="" xml:id="extent_0e3833d0">36 bars</extent>
+                    <extent quantity="" xml:id="extent_0e3833d0">35 bars</extent>
                     <notesStmt xml:id="notesStmt_0c51cfb4">
                       <annot xml:id="annot_fc3afa3c"/>
                     </notesStmt>
