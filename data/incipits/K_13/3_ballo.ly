@@ -4,40 +4,36 @@
 ViolinoI = {
   \relative c' {
     \clef treble
-    \twotwotime \key c \dorian \time 2/2 \tempoMarkup "Allabreve"
-    R1
-    r2 g''~
-    g4 d d e
-    f e f2~
-    f4 c c d
-    es! d es2~
-    es d4\trill c
-    h2 c~
-    c h
+    \key c \dorian \time 3/4 \tempoMarkup "Ballo"
+      \once \override Staff.TimeSignature.style = #'single-digit
+    g'4 g g
+    as8 f g2
+    f8 as g f es d
+    es d c2
   }
 }
 
 ViolinoII = {
   \relative c' {
     \clef treble
-    \twotwotime \key c \dorian \time 2/2 \tempoMarkup "Allabreve"
-    c'1
-    h
-    b
-    a
-    as
-    g
-    fis
-    f2 es
-    d1\trill
+    \key c \dorian \time 3/4 \tempoMarkup "Ballo"
+      \once \override Staff.TimeSignature.style = #'single-digit
+    g'4 g g
+    as8 f g2
+    f8 as g f es d
+    es d c2
   }
 }
 
 Continuo = {
   \relative c {
     \clef bass
-    \twotwotime \key c \dorian \time 2/2 \tempoMarkup "Allabreve"
-    R1*9
+    \key c \dorian \time 3/4 \tempoMarkup "Ballo"
+      \once \override Staff.TimeSignature.style = #'single-digit
+    r4 c es
+    f es c
+    r h g
+    c es8 d c4
   }
 }
 

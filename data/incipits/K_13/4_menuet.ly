@@ -4,40 +4,33 @@
 ViolinoI = {
   \relative c' {
     \clef treble
-    \twotwotime \key c \dorian \time 2/2 \tempoMarkup "Allabreve"
-    R1
-    r2 g''~
-    g4 d d e
-    f e f2~
-    f4 c c d
-    es! d es2~
-    es d4\trill c
-    h2 c~
-    c h
+    \key es \lydian \time 3/4 \tempoMarkup "Menuet"
+    es'4 b c
+    g4. as8 b4
+    es, c'8 b as g
+    f4 b,2
   }
 }
 
 ViolinoII = {
   \relative c' {
     \clef treble
-    \twotwotime \key c \dorian \time 2/2 \tempoMarkup "Allabreve"
-    c'1
-    h
-    b
-    a
-    as
-    g
-    fis
-    f2 es
-    d1\trill
+    \key es \lydian \time 3/4 \tempoMarkup "Menuet"
+    es'4 b c
+    g4. as8 b4
+    es, c'8 b as g
+    f4 b,2
   }
 }
 
 Continuo = {
   \relative c {
     \clef bass
-    \twotwotime \key c \dorian \time 2/2 \tempoMarkup "Allabreve"
-    R1*9
+    \key es \lydian \time 3/4 \tempoMarkup "Menuet"
+    es2 r4
+    es' b g
+    c f,2
+    d8 es d c b4
   }
 }
 
