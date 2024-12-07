@@ -15,7 +15,8 @@ text = \lyricmode {
   Al --
   le -- _
   lu -- _
-  ia,
+  ia, al -- _
+  le -- _ \hy
 }
 
 \score {

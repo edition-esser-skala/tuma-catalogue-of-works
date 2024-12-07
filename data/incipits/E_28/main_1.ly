@@ -7,7 +7,8 @@ notes = \relative c' {
   e1^\partSc
   e2 e
   f f
-  f r
+  d r
+  a' h
 }
 
 text = \lyricmode {
@@ -15,6 +16,7 @@ text = \lyricmode {
   ne -- brae
   fa -- ctae
   sunt
+  dum "cru -"
 }
 
 \score {
