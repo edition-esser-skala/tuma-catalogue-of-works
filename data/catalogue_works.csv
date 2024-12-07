@@ -124,7 +124,7 @@ C,3,L8,Motetto de Sancto Martyro,,A.10.26,,,,,,,,,,,,,,,,,,,,,,,
 C,3,L9,Motetta de Confessore (Laeta),,A.11.18,,,,,,,,,,,,,,,,,,,,,,,
 C,3,L10,Motetto,,A.11.19,,,,,,,,,,,,,,,,,,,,,,,
 C,3,L11,Motetta de quovis sancto,,A.11.20,,,,,,,,,,,,,,,,,,,,,,,
-C,4,1,Confitebor Domino,,,,,,,,,I/1648/2,,,,,,,,,,Offertories 1,,,A.II.3,B.XII.2b,,
+C,4,1,Confitebor Domino,,,,,,,,,I/1648/2,,,,,,,,,,Offertories 1,,,A.II.3,B.XII.2b,"@KlosterneuburgInvA [p. 98, no. 2], @KlosterneuburgInvB [p. 272, no. 1]",A-KN source lost
 C,4,2,Benedictus,,,,,,,,,,,Mus.Hs.15721,,,,,,,,Offertories 2,,,A.II.4,B.XII.1,"@BrtniceInv [p. 111, no. 3], @Strakova1963, @Strakova1965",
 C,4,3,Veritas mea,,,,464/3,,,,,,,,,,,,,,,Offertories 3,,,A.II.5,,"@KlosterneuburgInvB [p. 272, no. 3]",
 C,4,4,Te splendor et virtus,,,,,,,,,,,,,,,,,,H-PH Mus.sacr.ant. T 2,,,,,,,
@@ -133,12 +133,15 @@ C,4,6,Perfice gressus meos,,,,,,,,,,,,,,,X E 235 | XVI C 69 | XLVI A 268,,,CZ-Pu
 C,4,7,Confitebor,,,,,,,,,,,,,,,XVI C 70 | XLVI A 274 | XLVI A 338 (1),,,,,,,,,,
 C,4,8,Improperium exspectavit,,,,,,,,,,,,,,,XVI C 68 | XLVI A 273 | XLVI A 338 (2),,,CZ-LIT 168,,,,,,,
 C,4,L1,Devoti fideles,,,,,,,,,,,,,,,,,,,,,,,,"@BrtniceInv [p. 110, no. 6], @Strakova1963, @Strakova1965",
+C,4,L2,Veritas mea,,,,,,,,,,,,,,,,,,,,,,,,"@KlosterneuburgInvA [p. 98, no. 1], @KlosterneuburgInvB [p. 272, no. 4]",
+C,4,L3,Mystes Dei,,,,,,,,,,,,,,,,,,,,,,,,"@KlosterneuburgInvA [p. 128, no. 9]",
 C,5,1,Exaudivit de templo,,,,413,,,,,,,,,,,,,,,,,,,,"@KlosterneuburgInvA [p. 166, no. 7]",
 D,1,1,Vesperae de Confessore,2117,882,,119/1,,,,,,,Mus.Hs.15726,,1595,XXXV E 138,XX D 560,,,,Vespers 24,,,A.III.8,B.XI.2,"@KlosterneuburgInvA [p. 126, no. 8], @KlosterneuburgInvB [p. 351, no. 1a], @HerzogenburgInvA [p. 257, no. 15.11], @HerzogenburgInvB [fol. 102r, no. 13.12], @Riedel1979 [p. 332], @Stefan1985 [p. 377], @Bartos2013, @Hornbacher2023 [p. 214-217]",A-KN only Dixit; CZ-Pkřiž old signature: 1034
 D,1,2,Vesperae de Beatissima Maria Virgine,2118,A.16.6,,119/2,E 26/172,582,,E XXII 9 b | E XXII 9 c,,,,,,,,,,D-OB MO 815 | H-P C 25,Vespers 27,,,A.III.9,,"@KlosterneuburgInvA [p. 126, no. 10], @KlosterneuburgInvB [p. 351, no. 1b], @Riedel1979 [p. 332], @Haberkamp1986 [p. 207]",A-H source lost; A-KN only Dixit
 D,1,3,Vesperae de Dominica et Confessore,,B.14.12,,,,583,,,,,Mus.Hs.15727,,,,,,,"CZ-Bm A 13075 | H-Gk AMC, T. 9.",Vespers 25,,,A.III.12,B.XI.3,"@KlosterneuburgInvA [p. 72, no. 2], @RajhradInvA [p. 122, no. 7], @RajhradInvB [p. 271, no.985], @Bardos1980 [p. 526, no. 1416], @Tichy2014b",A-H and A-KN sources lost
 D,1,4,Vesperae de Confessore,,884,,,E 11/31 | E 12/38,,,,,,Mus.Hs.15728,,,,,,Mus.2968-D-508,,Vespers 26,,,A.III.13,B.XI.4,"@KlosterneuburgInvA [p. 71, no. 5], @Eybl1996 [p. 58], @HerzogenburgInvB [fol. 107r, no. 14.11], @Hornbacher2023 [p. 214-217]",A-KN source lost; A-KR E 11/31 attributed to Ehrenhardt
 D,1,L1,Vesper,,,,,,,,,,,,,,,,,,PL-CZ II-364,,,,,,,only title page available
+D,1,L2,Vesperae de Apostolis,,,,,,,,,,,,,,,,,,,,,,,,"@KlosterneuburgInvA [p. 126, no. 9]",
 D,1,S1,Vesperae de Dominica et Beata,,,,,,,,E XXII 9 a,,,,,,,,,,,,,,,,,by Reutter (HofR 110/16)
 D,2,1,Benedictus,,,,,,,,,I/1693,,,,,,,,,,Vespers 1,,,A.III.1,B.XI.12.V,,
 D,2,2,Confitebor,,,,,,,,,,,Mus.Hs.15677,,,,,,,,Vespers 2,,,A.III.2,B.XI.5,@Bartos2018 [p. 331],
@@ -175,6 +178,8 @@ D,3,L1,Miserere,,A.23.17,,,,,,,,,,,,,,,,,,,,,,,
 D,4,1,Magnificat,,,,,,,,,,,Mus.Hs.15697,,,XXXV E 139,,,,,Magnificats 1,,,A.X.1,B.VII.1,,CZ-Pkřiž old signature: 1042
 D,4,2,Magnificat,2119/6,A.21.9,,,,,,,,,Mus.Hs.15698,,,,,,,,Magnificats 2,,,A.X.2,B.VII.2,,A-H source lost
 D,4,3,Magnificat,,,VIII b 3 [600090620],,,,,,,,,,,,,,,,Magnificats 3,,,A.X.3,,"@KlosterneuburgInvA [p. 69, no. 9], @KlosterneuburgInvB [p. 351, no. 2a]",A-KN source lost
+D,4,L1,Magnificat,,,,,,,,,,,,,,,,,,,,,,,,"@KlosterneuburgInvB [p. 351, no. 2b]",
+D,4,L2,Magnificat,,,,,,,,,,,,,,,,,,,,,,,,"@KlosterneuburgInvB [p. 351, no. 2c]",
 E,,1,In monte oliveti,,,,,,,,,I/1693,,,,,,,,Mus.2968-D-513,,Responsories 1,,,A.VI.1a,B.XI.12.I,,
 E,,2,Tristis est anima,,,,,,,,,I/1693,,,,,,,,,,Responsories 1,,,A.VI.1a,B.XI.12.I,,
 E,,3,Ecce videmus eum,,,,,,,,,I/1693,,,,,,,,,,Responsories 1,,,A.VI.1a,B.XI.12.I,,
@@ -271,6 +276,7 @@ H,,L6,Litaniae lauretanae,,A.26.55,,,,,,,,,,,,,,,,,,,,,,,
 H,,L7,Litaniae de venerabili sacramento,,A.26.56,,,,,,,,,,,,,,,,,,,,,,,
 H,,L8,Litaniae lauretanae,,A.26.60,,,,,,,,,,,,,,,,,,,,,,,
 H,,L9,Litaniae lauretanae,,A.26.62,,,,,,,,,,,,,,,,,,,,,,,
+H,,L10,Litaniae,,,,,,,,,,,,,,,,,,,,,,,,"@KlosterneuburgInvA [p. 91, no. 2]",
 H,,S1,Litaniae lauretanae,,,,,,,,,,,,,,,,,,A-Ed G 1,,,,,,,"title page describes a vesper, but shelfmark contains a litany by Schmidt (same as A-Ed G 60)"
 I,,1,Lamentationes Jeremiae Prophetae,,,,,,,,,I/7364,,,,,,,,Mus.2968-E-502,,Miscellaneous 1,,,A.XII.1,B.XIII.8,,
 I,,2,Lectiones ad officium defunctorum,,,,,,,,,,,Mus.Hs.15690,,,,,,,,Miscellaneous 2,,,A.XII.2,B.XIII.2,@Eybl1996 [p. 56],
@@ -332,6 +338,7 @@ K,,L5,Sinfonia,,B.45.15,,,,,,,,,,,,,,,,,,,,,,,
 K,,L6,Sinfonia,,B.45.16,,,,,,,,,,,,,,,,,,,,,,,
 K,,L7,Sinfonia,,B.45.17,,,,,,,,,,,,,,,,,,,,,,,
 K,,L8,Sinfonia,,B.45.18,,,,,,,,,,,,,,,,,,,,,,,
+K,,L9,Sinfonia,,,,,,,,,,,,,,,,,,,,,,,,"@KlosterneuburgInvA [p. 80, no. 5, p. 145, no. 5]",
 K,,S1,Sinfonia,,,,,,,,,,,,,,,,,,D-Bhm RH 0655,,,,,,,
 L,,1,Partita,,,,,,,,,IX/29176,,,,,,,,,,,,,B.III.1,A.III.10,,
 L,,2,Partita,,,,,,,,,IX/29169,,,,,,,,Mus.2968-P-508,,,,,B.III.2,A.III.4,@Vogg1951 [p. 291-294],
