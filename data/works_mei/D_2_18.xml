@@ -50,7 +50,7 @@
     </encodingDesc>
     <workList xml:id="workList_4826e601">
       <work xml:id="work_829f001a">
-        <identifier xml:id="identifier_dca83b92" label="TumW">D.2.17</identifier>
+        <identifier xml:id="identifier_dca83b92" label="TumW">D.2.18</identifier>
         <identifier label="BalTh" xml:id="identifier_cb2876c8">B.XIII.4/5b</identifier>
         <identifier label="KliCh" xml:id="identifier_ed6e9de7">Vespers 22</identifier>
         <identifier label="VogIn" xml:id="identifier_42e2c84e">A.III.21</identifier>
@@ -90,7 +90,7 @@
               <geogName role="" xml:id="geogName_51b5ff43"/>
             </creation>
             <history xml:id="history_d4d92340"/>
-            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="perfMedium_05489552">
+            <perfMedium xml:id="perfMedium_05489552">
               <perfResList xml:id="perfResList_993416a2">
                 <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" xml:id="perfRes_825398d8">cnto</perfRes>
                 <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" xml:id="perfRes_a9ccc33d">fag</perfRes>
@@ -127,7 +127,7 @@
                 <tempo xml:id="tempo_413e7a7d">[no tempo]</tempo>
                 <key xml:id="key_5bf217c1" pname="d" mode="minor"/>
                 <meter xml:id="meter_cdff7705" sym="common"/>
-                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="perfMedium_388e62de">
+                <perfMedium xml:id="perfMedium_388e62de">
                   <perfResList xml:id="perfResList_f72b80d0">
                     <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" xml:id="perfRes_1a26625f">cnto</perfRes>
                     <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" xml:id="perfRes_576f2015">fag</perfRes>
