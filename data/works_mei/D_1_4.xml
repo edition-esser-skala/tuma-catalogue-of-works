@@ -81,6 +81,10 @@
             <genre>reference</genre>
             <ptr target="@Hornbacher2023 [p. 214-217]" targettype="pandoc-citation" xml:id="ptr_d6e74"/>
           </bibl>
+          <bibl>
+            <genre>reference</genre>
+            <ptr target="KlosterneuburgInvA [p. 71, no. 5]" targettype="pandoc-citation"/>
+          </bibl>
         </biblList>
         <classification xml:id="classification_4cc71bdc">
           <termList xml:id="termList_fa1cf892">
