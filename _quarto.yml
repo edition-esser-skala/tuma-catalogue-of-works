@@ -35,6 +35,7 @@ book:
     - part: "Appendix"
       chapters:
         - abbreviations.qmd
+        - inventories.qmd
         - guidelines.qmd
         - changelog.qmd
   page-navigation: false

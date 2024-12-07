@@ -337,8 +337,7 @@ overview_table <-
   fmt_markdown(columns = c("WerW", "Description", "Metadata")) %>%
   tab_options(
     column_labels.font.weight = "bold",
-    row_group.background.color = "grey90",
-    row_group.font.weight =
+    row_group.background.color = "grey90"
   ) %>%
   as_raw_html(FALSE)
 
@@ -386,19 +385,19 @@ instruments <-
   ) %>%
   arrange(abbreviation, .locale = "en") %>%
   pmap_chr(
-    \(abbreviation, name) {
-      str_glue("|*{abbreviation}*|{name}|")
+    \(abbreviation, name, unimarc) {
+      str_glue("|*{abbreviation}*|{name}|{unimarc}|")
     }
   ) %>%
   str_flatten("\n")
 
 instruments <-
   paste(
-    "|||",
-    "|-|-|",
+    "|short|long|UNIMARC|",
+    "|-|-|-|",
     instruments,
     "",
-    ': {tbl-colwidths="[15,85]" .movement-details}',
+    ': {tbl-colwidths="[15,70,15]" .movement-details}',
     "",
     sep = "\n"
   )

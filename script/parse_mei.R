@@ -11,14 +11,6 @@ options(readr.show_col_types = FALSE)
 GLOBAL_instruments <- c()
 GLOBAL_sigla <- c()
 
-SOURCE_TYPES <- c(
-  "Autograph manuscript" = "A",
-  "Partly autograph manuscript" = "A",
-  "Manuscript copy" = "C",
-  "Print" = "P",
-  "Lost manuscript" = "L"
-)
-
 
 ## Config file ----
 
@@ -31,6 +23,11 @@ catalogue_prefix <- params$catalogue_prefix
 work_page_names <-
   read_csv("data/catalogue_overview.csv") %>%
   distinct(group, file) %>%
+  deframe()
+
+instruments_unimarc <-
+  read_csv("data/instrument_abbreviations.csv") %>%
+  select(abbreviation, unimarc) %>%
   deframe()
 
 
@@ -124,26 +121,33 @@ MOVEMENT_TEMPLATE <- '
 SOURCE_TEMPLATE <- '
 #### {title}
 
-Classification
-: {classification}
+##### Classification
 
-Location
-: {siglum} {shelfmark} {link}
+{classification}
 
-RISM
-: {rism_id}
+##### Location
 
-Dating
-: {dating}
+{siglum} {shelfmark} {link}
 
-Title page(s)
-: {title_pages}
+##### RISM
 
-Physical description
-: {physdesc}
+{rism_id}
 
-Components and notes
-: {source_description}
+##### Dating
+
+{dating}
+
+##### Title page(s)
+
+{title_pages}
+
+##### Physical description
+
+{physdesc}
+
+##### Components and notes
+
+{source_description}
 '
 
 
@@ -152,14 +156,17 @@ Components and notes
 LOST_SOURCE_TEMPLATE <- '
 #### {title}
 
-Classification
-: {classification}
+##### Classification
 
-Location
-: {siglum} {shelfmark} {link}
+{classification}
 
-Components and notes
-: {source_description}
+##### Location
+
+{siglum} {shelfmark} {link}
+
+##### Components and notes
+
+{source_description}
 '
 
 
@@ -220,23 +227,37 @@ format_mei_text <- function(xml_data) {
     ) %>%
     str_c(collapse = " | ")
 
+  make_markdown <- function(n, as_list = FALSE) {
+    if (as_list)
+      sep <- "\n- "
+    else
+      sep <- "<br/><br/>"
+
+    res <-
+      xml_children(n) %>%  # get all <p> nodes
+      map_chr(as.character) %>%
+      str_flatten(sep) %>%
+      str_replace_all(c(
+        "<p>" = "",
+        "</p>" = "",
+        "<lb/>" = "<br/>",
+        "<rend fontstyle=\"italic\">(.+?)</rend>" = "<i>\\1</i>",
+        "<rend rend=\"underline\\(2\\)\">(.+?)</rend>" = "<u>\\1</u>"
+      )) %>%
+      str_replace_all(pattern_work, link_work) %>%
+      str_replace_all(pattern_rism, link_rism)
+
+    if (as_list)
+      res <- paste0("- ", res)
+
+    res
+  }
+
   res <- map_chr(
     xml_data %>% xml_find_all(xpath),
     \(n) {
-      new_text <-
-        xml_children(n) %>%  # get all <p> nodes
-        map_chr(as.character) %>%
-        str_flatten("<br/><br/>") %>%
-        str_replace_all(c(
-          "<p>" = "",
-          "</p>" = "",
-          "<lb/>" = "<br/>",
-          "<rend fontstyle=\"italic\">(.+?)</rend>" = "<i>\\1</i>",
-          "<rend rend=\"underline\\(2\\)\">(.+?)</rend>" = "<u>\\1</u>"
-        )) %>%
-        str_replace_all(pattern_work, link_work) %>%
-        str_replace_all(pattern_rism, link_rism)
-      xml_set_attr(n, "markdown_text", new_text)
+      xml_set_attr(n, "markdown_text", make_markdown(n))
+      xml_set_attr(n, "markdown_list", make_markdown(n, as_list = TRUE))
     }
   )
 
@@ -383,6 +404,8 @@ format_identifiers <- function(id_list, sep, add_links = TRUE) {
 # for assembling a list of abbreviations later
 format_instrument <- function(i) {
   name <- i[[1]]
+  codedval <- attr(i, "codedval")
+  check_instrument(name, codedval)
   GLOBAL_instruments <<- c(GLOBAL_instruments, name)
 
   count <- attr(i, "count") %||% "1"
@@ -401,6 +424,10 @@ format_instrument <- function(i) {
 # and the markdown-formatted ensemble (markdown)
 format_ensemble <- function(e) {
   head <- e$head[[1]]
+  codedval <- attr(e, "codedval")
+  check_instrument(head, codedval)
+  GLOBAL_instruments <<- c(GLOBAL_instruments, head)
+
   instruments <- map_chr(e[-1], format_instrument)
   scoring <-
     instruments %>%
@@ -446,12 +473,12 @@ format_scoring <- function(s) {
 }
 
 # format genre(s)
-format_classification <- function(c) {
+format_genre <- function(c) {
   if (is.null(c))
-    error("Classification missing.")
+    error("Genre missing.")
 
   c$termList %>%
-    map_chr(\(t) t[[1]]) %>%
+    map_chr(\(t) check_genre(t[[1]])) %>%
     str_flatten_comma()
 }
 
@@ -493,24 +520,21 @@ format_bibliography <- function(b, work_id) {
     b %>%
     keep(\(x) !is.null(x$genre) && x$genre == "score") %>%
     map_chr(\(i) {
+      res <- str_glue("{i$composer}: *{i$title}*.")
+
+      if (!is.null(i$editor))
+        res <- str_glue("{res} Edited by {i$editor}.")
+
       imprint <-
         c(i$imprint$publisher, i$imprint$pubPlace, i$imprint$date) %>%
         str_flatten_comma()
+      res <- str_glue("{res}<br/>&emsp;{i$identifier}. {imprint}.")
 
-      if (is.null(i$editor))
-        editor <- NA
-      else
-        editor <- paste("Edited by", i$editor)
+      if (!is.null(i$ptr))
+        res <- str_glue("{res} [{attr(i$ptr, 'label')}]({attr(i$ptr, 'target')})")
 
-      if (is.null(i$ptr))
-        url <- NA
-      else
-        url <- str_glue("[{attr(i$ptr, 'label')}]({attr(i$ptr, 'target')})")
-
-      c(i$composer, i$title, editor, i$identifier, imprint, url) %>%
-        str_flatten(". ")
+      res
     })
-
 
   if (work_id %in% AVAILABLE_EDITIONS) {
     link <- paste0(
@@ -703,11 +727,16 @@ format_physdesc <- function(p) {
 
   physical_medium <- attr(p$physMedium, "markdown_text") %||% NA
 
-  str_flatten(
+  res <- str_flatten(
     c(extent, dimensions, physical_medium),
     collapse = "<br/>",
     na.rm = TRUE
   )
+
+  if (res == "")
+    res <- "–"
+
+  res
 }
 
 # get type, siglum, shelfmark, link to digitized version,
@@ -716,8 +745,8 @@ format_physdesc <- function(p) {
 # for assembling a list of abbreviations later
 get_source_location <- function(s) {
   type_long <- s$titleStmt$title[[1]]
-  type <- SOURCE_TYPES[type_long]
-  if (is.na(type))
+  type <- params$validation$source_types[type_long]
+  if (is.null(type))
     error("Unknown source type: ", type_long)
 
   siglum <- pluck(s$itemList$item$physLoc$repository$identifier, 1)
@@ -737,7 +766,7 @@ get_source_location <- function(s) {
   if (is.null(url)) {
     link <- ""
   } else {
-    if (!url_label %in% params$location_link_labels)
+    if (!url_label %in% params$validation$location_link_labels)
       error("Unknown link label: ", url_label)
     link <- str_glue("([{url_label}]({url}))")
   }
@@ -768,7 +797,9 @@ format_source <- function(s) {
 
   classification <-
     s$classification$termList %>%
-    map_chr(\(t) t[[1]])
+    map_chr(\(t) t[[1]]) %>%
+    str_to_lower()
+  check_classification(classification)
 
   location <- get_source_location(s)
 
@@ -781,14 +812,14 @@ format_source <- function(s) {
   physdesc <- format_physdesc(s$itemList$item$physDesc)
 
   source_description <-
-    attr(s$itemList$item$notesStmt[[1]], "markdown_text") %||% "–"
+    attr(s$itemList$item$notesStmt[[1]], "markdown_list") %||% "–"
 
-  if (classification[6] == "Lost")
+  if (classification[6] == "lost")
     return(
       use_template(
         LOST_SOURCE_TEMPLATE,
         title = title,
-        classification = str_flatten_comma(classification),
+        classification = str_flatten(classification, " · "),
         siglum = location$siglum,
         shelfmark = location$shelfmark,
         link = location$link,
@@ -799,7 +830,7 @@ format_source <- function(s) {
   use_template(
     SOURCE_TEMPLATE,
     title = title,
-    classification = str_flatten_comma(classification),
+    classification = str_flatten(classification, " · "),
     siglum = location$siglum,
     shelfmark = location$shelfmark,
     link = location$link,
@@ -841,6 +872,42 @@ check_scoring <- function(sc_top, sc_parts) {
   if (length(only_in_parts) != 0)
     error("The following instruments are missing on the lower levels: ",
           str_flatten_comma(only_in_parts))
+}
+
+# checks whether an instrument abbreviation is known
+# and paired with the correct UNIMARC term
+# ignores voice numbers (thus, 'T 1' == 'T')
+check_instrument <- function(name, codedval) {
+  name <- str_replace(name, "\\s\\d+$", "")
+  codedval_expected <- instruments_unimarc[name]
+
+  if (is.na(codedval_expected))
+    error("      instrument '{name}' unknown")
+
+  if (codedval_expected != codedval)
+    error("      instrument '{name}': ",
+          "expected UNIMARC code '{codedval_expected}', ",
+          "found '{codedval}'")
+}
+
+# checks whether the genre is known
+# returns the genre if valid
+check_genre <- function(genre) {
+  if (!genre %in% params$validation$genres)
+    error(" genre '{genre}' unknown")
+  genre
+}
+
+# checks whether the source classification terms are valid
+check_classification <- function(terms) {
+  walk2(
+    terms,
+    params$validation$classification,
+    \(term, valid_terms) {
+      if (!term %in% valid_terms)
+        error("      term '{term}' invalid")
+    }
+  )
 }
 
 # stops the script if two strings are not equal
@@ -978,7 +1045,7 @@ get_work_details <- function(group,
 
   roles <- format_roles(data_music$perfMedium$castList)
 
-  genre <- format_classification(data_work$classification)
+  genre <- format_genre(data_work$classification)
 
   creation <- format_creation(data_work$creation)
 

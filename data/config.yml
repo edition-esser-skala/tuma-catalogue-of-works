@@ -44,7 +44,73 @@ edition:
   # url prefix for PDFs
   url: https://edition.esser-skala.at/scores/frantisek-ignac-antonin-tuma/#work-tumw-
 
-# allowed labels for the link to the source location
-location_link_labels:
-  - digitized version
-  - catalogue entry
+validation:
+  # allowed source types and their abbreviations
+  source_types:
+    Autograph manuscript: A
+    Partly autograph manuscript: A
+    Manuscript copy: C
+    Print: P
+    Lost manuscript: L
+
+  # allowed labels for the link to the source location
+  location_link_labels:
+    - digitized version
+    - catalogue entry
+
+  # allowed genres
+  genres:
+    - antiphon
+    - canticle
+    - concerto
+    - gradual
+    - hymn
+    - lamentation
+    - litany
+    - Marian antiphon
+    - Marian hymn
+    - mass
+    - motet
+    - offertory
+    - oratorio
+    - partita
+    - pastorella
+    - profane vocal music
+    - psalm
+    - requiem
+    - responsory
+    - rorate
+    - sacred song
+    - sequence
+    - sinfonia
+    - sonata
+    - te deum
+    - vesper
+
+  # allowed classification terms
+  classification:
+    content:
+      - notated music
+      - text
+    presentation:
+      - manuscript
+      - print
+    authority:
+      - autograph
+      - doubtful autograph
+      - partly autograph
+      - copy
+    scoring:
+      - score
+      - parts
+      - score and parts
+    state:
+      - draft
+      - fair copy
+      - first edition
+    completeness:
+      - complete
+      - incomplete
+      - excerpt
+      - fragment
+      - lost
