@@ -90,7 +90,7 @@
               <geogName role="" xml:id="geogName_51b5ff43"/>
             </creation>
             <history xml:id="history_d4d92340"/>
-            <perfMedium xml:id="perfMedium_05489552">
+            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="perfMedium_05489552">
               <perfResList xml:id="perfResList_993416a2">
                 <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" xml:id="perfRes_825398d8">cnto</perfRes>
                 <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" xml:id="perfRes_a9ccc33d">fag</perfRes>
@@ -127,7 +127,7 @@
                 <tempo xml:id="tempo_413e7a7d">[no tempo]</tempo>
                 <key xml:id="key_5bf217c1" pname="d" mode="minor"/>
                 <meter xml:id="meter_cdff7705" sym="common"/>
-                <perfMedium xml:id="perfMedium_388e62de">
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="perfMedium_388e62de">
                   <perfResList xml:id="perfResList_f72b80d0">
                     <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" xml:id="perfRes_1a26625f">cnto</perfRes>
                     <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" xml:id="perfRes_576f2015">fag</perfRes>
@@ -183,7 +183,38 @@
         <itemList xml:id="itemList_884da6d5">
           <item xml:id="item_aab13c16">
             <identifier xml:id="identifier_ea2ab294" label="RISM">600138995</identifier>
-            <physDesc xml:id="physDesc_38ab40e3"/>
+            <physDesc xml:id="physDesc_38ab40e3">
+              <dimensions xml:id="dimensions_d3bf730b">
+                <locusGrp xml:id="locusGrp_bdc2e6a0">
+                  <locus xml:id="locus_a269bbd8"/>
+                </locusGrp>
+                <height quantity="28.5" unit="cm" xml:id="height_21b5389e">28.5 (height in cm)</height>
+                <width quantity="23.5" unit="cm" xml:id="width_74d1f91a">23.5 (height in cm)</width>
+                <term xml:id="term_558d2f4b"/>
+                <extent quantity="" xml:id="extent_592e6370"> lines</extent>
+                <dimensions type="format" xml:id="dimensions_c5ca6f11">
+                  <height quantity="" unit="cm" xml:id="height_d369d4d7"/>
+                  <width quantity="" unit="cm" xml:id="width_8fd69777"/>
+                </dimensions>
+                <dimensions type="rastral_mirror" xml:id="dimensions_ae57fb2e">
+                  <height quantity="" unit="cm" xml:id="height_61bfa9b7"/>
+                  <width quantity="" unit="cm" xml:id="width_2c2b4d3a"/>
+                </dimensions>
+              </dimensions>
+              <titlePage label="[wrapper]" xml:id="titlePage_cfe25779">
+                <p>Memento | &#xE0; | 4 voci in pieno | con | stromenti. | Del Sg: Francesco Tuma | M: D: C: di S: C: M: dell' | Imp:ce Elisabetta vedova | 1746.</p>
+              </titlePage>
+              <extent quantity="" xml:id="extent_53cbd800">19 parts</extent>
+              <dimensions xml:id="dimensions_c9063815">
+                <height quantity="" xml:id="height_aefbd788"/>
+                <width quantity="" xml:id="width_f768f959"/>
+                <depth quantity="" xml:id="depth_7cdad4a0"/>
+                <dim quantity="" xml:id="dim_c6ce8cf3"/>
+              </dimensions>
+              <physMedium xml:id="physMedium_bedb6139">
+                <p>hand-ruled paper, 10 staves (10 mm)</p>
+              </physMedium>
+            </physDesc>
             <physLoc xml:id="physLoc_10611577">
               <repository xml:id="repository_8c03933f">
                 <corpName xml:id="corpName_e00525f6" role=""/>
@@ -195,8 +226,8 @@
             </physLoc>
             <notesStmt xml:id="notesStmt_cf9d4320">
               <annot type="source_description" xml:id="annot_7d8cb01e">
+                <p>S coro (2x; 2, 2), A coro (2x; 2, 2), T coro (2x; 2, 2), B coro (3x; 2, 2, 2), cnto (1), fag (1), trb 1 (1), trb 2 (1), vl 1 (1), vl 2 (1), vlc (1), vlne (1), org (1), mdc (1)</p>
                 <p>a copy by Joseph Leysser</p>
-                <p>catalogued according to RISM entry</p>
               </annot>
               <annot type="links" xml:id="annot_5ce52a45">
                 <ptr mimetype="" xml:id="ptr_d6e397_0"/>
