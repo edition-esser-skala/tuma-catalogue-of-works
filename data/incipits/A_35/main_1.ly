@@ -3,18 +3,18 @@
 
 notes = \relative c' {
   \clef treble
-  \key d \minor \time 4/4 \tempoMarkup "Adagio"
-  r8 a'^\partVi g f r b a g
-  \clef soprano \autoBeamOff a4. a8 g4 r
-  r8 g g4 f r
-  a4. a8 b4 r
+  \key e \minor \time 4/4
+  e'8^\partVi e e16 h' g a32 h c,8 c c16 c' a h32 c
+  h,8 h h16 a' fis g32 a \clef soprano \autoBeamOff e8.^\partSc e16 e8 r
+  e8. e16 c8 r c4 c8 c
+  h g d'4. c16[ h] e8[ d]
 }
 
 text = \lyricmode {
-  \skips 6
-  Ky -- ri -- e
-  e -- lei -- son,
-  Ky -- ri -- e
+  \skips 21
+  Ky -- ri -- e,
+  Ky -- ri -- e e -- le -- i --
+  son, e -- lei -- _ \hy
 }
 
 \score {
@@ -22,4 +22,5 @@ text = \lyricmode {
     \new Voice = "incipit" { \notes }
     \new Lyrics \lyricsto "incipit" { \text }
   >>
+  \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
 }

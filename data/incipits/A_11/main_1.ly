@@ -2,18 +2,21 @@
 \include "header.ly"
 
 notes = \relative c' {
-  \clef treble
-  \key e \minor \time 3/2
-  e'2^\partVi e,4 h' c h
-  h ais h d h a \gotoBar "9"
-  \clef soprano \autoBeamOff h2.^\partSc a4 g2
-  c h4 a g fis
+  \clef soprano
+  \twotwotime \key e \minor \time 2/2 \tempoMarkup "Andante" \autoBeamOff
+  h'2^\partSc c
+  h e~
+  e d
+  c1
+  h2 e %5
 }
 
 text = \lyricmode {
-  \skips 11
-  Ky -- ri -- e
-  e -- lei -- _ _ \hy
+  Ky -- ri --
+  e e --
+  _
+  lei --
+  son, "e -"
 }
 
 \score {

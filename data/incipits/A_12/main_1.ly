@@ -1,22 +1,20 @@
 \version "2.24.2"
 \include "header.ly"
 
-notes = \relative c' {
-  \clef soprano
-  \twotwotime \key e \minor \time 2/2 \tempoMarkup "Andante" \autoBeamOff
-  h'2^\partSc c
-  h e~
-  e d
-  c1
-  h2 e %5
+notes = \relative c {
+  \clef bass
+  \key d \minor \time 4/4 \autoBeamOff
+  d4.^\partBc d8 f d f[ g]
+  \clef soprano a'4.^\partSc a8 cis a h[ cis]
+  d4 r8 cis d[ cis16 d] e8[ d]
+  cis[ h16 cis] d8 c h[ a16 h] c8[ h]
 }
 
 text = \lyricmode {
-  Ky -- ri --
-  e e --
-  _
-  lei --
-  son, "e -"
+  Ky -- ri -- e e -- "lei -"
+  Ky -- ri -- e e -- lei --
+  son, e -- lei -- _
+  _ _ _ \hy
 }
 
 \score {

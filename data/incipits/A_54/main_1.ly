@@ -1,18 +1,18 @@
 \version "2.24.2"
 \include "header.ly"
 
-notes = \relative c' {
-  \clef soprano
-  \key d \major \time 3/2 \autoBeamOff
-  a'1 a2
-  ais1 ais2
-  h1 h2
+notes = \relative c {
+  \clef bass
+  \key f \major \time 4/4 \autoBeamOff \tempoMarkup "Allegro con spirito"
+  f8.^\partBc f16 f8 f f16[ e] g4 f8
+  a16[ g] b4 a8 g2
+  f4 r8 e f4 e
 }
 
 text = \lyricmode {
-  San -- ctus,
-  san -- ctus,
-  san -- ctus
+  Ky -- ri -- e e -- lei -- son, e --
+  lei -- son, e -- lei --
+son, e -- lei -- son,
 }
 
 \score {

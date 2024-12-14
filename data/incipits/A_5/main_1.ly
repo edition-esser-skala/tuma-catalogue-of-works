@@ -1,26 +1,20 @@
 \version "2.24.2"
 \include "header.ly"
 
-notes = \relative c {
-  \clef bass
-  \key c \major \time 2/2 \autoBeamOff
-  c1^\partBc
-  d
-  e4 f g2 \gotoBar "8"
-  \clef soprano g'1^\partSc
-  a
-  h4 c d2~
-  d c4 h
+notes = \relative c' {
+  \clef soprano
+  \key d \major \time 3/4 \autoBeamOff
+  a'4.^\partSc a8 d4
+  d4. cis8 cis4
+  d d c
+  h2 r4
 }
 
 text = \lyricmode {
-  Ky --
-  ri --
-  e __ _ "e -"
-  Ky --
-  ri --
-  e __ _ _
-  _ _
+  Ky -- ri -- e,
+  Ky -- ri -- e
+  e -- lei -- _
+  son,
 }
 
 \score {

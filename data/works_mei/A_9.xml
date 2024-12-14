@@ -39,7 +39,7 @@
     </encodingDesc>
     <workList>
       <work>
-        <identifier label="TumW">A.10</identifier>
+        <identifier label="TumW">A.9</identifier>
         <identifier label="KliCh">Masses 15/56</identifier>
         <identifier label="PesMa">B5/D3</identifier>
         <identifier label="ReiMa">50</identifier>
@@ -94,7 +94,7 @@
               <geogName role=""/>
             </creation>
             <history/>
-            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <perfMedium>
               <perfResList>
                 <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro">
                   <head xml:lang="en">coro</head>
@@ -127,7 +127,7 @@
                 <tempo>Adagio &#x2013; Allabreve</tempo>
                 <key pname="e" mode="minor"/>
                 <meter sym="common"/>
-                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                <perfMedium>
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                       <head xml:lang="en">coro</head>
@@ -165,7 +165,7 @@
                 <tempo>Allegro</tempo>
                 <key pname="e" mode="minor"/>
                 <meter sym="common"/>
-                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                <perfMedium>
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                       <head xml:lang="en">coro</head>
@@ -201,7 +201,7 @@
                 <tempo>Allegro &#x2013; Adagio &#x2013; Allegro</tempo>
                 <key pname="e" mode="minor"/>
                 <meter sym="common"/>
-                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                <perfMedium>
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                       <head xml:lang="en">coro</head>
@@ -237,7 +237,7 @@
                 <tempo>Andante &#x2013; Allegro</tempo>
                 <key pname="e" mode="minor"/>
                 <meter count="3" unit="2"/>
-                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                <perfMedium>
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                       <head xml:lang="en">coro</head>
@@ -275,7 +275,7 @@
                 <tempo>Andante</tempo>
                 <key pname="e" mode="minor"/>
                 <meter count="3" unit="2"/>
-                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                <perfMedium>
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                       <head xml:lang="en">coro</head>
@@ -306,7 +306,7 @@
                     <tempo>Andante</tempo>
                     <key pname="e" mode="minor"/>
                     <meter count="3" unit="2"/>
-                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                    <perfMedium>
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                           <head xml:lang="en">coro</head>
@@ -342,7 +342,7 @@
                     <tempo>Allegro</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                    <perfMedium>
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                           <head xml:lang="en">coro</head>
@@ -383,7 +383,7 @@
                 <tempo>Adagio</tempo>
                 <key pname="e" mode="minor"/>
                 <meter sym="common"/>
-                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                <perfMedium>
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                       <head xml:lang="en">coro</head>
@@ -414,7 +414,7 @@
                     <tempo>Adagio</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                    <perfMedium>
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                           <head xml:lang="en">coro</head>
@@ -449,7 +449,7 @@
                     <tempo>Allabreve</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="cut"/>
-                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                    <perfMedium>
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                           <head xml:lang="en">coro</head>

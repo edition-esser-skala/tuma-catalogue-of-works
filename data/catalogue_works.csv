@@ -1,61 +1,60 @@
 group,subgroup,number,title,A-GÖ,A-H,A-HE,A-KN,A-KR,A-LA,A-M,A-SEI,A-Wgm,A-WIL,A-Wn,A-Ws,CZ-Pak,CZ-Pkřiž,CZ-Pn,D-B,D-Dl,other,KliCh,PesMa,ReiMa,VogIn,BalTh,literature,notes
 A,,1,Missa in feriis Rogatorum,,,,454/1,,,,,,,,,,,,,,,Masses 47,A2,26,A.I.18,,"@KlosterneuburgInvA [p. 2, no. 2], @KlosterneuburgInvB [p. 113, no. 1]",
 A,,2,Missa,,,,454/2,,,,,,,,,,,,,,,Masses 8,A3,25,A.I.17,,,
-A,,3,Missa,,,,463,(n.i.),,,,,,Mus.Hs.14216,,,,,,,CZ-Pu 59 R 6209,Masses 28,A4,,A.I.40,,,
-A,,4,Missa,636,A.2.172,,,,,I/9,,,,,,,,,,,,Masses 26,A5,40,A.I.38,,"@Riedel1979 [p. 104], @Freeman1992 [p. 48]",A-H source lost
-A,,5,Missa,,,,,,M 364,,,,,,,,,,,,,,,,,,"@Sherman2001 [p. 73, 362]",
-A,,6,Missa,,,,,,,,,I/11559,,,,,,,,,,Masses 22,B1,35,A.I.33,B.I.11,,
-A,,7,Missa,,,,474/1,,,,,,,,,,,,,,,Masses 33,B2,58,A.I.45,,"@KlosterneuburgInvA [p. 11, no. 60], @KlosterneuburgInvB [p. 113, no. 8]",
-A,,8,Missa,638,A.2.170,,,A 44/134,,I/10,,,,,,,,,,Mus.2968-D-503,,Masses 38,B3,60,A.I.51,,"@Riedel1979 [p. 104], @Freeman1992 [p. 48], @Bartos2018 [p. 291]",A-H source lost; only A-M source complete
-A,,9,Missa pro festivitate Sancti Leopoldi,,,,475,,,,,,,,,,,,,,,Masses 51,B4,19,A.I.9,,"@KlosterneuburgInvB [p. 113, no. 5]",
-A,,10,Missa,637,A.2.171,,,B 12/316,M 459,I/11,,,,,,,,,,Mus.2968-D-511,,Masses 15/56,B5/D3,50,A.I.25/31,,"@Riedel1979 [p. 104], @Freeman1992 [p. 47]",A-H source lost
-A,,11,Missa,,,,475/2,,,,,,,,,,,,,,,Masses 17,B6,52,A.I.27,,"@KlosterneuburgInvB [p. 113, no. 6]",
-A,,12,Missa Sanctae Elisabethae,626,A.2.138,,,,,,,,1093,,,,XXXV B 3,XVI C 63,,,"A-Wps 42 | CH-E 297,3",Masses 18,B7,53,A.I.28,B.I.6,"@Mitterschiffthaler1979 [p. 236], @Riedel1979 [p. 103]",A-H source lost; CZ-Pkřiž old signature: 168
-A,,13,Missa,,A.2.143,,456,A 3/15,M 363,,,,,,,,,,,Mus.2968-D-502,,Masses 30,B8,57,A.I.42,,"@KlosterneuburgInvA [p. 9, no. 4], @KlosterneuburgInvB [p. 114, no. 10], @Sherman2001 [p. 47, 338]",A-H source lost; page in A-H inventory missing (was available to Vogg and Peschek)
-A,,14,Missa,,H70,,,,,,,,,,,,,,,,,Masses 39,B9,21,A.I.d,,"@KlosterneuburgInvA [p. 45, no. 4], @HerzogenburgInvA [no. 2.141], @HerzogenburgInvB [fol. 42v, no. 2.141]",page in A-H inventory missing (was available to Vogg and Peschek); A-KN source lost
-A,,15,Missa brevissima,,A.1.118,,453/1,B 39/570,M 457,,,,,,,,,,,,,Masses 1,C1,7,A.I.2,,"@KlosterneuburgInvA [p. 45, no. 2], @KlosterneuburgInvB [p. 113, no. 2], @BrtniceInv [p. 111, no. 1], @Strakova1963, @Strakova1965, @Sherman2001 [p. 47, 339]",A-H source lost
-A,,16,Missa Sancti Eustachii,630,A.2.103,,453/2,,,,,,,,,,,,,,,Masses 37,C2,61,A.I.50,,"@KlosterneuburgInvA [p. 45, no. 5], @KlosterneuburgInvB [p. 113, no. 3], @BrtniceInv [p. 110, no. 4], @Strakova1963, @Strakova1965, @Riedel1979 [p. 103]",A-H source lost
-A,,17,Missa all’Onor delle cinque Piaghe,,,,,,,,,,,,(n.s.),,,,,,,Masses 61,C3,3,A.I.5,,@Czernin1995,
-A,,18,Missa Sancti Stephani,621,A.2.14,,,,,,,I/27552,1094,Mus.Hs.18992,,,,,,,,Masses 34,C4,56,A.I.46,B.I.1,"@Mitterschiffthaler1979 [p. 236], @Riedel1979 [p. 102], @MacIntyre1984, @Bartos2018 [p. 262]",A-H source lost
-A,,19,Missa Sancti Joannis Evangelistae,,,,,,,,,,,,E 3/24,953 | 1322,,,,,,Masses 60,C5,10,A.I.12,,"@Czernin1995, @Opatrny2012 [p.347ff], @Stefan1985 [p. 246]",
-A,,20,Missa Veni Pater pauperum,,,,,,,,,,,,(n.s.),,,,,,,Masses 65,C6,4,A.I.6,,@Czernin1995,
-A,,21,Missa consolator optime,,,,,,,,,,,,(n.s.),,,,,,,Masses 43,C7,2,A.I.4,,@Czernin1995,
-A,,22,Missa Auxilium meum,,,,,,,,,,,,(n.s.),,,,,,,-,C8,5,,,@Czernin1995,
-A,,23,Missa all’Onor e Preggio del Patriarcha,629,A.1.49,VIII a 5 [600090623],,,M 458,,E VII 3 f,,,,(n.s.),,XXXV B 19,,,,D-OB MO 811,Masses 53,C9,1,A.I.1,B.I.4,"@KlosterneuburgInvA [p. 45, no. 1], @BrtniceInv [p. 108d, no. 1], @Strakova1963, @Strakova1965, @Riedel1979 [p. 103], @Haberkamp1986 [p. 207], @Czernin1995, @Sherman2001 [p. 47, 339]",A-H and A-KN sources lost; CZ-Pkřiž old signature: 1612 (6501?)
-A,,24,Missa Sancti Thomas,619,A.2.112,,,,M 397,,,,,,(n.s.),1329,XXXV E 141,,,,,Masses 13,C10,27,A.I.23,,"@Riedel1979 [p. 102], @MacIntyre1984, @Czernin1995, @Sherman2001 [p. 47, 339], @Stefan1985 [p. 250]",A-H source lost; CZ-Pkřiž old signature: 1205
-A,,25,Missa patientiae,,,(n.s.),,,,,,,,,(n.s.),,,,,,,Masses 50,C11,20,A.I.16,,@Czernin1995,A-HE source only comprises Benedictus
-A,,26,Missa tibi soli,,,,,,,,,I/1997,,,(n.s.),,,,,,,Masses 6,C12,11,A.I.13,,"@MacIntyre1984, @Czernin1995",
-A,,27,Missa Sanctae Theresae / Andreae,620,A.1.52,,457,B 39/573,M 412,,E VII 3 e,,,,,,,,,,D-OB MO 809,Masses 3,C14,23,A.I.7,,"@KlosterneuburgInvA [p. 45, no. 3], @KlosterneuburgInvB [p. 113, no. 4], @Riedel1979 [p. 102], @Haberkamp1986 [p. 206f], @Sherman2001 [p. 47, 339], @Bartos2018 [p. 307]",A-H source lost
-A,,28,Missa Sancti Antonii,,,III a,,,,,,,,Mus.Hs.19009,,,,XVI C 66 | XVI C 62,,,PL-WRu 62505Muz.,Masses 12,C15,29,A.I.22,B.I.2,"@BrtniceInv [p. 110, no. 9], @Eybl1996 [p. 56], @Strakova1963, @Strakova1965, @Sanders1973, @MacIntyre1984",CZ-Pkřiž source (old signature 159) lost
-A,,29,Missa,622,A.1.51,,,,,,F XXIV 14,,,,,,,,,,D-OB MO 810,Masses 2,C16,14,A.I.3,,"@Riedel1979 [p. 102], @Haberkamp1986 [p. 207]",A-H source lost
-A,,30,Missa Sancti Placidi / Offertoria,623,A.1.108,,,,,,,,,,,,,,,,,Masses 4,C17,15,A.I.8,,@Riedel1979 [p. 102],A-H source lost
-A,,31,Missa Sancti Mauri,624,,,,,,,,,,,,1323,,,,,,Masses 62,C18,16,A.I.14,,"@Riedel1979 [p. 102], @Stefan1985 [p. 247]",
-A,,32,Missa Sanctae Elisabethae,632,A.2.109,,,B 39/572,M 456,,,,1092,,Fonds Doppler 231,1327,XXXV B 9,VIII E 246 | XLIII D 100,,Mus.2968-D-507,CZ-Bm A 14652 | CZ-Pk A-I-R 1117,Masses 35,C19,44,A.I.47,B.I.8,"@KlosterneuburgInvA [p. 45, no. 6], @BrtniceInv [p. 110, no. 3], @Strakova1963, @Strakova1965, @Mitterschiffthaler1979 [p. 236], @Riedel1979 [p. 103], @Sherman2001 [p. 47, 338f], @Stefan1985 [p. 250]",A-H and A-KN sources lost
-A,,33,Missa Sancti Ignatii,625,,,,,,,,,,,,,XXXV A 227,,,,CZ-Bm A 13070 | PL-WRu 62504 Muz.,Masses 5,C20,9,A.I.11,B.I.3,"@RajhradInvA [p. 14, no. 82], @RajhradInvB [p. 24, no.139], @BrtniceInv [p. 109, no. 4], @Strakova1963, @Strakova1965, @Riedel1979 [p. 102], @Tichy2014b",CZ-Pkřiž old signature: 169
-A,,34,Missa Sancti Eremberti,627,,,,,,,,,,,,1317,XXXV B 87,XVI C 65 | XLVI A 270,,,CZ-Bm A 13073 | CZ-LIT 526,Masses 59,C21,46,A.I.48,,"@RajhradInvA [p. 14, no. 83], @RajhradInvB [p. 24, no.141], @BrtniceInv [p. 109, no. 3], @Strakova1963, @Strakova1965, @Riedel1979 [p. 103], @Stefan1985 [p. 241], @Tichy2014b",CZ-Pkřiž old signature: 158
-A,,35,Missa Vale,,A.2.107,,,,,,E VII 3 g,,,,,1326,155,,,,CZ-ME 285 | CZ-Pu 59 R 6210,Masses 31/64,C22,59,A.I.43 | A.I.m,,"@KlosterneuburgInvA [p. 25, no. 10, p. 46, no. 7], @BrtniceInv [p. 109, no. 5], @Strakova1963, @Strakova1965, @Stefan1985 [p. 243]","A-H, A-KN, and CZ-Pkřiž sources lost"
-A,,36,Missa iucundare,633,A.2.108,,,,,,,,,,,1319,XXXV B 18,XVI C 67,,,,Masses 16,C23,51,A.I.26,B.I.9,"@Riedel1979 [p. 104], @Stefan1985 [p. 242, no. 1378]",A-H source lost; CZ-Pkřiž old signature: 160
-A,,37,Missa Sancti Francisci,634,A.2.135,,,,,,,,,,,,,,,,,Masses 11,C24,30,A.I.21,,@Riedel1979 [p. 104],A-H source lost
-A,,38,Missa Sancti Engelberti,,A.2.140,,474/2,,,,,,,,,1328,XXXV A 106,XVI C 64 | XLVI A 269,,,CZ-LIT 525,Masses 27,C25,42,A.I.39,B.I.7,"@KlosterneuburgInvB [p. 114, no. 9], @BrtniceInv [p. 110, no. 10], @Strakova1963, @Strakova1965@Stefan1985 [p. 249]",A-H source lost; CZ-Pkřiž old signature: 156
-A,,39,Missa Sancti Bertholdi / Bernardi,,A.1.185,,499,,,,,,,,,,,,,,,Masses 7,C26,8,A.I.15,,"@KlosterneuburgInvB [p. 113, no. 7]",A-H source lost
-A,,40,Missa Sanctae Andreae,,A.2.139,,,,,,,,,,(n.s.),,XXXV E 140,,,,,Masses 25,C27,32,A.I.37,,@Czernin1995,A-H source lost; CZ-Pkřiž old signature: 1168
-A,,41,Missa Sanctae Elisabethae,,,,,B 39/571,,,,,,,,1320,,,,Mus.2968-D-501,,Masses 52,D1,6,A.I.10,,@Stefan1985 [p. 245],
-A,,42,Missa,631,,,,,,,,,,,,,,,,,,Masses 21,D2,28,A.I.32,,@Riedel1979 [p. 103],
-A,,43,Missa,635,,,,,,,,,,,,,,,,,,Masses 19,D4,54,A.I.29,,@Riedel1979 [p. 104],
-A,,44,Missa Sancti Ambrosi,,A.2.136,,,B 39/575,,,,,,,,,,,,,CZ-Bm A 14819,Masses 32,D5,41,A.I.44,,"@BrtniceInv [p. 109, no. 2], @Strakova1963, @Strakova1965",A-H source lost
-A,,45,Missa gratiastis,,A.2.111,,,C 11/678,,,,,,,,,,,,Mus.2968-D-505,,Masses 20,D14,55,A.I.30,,"@KlosterneuburgInvA [p. 45, no. 7]",A-H and A-KN sources lost
-A,,46,Missa,,,,,B 39/577,,,,,,,,,,,,,,Masses 24,D17,38,A.I.35,,,
-A,,47,"Credo, Sanctus, Benedictus, Agnus",,,,,B 39/574,,,,,,,,,,,,Mus.2968-D-510 | Mus.2968-D-516,,Masses 44,D19,39,A.I.36,,,
-A,,48,Kyrie et Gloria,,,,,,,,,,,,,1312,,,,,,,,,,,@Stefan1985 [p. 240],
-A,,49,Kyrie et Gloria,,,,,,,,,,,,,1316,,,,,,,,,,,@Stefan1985 [p. 240],
-A,,50,Missa Cantate Domino,,,,,,,,,,,,,1318,,,,,,,,,,,@Stefan1985 [p. 243],
-A,,51,Missa de dono fortitudinis,,,,,,,,,,,,,1321,,,,,,,,,,,@Stefan1985 [p. 246],
-A,,52,Missa de dono Scientiae,,,,,,,,,,,,,1324,,,,,,,,,,,@Stefan1985 [p. 248],
-A,,53,Missa gaudii,,,,,,,,,,,,,1325,,,,,,,,,,,@Stefan1985 [p. 244],
-A,,54,"Sanctus, Benedictus, Agnus Dei",,,,,,,,,,,,,1331a | 1331b,,,,,,,,,,,@Stefan1985 [p. 251f],
-A,,55,Missa,,,,,,,,,,,,,,,,,,CZ-KLm (n.s.),,,,,,@Oppova2013,
-A,,56,Missa Sancti Bartholomaei,,,,,,,,,,,,,,,,,,CZ-Bm A 13071,,,,,,"@RajhradInvA [p. 11, no. 65], @RajhradInvB [p. 39, no.138], @Tichy2014b",
-A,,57,Missa,,,,,,,,,,,,,,,,,,CZ-Bm A 13072,,,,,,"@RajhradInvA [p. 29, no. 86], @RajhradInvB [p. 8, no.140], @Tichy2014b",
+A,,3,Missa,636,A.2.172,,,,,I/9,,,,,,,,,,,,Masses 26,A5,40,A.I.38,,"@Riedel1979 [p. 104], @Freeman1992 [p. 48]",A-H source lost
+A,,4,Missa,,,,,,M 364,,,,,,,,,,,,,,,,,,"@Sherman2001 [p. 73, 362]",
+A,,5,Missa,,,,,,,,,I/11559,,,,,,,,,,Masses 22,B1,35,A.I.33,B.I.11,,
+A,,6,Missa,,,,474/1,,,,,,,,,,,,,,,Masses 33,B2,58,A.I.45,,"@KlosterneuburgInvA [p. 11, no. 60], @KlosterneuburgInvB [p. 113, no. 8]",
+A,,7,Missa,638,A.2.170,,,A 44/134,,I/10,,,,,,,,,,Mus.2968-D-503,,Masses 38,B3,60,A.I.51,,"@Riedel1979 [p. 104], @Freeman1992 [p. 48], @Bartos2018 [p. 291]",A-H source lost; only A-M source complete
+A,,8,Missa pro festivitate Sancti Leopoldi,,,,475,,,,,,,,,,,,,,,Masses 51,B4,19,A.I.9,,"@KlosterneuburgInvB [p. 113, no. 5]",
+A,,9,Missa,637,A.2.171,,,B 12/316,M 459,I/11,,,,,,,,,,Mus.2968-D-511,,Masses 15/56,B5/D3,50,A.I.25/31,,"@Riedel1979 [p. 104], @Freeman1992 [p. 47]",A-H source lost
+A,,10,Missa,,,,475/2,,,,,,,,,,,,,,,Masses 17,B6,52,A.I.27,,"@KlosterneuburgInvB [p. 113, no. 6]",
+A,,11,Missa Sanctae Elisabethae,626,A.2.138,,,,,,,,1093,,,,XXXV B 3,XVI C 63,,,"A-Wps 42 | CH-E 297,3",Masses 18,B7,53,A.I.28,B.I.6,"@Mitterschiffthaler1979 [p. 236], @Riedel1979 [p. 103]",A-H source lost; CZ-Pkřiž old signature: 168
+A,,12,Missa,,A.2.143,,456,A 3/15,M 363,,,,,,,,,,,Mus.2968-D-502,,Masses 30,B8,57,A.I.42,,"@KlosterneuburgInvA [p. 9, no. 4], @KlosterneuburgInvB [p. 114, no. 10], @Sherman2001 [p. 47, 338]",A-H source lost; page in A-H inventory missing (was available to Vogg and Peschek)
+A,,13,Missa,,H70,,,,,,,,,,,,,,,,,Masses 39,B9,21,A.I.d,,"@KlosterneuburgInvA [p. 45, no. 4], @HerzogenburgInvA [no. 2.141], @HerzogenburgInvB [fol. 42v, no. 2.141]",page in A-H inventory missing (was available to Vogg and Peschek); A-KN source lost
+A,,14,Missa brevissima,,A.1.118,,453/1,B 39/570,M 457,,,,,,,,,,,,,Masses 1,C1,7,A.I.2,,"@KlosterneuburgInvA [p. 45, no. 2], @KlosterneuburgInvB [p. 113, no. 2], @BrtniceInv [p. 111, no. 1], @Strakova1963, @Strakova1965, @Sherman2001 [p. 47, 339]",A-H source lost
+A,,15,Missa Sancti Eustachii,630,A.2.103,,453/2,,,,,,,,,,,,,,,Masses 37,C2,61,A.I.50,,"@KlosterneuburgInvA [p. 45, no. 5], @KlosterneuburgInvB [p. 113, no. 3], @BrtniceInv [p. 110, no. 4], @Strakova1963, @Strakova1965, @Riedel1979 [p. 103]",A-H source lost
+A,,16,Missa all’Onor delle cinque Piaghe,,,,,,,,,,,,(n.s.),,,,,,,Masses 61,C3,3,A.I.5,,@Czernin1995,
+A,,17,Missa Sancti Stephani,621,A.2.14,,,,,,,I/27552,1094,Mus.Hs.18992,,,,,,,,Masses 34,C4,56,A.I.46,B.I.1,"@Mitterschiffthaler1979 [p. 236], @Riedel1979 [p. 102], @MacIntyre1984, @Bartos2018 [p. 262]",A-H source lost
+A,,18,Missa Sancti Joannis Evangelistae,,,,,,,,,,,,E 3/24,953 | 1322,,,,,,Masses 60,C5,10,A.I.12,,"@Czernin1995, @Opatrny2012 [p.347ff], @Stefan1985 [p. 246]",
+A,,19,Missa Veni Pater pauperum,,,,,,,,,,,,(n.s.),,,,,,,Masses 65,C6,4,A.I.6,,@Czernin1995,
+A,,20,Missa consolator optime,,,,,,,,,,,,(n.s.),,,,,,,Masses 43,C7,2,A.I.4,,@Czernin1995,
+A,,21,Missa Auxilium meum,,,,,,,,,,,,(n.s.),,,,,,,-,C8,5,,,@Czernin1995,
+A,,22,Missa all’Onor e Preggio del Patriarcha,629,A.1.49,VIII a 5 [600090623],,,M 458,,E VII 3 f,,,,(n.s.),,XXXV B 19,,,,D-OB MO 811,Masses 53,C9,1,A.I.1,B.I.4,"@KlosterneuburgInvA [p. 45, no. 1], @BrtniceInv [p. 108d, no. 1], @Strakova1963, @Strakova1965, @Riedel1979 [p. 103], @Haberkamp1986 [p. 207], @Czernin1995, @Sherman2001 [p. 47, 339]",A-H and A-KN sources lost; CZ-Pkřiž old signature: 1612 (6501?)
+A,,23,Missa Sancti Thomas,619,A.2.112,,,,M 397,,,,,,(n.s.),1329,XXXV E 141,,,,,Masses 13,C10,27,A.I.23,,"@Riedel1979 [p. 102], @MacIntyre1984, @Czernin1995, @Sherman2001 [p. 47, 339], @Stefan1985 [p. 250]",A-H source lost; CZ-Pkřiž old signature: 1205
+A,,24,Missa patientiae,,,(n.s.),,,,,,,,,(n.s.),,,,,,,Masses 50,C11,20,A.I.16,,@Czernin1995,A-HE source only comprises Benedictus
+A,,25,Missa tibi soli,,,,,,,,,I/1997,,,(n.s.),,,,,,,Masses 6,C12,11,A.I.13,,"@MacIntyre1984, @Czernin1995",
+A,,26,Missa Sanctae Theresae / Andreae,620,A.1.52,,457,B 39/573,M 412,,E VII 3 e,,,,,,,,,,D-OB MO 809,Masses 3,C14,23,A.I.7,,"@KlosterneuburgInvA [p. 45, no. 3], @KlosterneuburgInvB [p. 113, no. 4], @Riedel1979 [p. 102], @Haberkamp1986 [p. 206f], @Sherman2001 [p. 47, 339], @Bartos2018 [p. 307]",A-H source lost
+A,,27,Missa Sancti Antonii,,,III a,,,,,,,,Mus.Hs.19009,,,,XVI C 66 | XVI C 62,,,PL-WRu 62505Muz.,Masses 12,C15,29,A.I.22,B.I.2,"@BrtniceInv [p. 110, no. 9], @Eybl1996 [p. 56], @Strakova1963, @Strakova1965, @Sanders1973, @MacIntyre1984",CZ-Pkřiž source (old signature 159) lost
+A,,28,Missa,622,A.1.51,,,,,,F XXIV 14,,,,,,,,,,D-OB MO 810,Masses 2,C16,14,A.I.3,,"@Riedel1979 [p. 102], @Haberkamp1986 [p. 207]",A-H source lost
+A,,29,Missa Sancti Placidi / Offertoria,623,A.1.108,,,,,,,,,,,,,,,,,Masses 4,C17,15,A.I.8,,@Riedel1979 [p. 102],A-H source lost
+A,,30,Missa Sancti Mauri,624,,,,,,,,,,,,1323,,,,,,Masses 62,C18,16,A.I.14,,"@Riedel1979 [p. 102], @Stefan1985 [p. 247]",
+A,,31,Missa Sanctae Elisabethae,632,A.2.109,,,B 39/572,M 456,,,,1092,,Fonds Doppler 231,1327,XXXV B 9,VIII E 246 | XLIII D 100,,Mus.2968-D-507,CZ-Bm A 14652 | CZ-Pk A-I-R 1117,Masses 35,C19,44,A.I.47,B.I.8,"@KlosterneuburgInvA [p. 45, no. 6], @BrtniceInv [p. 110, no. 3], @Strakova1963, @Strakova1965, @Mitterschiffthaler1979 [p. 236], @Riedel1979 [p. 103], @Sherman2001 [p. 47, 338f], @Stefan1985 [p. 250]",A-H and A-KN sources lost
+A,,32,Missa Sancti Ignatii,625,,,,,,,,,,,,,XXXV A 227,,,,CZ-Bm A 13070 | PL-WRu 62504 Muz.,Masses 5,C20,9,A.I.11,B.I.3,"@RajhradInvA [p. 14, no. 82], @RajhradInvB [p. 24, no.139], @BrtniceInv [p. 109, no. 4], @Strakova1963, @Strakova1965, @Riedel1979 [p. 102], @Tichy2014b",CZ-Pkřiž old signature: 169
+A,,33,Missa Sancti Eremberti,627,,,,,,,,,,,,1317,XXXV B 87,XVI C 65 | XLVI A 270,,,CZ-Bm A 13073 | CZ-LIT 526,Masses 59,C21,46,A.I.48,,"@RajhradInvA [p. 14, no. 83], @RajhradInvB [p. 24, no.141], @BrtniceInv [p. 109, no. 3], @Strakova1963, @Strakova1965, @Riedel1979 [p. 103], @Stefan1985 [p. 241], @Tichy2014b",CZ-Pkřiž old signature: 158
+A,,34,Missa Vale,,A.2.107,,,,,,E VII 3 g,,,,,1326,155,,,,CZ-ME 285 | CZ-Pu 59 R 6210,Masses 31/64,C22,59,A.I.43 | A.I.m,,"@KlosterneuburgInvA [p. 25, no. 10, p. 46, no. 7], @BrtniceInv [p. 109, no. 5], @Strakova1963, @Strakova1965, @Stefan1985 [p. 243]","A-H, A-KN, and CZ-Pkřiž sources lost"
+A,,35,Missa iucundare,633,A.2.108,,,,,,,,,,,1319,XXXV B 18,XVI C 67,,,,Masses 16,C23,51,A.I.26,B.I.9,"@Riedel1979 [p. 104], @Stefan1985 [p. 242, no. 1378]",A-H source lost; CZ-Pkřiž old signature: 160
+A,,36,Missa Sancti Francisci,634,A.2.135,,,,,,,,,,,,,,,,,Masses 11,C24,30,A.I.21,,@Riedel1979 [p. 104],A-H source lost
+A,,37,Missa Sancti Engelberti,,A.2.140,,474/2,,,,,,,,,1328,XXXV A 106,XVI C 64 | XLVI A 269,,,CZ-LIT 525,Masses 27,C25,42,A.I.39,B.I.7,"@KlosterneuburgInvB [p. 114, no. 9], @BrtniceInv [p. 110, no. 10], @Strakova1963, @Strakova1965@Stefan1985 [p. 249]",A-H source lost; CZ-Pkřiž old signature: 156
+A,,38,Missa Sancti Bertholdi / Bernardi,,A.1.185,,499,,,,,,,,,,,,,,,Masses 7,C26,8,A.I.15,,"@KlosterneuburgInvB [p. 113, no. 7]",A-H source lost
+A,,39,Missa Sanctae Andreae,,A.2.139,,,,,,,,,,(n.s.),,XXXV E 140,,,,,Masses 25,C27,32,A.I.37,,@Czernin1995,A-H source lost; CZ-Pkřiž old signature: 1168
+A,,40,Missa Sanctae Elisabethae,,,,,B 39/571,,,,,,,,1320,,,,Mus.2968-D-501,,Masses 52,D1,6,A.I.10,,@Stefan1985 [p. 245],
+A,,41,Missa,631,,,,,,,,,,,,,,,,,,Masses 21,D2,28,A.I.32,,@Riedel1979 [p. 103],
+A,,42,Missa,635,,,,,,,,,,,,,,,,,,Masses 19,D4,54,A.I.29,,@Riedel1979 [p. 104],
+A,,43,Missa Sancti Ambrosi,,A.2.136,,,B 39/575,,,,,,,,,,,,,CZ-Bm A 14819,Masses 32,D5,41,A.I.44,,"@BrtniceInv [p. 109, no. 2], @Strakova1963, @Strakova1965",A-H source lost
+A,,44,Missa gratiastis,,A.2.111,,,C 11/678,,,,,,,,,,,,Mus.2968-D-505,,Masses 20,D14,55,A.I.30,,"@KlosterneuburgInvA [p. 45, no. 7]",A-H and A-KN sources lost
+A,,45,Missa,,,,,B 39/577,,,,,,,,,,,,,,Masses 24,D17,38,A.I.35,,,
+A,,46,"Credo, Sanctus, Benedictus, Agnus",,,,,B 39/574,,,,,,,,,,,,Mus.2968-D-510 | Mus.2968-D-516,,Masses 44,D19,39,A.I.36,,,
+A,,47,Kyrie et Gloria,,,,,,,,,,,,,1312,,,,,,,,,,,@Stefan1985 [p. 240],
+A,,48,Kyrie et Gloria,,,,,,,,,,,,,1316,,,,,,,,,,,@Stefan1985 [p. 240],
+A,,49,Missa Cantate Domino,,,,,,,,,,,,,1318,,,,,,,,,,,@Stefan1985 [p. 243],
+A,,50,Missa de dono fortitudinis,,,,,,,,,,,,,1321,,,,,,,,,,,@Stefan1985 [p. 246],
+A,,51,Missa de dono Scientiae,,,,,,,,,,,,,1324,,,,,,,,,,,@Stefan1985 [p. 248],
+A,,52,Missa gaudii,,,,,,,,,,,,,1325,,,,,,,,,,,@Stefan1985 [p. 244],
+A,,53,"Sanctus, Benedictus, Agnus Dei",,,,,,,,,,,,,1331a | 1331b,,,,,,,,,,,@Stefan1985 [p. 251f],
+A,,54,Missa,,,,,,,,,,,,,,,,,,CZ-KLm (n.s.),,,,,,@Oppova2013,
+A,,55,Missa Sancti Bartholomaei,,,,,,,,,,,,,,,,,,CZ-Bm A 13071,,,,,,"@RajhradInvA [p. 11, no. 65], @RajhradInvB [p. 39, no.138], @Tichy2014b",
+A,,56,Missa,,,,,,,,,,,,,,,,,,CZ-Bm A 13072,,,,,,"@RajhradInvA [p. 29, no. 86], @RajhradInvB [p. 8, no.140], @Tichy2014b",
 A,,L1,Missa Sanctae Elisabethae,,A.1.137,,,,,,,,,,,,,,,,,Masses 57,D6,12,A.I.a,,,
 A,,L2,Missa,,A.2.142,,,,,,,,,,,,,,,,,Masses 40,D7,22,A.I.e,,,page in A-H inventory missing (was available to Vogg and Peschek)
 A,,L3,Missa oblata,,A.1.115,,,,,,,,,,,,,,,,,Masses 49,D8,18,A.I.c,,,
@@ -79,6 +78,7 @@ A,,S6,Missa Sicut Lilium,,A.1.107 | A.1.67,,,,,,,,,,,,,,,,,Masses 54,E6,17,A.I.b
 A,,S7,Missa,,,VIII a 6,,,,,,,,,,,,,,,A-Wps 43,,,,,,,A-HE source attributed to Zechner
 A,,S8,Missa,,,,,,,,,,,,,,,,,,D-Po Tuma 1,,,,,,@Haberkamp1993 [p. 201],
 A,,S9,Missa,,,,,,,,,,,,,,,,,,D-Po Tuma 2,,,,,,@Haberkamp1993 [p. 201],
+A,,S10,Missa,,,,463,(n.i.),,,,,,Mus.Hs.14216,,,,,,,CZ-Pu 59 R 6209,Masses 28,A4,,A.I.40,,,by August Tuma
 B,,1,Messa della morte,,A.22.18,,,D 41/11,,,,,,Mus.Hs.16934 | HK.793*,,,,,,Mus.2968-D-504,CZ-Bu RKPMus-0538.954,Masses 45,C13,,A.I.52,B.X,@Eybl1996 [p. 58],A-H source lost; A-Wn HK.793* wrongly attributed to Reutter
 B,,2,Requiem,,,,462/1,,,,,,,,,,,,,,,Masses 66,A1,,A.I.53,,"@KlosterneuburgInvB [p. 571, no. 1]",
 C,1,1,Alleluia confitemini,,,,464/4,,,,,,,,,,,,,,,Graduals 1,,,A.II.1,,"@KlosterneuburgInvB [p. 272, no. 2]",

@@ -3,17 +3,17 @@
 
 notes = \relative c' {
   \clef soprano
-  \key b \major \time 2/2 \autoBeamOff \tempoMarkup "Allabreve"
-   b'2^\partSc d
-  f b,
-  c a
-  b b
+  \key f \major \time 4/4 \autoBeamOff
+  f2^\partSc g4 g
+  a2. f4~
+  f b2 b4
+  a2. a4
 }
 
 text = \lyricmode {
-  Ky -- ri --
+  Ky -- _ ri --
   e e --
-  lei -- _
+  le -- i --
   son, "e -"
 }
 

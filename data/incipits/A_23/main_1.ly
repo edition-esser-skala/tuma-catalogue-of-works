@@ -3,18 +3,19 @@
 
 notes = \relative c' {
   \clef soprano
-  \key c \major \time 4/4 \autoBeamOff \tempoMarkup "Grave"
-  c'4.^\partSc c8 d2
-  r8 d d d c2
-  r4 c cis2
-  d4. c8 b2. a8
+  \key g \major \time 4/4 \autoBeamOff
+  r4 d'2^\partSc d4
+  d2 r
+  r4 d d8[ cis] c4
+  h4. h8 a2
 }
 
 text = \lyricmode {
-  Ky -- ri -- e
-  e -- le -- i -- son,
-  e -- lei --
-  son, e -- lei -- \hy
+  Ky -- ri --
+  e
+  e --
+  lei -- _
+  son, e -- "lei -"
 }
 
 \score {
