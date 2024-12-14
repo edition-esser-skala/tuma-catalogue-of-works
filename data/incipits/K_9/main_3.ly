@@ -3,11 +3,12 @@
 
 notes = \relative c' {
   \clef treble
-  \key b \major \time 3/8 \tempoMarkup "Presto"
-  f'8^\partVi g f
-  b,16 a b c d8
-  c16 b c d es8
-  d c4
+  \key a \major \time 3/4 \tempoMarkup "[no tempo]"
+    \once \override Staff.TimeSignature.style = #'single-digit
+  e'4^\partVi cis a
+  \grace a gis2 a4
+  h8 cis d4 d
+  e, d' cis
 }
 
 \score {

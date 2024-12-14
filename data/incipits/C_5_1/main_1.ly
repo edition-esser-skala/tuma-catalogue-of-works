@@ -3,20 +3,18 @@
 
 notes = \relative c' {
   \clef soprano
-  \key c \major \time 2/2 \autoBeamOff
-  c'1~^\partSc
-  c2 c
-  c1
-  c2 c
-  c h
+  \key f \major \time 2/2 \autoBeamOff \tempoMarkup "Allegretto"
+  a'1^\partSc
+  a2 a
+  b a
+  b1
 }
 
 text = \lyricmode {
-  Ex --
-  au --
-  di --
-  vit de
-  tem -- plo
+  In
+  mon -- te
+  o -- li --
+  "ve -"
 }
 
 \score {

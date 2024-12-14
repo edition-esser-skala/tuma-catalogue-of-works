@@ -3,10 +3,11 @@
 
 notes = \relative c' {
   \clef treble
-  \key c \dorian \time 4/4 \tempoMarkup "Fuga · Presto"
-  r8^\partVi g'' g g g f16 es f8 g
-  es d c2 h4
-  c r8 es d es16 f g f es d
+  \key h \minor \time 3/4 \tempoMarkup "Largo"
+  fis'4^\partVi g8( e) ais,( cis)
+  d4 h gis'
+  cis, e e
+  fis h8( fis) dis( fis)
 }
 
 \score {

@@ -40,10 +40,8 @@
     <workList>
       <work>
         <identifier label="TumW">I.1</identifier>
-        <identifier label="BalTh">B.XIII.8</identifier>
-        <identifier label="KliCh">Miscellaneous 1</identifier>
-        <identifier label="VogIn">A.XII.1</identifier>
-        <title xml:lang="la">Lamentationes Jeremiae Prophetae</title>
+        <identifier label="VogIn">B.I.1</identifier>
+        <title xml:lang="la">Sonata</title>
         <contributor>
           <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118624539">Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma</persName>
           <corpName role=""/>
@@ -53,9 +51,16 @@
           <geogName role="">Vienna (?)</geogName>
         </creation>
         <history/>
+        <biblList>
+          <head>Bibliography</head>
+          <bibl>
+            <genre>reference</genre>
+            <ref targettype="pandoc-citation">@Vogg1951 [p. 170f]</ref>
+          </bibl>
+        </biblList>
         <classification>
           <termList>
-            <term>sacred song</term>
+            <term>sonata</term>
           </termList>
         </classification>
         <expressionList>
@@ -71,15 +76,10 @@
               <geogName role=""/>
             </creation>
             <history/>
-            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <perfMedium>
               <perfResList>
-                <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro">
-                  <head xml:lang="en">coro</head>
-                  <perfRes count="2" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en">S</perfRes>
-                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en">A</perfRes>
-                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en">T</perfRes>
-                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en">B</perfRes>
-                </perfResList>
+                <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
+                <perfRes codedval="mco" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">bc</perfRes>
               </perfResList>
             </perfMedium>
             <classification>
@@ -89,7 +89,7 @@
             </classification>
             <componentList>
               <expression n="1">
-                <title xml:lang="la">Lectio prima</title>
+                <title xml:lang="la">[no title]</title>
                 <contributor>
                   <persName role=""/>
                 </contributor>
@@ -97,26 +97,20 @@
                   <incipText>
                     <p xml:lang="en"/>
                   </incipText>
-                  <graphic targettype="lowres" target="1_prima"/>
+                  <graphic targettype="lowres" target="1_vivace"/>
                 </incip>
-                <tempo>[no tempo]</tempo>
-                <key pname="g" mode="dorian"/>
-                <meter sym="cut"/>
-                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                <tempo>Vivace</tempo>
+                <key pname="a" mode="minor"/>
+                <meter sym="common"/>
+                <perfMedium>
                   <perfResList>
-                    <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_608b39c1">
-                      <head xml:lang="en">coro</head>
-                      <perfRes count="2" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en" n="perfRes_aadfa2a2">S</perfRes>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en" n="perfRes_04bc5dbe">A</perfRes>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en" n="perfRes_5378d695">T</perfRes>
-                    </perfResList>
+                    <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
+                    <perfRes codedval="mco" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">bc</perfRes>
                   </perfResList>
                 </perfMedium>
-                <extent>99 bars</extent>
+                <extent>170 bars</extent>
                 <notesStmt>
-                  <annot>
-                    <p>four half notes per bar</p>
-                  </annot>
+                  <annot/>
                 </notesStmt>
                 <componentList/>
                 <relationList>
@@ -124,7 +118,7 @@
                 </relationList>
               </expression>
               <expression n="2">
-                <title xml:lang="la">Lectio secunda</title>
+                <title xml:lang="la">[no title]</title>
                 <contributor>
                   <persName role=""/>
                 </contributor>
@@ -132,27 +126,20 @@
                   <incipText>
                     <p xml:lang="en"/>
                   </incipText>
-                  <graphic targettype="lowres" target="2_secunda"/>
+                  <graphic targettype="lowres" target="2_largo"/>
                 </incip>
-                <tempo>[no tempo]</tempo>
+                <tempo>Largo</tempo>
                 <key pname="f" mode="major"/>
-                <meter sym="cut"/>
-                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                <meter count="3" unit="4"/>
+                <perfMedium>
                   <perfResList>
-                    <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_608b39c1">
-                      <head xml:lang="en">coro</head>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en" n="perfRes_aadfa2a2">S</perfRes>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en" n="perfRes_04bc5dbe">A</perfRes>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en" n="perfRes_5378d695">T</perfRes>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en" n="perfRes_1db82622">B</perfRes>
-                    </perfResList>
+                    <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
+                    <perfRes codedval="mco" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">bc</perfRes>
                   </perfResList>
                 </perfMedium>
-                <extent>154 bars</extent>
+                <extent>29 bars</extent>
                 <notesStmt>
-                  <annot>
-                    <p>four half notes per bar</p>
-                  </annot>
+                  <annot/>
                 </notesStmt>
                 <componentList/>
                 <relationList>
@@ -160,7 +147,7 @@
                 </relationList>
               </expression>
               <expression n="3">
-                <title xml:lang="la">Lectio tertia</title>
+                <title xml:lang="la">[no title]</title>
                 <contributor>
                   <persName role=""/>
                 </contributor>
@@ -168,27 +155,20 @@
                   <incipText>
                     <p xml:lang="en"/>
                   </incipText>
-                  <graphic targettype="lowres" target="3_tertia"/>
+                  <graphic targettype="lowres" target="3_allegro"/>
                 </incip>
-                <tempo>[no tempo]</tempo>
-                <key pname="f" mode="major"/>
-                <meter sym="cut"/>
-                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                <tempo>Allegro</tempo>
+                <key pname="a" mode="minor"/>
+                <meter count="3" unit="8"/>
+                <perfMedium>
                   <perfResList>
-                    <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_608b39c1">
-                      <head xml:lang="en">coro</head>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en" n="perfRes_aadfa2a2">S</perfRes>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en" n="perfRes_04bc5dbe">A</perfRes>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en" n="perfRes_5378d695">T</perfRes>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en" n="perfRes_1db82622">B</perfRes>
-                    </perfResList>
+                    <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
+                    <perfRes codedval="mco" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">bc</perfRes>
                   </perfResList>
                 </perfMedium>
-                <extent>153 bars</extent>
+                <extent>91 bars</extent>
                 <notesStmt>
-                  <annot>
-                    <p>four half notes per bar</p>
-                  </annot>
+                  <annot/>
                 </notesStmt>
                 <componentList/>
                 <relationList>
@@ -224,36 +204,40 @@
         </classification>
         <itemList>
           <item>
-            <identifier/>
+            <identifier label="RISM">1001020759</identifier>
             <physDesc>
               <dimensions>
                 <locusGrp>
                   <locus/>
                 </locusGrp>
+                <height quantity="25" unit="cm">25 (height in cm)</height>
+                <width quantity="39.5" unit="cm">39.5 (height in cm)</width>
                 <term/>
                 <extent> lines</extent>
               </dimensions>
-              <titlePage label="[wrapper]">
-                <p>Lamentationes Jeremiae Prophetae Feria quinta in coena Dni. &#xC0; 4 Voci da Francesco Tuma</p>
+              <titlePage label="[cover, in Aloys Fuchs' hand]">
+                <p>Originale | di | Francesco T&#x16F;ma | Vice M. di Cap: | Geb. 2. Oktbr 1704. + 1774. | Sonata a 3 Stromenti | Partitura | Ex coll: Al. Fuchs | 1830.</p>
               </titlePage>
-              <extent>40 p.</extent>
+              <titlePage label="[p. 1, in T&#x16F;ma's hand]">
+                <p>Sonata &#xE0; 3. [right] Di Franc. Tuma MP.</p>
+              </titlePage>
+              <extent>2 p.</extent>
               <dimensions/>
               <physMedium>
-                <p>hand-ruled paper</p>
+                <p>hand-ruled paper, 16 staves (8 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
               <repository>
                 <corpName role=""/>
                 <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wgm</identifier>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">D-B</identifier>
+                <ptr target="https://resolver.staatsbibliothek-berlin.de/SBB00033EEE00000000" mimetype="" label="digitized version"/>
               </repository>
-              <identifier>I/7364</identifier>
+              <identifier>Mus.ms.autogr. Tuma, F. 1 M</identifier>
             </physLoc>
             <notesStmt>
-              <annot type="source_description">
-                <p>catalogued according to catalogue entry</p>
-              </annot>
+              <annot type="source_description"/>
               <annot type="links">
                 <ptr mimetype=""/>
               </annot>
@@ -274,7 +258,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date notbefore="1890-01-01" notafter="1910-12-31">1890&#x2013;1910</date>
+          <date notbefore="1890-01-01" notafter="1900-12-31">1890&#x2013;1900</date>
         </pubStmt>
         <classification>
           <termList>
@@ -288,24 +272,27 @@
         </classification>
         <itemList>
           <item>
-            <identifier label="RISM">1001001809</identifier>
+            <identifier label="RISM">1001167152</identifier>
             <physDesc>
               <dimensions>
                 <locusGrp>
                   <locus/>
                 </locusGrp>
-                <height quantity="34.5" unit="cm">34.5 (height in cm)</height>
+                <height quantity="34" unit="cm">34 (height in cm)</height>
                 <width quantity="27" unit="cm">27 (height in cm)</width>
                 <term/>
                 <extent> lines</extent>
               </dimensions>
-              <titlePage label="[p. 1]">
-                <p>Lamentationes | Jeremiae Prophetae. | Feria quinta in coena Domini. | &#xE0; 5 voci | da | Francesco Tuma.</p>
+              <titlePage label="[p. 1, probably by Schmid]">
+                <p>Sonata &#xE0; tre | v | Franz Tuma.</p>
               </titlePage>
-              <extent>24 p.</extent>
+              <titlePage label="[p. 2]">
+                <p>Sonata &#xE0; 3. [right side] Di Franc. Tuma.</p>
+              </titlePage>
+              <extent>5 p.</extent>
               <dimensions/>
               <physMedium>
-                <p>printed staff paper, 14 staves</p>
+                <p>printed staff paper (&#x201C;No 6.&#x201D;), 16 staves (7 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -313,9 +300,9 @@
                 <corpName role=""/>
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">D-Dl</identifier>
-                <ptr target="https://digital.slub-dresden.de/id480933553" mimetype="" label="digitized version"/>
+                <ptr target="https://digital.slub-dresden.de/id1898738726" mimetype="" label="digitized version"/>
               </repository>
-              <identifier>Mus.2968-E-502</identifier>
+              <identifier>Mus.2968-P-504</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">

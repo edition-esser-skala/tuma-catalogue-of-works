@@ -3,14 +3,16 @@
 
 notes = \relative c' {
   \clef treble
-  \key d \major \time 4/4 \tempoMarkup "[no tempo]"
-  d8^\partVi d' d,16 e32 fis g a h cis d8 d, d16 e32 fis g a h cis
-  a16. a,32 e'16. a,32 fis'16. a,32 g'16. a,32 a'8 a' a,16 h32 cis d e fis gis
+  \key c \dorian \time 2/4 \tempoMarkup "Allegro"
+  r8^\partVi c' c'4~
+  c8 c, c'4~
+  c8 c, c'4~
+  c8 h16 as g8 f
+  es16 d c8 r4
 }
 
 \score {
   <<
     \new Voice = "incipit" { \notes }
   >>
-  \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
 }

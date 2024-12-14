@@ -3,10 +3,10 @@
 
 notes = \relative c' {
   \clef treble
-  \key b \major \time 4/4 \tempoMarkup "Allegro"
-  b''8^\partVi f d f b, f d f
-  b,4 r r16 b' c d es f g a
-  b a b a g a fis a g d e fis g a b g
+  \key c \major \time 4/4 \tempoMarkup "Allegro"
+  \once \override TextScript.X-offset = #-2 r8^\partVi c''-! g-! e-! c-! g'-! e-! c-!
+  g-! e'-! c-! g-! e-! g-! e-! c-!
+  b4 r r8 c'(\p b a)
 }
 
 \score {

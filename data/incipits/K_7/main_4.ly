@@ -3,11 +3,11 @@
 
 notes = \relative c' {
   \clef treble
-  \key d \minor \time 2/2 \tempoMarkup "Tempo moderato"
-  \partial 4 d'4^\partVii cis a2 f'4
-  e \set Staff.forceClef = ##t a,^\partVi a'2
-  R1
-  r4 a, a'2
+  \key a \major \time 6/8 \tempoMarkup "Gigue"
+  \partial 8 e8^\partVi a8. h16 a8 cis e e,
+  a8. e16 cis8 a4 a''8
+  a gis fis \grace fis e4 fis8
+  fis e d cis4
 }
 
 \score {

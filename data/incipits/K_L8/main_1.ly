@@ -1,11 +1,11 @@
 \version "2.24.2"
 \include "header.ly"
 
-notes = \relative c {
-  \clef bass
+notes = \relative c' {
+  \clef treble
   \key d \major \time 4/4 \tempoMarkup "[no tempo]"
-  d8^\partOrg d fis d a' h cis a
-  cis, a cis a
+  R1^\partVi
+  d8 d'16 cis cis8 h16 a a8 g16 fis g fis g a
 }
 
 \score {

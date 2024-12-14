@@ -2,12 +2,10 @@
 \include "header.ly"
 
 notes = \relative c' {
-  \clef soprano
-  \key f \minor \time 3/4 \tempoMarkup "Mesto"
-  r8^\markup \remark "cemb" c f as g f
-  g4 c,4. c'16 b
-  as4 f f'~
-  f e2
+  \clef treble
+  \key a \major \time 4/4 \tempoMarkup "Allamande"
+  \partial 4 r16^\partVi a'' gis a a,4~ a16 a' gis a a,4~ a16 a' gis a
+  fis d h a gis fis' e d d8 cis r16 a' gis a
 }
 
 \score {

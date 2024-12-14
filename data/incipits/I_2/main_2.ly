@@ -3,22 +3,15 @@
 
 notes = \relative c' {
   \clef treble
-  \key c \dorian \time 4/4 \tempoMarkup "Adagio"
-  g'2^\partVii \set Staff.forceClef = ##t as^\partVi
-  g f \gotoBar "5"
-  \clef bass \autoBeamOff g,2~^\partBs g4 f~
-  f es es d8 d
-}
-
-text = \lyricmode {
-  \skips 4
-  Tae -- _
-  det a -- ni -- mam
+  \key a \major \time 3/4 \tempoMarkup "Allegro"
+  a'4^\partVi a'16 gis fis e d8 cis
+  h a a'16 gis fis e d8 cis
+  h a e' e, fis4
+  d'8 d, e4 cis'8 cis,
 }
 
 \score {
   <<
     \new Voice = "incipit" { \notes }
-    \new Lyrics \lyricsto "incipit" { \text }
   >>
 }

@@ -3,11 +3,10 @@
 
 notes = \relative c' {
   \clef treble
-  \twofourtime \key d \major \time 2/4 \tempoMarkup "Allegro strepitoso"
-  d'16^\partVi d, d d d d d d
-  d' d, d d d d d d
-  a' a, a a a a a a
-  \tuplet 3/2 4 { fis'8 e d fis[ e d] }
+  \key e \minor \time 2/4 \tempoMarkup "Andante"
+  h''8^\partVi h, h dis \grace dis e4 r8 e
+  fis8. g32 a g8 fis
+  g16 fis e8 r g
 }
 
 \score {

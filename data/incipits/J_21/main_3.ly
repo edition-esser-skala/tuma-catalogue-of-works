@@ -3,16 +3,14 @@
 
 notes = \relative c' {
   \clef treble
-  \key f \minor \time 3/8 \tempoMarkup "Amoroso"
-  r8^\partVi as' f
-  c'16.\trill b32 c8 r
-  as16.\trill g32 as8 as'~
-  as g b
+  \key a \major \time 3/4 \tempoMarkup "Manuet"
+  \tuplet 3/2 4 { e'8^\partVi d cis } fis4 gis,
+  a e2
+  fis8 gis a h cis d
 }
 
 \score {
   <<
     \new Voice = "incipit" { \notes }
   >>
-  \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
 }

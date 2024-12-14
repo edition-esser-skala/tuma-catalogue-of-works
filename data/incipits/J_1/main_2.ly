@@ -2,10 +2,12 @@
 \include "header.ly"
 
 notes = \relative c' {
-  \key f \major \time 3/4 \tempoMarkup "Largo"
-  c'4^\partVi \tuplet 3/2 4 { f8 g a } g f
-  \grace f4 e2 f4
-  d8( c) c( f) b,( g')
+  \clef treble
+  \key e \minor \time 2/4 \tempoMarkup "Andante"
+  e'8^\partVi h4 c8
+  h e,4 g8
+  fis a4 dis,8
+  e4 r
 }
 
 \score {

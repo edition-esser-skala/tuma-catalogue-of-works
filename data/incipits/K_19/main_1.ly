@@ -3,10 +3,9 @@
 
 notes = \relative c' {
   \clef treble
-  \key d \major \time 4/4 \tempoMarkup "Adagio"
-  a''8.^\partVi a16 a8 a, d2
-  \tuplet 3/2 8 { fis,16 h cis d[ cis h] fis' h, cis d[ cis h] } gis'8. gis16 h8 d,
-  cis2
+  \key c \major \time 4/4 \tempoMarkup "Intrada · Vivace"
+  g''4~^\partFl g16 c a f g8 c,~ c16 c' a f
+  g f e g f e d f e8
 }
 
 \score {

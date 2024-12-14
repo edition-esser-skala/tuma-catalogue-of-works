@@ -3,10 +3,11 @@
 
 notes = \relative c' {
   \clef treble
-  \key g \major \time 4/4 \tempoMarkup "[no tempo]"
-  d'4~^\partVi d16 e fis g g,4. g'8
-  g,4~ g16 g' fis g g,4~ g16 g' a h
-  a d, d d c h h a \tuplet 3/2 8 { h a g } g'8 \tuplet 3/2 8 { h,16 a g } g'8
+  \key c \dorian \time 3/4 \tempoMarkup "Adagio"
+  \partial 16 c'16^\partVi c4 c, r8 g'
+  as g c h es d
+  g2.~
+  g
 }
 
 \score {

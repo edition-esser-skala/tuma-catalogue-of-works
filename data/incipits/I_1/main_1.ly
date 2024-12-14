@@ -2,25 +2,15 @@
 \include "header.ly"
 
 notes = \relative c' {
-  \clef soprano
-  \key g \dorian \time 2/1 \autoBeamOff \tempoMarkup "[no tempo]"
-    \set Staff.timeSignatureFraction = 2/2
-  d'1.^\partSic d2
-  d d1 c4 b
-  c2 d c2. c4
-  c1
-}
-
-text = \lyricmode {
-  In -- ci --
-  pit la -- _ _
-  _ men -- ta -- ti --
-  o
+  \clef treble
+  \key a \minor \time 4/4 \tempoMarkup "Vivace"
+  a'4~^\partVi a16. h32 c16 d e8 e h e
+  c a \tuplet 3/2 8 { f'16 g a } dis,8 e e, \tuplet 3/2 8 { e'16 f! g! } cis,8
+  d d, \tuplet 3/2 8 { d'16 e f! } h,8 c c, b'( a)
 }
 
 \score {
   <<
     \new Voice = "incipit" { \notes }
-    \new Lyrics \lyricsto "incipit" { \text }
   >>
 }

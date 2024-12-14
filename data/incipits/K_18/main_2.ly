@@ -3,11 +3,10 @@
 
 notes = \relative c' {
   \clef treble
-  \key g \minor \time 3/4 \tempoMarkup "Andante"
-  r4^\partVi r8 d' g b
-  a d, d4. d8
-  g c, c4. c8
-  f b, b4. b8
+  \key c \dorian \time 4/4 \tempoMarkup "Allegro moderato"
+  c'4^\partVi c' r8 c,16 d es8 fis
+  g4 b r8 b,16 c des8 e
+  f4 as r8 c,16 h r8 b
 }
 
 \score {

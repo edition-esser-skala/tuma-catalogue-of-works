@@ -3,22 +3,16 @@
 
 notes = \relative c' {
   \clef treble
-  \key g \minor \time 4/4 \tempoMarkup "Adagio"
-  d'8^\partVi es16 d b'8 g16 es c2
-  c8 d16 c a'8 fis16 c h2
-  g'4 fis\trill \clef tenor \autoBeamOff d,4.^\partTs es8
-  c4 c c8. c16 b8 a
-}
-
-text = \lyricmode {
-  \skips 16
-  Par -- ce
-  mi -- hi, par -- ce mi -- hi
+  \key a \minor \time 2/4 \tempoMarkup "Andante"
+  \partial 4 e'4^\partVi c16( a) h( gis) a8 f~
+  f e r f
+  f e r h'
+  h16 c a gis a8 dis
+  \grace dis e4 r
 }
 
 \score {
   <<
     \new Voice = "incipit" { \notes }
-    \new Lyrics \lyricsto "incipit" { \text }
   >>
 }

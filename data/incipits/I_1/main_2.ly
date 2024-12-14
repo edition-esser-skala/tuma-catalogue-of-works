@@ -2,29 +2,14 @@
 \include "header.ly"
 
 notes = \relative c' {
-  \clef soprano
-  \key f \major \time 2/1 \autoBeamOff \tempoMarkup "[no tempo]"
-    \set Staff.timeSignatureFraction = 2/2
-  a'\breve^\partSc
-  g
-  g
-  f~
-  f
-  g
-}
-
-text = \lyricmode {
-  Vau. __
-  _
-  _
-  _
-
-  _
+  \key f \major \time 3/4 \tempoMarkup "Largo"
+  c'4^\partVi \tuplet 3/2 4 { f8 g a } g f
+  \grace f4 e2 f4
+  d8( c) c( f) b,( g')
 }
 
 \score {
   <<
     \new Voice = "incipit" { \notes }
-    \new Lyrics \lyricsto "incipit" { \text }
   >>
 }

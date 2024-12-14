@@ -3,16 +3,19 @@
 
 notes = \relative c' {
   \clef soprano
-  \key c \major \time 4/4 \tempoMarkup "Andante" \autoBeamOff
-  c'4.^\partSc c8 d d d4
-  c8 c c c c4 f
-  h,2 r4 h8 h
+  \key g \dorian \time 2/1 \autoBeamOff \tempoMarkup "[no tempo]"
+    \set Staff.timeSignatureFraction = 2/2
+  d'1.^\partSic d2
+  d d1 c4 b
+  c2 d c2. c4
+  c1
 }
 
 text = \lyricmode {
-  Ky -- ri -- e e -- lei --
-  son, Chri -- ste e -- lei -- _
-  son, Chri -- ste
+  In -- ci --
+  pit la -- _ _
+  _ men -- ta -- ti --
+  o
 }
 
 \score {

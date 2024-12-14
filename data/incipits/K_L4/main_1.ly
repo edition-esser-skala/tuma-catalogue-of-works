@@ -1,11 +1,13 @@
 \version "2.24.2"
 \include "header.ly"
 
-notes = \relative c {
-  \clef bass
-  \key b \major \time 4/4 \tempoMarkup "Allegro"
-  b4^\partOrg d8. es16 f4 r16 f es d
-  g8 es g a
+notes = \relative c' {
+  \clef treble
+  \key c \major \time 2/4 \tempoMarkup "[no tempo]"
+  c'8^\partVi c \tuplet 3/2 8 { c16[ d e] d e f }
+  e8 e \tuplet 3/2 8 { e16[ f g] f g a }
+  g c h a \grace g8 f4\trill
+  e8
 }
 
 \score {

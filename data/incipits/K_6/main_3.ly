@@ -3,11 +3,11 @@
 
 notes = \relative c' {
   \clef treble
-  \key f \major \time 3/4 \tempoMarkup "[no tempo]"
-  f4-!^\partVi a-! b-!
-  c-! d-! e-!
-  f-! g-! a-!
-  b8. g16 g4( a)
+  \key a \major \time 3/4 \tempoMarkup "Menuet"
+  \tuplet 3/2 4 { a'8^\partVi h cis } e,2
+  \tuplet 3/2 4 { h'8 cis d } e,2
+  \tuplet 3/2 4 { cis'8 d e } d[ cis h a]
+  gis h e,2
 }
 
 \score {
