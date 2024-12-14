@@ -67,6 +67,10 @@
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@HerzogenburgInvB [fol. 200r, no. 30.12]</ref>
           </bibl>
+          <bibl>
+            <genre>reference</genre>
+            <ref targettype="pandoc-citation">@Armstrong1993 [pp. 118-121, 257, 286, 317]</ref>
+          </bibl>
         </biblList>
         <classification>
           <termList>
