@@ -1,7 +1,7 @@
 group,subgroup,number,title,A-GÖ,A-H,A-HE,A-KN,A-KR,A-LA,A-M,A-SEI,A-Wgm,A-WIL,A-Wn,A-Ws,CZ-Pak,CZ-Pkřiž,CZ-Pn,D-B,D-Dl,other,KliCh,PesMa,ReiMa,VogIn,BalTh,literature,notes
 A,,1,Missa in feriis Rogatorum,,,,454/1,,,,,,,,,,,,,,,Masses 47,A2,26,A.I.18,,"@KlosterneuburgInvA [p. 2, no. 2], @KlosterneuburgInvB [p. 113, no. 1]",
 A,,2,Missa,,,,454/2,,,,,,,,,,,,,,,Masses 8,A3,25,A.I.17,,,
-A,,3,Missa,,,,463,,,,,,,Mus.Hs.14216,,,,,,,,Masses 28,A4,,A.I.40,,,
+A,,3,Missa,,,,463,(n.i.),,,,,,Mus.Hs.14216,,,,,,,CZ-Pu 59 R 6209,Masses 28,A4,,A.I.40,,,
 A,,4,Missa,636,A.2.172,,,,,I/9,,,,,,,,,,,,Masses 26,A5,40,A.I.38,,"@Riedel1979 [p. 104], @Freeman1992 [p. 48]",A-H source lost
 A,,5,Missa,,,,,,M 364,,,,,,,,,,,,,,,,,,"@Sherman2001 [p. 73, 362]",
 A,,6,Missa,,,,,,,,,I/11559,,,,,,,,,,Masses 22,B1,35,A.I.33,B.I.11,,
@@ -246,14 +246,14 @@ G,,6,Stabat mater,,,,,,,,R 34,,,,,,,,,,,,,,,,,
 G,,7,Stabat mater,,,,,,,,,,,,,,,,,,D-OB MO 813,,,,,,@Haberkamp1986 [p. 207],
 G,,8,Stabat mater,,,,,,,,,,,,,1332,,,,,,,,,,,@Stefan1985 [p. 252],
 G,,9,Veni sancte,,,,464/2,,,,,,,,,,,,,,,Sequences 6,,,A.VIII.6,,"@KlosterneuburgInvA [p. 162, no. 5], @KlosterneuburgInvB [p. 538, no. 1]",
-H,,1,Litaniae lauretanae,,876,,,,,,,,1096,,,,XXXV E 150,,,,CZ-Bm A 3812,Litanies 7,,,A.IX.1,,"@HerzogenburgInvA [p. 419, no. 26.19], @HerzogenburgInvB [fol. 200r, no. 30.10], @Mitterschiffthaler1979 [p. 236]",CZ-Pkřiž old signature: 2308
+H,,1,Litaniae lauretanae,,876,,,,,,,,1096,,,,XXXV E 150,,,,CZ-Bm A 3812 | CZ-K 127,Litanies 7,,,A.IX.1,,"@HerzogenburgInvA [p. 419, no. 26.19], @HerzogenburgInvB [fol. 200r, no. 30.10], @Mitterschiffthaler1979 [p. 236]",CZ-Pkřiž old signature: 2308
 H,,2,Litaniae lauretanae,,,,,,,,,,,,,,XXXV E 158 | XXXV E 155,,,,,Litanies 10,,,A.IX.2,,,CZ-Pkřiž old signatures: 2332 and 932
 H,,3,Litaniae lauretanae,,,,,,,,,,,,,,XXXV E 147,,,,,Litanies 12,,,A.IX.3,,,CZ-Pkřiž old signature: 2305
 H,,4,Litaniae lauretanae,,,,,,,,,,,,,,XXXV E 151,,,,,Litanies 14,,,A.IX.4,,,CZ-Pkřiž old signature: 2309
-H,,5,Litaniae lauretanae,,A.26.65,,,,,,,,1095,,,,XXXV E 149,,,,,Litanies 13,,,A.IX.5,,@Mitterschiffthaler1979 [p. 236],A-H source lost; CZ-Pkřiž old signature: 2307
+H,,5,Litaniae lauretanae,,A.26.65,,,,,,,,1095,,,,XXXV E 149,,,,CZ-K 126,Litanies 13,,,A.IX.5,,@Mitterschiffthaler1979 [p. 236],A-H source lost; CZ-Pkřiž old signature: 2307
 H,,6,Litaniae lauretanae,,A.26.20,,,,,,,,,Mus.Hs.15696,,,,,,,,Litanies 9,,,A.IX.6,B.IX.6,"@Armstrong1993 [pp. 118-121, 257, 288, 318]",A-H source lost
 H,,7,Litaniae lauretanae,,,,,,,,,,,,,,,,,,A-MT 52 L.,Litanies 15,,,A.IX.7,,,
-H,,8,Litaniae lauretanae,,,,,,,,,,1097,,,,XXXV E 154,,,,CZ-Bm A 3816,Litanies 18,,,A.IX.8,,"@BrtniceInv [p. 109, no. 4], @HerzogenburgInvA [p. 400, no. 25.24], @Strakova1963, @Strakova1965, @Mitterschiffthaler1979 [p. 236]",CZ-Pkřiž old signature: 2312
+H,,8,Litaniae lauretanae,,,,,,,,,,1097,,,,XXXV E 154,,,,CZ-Bm A 3816 | CZ-K 125,Litanies 18,,,A.IX.8,,"@BrtniceInv [p. 109, no. 4], @HerzogenburgInvA [p. 400, no. 25.24], @Strakova1963, @Strakova1965, @Mitterschiffthaler1979 [p. 236]",CZ-Pkřiž old signature: 2312
 H,,9,Litaniae lauretanae,1900,878,,,,,,,,,Mus.Hs.15695/1,,,XXXV E 153,,,,,Litanies 1,,,A.IX.9,B.IX.5,"@KlosterneuburgInvA [p. 57, no. 2, p. 92, no. 6], @BrtniceInv [p. 109, no. 3], @Strakova1963, @Strakova1965, @Riedel1979 [p. 299], @Armstrong1993 [pp. 118-121, 257, 287, 318]",A-KN source lost; CZ-Pkřiž old signature: 2310
 H,,10,Litaniae lauretanae,,,,,E 48/130,,,,,,,,,,,,,,Litanies 5,,,A.IX.10,,,
 H,,11,Litaniae lauretanae,1899,880,,,,,,,,,Mus.Hs.15692,,,XXXV E 143,,,,D-OB MO 806,Litanies 16,,,A.IX.11,B.IX.2,"@HerzogenburgInvA [p. 400, no. 25.23], @Riedel1979 [p. 299], @Haberkamp1986 [p. 206], @Armstrong1993 [pp. 118-121, 257, 284, 315]",CZ-Pkřiž old signature: 2300
