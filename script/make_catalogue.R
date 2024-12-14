@@ -33,6 +33,8 @@ rism_entries <-
     "data/works_in_rism.csv",
     col_types = cols(.default = "c")
   ) %>%
+  replace_na(list(collection = "no")) %>%
+  filter(collection != "yes") %>%
   select(siglum, shelfmark, title, rism_id)
 
 # (b) works missing in RISM
@@ -85,7 +87,7 @@ catalogue_all <-
 check_empty <- function(df) {
   if (nrow(df) != 0) {
     print(df)
-    stop("The table above should be empty")
+    error("The table above should be empty")
   }
   invisible(df)
 }

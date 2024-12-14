@@ -125,17 +125,17 @@ SOURCE_TEMPLATE <- '
 
 {classification}
 
-##### Location
+##### Location(s)
 
-{siglum} {shelfmark} {link}
+{locations}
 
 ##### RISM
 
 {rism_id}
 
-##### Dating
+##### Publication, dating
 
-{dating}
+{publication}
 
 ##### Title page(s)
 
@@ -162,7 +162,7 @@ LOST_SOURCE_TEMPLATE <- '
 
 ##### Location
 
-{siglum} {shelfmark} {link}
+{locations}
 
 ##### Components and notes
 
@@ -172,7 +172,7 @@ LOST_SOURCE_TEMPLATE <- '
 
 ## RISM ----
 
-RISM_TEMPLATE <- "[{label}](https://opac.rism.info/search?id={rism_id})"
+RISM_TEMPLATE <- str_glue("[{{label}}]({params$rism_link})")
 
 
 ## Identifier ----
@@ -267,18 +267,18 @@ format_mei_text <- function(xml_data) {
 
 # format the time signature with common/cut time symbols or fraction
 format_meter <- function(m) {
-  res <- NULL
-  if (is.null(attr(m, "sym"))) {
-    res <- str_glue("${attr(m, 'count')} \\atop {attr(m, 'unit')}$")
-  } else if (attr(m, "sym") == "common") {
-    res <- "\U1d134"
-  } else if (attr(m, "sym") == "cut") {
-    res <- "\U1d135"
-  }
+  meter <- attr(m, "sym")
+  if (is.null(meter))
+    meter <- paste(attr(m, "count"), attr(m, "unit"), sep = "_")
 
-  if (is.null(res))
-    error("Illegal meter")
-  res
+  if (length(meter) == 0L)
+    error("Meter missing")
+
+  meter_svg <- str_glue("images/meter/{meter}.svg")
+  if (!file_exists(meter_svg))
+    warn("No image available for meter {meter}")
+
+  str_glue("![](../{meter_svg})")
 }
 
 # format the key signature
@@ -340,9 +340,10 @@ format_incipits <- function(incipit_list, work_id) {
 }
 
 # format the short sources as table
+#   ss: manifestationList
 format_sources_short <- function(ss) {
   sources <-
-    map(ss, \(s) get_source_location(s) %>% as_tibble_row()) %>%
+    map(ss, \(s) get_source_locations(s, pluck(s$identifier, 1))) %>%
     list_rbind() %>%
     arrange(type, siglum, shelfmark) %>%
     summarise(
@@ -513,7 +514,7 @@ format_bibliography <- function(b, work_id) {
   entries_ref <-
     b %>%
     keep(\(x) !is.null(x$genre) && x$genre == "reference") %>%
-    map_chr(\(i) attr(i$ptr, "target")) %>%
+    map_chr(\(i) i$ref[[1]]) %>%
     str_sort()
 
   entries_score <-
@@ -587,12 +588,20 @@ format_section <- function(s) {
   title <- s$title[[1]]
   info("      section {title}")
 
+  number <- attr(s, "n", exact = TRUE)
+  if (!is.null(number))
+    error("Section must not be numbered")
+
   tempo <- s$tempo[[1]]
   key <- format_key(s$key)
   meter <- format_meter(s$meter)
   extent <- s$extent[[1]]
   scoring <- format_scoring(s$perfMedium$perfResList)
   notes <- attr(s$notesStmt[[1]], "markdown_text") %||% ""
+
+  incipit_file <- attr(s$incip$graphic, "target", exact = TRUE)
+  if (!is.null(incipit_file))
+    error("Section must not have an incipit {incipit_file}")
 
   tibble_row(
     extent =
@@ -611,9 +620,12 @@ format_section <- function(s) {
 # returns a table row with the movement's pipe-separated scoring (scoring)
 # and the markdown-formatted movement data (markdown)
 format_movement <- function(m, work_id) {
-  number <- attr(m, "n", exact = TRUE) %||% ""
   title <- m$title[[1]]
   info("    movement {title}")
+
+  number <- attr(m, "n", exact = TRUE)
+  if (is.null(number))
+    error("Movement number missing")
 
   tempo <- m$tempo[[1]]
   meter <- format_meter(m$meter)
@@ -688,9 +700,14 @@ format_dimensions <- function(d) {
     return(NA_character_)
 
   h <- attr(d$height, "quantity")
-  hu <- attr(d$height, "unit")
+  hu <- attr(d$height, "unit") %||% "missing"
   w <- attr(d$width, "quantity")
-  wu <- attr(d$width, "unit")
+  wu <- attr(d$width, "unit") %||% "missing"
+
+  if (hu == "missing")
+    error("Dimensions for height missing")
+  if (wu == "missing")
+    error("Dimensions for width missing")
 
   if (hu == wu)
     paste(h, "×", w, wu)
@@ -700,7 +717,8 @@ format_dimensions <- function(d) {
 
 # format the titlepages of a source
 format_titlepage <- function(p) {
-  names(p) %>%
+  res <-
+    names(p) %>%
     str_which("titlePage") %>%
     map_chr(\(i) {
       label <- attr(p[[i]], "label")
@@ -717,6 +735,10 @@ format_titlepage <- function(p) {
       )
     }) %>%
     str_flatten("\n")
+
+  if (res == "")
+    "–"
+  res
 }
 
 # format the pysical description
@@ -739,58 +761,77 @@ format_physdesc <- function(p) {
   res
 }
 
-# get type, siglum, shelfmark, link to digitized version,
-# and RISM ID of a source
+# get the source locations
+#   s: manifestation
+#   rism_id: RISM ID of manifestation (used by prints)
+# returns a tibble with the following columns:
+#   validation_ignore (whether this source should be ignored during validation)
+#   type (A, C, …)
+#   siglum
+#   shelfmark
+#   link (link to source, labeled as digitized version, catalogue entry ...)
+#   rism_id (link to RISM entry, labeled by RISM ID)
+#   source (link to RISM entry, labeled by siglum and shelfmark)
 # also write siglum to global variable
-# for assembling a list of abbreviations later
-get_source_location <- function(s) {
+#   for assembling a list of abbreviations later
+get_source_locations <- function(s, rism_id = NULL) {
   type_long <- s$titleStmt$title[[1]]
-  type <- params$validation$source_types[type_long]
+  type <- pluck(params$validation$source_types, type_long, "abbreviation")
   if (is.null(type))
     error("Unknown source type: ", type_long)
 
-  siglum <- pluck(s$itemList$item$physLoc$repository$identifier, 1)
-  if (is.null(siglum)) {
-    siglum <- s$itemList$item$physLoc$repository$corpName[[1]]
-    validation_ignore <- TRUE
-  } else {
-    GLOBAL_sigla <<- c(GLOBAL_sigla, siglum)
-    validation_ignore <- FALSE
-  }
+  map(
+    s$itemList,
+    \(item) {
+      siglum <- pluck(item$physLoc$repository$identifier, 1)
+      if (is.null(siglum)) {
+        siglum <- item$physLoc$repository$corpName[[1]]
+        validation_ignore <- TRUE
+      } else {
+        GLOBAL_sigla <<- c(GLOBAL_sigla, siglum)
+        validation_ignore <- FALSE
+      }
 
-  shelfmark <- s$itemList$item$physLoc$identifier[[1]]
-  source <- paste(siglum, shelfmark)
+      shelfmark <- item$physLoc$identifier[[1]]
+      source <- paste(siglum, shelfmark)
 
-  url <- attr(s$itemList$item$physLoc$repository$ptr, "target")
-  url_label <- attr(s$itemList$item$physLoc$repository$ptr, "label")
-  if (is.null(url)) {
-    link <- ""
-  } else {
-    if (!url_label %in% params$validation$location_link_labels)
-      error("Unknown link label: ", url_label)
-    link <- str_glue("([{url_label}]({url}))")
-  }
+      url <- attr(item$physLoc$repository$ptr, "target")
+      url_label <- attr(item$physLoc$repository$ptr, "label")
+      if (is.null(url)) {
+        link <- ""
+      } else {
+        if (!url_label %in% params$validation$location_link_labels)
+          error("Unknown link label: ", url_label)
+        link <- str_glue("([{url_label}]({url}))")
+      }
 
-  rism_id <- pluck(s$itemList$item$identifier, 1)
-  if (is.null(rism_id)) {
-    rism_id <- "–"
-  } else {
-    source <- use_template(RISM_TEMPLATE, label = source, rism_id = rism_id)
-    rism_id <- use_template(RISM_TEMPLATE, label = rism_id, rism_id = rism_id)
-  }
+      if (is.null(rism_id))
+        rism_id <- pluck(item$identifier, 1)
 
-  list(
-    validation_ignore = validation_ignore,
-    type = type,
-    siglum = siglum,
-    shelfmark = shelfmark,
-    link = link,
-    rism_id = rism_id,
-    source = source
-  )
+      if (is.null(rism_id)) {
+        rism_id <- "–"
+      } else {
+        source <- use_template(RISM_TEMPLATE,
+                               label = source, rism_id = rism_id)
+        rism_id <- use_template(RISM_TEMPLATE,
+                                label = rism_id, rism_id = rism_id)
+      }
+
+      tibble_row(
+        validation_ignore = validation_ignore,
+        type = type,
+        siglum = siglum,
+        shelfmark = shelfmark,
+        link = link,
+        rism_id = rism_id,
+        source = source
+      )
+    }
+  ) %>%
+    list_rbind()
 }
 
-# format a source
+# format a source (s: one manifestation of the manifestationList)
 format_source <- function(s) {
   title <- s$titleStmt$title[[1]]
   info("    source {title}")
@@ -799,43 +840,74 @@ format_source <- function(s) {
     s$classification$termList %>%
     map_chr(\(t) t[[1]]) %>%
     str_to_lower()
-  check_classification(classification)
+  check_classification(classification, title)
 
-  location <- get_source_location(s)
+  dating <- pluck(s, "pubStmt", "date", 1, .default = "–")
 
-  dating <- pluck(s, "pubStmt", "date", 1) %||% "–"
+  # prints define publisher (name, place, date, plate number), location(s),
+  # title page(s), physical description (extent, dimensions, physical medium),
+  # and source description on the manifestation level;
+  # manuscripts define them on the item level
+  if (title == "Print") {
+    publication <- str_flatten_comma(c(
+      pluck(s, "pubStmt", "publisher", 1, .default = "(unknown publisher)"),
+      pluck(s, "pubStmt", "pubPlace", 1, .default = "(no place)"),
+      dating
+    ))
 
-  title_pages <- format_titlepage(s$itemList$item$physDesc)
-  if (title_pages == "")
-    title_pages <- "–"
+    plate_number <- pluck(s, "physDesc", "plateNum", 1)
+    if (is.null(plate_number))
+      plate_number <- "(no plate number)"
+    else
+      plate_number <- str_glue("(plate number: {plate_number})")
 
-  physdesc <- format_physdesc(s$itemList$item$physDesc)
+    publication <- paste(publication, plate_number)
 
-  source_description <-
-    attr(s$itemList$item$notesStmt[[1]], "markdown_list") %||% "–"
+
+    source_locations <- get_source_locations(s, pluck(s$identifier, 1))
+
+    title_pages <- format_titlepage(s$physDesc)
+
+    physdesc <- format_physdesc(s$physDesc)
+
+    source_description <- attr(s$notesStmt[[1]], "markdown_list") %||% "–"
+  } else {
+    publication <- dating
+
+    source_locations <- get_source_locations(s)
+    if (nrow(source_locations) != 1L)
+      error("There must be only one item for manuscripts.")
+
+    title_pages <- format_titlepage(s$itemList$item$physDesc)
+
+    physdesc <- format_physdesc(s$itemList$item$physDesc)
+
+    source_description <-
+      attr(s$itemList$item$notesStmt[[1]], "markdown_list") %||% "–"
+  }
+
+  locations <-
+    source_locations %>%
+    pmap_chr(\(siglum, shelfmark, link, ...) {
+      paste(siglum, shelfmark, link)
+    }) %>%
+    str_flatten("<br/>")
 
   if (classification[6] == "lost")
-    return(
-      use_template(
+    return(use_template(
         LOST_SOURCE_TEMPLATE,
         title = title,
         classification = str_flatten(classification, " · "),
-        siglum = location$siglum,
-        shelfmark = location$shelfmark,
-        link = location$link,
+        locations = locations,
         source_description = source_description
-      )
-    )
-
+      ))
   use_template(
     SOURCE_TEMPLATE,
     title = title,
     classification = str_flatten(classification, " · "),
-    siglum = location$siglum,
-    shelfmark = location$shelfmark,
-    link = location$link,
-    rism_id = location$rism_id,
-    dating = dating,
+    locations = locations,
+    rism_id = source_locations$rism_id[1],
+    publication = publication,
     title_pages = title_pages,
     physdesc = physdesc,
     source_description = source_description
@@ -899,7 +971,8 @@ check_genre <- function(genre) {
 }
 
 # checks whether the source classification terms are valid
-check_classification <- function(terms) {
+# and whether the authority term matches the source title
+check_classification <- function(terms, source_title) {
   walk2(
     terms,
     params$validation$classification,
@@ -908,6 +981,18 @@ check_classification <- function(terms) {
         error("      term '{term}' invalid")
     }
   )
+
+  term_expected <-
+    pluck(params$validation$source_types, source_title, "term_presentation")
+  if (term_expected != terms[2])
+    error("Source title '{source_title}' ",
+          "does not match presentation term '{terms[2]}'")
+
+  term_expected <-
+    pluck(params$validation$source_types, source_title, "term_authority")
+  if (term_expected != terms[3])
+    error("Source title '{source_title}' ",
+          "does not match authority term '{terms[2]}'")
 }
 
 # stops the script if two strings are not equal
@@ -921,7 +1006,7 @@ check_equal_string <- function(a, b) {
 check_equal_list <- function(a, b) {
   a <- str_sort(a) %>% unique()
   b <- str_sort(b) %>% unique()
-  if (all(a == b)) return()
+  if (length(a) == length(b) && all(a == b)) return()
   str_glue("These lists must be the same:",
            "\n(MEI) {str_flatten_comma(a)}",
            "\n(CSV) {str_flatten_comma(b)}")
@@ -936,16 +1021,11 @@ validate_metadata <- function(group,
                               identifiers,
                               sources,
                               table_metadata,
-                              table_sources,
-                              loglevel = c("error", "warn")) {
-  loglevel <- rlang::arg_match(loglevel)
+                              table_sources) {
   report <- function(msg) {
     if (is.null(msg))
       return()
-    if (loglevel == "error") {
-      error(msg)
-    }
-    warn(msg)
+    error(msg)
   }
 
   # work title
@@ -954,11 +1034,13 @@ validate_metadata <- function(group,
     report()
 
   # references
-  table_bibliography <-
-    table_metadata$literature %>%
-    replace_na("") %>%
-    str_split_1(", @") %>%
-    str_remove("@")
+  if (is.na(table_metadata$literature))
+    table_bibliography <- character(0)
+  else
+    table_bibliography <-
+      table_metadata$literature %>%
+      str_split_1(", @") %>%
+      str_remove("@")
   check_equal_list(str_remove(bibliography, "@"), table_bibliography) %>%
     report()
 
@@ -973,12 +1055,9 @@ validate_metadata <- function(group,
 
   # sources
   mei_sources <-
-    map(sources,
-        \(s) get_source_location(s) %>%
-          as_tibble_row() %>%
-          filter(!validation_ignore)
-    ) %>%
+    map(sources, get_source_locations) %>%
     list_rbind() %>%
+    filter(!validation_ignore) %>%
     mutate(
       source = str_c(siglum, shelfmark, sep = " "),
       .keep = "none"
@@ -1075,8 +1154,7 @@ get_work_details <- function(group,
     identifiers = set_names(identifier_ids, identifier_catalogues),
     sources = data_sources,
     table_metadata = table_metadata,
-    table_sources = table_sources,
-    loglevel = "error"
+    table_sources = table_sources
   )
 
   use_template(
