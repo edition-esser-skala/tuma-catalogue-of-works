@@ -9,4 +9,156 @@ format:
 
 # Inventories {.unnumbered}
 
-TBD
+```{r}
+#| include: false
+library(tidyverse)
+library(gt)
+source("script/utils.R")
+options(readr.show_col_types = FALSE)
+```
+
+## Stift Herzogenburg
+
+```{r}
+#| echo: false
+
+works <-
+  read_rds("data_generated/works.rds") %>% 
+  unnest(sources, names_sep = "_") %>% 
+  filter(str_starts(sources_source, "A-H ")) %>%
+  left_join(
+    read_csv("data/catalogue_overview.csv") %>% distinct(group, file),
+    by = "group"
+  ) %>%
+  unite(group:number, col = "TumW", sep = ".", na.rm = TRUE) %>%
+  select(number = sources_source, TumW, file) %>%
+  mutate(number = str_replace(number, "A-H ", "")) %>%
+  separate_longer_delim(number, ", ")
+
+
+table_data <-
+  read_csv("data/inventory_herzogenburg_works.csv") %>% 
+  mutate(
+    inv_a = str_glue("A.{section_1751}.{number_1751}"),
+    inv_b = str_glue("B.{section_1774}.{number_1774}")
+  ) %>%
+  separate_longer_delim(shelfmark, delim = " | ") %>% 
+  left_join(
+    works %>% select(inv_a = number, TumW_a = TumW),
+    by = "inv_a"
+  ) %>%
+  left_join(
+    works %>% select(inv_b = number, TumW_b = TumW),
+    by = "inv_b"
+  ) %>%
+  left_join(
+    works %>% select(shelfmark = number, TumW_s = TumW),
+    by = "shelfmark"
+  ) %>%
+  rowwise() %>%
+  mutate(
+    is_error = any(
+      !is.na(shelfmark) &
+        is.na(TumW_s),
+      is.na(shelfmark) &
+        !is.na(section_1751) &
+        is.na(TumW_a),
+      is.na(shelfmark) &
+        !is.na(section_1774) &
+        is.na(TumW_b),
+      is.na(shelfmark) &
+        !is.na(section_1751) &
+        !is.na(section_1774) &
+        TumW_a != TumW_b
+    )
+  ) %>%
+  mutate(TumW = coalesce(TumW_s, TumW_a, TumW_b)) %>%
+  left_join(
+    works %>% distinct(TumW, file),
+    by = "TumW"
+  ) %>%
+  mutate(TumW = str_glue("[{TumW}](/groups/{file}.html#work-{TumW})"))
+
+if (any(table_data$is_error)) {
+  print(table_data %>% filter(is_error))
+  error("Problems found in A-H inventory")
+}
+
+n_works_1751 <- 
+  table_data %>%
+  filter(!is.na(section_1751)) %>%
+  distinct(section_1751, page_1751, number_1751) %>%
+  nrow()
+
+n_works_1774 <- 
+  table_data %>%
+  filter(!is.na(section_1751)) %>%
+  distinct(section_1751, page_1751, number_1751) %>%
+  nrow()
+
+n_works_extant <- 
+  table_data %>%
+  filter(!is.na(shelfmark)) %>%
+  distinct(shelfmark) %>%
+  nrow()
+```
+
+The two historic inventories of Stift Herzogenburg [@HerzogenburgInvA; @HerzogenburgInvB] contain `{r} n_works_1751` and `{r} n_works_1774` entries describing Tůma's works, respectively. However, only `{r} n_works_extant` works are extant.
+
+```{r}
+#| echo: false
+#| output: asis
+
+table_data %>% 
+  select(!c(inv_a:TumW_s, is_error, file)) %>%
+  gt() %>%
+  tab_spanner("inventory 1751 (A)", columns = ends_with("1751")) %>% 
+  tab_spanner("inventory 1774 (B)", columns = ends_with("1774")) %>% 
+  cols_label(
+    starts_with("section") ~ "section",
+    starts_with("page") ~ "p.",
+    starts_with("number") ~ "no."
+  ) %>%
+  cols_align("right") %>% 
+  fmt_markdown(columns = TumW) %>% 
+  sub_missing(missing_text = "") %>%
+  tab_options(
+    column_labels.font.weight = "bold",
+    table_body.hlines.style = "none"
+  )
+```
+
+In the table above, sections in the 1751 inventory have been consecutively numbered as follows:
+
+```{r}
+#| echo: false
+#| output: asis
+
+read_csv("data/inventory_herzogenburg_1751.csv") %>% 
+  unite(from, to, col = "pp.", sep = "–") %>% 
+  gt() %>%
+  cols_align("right", columns = "pp.") %>%
+  sub_missing(missing_text = "") %>%
+  tab_options(
+    column_labels.font.weight = "bold",
+    table_body.hlines.style = "none"
+  )
+```
+
+Likewise, sections in the 1774 inventory have been consecutively numbered as follows:
+
+```{r}
+#| echo: false
+#| output: asis
+
+read_csv("data/inventory_herzogenburg_1774.csv") %>% 
+  unite(from, to, col = "fol.", sep = "–") %>% 
+  gt() %>%
+  cols_width("fol." ~ px(90)) %>%
+  cols_align("right", columns = "fol.") %>%
+  sub_missing(missing_text = "") %>%
+  tab_options(
+    column_labels.font.weight = "bold",
+    table_body.hlines.style = "none"
+  )
+```
