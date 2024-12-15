@@ -65,6 +65,10 @@
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@Tichy2014</ref>
           </bibl>
+          <bibl>
+            <genre>reference</genre>
+            <ref targettype="pandoc-citation">Tichy2019 [p. 240f]</ref>
+          </bibl>
         </biblList>
         <notesStmt>
           <annot type="links">
