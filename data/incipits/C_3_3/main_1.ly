@@ -7,14 +7,12 @@ notes = \relative c' {
   r16^\partVi c' d c d c e c g'32 a g16 r c, e c g' e \gotoBar "3"
   e, c'' a f \grace e8 d4\trill c16 g g e \autoBeamOff c8 \clef soprano c'^\partSs
   c g r e' e c d e
-  h h f' e d c r4
 }
 
 text = \lyricmode {
   \skips 25
   Suc --
   cur -- re Re -- gi -- na tu -- is
-  vir -- go o Ma -- ri -- a
 }
 
 \score {
@@ -22,4 +20,5 @@ text = \lyricmode {
     \new Voice = "incipit" { \notes }
     \new Lyrics \lyricsto "incipit" { \text }
   >>
+  \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
 }
