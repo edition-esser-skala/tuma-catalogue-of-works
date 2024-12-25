@@ -134,7 +134,7 @@
                     <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">org</perfRes>
                   </perfResList>
                 </perfMedium>
-                <extent>590 bars</extent>
+                <extent>589 bars</extent>
                 <notesStmt>
                   <annot/>
                 </notesStmt>
@@ -517,7 +517,7 @@
                         <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">org</perfRes>
                       </perfResList>
                     </perfMedium>
-                    <extent>30 bars</extent>
+                    <extent>29 bars</extent>
                     <notesStmt>
                       <annot/>
                     </notesStmt>
