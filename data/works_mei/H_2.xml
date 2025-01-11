@@ -57,7 +57,7 @@
           <head>Bibliography</head>
           <bibl>
             <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Eybl1996 [p. 56]</ref>
+            <ref label="">@Eybl1996 [p. 56]</ref>
           </bibl>
         </biblList>
         <classification>
@@ -78,7 +78,7 @@
               <geogName role=""/>
             </creation>
             <history/>
-            <perfMedium>
+            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
               <perfResList>
                 <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli">
                   <head xml:lang="en">soli</head>
@@ -122,7 +122,7 @@
                 <tempo>Adagio</tempo>
                 <key pname="g" mode="minor"/>
                 <meter sym="common"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_be6bc525">
                       <head xml:lang="en">soli</head>
@@ -163,7 +163,7 @@
                     <tempo>Adagio &#x2013; Andante &#x2013; Adagio</tempo>
                     <key pname="g" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_be6bc525">
                           <head xml:lang="en">soli</head>
@@ -208,7 +208,7 @@
                     <tempo>Andante</tempo>
                     <key pname="g" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
                         <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
@@ -244,7 +244,7 @@
                     <tempo>Allegro</tempo>
                     <key pname="g" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
                         <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
@@ -280,7 +280,7 @@
                     <tempo>Larghetto</tempo>
                     <key pname="b" mode="major" accid="f"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_be6bc525">
                           <head xml:lang="en">soli</head>
@@ -311,7 +311,7 @@
                     <tempo>Allegro</tempo>
                     <key pname="g" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
                         <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
@@ -358,7 +358,7 @@
                 <tempo>Adagio</tempo>
                 <key pname="c" mode="dorian"/>
                 <meter sym="common"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_be6bc525">
                       <head xml:lang="en">soli</head>
@@ -398,7 +398,7 @@
                     <tempo>Adagio</tempo>
                     <key pname="c" mode="dorian"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_be6bc525">
                           <head xml:lang="en">soli</head>
@@ -439,7 +439,7 @@
                     <tempo>Adagio &#x2013; Allegro</tempo>
                     <key pname="c" mode="dorian"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
                         <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
@@ -476,7 +476,7 @@
                     <tempo>Andante</tempo>
                     <key pname="c" mode="dorian"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
                         <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
@@ -513,7 +513,7 @@
                     <tempo>Larghetto</tempo>
                     <key pname="g" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_be6bc525">
                           <head xml:lang="en">soli</head>
@@ -545,7 +545,7 @@
                     <tempo>Andante</tempo>
                     <key pname="c" mode="dorian"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
                         <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
@@ -592,7 +592,7 @@
                 <tempo>Adagio</tempo>
                 <key pname="f" mode="dorian"/>
                 <meter sym="common"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_be6bc525">
                       <head xml:lang="en">soli</head>
@@ -634,7 +634,7 @@
                     <tempo>Adagio</tempo>
                     <key pname="f" mode="dorian"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_be6bc525">
                           <head xml:lang="en">soli</head>
@@ -677,7 +677,7 @@
                     <tempo>Adagio</tempo>
                     <key pname="f" mode="dorian"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
                         <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
@@ -716,7 +716,7 @@
                     <tempo>Andante</tempo>
                     <key pname="f" mode="dorian"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
                         <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
@@ -755,7 +755,7 @@
                     <tempo>Adagio</tempo>
                     <key pname="a" mode="major" accid="f"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_be6bc525">
                           <head xml:lang="en">soli</head>
@@ -790,7 +790,7 @@
                     <tempo>Andante</tempo>
                     <key pname="f" mode="dorian"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
                         <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
@@ -831,7 +831,7 @@
                     <tempo>Adagio</tempo>
                     <key pname="c" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_be6bc525">
                           <head xml:lang="en">soli</head>
@@ -866,7 +866,7 @@
                     <tempo>Andante</tempo>
                     <key pname="f" mode="dorian"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
                         <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
@@ -961,6 +961,63 @@
               <annot type="source_description">
                 <p>S solo and coro (7), A solo and coro (7), T solo and coro (8), B solo and coro (8), S coro (7), A coro (8), T coro (7), B coro (2x; 7, 7), cnto (6), fag (5), trb 1 (6), trb 2 (6), vl 1 (8), vl 2 (8), vlc (8), vlne (7), org (8), mdc (8)</p>
                 <p>a copy by Joseph Leysser</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date isodate="1750-01-01">ca. 1750</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier/>
+            <physDesc>
+              <extent>21 parts</extent>
+              <titlePage label="[wrapper]">
+                <p>Motetti 3 | N:I Parce mihi Domine | N:II Taedet animam meas | N:III Manus tuae fecerunt me | &#xE2; | 4 Voc: Conc: | 2 Violini | 2 Tromboni Conc: | Con | Organo Violone | Violoncello | Ex Musicalibus Chori Scotensis | Part: 15 | Del Sig: Tuma</p>
+              </titlePage>
+              <physMedium>
+                <p>hand-ruled paper</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Ws</identifier>
+              </repository>
+              <identifier>D 2/103</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>S solo and coro, A solo and coro, T solo and coro, B solo and coro, S coro (2x), A coro (2x), T coro (2x), B coro (2x), trb 1, trb 2, vl 1 (2x), vl 2 (2x), vlc, vlne, org</p>
+                <p>catalogued according to index card</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

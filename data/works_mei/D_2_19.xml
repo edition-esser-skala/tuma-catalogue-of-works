@@ -39,7 +39,7 @@
     </encodingDesc>
     <workList>
       <work>
-        <identifier label="TumW">D.2.18</identifier>
+        <identifier label="TumW">D.2.19</identifier>
         <identifier label="BalTh">B.XIII.4/5b</identifier>
         <identifier label="KliCh">Vespers 22</identifier>
         <identifier label="VogIn">A.III.21</identifier>
@@ -76,7 +76,7 @@
               <geogName role=""/>
             </creation>
             <history/>
-            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <perfMedium>
               <perfResList>
                 <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
                 <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
@@ -113,7 +113,7 @@
                 <tempo>[no tempo]</tempo>
                 <key pname="d" mode="minor"/>
                 <meter sym="common"/>
-                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                <perfMedium>
                   <perfResList>
                     <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
                     <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
@@ -270,7 +270,7 @@
                 <p>S solo and coro (3), A solo and coro (3), T solo and coro (3), B solo and coro (3), S coro (3), A coro (3), T coro (3), B coro (3), cnto (2), fag (2), trb 1 (2), trb 2 (2), vl 1 (2), vl 2 (2), vlc (2), vlne (2), org (3), mdc (2)</p>
                 <p>wrapper (fol. 1r) contains 3 performance dates: 1753-12-05, 1754-01-29 (only <rend fontstyle="italic">Memento</rend>, without instruments), and 1756-12-25 (only <rend fontstyle="italic">Memento</rend>)</p>
                 <p>a copy by Joseph Leysser and other copyists</p>
-                <p>This signature comprises two works, the present work and the psalm <rend fontstyle="italic">De profundis</rend> TumW D.2.5.</p>
+                <p>This signature comprises two works, the present work and the psalm <rend fontstyle="italic">De profundis</rend> TumW D.2.6.</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

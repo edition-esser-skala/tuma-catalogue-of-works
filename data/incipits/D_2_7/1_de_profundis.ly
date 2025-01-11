@@ -4,173 +4,152 @@
 Cornetto = {
   \relative c' {
     \clef soprano
-    \key g \minor \time 4/4 \tempoMarkup "Andante"
-    r2 d4. d8
-    es4 d e fis
-    g g8 d' g4. f!8
-    es4 r8 es d8. d16 c8 d
-    d4 c d2
+    \key c \dorian \time 4/4 \tempoMarkup "Adagio"
+    R1*5
+    r8 f f'2 es4
   }
 }
 
 TromboneI = {
   \relative c' {
     \clef alto
-    \key g \minor \time 4/4 \tempoMarkup "Andante"
-    r2 b4. b8
-    c4 b c4. c8
-    d4 d r8 b' a4
-    g8 g c4. b8 a4
-    g g fis2
+    \key c \dorian \time 4/4 \tempoMarkup "Adagio"
+    R1*4
+    r2 r4 r8 es
+    b'4. as8 g b, g'4
   }
 }
 
 TromboneII = {
   \relative c' {
     \clef tenor
-    \key g \minor \time 4/4 \tempoMarkup "Andante"
-    r2 g4. g8
-    g4 g g a
-    b b r8 d d4
-    es r8 c d4 es8 d
-    g,4. g8 a2
+    \key c \dorian \time 4/4 \tempoMarkup "Adagio"
+    R1*4
+    r2 r8 b es4~
+    es d8 c b2
   }
 }
 
 Fagotto = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \tempoMarkup "Andante"
-    g2 g
-    g g
-    g r8 g' d'4~
-    d8 c r c, g'4. f8
-    es2 d
+    \key c \dorian \time 4/4 \tempoMarkup "Adagio"
+    R1*2
+    r2 g4. g8
+    c4 c f,4. f8
+    b4. b8 es4. c8
+    b2 es4. es8
   }
 }
 
 ViolinoI = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \tempoMarkup "Andante"
-    r2 d4.\pocoP d8
-    es4 d e fis
-    g4. d'8\f g4. f!8
-    es4 r8 es d4 c8 d
-    d4 c\trill d2
+    \key c \dorian \time 4/4 \tempoMarkup "Adagio"
+    c16(\pocoP g') g( es) c( es) g( c) as2
+    f16( b) b( f) b,( d) f( b) g2~
+    g16 c, f e f4. es8 d4\trill
+    c16( g') g( es) c( es) g( c) as2
+    f16( b) b( f) d( b) f'( b) g4 r
+    r8 f f'2 es4
   }
 }
 
 ViolinoII = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \tempoMarkup "Andante"
-    r2 b4.\pocoP b8
-    c4 b c a
-    b2 r8 b'\f a4
-    g8 g c4. b8 a4
-    g2 fis
+    \key c \dorian \time 4/4 \tempoMarkup "Adagio"
+    r2 c16(\pocoP f) f( c) as( c) f( as)
+    d,2 b16( es) es( b) g( b) es( g)
+    c,4~ c16 c d c h8 c4 h8
+    c4 r c16( f) f( c) as( c) f( as)
+    d,2 es4 r8 es
+    b'4. as8 g b, g'4
   }
 }
 
 Soprano = {
   \relative c' {
     \clef soprano
-    \key g \minor \time 4/4 \autoBeamOff \tempoMarkup "Andante"
-    r2 d4.^\tutti d8
-    es4 d e fis
-    g g8 d' g4. f!8
-    es4 r8 es d8. d16 c8 d
-    d4 c8. c16 d2
+    \key c \dorian \time 4/4 \autoBeamOff \tempoMarkup "Adagio"
+    R1*5
+    r8 f^\tutti f'2 es4
   }
 }
 
 SopranoLyrics = \lyricmode {
-  De pro --
-  fun -- dis, de pro --
-  fun -- dis cla -- ma -- _
-  vi, cla -- ma -- vi ad te,
-  Do -- _ mi -- ne;
+  Cla -- "ma -"
 }
 
 Alto = {
   \relative c' {
     \clef alto
-    \key g \minor \time 4/4 \autoBeamOff \tempoMarkup "Andante"
-    r2 b4.^\tutti b8
-    c4 b c4. c8
-    d4 d r8 b' a4
-    g8 g c4. b8 a4
-    g g8. g16 fis2
+    \key c \dorian \time 4/4 \autoBeamOff \tempoMarkup "Adagio"
+    R1*4
+    r2 r4 r8 es^\tutti
+    b'4. as8 g b, g'4
   }
 }
 
 AltoLyrics = \lyricmode {
-  De pro --
-  fun -- dis, de pro --
-  fun -- dis cla -- ma --
-  vi, cla -- ma -- vi ad
-  te, Do -- mi -- ne;
+  Cla --
+  ma -- _ vi, cla -- "ma -"
 }
 
 Tenore = {
   \relative c' {
     \clef tenor
-    \key g \minor \time 4/4 \autoBeamOff \tempoMarkup "Andante"
-    r2 g4.^\tutti g8
-    g4 g g a
-    b b r8 d d4
-    es r8 c d8. d16 es8 d
-    g,4. g8 a2
+    \key c \dorian \time 4/4 \autoBeamOff \tempoMarkup "Adagio"
+    R1*4
+    r2 r8 b^\tutti es4~
+    es d8[ c] b2
   }
 }
 
 TenoreLyrics = \lyricmode {
-  De pro --
-  fun -- dis, de pro --
-  fun -- dis cla -- ma --
-  vi, cla -- ma -- vi ad te,
-  Do -- mi -- ne;
+  Cla -- ma --
+  _ vi,
 }
 
 Basso = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \autoBeamOff \tempoMarkup "Andante"
-    g4.^\tutti g8 g2
-    g2 g4 g
-    g g r8 g' d'4~
-    d8 c r c, g'8. g16 g8 f
-    es4. es8 d2
+    \key c \dorian \time 4/4 \autoBeamOff \tempoMarkup "Adagio"
+    R1*2
+    r2 g4.^\tutti g8
+    c4 c f,4. f8
+    b4 b8 b es4. c8
+    b2 es4. es8
   }
 }
 
 BassoLyrics = \lyricmode {
-  De pro -- fun --
-  dis, de pro --
-  fun -- dis cla -- ma --
-  vi, cla -- ma -- vi ad te,
-  Do -- mi -- ne;
+  De pro --
+  fun -- dis, de pro --
+  fun -- dis cla -- ma -- _
+  _ vi, "cla -"
 }
 
 Organo = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \tempoMarkup "Andante"
-    g2 g
-    g g
-    g r8 g' d'4~
-    d8 c r c, g'4. f8
-    es2 d
+    \key c \dorian \time 4/4 \tempoMarkup "Adagio"
+    c2-\solo f,
+    b es,
+    as g
+    c f,
+    b4. b8-\tutti es4. c8
+    b2 es4. es8
   }
 }
 
 BassFigures = \figuremode {
-  <1>2 <5 3>
-  <6 4>4 <5 3> <6! 4> <7\\ 4 2>
-  <8>2. <5 4>8 <\t _!>
-  <4 2> <5> r4 <5 4>8 <\t 3> <4 2> <6>
-  <7>4 <6> <_+>2
+  r2 <_->
+  r1
+  <7>4 <6> <7 _!>8 <6 4> <5 \t> <\t _!>
+  r2 <_->
+  r1
+  <4>4 <3> <9> <8>
 }
 
 \score {

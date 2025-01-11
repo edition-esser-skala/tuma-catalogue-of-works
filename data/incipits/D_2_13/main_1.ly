@@ -1,20 +1,18 @@
 \version "2.24.2"
 \include "header.ly"
 
-notes = \relative c {
-  \clef bass
-  \key c \dorian \time 4/4 \autoBeamOff
-  g'4.^\partOrg c8 b4 a
-  g4 r g h,
-  c r c f \gotoBar "7"
-  \clef soprano \autoBeamOff a'4.^\partSc a8 a4 a8 a
-  a1
+notes = \relative c' {
+  \clef treble
+  \key a \major \time 4/4 \tempoMarkup "Andante"
+  e'16 fis e fis d e d e cis d cis d h cis h cis \gotoBar "5"
+  \clef tenor \autoBeamOff e,16[^\partTs fis e fis] d[ e d e] cis[ d cis d] h[ cis h cis]
+  a8 h16 cis d8 cis16 h cis cis cis8 a a
 }
 
 text = \lyricmode {
-  \skips 10
-  Quo -- ni -- am con -- fir --
-  "ma -"
+  \skips 16
+  Lau -- _ _ _
+  _ da Ie -- ru -- sa -- lem, Do -- mi -- num lau -- da
 }
 
 \score {
