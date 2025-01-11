@@ -107,7 +107,7 @@ MOVEMENT_TEMPLATE <- '
 |*Meter*|{meter}|
 |*Extent*|{extent}|
 |*Scoring*|{scoring}|
-{notes}
+{roles}{text_incipit}{notes}
 
 : {{tbl-colwidths="[10,90]" .movement-details}}
 
@@ -318,7 +318,7 @@ format_title <- function(d) {
 format_incipits <- function(incipit_list, work_id) {
   target_dir <- str_glue("incipits/{work_id}")
 
-  map_chr(
+  rows <- map_chr(
     incipit_list,
     \(i) {
       main_incipit <- attr(i, "target")
@@ -328,15 +328,20 @@ format_incipits <- function(incipit_list, work_id) {
       full_incipit <-
         dir_ls(target_dir) %>%
         path_file() %>%
-        path_filter(paste0(n, "*"))
+        path_filter(paste0(n, "_*"))
 
-      str_glue('<a href="/{target_dir}/{full_incipit}" ',
+      str_glue('|{n}|',
+               '<a href="/{target_dir}/{full_incipit}" ',
                'class="lightbox">',
                '<img src="/{target_dir}/{main_incipit}.svg" ',
-               'class="incipit img-fluid"></a>')
+               'class="incipit-main img-fluid"></a>|')
     }
   ) %>%
-    str_flatten("\n\n")
+    str_flatten("\n")
+
+  paste0("|||\n|-|-|\n",
+         rows,
+         '\n\n: {tbl-colwidths="[4,96]" .incipits}')
 }
 
 # format the short sources as table
@@ -488,10 +493,8 @@ format_roles <- function(roles) {
   if (is.null(roles))
     return("")
 
-  roles <-
-    map_chr(roles, \(r) str_glue("{r$role$name[[1]]} ({r$perfRes[[1]]})")) %>%
+  map_chr(roles, \(r) str_glue("{r$role$name[[1]]} ({r$perfRes[[1]]})")) %>%
     str_flatten_comma()
-  return(paste0("Roles\n: ", roles))
 }
 
 # format date and place of creation/composition
@@ -633,6 +636,14 @@ format_movement <- function(m, work_id) {
   extent <- m$extent[[1]]
   scoring <- format_scoring(m$perfMedium$perfResList)
 
+  roles <- format_roles(m$perfMedium$castList)
+  if (roles != "")
+    roles <- str_glue("|*Roles*|{roles}|\n\n")
+
+  text_incipit <- pluck(m$incip, "incipText", "p", 1, .default = "")
+  if (text_incipit != "")
+    text_incipit <- str_glue("|*Text incipit*|{text_incipit}|\n\n")
+
   notes <- attr(m$notesStmt[[1]], "markdown_text") %||% ""
   if (notes != "")
     notes <- str_glue("|*Notes*|{notes}|")
@@ -642,7 +653,7 @@ format_movement <- function(m, work_id) {
     incipit <- "(incipit missing)"
   else {
     incipit <- str_glue(
-      "![](/incipits/{work_id}/{incipit_file}.svg){{.incipit}}"
+      "![](/incipits/{work_id}/{incipit_file}.svg){{.incipit-full}}"
     )
   }
 
@@ -688,6 +699,8 @@ format_movement <- function(m, work_id) {
       key = key,
       extent = extent,
       scoring = !!scoring$markdown,
+      roles = roles,
+      text_incipit = text_incipit,
       notes = notes,
       incipit = incipit,
       sections = sections
@@ -1124,6 +1137,8 @@ get_work_details <- function(group,
   work_scoring <- format_scoring(data_music$perfMedium$perfResList)
 
   roles <- format_roles(data_music$perfMedium$castList)
+  if (roles != "")
+    roles <- paste0("Roles\n: ", roles)
 
   genre <- format_genre(data_work$classification)
 

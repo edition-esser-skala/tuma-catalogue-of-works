@@ -4,7 +4,7 @@
 notes = \relative c {
   \clef bass
   \key a \major \time 4/4 \tempoMarkup "Andante"
-  a'8^\markup \remark "b" a~ a16. d32 cis16. h32 a16. d32 cis16. h32 a16. d32 cis16. h32
+  a'8^\part "bc" a~ a16. d32 cis16. h32 a16. d32 cis16. h32 a16. d32 cis16. h32
 }
 
 \score {

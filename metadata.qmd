@@ -6,7 +6,7 @@ Each individual work is documented as follows in MEI metadata. (For a technical 
 ## General metadata
 
 - **title** (one main, possibly fictitious, title; additional titles for works with several named movements such as responsories and vespers)
-- **incipits**
+- **incipits** (numbered consecutively)
 - **identification**
   - *TumW*: number according to this catalogue
   - *BalTh*: number in the thematic catalogue by @Ball1900
@@ -34,6 +34,9 @@ This section describes the individual movements of the work.
   - *meter*
   - *extent* in bars
   - *scoring*
+  - *roles* (optional)
+  - *text incipit* (optional)
+  - *notes* (optional)
   - orchestral *incipit*, comprising all instruments and voices
   - if applicable, a table describing individual **sections** (i.e., parts of the movement with distinct key, meter, scoring …)
 

@@ -1,7 +1,11 @@
 /*-- scss:rules --*/
 
-.incipit {
-  margin-top: 10px;
+img.incipit-main {
+  max-width: 100%;
+}
+
+img.incipit-full {
+  margin-top: .8rem;
   max-width: 100%;
 }
 
@@ -41,6 +45,17 @@ table.section-details {
 table.section-details td {
   border: 0;
   padding: 4px;
+}
+
+table.incipits {
+  border: 0;
+  font-size: 1em;
+}
+
+table.incipits td {
+  border: 0;
+  padding: .8rem 4px .8rem 4px;
+  vertical-align: middle;
 }
 
 h5 {
