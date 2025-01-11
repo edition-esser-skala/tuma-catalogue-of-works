@@ -3,16 +3,18 @@
 
 notes = \relative c' {
   \clef soprano
-  \key d \dorian \time 4/4 \autoBeamOff \tempoMarkup "Allegro"
-  a'4^\partSc a8 a f4 g8 a
-  b4. b8 a4 a~
-  a8 d, d'2 cis4
+  \key c \major \time 4/4 \autoBeamOff \tempoMarkup "Adagio"
+  r4^\partSc e' d4. d8
+  c4 r c c8 c
+  c4 h a4. a8
+  g1
 }
 
 text = \lyricmode {
-  Lau -- da Je -- ru -- sa -- lem
-  Do -- mi -- mun, lau -- 
-  da De -- um
+  Ma -- gni -- fi --
+  cat a -- ni -- ma
+  me -- a Do -- mi --
+  num
 }
 
 \score {
