@@ -1,5 +1,26 @@
 # Changelog {.unnumbered}
 
+## 0.9.0 – 2025-01-18
+
+### Added
+
+- works: TumW C.3.23–26, D.2.4, E.4.3, and I.23–27
+- incipits: TumW C.3.3, D.1.2 (Lauda Jerusalem), and D.3.1
+- metadata: TumW C.3.3 and D.3.1
+- sources:
+  - A-Ws
+  - H-Gk (details in metadata of TumW D.3.7)
+  - CZ-K 273 K I
+- acknowledgements for A-Ws and H-Gk
+- reference Freeman 1971
+- concordances of previous catalogues to TumW in the appendix
+
+### Changed
+
+- TumW D.2.4–20 have been renumbered to D.2.5–21.
+- technically equivalent to WerW v0.11.0
+
+
 ## 0.8.0 – 2024-12-16
 
 ### Added
@@ -27,6 +48,7 @@
 - Group E has been renumbered to subgroup C.5. Thus, former subgroup C.5 has been renumbered to C.6, and groups F–M are now groups E–L.
 - Group E (formerly F) has been renamed to “Marian hymns”.
 - In group G (formerly H), the following entries have been renumbered: L9 → 20, L11 → 21, L8 → 22, L10 → L8, and L12 → L9. Moreover, TumW G.16 has been merged to G.14. Thus, TumW G.17–20 have been renamed to G.16–19.
+- technically equivalent to WerW v0.10.0
 
 ### Removed
 
