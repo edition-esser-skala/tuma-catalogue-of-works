@@ -1,0 +1,103 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+format:
+  html:
+    html-table-processing: none
+---
+
+# Concordances {.unnumbered}
+
+```{r}
+#| include: false
+library(tidyverse)
+library(stringi)
+library(gt)
+source("script/utils.R")
+options(readr.show_col_types = FALSE)
+
+print_concordance <- function (catalogue) {
+  notes <-
+    read_csv("data/catalogue_notes.csv") %>% 
+    filter(catalogue == {{catalogue}}) %>% 
+    select(number, notes)
+  
+  read_rds("data_generated/works.rds") %>% 
+    left_join(
+      read_csv("data/catalogue_overview.csv") %>% distinct(group, file),
+      by = "group"
+    ) %>% 
+    unite(group:number, col = "TumW", sep = ".", na.rm = TRUE) %>%
+    mutate(
+      number = .data[[catalogue]],
+      TumW = str_glue("[{TumW}](/groups/{file}.html#work-{TumW})")
+    ) %>%
+    separate_longer_delim(number, delim = ", ") %>% 
+    select(number, TumW) %>% 
+    bind_rows(notes) %>% 
+    filter(!is.na(number)) %>%
+    summarise(
+      .by = number,
+      TumW = str_flatten_comma(TumW, na.rm = TRUE),
+      notes = str_flatten_comma(notes, na.rm = TRUE)
+    ) %>%
+    mutate(TumW = if_else(TumW == "", "–", TumW)) %>% 
+    arrange(
+      stri_rank(number, opts_collator = stri_opts_collator(numeric = TRUE))
+    ) %>% 
+    gt() %>%
+    cols_width(number ~ px(80), TumW ~ px(160)) %>%
+    fmt_markdown(columns = TumW) %>% 
+    sub_missing(columns = notes, missing_text = "") %>% 
+    tab_options(
+      column_labels.font.weight = "bold",
+      table_body.hlines.style = "none"
+    )
+}
+```
+
+
+## BalTh
+
+```{r}
+#| echo: false
+#| output: asis
+print_concordance("BalTh")
+```
+
+
+## KliCh
+
+```{r}
+#| echo: false
+#| output: asis
+print_concordance("KliCh")
+```
+
+
+## PesMa
+
+```{r}
+#| echo: false
+#| output: asis
+print_concordance("PesMa")
+```
+
+
+## ReiMa
+
+```{r}
+#| echo: false
+#| output: asis
+print_concordance("ReiMa")
+```
+
+
+## VogIn
+
+```{r}
+#| echo: false
+#| output: asis
+print_concordance("VogIn")
+```
