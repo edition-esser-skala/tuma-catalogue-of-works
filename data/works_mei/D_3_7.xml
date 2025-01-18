@@ -876,9 +876,18 @@
           <item>
             <identifier label="RISM">530012239</identifier>
             <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="31.5" unit="cm">31.5 (height in cm)</height>
+                <width quantity="22.5" unit="cm">22.5 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
               <extent>10 parts</extent>
               <titlePage label="[wrapper]">
-                <p>Tuma, [Franz]: Miserere a 4 voci, 2 vl., 2 tromboni, vlne. con organa[!] del Sigre. Francesco Tuma.</p>
+                <p>Miserere | a | 4 Voci | 2 Violini | 2 Tromboni | Violone Con Organo | Del Sigre Francesco Tuma. | [in different hand:] der Kirche geh&#xF6;rig!</p>
               </titlePage>
             </physDesc>
             <physLoc>
@@ -891,8 +900,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>S solo and coro, A solo and coro, T solo and coro, B solo and coro, trb 1, trb 2, vl 1, vl 2, vlne, org</p>
-                <p>catalogued according to RISM entry</p>
+                <p>S solo and coro (3), A solo and coro (4), T solo and coro (4), B solo and coro (4), trb 1 (2), trb 2 (2), vl 1 (5), vl 2 (5), vlne (5), org (6)</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
