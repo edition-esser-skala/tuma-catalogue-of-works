@@ -39,17 +39,18 @@
     </encodingDesc>
     <workList>
       <work>
-        <identifier label="TumW">D.2.8</identifier>
-        <identifier label="BalTh">B.XI.8</identifier>
-        <identifier label="KliCh">Vespers 9</identifier>
-        <identifier label="VogIn">A.III.10</identifier>
-        <title xml:lang="la">Dixit Dominus</title>
+        <identifier label="TumW">D.2.13</identifier>
+        <identifier label="BalTh">B.XI.9</identifier>
+        <identifier label="KliCh">Vespers 4, Vespers 11</identifier>
+        <identifier label="VogIn">A.III.3, A.III.16</identifier>
+        <title xml:lang="la">Lauda Jerusalem</title>
+        <title type="alternative" xml:lang="la">Confitebor</title>
         <contributor>
           <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118624539">Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma</persName>
           <corpName role=""/>
         </contributor>
         <creation>
-          <date isodate="1753-01-01">1753</date>
+          <date notbefore="1740-01-01" notafter="1750-12-31">1740&#x2013;1750</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
         <history/>
@@ -57,17 +58,21 @@
           <head>Bibliography</head>
           <bibl>
             <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Riedel1979 [p. 332]</ref>
+            <ref targettype="pandoc-citation">@Eybl1996 [p. 48]</ref>
           </bibl>
           <bibl>
             <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Eybl1996 [p. 47]</ref>
-          </bibl>
-          <bibl>
-            <genre>reference</genre>
-            <ref targettype="pandoc-citation">@HerzogenburgInvB [fol. 122r, no. 17.12]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvA [p. 297, no. 18.5]</ref>
           </bibl>
         </biblList>
+        <notesStmt>
+          <annot type="links">
+            <ptr mimetype=""/>
+          </annot>
+          <annot type="general_description">
+            <p>The copy in A-HE sets the text of psalm 111/110 (&#x201C;Confitebor tibi Domine&#x201D;) to music. Thus, this work appears twice in VogIn and KliCh.</p>
+          </annot>
+        </notesStmt>
         <classification>
           <termList>
             <term>psalm</term>
@@ -84,7 +89,7 @@
               <geogName role=""/>
             </creation>
             <history/>
-            <perfMedium>
+            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
               <perfResList>
                 <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli">
                   <head xml:lang="en">soli</head>
@@ -95,9 +100,7 @@
                 </perfResList>
                 <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
                 <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
-                <perfRes codedval="bcl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">clno</perfRes>
                 <perfRes codedval="btb" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">trb</perfRes>
-                <perfRes codedval="pti" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">timp</perfRes>
                 <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
                 <perfRes codedval="sve" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vlne</perfRes>
                 <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">org</perfRes>
@@ -117,7 +120,7 @@
             </classification>
             <componentList>
               <expression n="1">
-                <title xml:lang="la">Dixit Dominus</title>
+                <title xml:lang="la">Lauda Jerusalem</title>
                 <contributor>
                   <persName role=""/>
                 </contributor>
@@ -125,38 +128,36 @@
                   <incipText>
                     <p xml:lang="en"/>
                   </incipText>
-                  <graphic targettype="lowres" target="1_dixit"/>
+                  <graphic targettype="lowres" target="1_lauda"/>
                 </incip>
-                <tempo>[no tempo] &#x2013; Adagio &#x2013; Allegro</tempo>
-                <key pname="c" mode="major"/>
+                <tempo>Andante</tempo>
+                <key pname="a" mode="major"/>
                 <meter sym="common"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
-                    <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_deff4791">
+                    <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_d13d0d5f">
                       <head xml:lang="en">soli</head>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en" n="perfRes_c1304d86">S</perfRes>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en" n="perfRes_fea88ee7">A</perfRes>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en" n="perfRes_175e6e7e">T</perfRes>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en" n="perfRes_dd50f46f">B</perfRes>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en" n="perfRes_b477dd50">S</perfRes>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en" n="perfRes_9668acc8">A</perfRes>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en" n="perfRes_e46d1ec1">T</perfRes>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en" n="perfRes_c3a87765">B</perfRes>
                     </perfResList>
+                    <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_8b0338d9">
+                      <head xml:lang="en">coro</head>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en" n="perfRes_d8762a8c">S</perfRes>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en" n="perfRes_4d5c1ad8">A</perfRes>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en" n="perfRes_97ed309b">T</perfRes>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en" n="perfRes_7ecb83dd">B</perfRes>
+                    </perfResList>
+                    <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">org</perfRes>
                     <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
                     <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
-                    <perfRes codedval="bcl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">clno</perfRes>
                     <perfRes codedval="btb" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">trb</perfRes>
-                    <perfRes codedval="pti" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">timp</perfRes>
                     <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
                     <perfRes codedval="sve" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vlne</perfRes>
-                    <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">org</perfRes>
-                    <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_fd947504">
-                      <head xml:lang="en">coro</head>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en" n="perfRes_8718840c">S</perfRes>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en" n="perfRes_bcf5dcde">A</perfRes>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en" n="perfRes_4225ff3e">T</perfRes>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en" n="perfRes_31b75902">B</perfRes>
-                    </perfResList>
                   </perfResList>
                 </perfMedium>
-                <extent>72 bars</extent>
+                <extent>73 bars</extent>
                 <notesStmt>
                   <annot/>
                 </notesStmt>
@@ -180,7 +181,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1762-05-05">1762-05-05</date>
+          <date isodate="1762-05-05">1762</date>
         </pubStmt>
         <classification>
           <termList>
@@ -196,10 +197,6 @@
           <item>
             <identifier/>
             <physDesc>
-              <titlePage label="[wrapper]">
-                <p>Vesper&#xE6; de B: V: M: | a | Canto, Alto, | Tenore, Ba&#x17F;so, } Conc<rend rend="underline(2)">to</rend>: | Violino, Primo, | Violino, Secundo, | Clarino, Primo, | Clarino, Secundo, } ad libit: | con | Organo. | Authore Domino Thuma. | Comparavit R: P: | Josephus A<rend rend="underline(2)">o</rend> 1762.</p>
-              </titlePage>
-              <extent>9 parts</extent>
               <dimensions>
                 <locusGrp>
                   <locus/>
@@ -209,6 +206,10 @@
                 <term/>
                 <extent> lines</extent>
               </dimensions>
+              <titlePage label="[wrapper]">
+                <p>Vesper&#xE6; de B: V: M: | a | Canto, Alto, | Tenore, Ba&#x17F;so, } Concto: | Violino, Primo, | Violino, Secundo, | Clarino, Primo, | Clarino, Secundo, } ad libit: | con | Organo. | Authore Domino Thuma. | Comparavit R: P: | Josephus Ao 1762.</p>
+              </titlePage>
+              <extent>9 parts</extent>
               <dimensions/>
               <physMedium>
                 <p>hand-ruled paper, 11 staves (9 mm)</p>
@@ -220,7 +221,7 @@
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-G&#xD6;</identifier>
               </repository>
-              <identifier>2119/1</identifier>
+              <identifier>2119/5</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
@@ -249,7 +250,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1754-01-01">1754</date>
+          <date isodate="1750-01-01">2nd half 18th century</date>
         </pubStmt>
         <classification>
           <termList>
@@ -269,33 +270,32 @@
                 <locusGrp>
                   <locus/>
                 </locusGrp>
-                <height quantity="31.5" unit="cm">31.5 (height in cm)</height>
-                <width quantity="22.5" unit="cm">22.5 (height in cm)</width>
+                <height quantity="32.5" unit="cm">32.5 (height in cm)</height>
+                <width quantity="21" unit="cm">21 (height in cm)</width>
                 <term/>
                 <extent> lines</extent>
               </dimensions>
               <titlePage label="[wrapper]">
-                <p>P&#x17F;almus. | Dixit Dominus. | Cu Clarinis ad libitu. | &#xE0; | 4. Voc. Concert. | 2. Violini. | 2. Tromboni Conc. | con | Organo. | Stauravit Rdhtimus DD. Abbas Dominus &amp;c &amp;c | 1 7 5 4 . | Vienn&#xE2; | Del Sig. Thuma. | Mareat P&#x17F;almus Dixit.</p>
+                <p>Vesperae de B. Maria Virg. | a | 4 Voci. | 2 Violini. | Organo, Violone. | Auth. Tuma. | Choro Ducumbg.</p>
               </titlePage>
-              <extent>11 parts</extent>
+              <extent>8 parts</extent>
               <dimensions/>
               <physMedium>
-                <p>hand-ruled paper, 12 staves (11 mm)</p>
+                <p>hand-ruled paper, 12 staves (12 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
               <repository>
                 <corpName role=""/>
                 <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">A-SEI</identifier>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-H</identifier>
               </repository>
-              <identifier>E XV 2 a IV/2</identifier>
+              <identifier>883/4</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>S solo and coro (2), A solo and coro (2), T solo and coro (2), B solo and coro (2), clno 1 (2), clno 2 (2), trb 1 (2), trb 2 (1), vl 1 (2), vl 2 (2), org (2)</p>
-                <p>wrapper (fol. 2v) contains 3 performance dates: 1771-07-25, 1772-06-05, and 1778-06-29</p>
-                <p>This signature comprises three works: The present work, a <rend fontstyle="italic">Dixit Dominus</rend> by Schmidt (TumW D.2.S1), and trb 1/2 parts for an unidentified <rend fontstyle="italic">Dixit Dominus</rend>.</p>
+                <p>S solo and coro (6), A solo and coro (6), T solo and coro (6), B solo and coro (6), vl 1 (6), vl 2 (5), vlne (6), org (6)</p>
+                <p>This signature combines four works into a Marian vesper: <rend fontstyle="italic">Laudate pueri</rend> TumW D.2.15, <rend fontstyle="italic">Laetatus sum</rend> TumW D.2.12, <rend fontstyle="italic">Nisi Dominus</rend> TumW D.2.20, and <rend fontstyle="italic">Lauda Jerusalem</rend> TumW D.2.13.</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -317,7 +317,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1753-01-01">1753</date>
+          <date isodate="1752-01-01">1752</date>
         </pubStmt>
         <classification>
           <termList>
@@ -331,40 +331,38 @@
         </classification>
         <itemList>
           <item>
-            <identifier label="RISM">600137127</identifier>
+            <identifier label="RISM">600090617</identifier>
             <physDesc>
               <dimensions>
                 <locusGrp>
                   <locus/>
                 </locusGrp>
-                <height quantity="28" unit="cm">28 (height in cm)</height>
-                <width quantity="23" unit="cm">23 (height in cm)</width>
+                <height quantity="29" unit="cm">29 (height in cm)</height>
+                <width quantity="21" unit="cm">21 (height in cm)</width>
                 <term/>
                 <extent> lines</extent>
               </dimensions>
               <titlePage label="[wrapper]">
-                <p>Dixit Dominus. | &#xE0; 4 Voci Conc:ti | 2 Clarini, e Tympano Rip: | 2 Violini, 2 Tromboni Conc:ti | e | Ripieni. | Del Sig. Francesco Tuma. | Partes. 37.</p>
+                <p>Confitebor &#xE0; 4 Voc: | 2 Violini | con | Organo et Violone | Del Sig Tuma. | [at bottom, glued-on piece of paper, printed] Am 10. X. 1913 aus der | Neuklosterbibliothek | zu Wr.-Neustadt &#xFC;ber- | nommen durch | P. Norbert Hofer.</p>
               </titlePage>
-              <extent>21 parts</extent>
+              <extent>8 parts</extent>
               <dimensions/>
               <physMedium>
-                <p>hand-ruled paper, 10 staves (10 mm)</p>
+                <p>hand-ruled paper, 11 staves (10 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
               <repository>
                 <corpName role=""/>
                 <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wn</identifier>
-                <ptr target="https://data.onb.ac.at/rec/AC14297574" mimetype="" label="digitized version"/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-HE</identifier>
               </repository>
-              <identifier>Mus.Hs.15680</identifier>
+              <identifier>VIII b 3</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>S solo and coro (2), A solo and coro (2), T solo and coro (2), B solo and coro (2), S coro (2), A coro (2), T coro (2), B coro (2), cnto (2), fag (2), clno 1 (2), clno 2 (2), trb 1 (2), trb 2 (2), timp (1), vl 1 (2), vl 2 (2), vlc (2), vlne (2), org (2), mdc (2)</p>
-                <p>wrapper (fol. 1r) contains 2 performance dates: 1753-04-22 and 1753-08-21</p>
-                <p>a copy by copyist E.</p>
+                <p>S solo and coro (2), A solo and coro (2), T solo and coro (2), B solo and coro (2), vl 1 (2), vl 2 (2), vlne (2), org (2)</p>
+                <p>wrapper (fol. 1r) contains 6 performance dates: 1752-08-19, 1753-06-20, 1757-06-12, 1769-12-25, 1770-06-03, and 1772-08-04&#xA0;</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -381,8 +379,13 @@
       <manifestation>
         <identifier/>
         <titleStmt>
-          <title>Lost manuscript</title>
+          <title>Manuscript copy</title>
         </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date isodate="1740-01-01">ca. 1750</date>
+        </pubStmt>
         <classification>
           <termList>
             <term>Notated music</term>
@@ -390,21 +393,51 @@
             <term>Copy</term>
             <term>Parts</term>
             <term>Fair copy</term>
-            <term>Lost</term>
+            <term>Complete</term>
           </termList>
         </classification>
         <itemList>
           <item>
-            <identifier/>
-            <physDesc/>
+            <identifier label="RISM">600138990</identifier>
+            <physDesc>
+              <extent>18 parts</extent>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="28" unit="cm">28 (height in cm)</height>
+                <width quantity="23" unit="cm">23 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[wrapper]">
+                <p>Lauda Jerusalem. | &#xE0; | 4 Voci Conc:ti | 2 Violini Conc:ti 2 Tromb. Rip: | &#xE8; | Ripieni. | Del Sig. Francesco Tuma. | Partes 27.</p>
+              </titlePage>
+              <extent/>
+              <dimensions/>
+              <physMedium>
+                <p>hand-ruled paper, 10 staves (10 mm)</p>
+              </physMedium>
+            </physDesc>
             <physLoc>
               <repository>
                 <corpName role=""/>
                 <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">A-H</identifier>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wn</identifier>
+                <ptr target="https://data.onb.ac.at/rec/AC14297582" mimetype="" label="catalogue entry"/>
               </repository>
-              <identifier>B.17.12</identifier>
+              <identifier>Mus.Hs.15687</identifier>
             </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>S solo and coro (2), A solo and coro (2), T solo and coro (2), B solo and coro (2), S coro (2), A coro (2), T coro (2), B coro (2), cnto (1), fag (1), trb 1 (1), trb 2 (1), vl 1 (2), vl 2 (2), vlc (2), vlne (2), org (3), mdc (2)</p>
+                <p>a copy by Joseph Leysser and copyist F</p>
+                <p>wrapper (fol. 1v) contains one performance date 1753-08-11</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
             <componentList/>
           </item>
         </itemList>

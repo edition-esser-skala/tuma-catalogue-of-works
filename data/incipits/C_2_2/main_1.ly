@@ -3,15 +3,14 @@
 
 notes = \relative c' {
   \clef alto
-  \key f \major \time 4/4 \autoBeamOff
+  \key f \major \time 4/4 \autoBeamOff \tempoMarkup "[no tempo]"
   r8^\partAs c f4 e8 g a a
-  g f16[ e] f8 e16[ d] c4 r
-  R1
-  r8 a'16[ g] f[ e] d[ c] h[ a] h8 d4
+  g f16[ e] f8 e16[ d] c4*1/2 \clef treble \autoBeamOn c''8^\partVi a c
+  c( b) g, b' b( a) r4
 }
 
 text = \lyricmode {
-  In -- vie -- tus, in -- vie -- tus
+  In -- vi -- ctus, in -- vi -- ctus
   he -- ros nu -- mi -- nis
 }
 

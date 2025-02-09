@@ -3,7 +3,7 @@
 
 notes = \relative c' {
   \clef soprano
-  \key d \major \time 4/4 \autoBeamOff
+  \key d \major \time 4/4 \autoBeamOff \tempoMarkup "Andante"
   d'4.^\partSs cis16[ h] a8[ g16 fis] g8 a
   fis d r4 r r8 h'
   cis16[ a e' d] cis[ d h cis] d[ cis] d8 r c

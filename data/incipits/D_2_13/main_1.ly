@@ -4,7 +4,7 @@
 notes = \relative c' {
   \clef treble
   \key a \major \time 4/4 \tempoMarkup "Andante"
-  e'16 fis e fis d e d e cis d cis d h cis h cis \gotoBar "5"
+  e'16^\partVi fis e fis d e d e cis d cis d h cis h cis \gotoBar "5"
   \clef tenor \autoBeamOff e,16[^\partTs fis e fis] d[ e d e] cis[ d cis d] h[ cis h cis]
   a8 h16 cis d8 cis16 h cis cis cis8 a a
 }
