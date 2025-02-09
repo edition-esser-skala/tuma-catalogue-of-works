@@ -70,6 +70,17 @@ Works in the catalogue should be cited by the abbreviation “TumW”, followed 
 As a supplement to the catalogue, we publish selected works as [Open Content editions](https://edition.esser-skala.at/scores/frantisek-ignac-antonin-tuma/). Available works are marked with the symbol ![](../images/ees_link.svg) in the work details.
 
 
+## Works not yet catalogued
+
+- A-Ee: 2 Misereres (N1447 and N1448)
+- A-GÖ: Ms 3592 (motet "Tochter Sion") and 3593 (motet "Venite mortalium")
+- A-Wn: Mus.Hs.3076 (A. Tuma, Messe)
+- CZ-K: two Sub tuums in litanies 125+126
+- CZ-Pn: 4 masses (XXVIII E 160–163), Alma (XXVIII E 159; probably identical to TumW E.1.5)
+- Vogg's scores in the archive of the DTÖ
+- prior editions (see @Bartos2018 [p. 89ff])
+
+
 ## Methods
 
 ### Sources
@@ -99,7 +110,7 @@ grep -v "<zs:" output.xml | \
 rm output.xml
 ```
 
-Pages for all groups of works were generated automatically from `catalogue_overview.csv` and `catalogue_works.csv`. If manually curated incipits were unavailable for a work, the first incipit of the first source with a RISM entry was included. Data from the [RISM Catalogue](https://opac.rism.info) (e.g., Plaine & Easie Code for incipits) by the *Répertoire International des Sources Musicales* is licensed under a Creative Commons Attribution CC-BY 3.0 Unported License.
+Later changes in the RISM database were manually added to the catalogue (2025-02-09: 331 entries for “Tůma, František Ignác” and 4 entries for “Tůma”). Pages for all groups of works were generated automatically from `catalogue_overview.csv` and `catalogue_works.csv`. If manually curated incipits were unavailable for a work, the first incipit of the first source with a RISM entry was included. Data from the [RISM Catalogue](https://opac.rism.info) (e.g., Plaine & Easie Code for incipits) by the *Répertoire International des Sources Musicales* is licensed under a Creative Commons Attribution CC-BY 3.0 Unported License.
 
 Detailed work metadata was edited with [MerMEId v2.0](https://mermeid.edirom.de/). Incipits were either prepared with [MuseScore](https://musescore.org), polished with [mei-friend](https://mei-friend.mdw.ac.at), and rendered with [Verovio](https://www.verovio.org), or created with [LilyPond](https://lilypond.org/) and [EES Tools](https://github.com/edition-esser-skala/ees-tools). XML files were exported from MerMEId and post-processed. These pages are rendered using the [BravuraText](https://github.com/steinbergmedia/bravura) font v1.392 and Verovio.
 
