@@ -14,7 +14,7 @@ text = \lyricmode {
   Ve -- ni,
   ve -- ni,
   ve -- ni,
-  ve -- ni Sanc -- te Spu -- ri -- tus
+  ve -- ni San -- cte Spi -- ri -- tus
 }
 
 \score {
