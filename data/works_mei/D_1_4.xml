@@ -508,12 +508,12 @@
                 <extent> lines</extent>
               </dimensions>
               <titlePage label="[wrapper]">
-                <p>Vesperae | de | Dominica | a | 4. Vocibus | 2. Violinis | Violon et Organo. | Auth: Sig: Ehrenhardt.</p>
+                <p>VESPER&#xC6; | de | Dominica | a | 4. Vocibus | 2. Violinis | Violon et Organo. | Auth: Sig: Ehrenhardt. | [in pencil, by later hand] hs: Maxim Welsch (Wellisch) Tromp. | (Basso) 12. Dez 1787</p>
               </titlePage>
               <extent>8 parts</extent>
               <dimensions/>
               <physMedium>
-                <p>hand-ruled paper</p>
+                <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -526,8 +526,10 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>S solo and coro, A solo and coro, T solo and coro, B solo and coro, vl 1, vl 2, vlne, org</p>
-                <p>catalogued according to RISM</p>
+                <p>S solo and coro (6), A solo and coro (6), T solo and coro (6), B solo and coro (5), vl 1 (4), vl 2 (4), vlne or org (5), org (5)</p>
+                <p>at end of B: <rend fontstyle="italic">Maximilian Wel&#x17F;ch | Trompetter in Kremsm&#xFC;n&#x17F;ter | den 12. Decembris | ao. 787.</rend>
+                                </p>
+                <p><rend fontstyle="italic">Laudate Dominum</rend> missing</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -575,12 +577,12 @@
                 <extent> lines</extent>
               </dimensions>
               <titlePage label="[wrapper]">
-                <p>Vesperae | de Confessore | a | 4. Voci | 2. Violini | Violon | et | Organo | Del: Thuma</p>
+                <p>Vesper&#xE6; | de Confe&#x17F;sore | a | 4. Voci | 2. Violini | Violon | et | Organo | Del: Thuma.</p>
               </titlePage>
               <extent>8 parts</extent>
               <dimensions/>
               <physMedium>
-                <p>hand-ruled paper</p>
+                <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -593,8 +595,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>S solo and coro, A solo and coro, T solo and coro, B solo and coro, vl 1, vl 2, vlne, org</p>
-                <p>catalogued according to RISM</p>
+                <p>S solo and coro (10), A solo and coro (11), T solo and coro (11), B solo and coro (9), vl 1 (8), vl 2 (8), vlne (10), org (11)</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
