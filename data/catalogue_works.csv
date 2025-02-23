@@ -213,10 +213,10 @@ D,3,L1,Miserere,,"A.23.17, B.27.17",,,,,,,,,,,,,,,,,,,,,,,
 D,3,L2,Miserere,,,,,,,,,,,,,,,,,,,,,,,,"@EsterhazyInv1812 [miserere, no. 10]",
 D,4,1,Magnificat,,,,,,,,,,,Mus.Hs.15697,,,XXXV E 139,,,,,Magnificats 1,,,A.X.1,B.VII.1,,CZ-Pkřiž old signature: 1042
 D,4,2,Magnificat,2119/6,"A.21.9, B.23.7",,,,,,,,,Mus.Hs.15698,,,,,,,,Magnificats 2,,,A.X.2,B.VII.2,,A-H source lost
-D,4,3,Magnificat,,,VIII b 3 [600090620],,,,,,,,,,,,,,,,Magnificats 3,,,A.X.3,,"@KlosterneuburgInvA [p. 69, no. 9], @KlosterneuburgInvB [p. 351, no. 2a]",A-KN source lost
+D,4,3,Magnificat,,,VIII b 3 [600090620],"A.69.9, B.351.2a",,,,,,,,,,,,,,,Magnificats 3,,,A.X.3,,"@KlosterneuburgInvA [p. 69, no. 9], @KlosterneuburgInvB [p. 351, no. 2a]",A-KN source lost
 D,4,L1,Magnificat,,,,,,,,,,,,,,,,,,,,,,,,"@KlosterneuburgInvB [p. 351, no. 2b]",
 D,4,L2,Magnificat,,,,,,,,,,,,,,,,,,,,,,,,"@KlosterneuburgInvB [p. 351, no. 2c]",
-E,1,1,Alma Redemptoris mater,,,,,,,,,,,Mus.Hs.15667,,,,,,,,Antiphons 1,,,A.VII.1,B.IV.1,@Eybl2011,
+E,1,1,Alma Redemptoris mater,,,,,,,,,,,Mus.Hs.15667,,,,,,,,Antiphons 1,,,A.VII.1,B.IV.1,"@Eybl1996 [p. 55], @Eybl2011",
 E,1,2,Alma Redemptoris mater,,,,,,,,,,,Mus.Hs.15668,,,,,,,,Antiphons 2,,,A.VII.2,B.IV.2,@Eybl2011,
 E,1,3,Alma Redemptoris mater,,,,,,,,,,,Mus.Hs.15669,,,,,,,,Antiphons 3,,,A.VII.3,B.IV.3,@Eybl2011,
 E,1,4,Alma Redemptoris mater,,,,,,,,,,,Mus.Hs.15670,,,,,,,,Antiphons 4,,,A.VII.4,B.IV.4,,
@@ -233,7 +233,7 @@ E,2,7,Ave Regina coelorum,,,,,,,,,,,Mus.Hs.15675/1,,,,,,,,Antiphons 9,,,A.VII.11
 E,2,8,Ave Regina coelorum,,,,,,,,,,,Mus.Hs.15673,,,,,,,,Antiphons 7,,,A.VII.12,B.V.4,@Eybl1996 [p. 57],
 E,3,L1,Regina coeli,,,,,,,,,,,,,,,,,,,,,,,,"@BrtniceInv [p. 110, no. 1], @Strakova1963, @Strakova1965",
 E,3,L2,Regina coeli,,,,,,,,,,,,,,,,,,,,,,,,"@BrtniceInv [p. 110, no. 2], @Strakova1963, @Strakova1965",
-E,4,1,Salve Regina,,,,,F 5/128,,,,,,,,,XXXV E 142,,,,"PL-KŁwnm Am-203, 15 | CZ-LIT 671",Antiphons 13,,,A.VII.13,,,CZ-Pkřiž old signature: 2264
+E,4,1,Salve Regina,,,,,F 5/128,,,,,,,,,XXXV E 142,,,,PL-KŁwnm Am-203 | CZ-LIT 671,Antiphons 13,,,A.VII.13,,,CZ-Pkřiž old signature: 2264
 E,4,2,Salve Regina,,,,,,,,,,,,,,,,,,A-Ed K 8,,,,,,,
 E,4,3,Salve Regina,,,,,,,,,,,,D 2/95,,,,,,,,,,,,,
 E,4,L1,Salve Regina,,"A.31.6, B.32.5",,,,,,,,,,,,,,,,,,,,,,,
@@ -243,7 +243,7 @@ E,5,2,Sub tuum praesidium,,887,,,,,,,,,,,,,,,,,,,,,,,
 E,5,3,Sub tuum praesidium,,,,,E 48/131/2,,,,,,,,,,,,,A-Ed G 61/2,,,,,,,probably by Schmidt
 E,5,4,Sub tuum praesidium,,,,,,,,,,,Mus.Hs.15693/2,,,,,,,,,,,,,"@Armstrong1993 [pp. 118-121, 257, 285, 316f]",
 E,5,5,Sub tuum praesidium,,,,,,,,,,,Mus.Hs.15694/2,,,,,,,,,,,,,"@Armstrong1993 [pp. 118-121, 257, 286, 317], @Eybl1996 [p. 47]",
-E,5,6,Sub tuum praesidium,,,,,,,,,,,Mus.Hs.15695/2,,,,,,,,,,,,,"@Armstrong1993 [pp. 118-121, 257, 287, 318]",
+E,5,6,Sub tuum praesidium,,,,,,,,,,,Mus.Hs.15695/2,,,,,,,,,,,,,"@Armstrong1993 [pp. 118-121, 257, 287, 318], @Eybl1996 [p. 47, 49]",
 F,,1,Stabat mater,,,,,,,,,,,Mus.Hs.15725,,,,,,Mus.2968-D-509,,Sequences 1,,,A.VIII.1,B.VIII.4,@Eybl1996 [p. 58],
 F,,2,Stabat mater,1786,"A.24.11, B.28.11",,,,,,,,,SA.67.H.5,,,,,Mus.ms. 22100 | Mus.ms. 22100/1 | Mus.ms. 30180,Mus.2968-D-5 | Mus.2968-D-515,US-Bp M.222.47 (2) | US-R ML96.C127 | RUS-Mk XI-433 | H-PH Mus.sacr.ant. T 1 | D-MÜs SANT Hs 4196 | D-MHjk ohne Signatur | D-LEm PM 7189 | I-Rsc A-Ms 523,Sequences 2,,,A.VIII.2,B.VIII.3,"@Kiesewetter1847 [p. 84], @Riedel1979 [p. 282]",A-H source lost
 F,,3,Stabat mater,,,,,,,,,I/1718,,,,1333,,,,Mus.2968-D-514,D-OB MO 814,Sequences 3,,,A.VIII.3,B.VIII.2,"@Stefan1985 [p. 252, no. 1393], @Haberkamp1986 [p. 207]",
@@ -261,7 +261,7 @@ G,,5,Litaniae lauretanae,,A.26.65,,,,,,,,1095,,,,XXXV E 149,,,,CZ-K 126,Litanies
 G,,6,Litaniae lauretanae,,"A.26.20, B.30.11",,,,,,,,,Mus.Hs.15696,,,,,,,,Litanies 9,,,A.IX.6,B.IX.6,"@Armstrong1993 [pp. 118-121, 257, 288, 318]",A-H source lost
 G,,7,Litaniae lauretanae,,,,,,,,,,,,,,,,,,A-MT 52 L.,Litanies 15,,,A.IX.7,,,
 G,,8,Litaniae lauretanae,,,,,,,,,,1097,,,,XXXV E 154,,,,CZ-Bm A 3816 | CZ-K 125,Litanies 18,,,A.IX.8,,"@BrtniceInv [p. 109, no. 4], @HerzogenburgInvA [p. 400, no. 25.24], @Strakova1963, @Strakova1965, @Mitterschiffthaler1979 [p. 236]",CZ-Pkřiž old signature: 2312
-G,,9,Litaniae lauretanae,1900,878,,,,,,,,,Mus.Hs.15695/1,,,XXXV E 153,,,,,Litanies 1,,,A.IX.9,B.IX.5,"@KlosterneuburgInvA [p. 57, no. 2, p. 92, no. 6], @BrtniceInv [p. 109, no. 3], @Strakova1963, @Strakova1965, @Riedel1979 [p. 299], @Armstrong1993 [pp. 118-121, 257, 287, 318]",A-KN source lost; CZ-Pkřiž old signature: 2310
+G,,9,Litaniae lauretanae,1900,878,,,,,,,,,Mus.Hs.15695/1,,,XXXV E 153,,,,,Litanies 1,,,A.IX.9,B.IX.5,"@KlosterneuburgInvA [p. 57, no. 2, p. 92, no. 6], @BrtniceInv [p. 109, no. 3], @Strakova1963, @Strakova1965, @Riedel1979 [p. 299], @Armstrong1993 [pp. 118-121, 257, 287, 318], @Eybl1996 [p. 47, 49]",A-KN source lost; CZ-Pkřiž old signature: 2310
 G,,10,Litaniae lauretanae,,,,,E 48/130,,,,,,,,,,,,,,Litanies 5,,,A.IX.10,,,
 G,,11,Litaniae lauretanae,1899,880,,,,,,,,,Mus.Hs.15692,,,XXXV E 143,,,,D-OB MO 806,Litanies 16,,,A.IX.11,B.IX.2,"@HerzogenburgInvA [p. 400, no. 25.23], @Riedel1979 [p. 299], @Haberkamp1986 [p. 206], @Armstrong1993 [pp. 118-121, 257, 284, 315]",CZ-Pkřiž old signature: 2300
 G,,12,Litaniae lauretanae,,,,,E 48/131/1,,,,,,,,,,,,,A-Ed G 61/1,Litanies 4,,,A.IX.12,,,probably by Schmidt
