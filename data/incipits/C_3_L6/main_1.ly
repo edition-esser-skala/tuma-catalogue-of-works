@@ -3,9 +3,9 @@
 
 notes = \relative c {
   \clef bass
-  \key c \major \time 4/4 \tempoMarkup "Recitativo · Andante"
-  c8^\partOrg c c c' c, c c c'
-  c,4 r8 c d4 r8 h
+  \key c \major \time 4/4 \tempoMarkup "Chorus"
+  c8^\partOrg d e f e c16 d e8 f
+  e c a h
 }
 
 \score {

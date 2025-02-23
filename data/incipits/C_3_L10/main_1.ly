@@ -3,10 +3,11 @@
 
 notes = \relative c {
   \clef bass
-  \key d \major \time 4/4 \tempoMarkup "Recitativo"
-  d2~^\partOrg d4 r
-  d r d2
-  h4 r
+  \key c \major \time 4/4 \tempoMarkup "Recitativo"
+  c4^\partOrg r d r
+  c1
+  d2 h
+  c b
 }
 
 \score {
