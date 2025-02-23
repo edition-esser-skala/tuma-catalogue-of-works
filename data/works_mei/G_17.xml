@@ -39,7 +39,7 @@
     </encodingDesc>
     <workList>
       <work>
-        <identifier label="TumW">G.7</identifier>
+        <identifier label="TumW">G.17</identifier>
         <identifier label="KliCh">Litanies 15</identifier>
         <identifier label="VogIn">A.IX.7</identifier>
         <title xml:lang="la">Litaniae lauretanae</title>
@@ -68,7 +68,7 @@
               <geogName role=""/>
             </creation>
             <history/>
-            <perfMedium>
+            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
               <perfResList>
                 <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli">
                   <head xml:lang="en">soli</head>
@@ -109,7 +109,7 @@
                 <tempo>Presto</tempo>
                 <key pname="g" mode="major"/>
                 <meter sym="common"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_053265d5">
                       <head xml:lang="en">soli</head>
@@ -148,7 +148,7 @@
                     <tempo>Presto</tempo>
                     <key pname="g" mode="major"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
                         <perfRes codedval="sve" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vlne</perfRes>
@@ -186,7 +186,7 @@
                     <tempo>Andante</tempo>
                     <key pname="g" mode="major"/>
                     <meter count="3" unit="4"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_053265d5">
                           <head xml:lang="en">soli</head>
@@ -231,7 +231,7 @@
                     <tempo>Adagio</tempo>
                     <key pname="b" mode="phrygian"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
                         <perfRes codedval="sve" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vlne</perfRes>
@@ -269,7 +269,7 @@
                     <tempo>Allabreve</tempo>
                     <key pname="g" mode="major"/>
                     <meter sym="cut"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
                         <perfRes codedval="sve" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vlne</perfRes>
@@ -309,7 +309,7 @@
                     <tempo>Adagio</tempo>
                     <key pname="g" mode="major"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
                         <perfRes codedval="sve" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vlne</perfRes>

@@ -3,17 +3,17 @@
 
 notes = \relative c' {
   \clef treble
-  \key d \major \time 3/4 \tempoMarkup "Andante"
-  d'16^\partVii d, fis a d cis d cis d8 d
-  \set Staff.forceClef = ##t a'16^\partVi a, cis e a gis a gis a8 a \gotoBar "9"
-  \clef soprano \autoBeamOff d,4.^\partSs d8 d d
-  cis4 cis2
+  \key d \major \time 4/4 \tempoMarkup "Allegro"
+  d8 d'4 cis8 d g4 fis8
+  e a16 d, a' c h8 cis32 h a16 d8 d,, g'~
+  g16 e fis d e4\trill d4*1/2 \clef soprano \autoBeamOff d4^\partSs cis8
+  d h cis[ d] cis d d[ cis]
 }
 
 text = \lyricmode {
-  \skips 20
-  Ky -- ri -- e e --
-  lei -- son
+  \skips 23
+  Ky -- ri --
+  e e -- lei -- son, e -- "lei -"
 }
 
 \score {

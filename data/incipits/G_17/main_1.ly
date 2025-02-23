@@ -1,20 +1,22 @@
 \version "2.24.2"
 \include "header.ly"
 
-notes = \relative c' {
-  \clef soprano
-  \key b \major \time 4/4 \autoBeamOff \tempoMarkup "Adagio"
-  b'4.^\partSc b8 b4 b
-  h2 c4 c
-  a4. a8 b4 b8 b
-  b4 es a, r
+notes = \relative c {
+  \clef bass
+  \key g \minor \time 4/4 \tempoMarkup "Presto"
+  g'4.^\partBc g8 \clef tenor d'4.^\partTc d8
+  cis4 c c h
+  a2 \clef alto g'4.^\partAc g8
+  \clef soprano d'4.^\partSc d8 cis4 c
+  h e cis d
 }
 
 text = \lyricmode {
-  Ky -- ri -- e e --
-  lei -- son, Chri --
-  ste e -- lei -- son, e --
-  lei -- _ son,
+  Ky -- ri Ky -- ri --
+  e e -- lei -- son,
+  Chri Ky -- ri
+  Chri -- ste, Chri -- _
+  ste e -- "lei -"
 }
 
 \score {

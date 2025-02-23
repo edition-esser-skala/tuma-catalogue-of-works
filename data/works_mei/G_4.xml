@@ -39,7 +39,7 @@
     </encodingDesc>
     <workList>
       <work>
-        <identifier label="TumW">G.18</identifier>
+        <identifier label="TumW">G.4</identifier>
         <identifier label="BalTh">B.IX.4</identifier>
         <identifier label="KliCh">Litanies 20</identifier>
         <identifier label="VogIn">A.IX.19</identifier>
@@ -88,7 +88,7 @@
               <geogName role=""/>
             </creation>
             <history/>
-            <perfMedium>
+            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
               <perfResList>
                 <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli">
                   <head xml:lang="en">soli</head>
@@ -132,7 +132,7 @@
                 <tempo>Larghetto</tempo>
                 <key pname="g" mode="minor"/>
                 <meter sym="common"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_5629027a">
                       <head xml:lang="en">soli</head>
@@ -174,7 +174,7 @@
                     <tempo>Larghetto</tempo>
                     <key pname="g" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_5629027a">
                           <head xml:lang="en">soli</head>
@@ -213,7 +213,7 @@
                     <tempo>[no tempo]</tempo>
                     <key pname="b" mode="major" accid="f"/>
                     <meter count="3" unit="4"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_5629027a">
                           <head xml:lang="en">soli</head>
@@ -259,7 +259,7 @@
                     <tempo>Affettuoso</tempo>
                     <key pname="g" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_5629027a">
                           <head xml:lang="en">soli</head>
@@ -307,7 +307,7 @@
                     <tempo>Adagio &#x2013; Vivace &#x2013; Adagio</tempo>
                     <key pname="g" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_5629027a">
                           <head xml:lang="en">soli</head>

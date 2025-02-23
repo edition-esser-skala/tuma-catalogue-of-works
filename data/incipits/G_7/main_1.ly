@@ -1,22 +1,19 @@
 \version "2.24.2"
 \include "header.ly"
 
-notes = \relative c {
-  \clef bass
-  \key g \minor \time 4/4 \tempoMarkup "Presto"
-  g'4.^\partBc g8 \clef tenor d'4.^\partTc d8
-  cis4 c c h
-  a2 \clef alto g'4.^\partAc g8
-  \clef soprano d'4.^\partSc d8 cis4 c
-  h e cis d
+notes = \relative c' {
+  \clef treble
+  \key c \dorian \time 4/4 \tempoMarkup "Larghetto"
+  r8 g''16^\partVi as g8 c, c4. c8~
+  c h16 a h4 c8 c' h16 g b8 \gotoBar "5"
+  \clef alto r2^\partAs g,4. g8
+  \clef soprano as4.^\partSs as8 d,4. es16[ f]
 }
 
 text = \lyricmode {
-  Ky -- ri Ky -- ri --
-  e e -- lei -- son,
-  Chri Ky -- ri
-  Chri -- ste, Chri -- _
-  ste e -- "lei -"
+  \skips 14
+  Ky -- ri --
+  Ky -- ri -- e "e -"
 }
 
 \score {
@@ -24,4 +21,5 @@ text = \lyricmode {
     \new Voice = "incipit" { \notes }
     \new Lyrics \lyricsto "incipit" { \text }
   >>
+  \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
 }
