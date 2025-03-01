@@ -62,6 +62,10 @@
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@KlosterneuburgInvB [p. 538, no. 1]</ref>
           </bibl>
+          <bibl>
+            <genre>reference</genre>
+            <ref targettype="pandoc-citation">@KlosterneuburgInvC [vol. 2, p. 37, no. 4]</ref>
+          </bibl>
         </biblList>
         <notesStmt>
           <annot type="links">
