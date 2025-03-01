@@ -162,3 +162,144 @@ read_csv("data/inventory_herzogenburg_1774.csv") %>%
     table_body.hlines.style = "none"
   )
 ```
+
+
+
+## Stift Klosterneuburg
+
+```{r}
+#| echo: false
+
+works <-
+  read_rds("data_generated/works.rds") %>% 
+  unnest(sources, names_sep = "_") %>% 
+  filter(str_starts(sources_source, "A-KN ")) %>%
+  left_join(
+    read_csv("data/catalogue_overview.csv") %>% distinct(group, file),
+    by = "group"
+  ) %>%
+  unite(group:number, col = "TumW", sep = ".", na.rm = TRUE) %>%
+  select(number = sources_source, TumW, file) %>%
+  mutate(number = str_replace(number, "A-KN ", "")) %>%
+  separate_longer_delim(number, ", ")
+
+table_data <-
+  read_csv("data/inventory_klosterneuburg.csv") %>% 
+  mutate(
+    inv_a = str_glue("A.{page_a}.{number_a}"),
+    inv_b = str_glue("B.{page_b}.{number_b}"),
+    inv_c = str_glue("C{volume_c}.{page_c}.{number_c}"),
+    inv_e = str_glue("E.{page_e}.{number_e}")
+  ) %>% 
+  separate_longer_delim(shelfmark, delim = " | ") %>% 
+  left_join(
+    works %>% select(inv_a = number, TumW_a = TumW),
+    by = "inv_a"
+  ) %>%
+  left_join(
+    works %>% select(inv_b = number, TumW_b = TumW),
+    by = "inv_b"
+  ) %>%
+  left_join(
+    works %>% select(inv_c = number, TumW_c = TumW),
+    by = "inv_c"
+  ) %>%
+  left_join(
+    works %>% select(inv_e = number, TumW_e = TumW),
+    by = "inv_e"
+  ) %>%
+  left_join(
+    works %>% select(shelfmark = number, TumW_s = TumW),
+    by = "shelfmark"
+  ) %>% 
+  rowwise() %>%
+  mutate(
+    is_error_a = any(
+      !is.na(shelfmark) &
+        is.na(TumW_s),
+      is.na(shelfmark) &
+        !is.na(page_a) &
+        is.na(TumW_a),
+      is.na(shelfmark) &
+        !is.na(page_b) &
+        is.na(TumW_b),
+      is.na(shelfmark) &
+        !is.na(page_c) &
+        is.na(TumW_c),
+      is.na(shelfmark) &
+        !is.na(page_e) &
+        is.na(TumW_e)
+    ),
+    is_error_b = n_distinct(c(TumW_s, TumW_a, TumW_b,
+                              TumW_c, TumW_e), na.rm = TRUE) != 1,
+    is_error = is_error_a | is_error_b,
+    TumW = coalesce(TumW_s, TumW_a, TumW_b, TumW_c, TumW_e)
+  ) %>%
+  left_join(
+    works %>% distinct(TumW, file),
+    by = "TumW"
+  ) %>%
+  mutate(TumW = str_glue("[{TumW}](/groups/{file}.html#work-{TumW})"))
+
+if (any(table_data$is_error)) {
+  print(table_data %>% filter(is_error))
+  error("Problems found in A-KN inventory")
+}
+
+n_works_a <- 
+  table_data %>%
+  filter(!is.na(page_a)) %>%
+  distinct(page_a, number_a) %>%
+  nrow()
+
+n_works_b <- 
+  table_data %>%
+  filter(!is.na(page_b)) %>%
+  distinct(page_b, number_b) %>%
+  nrow()
+
+n_works_c <- 
+  table_data %>%
+  filter(!is.na(page_c)) %>%
+  distinct(volume_c, page_c, number_c) %>%
+  nrow()
+
+n_works_e <- 
+  table_data %>%
+  filter(!is.na(page_e)) %>%
+  distinct(page_e, number_e) %>%
+  nrow()
+
+n_works_extant <- 
+  table_data %>%
+  filter(!is.na(shelfmark)) %>%
+  distinct(shelfmark) %>%
+  nrow()
+```
+
+The historic inventories of Stift Klosterneuburg [@KlosterneuburgInvA; @KlosterneuburgInvB; KlosterneuburgInvC; KlosterneuburgInvE] contain `{r} n_works_a`, `{r} n_works_b`, `{r} n_works_c`, and `{r} n_works_e` entries describing Tůma's works, respectively. However, only `{r} n_works_extant` works are extant.
+
+```{r}
+#| echo: false
+#| output: asis
+
+table_data %>% 
+  select(!c(inv_a:TumW_s, contains("is_error"), file)) %>%
+  gt() %>%
+  tab_spanner("inventory A", columns = ends_with("_a")) %>% 
+  tab_spanner("inventory B", columns = ends_with("_b")) %>% 
+  tab_spanner("inventory C", columns = ends_with("_c")) %>% 
+  tab_spanner("inventory E", columns = ends_with("_e")) %>% 
+  cols_label(
+    starts_with("volume") ~ "vol.",
+    starts_with("page") ~ "p.",
+    starts_with("number") ~ "no."
+  ) %>%
+  cols_align("right") %>% 
+  fmt_markdown(columns = TumW) %>% 
+  sub_missing(missing_text = "") %>%
+  tab_options(
+    column_labels.font.weight = "bold",
+    table_body.hlines.style = "none"
+  )
+```
