@@ -6,7 +6,7 @@ notes = \relative c' {
   \key c \dorian \time 4/4 \tempoMarkup "Allegro"
   r2^\partVi d'~
   d4 c2 h4
-  c r as'4
+  c r as'2
   h,8 g c2 h4
 }
 
