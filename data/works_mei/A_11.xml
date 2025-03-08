@@ -59,6 +59,10 @@
           <head>Bibliography</head>
           <bibl>
             <genre>reference</genre>
+            <ref targettype="pandoc-citation">@Horvath1971 [p. 317]</ref>
+          </bibl>
+          <bibl>
+            <genre>reference</genre>
             <ref targettype="pandoc-citation">@Mitterschiffthaler1979 [p. 236]</ref>
           </bibl>
           <bibl>
@@ -87,7 +91,7 @@
               <geogName role=""/>
             </creation>
             <history/>
-            <perfMedium>
+            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
               <perfResList>
                 <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli">
                   <head xml:lang="en">soli</head>
@@ -129,7 +133,7 @@
                 <tempo>Andante</tempo>
                 <key pname="e" mode="minor"/>
                 <meter sym="cut"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_2d5bc5f5">
                       <head xml:lang="en">coro</head>
@@ -162,7 +166,7 @@
                     <tempo>Andante</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="cut"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_2d5bc5f5">
                           <head xml:lang="en">coro</head>
@@ -201,7 +205,7 @@
                     <tempo>Adagio</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_2d5bc5f5">
                           <head xml:lang="en">coro</head>
@@ -244,7 +248,7 @@
                 <tempo>[no tempo]</tempo>
                 <key pname="e" mode="minor"/>
                 <meter sym="common"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_2d5bc5f5">
                       <head xml:lang="en">coro</head>
@@ -284,7 +288,7 @@
                     <tempo>[no tempo]</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_2d5bc5f5">
                           <head xml:lang="en">coro</head>
@@ -330,7 +334,7 @@
                     <tempo>Adagio</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_2d5bc5f5">
                           <head xml:lang="en">coro</head>
@@ -369,7 +373,7 @@
                     <tempo>[no tempo]</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_8bc30f54">
                           <head xml:lang="en">soli</head>
@@ -415,7 +419,7 @@
                     <tempo>[no tempo]</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="cut"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_2d5bc5f5">
                           <head xml:lang="en">coro</head>
@@ -458,7 +462,7 @@
                 <tempo>[no tempo]</tempo>
                 <key pname="e" mode="minor"/>
                 <meter sym="common"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_8bc30f54">
                       <head xml:lang="en">soli</head>
@@ -498,7 +502,7 @@
                     <tempo>[no tempo]</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfRes codedval="btb" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">trb</perfRes>
                         <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
@@ -537,7 +541,7 @@
                     <tempo>[no tempo]</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_2d5bc5f5">
                           <head xml:lang="en">coro</head>
@@ -576,7 +580,7 @@
                     <tempo>Adagio</tempo>
                     <key pname="a" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_8bc30f54">
                           <head xml:lang="en">soli</head>
@@ -615,7 +619,7 @@
                     <tempo>Allegro</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_2d5bc5f5">
                           <head xml:lang="en">coro</head>
@@ -654,7 +658,7 @@
                     <tempo>[no tempo]</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="cut"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_2d5bc5f5">
                           <head xml:lang="en">coro</head>
@@ -697,7 +701,7 @@
                 <tempo>Largo &#x2013; Andante</tempo>
                 <key pname="e" mode="minor"/>
                 <meter count="3" unit="2"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_2d5bc5f5">
                       <head xml:lang="en">coro</head>
@@ -737,7 +741,7 @@
                 <tempo>[no tempo]</tempo>
                 <key pname="e" mode="minor"/>
                 <meter count="3" unit="2"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_8bc30f54">
                       <head xml:lang="en">soli</head>
@@ -775,7 +779,7 @@
                     <tempo>[no tempo]</tempo>
                     <key pname="e" mode="minor"/>
                     <meter count="3" unit="2"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_8bc30f54">
                           <head xml:lang="en">soli</head>
@@ -810,7 +814,7 @@
                     <tempo>[no tempo]</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_2d5bc5f5">
                           <head xml:lang="en">coro</head>
@@ -853,7 +857,7 @@
                 <tempo>Larghetto</tempo>
                 <key pname="e" mode="minor"/>
                 <meter count="3" unit="2"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_8bc30f54">
                       <head xml:lang="en">soli</head>
@@ -892,7 +896,7 @@
                     <tempo>Larghetto</tempo>
                     <key pname="e" mode="minor"/>
                     <meter count="3" unit="2"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_8bc30f54">
                           <head xml:lang="en">soli</head>
@@ -937,7 +941,7 @@
                     <tempo>[no tempo]</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="cut"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_2d5bc5f5">
                           <head xml:lang="en">coro</head>
@@ -1116,6 +1120,125 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
+          <date isodate="1775-01-01">2nd half 18th century</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier label="RISM">600251203</identifier>
+            <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="31" unit="cm">31 (height in cm)</height>
+                <width quantity="22" unit="cm">22 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[wrapper]">
+                <p>Nro 15. | Mi&#x17F;sa Ex E minor. | a: | 4 Vocii. | 2 Violino | con | Organo e: Violone | Del Sigre Tuma | Ex Rebus | Antonii Key&#xDF;ler</p>
+              </titlePage>
+              <extent>8 parts</extent>
+              <dimensions/>
+              <physMedium>
+                <p>hand-ruled paper, 10 staves (12 mm)</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wps</identifier>
+              </repository>
+              <identifier>42</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>S solo and coro (6), A solo and coro (6), T solo and coro (5), B solo and coro (5), vl 1 (4), vl 2 (4), vlne (4), org (4)</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date isodate="1800-01-01">1st half 19th century</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier label="RISM">403008452</identifier>
+            <physDesc>
+              <extent>6 p.</extent>
+              <titlePage label="[caption]">
+                <p>Kyrie ex Missa Auth: Tuma No.163.</p>
+              </titlePage>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">CH-E</identifier>
+              </repository>
+              <identifier>297,3</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>part of the collection entitled &#x201C;Rud. Pearsall's Sammlung alter Musikst&#xFC;cke&#x201D; (RISM 403008438)</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
           <date notbefore="1733-01-01" notafter="1765-12-31">1733&#x2013;1765</date>
         </pubStmt>
         <classification>
@@ -1241,7 +1364,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1775-01-01">2nd half 18th century</date>
+          <date isodate="1800-01-01">19th century</date>
         </pubStmt>
         <classification>
           <termList>
@@ -1255,90 +1378,37 @@
         </classification>
         <itemList>
           <item>
-            <identifier label="RISM">600251203</identifier>
+            <identifier/>
             <physDesc>
               <dimensions>
                 <locusGrp>
                   <locus/>
                 </locusGrp>
-                <height quantity="31" unit="cm">31 (height in cm)</height>
+                <height quantity="34" unit="cm">34 (height in cm)</height>
                 <width quantity="22" unit="cm">22 (height in cm)</width>
                 <term/>
                 <extent> lines</extent>
               </dimensions>
               <titlePage label="[wrapper]">
-                <p>Nro 15. | Mi&#x17F;sa Ex E minor. | a: | 4 Vocii. | 2 Violino | con | Organo e: Violone | Del Sigre Tuma | Ex Rebus | Antonii Key&#xDF;ler</p>
+                <p>MISSA Brevi&#x17F;sima | &#xE0; | 4. Voc: | Canto Alto. | Tenore Ba&#x17F;so. | Violinis 2:bus | con | Organo &#xE8; Violone. | Del Sig: France&#x17F;co Thuma. Capell&#xE6; M: Di S: C: M: | Elisabetha Vedua.</p>
               </titlePage>
               <extent>8 parts</extent>
               <dimensions/>
               <physMedium>
-                <p>hand-ruled paper, 10 staves (12 mm)</p>
+                <p>hand-ruled paper, 12 staves (11 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
               <repository>
                 <corpName role=""/>
                 <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wps</identifier>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">SK-BRm</identifier>
               </repository>
-              <identifier>42</identifier>
+              <identifier>box 526, inv.no. 3222</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>S solo and coro (6), A solo and coro (6), T solo and coro (5), B solo and coro (5), vl 1 (4), vl 2 (4), vlne (4), org (4)</p>
-              </annot>
-              <annot type="links">
-                <ptr mimetype=""/>
-              </annot>
-            </notesStmt>
-            <componentList/>
-          </item>
-        </itemList>
-        <componentList/>
-        <relationList>
-          <relation rel="isEmbodimentOf"/>
-        </relationList>
-      </manifestation>
-      <manifestation>
-        <identifier/>
-        <titleStmt>
-          <title>Manuscript copy</title>
-        </titleStmt>
-        <pubStmt>
-          <publisher/>
-          <pubPlace/>
-          <date isodate="1800-01-01">1st half 19th century</date>
-        </pubStmt>
-        <classification>
-          <termList>
-            <term>Notated music</term>
-            <term>Manuscript</term>
-            <term>Copy</term>
-            <term>Parts</term>
-            <term>Fair copy</term>
-            <term>Complete</term>
-          </termList>
-        </classification>
-        <itemList>
-          <item>
-            <identifier label="RISM">403008452</identifier>
-            <physDesc>
-              <extent>6 p.</extent>
-              <titlePage label="[caption]">
-                <p>Kyrie ex Missa Auth: Tuma No.163.</p>
-              </titlePage>
-            </physDesc>
-            <physLoc>
-              <repository>
-                <corpName role=""/>
-                <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">CH-E</identifier>
-              </repository>
-              <identifier>297,3</identifier>
-            </physLoc>
-            <notesStmt>
-              <annot type="source_description">
-                <p>part of the collection entitled &#x201C;Rud. Pearsall's Sammlung alter Musikst&#xFC;cke&#x201D; (RISM 403008438)</p>
+                <p>S solo and coro (3), A solo and coro (2), T solo and coro (2), B solo and coro (2), vl 1 (2), vl 2 (2), vlne (2), org (2)</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
