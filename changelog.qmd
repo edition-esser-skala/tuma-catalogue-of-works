@@ -1,5 +1,35 @@
 # Changelog {.unnumbered}
 
+## 0.10.0 – 2025-03-08
+
+### Added
+
+- works: TumW C.3.27/28 and J.L10
+- incipits and metadata: TumW A.38, C.1.2, C.2.2, C.3.14, C.4.2, C.5.29, C.6.2, D.2.13, D.4.3, E.1.1, E.2.1, E.4.1, E.5.6, G.5, I.17/18, J.15, and L.3
+- sources:
+  - A-Wgm: I 24380
+  - D-Bsa: SA 3541 (7)
+  - SK-BRm: box 526, inv.no. 3222
+- acknowledgements for CZ-KLm, CZ-Nlob, SK-BRm, and Perutková
+- references Blume 1992, Horvath 1971, Kellner 1956, Kim 1998, and Pfiffig 1975
+- a section describing works not yet catalogued
+- methods now mention the number of works in RISM that have been included
+- TumW A.54: shelfmark in CZ-KLm
+- TumW A.S10: shelfmark in A-KR 
+- TumW D.1.4: details on A-KR sources
+- Klosterneuburg inventory C
+- a table with Klosterneuburg inventories as appendix
+
+### Changed
+
+- Subgroup C.6 has been renamed to *Miscellaneous*.
+- TumW F.9 has been reclassified to C.6.2.
+- TumW C.3.L6 has been merged to 28; thus, TumW C.3.L7–11 have been renumbered to L6–10.
+- The library siglum CZ-LIT has been replaced by CZ-Nlob, since the sources have been moved.
+- In group G, the following works have been renumbered: 16 → 1, 11 → 2, 14 → 3, 18 → 4, 9 → 5, 19 → 7, 15 → 8, 5 → 9, 1 → 10, 8 → 11, 10 → 12, 12 → 13, 17 → 14, 20 → 15, 21 → 16, 7 → 17, 2 → 18, 3 → 19, 4 → 20, and 13 → 21.
+- technically equivalent to WerW v0.12.0
+
+
 ## 0.9.0 – 2025-01-18
 
 ### Added
