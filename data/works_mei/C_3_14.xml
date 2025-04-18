@@ -59,6 +59,10 @@
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@Eybl1996 [p. 56]</ref>
           </bibl>
+          <bibl>
+            <genre>reference</genre>
+            <ref targettype="pandoc-citation">@Haberkamp1986 [p. 206]</ref>
+          </bibl>
         </biblList>
         <classification>
           <termList>
@@ -325,6 +329,73 @@
                 <p>B solo (3), vl 1 (2x; 3, 3), vl 2 (2x; 3, 3), vlc (3), vlne (3), org (4), mdc (4)</p>
                 <p>a copy by Joseph Leysser</p>
                 <p>wrapper (fol. 1r) contains two performance dates: 1744-06-08 and 1748-06-29</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date isodate="1740-01-01">ca. 1740</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier label="RISM">450008348</identifier>
+            <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="33" unit="cm">33 (height in cm)</height>
+                <width quantity="21" unit="cm">21 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[wrapper]">
+                <p>Offertorium pro | Solemnitate Neo Myst&#xE6;. | primam Mi&#x17F;sam | celebrantis. | &#xE2; | Ba&#x17F;so Solo. | Con | Violini | et | Organo.. | Del Sig: Tuma.</p>
+              </titlePage>
+              <extent>4 parts</extent>
+              <dimensions/>
+              <physMedium>
+                <p>hand-ruled paper, 10 staves (10 mm)</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">D-OB</identifier>
+              </repository>
+              <identifier>MO 812</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>B solo (6), vl 1 (6), vl 2 (6), org (5)</p>
+                <p>This source comprises the recitativo and aria of both <rend fontstyle="italic">Domine Deus omnium creator</rend> TumW C.3.16 and <rend fontstyle="italic">Voluntarie sacrificabo tibi</rend> TumW C.3.14.</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
