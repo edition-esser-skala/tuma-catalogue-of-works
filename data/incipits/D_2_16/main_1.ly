@@ -2,19 +2,17 @@
 \include "header.ly"
 
 notes = \relative c' {
-  \clef treble
-  \key a \minor \time 4/4 \tempoMarkup "Allegro"
-  r8 e'^\partVi a e e16 d c f e d c h \gotoBar "11"
-  \clef tenor \autoBeamOff r2^\partTs r8 a, c h16 a
-  e'[ d c f] e[ d c h] c[ h a f'] e[ d c h]
-  c[ h] a8
+  \clef tenor
+  \key a \minor \time 4/4 \autoBeamOff
+  r8^\partTs a e'4~ e16[ f d e] c4~
+  c16[ d h c] a4 a8 h16 c h8. a16
+  gis8 h e4~ e16[ f d e] cis4
 }
 
 text = \lyricmode {
-  \skips 11
-  Lau -- da -- te, lau --
-  da -- _ _ _
-  _ te
+  Lau -- da -- _
+  te pu -- e -- ri Do -- mi --
+  num, lau -- da -- \hy
 }
 
 \score {
