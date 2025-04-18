@@ -3,18 +3,16 @@
 
 notes = \relative c {
   \clef bass
-  \key d \minor \time 4/4 \autoBeamOff
+  \key d \minor \time 4/4 \autoBeamOff \tempoMarkup "Allegretto"
   d4.^\partBc d8 f d f[ g]
-  \clef soprano a'4.^\partSc a8 cis a h[ cis]
-  d4 r8 cis d[ cis16 d] e8[ d]
-  cis[ h16 cis] d8 c h[ a16 h] c8[ h]
+  \clef soprano a'4.^\partSc a8 cis a h[ \hA cis]
+  d4 r8 cis d[ \hA cis16 d] e8[ d]
 }
 
 text = \lyricmode {
   Ky -- ri -- e e -- "lei -"
   Ky -- ri -- e e -- lei --
-  son, e -- lei -- _
-  _ _ _ \hy
+  son, e -- lei -- \hy
 }
 
 \score {

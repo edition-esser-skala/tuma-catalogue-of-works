@@ -10,7 +10,7 @@ A,,8,Missa pro festivitate Sancti Leopoldi,,,,475,,,,,,,,,,,,,,,Masses 51,B4,19,
 A,,9,Missa,637,"A.2.171, B.2.165",,,B 12/316,M 459,I/11,,,,,,,,,,Mus.2968-D-511,,"Masses 15, Masses 56","B5, D3",50,"A.I.25, A.I.31",,"@Riedel1979 [p. 104], @Freeman1992 [p. 47]",A-H source lost
 A,,10,Missa,,,,475/2,,,,,,,,,,,,,,,Masses 17,B6,52,A.I.27,,"@KlosterneuburgInvB [p. 113, no. 6]",
 A,,11,Missa Sanctae Elisabethae,626,"A.2.138, B.2.138",,,,,,,,1093,,,,XXXV B 3,XVI C 63,,,"A-Wps 42 | CH-E 297,3 | SK-BRm box 526, inv.no. 3222",Masses 18,B7,53,A.I.28,B.I.6,"@Horvath1971 [p. 317], @Mitterschiffthaler1979 [p. 236], @Riedel1979 [p. 103]",A-H source lost; CZ-Pkřiž old signature: 168
-A,,12,Missa,,"A.2.143, B.2.143",,456,A 3/15,M 363,,,,,,,,,,,Mus.2968-D-502,,Masses 30,B8,57,A.I.42,,"@KlosterneuburgInvA [p. 9, no. 4], @KlosterneuburgInvB [p. 114, no. 10], @Sherman2001 [p. 47, 338]",A-H source lost; page in A-H inventory missing (was available to Vogg and Peschek); same Gloria as A.6
+A,,12,Missa,,"A.2.143, B.2.143",,456,A 3/15,M 363,,,,,,,,,,,Mus.2968-D-502,,Masses 30,B8,57,A.I.42,,"@KlosterneuburgInvA [p. 9, no. 4], @KlosterneuburgInvB [p. 114, no. 10], @Sherman2001 [p. 47, 338], @Peschek1956 [p. 130-136]",A-H source lost; page in A-H inventory missing (was available to Vogg and Peschek); same Gloria as A.6
 A,,13,Missa,,H70,,A.45.4,,,,,,,,,,,,,,,Masses 39,B9,21,A.I.d,,"@KlosterneuburgInvA [p. 45, no. 4], @HerzogenburgInvA [no. 2.141], @HerzogenburgInvB [fol. 42v, no. 2.141]",page in A-H inventory missing (was available to Vogg and Peschek); A-KN source lost
 A,,14,Missa brevissima,,"A.1.118, B.1.115",,453/1,B 39/570,M 457,,,,,,,,,,,,,Masses 1,C1,7,A.I.2,,"@KlosterneuburgInvA [p. 45, no. 2], @KlosterneuburgInvB [p. 113, no. 2], @KlosterneuburgInvC [vol. 1, p. 20, no. 122], @BrtniceInv [p. 111, no. 1], @Strakova1963, @Strakova1965, @Sherman2001 [p. 47, 339]",A-H source lost
 A,,15,Missa Sancti Eustachii,630,"A.2.103, B.2.93",,453/2,,,,,,,,,,,,,,,Masses 37,C2,61,A.I.50,,"@KlosterneuburgInvA [p. 45, no. 5], @KlosterneuburgInvB [p. 113, no. 3], @KlosterneuburgInvC [vol. 1, p. 20, no. 123], @BrtniceInv [p. 110, no. 4], @Strakova1963, @Strakova1965, @Riedel1979 [p. 103]",A-H source lost
@@ -85,7 +85,7 @@ C,1,1,Alleluia confitemini,,,,464/4,,,,,,,,,,,,,,,Graduals 1,,,A.II.1,,"@Kloster
 C,1,2,Iustus ut palma florebit,,,,464/1,,,,,I 1648/1,,,,,,,,,,Graduals 2,,,A.II.2,B.XII.2a,"@KlosterneuburgInvA [p. 99, no. 4], @KlosterneuburgInvB [p. 272, no. 5], @KlosterneuburgInvE [p. 42, no. 5]",
 C,2,1,Pange lingua,,,,,,,,,,,Mus.Hs.15686,,,,,,,,Hymns 8,,,A.V.1,B.XIII.1,@Eybl1996 [p. 57],
 C,2,2,Invictus heros numinis,,,,,,,,,,,Mus.Hs.15682,,,,,,,,Hymns 2,,,A.V.3,B.II.4,@Eybl1996 [p. 56],
-C,2,3,Iam fasces lictor ferat,,,,,,,,,,,Mus.Hs.15683,,,,,,,,Hymns 3,,,A.V.4,B.II.5,,
+C,2,3,Iam faces lictor ferat,,,,,,,,,,,Mus.Hs.15683,,,,,,,,Hymns 3,,,A.V.4,B.II.5,@Eybl1996 [p. 56],
 C,2,4,Iam sol recedit igneus,,,,,,,,,,,Mus.Hs.15684,,,,,,,,Hymns 4,,,A.V.5,B.II.6,,
 C,2,5,Te lucis ante terminum,,,,,,,,,,,Mus.Hs.15772,,,,,"Mus.ms.autogr. Salieri, A. 4/5 | Mus.ms.autogr. Tuma, F. 2 M",,,Hymns 1,,,A.V.6,B.II.2,,
 C,2,6,Regis superni nuntia,,,,,,525,,,,,Mus.Hs.15681,,,,,,,,Hymns 7,,,A.V.7,B.II.3,"@Eybl1996 [p. 57], @Sherman2001 [p. 111]",
@@ -104,9 +104,9 @@ C,3,10,Firmamentum et refugium,,,,,,,,,,,Mus.Hs.15710,,,,,,,,Motets 18,,,A.IV.10
 C,3,11,Adeste animae,,,,,,,,,,,Mus.Hs.15715,,,,,,,,Motets 6,,,A.IV.11,B.VI.14,@Eybl1996 [p. 47],
 C,3,12,Laudes Mariae resonans,,,,,,,,,I 2767,,Mus.Hs.15719,,,,,,Mus.2968-E-501,CZ-Bm A 14651,"Motets 10, Hymns 5",,,"A.IV.12, A.V.2","B.II.1, B.VI.18",@Eybl1996 [p. 56],
 C,3,13,Almo factori omnium,,,,,,,,,,,Mus.Hs.15711,,,,,,,,Motets 3,,,A.IV.13,B.VI.10,"@BrtniceInv [p. 111, no. 5], @Strakova1963, @Strakova1965, @Eybl1996 [p. 57]",
-C,3,14,Voluntarie sacrificabo tibi,,,,,,,,,,,Mus.Hs.15703,,,,,,,,Motets 9,,,A.IV.14,B.VI.2,@Eybl1996 [p. 56],
+C,3,14,Voluntarie sacrificabo tibi,,,,,,,,,,,Mus.Hs.15703,,,,,,,D-OB MO 812,Motets 9,,,A.IV.14,B.VI.2,"@Haberkamp1986 [p. 206], @Eybl1996 [p. 56]",
 C,3,15,O admirabile commercium,,,,,,,,,,,Mus.Hs.15704,,,,,,,,Motets 14,,,A.IV.15,B.VI.3,@Eybl1996 [p. 56],
-C,3,16,Domine Deus creator,,,,,,,,,,,Mus.Hs.15707,,,,,,,D-OB MO 812,Motets 7,,,A.IV.16,B.VI.6,@Haberkamp1986 [p. 206],
+C,3,16,Domine Deus creator omnium,,,,,,,,,,,Mus.Hs.15707,,,,,,,D-OB MO 812,Motets 7,,,A.IV.16,B.VI.6,"@Haberkamp1986 [p. 206], @Eybl1996 [p. 56]",
 C,3,17,Audite insulae,,,,,,,,,,,Mus.Hs.15718,,,,,,,,Motets 2,,,A.IV.17,B.VI.17,@Eybl1996 [p. 56],
 C,3,18,Venite ad me,,,,,,,,,,,Mus.Hs.15712,,,,,,,,Motets 8,,,A.IV.18,B.VI.11,@Eybl1996 [p. 56],
 C,3,19,Maria gustum sentio,,,,,,,,,,,Mus.Hs.15708,,,,,,,,Motets 16,,,A.IV.19,B.VI.7,"@BrtniceInv [p. 111, no. 7], @Strakova1963, @Strakova1965",
@@ -181,7 +181,7 @@ D,1,L2,Vesperae de Apostolis,,,,A.126.9,,,,,,,,,,,,,,,,,,,,"@KlosterneuburgInvA 
 D,1,S1,Vesperae de Dominica et Beata,,,,,,,,E XXII 9 a,,,,,,,,,,,,,,,,,by Reutter (HofR 110/16)
 D,2,1,Benedictus,,,,,,,,,I 1693/29,,,,,,,,,,Vespers 1,,,A.III.1,B.XI.12.V,,
 D,2,2,Confitebor,,,,,,,,,,,Mus.Hs.15677,,,,,,,,Vespers 2,,,A.III.2,B.XI.5,@Bartos2018 [p. 331],
-D,2,3,Confitebor,,,,,,,,,,,Mus.Hs.15678,,,,,,,,Vespers 3,,,A.III.4,B.XI.6,,
+D,2,3,Confitebor,,,,,,,,,,,Mus.Hs.15678,,,,,,,,Vespers 3,,,A.III.4,B.XI.6,,"single extant source incomplete (S, A, T, B, vl 1)"
 D,2,4,Credidi,,,,,,,,,,,,E 1/15,,,,,,,,,,,,,
 D,2,5,Cum invocarem,,,,,,,,,I 17565/1,,Mus.Hs.19194/1,,,,,,,,Vespers 5,,,A.III.5,B.XI.1,,
 D,2,6,De profundis,,,,,,,,,,,Mus.Hs.15724/1,,,,,,,,Vespers 7,,,A.III.6,B.XIII.5a,@Eybl1996 [p. 58],

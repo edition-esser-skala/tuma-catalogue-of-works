@@ -7,7 +7,7 @@ notes = \relative c' {
   r2^\partSc r8 c' c c
   c4 c r h8 h
   a4 h8 h g4 g8 h
-  c h16 h h8[ c] h4 r
+  c h16 h h8[ a] h4 r
 }
 
 text = \lyricmode {
