@@ -1,5 +1,22 @@
 # Changelog {.unnumbered}
 
+## 0.11.0 – 2025-04-19
+
+### Added
+
+- works: TumW D.2.12 and L.4
+- incipits and metadata: TumW A.12, C.2.3, C.3.16, C.4.3, C.5.S1, and D.2.5
+- source D-OB MO 812 for TumW C.3.14
+- reference Pulkert 1973
+
+### Changed
+
+- Subgroup D.4 has been renamed to *Canticles*.
+- TumW D.2.21 has been reclassified to D.4.4.
+- In group D.2, works 12–20 have been renumbered to 13–21.
+- technically equivalent to WerW v0.13.0
+
+
 ## 0.10.0 – 2025-03-08
 
 ### Added
