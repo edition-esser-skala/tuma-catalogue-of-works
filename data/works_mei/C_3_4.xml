@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
+    <altId>ark:68748/ft1c34</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -60,16 +61,8 @@
             <ref targettype="pandoc-citation">@Eybl1996 [p. 58]</ref>
           </bibl>
           <bibl>
-            <genre>score</genre>
-            <composer>Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma</composer>
-            <title level="m">O magnum mysterium</title>
-            <editor>Friedrich H&#xE4;gele</editor>
-            <identifier>BU 2454</identifier>
-            <imprint>
-              <publisher>Dr. J. Butz Musikverlag</publisher>
-              <pubPlace>Bonn</pubPlace>
-              <date isodate="2011-01-01">2011</date>
-            </imprint>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@Haegele2011</ref>
           </bibl>
         </biblList>
         <classification>

@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
+    <altId>ark:68748/ft1h2</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -57,7 +58,7 @@
           <head>Bibliography</head>
           <bibl>
             <genre>reference</genre>
-            <ref label="">@Eybl1996 [p. 56]</ref>
+            <ref targettype="pandoc-citation">@Eybl1996 [p. 56]</ref>
           </bibl>
         </biblList>
         <classification>
