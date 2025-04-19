@@ -14,6 +14,5 @@ This repository and all of its scripts are based upon [edition-esser-skala/werne
 2. Create PAE sources for RISM incipits: `Rscript script/create_rism_incipits.R`.
 3. Engrave all incipits: `make -f script/make_incipits.mk`.
 4. Prepare webpages: `Rscript script/prepare_pages.R`.
-5. Render with Quarto: `quarto render`.
-6. Move generated files into the site folder: `cp -r data/works_mei _book/metadata && cp -r incipits _book` (not necessary during preview).
-7. Deploy the folder `_book` via rsync, either to the folder `tuma-catalogue` (released versions) or `tuma-catalogue-draft` (draft versions).
+5. Render with Quarto: `quarto render` (also executes the post-render script `script/post_render.sh`).
+6. Deploy the folder `_book` via rsync, either to the folder `tuma-catalogue` (released versions) or `tuma-catalogue-draft` (draft versions).

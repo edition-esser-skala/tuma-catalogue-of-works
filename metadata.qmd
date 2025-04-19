@@ -14,11 +14,13 @@ Each individual work is documented as follows in MEI metadata. (For a technical 
   - *PesMa*: number in the thematic catalogue of masses by @Peschek1956
   - *ReiMa*: number in the thematic catalogue of masses by @Reichert1935
   - *VogIn*: number in the thematic catalogue by @Vogg1951
+- *ARK*: Archival Resource Keys of the human-readable catalogue entry and the metadata in MEI format
 - **scoring** ([abbreviations](https://opac.rism.info/scoring-abbreviations) as used in RISM)
 - **roles** (optional; names of the vocal soloists)
 - **genre**: antiphon, canticle, concerto, gradual, hymn, lamentation, litany, Marian antiphon, Marian hymn, mass, motet, offertory, oratorio, partita, pastorella, profane vocal music, psalm, requiem, responsory, rorate, sacred song, sequece, sinfonia, sonata, te deum, vesper
 - **place** and **date of composition**
 - **bibliography**
+- **editions**
 - **work notes** (e.g., why is an attribution spurious?)
 
 

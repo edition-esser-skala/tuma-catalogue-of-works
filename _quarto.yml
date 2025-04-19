@@ -1,5 +1,6 @@
 project:
   type: book
+  post-render: bash script/post_render.sh
 
 book:
   title: František Ignác Antonín Tůma
@@ -41,7 +42,9 @@ book:
   page-navigation: false
   favicon: images/favicon.png
 
-bibliography: references.bib
+bibliography:
+ - editions.bib
+ - references.bib
 csl: "apa-6th-edition.csl"
 
 format:

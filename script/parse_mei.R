@@ -20,11 +20,6 @@ cols_identifiers <-
   list_simplify()
 catalogue_prefix <- params$catalogue_prefix
 
-work_page_names <-
-  read_csv("data/catalogue_overview.csv") %>%
-  distinct(group, file) %>%
-  deframe()
-
 instruments_unimarc <-
   read_csv("data/instrument_abbreviations.csv") %>%
   select(abbreviation, unimarc) %>%
@@ -70,6 +65,9 @@ WORK_TEMPLATE_DETAILED <- '
 Identification
 : {identifiers}
 
+ARKs
+: {ark}
+
 Scoring
 : {work_scoring}
 
@@ -91,7 +89,7 @@ Place and date of composition
 ### Sources
 {sources}
 
-[Download metadata](/metadata/{work_id}.xml)
+[Download metadata](/metadata/mei/{work_id}.xml)
 :::'
 
 
@@ -191,6 +189,28 @@ SUBTITLE_TEMPLATE <- "[{title}]{{.other-title}}"
 EDITION_LINK_TEMPLATE <- "[![](../images/ees_link.svg)]({link})"
 
 
+## ARK ----
+
+ARK_TEMPLATE_SHORT <- "[{ark}](https://n2t.net/{ark})"
+
+ARK_TEMPLATE_FULL <- paste0(
+  ARK_TEMPLATE_SHORT,
+  " (human-readable catalogue entry)<br/>",
+  "[{ark}.mei](https://n2t.net/{ark}.mei) (metadata in MEI format)"
+)
+
+
+## Dublin Kernel ----
+
+ERC_TEMPLATE <- "
+erc:
+who: {who}
+what: {what}
+when: {when}
+where: {where}
+support-what: {support_what}
+"
+
 
 # Functions ---------------------------------------------------------------
 
@@ -199,19 +219,18 @@ EDITION_LINK_TEMPLATE <- "[![](../images/ees_link.svg)]({link})"
 # of the MEI formatting nodes
 # add hyperlinks when referencing other works or RISM entries
 format_mei_text <- function(xml_data) {
-  pattern_work <- paste(catalogue_prefix, "([A-Z])(\\.[\\dSL]+)?(\\.[\\dSL]+)")
+  pattern_work <- paste(catalogue_prefix, "([A-Z](?:\\.[\\dSL]+){1,2})")
   pattern_rism <- "RISM (\\d+)"
 
   link_work <- function(s) {
     ref <- str_match(s, pattern_work)[1,]
     link_text <- ref[1]
-    group <- ref[2]
-    work_id <- str_flatten(ref[-1], na.rm = TRUE)
+    blade <-
+      ref[2] %>%
+      str_replace_all("\\.", "") %>%
+      str_to_lower()
 
-    str_glue(
-      "[{link_text}]",
-      "(/groups/{work_page_names[group]}.qmd#work-{work_id})"
-    )
+    str_glue("[{link_text}](https://n2t.net/ark:{params$ark}{blade})")
   }
 
   link_rism <- function(s) {
@@ -298,7 +317,65 @@ format_key <- function(k) {
   )
 }
 
+# format Archival Resource Key
+# also generates ERC metadata for the catalogue entry
+# and the associated MEI metadata
+format_ark <- function(meihead,
+                       title,
+                       work_id,
+                       template = c("full", "short")) {
+  template <- match.arg(template)
+  book <- read_yaml("_quarto.yml")$book
+  ark <- pluck(
+    meihead,
+    "altId",
+    1,
+    .default = paste0(
+      "ark:",
+      params$ark,
+      work_id %>% str_replace_all("_", "") %>% str_to_lower()
+    )
+  )
+
+  # create record for '?info' inflection of catalogue entry
+  use_template(
+    ERC_TEMPLATE,
+    who = book$author,
+    what = str_glue("Catalogue entry ",
+                    "for '{title} ({catalogue_prefix} ",
+                    "{str_replace_all(work_id, '_', '.')})' ",
+                    "in: {book$title}. {book$subtitle}"),
+    when = lubridate::today(),
+    where = str_glue("https://n2t.net/{ark}"),
+    support_what = params$persistence
+  ) %>%
+    write_file(str_glue("data_generated/erc/{work_id}_entry.txt"))
+
+  # create record for '?info' inflection of MEI metadata only if available
+  if (template == "full")
+    use_template(
+      ERC_TEMPLATE,
+      who = book$author,
+      what = str_glue("Metadata in Music Encoding Initiative (MEI) format ",
+                      "for '{title} ({catalogue_prefix} ",
+                      "{str_replace_all(work_id, '_', '.')})' ",
+                      "in: {book$title}. {book$subtitle}"),
+      when = lubridate::today(),
+      where = str_glue("https://n2t.net/{ark}.mei"),
+      support_what = params$persistence
+    ) %>%
+      write_file(str_glue("data_generated/erc/{work_id}_mei.txt"))
+
+  if (template == "full")
+    use_template(ARK_TEMPLATE_FULL, ark = ark)
+  else
+    use_template(ARK_TEMPLATE_SHORT, ark = ark)
+}
+
 # formats titles
+# returns a list with elements
+#  'main' (main title) and
+#  'all' (all formatted titles)
 format_title <- function(d) {
   title_indices <-
     names(d) %>%
@@ -310,8 +387,12 @@ format_title <- function(d) {
     \(i) use_template(SUBTITLE_TEMPLATE, title = d[[i]][[1]])
   )
 
-  c(main_title, other_titles) %>%
-    str_flatten("<br/>")
+  list(
+    main = main_title,
+    all =
+      c(main_title, other_titles) %>%
+      str_flatten("<br/>")
+  )
 }
 
 # format incipits (lightbox expanding to orchestral incipit)
@@ -507,49 +588,41 @@ format_creation <- function(c) {
   str_flatten_comma(c(place, date), na.rm = TRUE)
 }
 
+# get bibliography entries of a given genre
+# issue a warning if the targettype is incorrect
+get_bibliography_entries <- function(bibllist, genre) {
+  bibllist %>%
+    keep(\(bibl) !is.null(bibl$genre) && bibl$genre == genre) %>%
+    map_chr(\(bibl) {
+      targettype <- attr(bibl$ref, "targettype") %||% "(missing)"
+      citation <- bibl$ref[[1]]
+      if (targettype != "pandoc-citation")
+        warn("citation {citation} has wrong targettype '{targettype}'")
+      citation
+    }) %>%
+    str_sort()
+}
+
 # format bibliography (PanDoc style)
+# b: <biblList>
 # also adds a link to the EES edition if available
 # returns a list containing the markdown-formatted bibliography
-# as well as the raw entries
+# as well as the raw entries for references and edition
 format_bibliography <- function(b, work_id) {
   b <- b %||% list()
+  entries_ref <- get_bibliography_entries(b, "reference")
+  entries_edition <- get_bibliography_entries(b, "edition")
 
-  entries_ref <-
-    b %>%
-    keep(\(x) !is.null(x$genre) && x$genre == "reference") %>%
-    map_chr(\(i) i$ref[[1]]) %>%
-    str_sort()
-
-  entries_score <-
-    b %>%
-    keep(\(x) !is.null(x$genre) && x$genre == "score") %>%
-    map_chr(\(i) {
-      res <- str_glue("{i$composer}: *{i$title}*.")
-
-      if (!is.null(i$editor))
-        res <- str_glue("{res} Edited by {i$editor}.")
-
-      imprint <-
-        c(i$imprint$publisher, i$imprint$pubPlace, i$imprint$date) %>%
-        str_flatten_comma()
-      res <- str_glue("{res}<br/>&emsp;{i$identifier}. {imprint}.")
-
-      if (!is.null(i$ptr))
-        res <- str_glue("{res} [{attr(i$ptr, 'label')}]({attr(i$ptr, 'target')})")
-
-      res
-    })
-
+  # check whether there is an EES edition
+  ees_edition <- NULL
   if (work_id %in% AVAILABLE_EDITIONS) {
     link <- paste0(
       params$edition$url,
       str_to_lower(work_id) %>% str_replace_all("_", "-")
     )
-    entries_score <- c(
-      entries_score,
-      use_template(EDITION_LINK_TEMPLATE, link = link)
-    )
+    ees_edition <- use_template(EDITION_LINK_TEMPLATE, link = link)
   }
+  entries_edition_all <- c(entries_edition, ees_edition)
 
   markdown <- str_flatten(
     c(
@@ -559,8 +632,8 @@ format_bibliography <- function(b, work_id) {
         ""
       ),
       if_else(
-        length(entries_score) > 0,
-        paste("Editions\n:", str_flatten(entries_score, "<br/>")),
+        length(entries_edition_all) > 0,
+        paste("Editions\n:", str_flatten_comma(entries_edition_all)),
         ""
       )
     ),
@@ -570,7 +643,7 @@ format_bibliography <- function(b, work_id) {
   list(
     markdown = markdown,
     entries_ref = entries_ref,
-    entries_score = entries_score
+    entries_edition = entries_edition
   )
 }
 
@@ -1031,7 +1104,8 @@ validate_metadata <- function(group,
                               subgroup,
                               number,
                               title,
-                              bibliography,
+                              references,
+                              editions,
                               identifiers,
                               sources,
                               table_metadata,
@@ -1049,13 +1123,24 @@ validate_metadata <- function(group,
 
   # references
   if (is.na(table_metadata$literature))
-    table_bibliography <- character(0)
+    table_references <- character(0)
   else
-    table_bibliography <-
+    table_references <-
       table_metadata$literature %>%
       str_split_1(", @") %>%
       str_remove("@")
-  check_equal_list(str_remove(bibliography, "@"), table_bibliography) %>%
+  check_equal_list(str_remove(references, "@"), table_references) %>%
+    report()
+
+  # editions
+  if (is.na(table_metadata$editions))
+    table_editions <- character(0)
+  else
+    table_editions <-
+    table_metadata$editions %>%
+    str_split_1(", @") %>%
+    str_remove("@")
+  check_equal_list(str_remove(editions, "@"), table_editions) %>%
     report()
 
   # identifiers
@@ -1109,6 +1194,13 @@ get_work_details <- function(group,
     number_formatted <- str_glue("[{number}]{{.text-warning}}")
 
   title <- format_title(data_work)
+
+  ark <- format_ark(
+    meihead = data,
+    title = title$main,
+    work_id = work_id,
+    template = "full"
+  )
 
   incipits <- format_incipits(data_music$incip, work_id)
 
@@ -1165,8 +1257,9 @@ get_work_details <- function(group,
     group = group,
     subgroup = subgroup,
     number = number,
-    title = title,
-    bibliography = bibliography$entries_ref,
+    title = title$all,
+    references = bibliography$entries_ref,
+    editions = bibliography$entries_edition,
     identifiers = set_names(identifier_ids, identifier_catalogues),
     sources = data_sources,
     table_metadata = table_metadata,
@@ -1179,10 +1272,11 @@ get_work_details <- function(group,
     subgroup = str_flatten(c(".", subgroup)),
     number = number,
     number_formatted = number_formatted,
-    title = title,
+    title = title$all,
     incipits = incipits,
     sources_short = sources_short,
     identifiers = identifiers,
+    ark = ark,
     work_scoring = work_scoring$markdown,
     roles = roles,
     genre = genre,

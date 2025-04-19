@@ -59,9 +59,11 @@ The catalogue contains at least the following information for each work:
 - title
 - one or more incipits
 - identifiers in other catalogues
+- [Archival Resource Key](#arks)
 - sources (linked to the respective RISM entry, if available)
 - miscellaneous notes
 - relevant literature
+- modern editions
 
 In addition, we are annotating more and more works with [detailed metadata](metadata.qmd) in MEI format [@MEI2023].
 
@@ -115,7 +117,26 @@ rm output.xml
 
 Later changes in the RISM database were manually added to the catalogue (2025-02-09: 331 entries for “Tůma, František Ignác” and 4 entries for “Tůma”). Pages for all groups of works were generated automatically from `catalogue_overview.csv` and `catalogue_works.csv`. If manually curated incipits were unavailable for a work, the first incipit of the first source with a RISM entry was included. Data from the [RISM Catalogue](https://opac.rism.info) (e.g., Plaine & Easie Code for incipits) by the *Répertoire International des Sources Musicales* is licensed under a Creative Commons Attribution CC-BY 3.0 Unported License.
 
-Detailed work metadata was edited with [MerMEId v2.0](https://mermeid.edirom.de/). Incipits were either prepared with [MuseScore](https://musescore.org), polished with [mei-friend](https://mei-friend.mdw.ac.at), and rendered with [Verovio](https://www.verovio.org), or created with [LilyPond](https://lilypond.org/) and [EES Tools](https://github.com/edition-esser-skala/ees-tools). XML files were exported from MerMEId and post-processed. These pages are rendered using the [BravuraText](https://github.com/steinbergmedia/bravura) font v1.392 and Verovio.
+Detailed work metadata was edited with [MerMEId v2.0](https://mermeid.edirom.de/). Incipits were either prepared with [MuseScore](https://musescore.org), polished with [mei-friend](https://mei-friend.mdw.ac.at), and rendered with [Verovio](https://www.verovio.org), or created with [LilyPond](https://lilypond.org/) and [EES Tools](https://github.com/edition-esser-skala/ees-tools). XML files were exported from MerMEId, post-processed and validated against the schema [mei-CMN](https://github.com/music-encoding/schema/blob/main/4.0.0/mei-CMN.rng). These pages are rendered using the [BravuraText](https://github.com/steinbergmedia/bravura) font v1.392 and Verovio.
+
+
+### ARKs
+
+A semi-opaque Archival Resource Key ([ARK](https://arks.org)) is assigned to each work as persistent identifier:
+
+- Each ARK uses the Name Assigning Authority Number ([NAAN](https://arks.org/about/ark-naans-and-systems/)) `68748` …
+ - … and the [Shoulder](https://arks.org/about/ark-features/) `ft1`.
+ - The [Blade](https://arks.org/specs/) consists of the catalogue of work number (lowercase, no separators).
+
+Thus, the ARKs [ark:68748/ft1a1](https://n2t.net/ark:68748/ft1a1) and [ark:68748/ft1c313](https://n2t.net/ark:68748/ft1c313) denote TumW A.1 and C.3.13, respectively.
+
+ARKs are resolved by `https://ark.esser-skala.at` via a [minimal ARK resolver](https://github.com/edition-esser-skala/minimal-ark-resolver). (They are also forwarded to the resolver from this site's base URL via its `.htaccess` file.) The resolver supports the following features:
+
+- The object variant `.mei` directly resolves to the metadata in MEI format.<br/>
+Example: [ark:68748/ft1a9.mei](https://n2t.net/ark:68748/ft1a9.mei)
+- The inflection `?info` yields a brief metadata record following the [Dublin Kernel](https://www.dublincore.org/groups/kernel/spec/) specification, including a persistence statement using the [NLM vocabulary](https://www.nlm.nih.gov/pubs/techbull/ma05/ma05_archive.html).<br/>
+Examples: [ark:68748/ft1a9?info](https://n2t.net/ark:68748/ft1a9?info) and [ark:68748/ft1a9.mei?info](https://n2t.net/ark:68748/ft1a9.mei?info)
+
 
 
 ### Data and code availability

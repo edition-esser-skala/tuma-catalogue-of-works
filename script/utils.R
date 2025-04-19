@@ -10,7 +10,7 @@ default_logger <- log4r::logger(
   threshold = "DEBUG",
   appenders = list(
     log4r::console_appender(),
-    log4r::file_appender("catalogue.log", append = FALSE)
+    log4r::file_appender("data_generated/catalogue.log", append = FALSE)
   )
 )
 
@@ -28,7 +28,13 @@ warn <- function(..., .envir = parent.frame()) {
 
 error <- function(..., .envir = parent.frame()) {
   log4r::error(default_logger, glue::glue(..., .envir = .envir))
-  stop(call. = FALSE)
+}
+
+summarise_loglevels <- function() {
+  logfile <- read_lines("data_generated/catalogue.log")
+  errors <- logfile %>% str_starts("ERROR") %>% sum()
+  warnings <- logfile %>% str_starts("WARN") %>% sum()
+  info("Log summary: {errors} errors, {warnings} warnings")
 }
 
 

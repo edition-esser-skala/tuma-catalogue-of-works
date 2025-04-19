@@ -65,12 +65,22 @@ WORK_TEMPLATE_OVERVIEW <- '
 |||
 |-|-|
 |*Identifiers*|{identification}|
+|*ARK*|{ark}|
 |*Sources*|{sources}|
 |*Notes*|{notes}|
 |*Literature*|{literature}|
+|*Editions*|{editions}|
 
 : {{tbl-colwidths="[12,87]" .movement-details}}
 '
+
+## ARK mapping table ----
+
+ARK_MAPPING_TEMPLATE <-
+"{blade},{siteurl}/groups/{file}.html#work-{work_id_dots}
+{blade}.mei,{siteurl}/metadata/mei/{work_id}.xml
+{blade}?info,{siteurl}/metadata/erc/{work_id}_entry.txt
+{blade}.mei?info,{siteurl}/metadata/erc/{work_id}_mei.txt\n\n"
 
 
 
@@ -130,13 +140,13 @@ make_incipits <- function(group, subgroup, number) {
 }
 
 
-make_work_entry <- function(group, subgroup, number, sources, ...) {
+make_work_entry <- function(group, subgroup, number, sources, file, ...) {
   metadata <- list(...)
   work_id <- str_flatten(c(group, subgroup, number), "_", na.rm = TRUE)
 
   if (file_exists(str_glue("data/works_mei/{work_id}.xml"))) {
     info("Writing detailed entry for {work_id}")
-    get_work_details(group, subgroup, number, metadata, sources)
+    entry <- get_work_details(group, subgroup, number, metadata, sources)
   } else {
     info("Writing overview entry for {work_id}")
 
@@ -149,6 +159,13 @@ make_work_entry <- function(group, subgroup, number, sources, ...) {
       number_formatted <- str_glue("[{number}]{{.text-warning}}")
 
     identification <- format_identifiers(metadata, sep = " · ")
+
+    ark <- format_ark(
+      meihead = NULL,
+      title = metadata$title,
+      work_id = work_id,
+      template = "short"
+    )
 
     sources <-
       pmap_chr(
@@ -165,7 +182,7 @@ make_work_entry <- function(group, subgroup, number, sources, ...) {
       str_sort() %>%
       str_flatten(" · ")
 
-    use_template(
+    entry <- use_template(
       WORK_TEMPLATE_OVERVIEW,
       group = group,
       subgroup = str_flatten(c(".", subgroup)),
@@ -174,11 +191,32 @@ make_work_entry <- function(group, subgroup, number, sources, ...) {
       title = metadata$title,
       incipits = incipits,
       identification = identification,
+      ark = ark,
       sources = sources,
       notes = metadata$notes,
-      literature = str_sort(metadata$literature)
+      literature = str_sort(metadata$literature),
+      editions = str_sort(metadata$editions)
     )
   }
+
+  # write entries for ARK mapping table
+  blade <-
+    work_id %>%
+    str_replace_all("_", "") %>%
+    str_to_lower()
+  siteurl <- read_yaml("_quarto.yml")$book$`site-url`
+
+  use_template(
+    ARK_MAPPING_TEMPLATE,
+    work_id = work_id,
+    work_id_dots = str_replace_all(work_id, "_", "."),
+    blade = blade,
+    siteurl = siteurl,
+    file = file
+  ) %>%
+    write_file("data_generated/ark_mapping_table.csv", append = TRUE)
+
+  entry
 }
 
 
@@ -187,6 +225,7 @@ make_group_page <- function(file, group, title, subgroups) {
     page_contents <-
       works %>%
       filter(group == {{group}}) %>%
+      mutate(file = file) %>%
       pmap_chr(make_work_entry) %>%
       str_flatten("\n\n")
   } else {
@@ -197,6 +236,7 @@ make_group_page <- function(file, group, title, subgroups) {
           work_list <-
             works %>%
             filter(group == {{group}}, subgroup == {{subgroup}}) %>%
+            mutate(file = file) %>%
             pmap_chr(make_work_entry) %>%
             str_flatten("\n\n")
           use_template(
@@ -223,15 +263,16 @@ make_group_page <- function(file, group, title, subgroups) {
 
 ## Run ----
 
+if (file_exists("data_generated/ark_mapping_table.csv"))
+  file_delete("data_generated/ark_mapping_table.csv")
+
 if (dir_exists("groups")) dir_delete("groups")
-if (dir_exists("_book/incipits")) dir_delete("_book/incipits")
-if (dir_exists("_book/metadata")) dir_delete("_book/metadata")
-
 dir_create("groups")
-dir_copy("data/works_mei", "_book/metadata")
-pwalk(work_pages, make_group_page)
 
-dir_copy("incipits", "_book/incipits")
+if (dir_exists("data_generated/erc")) dir_delete("data_generated/erc")
+dir_create("data_generated/erc")
+
+pwalk(work_pages, make_group_page)
 
 
 
@@ -273,9 +314,9 @@ n_ascertained <-
 
 overview_table_count <-
   works %>%
-  unite(group, subgroup, col = "group", sep = ".", na.rm = TRUE) %>%
+  unite(group, subgroup, col = "group_sub", sep = ".", na.rm = TRUE) %>%
   summarise(
-    .by = group,
+    .by = group_sub,
     n = n(),
     l = sum(str_starts(number, "L")),
     s = sum(str_starts(number, "S")),
@@ -288,7 +329,7 @@ overview_table_count <-
       '<span class="text-danger">{s}</span>'
     )
   ) %>%
-  select(group, work_count)
+  select(group_sub, work_count)
 
 overview_table_groups <-
   work_pages %>%
@@ -297,29 +338,31 @@ overview_table_groups <-
     subgroups %>% unnest(subgroups),
     by = "group"
   ) %>%
-  unite(group, subgroup, col = "group", sep = ".", na.rm = TRUE) %>%
+  unite(group, subgroup, col = "group_sub", sep = ".", na.rm = TRUE) %>%
   left_join(
     overview_table_count,
-    by = "group"
+    by = "group_sub"
   ) %>%
   unite(group_name, title, col = "group_name", sep = ": ", na.rm = TRUE) %>%
   mutate(group_name = str_glue("**{group_name}** ({work_count})"))
 
 overview_table_details <-
   tibble(
-    WerW =
+    id =
       dir_ls("data/works_mei", type = "file") %>%
       str_extract("works_mei/(.*)\\.xml$", group = 1),
-    Metadata = str_glue("[XML](/metadata/{WerW}.xml)"),
+    Metadata = str_glue("[XML](/metadata/mei/{id}.xml)")
   ) %>%
-  mutate(WerW = str_replace_all(WerW, "_", "."))
+  mutate(id = str_replace_all(id, "_", ".")) %>%
+  select(id, Metadata)
 
 overview_table <-
   works %>%
-  unite(group, subgroup, col = "group", sep = ".", na.rm = TRUE) %>%
-  left_join(overview_table_groups, by = "group") %>%
-  unite(group, number, col = "WerW", sep = ".", remove = FALSE) %>%
-  left_join(overview_table_details, by = "WerW") %>%
+  unite(group, subgroup, col = "group_sub", sep = ".", remove = FALSE, na.rm = TRUE) %>%
+  left_join(overview_table_groups, by = "group_sub") %>%
+  unite(group_sub, number, col = "id", sep = ".", remove = FALSE) %>%
+  left_join(overview_table_details, by = "id") %>%
+  unite(subgroup, number, col = "anchor", sep = "", remove = FALSE, na.rm = TRUE) %>%
   mutate(
     number = case_when(
       str_starts(number, "S") ~
@@ -329,13 +372,13 @@ overview_table <-
       .default = number
     ),
     label = if_else(is.na(Metadata), "summary", "details"),
-    Description = str_glue("[{label}](/groups/{file}.html#work-{WerW})"),
+    Description = str_glue("[{label}](/groups/{file}.html#work-{id})"),
     Metadata = replace_na(Metadata, "")
   ) %>%
-  unite(group, number, col = "WerW", sep = ".") %>%
-  select(group_name, WerW, Title = title, Description, Metadata) %>%
+  select(group_name, id, Title = title, Description, Metadata) %>%
   gt(groupname_col = "group_name", process_md = TRUE) %>%
-  fmt_markdown(columns = c("WerW", "Description", "Metadata")) %>%
+  cols_label(id = catalogue_prefix) %>%
+  fmt_markdown(columns = c("id", "Description", "Metadata")) %>%
   tab_options(
     column_labels.font.weight = "bold",
     row_group.background.color = "grey90"
@@ -432,3 +475,5 @@ use_template(
   sigla = sigla
 ) %>%
   write_file(str_glue("abbreviations.qmd"))
+
+summarise_loglevels()
