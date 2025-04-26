@@ -3,16 +3,16 @@
 
 notes = \relative c' {
   \clef soprano
-  \key g \minor \time 4/4 \autoBeamOff
-  d'8[^\partSs es] d c b16[ a] g8 es'4
-  d16[ c] b8 r4 f'8[ g] f[ es]
-  d16[ c] b8 b b a a g g
-
+  \key c \dorian \time 4/4 \autoBeamOff \tempoMarkup "[no tempo]"
+  c'4^\partSc g8 c es4 es8 d
+  c4 h16[ c d8] g,4 h8 c
+  h c4 \hA h8 c4. c8
 }
 
 text = \lyricmode {
   A -- ve Re -- gi -- na coe --
-  lo -- rum
+  lo -- _ rum, a -- ve
+  Do -- mi -- na An -- "ge -"
 }
 
 \score {

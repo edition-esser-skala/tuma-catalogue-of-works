@@ -2,16 +2,20 @@
 \include "header.ly"
 
 notes = \relative c' {
-  \clef tenor
-  \key c \dorian \time 4/4 \autoBeamOff \tempoMarkup "Andante"
-  c4^\partTs g8 es' d4 c8 h
-  c4 g \clef treble \autoBeamOn c''16^\partVi as \grace g f8~ f16 f g f
-  b g \grace f es8~ es16 es f es as f \grace es d8 g16 es \grace d c8
+  \clef soprano
+  \key f \major \time 4/2 \tempoMarkup "[no tempo]" \autoBeamOff
+    \set Staff.timeSignatureFraction = 2/2
+  f1 g
+  b a2 a
+  c1 f,2 f
+  a2. g8[ f] g1~
 }
 
 text = \lyricmode {
-  A -- ve Re -- gi -- na coe --
-  lo -- rum,
+  A -- ve,
+  a -- ve Re --
+  gi -- na coe --
+  lo -- _ \hy
 }
 
 \score {
