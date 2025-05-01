@@ -999,12 +999,21 @@
           <item>
             <identifier/>
             <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="30.5" unit="cm">30.5 (height in cm)</height>
+                <width quantity="22" unit="cm">22 (width in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
               <extent>21 parts</extent>
               <titlePage label="[wrapper]">
-                <p>Motetti 3 | N:I Parce mihi Domine | N:II Taedet animam meas | N:III Manus tuae fecerunt me | &#xE2; | 4 Voc: Conc: | 2 Violini | 2 Tromboni Conc: | Con | Organo Violone | Violoncello | Ex Musicalibus Chori Scotensis | Part: 15 | Del Sig: Tuma</p>
+                <p>Motetti. 3. | N:I. Parce mihi Domine. | N:II. T&#xE6;det animam meam. | N:III. Manus tu&#xE6; fecerunt me. | &#xE2;. | 4. Voc: Conc: | 2. Violini | 2. Tromboni Conc: | Con | Organo Violone | Violoncello. | Ex Musicalibus Chori Scotensis. | Part: 15. | Del Sig: Tuma.</p>
               </titlePage>
               <physMedium>
-                <p>hand-ruled paper</p>
+                <p>hand-ruled paper, 10 staves (11 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -1017,8 +1026,8 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>S solo and coro, A solo and coro, T solo and coro, B solo and coro, S coro (2x), A coro (2x), T coro (2x), B coro (2x), trb 1, trb 2, vl 1 (2x), vl 2 (2x), vlc, vlne, org</p>
-                <p>catalogued according to index card</p>
+                <p>S solo and coro (5), A solo and coro (6), T solo and coro (8), B solo and coro (7), S coro (2x; 4, 4), A coro (2x; 2, 2), T coro (2x; 2, 2), B coro (2x; 2, 2), trb 1 (4), trb 2 (4), vl 1 (2x; 6, 5), vl 2 (2x; 5, 5), vlc (5), vlne (5), org (6)</p>
+                <p>wrapper (fol. 2v) contains one performance date 1760-04-22 (<rend fontstyle="italic">Pro Padianin</rend>)</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
