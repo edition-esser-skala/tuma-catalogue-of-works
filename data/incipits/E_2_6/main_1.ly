@@ -3,10 +3,10 @@
 
 notes = \relative c' {
   \clef soprano
-  \key d \dorian \time 4/4 \autoBeamOff
+  \key d \dorian \time 4/4 \autoBeamOff \tempoMarkup "[no tempo]"
   d'4^\partSc a8 f' e4 d8 cis
   d a r4 r a8 a
-  b b16 b c!8 c a a a16[ b] a[ b]
+  b b16 b c!8 c a a a16[ b] a[ \hA b]
 }
 
 text = \lyricmode {

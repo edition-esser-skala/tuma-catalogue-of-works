@@ -3,7 +3,7 @@
 
 notes = \relative c' {
   \clef tenor
-  \key a \minor \time 4/4 \autoBeamOff
+  \key a \minor \time 4/4 \autoBeamOff \tempoMarkup "Allegretto"
   e4^\partTs c a8 h16[ c] d8 c
   h16[ a] h8 r g g a16 h c8 b
   a16[ g] a8 a4 a8 h16[ c] d8 c
