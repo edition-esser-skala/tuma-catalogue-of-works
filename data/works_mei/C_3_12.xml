@@ -45,6 +45,7 @@
         <identifier label="KliCh">Motets 10, Hymns 5</identifier>
         <identifier label="VogIn">A.IV.12, A.V.2</identifier>
         <title xml:lang="la">Laudes Mariae resonans</title>
+        <title type="alternative" xml:lang="la">Jesu Redemptor omnium</title>
         <contributor>
           <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118624539">Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma</persName>
           <corpName role=""/>
