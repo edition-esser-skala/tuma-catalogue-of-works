@@ -16,6 +16,7 @@ new %>%
   anti_join(old, by = join_spec_a) %>%
   filter(!str_starts(number, "L")) %>%
   filter(!(siglum == "A-H" & str_starts(shelfmark, "(A|B)\\."))) %>%
-  filter(!(siglum == "A-KN" & str_starts(shelfmark, "(A|B)\\.")))
+  filter(!(siglum == "A-KN" & str_starts(shelfmark, "(A|B)\\."))) %>%
+  filter(siglum != "A-Wdtö")
 old %>% anti_join(new, by = join_spec_b)
 
