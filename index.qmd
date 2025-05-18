@@ -96,6 +96,7 @@ As a supplement to the catalogue, we publish selected works as [Open Content edi
   - XXVIII E 161 (mass)
   - XXVIII E 162 (mass)
   - XXVIII E 163 (mass)
+- H-Bn: [Ms. mus. IV. 1.907](https://rism.online/sources/1001333801) (vesperae)
 - prior editions (see @Bartos2018 [p. 89ff])
 
 
@@ -128,7 +129,7 @@ grep -v "<zs:" output.xml | \
 rm output.xml
 ```
 
-Later changes in the RISM database were manually added to the catalogue (2025-02-09: 331 entries for “Tůma, František Ignác” and 4 entries for “Tůma”). Pages for all groups of works were generated automatically from `catalogue_overview.csv` and `catalogue_works.csv`. If manually curated incipits were unavailable for a work, the first incipit of the first source with a RISM entry was included. Data from the [RISM Catalogue](https://opac.rism.info) (e.g., Plaine & Easie Code for incipits) by the *Répertoire International des Sources Musicales* is licensed under a Creative Commons Attribution CC-BY 3.0 Unported License.
+Later changes in the RISM database were manually added to the catalogue (2025-05-18: 332 entries for “Tůma, František Ignác” and 4 entries for “Tůma”). Pages for all groups of works were generated automatically from `catalogue_overview.csv` and `catalogue_works.csv`. If manually curated incipits were unavailable for a work, the first incipit of the first source with a RISM entry was included. Data from the [RISM Catalogue](https://opac.rism.info) (e.g., Plaine & Easie Code for incipits) by the *Répertoire International des Sources Musicales* is licensed under a Creative Commons Attribution CC-BY 3.0 Unported License.
 
 Detailed work metadata was edited with [MerMEId v2.0](https://mermeid.edirom.de/). Incipits were either prepared with [MuseScore](https://musescore.org), polished with [mei-friend](https://mei-friend.mdw.ac.at), and rendered with [Verovio](https://www.verovio.org), or created with [LilyPond](https://lilypond.org/) and [EES Tools](https://github.com/edition-esser-skala/ees-tools). XML files were exported from MerMEId, post-processed and validated against the schema [mei-CMN](https://github.com/music-encoding/schema/blob/main/4.0.0/mei-CMN.rng). These pages are rendered using the [BravuraText](https://github.com/steinbergmedia/bravura) font v1.392 and Verovio.
 

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1a17</altId>
+    <altId type="ark">ark:68748/ft1a17</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -1179,6 +1179,75 @@
               <identifier>Mus.Hs.18992</identifier>
             </physLoc>
             <notesStmt>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date isodate="1875">2nd half 19th century</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Score</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier label="RISM">1001309407</identifier>
+            <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="34" unit="cm">34 (height in cm)</height>
+                <width quantity="26.5" unit="cm">26.5 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[title page]">
+                <p>Missa | Sancti Stephani | a | 4 Voces Conct: | 2 Violini Conct: | 2 Tromb Conc. | Organo | con | Violone | Del Sigre. Francesco Tuma.</p>
+              </titlePage>
+              <extent>60 p.</extent>
+              <dimensions/>
+              <handList>
+                <hand medium="ink" type="main">unidentified</hand>
+              </handList>
+              <physMedium>
+                <p>hand-ruled paper</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">D-Mbs</identifier>
+              </repository>
+              <identifier>Mus.ms. 5520</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>catalogued according to RISM entry</p>
+              </annot>
               <annot type="links">
                 <ptr mimetype=""/>
               </annot>

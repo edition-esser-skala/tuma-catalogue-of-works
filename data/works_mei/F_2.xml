@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1f2</altId>
+    <altId type="ark">ark:68748/ft1f2</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -81,7 +81,7 @@
               <geogName role=""/>
             </creation>
             <history/>
-            <perfMedium>
+            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
               <perfResList>
                 <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro">
                   <head xml:lang="en">coro</head>
@@ -114,7 +114,7 @@
                 <tempo>Adagio</tempo>
                 <key pname="g" mode="minor"/>
                 <meter sym="common"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_a187f694">
                       <head xml:lang="en">coro</head>
@@ -145,7 +145,7 @@
                     <tempo>Adagio &#x2013; Andante</tempo>
                     <key pname="g" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_a187f694">
                           <head xml:lang="en">coro</head>
@@ -180,7 +180,7 @@
                     <tempo>Adagio</tempo>
                     <key pname="d" mode="phrygian"/>
                     <meter count="3" unit="4"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_a187f694">
                           <head xml:lang="en">coro</head>
@@ -215,7 +215,7 @@
                     <tempo>Andante</tempo>
                     <key pname="d" mode="phrygian"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_a187f694">
                           <head xml:lang="en">coro</head>
@@ -250,7 +250,7 @@
                     <tempo>Vivace &#x2013; Adagio &#x2013; Andante &#x2013; Adagio</tempo>
                     <key pname="g" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_a187f694">
                           <head xml:lang="en">coro</head>
@@ -285,7 +285,7 @@
                     <tempo>Larghetto</tempo>
                     <key pname="e" mode="lydian" accid="f"/>
                     <meter count="3" unit="4"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_a187f694">
                           <head xml:lang="en">coro</head>
@@ -320,7 +320,7 @@
                     <tempo>Un poco adagio</tempo>
                     <key pname="c" mode="dorian"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_a187f694">
                           <head xml:lang="en">coro</head>
@@ -355,7 +355,7 @@
                     <tempo>Andante</tempo>
                     <key pname="f" mode="dorian"/>
                     <meter count="3" unit="2"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_a187f694">
                           <head xml:lang="en">coro</head>
@@ -390,7 +390,7 @@
                     <tempo>Tempo giusto</tempo>
                     <key pname="c" mode="dorian"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_a187f694">
                           <head xml:lang="en">coro</head>
@@ -425,7 +425,7 @@
                     <tempo>Adagio &#x2013; Andante</tempo>
                     <key pname="g" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_a187f694">
                           <head xml:lang="en">coro</head>
@@ -912,7 +912,138 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date notbefore="1791-01-01" notafter="1800-12-31">1791&#x2013;1800</date>
+          <date isodate="1825-01-01">1st half 19th century</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier label="RISM">201004985</identifier>
+            <physDesc>
+              <titlePage label="[caption title]">
+                <p>Stabat mater [indication of part] di Tuma</p>
+              </titlePage>
+              <extent>4 parts</extent>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <dimensions/>
+              <physMedium>
+                <p>hand-ruled paper</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">D-LEm</identifier>
+              </repository>
+              <identifier>PM 7189</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>catalogued according to RISM entry</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date isodate="1766-01-01">1766</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier label="RISM">455003089</identifier>
+            <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="31.5" unit="cm">31.5 (height in cm)</height>
+                <width quantity="23.5" unit="cm">23.5 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[cover]">
+                <p>Stabat mater | &#xE0; 4 Voc. | Canto, Alto | Tenore, Basso | Con | Organo | Del Sign ["Perolesi" crossed out and corrected:] Thuma | [at right:] In | Usum Seminarii Musici | ad S. Aloysium | Mannheimii | 1766.</p>
+              </titlePage>
+              <extent>6 parts</extent>
+              <dimensions/>
+              <physMedium>
+                <p>hand-ruled paper</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">D-MHjk</identifier>
+              </repository>
+              <identifier>ohne Signatur</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>S coro (4 f.), A coro (4 f.), T coro (4 f.), B coro (4 f.), org (2x; 4, 4 f.)</p>
+                <p>catalogued according to RISM entry</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date isodate="1850-01-01">19th century</date>
         </pubStmt>
         <classification>
           <termList>
@@ -926,7 +1057,140 @@
         </classification>
         <itemList>
           <item>
-            <identifier/>
+            <identifier label="RISM">451022947</identifier>
+            <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="32.5" unit="cm">32.5 (height in cm)</height>
+                <width quantity="24" unit="cm">24 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[cover]">
+                <p>Il Pianto della madre dolorosa | composto a quattro voci in pieno | per clementissimo commando della S: C. e R. Maest&#xE0; di Maria | Teresa Imperatrice regnante | da | Francesco Tuma M[aestro] D[i] C[appella] della f&#xF9; Maest&#xE0; l'Imperatrice | Elisabetta di piissima memoria.</p>
+              </titlePage>
+              <extent>24 f.</extent>
+              <dimensions/>
+              <physMedium>
+                <p>hand-ruled paper</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">D-M&#xDC;s</identifier>
+              </repository>
+              <identifier>SANT Hs 4196</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>catalogued according to RISM entry</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date isodate="1790-01-01">ca. 1790</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier label="RISM">530003478</identifier>
+            <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="31" unit="cm">31 (height in cm)</height>
+                <width quantity="23" unit="cm">23 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[wrapper]">
+                <p>Stabat Mater | a | 4 Voci | con | Organo | del S. Thuma.</p>
+              </titlePage>
+              <extent>5 parts</extent>
+              <dimensions/>
+              <physMedium>
+                <p>hand-ruled paper</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">H-PH</identifier>
+              </repository>
+              <identifier>Mus.sacr.ant. T 1</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>S coro, A coro, T coro, B coro, org</p>
+                <p>catalogued according to RISM entry</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date notbefore="1791" notafter="1800">1791-1800</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Score</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier label="RISM">850646989</identifier>
             <physDesc>
               <dimensions>
                 <locusGrp>
@@ -937,10 +1201,83 @@
                 <term/>
                 <extent> lines</extent>
               </dimensions>
-              <titlePage label="[title]">
+              <titlePage label="[title page]">
                 <p>il Pianto | della Madre Dolorosa | Composto | &#xE1; quattro voci in pieno | per | Clementissimo commando | della | Sac: Ces: e Real Ma:t&#xE1; | di Maria Teresa | Imperadrice Regnante | da Francesco Tuma N:D:C: della f&#xFA; Ma:t&#xE1; d'Imperadrice Elisabetta | di piissima memoria</p>
               </titlePage>
-              <extent>19 f.</extent>
+              <extent>19 fol.</extent>
+              <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
+              <physMedium>
+                <p>hand-ruled paper</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">I-Rama</identifier>
+                <ptr target="http://cloud.sbn.it/opac2/RMR/dettaglio/documento/MSM0051945" mimetype="" label="catalogue entry"/>
+              </repository>
+              <identifier>A-Mss-523</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>catalogued according to catalogue entry and @Bartos2018 [p. 82]</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date notbefore="1843-01-01" notafter="1858-12-31">1843&#x2013;1858</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Score</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier label="RISM">310002147</identifier>
+            <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="22" unit="cm">22 (height in cm)</height>
+                <width quantity="28" unit="cm">28 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[cover]">
+                <p>Nicola Sala. Resposorj a 4 voci con organo | P. Francesco Ant. Vallotti. Resposorj a 4 voci con organo | Francesco Zannetti. Offertorj a 4 voci con organo. - | Francesco Tuma. Il pianto di Maria Madre dolorosa. a 4 voci con org. | Luigi Caruso. Litanie della Beata Vergina a 4 voci. - | Giov. Maria Nanini. - Lamentazioni a 4 voci. -</p>
+              </titlePage>
+              <titlePage label="[title]">
+                <p>Il pianto di Maria Madre dolorosa | a quattro voci composto | per clementissimo commando di S. M. T. e R. | Maria Teresa Imperatrice regnante | da Francesco Tuma Maestro di Cappella | della fu Maesta l'Imperatrice Elisabetta | di piisima memoria</p>
+              </titlePage>
+              <extent>44 p.</extent>
               <dimensions/>
               <physMedium>
                 <p>hand-ruled paper</p>
@@ -950,14 +1287,14 @@
               <repository>
                 <corpName role=""/>
                 <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">I-Rsc</identifier>
-                <ptr target="http://cloud.sbn.it/opac2/RMR/dettaglio/documento/MSM0051945" mimetype="" label="catalogue entry"/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">RUS-Mk</identifier>
               </repository>
-              <identifier>A-Ms 523</identifier>
+              <identifier>XI-433</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>catalogued according to catalogue entry and @Bartos2018 [p. 82]</p>
+                <p>This signature comprises several works. The present work is written on p. 300&#x2013;343.</p>
+                <p>catalogued according to RISM entry</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -1094,340 +1431,6 @@
             <notesStmt>
               <annot type="source_description">
                 <p>This signature comprises two volumes with several works. The present work is written on p. 100&#x2013;125 of volume 2.</p>
-                <p>catalogued according to RISM entry</p>
-              </annot>
-              <annot type="links">
-                <ptr mimetype=""/>
-              </annot>
-            </notesStmt>
-            <componentList/>
-          </item>
-        </itemList>
-        <componentList/>
-        <relationList>
-          <relation rel="isEmbodimentOf"/>
-        </relationList>
-      </manifestation>
-      <manifestation>
-        <identifier/>
-        <titleStmt>
-          <title>Manuscript copy</title>
-        </titleStmt>
-        <pubStmt>
-          <publisher/>
-          <pubPlace/>
-          <date notbefore="1843-01-01" notafter="1858-12-31">1843&#x2013;1858</date>
-        </pubStmt>
-        <classification>
-          <termList>
-            <term>Notated music</term>
-            <term>Manuscript</term>
-            <term>Copy</term>
-            <term>Score</term>
-            <term>Fair copy</term>
-            <term>Complete</term>
-          </termList>
-        </classification>
-        <itemList>
-          <item>
-            <identifier label="RISM">310002147</identifier>
-            <physDesc>
-              <dimensions>
-                <locusGrp>
-                  <locus/>
-                </locusGrp>
-                <height quantity="22" unit="cm">22 (height in cm)</height>
-                <width quantity="28" unit="cm">28 (height in cm)</width>
-                <term/>
-                <extent> lines</extent>
-              </dimensions>
-              <titlePage label="[cover]">
-                <p>Nicola Sala. Resposorj a 4 voci con organo | P. Francesco Ant. Vallotti. Resposorj a 4 voci con organo | Francesco Zannetti. Offertorj a 4 voci con organo. - | Francesco Tuma. Il pianto di Maria Madre dolorosa. a 4 voci con org. | Luigi Caruso. Litanie della Beata Vergina a 4 voci. - | Giov. Maria Nanini. - Lamentazioni a 4 voci. -</p>
-              </titlePage>
-              <titlePage label="[title]">
-                <p>Il pianto di Maria Madre dolorosa | a quattro voci composto | per clementissimo commando di S. M. T. e R. | Maria Teresa Imperatrice regnante | da Francesco Tuma Maestro di Cappella | della fu Maesta l'Imperatrice Elisabetta | di piisima memoria</p>
-              </titlePage>
-              <extent>44 p.</extent>
-              <dimensions/>
-              <physMedium>
-                <p>hand-ruled paper</p>
-              </physMedium>
-            </physDesc>
-            <physLoc>
-              <repository>
-                <corpName role=""/>
-                <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">RUS-Mk</identifier>
-              </repository>
-              <identifier>XI-433</identifier>
-            </physLoc>
-            <notesStmt>
-              <annot type="source_description">
-                <p>This signature comprises several works. The present work is written on p. 300&#x2013;343.</p>
-                <p>catalogued according to RISM entry</p>
-              </annot>
-              <annot type="links">
-                <ptr mimetype=""/>
-              </annot>
-            </notesStmt>
-            <componentList/>
-          </item>
-        </itemList>
-        <componentList/>
-        <relationList>
-          <relation rel="isEmbodimentOf"/>
-        </relationList>
-      </manifestation>
-      <manifestation>
-        <identifier/>
-        <titleStmt>
-          <title>Manuscript copy</title>
-        </titleStmt>
-        <pubStmt>
-          <publisher/>
-          <pubPlace/>
-          <date isodate="1790-01-01">ca. 1790</date>
-        </pubStmt>
-        <classification>
-          <termList>
-            <term>Notated music</term>
-            <term>Manuscript</term>
-            <term>Copy</term>
-            <term>Parts</term>
-            <term>Fair copy</term>
-            <term>Complete</term>
-          </termList>
-        </classification>
-        <itemList>
-          <item>
-            <identifier label="RISM">530003478</identifier>
-            <physDesc>
-              <dimensions>
-                <locusGrp>
-                  <locus/>
-                </locusGrp>
-                <height quantity="31" unit="cm">31 (height in cm)</height>
-                <width quantity="23" unit="cm">23 (height in cm)</width>
-                <term/>
-                <extent> lines</extent>
-              </dimensions>
-              <titlePage label="[wrapper]">
-                <p>Stabat Mater | a | 4 Voci | con | Organo | del S. Thuma.</p>
-              </titlePage>
-              <extent>5 parts</extent>
-              <dimensions/>
-              <physMedium>
-                <p>hand-ruled paper</p>
-              </physMedium>
-            </physDesc>
-            <physLoc>
-              <repository>
-                <corpName role=""/>
-                <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">H-PH</identifier>
-              </repository>
-              <identifier>Mus.sacr.ant. T 1</identifier>
-            </physLoc>
-            <notesStmt>
-              <annot type="source_description">
-                <p>S coro, A coro, T coro, B coro, org</p>
-                <p>catalogued according to RISM entry</p>
-              </annot>
-              <annot type="links">
-                <ptr mimetype=""/>
-              </annot>
-            </notesStmt>
-            <componentList/>
-          </item>
-        </itemList>
-        <componentList/>
-        <relationList>
-          <relation rel="isEmbodimentOf"/>
-        </relationList>
-      </manifestation>
-      <manifestation>
-        <identifier/>
-        <titleStmt>
-          <title>Manuscript copy</title>
-        </titleStmt>
-        <pubStmt>
-          <publisher/>
-          <pubPlace/>
-          <date isodate="1850-01-01">19th century</date>
-        </pubStmt>
-        <classification>
-          <termList>
-            <term>Notated music</term>
-            <term>Manuscript</term>
-            <term>Copy</term>
-            <term>Score</term>
-            <term>Fair copy</term>
-            <term>Complete</term>
-          </termList>
-        </classification>
-        <itemList>
-          <item>
-            <identifier label="RISM">451022947</identifier>
-            <physDesc>
-              <dimensions>
-                <locusGrp>
-                  <locus/>
-                </locusGrp>
-                <height quantity="32.5" unit="cm">32.5 (height in cm)</height>
-                <width quantity="24" unit="cm">24 (height in cm)</width>
-                <term/>
-                <extent> lines</extent>
-              </dimensions>
-              <titlePage label="[cover]">
-                <p>Il Pianto della madre dolorosa | composto a quattro voci in pieno | per clementissimo commando della S: C. e R. Maest&#xE0; di Maria | Teresa Imperatrice regnante | da | Francesco Tuma M[aestro] D[i] C[appella] della f&#xF9; Maest&#xE0; l'Imperatrice | Elisabetta di piissima memoria.</p>
-              </titlePage>
-              <extent>24 f.</extent>
-              <dimensions/>
-              <physMedium>
-                <p>hand-ruled paper</p>
-              </physMedium>
-            </physDesc>
-            <physLoc>
-              <repository>
-                <corpName role=""/>
-                <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">D-M&#xDC;s</identifier>
-              </repository>
-              <identifier>SANT Hs 4196</identifier>
-            </physLoc>
-            <notesStmt>
-              <annot type="source_description">
-                <p>catalogued according to RISM entry</p>
-              </annot>
-              <annot type="links">
-                <ptr mimetype=""/>
-              </annot>
-            </notesStmt>
-            <componentList/>
-          </item>
-        </itemList>
-        <componentList/>
-        <relationList>
-          <relation rel="isEmbodimentOf"/>
-        </relationList>
-      </manifestation>
-      <manifestation>
-        <identifier/>
-        <titleStmt>
-          <title>Manuscript copy</title>
-        </titleStmt>
-        <pubStmt>
-          <publisher/>
-          <pubPlace/>
-          <date isodate="1766-01-01">1766</date>
-        </pubStmt>
-        <classification>
-          <termList>
-            <term>Notated music</term>
-            <term>Manuscript</term>
-            <term>Copy</term>
-            <term>Parts</term>
-            <term>Fair copy</term>
-            <term>Complete</term>
-          </termList>
-        </classification>
-        <itemList>
-          <item>
-            <identifier label="RISM">455003089</identifier>
-            <physDesc>
-              <dimensions>
-                <locusGrp>
-                  <locus/>
-                </locusGrp>
-                <height quantity="31.5" unit="cm">31.5 (height in cm)</height>
-                <width quantity="23.5" unit="cm">23.5 (height in cm)</width>
-                <term/>
-                <extent> lines</extent>
-              </dimensions>
-              <titlePage label="[cover]">
-                <p>Stabat mater | &#xE0; 4 Voc. | Canto, Alto | Tenore, Basso | Con | Organo | Del Sign ["Perolesi" crossed out and corrected:] Thuma | [at right:] In | Usum Seminarii Musici | ad S. Aloysium | Mannheimii | 1766.</p>
-              </titlePage>
-              <extent>6 parts</extent>
-              <dimensions/>
-              <physMedium>
-                <p>hand-ruled paper</p>
-              </physMedium>
-            </physDesc>
-            <physLoc>
-              <repository>
-                <corpName role=""/>
-                <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">D-MHjk</identifier>
-              </repository>
-              <identifier>ohne Signatur</identifier>
-            </physLoc>
-            <notesStmt>
-              <annot type="source_description">
-                <p>S coro (4 f.), A coro (4 f.), T coro (4 f.), B coro (4 f.), org (2x; 4, 4 f.)</p>
-                <p>catalogued according to RISM entry</p>
-              </annot>
-              <annot type="links">
-                <ptr mimetype=""/>
-              </annot>
-            </notesStmt>
-            <componentList/>
-          </item>
-        </itemList>
-        <componentList/>
-        <relationList>
-          <relation rel="isEmbodimentOf"/>
-        </relationList>
-      </manifestation>
-      <manifestation>
-        <identifier/>
-        <titleStmt>
-          <title>Manuscript copy</title>
-        </titleStmt>
-        <pubStmt>
-          <publisher/>
-          <pubPlace/>
-          <date isodate="1825-01-01">1st half 19th century</date>
-        </pubStmt>
-        <classification>
-          <termList>
-            <term>Notated music</term>
-            <term>Manuscript</term>
-            <term>Copy</term>
-            <term>Parts</term>
-            <term>Fair copy</term>
-            <term>Complete</term>
-          </termList>
-        </classification>
-        <itemList>
-          <item>
-            <identifier label="RISM">201004985</identifier>
-            <physDesc>
-              <titlePage label="[caption title]">
-                <p>Stabat mater [indication of part] di Tuma</p>
-              </titlePage>
-              <extent>4 parts</extent>
-              <dimensions>
-                <locusGrp>
-                  <locus/>
-                </locusGrp>
-                <term/>
-                <extent> lines</extent>
-              </dimensions>
-              <dimensions/>
-              <physMedium>
-                <p>hand-ruled paper</p>
-              </physMedium>
-            </physDesc>
-            <physLoc>
-              <repository>
-                <corpName role=""/>
-                <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">D-LEm</identifier>
-              </repository>
-              <identifier>PM 7189</identifier>
-            </physLoc>
-            <notesStmt>
-              <annot type="source_description">
                 <p>catalogued according to RISM entry</p>
               </annot>
               <annot type="links">

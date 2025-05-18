@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1k9</altId>
+    <altId type="ark">ark:68748/ft1k9</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -248,6 +248,76 @@
             <notesStmt>
               <annot type="source_description">
                 <p>a copy by Herbert Vogg</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date notbefore="1700" notafter="1749">1st half 18th century</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier label="RISM">600177786</identifier>
+            <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="36" unit="cm">36 (height in cm)</height>
+                <width quantity="21" unit="cm">21 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[wrapper]">
+                <p>Parthia Ex A | Mandora | Violino 1mo | Violino 2do | Con | Basso | Auth: Sig: Pernember | Ex Rebus | Josephi Grueber</p>
+              </titlePage>
+              <extent>4 parts</extent>
+              <dimensions/>
+              <handList>
+                <hand medium="ink" type="main">unidentified</hand>
+              </handList>
+              <physMedium>
+                <p>hand-ruled paper</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-KR</identifier>
+              </repository>
+              <identifier>H 50/175</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>vl 1, 2, vlne, mandora</p>
+                <p>catalogued according to RISM entry</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
