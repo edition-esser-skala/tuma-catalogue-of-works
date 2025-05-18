@@ -79,6 +79,9 @@ Genre
 Place and date of composition
 : {creation}
 
+Performance(s)
+: {performances}
+
 {bibliography}
 
 {work_description}
@@ -134,6 +137,10 @@ SOURCE_TEMPLATE <- '
 ##### Publication, dating
 
 {publication}
+
+##### Scribe(s)
+
+{copyists}
 
 ##### Title page(s)
 
@@ -210,6 +217,7 @@ when: {when}
 where: {where}
 support-what: {support_what}
 "
+
 
 
 # Functions ---------------------------------------------------------------
@@ -588,6 +596,19 @@ format_creation <- function(c) {
   str_flatten_comma(c(place, date), na.rm = TRUE)
 }
 
+# format performances (date and place)
+# h: <history>
+format_performances <- function(h) {
+  if (length(h) == 0L)
+    return("–")
+
+  h$eventList %>%
+    map_chr(\(e) {
+      str_glue("{e$date[[1]]} ({e$geogName[[1]]})")
+    }) %>%
+    str_flatten_comma()
+}
+
 # get bibliography entries of a given genre
 # issue a warning if the targettype is incorrect
 get_bibliography_entries <- function(bibllist, genre) {
@@ -801,6 +822,36 @@ format_dimensions <- function(d) {
     paste(h, hu, "×", w, wu)
 }
 
+# format the copyists of a source
+# p: physDesc
+format_copyists <- function(p) {
+  hands <- pluck(p, "handList")
+  if (is.null(hands)) {
+    return("–")
+  }
+
+  hands %>%
+    map(\(h) tibble(
+      name = h[[1]],
+      medium = attr(h, "medium"),
+      type = attr(h, "type")
+    )) %>%
+    list_rbind() %>%
+    mutate(
+      details = if_else(
+        type != "main",
+        paste(medium, type, sep = ", "),
+        medium
+      )
+    ) %>%
+    summarise(
+      .by = name,
+      details = str_flatten(details, collapse = "; ")
+    ) %>%
+    pmap_chr(\(name, details) str_glue("{name} ({details})")) %>%
+    str_flatten_comma()
+}
+
 # format the titlepages of a source
 # p: physDesc
 format_titlepage <- function(p) {
@@ -848,6 +899,19 @@ format_physdesc <- function(p) {
   res
 }
 
+# formats the source description
+# n: notesStmt
+format_source_description <- function(n) {
+  desc <-
+    n %>%
+    keep(~attr(.x, "type") == "source_description")
+
+  if (is_empty(desc))
+    return("–")
+
+  attr(desc[[1]], "markdown_list")
+}
+
 # get the source locations
 #   s: manifestation
 #   rism_id: RISM ID of manifestation (used by prints)
@@ -882,15 +946,21 @@ get_source_locations <- function(s, rism_id = NULL) {
       shelfmark <- item$physLoc$identifier[[1]]
       source <- paste(siglum, shelfmark)
 
-      url <- attr(item$physLoc$repository$ptr, "target")
-      url_label <- attr(item$physLoc$repository$ptr, "label")
-      if (is.null(url)) {
-        link <- ""
-      } else {
-        if (!url_label %in% params$validation$location_link_labels)
-          error("Unknown link label: ", url_label)
-        link <- str_glue("([{url_label}]({url}))")
-      }
+      # parse several ptr elements in repository
+      link <-
+        item$physLoc$repository %>%
+        names() %>%
+        str_which("ptr") %>%
+        map_chr(\(i) {
+          url <- attr(item$physLoc$repository[[i]], "target")
+          url_label <- attr(item$physLoc$repository[[i]], "label")
+          if (!url_label %in% params$validation$location_link_labels)
+            error("Unknown link label: ", url_label)
+          str_glue("[{url_label}]({url})")
+        }) %>%
+        str_flatten_comma()
+      if (link != "")
+        link <- paste0("(", link, ")")
 
       if (is.null(rism_id))
         rism_id <- pluck(item$identifier, 1)
@@ -953,11 +1023,13 @@ format_source <- function(s) {
 
     source_locations <- get_source_locations(s, pluck(s$identifier, 1))
 
+    copyists <- "–"
+
     title_pages <- format_titlepage(s$physDesc)
 
     physdesc <- format_physdesc(s$physDesc)
 
-    source_description <- attr(s$notesStmt[[1]], "markdown_list") %||% "–"
+    source_description <- format_source_description(s$notesStmt)
   } else {
     publication <- dating
 
@@ -965,12 +1037,13 @@ format_source <- function(s) {
     if (nrow(source_locations) != 1L)
       error("There must be only one item for manuscripts.")
 
+    copyists <- format_copyists(s$itemList$item$physDesc)
+
     title_pages <- format_titlepage(s$itemList$item$physDesc)
 
     physdesc <- format_physdesc(s$itemList$item$physDesc)
 
-    source_description <-
-      attr(s$itemList$item$notesStmt[[1]], "markdown_list") %||% "–"
+    source_description <- format_source_description(s$itemList$item$notesStmt)
   }
 
   locations <-
@@ -995,6 +1068,7 @@ format_source <- function(s) {
     locations = locations,
     rism_id = source_locations$rism_id[1],
     publication = publication,
+    copyists = copyists,
     title_pages = title_pages,
     physdesc = physdesc,
     source_description = source_description
@@ -1236,6 +1310,8 @@ get_work_details <- function(group,
 
   creation <- format_creation(data_work$creation)
 
+  performances <- format_performances(data_work$history)
+
   bibliography <- format_bibliography(data_work$biblList, work_id)
 
   work_description <- format_work_description(data_work$notesStmt)
@@ -1281,6 +1357,7 @@ get_work_details <- function(group,
     roles = roles,
     genre = genre,
     creation = creation,
+    performances = performances,
     bibliography = bibliography$markdown,
     work_description = work_description,
     movements = movements$markdown %>% str_flatten("\n"),

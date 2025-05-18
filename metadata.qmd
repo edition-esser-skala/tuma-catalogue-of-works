@@ -19,6 +19,7 @@ Each individual work is documented as follows in MEI metadata. (For a technical 
 - **roles** (optional; names of the vocal soloists)
 - **genre**: antiphon, canticle, concerto, gradual, hymn, lamentation, litany, Marian antiphon, Marian hymn, mass, motet, offertory, oratorio, partita, pastorella, profane vocal music, psalm, requiem, responsory, rorate, sacred song, sequece, sinfonia, sonata, te deum, vesper
 - **place** and **date of composition**
+- **performances** (date and location)
 - **bibliography**
 - **editions**
 - **work notes** (e.g., why is an attribution spurious?)
@@ -59,13 +60,14 @@ This section describes the known sources of the work.
     - ‘incomplete’ indicates that one or more parts are missing from a set of parts
     - ‘excerpt’ designates a section of a work, published or copied for stand-alone performance
     - ‘fragment’ indicates that portions of the music are missing, e.g. a fragmentary sketch or a source from which pages are lost
-- **location(s)** (library siglum, shelfmark, link to digitized version or catalogue entry)
+- **location(s)** (library siglum, shelfmark, link to digitized version and/or catalogue entry)
 - **RISM identifier**
 - **publication** (publisher, place) and **dating**
 - one or more **title pages** (each title page is labeled by its position and represents a diplomatic transcription)
 - **physical description**
   - *extent* (number of parts or pages/folios)
   - approximate *size* in cm (height x width)
+  - list of *hands* (full name, writing medium, type of contents)
   - number of *staves* per page, rastral size (if known)
 - **components and notes**
   - individual *parts* with number of written pages in parentheses

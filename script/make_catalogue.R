@@ -31,7 +31,8 @@ catalogue <- read_csv(
 rism_entries <-
   read_csv(
     "data/works_in_rism.csv",
-    col_types = cols(.default = "c")
+    col_types = cols(.default = "c"),
+    comment = "#"
   ) %>%
   replace_na(list(collection = "no")) %>%
   filter(collection != "yes") %>%
@@ -87,7 +88,7 @@ catalogue_all <-
 check_empty <- function(df) {
   if (nrow(df) != 0) {
     print(df)
-    error("The table above should be empty")
+    error("The table above should be empty", strict = TRUE)
   }
   invisible(df)
 }
