@@ -221,7 +221,7 @@ D,4,4,Nunc dimittis,,,,,,,,,(no shelfmark),I 17565/4,,Mus.Hs.19194/4,,,,,,,,Vesp
 D,4,L1,Magnificat,,,,B.351.2b,,,,,,,,,,,,,,,,,,,,,"@KlosterneuburgInvB [p. 351, no. 2b]",,A-KN source lost
 D,4,L2,Magnificat,,,,B.351.2c,,,,,,,,,,,,,,,,,,,,,"@KlosterneuburgInvB [p. 351, no. 2c]",,A-KN source lost
 E,1,1,Alma Redemptoris mater,,,,,,,,,,,,Mus.Hs.15667,,,,,,,,Antiphons 1,,,A.VII.1,B.IV.1,"@Eybl1996 [p. 55], @Eybl2011",,
-E,1,2,Alma Redemptoris mater,,,,,,,,,,,,Mus.Hs.15668,,,,,,,,Antiphons 2,,,A.VII.2,B.IV.2,@Eybl2011,,
+E,1,2,Alma Redemptoris mater,,,,,,,,,,,,Mus.Hs.15668,,,,,,,,Antiphons 2,,,A.VII.2,B.IV.2,"@Eybl1996 [p. 55], @Eybl2011",,
 E,1,3,Alma Redemptoris mater,,,,,,,,,,,,Mus.Hs.15669,,,,,,,,Antiphons 3,,,A.VII.3,B.IV.3,@Eybl2011,,
 E,1,4,Alma Redemptoris mater,,,,,,,,,,,,Mus.Hs.15670,,,,,,,,Antiphons 4,,,A.VII.4,B.IV.4,,,
 E,1,5,Alma Redemptoris mater,,,,,,,,,,,,,,,,,,,CZ-Nlob 748,,,,,,"@Pulkert1973 [vol. 1, p. 277, no. 647]",,
@@ -231,8 +231,8 @@ E,2,1,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15671,,,,,,,,Antiphons 5,,,A.VII.8,B
 E,2,2,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15672,,,,,,,,Antiphons 6,,,A.VII.7,B.V.3,,,
 E,2,3,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15673,,,,,,,,Antiphons 7,,,A.VII.12,B.V.4,@Eybl1996 [p. 57],,
 E,2,4,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15674,,,,,,,,Antiphons 8,,,A.VII.9,B.V.5,,,
-E,2,5,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15675/1,,,,,,,,Antiphons 9,,,A.VII.11,B.V.6,,,
-E,2,6,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15675/2,,,,,,,,Antiphons 10,,,A.VII.6,,,,
+E,2,5,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15675/1,,,,,,,,Antiphons 9,,,A.VII.11,B.V.6,@Eybl1996 [p. 57],,
+E,2,6,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15675/2,,,,,,,,Antiphons 10,,,A.VII.6,,@Eybl1996 [p. 57],,
 E,2,7,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15676,,,,,,,,Antiphons 11,,,A.VII.10,B.V.7,,,
 E,2,8,Ave Regina coelorum,,,,,,,,,(no shelfmark),I 17564,,Mus.Hs.15774,,,,,,,,Antiphons 12,,,A.VII.5,B.V.1,,,
 E,3,L1,Regina coeli,,,,,,,,,,,,,,,,,,,,,,,,,"@BrtniceInv [p. 110, no. 1], @Strakova1963, @Strakova1965",,
@@ -248,7 +248,7 @@ E,5,3,Sub tuum praesidium,,,,,,,,,,,,Mus.Hs.15693/2,,,,,,,,,,,,,"@Armstrong1993 
 E,5,4,Sub tuum praesidium,,,,,,,,,,,,Mus.Hs.15694/2,,,,,,,,,,,,,"@Armstrong1993 [pp. 118-121, 257, 286, 317], @Eybl1996 [p. 47]",,
 E,5,5,Sub tuum praesidium,,,,,,,,,,,,Mus.Hs.15695/2,,,,,,,,,,,,,"@Armstrong1993 [pp. 118-121, 257, 287, 318], @Eybl1996 [p. 47, 49]",,
 E,5,6,Sub tuum praesidium,,,,,,,,,,,,Mus.Hs.15696/2,,,,,,,,,,,,,"@Armstrong1993 [pp. 118-121, 257, 288, 318]",,
-E,5,7,Sub tuum praesidium,,879/2,,,,,,,,,,,,,,,,,,,,,,,,,
+E,5,7,Sub tuum praesidium,,879/2,,,,,,,,,,,,,,,,,,,,,,,"@HerzogenburgInvA [p. 429, no. 26.59], @HerzogenburgInvB [fol. 205r, no. 30.53]",,
 E,5,8,Sub tuum praesidium,,887,,,,,,,,,,,,,,,,,,,,,,,,,
 E,5,9,Sub tuum praesidium,,,,,E 48/131/2,,,,,,,,,,,,,,A-Ed G 61/2,,,,,,,,probably by Schmidt
 F,,1,Stabat mater,,,,,,,,,(no shelfmark),,,Mus.Hs.15725,,,,,,Mus.2968-D-509,,Sequences 1,,,A.VIII.1,B.VIII.4,@Eybl1996 [p. 58],,
