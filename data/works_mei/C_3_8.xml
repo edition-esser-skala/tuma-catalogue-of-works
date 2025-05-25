@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1c38</altId>
+    <altId type="ark">ark:68748/ft1c38</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -310,6 +310,9 @@
               </titlePage>
               <extent>10 parts</extent>
               <dimensions/>
+              <handList>
+                <hand medium="brown ink" type="main">Joseph Leysser</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -326,7 +329,6 @@
             <notesStmt>
               <annot type="source_description">
                 <p>A solo (10), vl 1 (2x; 7, 7), vl 2 (2x; 6, 6), vla (6), vlc (10), vlne (10), org (10), mdc (10)</p>
-                <p>a copy by Joseph Leysser</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

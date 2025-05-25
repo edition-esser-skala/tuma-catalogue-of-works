@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1c42</altId>
+    <altId type="ark">ark:68748/ft1c42</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -363,6 +363,9 @@
               </titlePage>
               <extent>20 parts</extent>
               <dimensions/>
+              <handList>
+                <hand medium="brown ink" type="main">Joseph Leysser</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -379,8 +382,6 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (3), A solo and coro (3), T solo and coro (3), B solo and coro (3), S coro (2), A coro (2), T coro (2), B coro (2x; 2, 2), cnto (1), fag (1), trb 1 (1), trb 2 (1), vl 1 (2), vl 2 (2x; 2, 2), vlc (3), vlne (3), org (3), mdc (3)</p>
-                <p>a copy by Joseph Leysser</p>
-                <p>wrapper (fol. 1r) contains one illegible performance date</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

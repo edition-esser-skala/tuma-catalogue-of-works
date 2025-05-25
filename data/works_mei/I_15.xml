@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1i15</altId>
+    <altId type="ark">ark:68748/ft1i15</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -51,7 +51,94 @@
           <date isodate="1743-01-01">1743</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1743-02-02">1743-02-02</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1743-07-">1743-07-[?]</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1743-12-04">1743-12-04</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1744-05-01">1744-05-01</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1744-07-05">1744-07-05</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1744-11-01">1744-11-01</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1745-01-01">1745-01-01</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1745-05-30">1745-05-30</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1746-01-01">1746-01-01</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1746-10-17">1746-10-17</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1747-01-06">1747-01-06</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1747-05-11">1747-05-11</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1747-11-17">1747-11-17</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1747-12-24">1747-12-24</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1748-04-24">1748-04-24</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1748-10-10">1748-10-10</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1749-06-30">1749-06-30</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1749-12-25">1749-12-25</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1750-05-10">1750-05-10</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1750-08-14">1750-08-14</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1771-08">1771-08-[?]</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -196,7 +283,11 @@
         <itemList>
           <item>
             <identifier/>
-            <physDesc/>
+            <physDesc>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black pen" type="main">Herbert Vogg</hand>
+              </handList>
+            </physDesc>
             <physLoc>
               <repository>
                 <corpName role=""/>
@@ -206,9 +297,6 @@
               <identifier>(no shelfmark)</identifier>
             </physLoc>
             <notesStmt>
-              <annot type="source_description">
-                <p>a copy by Herbert Vogg</p>
-              </annot>
               <annot type="links">
                 <ptr mimetype=""/>
               </annot>
@@ -259,6 +347,9 @@
               </titlePage>
               <extent>9 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Anton Ristl</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -275,8 +366,6 @@
             <notesStmt>
               <annot type="source_description">
                 <p>vl 1 (2x; 3, 3), vl 2 (2x; 3, 3), fag (3), vlc (3), vlne (3), org (3), mdc (3)</p>
-                <p>a copy by Anton Ristl</p>
-                <p>wrapper contains 21 performance dates: (fol. 1r) 1743-02-02, 1743-07-??, 1743-12-04, 1744-05-01, 1744-07-05, 1744-11-01, 1745-01-01, 1745-05-30 (only Adagio), 1746-01-01, 1746-10-17, 1747-01-06, 1747-05-11, 1747-11-17, 1747-12-24, 1748-04-24, 1748-10-10, 1749-06-30, 1749-12-25, 1750-05-10, and 1750-08-14; (fol. 1v) 1771-08-??</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -328,6 +417,9 @@
               </titlePage>
               <extent>3 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">Anton&#xED;n N&#x11B;mec</hand>
+              </handList>
               <physMedium>
                 <p>printed staff paper, 10 staves</p>
               </physMedium>
@@ -395,6 +487,9 @@
               </titlePage>
               <extent>3 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>printed staff paper</p>
               </physMedium>

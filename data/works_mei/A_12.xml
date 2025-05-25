@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1a12</altId>
+    <altId type="ark">ark:68748/ft1a12</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -79,7 +79,7 @@
             <ptr mimetype=""/>
           </annot>
           <annot type="general_description">
-            <p>This work comprises the same Gloria as TumW A.6. @Peschek1956 also mentions a copy in A-G&#xD6;, which has not been documented by @Riedel1979.</p>
+            <p>This work comprises the same Gloria as TumW A.6. @Peschek1956 also mentions a copy in A-G&#xD6;, which has not been documented by @Riedel1979 and is currently (2024-08) undiscoverable.</p>
           </annot>
         </notesStmt>
         <classification>
@@ -734,6 +734,9 @@
               </titlePage>
               <extent>14 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10&#x2013;12 staves (10 mm)</p>
               </physMedium>
@@ -743,6 +746,7 @@
                 <corpName role=""/>
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-KN</identifier>
+                <ptr target="https://db.klostermusiksammlungen.at/scores/974" mimetype="" label="catalogue entry"/>
               </repository>
               <identifier>456</identifier>
             </physLoc>
@@ -800,6 +804,10 @@
               </titlePage>
               <extent>9 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Georg Pasterwiz</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -815,6 +823,7 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S coro (7), A coro (7), T coro (7), B coro (7), trb 1 (7), trb 2 (7), vl (4), vlne (7), org (7)</p>
+                <p>vl in the hand of Pasterwiz, remaining parts by unidentified hand</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -866,6 +875,9 @@
               </titlePage>
               <extent>9 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 12 staves (11 mm)</p>
               </physMedium>
@@ -933,6 +945,9 @@
               </titlePage>
               <extent>27 p.</extent>
               <dimensions/>
+              <handList>
+                <hand medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>printed staff paper (C. A. KLEMM. | A. N&#xB0; 6), 20 staves (6 mm)</p>
               </physMedium>
@@ -948,7 +963,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>full score from the collection of Otto Schmid</p>
+                <p>from the collection of Otto Schmid</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

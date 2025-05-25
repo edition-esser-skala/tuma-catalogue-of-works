@@ -236,7 +236,11 @@
         <itemList>
           <item>
             <identifier/>
-            <physDesc/>
+            <physDesc>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black pen" type="main">Herbert Vogg</hand>
+              </handList>
+            </physDesc>
             <physLoc>
               <repository>
                 <corpName role=""/>
@@ -246,9 +250,6 @@
               <identifier>(no shelfmark)</identifier>
             </physLoc>
             <notesStmt>
-              <annot type="source_description">
-                <p>a copy by Herbert Vogg</p>
-              </annot>
               <annot type="links">
                 <ptr mimetype=""/>
               </annot>
@@ -300,7 +301,7 @@
               <extent>4 parts</extent>
               <dimensions/>
               <handList>
-                <hand medium="ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
               </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
@@ -367,6 +368,9 @@
               </titlePage>
               <extent>3 parts</extent>
               <dimensions/>
+              <handList>
+                <hand medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 6 staves</p>
               </physMedium>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1e55</altId>
+    <altId type="ark">ark:68748/ft1e55</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -50,7 +50,18 @@
           <date isodate="1740-01-01">ca. 1740</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1768-06-19">1768-06-19</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1770-09-23">1770-09-23</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -78,7 +89,7 @@
               <geogName role=""/>
             </creation>
             <history/>
-            <perfMedium>
+            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
               <perfResList>
                 <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro">
                   <head xml:lang="en">coro</head>
@@ -115,7 +126,7 @@
                 <tempo>[no tempo]</tempo>
                 <key pname="e" mode="minor"/>
                 <meter sym="common"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_340dbe98">
                       <head xml:lang="en">coro</head>
@@ -186,6 +197,11 @@
               </titlePage>
               <extent>19 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">copyist E</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -202,9 +218,7 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S coro (2x; 1, 1), A coro (2x; 1, 1), T coro (2x; 1, 1), B coro (2x; 1, 1), cnto (1), fag (1), trb 1 (1), trb 2 (1), vl 1 (1), vl 2 (2x; 1, 1), vlc (1), vlne (1), org (1), mdc (1)</p>
-                <p>a copy by Joseph Leysser, copyist E, and others</p>
-                <p>wrapper (fol. 1v) contains two performance dates: 1768-06-19 and 1770-09-23</p>
-                <p>This signature comprises two works: The present work and the <rend fontstyle="italic">Litaniae lauretanae</rend> TumW G.5.</p>
+                <p>This manuscript comprises two works: The present work and the <rend fontstyle="italic">Litaniae lauretanae</rend> TumW G.5.</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

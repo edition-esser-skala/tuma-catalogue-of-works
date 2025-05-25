@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1c27</altId>
+    <altId type="ark">ark:68748/ft1c27</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -53,7 +53,18 @@
           <date isodate="1741-01-01">1741</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1742-10-31">1742-10-31</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1743-10-31">1743-10-31</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -321,9 +332,12 @@
                 <extent> lines</extent>
               </dimensions>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
-                <p>S solo and coro (3), S coro (2), A coro (2x; 2, 2), T coro (2), B coro (2x; 2, 2), cnto (2), fag (2), trb 1 (2), trb 2 (2), vl 1 (3), vl 2 (3), vlc (4), vlne (4), org (3), mdc (3)</p>
-                <p>a copy by Joseph Leysser and other copyists</p>
+                <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -336,7 +350,10 @@
               <identifier>Mus.Hs.15685</identifier>
             </physLoc>
             <notesStmt>
-              <annot type="source_description"/>
+              <annot type="source_description">
+                <p>S solo and coro (3), S coro (2), A coro (2x; 2, 2), T coro (2), B coro (2x; 2, 2), cnto (2), fag (2), trb 1 (2), trb 2 (2), vl 1 (3), vl 2 (3), vlc (4), vlne (4), org (3), mdc (3)</p>
+                <p>one A and B part by unidentified hand, remaining parts by Leysser</p>
+              </annot>
               <annot type="links">
                 <ptr mimetype=""/>
               </annot>

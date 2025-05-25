@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1c31</altId>
+    <altId type="ark">ark:68748/ft1c31</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -53,7 +53,54 @@
           <date isodate="1743-01-01">1743</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1743">174[3]-[?]</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1743-12-05">174[3]-12-05</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1744-06-04">174[4]-06-04</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1745-05-03">174[5]-05-03</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1745-06-13">174[5]-06-13</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1745-09-14">174[5]-09-14</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1746-05-03">1746-05-03</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1746-10-16">1746-10-16</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1747-12-07">1747-12-07</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1748-12-05">1748-12-05</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1750-05-29">1750-05-29</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -323,6 +370,9 @@
               </titlePage>
               <extent>17 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -339,8 +389,6 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (3), S coro (2), A coro (2), T coro (2), B coro (2), cnto (2), fag (2), clno 1 (1), clno 2 (1), trb 1 (2), trb 2 (2), vl 1 (3), vl 2 (3), vlc (3), vlne (3), org (3), mdc (3)</p>
-                <p>wrapper (fol. 1r) contains 11 performance dates: 174?-09[?]-[?], 174?-12-5, 174?-06-04, 174?-05-03, 174?-06-13, 174?-09[?]-14, 1746-05-03, 174[6?]-10-16, 1747-12-07, 1748-12-05, and 1750-05-29</p>
-                <p>a copy by Joseph Leysser</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

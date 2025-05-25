@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1i4</altId>
+    <altId type="ark">ark:68748/ft1i4</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -51,7 +51,50 @@
           <date isodate="1735-01-01">1735</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1735-08-04">1735-08-04</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1735-11-03">1735-11-03</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1737-08-15">1737-08-15</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1737-12-08">1737-12-08</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1738-11-01">1738-11-01</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1739-07-26">1739-07-26</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1740-07-31">1740-07-31</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1743-05-22">1743-05-22</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1752-04-10">1752-04-10</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1753-08-21">1753-08-21</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -180,7 +223,11 @@
         <itemList>
           <item>
             <identifier/>
-            <physDesc/>
+            <physDesc>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black pen" type="main">Herbert Vogg</hand>
+              </handList>
+            </physDesc>
             <physLoc>
               <repository>
                 <corpName role=""/>
@@ -190,9 +237,6 @@
               <identifier>(no shelfmark)</identifier>
             </physLoc>
             <notesStmt>
-              <annot type="source_description">
-                <p>a copy by Herbert Vogg</p>
-              </annot>
               <annot type="links">
                 <ptr mimetype=""/>
               </annot>
@@ -243,6 +287,9 @@
               </titlePage>
               <extent>9 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Andreas Amiller</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -259,8 +306,6 @@
             <notesStmt>
               <annot type="source_description">
                 <p>vl 1 (2x; 2, 2), vl 2 (2x; 2, 2), fag (2), vlc (2), vlne (2), org (2), mdc (2)</p>
-                <p>wrapper (fol. 1r) contains 10 performance dates: 1735-08-04, 1735-11-03, 1737-08-15, 1737-12-08, 1738-11-1, 1739-0726, 1740-07-31, 1743-05-22, 1752-04-10, and 1753-08-21</p>
-                <p>a copy by Andreas Amiller</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

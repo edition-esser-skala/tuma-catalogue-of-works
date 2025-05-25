@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1c37</altId>
+    <altId type="ark">ark:68748/ft1c37</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -53,7 +53,34 @@
           <date isodate="1744-01-01">1744</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1744">1744-[?]</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1744">1744-[?]</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1745-06">1745-06-[?]</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1746-10">1746-10-[?]</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1747-05-07">1747[?]-05-07</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1747-12-07">1747[?]-12-07</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -308,6 +335,9 @@
               </titlePage>
               <extent>16 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -324,8 +354,6 @@
             <notesStmt>
               <annot type="source_description">
                 <p>T solo and coro (5), S coro (3), A coro (3), T coro (3), B coro (2x; 3, 3), cnto (2), fag (2), trb 1 (4), trb 2 (3), vl 1 (4), vl 2 (4), vlc (4), vlne (4), org (4), mdc (4)</p>
-                <p>wrapper (fol. 1r) contains ca. 6 performance dates (in pencil, illegible)</p>
-                <p>a copy by Joseph Leysser</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

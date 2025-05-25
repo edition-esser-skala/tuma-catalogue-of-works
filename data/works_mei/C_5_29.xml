@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1c529</altId>
+    <altId type="ark">ark:68748/ft1c529</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -324,6 +324,9 @@
               </titlePage>
               <extent>8 parts</extent>
               <dimensions/>
+              <handList>
+                <hand medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 12 staves (10 mm)</p>
               </physMedium>
@@ -333,6 +336,7 @@
                 <corpName role=""/>
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-KN</identifier>
+                <ptr target="https://db.klostermusiksammlungen.at/scores/966" mimetype="" label="catalogue entry"/>
               </repository>
               <identifier>452/2</identifier>
             </physLoc>

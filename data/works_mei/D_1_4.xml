@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1d14</altId>
+    <altId type="ark">ark:68748/ft1d14</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -45,6 +45,7 @@
         <identifier label="KliCh">Vespers 26</identifier>
         <identifier label="VogIn">A.III.13</identifier>
         <title xml:lang="la">Vesperae de Confessore</title>
+        <title type="alternative" xml:lang="la">Dixit Dominus &#xB7; Confitebor &#xB7; Beatus vir &#xB7; Laudate pueri &#xB7; Laudate Dominum &#xB7; Magnificat</title>
         <contributor>
           <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118624539">Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma</persName>
           <corpName role=""/>
@@ -53,7 +54,174 @@
           <date isodate="1753-01-01">1753</date>
           <geogName role="">Wien</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1753-08">1753-08-[?]</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1753-11">1753-11-[?]</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1754-08-21">1754-08-21</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1755-03-12">1755-03-12</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1755-05-19">1755-05-19</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1755-06-03">1755-06-03</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1755-08-29">1755-08-29</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1755-11-14">1755-11-14</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1756-06">1756-06-[?]</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1756-08">1756-08-[?]</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1758">1758-[?]</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1759">1759-[?]</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1760-02-02">1760-02-02</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1760-03">1760-03-[?]</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1760-05-24">1760-05-24</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1761-03">1761-03-[?]</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1761-05-11">1761-05-11</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1761">1761-[?]</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1762-10-27">1762-10-27</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1769-06-23">1769-06-23</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1770">1770-[?]</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1772-03-01">1772-03-01</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1772-04-24">1772-04-24</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1772-07-24">1772-07-24</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1772-11-24">1772-11-24</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1772-12-12">1772-12-12</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1773-12-30">1773-12-30</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1773">1773-[?]</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1774">1774-[?]</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1775-09-29">1775-09-29</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1776-04-08">1776-04-08</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1776-11-24">1776-11-24</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1776-12-20">1776-12-20</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1777-09-20">1777-09-20</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1778-02-23">1778-02-23</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1778-07-12">1778-07-12</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1779-02-23">1779-02-23</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1779-04-13">1779-04-13</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1780">1780-[?]</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1780">1780-[?]</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+            <event>
+              <date isodate="1781-04-14">1781-04-14</date>
+              <geogName role="place">Herzogenburg</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -446,6 +614,9 @@
               </titlePage>
               <extent>10 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (11 mm)</p>
               </physMedium>
@@ -461,7 +632,6 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (6), A solo and coro (7), T solo and coro (8), B solo and coro (6), trb 1 (4), trb 2 (4), vl 1 (6), vl 2 (6), vlne (7), org (8)</p>
-                <p>wrapper (fol. 1v) contains ca. 50 performance dates from 1754 to 1774, written in pencil and largely illegible</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -513,6 +683,9 @@
               </titlePage>
               <extent>8 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">Maximilian Welsch</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -582,6 +755,9 @@
               </titlePage>
               <extent>8 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -648,6 +824,11 @@
               </titlePage>
               <extent>18 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Anton Ristl</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -664,7 +845,7 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo (12), A solo (12), T solo (12), B solo (10), S coro (8), A coro (8), T coro (8), B coro (8), cnto (4), fag (4), trb 1 (4), trb 2 (4), vl 1 (7), vl 2 (7), vlc (11), vlne (11), org (11), mdc (11)</p>
-                <p>A copy by Anton Ristl an other writers.</p>
+                <p>vl 2 by unidentified hand, remaining hands by Ristl (or Leysser)</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -716,8 +897,11 @@
               </titlePage>
               <extent>76 p.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
-                <p>printed staff paper (C. A. KLEMM. | A. N&#xB0; 2)&#xA0;</p>
+                <p>printed staff paper (C. A. KLEMM. | A. N&#xB0; 2), 12 staves (8 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -731,8 +915,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>full score from the collection of Otto Schmid</p>
-                <p>catalogued according to RISM entry</p>
+                <p>from the collection of Otto Schmid</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

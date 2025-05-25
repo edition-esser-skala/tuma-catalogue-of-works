@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1d43</altId>
+    <altId type="ark">ark:68748/ft1d43</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -52,7 +52,58 @@
           <date isodate="1750-01-01">mid 18th century</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1751-04-02">1751-04-02</date>
+              <geogName role="place">Heiligenkreuz</geogName>
+            </event>
+            <event>
+              <date isodate="1751-12-31">1751-12-31</date>
+              <geogName role="place">Heiligenkreuz</geogName>
+            </event>
+            <event>
+              <date isodate="1752-12-03">1752-12-03</date>
+              <geogName role="place">Heiligenkreuz</geogName>
+            </event>
+            <event>
+              <date isodate="1753-04-13">1753-04-13</date>
+              <geogName role="place">Heiligenkreuz</geogName>
+            </event>
+            <event>
+              <date isodate="1753-06-20">1753-06-20</date>
+              <geogName role="place">Heiligenkreuz</geogName>
+            </event>
+            <event>
+              <date isodate="1759-02-02">1759-02-02</date>
+              <geogName role="place">Heiligenkreuz</geogName>
+            </event>
+            <event>
+              <date isodate="1762-12-22">1762-12-22</date>
+              <geogName role="place">Heiligenkreuz</geogName>
+            </event>
+            <event>
+              <date isodate="1763-04-02">1763-04-02</date>
+              <geogName role="place">Heiligenkreuz</geogName>
+            </event>
+            <event>
+              <date isodate="1764-04-21">1764-04-21</date>
+              <geogName role="place">Heiligenkreuz</geogName>
+            </event>
+            <event>
+              <date isodate="1765-04-06">1765-04-06</date>
+              <geogName role="place">Heiligenkreuz</geogName>
+            </event>
+            <event>
+              <date isodate="1771-03-30">1771-03-30</date>
+              <geogName role="place">Heiligenkreuz</geogName>
+            </event>
+            <event>
+              <date isodate="1772-01-01">1772-01-01</date>
+              <geogName role="place">Heiligenkreuz</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -199,6 +250,9 @@
               </titlePage>
               <extent>8 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 9 staves (10 mm)</p>
               </physMedium>
@@ -216,7 +270,6 @@
                 <p>S solo and coro (1), A solo and coro (2), T solo and coro (1), B solo and coro (1), vl 1 (1), vl 2 (1), vlne (1), org (1)</p>
                 <p>fol. 1v of vlne contains T part for an unidentified <rend fontstyle="italic">Litaniae lauretanae</rend>
                                 </p>
-                <p>wrapper (fol. 1r) contains 12 performance dates: 1751-04-02, 1751-12-31, 1752-12-03, 1753-04-13, 1753-06-20, 1759-02-02, 1762-12-22, 1763-04-02, 1764-04-21, 1765-04-06, 1771-03-30, and 1772-01-01</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

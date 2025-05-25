@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1f3</altId>
+    <altId type="ark">ark:68748/ft1f3</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -53,7 +53,14 @@
           <date isodate="1750-01-01">mid 18th century</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1748-03-30">1748-03-30</date>
+              <geogName role="place">Ottobeuren</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -81,7 +88,7 @@
               <geogName role=""/>
             </creation>
             <history/>
-            <perfMedium>
+            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
               <perfResList>
                 <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli">
                   <head xml:lang="en">soli</head>
@@ -124,7 +131,7 @@
                 <tempo>Larghetto</tempo>
                 <key pname="g" mode="minor"/>
                 <meter sym="common"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_de2396d3">
                       <head xml:lang="en">soli</head>
@@ -165,7 +172,7 @@
                     <tempo>Larghetto</tempo>
                     <key pname="g" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_de2396d3">
                           <head xml:lang="en">soli</head>
@@ -201,7 +208,7 @@
                     <tempo>[no tempo]</tempo>
                     <key pname="d" mode="phrygian"/>
                     <meter count="3" unit="4"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_802328b3">
                           <head xml:lang="en">coro</head>
@@ -240,7 +247,7 @@
                     <tempo>Andante &#x2013; Larghetto &#x2013; Andante</tempo>
                     <key pname="g" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_de2396d3">
                           <head xml:lang="en">soli</head>
@@ -277,7 +284,7 @@
                     <tempo>[no tempo]</tempo>
                     <key pname="g" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_802328b3">
                           <head xml:lang="en">coro</head>
@@ -316,7 +323,7 @@
                     <tempo>Larghetto</tempo>
                     <key pname="c" mode="dorian"/>
                     <meter count="3" unit="4"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_de2396d3">
                           <head xml:lang="en">soli</head>
@@ -355,7 +362,7 @@
                     <tempo>[no tempo] &#x2013; Adagio &#x2013; Andante</tempo>
                     <key pname="g" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_de2396d3">
                           <head xml:lang="en">soli</head>
@@ -423,6 +430,9 @@
             <identifier/>
             <physDesc>
               <extent>5 parts</extent>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
             </physDesc>
             <physLoc>
               <repository>
@@ -477,6 +487,10 @@
                 <p>Stabat Mater Dolorosa</p>
               </titlePage>
               <extent>9 parts</extent>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">Josef Anton&#xED;n Sehling</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
               </physMedium>
@@ -544,8 +558,11 @@
               </titlePage>
               <extent>74 p.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
-                <p>printed staff paper (No. 402. 12 L), 12 staves</p>
+                <p>printed staff paper (No. 402. 12 L), 12 staves (9 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -559,8 +576,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>a copy from the collection of Otto Schmid</p>
-                <p>catalogued according to RISM entry</p>
+                <p>from the collection of Otto Schmid</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -612,6 +628,9 @@
               </titlePage>
               <extent>9 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)<lb/>vlne: 30 x 22 cm, 10 staves (10 mm)</p>
               </physMedium>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1e54</altId>
+    <altId type="ark">ark:68748/ft1e54</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -50,7 +50,26 @@
           <date isodate="1741-01-01">ca. 1741</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1766-05-04">1766-05-04</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1766-08-16">1766-08-16</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1766-11-11">1766-11-11</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1767-06-27">1767-06-27</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -78,7 +97,7 @@
               <geogName role=""/>
             </creation>
             <history/>
-            <perfMedium>
+            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
               <perfResList>
                 <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
                 <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
@@ -115,7 +134,7 @@
                 <tempo>[no tempo]</tempo>
                 <key pname="g" mode="minor"/>
                 <meter sym="common"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_c77aab95">
                       <head xml:lang="en">coro</head>
@@ -186,6 +205,9 @@
               </titlePage>
               <extent>15 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Anton Ristl</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -202,9 +224,7 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S coro (1), A coro (1), T coro (1), B coro (2x; 1, 1), cnto (1), fag (1), trb 1 (1), trb 2 (1), vl 1 (1), vl 2 (1), vlc (1), vlne (1), org (1), mdc (1)</p>
-                <p>wrapper (fol. 1v) contains 4 performance dates: 1766-05-04, 1766-08-16, 1766-11-11, and 1767-06-27</p>
-                <p>a copy by Anton Ristl (even in the parts where the litany has been written by copyist E)</p>
-                <p>This signature comprises two works: The present work and the <rend fontstyle="italic">Litaniae lauretanae</rend> TumW G.4.</p>
+                <p>This manuscript comprises two works: The present work and the <rend fontstyle="italic">Litaniae lauretanae</rend> TumW G.4.</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

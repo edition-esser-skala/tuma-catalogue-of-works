@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1c12</altId>
+    <altId type="ark">ark:68748/ft1c12</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -189,6 +189,9 @@
               </titlePage>
               <extent>16 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (11 mm)</p>
               </physMedium>
@@ -198,6 +201,7 @@
                 <corpName role=""/>
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-KN</identifier>
+                <ptr target="https://db.klostermusiksammlungen.at/scores/988" mimetype="" label="catalogue entry"/>
               </repository>
               <identifier>464/1</identifier>
             </physLoc>
@@ -244,6 +248,9 @@
               <titlePage label="[title]">
                 <p>Graduale : &#xE0; 4 Vocibus, Violinis 2bus, Trombonis 2bus Rip.nis con Organo et Violone : Auth.re Franc. Tuma : 1767 : Justus ut palma florebit</p>
               </titlePage>
+              <handList>
+                <hand medium="ink" type="main">unidentified</hand>
+              </handList>
             </physDesc>
             <physLoc>
               <repository>

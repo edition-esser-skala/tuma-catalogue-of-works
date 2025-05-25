@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1k2</altId>
+    <altId type="ark">ark:68748/ft1k2</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -237,7 +237,12 @@
         <itemList>
           <item>
             <identifier/>
-            <physDesc/>
+            <physDesc>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black pen" type="main">Herbert Vogg</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">Erwin Luntz</hand>
+              </handList>
+            </physDesc>
             <physLoc>
               <repository>
                 <corpName role=""/>
@@ -247,9 +252,6 @@
               <identifier>(no shelfmark)</identifier>
             </physLoc>
             <notesStmt>
-              <annot type="source_description">
-                <p>two copies by Herbert Vogg and probably Erwin Luntz</p>
-              </annot>
               <annot type="links">
                 <ptr mimetype=""/>
               </annot>
@@ -298,6 +300,9 @@
               </titlePage>
               <extent>3 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
               </physMedium>
@@ -365,8 +370,11 @@
               </titlePage>
               <extent>15 p.</extent>
               <dimensions/>
+              <handList>
+                <hand medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
-                <p>printed staff paper, 16 staves</p>
+                <p>printed staff paper, 16 staves (9 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -374,13 +382,13 @@
                 <corpName role=""/>
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">D-Dl</identifier>
-                <ptr target="http://digital.slub-dresden.de/id181767191X" mimetype="" label="digitized version"/>
+                <ptr target="https://digital.slub-dresden.de/id181767191X" mimetype="" label="digitized version"/>
               </repository>
               <identifier>Mus.2968-P-508</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>full score from the collection of Otto Schmid</p>
+                <p>from the collection of Otto Schmid</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

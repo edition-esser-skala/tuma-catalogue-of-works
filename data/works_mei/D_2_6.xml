@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1d26</altId>
+    <altId type="ark">ark:68748/ft1d26</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -53,7 +53,18 @@
           <date isodate="1746-01-01">1746</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1753-12-05">1753-12-05</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1754-01-29">1754-01-29</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -77,7 +88,7 @@
               <geogName role=""/>
             </creation>
             <history/>
-            <perfMedium>
+            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
               <perfResList>
                 <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli">
                   <head xml:lang="en">soli</head>
@@ -120,7 +131,7 @@
                 <tempo>Andante</tempo>
                 <key pname="g" mode="minor"/>
                 <meter sym="common"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_fc6a51bf">
                       <head xml:lang="en">soli</head>
@@ -197,6 +208,10 @@
               </titlePage>
               <extent>18 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -213,9 +228,8 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (3), A solo and coro (3), T solo and coro (3), B solo and coro (3), S coro (3), A coro (3), T coro (3), B coro (3), cnto (2), fag (2), trb 1 (2), trb 2 (2), vl 1 (2), vl 2 (2), vlc (2), vlne (2), org (3), mdc (2)</p>
-                <p>wrapper (fol. 1r) contains 3 performance dates: 1753-12-05, 1754-01-29 (only <rend fontstyle="italic">Memento</rend>, without instruments), and 1756-12-25 (only <rend fontstyle="italic">Memento</rend>)</p>
-                <p>a copy by Joseph Leysser and other copyists</p>
-                <p>This signature comprises two works, the present work and the psalm <rend fontstyle="italic">Memento</rend> TumW D.2.20.</p>
+                <p>S coro, A coro, T coro, and vl 2 by unidentified hand, remaining parts by Leysser</p>
+                <p>This manuscript comprises two works, the present work and the psalm <rend fontstyle="italic">Memento</rend> TumW D.2.20.</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

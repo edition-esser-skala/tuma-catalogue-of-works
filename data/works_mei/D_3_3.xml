@@ -579,7 +579,7 @@
                 <extent> lines</extent>
               </dimensions>
               <titlePage label="[wrapper, fol. 1r]">
-                <p>Miserere | absque Gloria | Patri &amp;c. | a. | Canto Alto | Tenore Ba&#x17F;so | Violino 2:bus: | Tromboni 2. bus: Oblig | Con organo | Authore Domino Thuma | descriptum pro choro | Gottwic: 13 April 752</p>
+                <p>Miserere | absque Gloria | Patri &amp; c. | a. | Canto Alto | Tenore Ba&#x17F;so | Violino 2:bus: | Tromboni 2. bus: Oblig | Con organo | Authore Domino Thuma | descriptum pro choro | Gottwic: 13 April 752</p>
               </titlePage>
               <titlePage label="[wrapper, fol. 2r]">
                 <p>Mi&#x17F;erere. | Auth Dno Thuma</p>
@@ -598,13 +598,13 @@
                 <corpName role=""/>
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-G&#xD6;</identifier>
+                <ptr target="https://db.klostermusiksammlungen.at/scores/5208" mimetype="" label="catalogue entry"/>
               </repository>
               <identifier>2589</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (4), A solo and coro (4), T solo and coro (4), B solo and coro (4), trb 1 (4), trb 2 (4), vl 1 (5), vl 2 (5), org (8)</p>
-                <p>wrapper (fol. 2v) contains 27 performance dates</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

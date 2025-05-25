@@ -47,7 +47,8 @@
         <identifier label="ReiMa">56</identifier>
         <identifier label="VogIn">A.I.46</identifier>
         <title xml:lang="la">Missa Sancti Stephani</title>
-        <title type="alternative" xml:lang="la">Missa Sanctae Mariae Virginis &#xB7; Missa experientiae</title>
+        <title type="alternative" xml:lang="la">Missa Sanctae Mariae Virginis</title>
+        <title type="alternative" xml:lang="la">Missa experientiae</title>
         <contributor>
           <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118624539">Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma</persName>
           <corpName role=""/>
@@ -56,7 +57,70 @@
           <date isodate="1750-01-01">mid 18th century</date>
           <geogName role="">unknown</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1748-01-23">1748-01-23</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1749-11-12">1749-11-12</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1751-12-18">1751-12-18</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1752">1752&#x2013;[?]</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1753-02-22">1753-02-22</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1754-12-04">1754-12-04</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1755-12-14">1755-12-14[?]</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1756-12-08">1756-12-08</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1764-07-15">1764-07-15</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1764-11-18">1764-11-18</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1767-06-22">1767-06-22</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1770-02-04">1770-02-04</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1785-12-27">1785-12-27</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1860-08-15">1860-08-15</date>
+              <geogName role="place">Wilhering</geogName>
+            </event>
+            <event>
+              <date isodate="1861-01-06">1861-01-06</date>
+              <geogName role="place">Wilhering</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -936,6 +1000,9 @@
               </titlePage>
               <extent>8 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 11 staves (11 mm)</p>
               </physMedium>
@@ -945,13 +1012,13 @@
                 <corpName role=""/>
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-G&#xD6;</identifier>
+                <ptr target="https://db.klostermusiksammlungen.at/scores/3244" mimetype="" label="catalogue entry"/>
               </repository>
               <identifier>621</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (6), A solo and coro (6), T solo and coro (6), B solo and coro (5), trb 1 (4), trb 2 (4), vl 1 (5), vl 2 (4); org missing</p>
-                <p>wrapper [fol. 2v] contains 13 performance dates: 1748-01-23, 1749-11-12, 1751-12-18, dma 10 po&#x17F;t Pent: [1]752, 1753-02-22, 1754-12-04, 1755-12-14 (?), 1756-10-08 (?), 1764-07-15, 1764-11-18, 1767-06-22, 1770-02-04, and 1785-12-27</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -988,7 +1055,11 @@
         <itemList>
           <item>
             <identifier/>
-            <physDesc/>
+            <physDesc>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">Otto Ball</hand>
+              </handList>
+            </physDesc>
             <physLoc>
               <repository>
                 <corpName role=""/>
@@ -998,9 +1069,6 @@
               <identifier>(no shelfmark)</identifier>
             </physLoc>
             <notesStmt>
-              <annot type="source_description">
-                <p>a copy, likely by Otto Ball</p>
-              </annot>
               <annot type="links">
                 <ptr mimetype=""/>
               </annot>
@@ -1036,7 +1104,11 @@
         <itemList>
           <item>
             <identifier/>
-            <physDesc/>
+            <physDesc>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
+            </physDesc>
             <physLoc>
               <repository>
                 <corpName role=""/>
@@ -1099,6 +1171,9 @@
               </titlePage>
               <extent>11 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Simon Anton Wei&#xDF;</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 11 staves (10 mm)<lb/>clno parts: ca. 1840&#x2013;1860, 32 x 20.5 cm, 12 staves (8.5 mm)</p>
               </physMedium>
@@ -1165,8 +1240,11 @@
               </titlePage>
               <extent>52 p.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
-                <p>hand-ruled paper, 12 staves</p>
+                <p>hand-ruled paper, 12 staves (9 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -1230,7 +1308,7 @@
               <extent>60 p.</extent>
               <dimensions/>
               <handList>
-                <hand medium="ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
               </handList>
               <physMedium>
                 <p>hand-ruled paper</p>

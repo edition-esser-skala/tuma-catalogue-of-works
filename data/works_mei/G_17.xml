@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1g17</altId>
+    <altId type="ark">ark:68748/ft1g17</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -387,8 +387,11 @@
               </titlePage>
               <extent>7 parts</extent>
               <dimensions/>
+              <handList>
+                <hand medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
-                <p>hand-ruled paper, 11 staves</p>
+                <p>hand-ruled paper, 11 staves (10 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>

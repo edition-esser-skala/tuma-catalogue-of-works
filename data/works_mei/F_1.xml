@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1f1</altId>
+    <altId type="ark">ark:68748/ft1f1</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -53,7 +53,82 @@
           <date isodate="1747-01-01">1747</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1760-03-28">1760-03-28</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1761-03-13">1761-03-13</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1762-04-02">1762-04-02</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1766-03-21">1766-03-21</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1767-04-10">1767-04-10</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1768-08-18">1768[?]-08-18</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1769-03-17">1769-03-17</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1769-09-17">1769-09-17</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1770-04-06">1770-04-06</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1770-09-16">1770-09-16</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1771-03-22">1771-03-22</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1772-04-10">1772-04-10</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1773-04-02">1773-04-02</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1774-04-02">1774-04-02</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1775-04-02">1775-04-02</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1785-09-17">1785-09-17</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1786-09-17">1786-09-17</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1787-09-17">1787-09-17</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -172,7 +247,11 @@
         <itemList>
           <item>
             <identifier/>
-            <physDesc/>
+            <physDesc>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
+            </physDesc>
             <physLoc>
               <repository>
                 <corpName role=""/>
@@ -227,6 +306,10 @@
               </titlePage>
               <extent>24 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -243,8 +326,6 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S coro (3x; 2, 2, 2), A coro (3x; 2, 2, 2), T coro (3x; 2, 2, 2), B coro (3x; 2, 2, 2), cnto (1), fag (1), trb 1 (1), trb 2 (1), vl (2x; 1, 1), vla (2x; 1, 1), vlc (1), vlne (1), org (1), maestro di capella (1)</p>
-                <p>A copy by Joseph Leysser and others.</p>
-                <p>wrapper (fol. 1r) contains 18 performance dates: 1760-03-28, 1761-03-13, 1762-04-02, 1766-03-21, 1767-04-10, [1768?]-08-18, 1769-03-17, 1769-09-17, 1770-04-06, 1770-09-16, 1771-03-22, 1772-04-10, 1773-04-02, 1774-04-02, 1775-04-02, 1785-09-17, 1786-09-17, and 1787-09-17</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -296,8 +377,11 @@
               </titlePage>
               <extent>12 p.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
-                <p>printed staff paper</p>
+                <p>printed staff paper, 14 staves (9 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -311,8 +395,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>full score from the collection of Otto Schmid</p>
-                <p>catalogued according to RISM entry</p>
+                <p>from the collection of Otto Schmid</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

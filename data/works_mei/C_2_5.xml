@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1c25</altId>
+    <altId type="ark">ark:68748/ft1c25</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -159,7 +159,7 @@
                   <locus/>
                 </locusGrp>
                 <height quantity="25" unit="cm">25 (height in cm)</height>
-                <width quantity="19.5" unit="cm">19.5 (height in cm)</width>
+                <width quantity="39" unit="cm">39 (width in cm)</width>
                 <term/>
                 <extent> lines</extent>
               </dimensions>
@@ -169,10 +169,16 @@
               <titlePage label="[fly leaf, fol. 1v]">
                 <p>Da&#xDF; die&#x17F;es Autograph mit jenem der K. K. Hofbibliothek | mit &#x17F;einen Grundz&#xFC;gen &#xFC;berein&#x17F;timme, wird hiermit be- | &#x17F;t&#xE4;tiget. | [right] Wien den 3. September 1832. | Ant. Schmid MP | Scriptor.</p>
               </titlePage>
-              <extent>2 p.</extent>
+              <titlePage label="[full score, p. 1]">
+                <p>[centered, in T&#x16F;ma's hand] Hymnus. [at right, by different hand] Tuma.</p>
+              </titlePage>
+              <extent>1 p.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma</hand>
+              </handList>
               <physMedium>
-                <p>hand-ruled paper, 15 staves</p>
+                <p>hand-ruled paper, 15 staves (9 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -230,6 +236,9 @@
               </titlePage>
               <extent>4 p.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">Aloys Fuchs</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (8 mm)</p>
               </physMedium>
@@ -244,9 +253,6 @@
               <identifier>Mus.Hs.15772</identifier>
             </physLoc>
             <notesStmt>
-              <annot type="source_description">
-                <p>a copy by Aloys Fuchs</p>
-              </annot>
               <annot type="links">
                 <ptr mimetype=""/>
               </annot>
@@ -297,8 +303,11 @@
               </titlePage>
               <extent>3 p.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Raphael Georg Kiesewetter</hand>
+              </handList>
               <physMedium>
-                <p>hand-ruled paper, 16 staves</p>
+                <p>hand-ruled paper, 16 staves (7 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -312,8 +321,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>This signature comprises several works. The present work is written on fol. 30r&#x2013;31v.</p>
-                <p>a copy by Aloys Fuchs</p>
+                <p>This manuscript comprises several works. The present work is written on fol. 30r&#x2013;31v.</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

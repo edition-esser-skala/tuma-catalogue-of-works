@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1h1</altId>
+    <altId type="ark">ark:68748/ft1h1</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -72,7 +72,7 @@
               <geogName role=""/>
             </creation>
             <history/>
-            <perfMedium>
+            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
               <perfResList>
                 <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro">
                   <head xml:lang="en">coro</head>
@@ -103,7 +103,7 @@
                 <tempo>[no tempo]</tempo>
                 <key pname="g" mode="dorian"/>
                 <meter sym="cut"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_608b39c1">
                       <head xml:lang="en">coro</head>
@@ -138,7 +138,7 @@
                 <tempo>[no tempo]</tempo>
                 <key pname="f" mode="major"/>
                 <meter sym="cut"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_608b39c1">
                       <head xml:lang="en">coro</head>
@@ -174,7 +174,7 @@
                 <tempo>[no tempo]</tempo>
                 <key pname="f" mode="major"/>
                 <meter sym="cut"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_608b39c1">
                       <head xml:lang="en">coro</head>
@@ -239,6 +239,9 @@
               </titlePage>
               <extent>40 p.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
               </physMedium>
@@ -305,8 +308,11 @@
               </titlePage>
               <extent>24 p.</extent>
               <dimensions/>
+              <handList>
+                <hand medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
-                <p>printed staff paper, 14 staves</p>
+                <p>printed staff paper, 14 staves (8 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -320,7 +326,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>full score from the collection of Otto Schmid</p>
+                <p>from the collection of Otto Schmid</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

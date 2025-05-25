@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1a9</altId>
+    <altId type="ark">ark:68748/ft1a9</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -54,9 +54,72 @@
           <date isodate="1750-01-01">mid 18th century</date>
           <geogName role="">unknown</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1831-12-22">1831-12-22</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1844-12-07">1844-12-07</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1845-06-20">1845-06-20</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1846-12-09">1846-12-09</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1847-03-11">1847&#x2013;03[?]&#x2013;11[?]</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1847-06-23">1847-06-23</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1847-11-11">1847-11-11</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1848-09-20">1848-09-20</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1853-02-09">1853-02-09</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1858-02-28">1858-02-28</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1871-12-18">1871-12-18</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1872-08-03">1872-08-03</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1872-11-20">1872-11-20</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1874-01-13">1874-01-13</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
+          <bibl>
+            <genre>reference</genre>
+            <ref targettype="pandoc-citation">@MelkInv [vol. I, no. 11]</ref>
+          </bibl>
           <bibl>
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@Riedel1979 [p. 104]</ref>
@@ -95,7 +158,7 @@
               <geogName role=""/>
             </creation>
             <history/>
-            <perfMedium>
+            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
               <perfResList>
                 <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro">
                   <head xml:lang="en">coro</head>
@@ -128,7 +191,7 @@
                 <tempo>Adagio &#x2013; Allabreve</tempo>
                 <key pname="e" mode="minor"/>
                 <meter sym="common"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                       <head xml:lang="en">coro</head>
@@ -166,7 +229,7 @@
                 <tempo>Allegro</tempo>
                 <key pname="e" mode="minor"/>
                 <meter sym="common"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                       <head xml:lang="en">coro</head>
@@ -202,7 +265,7 @@
                 <tempo>Allegro &#x2013; Adagio &#x2013; Allegro</tempo>
                 <key pname="e" mode="minor"/>
                 <meter sym="common"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                       <head xml:lang="en">coro</head>
@@ -238,7 +301,7 @@
                 <tempo>Andante &#x2013; Allegro</tempo>
                 <key pname="e" mode="minor"/>
                 <meter count="3" unit="2"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                       <head xml:lang="en">coro</head>
@@ -276,7 +339,7 @@
                 <tempo>Andante</tempo>
                 <key pname="e" mode="minor"/>
                 <meter count="3" unit="2"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                       <head xml:lang="en">coro</head>
@@ -307,7 +370,7 @@
                     <tempo>Andante</tempo>
                     <key pname="e" mode="minor"/>
                     <meter count="3" unit="2"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                           <head xml:lang="en">coro</head>
@@ -343,7 +406,7 @@
                     <tempo>Allegro</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                           <head xml:lang="en">coro</head>
@@ -384,7 +447,7 @@
                 <tempo>Adagio</tempo>
                 <key pname="e" mode="minor"/>
                 <meter sym="common"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                       <head xml:lang="en">coro</head>
@@ -415,7 +478,7 @@
                     <tempo>Adagio</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                           <head xml:lang="en">coro</head>
@@ -450,7 +513,7 @@
                     <tempo>Allabreve</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="cut"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_f1df0897">
                           <head xml:lang="en">coro</head>
@@ -521,6 +584,9 @@
               </titlePage>
               <extent>5 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">P. Marianus</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 12&#x2013;13 staves (10 mm)</p>
               </physMedium>
@@ -530,6 +596,7 @@
                 <corpName role=""/>
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-G&#xD6;</identifier>
+                <ptr target="https://db.klostermusiksammlungen.at/scores/3260" mimetype="" label="catalogue entry"/>
               </repository>
               <identifier>637</identifier>
             </physLoc>
@@ -587,6 +654,9 @@
               </titlePage>
               <extent>10 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
                 <p>vl 1: 33 x 21 cm, 12 staves (10 mm)</p>
@@ -644,19 +714,18 @@
                 <locusGrp>
                   <locus/>
                 </locusGrp>
-                <height quantity="32" unit="cm">32 (height in cm)</height>
-                <width quantity="21" unit="cm">21 (height in cm)</width>
                 <term/>
                 <extent> lines</extent>
               </dimensions>
               <titlePage label="[wrapper]">
                 <p>Mi&#x17F;sa in e&#x266E;. |&#xA0;&#xE2; | 4tuor Vocibus | Violino | Due Tromboni | con | Organo&#xA0;&#xE8; Violone. | Par Monsieur Thuma.</p>
               </titlePage>
-              <extent>9 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
-                <p>hand-ruled paper, 10 staves (10 mm)</p>
-                <p>also contains a second set of parts: 29.5 x 21 cm, 10 staves (10 mm)</p>
+                <p>two sets of parts:<lb/>(1) 9 parts, 32 x 21 cm, hand-ruled paper, 10 staves (10 mm)<lb/>(2) x parts, 29.5 x 21 cm, 10 staves (10 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -669,8 +738,8 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>S coro (4), A coro (4), T coro (4), B coro (4), trb 1 (4), trb 2 (4), vl (4), vlne (4), org (4)</p>
-                <p>second set of parts: no vlne, other parts identical with same number of pages</p>
+                <p>first set: S coro (4), A coro (4), T coro (4), B coro (4), trb 1 (4), trb 2 (4), vl (4), vlne (4), org (4)</p>
+                <p>second set: no vlne, other parts identical with same number of pages</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -708,6 +777,9 @@
           <item>
             <physDesc>
               <extent>8 parts</extent>
+              <handList>
+                <hand medium="ink" type="main">unidentified</hand>
+              </handList>
             </physDesc>
             <physLoc>
               <repository>
@@ -772,8 +844,11 @@
               </titlePage>
               <extent>44 p.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
-                <p>printed staff paper, 14 staves (&#x201C;Zu haben bei Gebr&#xFC;der Wolff in Creuznach.&#x201D;)</p>
+                <p>printed staff paper, 14 staves (&#x201C;Zu haben bei Gebr&#xFC;der Wolff in Creuznach.&#x201D;; 8 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -787,8 +862,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>full score from the collection of Otto Schmid</p>
-                <p>catalogued according to RISM entry</p>
+                <p>from the collection of Otto Schmid</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

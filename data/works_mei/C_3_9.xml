@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1c39</altId>
+    <altId type="ark">ark:68748/ft1c39</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -296,6 +296,9 @@
               </titlePage>
               <extent>7 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -312,7 +315,6 @@
             <notesStmt>
               <annot type="source_description">
                 <p>A solo (3), vl (3), vla (3), vlc (2), vlne (2), org (3), mdc (2)</p>
-                <p>a copy by Joseph Leysser</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -360,6 +362,9 @@
               </dimensions>
               <extent>4 parts</extent>
               <dimensions/>
+              <handList>
+                <hand medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 12 staves (11 mm)</p>
               </physMedium>
@@ -369,6 +374,7 @@
                 <corpName role=""/>
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-G&#xD6;</identifier>
+                <ptr target="https://db.klostermusiksammlungen.at/scores/4258" mimetype="" label="catalogue entry"/>
               </repository>
               <identifier>1637</identifier>
             </physLoc>

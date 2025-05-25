@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1c311</altId>
+    <altId type="ark">ark:68748/ft1c311</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -53,7 +53,38 @@
           <date isodate="1741-01-01">1741</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1741-06-05">1741-06-05</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1741-08-25">1741-08-25</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1742-08-26">1742-08-26</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1743-03-08">1743-03-08</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1743-06-18">1743-06-18</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1746-01-09">1746-01-09</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1749-05-22">1749-05-22</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -312,6 +343,9 @@
               </titlePage>
               <extent>16 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">copyist E</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -328,8 +362,6 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (3), A solo and coro (3), S coro (1), A coro (1), T coro (1), B coro (1), cnto (1), fag (1), trb 1 (1), trb 2 (1), vl 1 (1), vl 2 (1), vlc (3), vlne (3), org (3), mdc (3)</p>
-                <p>wrapper (fol. 1r) contains 7 performance dates: 1741-06-05, 1741-08-25, 1742-08-26, 1743-03-28, 1743-06-18, 1746-06-09, and 1749-05-22</p>
-                <p>a copy by copyist E</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1d25</altId>
+    <altId type="ark">ark:68748/ft1d25</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -188,6 +188,9 @@
               </titlePage>
               <extent>2 fol.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 16 staves (10 mm)</p>
               </physMedium>
@@ -240,7 +243,11 @@
         <itemList>
           <item>
             <identifier/>
-            <physDesc/>
+            <physDesc>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">Otto Ball</hand>
+              </handList>
+            </physDesc>
             <physLoc>
               <repository>
                 <corpName role=""/>
@@ -250,9 +257,6 @@
               <identifier>(no shelfmark)</identifier>
             </physLoc>
             <notesStmt>
-              <annot type="source_description">
-                <p>a copy, likely by Otto Ball</p>
-              </annot>
               <annot type="links">
                 <ptr mimetype=""/>
               </annot>
@@ -292,6 +296,9 @@
               <titlePage label="[wrapper]">
                 <p>compoeta a 4 Voci con Violino e Tromboni in conc del sgr. Fr. Tuma l&#x2019;anno 1742 Partes 24.</p>
               </titlePage>
+              <handList>
+                <hand medium="ink" type="main">unidentified</hand>
+              </handList>
             </physDesc>
             <physLoc>
               <repository>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1e23</altId>
+    <altId type="ark">ark:68748/ft1e23</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -53,7 +53,38 @@
           <date isodate="1742-01-01">1742</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1742-02-02">1742-02-02</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1742-02-23">1742-02-23</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1443-03-08">1443-03-08</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1744-02-24">1744-02-24</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1744-03-12">1744-03-12</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1746-03-24">1746-03-24</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1748-03-18">1748-03-18</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -77,7 +108,7 @@
               <geogName role=""/>
             </creation>
             <history/>
-            <perfMedium>
+            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
               <perfResList>
                 <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli">
                   <head xml:lang="en">soli</head>
@@ -118,7 +149,7 @@
                 <tempo>Andante</tempo>
                 <key pname="c" mode="dorian"/>
                 <meter sym="common"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_894acab6">
                       <head xml:lang="en">soli</head>
@@ -157,7 +188,7 @@
                     <tempo>Andante</tempo>
                     <key pname="c" mode="dorian"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_894acab6">
                           <head xml:lang="en">soli</head>
@@ -192,7 +223,7 @@
                     <tempo>Andante</tempo>
                     <key pname="g" mode="minor"/>
                     <meter count="3" unit="4"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_cf8a0f49">
                           <head xml:lang="en">coro</head>
@@ -233,7 +264,7 @@
                     <tempo>Allegro</tempo>
                     <key pname="e" mode="major" accid="f"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_cf8a0f49">
                           <head xml:lang="en">coro</head>
@@ -278,7 +309,7 @@
                     <tempo>[no tempo]</tempo>
                     <key pname="c" mode="dorian"/>
                     <meter sym="common"/>
-                    <perfMedium>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                       <perfResList>
                         <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_cf8a0f49">
                           <head xml:lang="en">coro</head>
@@ -360,6 +391,11 @@
               </titlePage>
               <extent>15 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Anton Ristl</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -376,8 +412,8 @@
             <notesStmt>
               <annot type="source_description">
                 <p>T solo and coro (6), S coro (3), A coro (2), T coro (3), B coro (3), cnto (2), fag (2), trb 1 (3), trb 2 (3), vl 1 (4), vl 2 (3), vlc (3), vlne (3), org (4), mdc (4)</p>
-                <p>wrapper (fol. 1r) contains 7 performance dates: 1742-02-02, 1742-02-23, 1743-03-03, 1744-02-24, 1744-03-17, 1746-03-24, and 1748-03-18</p>
-                <p>a copy by Joseph Leysser and Anton Ristl</p>
+                <p>A coro, cnto, fag, vl 1, vl 2, vlc, and vlne in the hand of Leysser; S coro, T solo and coro, T coro, B coro, and org by Ristl; trb 1, trb 2, and mdc by unidentified hand</p>
+                <p>&#xA0;</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1d36</altId>
+    <altId type="ark">ark:68748/ft1d36</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -53,7 +53,15 @@
           <date isodate="1750-01-01">mid 18th century</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1777-03-20">1777-03-20</date>
+              <geogName role="venue"/>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -617,6 +625,146 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
+          <date isodate="1777-01-01">1777</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier/>
+            <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="28" unit="cm">28 (height in cm)</height>
+                <width quantity="23" unit="cm">23 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[wrapper]">
+                <p>Mi&#x17F;erere. | Aut. D. Thuma. | Comparavit P. Marianus. | 1777</p>
+              </titlePage>
+              <extent>7 parts</extent>
+              <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">P. Marianus</hand>
+              </handList>
+              <physMedium>
+                <p>hand-ruled paper, 10/11 staves (10 mm)</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-G&#xD6;</identifier>
+                <ptr target="https://db.klostermusiksammlungen.at/scores/5207" mimetype="" label="catalogue entry"/>
+              </repository>
+              <identifier>2588</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>S coro (2x; 17, 12), A coro (2x; 17, 12), T coro (18), B coro (17), mdc (16)</p>
+                <p>one S and one A part (with 12 written pages, no lyrics) by P. Marianus, remaining parts by Leysser</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date isodate="1800-01-01">19th century</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Score</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier/>
+            <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="22" unit="cm">22 (height in cm)</height>
+                <width quantity="32" unit="cm">32 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[p. 1, in Kiesewetter's hand]">
+                <p>Il Salmo 50. | Miserere mei Deus, | a quattro voci in pieno, | di Francesco Tuma. | Franz Tuma (oder Thuma) Capellmei&#x17F;ter der verwittweten Kai&#x17F;erin Elisabeth | zu Wien. Geb. zu Ko&#x17F;telatz in B&#xF6;hmen 1704. Sch&#xFC;ler des kai&#x17F;. Cap.M. J. J. Fux. | 1722 &#x17F;chon kai&#x17F;. Vice=Hofe Capellmei&#x17F;ter. 1741 Capellm. der verwittweten Kai&#x17F;erin Eli | &#x17F;abeth. 1768 begab er&#x17F;ich in ein Klo&#x17F;ter, wo er im J. 1774 &#x17F;tarb. Seine gr&#xF6;&#xDF;te St&#xE4;rke | ent&#x17F;tand in der contrapuncti&#x17F;chen Schreibart, und &#x17F;eine mehre&#x17F;ten Compo&#x17F;itionen | waren f&#xFC;r die Kirche. Man hat auch Symphonien a tre von ihm. | Ex coll. R. Kiesewetter</p>
+              </titlePage>
+              <extent>86 p.</extent>
+              <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="title">Raphael Georg Kiesewetter</hand>
+              </handList>
+              <physMedium>
+                <p>hand-ruled paper, 10 staves (9 mm)</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wn</identifier>
+                <ptr target="https://data.onb.ac.at/rec/AC14297596" mimetype="" label="digitized version"/>
+              </repository>
+              <identifier>SA.67.H.4</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
           <date isodate="1836-01-01">1836</date>
         </pubStmt>
         <classification>
@@ -647,6 +795,9 @@
                 <extent> lines</extent>
               </dimensions>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
               </physMedium>
@@ -713,6 +864,9 @@
                 <extent> lines</extent>
               </dimensions>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
               </physMedium>
@@ -779,8 +933,11 @@
                 <extent> lines</extent>
               </dimensions>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
-                <p>printed staff paper, 12 staves</p>
+                <p>printed staff paper, 12 staves (10 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -788,13 +945,13 @@
                 <corpName role=""/>
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">D-Dl</identifier>
-                <ptr target="http://digital.slub-dresden.de/id1902226402" mimetype="" label="digitized version"/>
+                <ptr target="https://digital.slub-dresden.de/id1902226402" mimetype="" label="digitized version"/>
               </repository>
               <identifier>Mus.2968-D-506</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>full score from the collection of Otto Schmid</p>
+                <p>from the collection of Otto Schmid</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -832,7 +989,7 @@
           <item>
             <identifier label="RISM">451022946</identifier>
             <physDesc>
-              <extent>44 f.</extent>
+              <extent>44 fol.</extent>
               <dimensions>
                 <locusGrp>
                   <locus/>
@@ -843,6 +1000,9 @@
                 <extent> lines</extent>
               </dimensions>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">Raphael Georg Kiesewetter</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
               </physMedium>
@@ -859,138 +1019,6 @@
               <annot type="source_description">
                 <p>catalogued according to RISM entry</p>
               </annot>
-              <annot type="links">
-                <ptr mimetype=""/>
-              </annot>
-            </notesStmt>
-            <componentList/>
-          </item>
-        </itemList>
-        <componentList/>
-        <relationList>
-          <relation rel="isEmbodimentOf"/>
-        </relationList>
-      </manifestation>
-      <manifestation>
-        <identifier/>
-        <titleStmt>
-          <title>Manuscript copy</title>
-        </titleStmt>
-        <pubStmt>
-          <publisher/>
-          <pubPlace/>
-          <date isodate="1777-01-01">1777</date>
-        </pubStmt>
-        <classification>
-          <termList>
-            <term>Notated music</term>
-            <term>Manuscript</term>
-            <term>Copy</term>
-            <term>Parts</term>
-            <term>Fair copy</term>
-            <term>Complete</term>
-          </termList>
-        </classification>
-        <itemList>
-          <item>
-            <identifier/>
-            <physDesc>
-              <dimensions>
-                <locusGrp>
-                  <locus/>
-                </locusGrp>
-                <height quantity="28" unit="cm">28 (height in cm)</height>
-                <width quantity="23" unit="cm">23 (height in cm)</width>
-                <term/>
-                <extent> lines</extent>
-              </dimensions>
-              <titlePage label="[wrapper]">
-                <p>Mi&#x17F;erere. | Aut. D. Thuma. | Comparavit P. Marianus. | 1777</p>
-              </titlePage>
-              <extent>7 parts</extent>
-              <dimensions/>
-              <physMedium>
-                <p>hand-ruled paper, 10/11 staves (10 mm)</p>
-              </physMedium>
-            </physDesc>
-            <physLoc>
-              <repository>
-                <corpName role=""/>
-                <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">A-G&#xD6;</identifier>
-              </repository>
-              <identifier>2588</identifier>
-            </physLoc>
-            <notesStmt>
-              <annot type="source_description">
-                <p>S coro (2x; 17, 12), A coro (2x; 17, 12), T coro (18), B coro (17), mdc (16)</p>
-                <p>wrapper (fol. 2v) contains a single performance date 1777-03-20</p>
-                <p>The two S/A parts with 12 written pages do not contain lyrics and have been copied by P. Marianus. The remaining parts have been written by Joseph Leysser and thus are likely part of T&#x16F;ma's performance materials.</p>
-              </annot>
-              <annot type="links">
-                <ptr mimetype=""/>
-              </annot>
-            </notesStmt>
-            <componentList/>
-          </item>
-        </itemList>
-        <componentList/>
-        <relationList>
-          <relation rel="isEmbodimentOf"/>
-        </relationList>
-      </manifestation>
-      <manifestation>
-        <identifier/>
-        <titleStmt>
-          <title>Manuscript copy</title>
-        </titleStmt>
-        <pubStmt>
-          <publisher/>
-          <pubPlace/>
-          <date isodate="1800-01-01">19th century</date>
-        </pubStmt>
-        <classification>
-          <termList>
-            <term>Notated music</term>
-            <term>Manuscript</term>
-            <term>Copy</term>
-            <term>Score</term>
-            <term>Fair copy</term>
-            <term>Complete</term>
-          </termList>
-        </classification>
-        <itemList>
-          <item>
-            <identifier/>
-            <physDesc>
-              <dimensions>
-                <locusGrp>
-                  <locus/>
-                </locusGrp>
-                <height quantity="22" unit="cm">22 (height in cm)</height>
-                <width quantity="32" unit="cm">32 (height in cm)</width>
-                <term/>
-                <extent> lines</extent>
-              </dimensions>
-              <titlePage label="[p. 1, in Kiesewetter's hand]">
-                <p>Il Salmo 50. | Miserere mei Deus, | a quattro voci in pieno, | di Francesco Tuma. | Franz Tuma (oder Thuma) Capellmei&#x17F;ter der verwittweten Kai&#x17F;erin Elisabeth | zu Wien. Geb. zu Ko&#x17F;telatz in B&#xF6;hmen 1704. Sch&#xFC;ler des kai&#x17F;. Cap.M. J. J. Fux. | 1722 &#x17F;chon kai&#x17F;. Vice=Hofe Capellmei&#x17F;ter. 1741 Capellm. der verwittweten Kai&#x17F;erin Eli | &#x17F;abeth. 1768 begab er&#x17F;ich in ein Klo&#x17F;ter, wo er im J. 1774 &#x17F;tarb. Seine gr&#xF6;&#xDF;te St&#xE4;rke | ent&#x17F;tand in der contrapuncti&#x17F;chen Schreibart, und &#x17F;eine mehre&#x17F;ten Compo&#x17F;itionen | waren f&#xFC;r die Kirche. Man hat auch Symphonien a tre von ihm. | Ex coll. R. Kiesewetter</p>
-              </titlePage>
-              <extent>86 p.</extent>
-              <dimensions/>
-              <physMedium>
-                <p>hand-ruled paper, 10 staves</p>
-              </physMedium>
-            </physDesc>
-            <physLoc>
-              <repository>
-                <corpName role=""/>
-                <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wn</identifier>
-                <ptr target="https://data.onb.ac.at/rec/AC14297596" mimetype="" label="digitized version"/>
-              </repository>
-              <identifier>SA.67.H.4</identifier>
-            </physLoc>
-            <notesStmt>
               <annot type="links">
                 <ptr mimetype=""/>
               </annot>

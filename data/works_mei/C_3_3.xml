@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1c33</altId>
+    <altId type="ark">ark:68748/ft1c33</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -52,7 +52,38 @@
           <date isodate="1740-01-01">1st half 18th century</date>
           <geogName role="">unknown</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1763-02-02">1763-02-02</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1779-07-02">1779-07-02</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1779-07-16">1779-07-16</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1781-08-22">1781-08-22</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1781-09-24">1781-09-24</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1783-12-15">1783-12-15</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1784-02-02">1784-02-02</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -341,6 +372,9 @@
               </titlePage>
               <extent>9 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">P. Josephus</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 12 staves (10 mm)</p>
               </physMedium>
@@ -350,6 +384,7 @@
                 <corpName role=""/>
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-G&#xD6;</identifier>
+                <ptr target="https://db.klostermusiksammlungen.at/scores/4257" mimetype="" label="catalogue entry"/>
               </repository>
               <identifier>1636</identifier>
             </physLoc>
@@ -357,7 +392,6 @@
               <annot type="source_description">
                 <p>S solo and coro (5), A coro (2), T coro (2), B coro (2), clno 1 (1), clno 2 (1), vl 1 (7), vl 2 (7), org (6)</p>
                 <p>at end of vl 1, 2, and org: O: A: M: D: G:</p>
-                <p>wrapper (fol. 2v) contains 7 performance dates: aria on 1763-02-02, 1779-07-02, 1781-09-24, and 1784-02-02, chorus on 1779-07-16, 1781-08-22, and 1783-12-15</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

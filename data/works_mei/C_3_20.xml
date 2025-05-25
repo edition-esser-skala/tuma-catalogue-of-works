@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1c320</altId>
+    <altId type="ark">ark:68748/ft1c320</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -53,7 +53,18 @@
           <date isodate="1744-01-01">1744</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1744">1744-[?]</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1745">1745-[?]</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -199,6 +210,9 @@
               </titlePage>
               <extent>18 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -215,8 +229,6 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (2), A solo and coro (2), T solo and coro (3), B solo and coro (2), S coro (2), A coro (2), T coro (2), B coro (2), cnto (1), fag (1), trb 1 (1), trb 2 (1), vl 1 (2), vl 2 (2), vlc (2), vlne (2), org (2), mdc (2)</p>
-                <p>wrapper (fol. 1r) contains 2 performance dates: 1744-??-?? and 1745-??-??</p>
-                <p>a copy by Joseph Leysser</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

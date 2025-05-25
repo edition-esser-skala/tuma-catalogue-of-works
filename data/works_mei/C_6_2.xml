@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1c62</altId>
+    <altId type="ark">ark:68748/ft1c62</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -206,6 +206,9 @@
               </titlePage>
               <extent>14 parts</extent>
               <dimensions/>
+              <handList>
+                <hand medium="black ink" type="main">Joseph Leysser</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (11 mm)</p>
               </physMedium>
@@ -215,13 +218,13 @@
                 <corpName role=""/>
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-KN</identifier>
+                <ptr target="https://db.klostermusiksammlungen.at/scores/989" mimetype="" label="catalogue entry"/>
               </repository>
               <identifier>464/2</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (2), A solo and coro (2), S coro (2), A coro (2),&#xA0;T coro (2x; 2, 2), B coro (2x; 2, 2), trb 1 (2), trb 2 (1), vl 1 (3), vl 2 (3), vlc (2), org (2)</p>
-                <p>a copy by Joseph Leysser (however, on different paper than the sources in A-Wn)</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

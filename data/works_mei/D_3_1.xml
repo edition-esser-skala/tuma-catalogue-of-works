@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1d31</altId>
+    <altId type="ark">ark:68748/ft1d31</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -53,7 +53,122 @@
           <date isodate="1745-01-01">1745</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1770-03-16">1770-03-16</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1771-02-22">1771-02-22</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1772-03-27">1772-03-27</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1773-03-22">1773-03-22</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1774-03-16">1774-03-16</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1775-03-14">1775-03-14</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1776-03-07">1776-03-07</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1777-03-05">1777-03-05</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1778-03-23">1778-03-23</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1779-02-22">1779-02-22</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1780-02-14">1780-02-14</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1781-03-27">1781-03-27</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1782-03-05">1782-03-05</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1783-03-12">1783-03-12</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1770-03-30">1770-03-30</date>
+              <geogName role="place">Seitenstetten</geogName>
+            </event>
+            <event>
+              <date isodate="1771-03-13">1771-03-13</date>
+              <geogName role="place">Seitenstetten</geogName>
+            </event>
+            <event>
+              <date isodate="1772-03-26">1772-03-26</date>
+              <geogName role="place">Seitenstetten</geogName>
+            </event>
+            <event>
+              <date isodate="1773-03-22">1773-03-22</date>
+              <geogName role="place">Seitenstetten</geogName>
+            </event>
+            <event>
+              <date isodate="1780-03-01">1780-03-01</date>
+              <geogName role="place">Seitenstetten</geogName>
+            </event>
+            <event>
+              <date isodate="1782-02-23">1782-02-23</date>
+              <geogName role="place">Seitenstetten</geogName>
+            </event>
+            <event>
+              <date isodate="1783-03-11">1783-03-11</date>
+              <geogName role="place">Seitenstetten</geogName>
+            </event>
+            <event>
+              <date isodate="1784-03-11">1784-03-11</date>
+              <geogName role="place">Seitenstetten</geogName>
+            </event>
+            <event>
+              <date isodate="1785-02-17">1785-02-17</date>
+              <geogName role="place">Seitenstetten</geogName>
+            </event>
+            <event>
+              <date isodate="1746-02-26">1746-02-26</date>
+              <geogName role="place">Ottobeuren</geogName>
+            </event>
+            <event>
+              <date isodate="1747-02-10">1747-02-10</date>
+              <geogName role="place">Ottobeuren</geogName>
+            </event>
+            <event>
+              <date isodate="1747-03-17">1747-03-17</date>
+              <geogName role="place">Ottobeuren</geogName>
+            </event>
+            <event>
+              <date isodate="1748-03-06">1748-03-06</date>
+              <geogName role="place">Ottobeuren</geogName>
+            </event>
+            <event>
+              <date isodate="1748-04-02">1748[?]-04-02</date>
+              <geogName role="place">Ottobeuren</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -410,6 +525,9 @@
               </titlePage>
               <extent>11 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 11 staves (11 mm)</p>
               </physMedium>
@@ -419,13 +537,13 @@
                 <corpName role=""/>
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-G&#xD6;</identifier>
+                <ptr target="https://db.klostermusiksammlungen.at/scores/5206" mimetype="" label="catalogue entry"/>
               </repository>
               <identifier>2587</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (3), A solo and coro (4), T solo and coro (4), B solo and coro (4), trb 1 (2), trb 2 (2), vl 1 (4), vl 2 (4), vla (2), vla da gamba (2), org (4)</p>
-                <p>wrapper (fol 2v) contains 14 performance dates: 1770-03-16, 1771-02-22, 1772-03-27, 1773-03-22, 1774-03-16, 1775-03-14, 1776-03-07, 1777-03-05, 1778-03-23, 1779-02-22, 1780-02-14, 1781-03-27, 1782-03-05, and 1783-03-12</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -480,6 +598,9 @@
               </titlePage>
               <extent>9 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 13 staves (10 mm)</p>
               </physMedium>
@@ -495,8 +616,6 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (2), A solo and coro (2), T solo and coro (2), B solo and coro (2), trb 1 (2), trb 2 (2), vl 1 (2), vl 2 (2), org (3)</p>
-                <p>wrapper (fol. 2v) contains 7 performance dates: 1772-03-26, 1773-03-22, 1780-03-01, 1782-02-23, 1783-03-11, 1784-03-11, and 1785-02-17</p>
-                <p>org part (fol. 1r) contains 2 performance dates: 1770-03-30 and 1771-03-13</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -548,6 +667,10 @@
               </titlePage>
               <extent>18 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -564,8 +687,7 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (4), A solo and coro (5), T solo and coro (5), B solo and coro (5), S coro (3), A coro (4), T coro (4), B coro (3), trb 1 (3), trb 2 (3), vl1/vla (4), vl 1 (3), vl 2 (2x; 3, 3), vlc (6), vlne (6), org (2x; 6, 6)</p>
-                <p>a copy by Joseph Leysser (one org part in different hand)</p>
-                <p>dated according to title page of source in A-SEI</p>
+                <p>one org part by unidentified hand, remaining parts by Leysser</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -617,6 +739,9 @@
               </titlePage>
               <extent>16 p.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">Georg Poelchau</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
               </physMedium>
@@ -631,8 +756,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>a copy by Georg Poelchau</p>
-                <p>This signature comprises several works. The present work is written on p. 1&#x2013;16.</p>
+                <p>This manuscript comprises several works. The present work is written on p. 1&#x2013;16.</p>
                 <p>catalogued according to RISM entry</p>
               </annot>
               <annot type="links">
@@ -685,6 +809,9 @@
               </titlePage>
               <extent>11  parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (12 mm)<lb/>vla: 29 x 21.5 cm, 10 staves (10 mm)<lb/>vlne: 31.5 x 21 cm, 12 staves (11 mm)</p>
               </physMedium>
@@ -700,7 +827,6 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (3), A solo and coro (4), T solo and coro (4), B solo and coro (4), trb 1 (3), trb 2 (3), vl 1 (4), vl 2 (4), vla/vla da gamba (2), vlne (4), org (4)</p>
-                <p>wrapper (fol. 1r) contains 5 performance dates: 1746-02-26, 1747-02-10, 1747-03-17, 1748-03-06, and [1748?]-04-02</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

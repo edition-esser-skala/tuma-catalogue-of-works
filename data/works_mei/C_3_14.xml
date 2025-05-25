@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1c314</altId>
+    <altId type="ark">ark:68748/ft1c314</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -53,7 +53,18 @@
           <date isodate="1743-01-01">1743</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1744-06-08">1744-06-08</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1748-06-29">1748-06-29</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -312,6 +323,9 @@
               </titlePage>
               <extent>9 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -328,8 +342,6 @@
             <notesStmt>
               <annot type="source_description">
                 <p>B solo (3), vl 1 (2x; 3, 3), vl 2 (2x; 3, 3), vlc (3), vlne (3), org (4), mdc (4)</p>
-                <p>a copy by Joseph Leysser</p>
-                <p>wrapper (fol. 1r) contains two performance dates: 1744-06-08 and 1748-06-29</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -381,6 +393,9 @@
               </titlePage>
               <extent>4 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>

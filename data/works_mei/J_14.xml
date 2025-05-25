@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1j14</altId>
+    <altId type="ark">ark:68748/ft1j14</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -70,7 +70,7 @@
               <geogName role=""/>
             </creation>
             <history/>
-            <perfMedium>
+            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
               <perfResList>
                 <perfRes codedval="bcl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">clno</perfRes>
                 <perfRes codedval="pti" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">timp</perfRes>
@@ -98,7 +98,7 @@
                 <tempo>Allegro</tempo>
                 <key pname="c" mode="major"/>
                 <meter sym="common"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfRes codedval="bcl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">clno</perfRes>
                     <perfRes codedval="pti" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">timp</perfRes>
@@ -129,7 +129,7 @@
                 <tempo>Andante</tempo>
                 <key pname="f" mode="major"/>
                 <meter count="2" unit="4"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
                     <perfRes codedval="mco" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">bc</perfRes>
@@ -158,7 +158,7 @@
                 <tempo>[no tempo]</tempo>
                 <key pname="c" mode="major"/>
                 <meter count="3" unit="4"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfRes codedval="bcl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">clno</perfRes>
                     <perfRes codedval="pti" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">timp</perfRes>
@@ -189,7 +189,7 @@
                 <tempo>Allegro</tempo>
                 <key pname="c" mode="major"/>
                 <meter count="2" unit="4"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfRes codedval="bcl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">clno</perfRes>
                     <perfRes codedval="pti" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">timp</perfRes>
@@ -247,10 +247,13 @@
                 <extent> lines</extent>
               </dimensions>
               <titlePage label="[wrapper]">
-                <p>XII [space] Del Sig. Tuma. | Sinfonia Ex C | &#xE0; | Violino Primo | Secondo | Clarino Primo | Secondo | Tympanis | con | Basso.</p>
+                <p>Del Sig. Tuma. | Sinfonia Ex C | &#xE0; | Violino Primo | Secondo | Clarino Primo | Secondo | Tympanis | con | Basso.</p>
               </titlePage>
               <extent>6 parts</extent>
               <dimensions/>
+              <handList>
+                <hand medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 9 staves (9 mm)</p>
               </physMedium>

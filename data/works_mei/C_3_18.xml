@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1c318</altId>
+    <altId type="ark">ark:68748/ft1c318</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -53,7 +53,46 @@
           <date isodate="1743-01-01">1743</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1743-06-17">1743-06-17</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1743-09-07">1743-09-07</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1743-12-04">1743-12-04</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1744-06-05">1744-06-05</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1745-06-17">1745-06-17</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1746-06-10">1746-06-10</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1746-10-17">1746-10-17</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1747-12-06">1747-12-06</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1748-12-06">1748-12-06</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -316,6 +355,9 @@
               </titlePage>
               <extent>16 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -332,8 +374,6 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (2), A solo and coro (2), T solo and coro (4), S coro (2), A coro (2), T coro (2), B coro (2), cnto (2), trb 1 (2), trb 2 (2), vl 1 (3), vl 2 (3), vlc (3), vlne (3), org (3), mdc (3); fag part presumably missing</p>
-                <p>wrapper (fol. 1r) contains 9 performance dates: 1743-06-17, 1743-09-07, 1743-12-04, 1744-06-05, 1745-06-17, 1746-06-10, 1746-10-17, 1747-12-06, and 1748-12-06</p>
-                <p>a copy by Joseph Leysser</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

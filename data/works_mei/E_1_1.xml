@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1e11</altId>
+    <altId type="ark">ark:68748/ft1e11</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -53,7 +53,78 @@
           <date isodate="1743-01-01">1743</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1743-12-22">1743-12-22</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1743-12-25">1743-12-25</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1744-01-18">1744-01-18</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1744-01-21">1744-01-21</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1744-12-31">1744-12-31</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1745-11-28">1745-11-28</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1745-12-31">1745-12-31</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1746-12-07">1746-12-07</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1747-12-07">1747-12-07</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1747-12-25">1747-12-25</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1748-12-08">1748-12-08</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1748-12-25">1748-12-25</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1749-12-08">1749-12-08</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1751-12-25">1751-12-25</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1754-12-31">1754-12-31</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1755-12-01">1755-12-01</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1755-12-25">1755-12-25</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -179,6 +250,9 @@
               </titlePage>
               <extent>10 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -195,8 +269,6 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo (1), A solo (1), vl (4x; 1, 1, 1, 1), vlc (1), vlne (1), org (1), mdc (1)</p>
-                <p>a copy by Joseph Leysser</p>
-                <p>wrapper (fol. 1r) contains 17 performance dates: 1743-12-22, 1743-12-25, 1744-01-18, 1744-01-21, 1744-12-31, 1745-11-28, 1745-12-31, 1746-12-07, 1747-12-07, 1747-12-25, 1748-12-08, 1748-12-25, 1749-12-08, 1751-12-25, 1754-12-31, 1755-12-01, and 1755-12-25</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

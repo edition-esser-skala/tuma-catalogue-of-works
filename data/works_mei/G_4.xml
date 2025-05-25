@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1g4</altId>
+    <altId type="ark">ark:68748/ft1g4</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -53,7 +53,42 @@
           <date isodate="1741-01-01">ca. 1741</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1747">1747</date>
+              <geogName role="place">Heiligenkreuz</geogName>
+            </event>
+            <event>
+              <date isodate="1750">1750</date>
+              <geogName role="place">Heiligenkreuz</geogName>
+            </event>
+            <event>
+              <date isodate="1766-05-04">1766-05-04</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1766-08-16">1766-08-16</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1766-11-11">1766-11-11</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1767-06-27">1767-06-27</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1762-09-28">1762-09-28</date>
+              <geogName role="place">Praha</geogName>
+            </event>
+            <event>
+              <date isodate="1781-09-23">1781-09-23</date>
+              <geogName role="place">Praha</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -296,7 +331,7 @@
                     </relationList>
                   </expression>
                   <expression>
-                    <title xml:lang="la">Salus informorum &#x2013; Regina Angelorum &#x2013; Agnus Dei</title>
+                    <title xml:lang="la">Salus infirmorum &#x2013; Regina Angelorum &#x2013; Agnus Dei</title>
                     <contributor>
                       <persName role=""/>
                     </contributor>
@@ -391,6 +426,9 @@
                 <extent> lines</extent>
               </dimensions>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
               </physMedium>
@@ -406,7 +444,6 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro, A solo and coro, T solo and coro, B solo and coro, vl solo, vl 1, vl 2, vlne, org</p>
-                <p>contains performance dates from 1747 to 1750</p>
                 <p>as of 2024-07, this source is undiscoverable</p>
                 <p>catalogued according to RISM entry</p>
               </annot>
@@ -460,6 +497,10 @@
               </titlePage>
               <extent>18 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Anton Ristl</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">copyist E</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -476,9 +517,8 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (4), A solo and coro (4), T solo and coro (4), B solo and coro (5), S coro (3), A coro (3), T coro (4), B coro (4), cnto (3), fag (4), trb 1 (3), trb 2 (3), vl 1 (5), vl 2 (4), vlc (7), vlne (7), org (7), mdc (7)</p>
-                <p>wrapper (fol. 1v) contains 4 performance dates: 1766-05-04, 1766-08-16, 1766-11-11, and 1767-06-27</p>
-                <p>a copy by Anton Ristl (A coro, T coro, B coro, cnto) and copyist E (S solo and coro, A solo and coro, T solo and coro, B solo and coro, S coro, fag, trb 1, trb 2, vl 1, vl 2, vlc, vlne, org, mdc)</p>
-                <p>This signature comprises two works: The present work and the <rend fontstyle="italic">Sub tuum praesidium</rend> TumW E.5.4.</p>
+                <p>A coro, T coro, B coro, and cnto&#xA0;by Anton Ristl, remaining parts by copyist E</p>
+                <p>This manuscript comprises two works: The present work and the <rend fontstyle="italic">Sub tuum praesidium</rend> TumW E.5.4.</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -530,6 +570,9 @@
               </titlePage>
               <extent>8 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
               </physMedium>
@@ -597,6 +640,9 @@
               </titlePage>
               <extent>8 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
               </physMedium>

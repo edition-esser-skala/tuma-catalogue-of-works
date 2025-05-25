@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1c5s1</altId>
+    <altId type="ark">ark:68748/ft1c5s1</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -43,8 +43,7 @@
         <identifier label="TumW">C.5.S1</identifier>
         <title xml:lang="la">Tenebrae factae sunt</title>
         <contributor>
-          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118624539" cert="low">Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma</persName>
-          <corpName role=""/>
+          <persName role="composer">unknown</persName>
         </contributor>
         <creation>
           <date isodate="1775-01-01">2nd half 18th century</date>
@@ -75,7 +74,7 @@
               <geogName role=""/>
             </creation>
             <history/>
-            <perfMedium>
+            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
               <perfResList>
                 <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro">
                   <head xml:lang="en">coro</head>
@@ -109,7 +108,7 @@
                 <tempo>Andante</tempo>
                 <key pname="b" accid="f" mode="major"/>
                 <meter count="3" unit="4"/>
-                <perfMedium>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
                     <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_6fb7c9d1">
                       <head xml:lang="en">coro</head>
@@ -177,6 +176,9 @@
               </titlePage>
               <extent>8 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 11 staves (10 mm)</p>
               </physMedium>
@@ -186,6 +188,7 @@
                 <corpName role=""/>
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-KN</identifier>
+                <ptr target="https://db.klostermusiksammlungen.at/scores/968" mimetype="" label="catalogue entry"/>
               </repository>
               <identifier>452/4</identifier>
             </physLoc>

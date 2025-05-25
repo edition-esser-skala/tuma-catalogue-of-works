@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1b1</altId>
+    <altId type="ark">ark:68748/ft1b1</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -54,7 +54,22 @@
           <date isodate="1742">1742</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1742-10-20">1742-10-20</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1743-10-21">1743-10-21</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1759-12-16">1759-12-16</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -1122,7 +1137,7 @@
                     <incip>
                       <incipText/>
                     </incip>
-                    <tempo>Agagio</tempo>
+                    <tempo>Adagio</tempo>
                     <key pname="c" mode="dorian"/>
                     <meter sym="common"/>
                     <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
@@ -1223,19 +1238,25 @@
             <identifier label="RISM">600137151</identifier>
             <physDesc>
               <titlePage label="[wrapper]">
-                <p>Messa della morte | a 4 voci | 2 violini | e | 2 Tromboni | in conc: | con | Rip:ni e clarini col | surdino ad lib:tum | Partes 36. | Requiem e Kyrie . | Del sg: France&#x17F;co Tuma | Maestro di Cap:a di S: Maesta | Ces: L'Imp:ce Elis: Vedova | L'Anno 1742<lb/>[top left corner, light brown ink:] 20 8bre 742<lb/>[below, pencil:] 27 &#x2013; 743 | [unreadable] (april 759<lb/>[below, dark brown ink:] 20 decemb apud capuc: pro Imperatrice<lb/>[top center, pencil:] AN.65.A.163. | 20 Auflagst. | 15<lb/>[bottom, pencil:] 16934. 55 Blt. 20 Auflagstimmen</p>
+                <p>Messa della morte | a 4 voci | 2 violini | e | 2 Tromboni | in conc: | con | Rip:ni e clarini col | surdino ad lib:tum | Partes 36. | Requiem e Kyrie . | Del sg: France&#x17F;co Tuma | Maestro di Cap:a di S: Maesta | Ces: L'Imp:ce Elis: Vedova | L'Anno 1742</p>
               </titlePage>
               <extent>21 parts</extent>
               <dimensions>
                 <locusGrp>
                   <locus/>
                 </locusGrp>
+                <height quantity="28" unit="cm">28 (height in cm)</height>
+                <width quantity="23" unit="cm">23 (height in cm)</width>
                 <term/>
                 <extent> lines</extent>
               </dimensions>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">copyist A</hand>
+              </handList>
               <physMedium>
-                <p>hand-ruled paper, 10 staves</p>
+                <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -1250,8 +1271,9 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo (6), A solo (6), T solo (6), B solo (5), S coro (4), A coro (2x; 4, 3), T coro (4), B coro (4), cnto (3), fag (3), clno 1 (2), clno 2 (2), trb 1 (3), trb 2 (3) vl 1 (5), vl 2 (5), vlc (7), vlne (7), org (6), mdc (8)</p>
-                <p>Comprises the Introitus and Kyrie.</p>
-                <p>A copy by Joseph Leysser and copyist A.</p>
+                <p>comprises <rend fontstyle="italic">Introitus</rend> and <rend fontstyle="italic">Kyrie</rend>
+                                </p>
+                <p>vl 1 and 2 in the hand of copyist A, remaining parts by Leysser</p>
               </annot>
             </notesStmt>
             <componentList/>
@@ -1282,19 +1304,28 @@
         <itemList>
           <item>
             <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
               <titlePage label="[first wrapper]">
-                <p>Dies ir&#xE6;. | Partes 32. [crossed out with red pencil; to the right: &#x201C;20.&#x201D;]<lb/>[below, blue ink:] 59 Bl&#xE4;tter<lb/>[bottom, black ink:] HK 793 * [library stamp]<lb/>[top left corner, light brown ink:] 20 8bre 742<lb/>[below, pencil:] 27 &#x2013; 743</p>
+                <p>Dies ir&#xE6;. | Partes 32. [crossed out with red pencil; to the right: 20.] | [in blue ink:] 59 Bl&#xE4;tter</p>
               </titlePage>
               <titlePage label="[second wrapper]">
-                <p>Domine Jesu Christe | [in pencil] NB Alto et Tenore Conc | Partes 34. [crossed out with red pencil; to the right: &#x201C;19.&#x201D;]<lb/>[below, blue ink:] 28 Bl&#xE4;tter<lb/>[bottom, black ink:] HK 793 * [library stamp]<lb/>[top left corner, light brown ink:] 20 8bre 742<lb/>[below, pencil:] [unreadable] 743</p>
+                <p>Domine Jesu Christe | [in pencil] NB Alto et Tenore Conc | Partes 34. [crossed out with red pencil; to the right: 19.] | [in blue ink:] 28 Bl&#xE4;tter</p>
               </titlePage>
               <titlePage label="[third wrapper]">
-                <p>Sanctus et Agnus | DEI. | Partes 36 [crossed out with red pencil; to the right: &#x201C;22.&#x201D;]<lb/>[below, blue ink:] 40 Bl&#xE4;tter<lb/>[bottom, black ink:] HK 793 * [library stamp]<lb/>[top left corner, light brown ink:] 20 8bre 742<lb/>[below, pencil:] 27 &#x2013; 743</p>
+                <p>Sanctus et Agnus | DEI. | Partes 36 [crossed out with red pencil; to the right: 22.] | [in blue ink:] 40 Bl&#xE4;tter</p>
               </titlePage>
-              <extent>20, 22, and 22 parts</extent>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">copyist A</hand>
+              </handList>
               <physMedium>
-                <p>hand-ruled paper, 10 staves</p>
-                <p>Three sets of parts in three wrappers, comprising (1) the Sequentia (20 parts), (2) the Offertorium (22 parts), as well as (3) the Sanctus, Benedictus, and Agnus Dei (22 parts), respectively.</p>
+                <p>three sets of parts in three wrappers:<lb/>(1) <rend fontstyle="italic">Sequentia</rend>: 20 parts, 28 x 23 cm, hand-ruled paper, 10 staves (10 mm)<lb/>(2) <rend fontstyle="italic">Offertorium</rend>: 22 parts, 28 x 23 cm, hand-ruled paper, 10 staves (10 mm)<lb/>(3) <rend fontstyle="italic">Sanctus</rend>, <rend fontstyle="italic">Benedictus</rend>, and <rend fontstyle="italic">Agnus Dei</rend>: 28 x 23 cm, hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -1308,58 +1339,10 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>Sequentia: S solo (5), A solo (5), T solo (6), B solo (5), S coro (4), A coro (4), T coro (4), B coro (4), cnto (4), fag (4), clno 1 (2), clno 2 (2), trb 1 (6), trb 2 (4), vl 1 (5), vl 2 (5), vlc (7), vlne (7), org (7), mdc (7)<lb/>Offertorium: A solo (4), T solo (2), S coro (2x; 2, 2), A coro (2x; 2, 2), T coro (2x; 2, 2), B coro (2x, 2, 2), cnto (2), fag (2), trb 1 (2), trb 2 (2), vl 1 (2x; 3, 3), vl 2 (2x; 3, 3), vlc (2), vlne (2), org (3), mdc (3)<lb/>Sanctus to Agnus Dei: S solo (4), A solo (4), T solo (4), B solo (4), S coro (3), A coro (3), T coro (3), B coro (3), cnto (2), fag (2), clno 1 (2), clno 2 (2), trb 1 (3), trb 2 (3), vl 1 (2x; 4, 4), vl 2 (2x; 4, 4), vlc (4), vlne (4), org (4), mdc (4)</p>
-                <p>Comprises Sequentia to Agnus Dei.</p>
-                <p>These movements have been archived under a shelfmark with an Introitus and Kyrie by Georg Reutter the Younger. Thus, they have been attributed to the latter (see P. Norbert Hofer&#x2019;s edition in Denkm&#xE4;ler der Tonkunst in &#xD6;sterreich, vol. 88 (1952), and his catalogue of Reutter&#x2019;s works, entry 46/4).</p>
-                <p>A copy by Joseph Leysser and copyist A.</p>
-              </annot>
-              <annot type="links">
-                <ptr mimetype=""/>
-              </annot>
-            </notesStmt>
-            <componentList/>
-          </item>
-        </itemList>
-        <componentList/>
-        <relationList>
-          <relation rel="isEmbodimentOf"/>
-        </relationList>
-      </manifestation>
-      <manifestation>
-        <identifier/>
-        <titleStmt>
-          <title>Manuscript copy</title>
-        </titleStmt>
-        <pubStmt>
-          <publisher/>
-          <pubPlace/>
-          <date isodate="1758-01-01">1758</date>
-        </pubStmt>
-        <classification>
-          <termList>
-            <term>Notated music</term>
-            <term>Manuscript</term>
-            <term>Copy</term>
-            <term>Parts</term>
-            <term>Fair copy</term>
-            <term>Incomplete</term>
-          </termList>
-        </classification>
-        <itemList>
-          <item>
-            <identifier/>
-            <physDesc/>
-            <physLoc>
-              <repository>
-                <corpName role=""/>
-                <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">A-H</identifier>
-              </repository>
-              <identifier>A.22.18, B.25.27</identifier>
-            </physLoc>
-            <notesStmt>
-              <annot type="source_description">
-                <p>some parts missing</p>
+                <p><rend fontstyle="italic">Sequentia</rend>: S solo (5), A solo (5), T solo (6), B solo (5), S coro (4), A coro (4), T coro (4), B coro (4), cnto (4), fag (4), clno 1 (2), clno 2 (2), trb 1 (6), trb 2 (4), vl 1 (5), vl 2 (5), vlc (7), vlne (7), org (7), mdc (7)</p>
+                <p>Offertorium: A solo (4), T solo (2), S coro (2x; 2, 2), A coro (2x; 2, 2), T coro (2x; 2, 2), B coro (2x, 2, 2), cnto (2), fag (2), trb 1 (2), trb 2 (2), vl 1 (2x; 3, 3), vl 2 (2x; 3, 3), vlc (2), vlne (2), org (3), mdc (3)</p>
+                <p><rend fontstyle="italic">Sanctus</rend> to <rend fontstyle="italic">Agnus Dei</rend>: S solo (4), A solo (4), T solo (4), B solo (4), S coro (3), A coro (3), T coro (3), B coro (3), cnto (2), fag (2), clno 1 (2), clno 2 (2), trb 1 (3), trb 2 (3), vl 1 (2x; 4, 4), vl 2 (2x; 4, 4), vlc (4), vlne (4), org (4), mdc (4)</p>
+                <p>These movements have been archived under a shelfmark with an <rend fontstyle="italic">Introitus</rend> and <rend fontstyle="italic">Kyrie</rend> by Georg Reutter the Younger. Thus, they have been attributed to the latter (see P. Norbert Hofer&#x2019;s edition in Denkm&#xE4;ler der Tonkunst in &#xD6;sterreich, vol. 88 (1952), and his catalogue of Reutter&#x2019;s works, no. 46/4).</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -1411,6 +1394,12 @@
               </titlePage>
               <extent>13 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
+              <physMedium>
+                <p>hand-ruled paper</p>
+              </physMedium>
             </physDesc>
             <physLoc>
               <repository>
@@ -1458,12 +1447,24 @@
           <item>
             <identifier label="RISM">1001167112</identifier>
             <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="34" unit="cm">34 (height in cm)</height>
+                <width quantity="26" unit="cm">26 (width in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
               <titlePage label="[page 1]">
                 <p>Messa | della morte | a | 4 voci concert: | Due Violini concerti: | Due Tromboni concerti: | Due Clarini, con Sordini=Oblig: | Tympano con Sordini | Con | Organo &#xE8; Violone. | Del Signore Francesco Tuma | M: D. C. della Imperat: Elisabeth: vedovio.</p>
               </titlePage>
               <extent>159 p.</extent>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
-                <p>printed staff paper (C. A. KLEMM. | A. N&#xB0; 4)</p>
+                <p>printed staff paper (C. A. KLEMM. | A. N&#xB0; 4; 8 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -1477,8 +1478,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>full score from the collection of Otto Schmid</p>
-                <p>catalogued according to RISM entry</p>
+                <p>from the collection of Otto Schmid</p>
               </annot>
             </notesStmt>
             <componentList/>
@@ -1514,6 +1514,9 @@
             <identifier label="RISM">553015047</identifier>
             <physDesc>
               <extent>62 p.</extent>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">Jaroslav U&#x161;&#xE1;k</hand>
+              </handList>
             </physDesc>
             <physLoc>
               <repository>
@@ -1525,8 +1528,52 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>full score copied by Jaroslav U&#x161;&#xE1;k</p>
                 <p>catalogued according to RISM entry</p>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Lost manuscript</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date isodate="1758">1758</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Lost</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier/>
+            <physDesc/>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-H</identifier>
+              </repository>
+              <identifier>A.22.18, B.25.27</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="links">
+                <ptr mimetype=""/>
               </annot>
             </notesStmt>
             <componentList/>

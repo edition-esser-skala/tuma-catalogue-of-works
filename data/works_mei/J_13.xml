@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1j13</altId>
+    <altId type="ark">ark:68748/ft1j13</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -271,7 +271,12 @@
         <itemList>
           <item>
             <identifier/>
-            <physDesc/>
+            <physDesc>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black pen" type="main">Herbert Vogg</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">Erwin Luntz</hand>
+              </handList>
+            </physDesc>
             <physLoc>
               <repository>
                 <corpName role=""/>
@@ -281,9 +286,6 @@
               <identifier>(no shelfmark)</identifier>
             </physLoc>
             <notesStmt>
-              <annot type="source_description">
-                <p>two copies by Herbert Vogg and probably Erwin Luntz</p>
-              </annot>
               <annot type="links">
                 <ptr mimetype=""/>
               </annot>
@@ -324,6 +326,9 @@
               <titlePage label="[wrapper]">
                 <p>Tuma, Sinfonia Lamento</p>
               </titlePage>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
               </physMedium>
@@ -394,8 +399,11 @@
               </titlePage>
               <extent>3 p.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
-                <p>hand-ruled paper, 15 staves</p>
+                <p>hand-ruled paper, 15 staves (9 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -458,8 +466,11 @@
               </dimensions>
               <extent>16 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">Johann Georg Pisendel</hand>
+              </handList>
               <physMedium>
-                <p>hand-ruled paper, 14/15 staves</p>
+                <p>hand-ruled paper, 14/15 staves (9 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -473,7 +484,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>vl 1 (4x; each 1), vl 2 (4x; each 1), b (8x; each 1)</p>
+                <p>vl 1 (4x; 1, 1, 1, 1), vl 2 (4x; 1, 1, 1, 1), b (8x; 1, 1, 1, 1, 1, 1, 1, 1)</p>
                 <p>comprises only movements 1 and 2</p>
               </annot>
               <annot type="links">
@@ -529,6 +540,9 @@
               </titlePage>
               <extent>12 p.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>printed staff paper (&#x201C;No 402a. 12 L.&#x201D;), 12 staves (7 mm)</p>
               </physMedium>
@@ -544,7 +558,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>full score from the collection of Otto Schmid</p>
+                <p>from the collection of Otto Schmid</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

@@ -53,7 +53,46 @@
           <date isodate="1750-01-01">ca. 1750</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1776-03-09">1776-03-09</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1777-03-08">1777-03-08</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1778-03-28">1778-03-28</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1779-03-06">1779-03-06</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1780-03-11">1780-03-11</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1781-03-24">1781-03-24</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1782-03-19">1782-03-19</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1783-03-29">1783-03-29</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1784-03-27">1784-03-27</date>
+              <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+          </eventList>
+        </history>
         <biblList>
           <head>Bibliography</head>
           <bibl>
@@ -203,7 +242,7 @@
                     </relationList>
                   </expression>
                   <expression>
-                    <title xml:lang="la">Quis est homo, qui non fleret</title>
+                    <title xml:lang="la">Quis est homo qui non fleret</title>
                     <contributor>
                       <persName role=""/>
                     </contributor>
@@ -273,7 +312,7 @@
                     </relationList>
                   </expression>
                   <expression>
-                    <title xml:lang="la">Eia mater, fons amoris</title>
+                    <title xml:lang="la">Eia mater fons amoris</title>
                     <contributor>
                       <persName role=""/>
                     </contributor>
@@ -497,6 +536,9 @@
               </titlePage>
               <extent>8 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">P. Marianus</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 12 staves (10 mm)</p>
               </physMedium>
@@ -506,13 +548,13 @@
                 <corpName role=""/>
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-G&#xD6;</identifier>
+                <ptr target="https://db.klostermusiksammlungen.at/scores/4407" mimetype="" label="catalogue entry"/>
               </repository>
               <identifier>1786</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
                 <p>S coro (10), A coro (10), T coro (10), B coro (10), vl 1 (9), vl 2 (9), vlc (10), org (10)</p>
-                <p>wrapper (fol. 2v) contains 9 performance dates: 1776-03-09, 1777-03-08, 1778-03-28, 1779-03-06, 1780-03-11, 1781-03-24, 1782-03-19, 1783-03-29, and 1784-03-27</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -550,12 +592,25 @@
           <item>
             <identifier/>
             <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="22" unit="cm">22 (height in cm)</height>
+                <width quantity="32" unit="cm">32 (width in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
               <titlePage label="[fol. 1r, by Raphael Georg Kiesewetter]">
                 <p>(Stabat mater.) | Il Pianto della madre dolorisa | compo&#x17F;co | a quattro voci in pieno | per clementi&#x17F;sima Commando della S. G. e R. Maest&#xE0; di Maria Teresa | Imperatrice regnante | da Francesco Tuma M.D.C. della f&#xE0; Mae&#x17F;ta l'Imperatrice Elisabetta | di pii&#x17F;sima memoria. | Ex collect. R. Kiesewetter</p>
               </titlePage>
               <extent>46 p.</extent>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="title">Raphael Georg Kiesewetter</hand>
+              </handList>
               <physMedium>
-                <p>hand-ruled paper, 10 staves</p>
+                <p>hand-ruled paper, 10 staves (9 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -563,7 +618,7 @@
                 <corpName role=""/>
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wn</identifier>
-                <ptr target="http://data.onb.ac.at/dtl/8014125" mimetype="" label="digitized version"/>
+                <ptr target="https://data.onb.ac.at/dtl/8014125" mimetype="" label="digitized version"/>
               </repository>
               <identifier>SA.67.H.5</identifier>
             </physLoc>
@@ -618,6 +673,10 @@
               </titlePage>
               <extent>13 f.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="title">Georg Poelchau</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
               </physMedium>
@@ -682,6 +741,9 @@
                 <extent> lines</extent>
               </dimensions>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper<lb/>comprises two sets of 8 and 10 parts (32.5 x 23.5 cm and 17 x 21 cm, respectively)</p>
               </physMedium>
@@ -744,6 +806,9 @@
                 <extent> lines</extent>
               </dimensions>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
               </physMedium>
@@ -758,7 +823,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>This signature comprises several works. The present work is written on f. 24r&#x2013;39v.</p>
+                <p>This manuscript comprises several works. The present work is written on f. 24r&#x2013;39v.</p>
                 <p>catalogued according to RISM entry</p>
               </annot>
               <annot type="links">
@@ -808,6 +873,9 @@
               </dimensions>
               <extent>20 p.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Johann Adam Hiller</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
@@ -822,9 +890,6 @@
               <identifier>Mus.2968-D-5</identifier>
             </physLoc>
             <notesStmt>
-              <annot type="source_description">
-                <p>catalogued according to RISM entry</p>
-              </annot>
               <annot type="links">
                 <ptr mimetype=""/>
               </annot>
@@ -875,8 +940,11 @@
               </titlePage>
               <extent>35 p.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
-                <p>printed staff paper (C. A. KLEMM. | A. N&#xB0; 4.)</p>
+                <p>printed staff paper (C. A. KLEMM. | A. N&#xB0; 4.), 16 staves (8 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -889,9 +957,6 @@
               <identifier>Mus.2968-D-515</identifier>
             </physLoc>
             <notesStmt>
-              <annot type="source_description">
-                <p>catalogued according to RISM entry</p>
-              </annot>
               <annot type="links">
                 <ptr mimetype=""/>
               </annot>
@@ -940,6 +1005,9 @@
                 <extent> lines</extent>
               </dimensions>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
               </physMedium>
@@ -1006,6 +1074,9 @@
               </titlePage>
               <extent>6 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
               </physMedium>
@@ -1073,6 +1144,9 @@
               </titlePage>
               <extent>24 f.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">Raphael Georg Kiesewetter</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
               </physMedium>
@@ -1139,6 +1213,9 @@
               </titlePage>
               <extent>5 parts</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
               </physMedium>
@@ -1218,7 +1295,7 @@
                 <corpName role=""/>
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">I-Rama</identifier>
-                <ptr target="http://cloud.sbn.it/opac2/RMR/dettaglio/documento/MSM0051945" mimetype="" label="catalogue entry"/>
+                <ptr target="https://cloud.sbn.it/opac2/RMR/dettaglio/documento/MSM0051945" mimetype="" label="catalogue entry"/>
               </repository>
               <identifier>A-Mss-523</identifier>
             </physLoc>
@@ -1279,6 +1356,9 @@
               </titlePage>
               <extent>44 p.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">Fortunato Santini</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
               </physMedium>
@@ -1293,7 +1373,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>This signature comprises several works. The present work is written on p. 300&#x2013;343.</p>
+                <p>This manuscript comprises several works. The present work is written on p. 300&#x2013;343.</p>
                 <p>catalogued according to RISM entry</p>
               </annot>
               <annot type="links">
@@ -1341,13 +1421,16 @@
                 <term/>
                 <extent> lines</extent>
               </dimensions>
-              <titlePage label="[f. 1r]">
-                <p>Stabat mater | von | Tuma. | geb. 1704 (in B&#xF6;hmen), + 1774.</p>
+              <titlePage label="[fol. 1r]">
+                <p>Stabat mater | von | Tuma. | [by different hand] geb. 1704 (in B&#xF6;hmen), + 1774.</p>
               </titlePage>
               <extent>31 p.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
-                <p>hand-ruled paper, 10 staves</p>
+                <p>hand-ruled paper, 10 staves (7 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -1360,9 +1443,6 @@
               <identifier>M.222.47 (2)</identifier>
             </physLoc>
             <notesStmt>
-              <annot type="source_description">
-                <p>catalogued according to RISM entry</p>
-              </annot>
               <annot type="links">
                 <ptr mimetype=""/>
               </annot>
@@ -1416,6 +1496,9 @@
               </titlePage>
               <extent>26 p.</extent>
               <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper</p>
               </physMedium>
@@ -1430,7 +1513,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>This signature comprises two volumes with several works. The present work is written on p. 100&#x2013;125 of volume 2.</p>
+                <p>This manuscript comprises two volumes with several works. The present work is written on p. 100&#x2013;125 of volume 2.</p>
                 <p>catalogued according to RISM entry</p>
               </annot>
               <annot type="links">

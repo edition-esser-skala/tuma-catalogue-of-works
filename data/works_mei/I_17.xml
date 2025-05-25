@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId>ark:68748/ft1i17</altId>
+    <altId type="ark">ark:68748/ft1i17</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -183,6 +183,9 @@
               </titlePage>
               <extent>4 parts</extent>
               <dimensions/>
+              <handList>
+                <hand medium="brown ink" type="main">unidentified</hand>
+              </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (11 mm)</p>
               </physMedium>
@@ -198,7 +201,7 @@
             <notesStmt>
               <annot type="source_description">
                 <p>vl 1 (2), vl 2 (2), vlne (2), org (2)</p>
-                <p>This source comprises two works: The present work and the <rend fontstyle="italic">Sonata</rend> TumW I.18.</p>
+                <p>This manuscript comprises two works: The present work and the <rend fontstyle="italic">Sonata</rend> TumW I.18.</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
