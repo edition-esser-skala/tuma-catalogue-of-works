@@ -60,6 +60,10 @@
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@Bartos2018 [p. 343]</ref>
           </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@Schmid1900a [no. 4]</ref>
+          </bibl>
         </biblList>
         <classification>
           <termList>

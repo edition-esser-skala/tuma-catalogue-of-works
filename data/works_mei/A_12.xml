@@ -73,6 +73,10 @@
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@Peschek1956 [p. 130-136]</ref>
           </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">Schmid1900a [no. 7, 8]</ref>
+          </bibl>
         </biblList>
         <notesStmt>
           <annot type="links">

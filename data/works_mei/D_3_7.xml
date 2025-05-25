@@ -175,6 +175,14 @@
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@Bardos1980 [p. 526, no. 1414]</ref>
           </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@Schmid1900a [no. 1]</ref>
+          </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@Schmid1903b</ref>
+          </bibl>
         </biblList>
         <classification>
           <termList>

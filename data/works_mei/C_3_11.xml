@@ -91,6 +91,10 @@
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@Eybl1996 [p. 47]</ref>
           </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@Klinka1975d</ref>
+          </bibl>
         </biblList>
         <classification>
           <termList>

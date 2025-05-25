@@ -54,6 +54,13 @@
           <geogName role="">Vienna (?)</geogName>
         </creation>
         <history/>
+        <biblList>
+          <head>Bibliography</head>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@Schmid1900a [no. 2]</ref>
+          </bibl>
+        </biblList>
         <classification>
           <termList>
             <term>psalm</term>

@@ -91,6 +91,10 @@
             <genre>edition</genre>
             <ref targettype="pandoc-citation">@Haegele2011</ref>
           </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@Klinka1975f</ref>
+          </bibl>
         </biblList>
         <classification>
           <termList>

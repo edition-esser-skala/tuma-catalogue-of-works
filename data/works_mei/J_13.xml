@@ -63,6 +63,14 @@
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@StPeterInv [p. 34, no. 43]</ref>
           </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@Racek1967 [no. 13]</ref>
+          </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@Linha2001</ref>
+          </bibl>
         </biblList>
         <classification>
           <termList>

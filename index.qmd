@@ -64,7 +64,7 @@ The catalogue contains at least the following information for each work:
 - sources (linked to the respective RISM entry, if available)
 - miscellaneous notes
 - relevant literature
-- modern editions
+- modern editions [@Bartos2018, p. 89ff]
 
 In addition, we are annotating more and more works with [detailed metadata](metadata.qmd) in MEI format [@MEI2023].
 
@@ -98,7 +98,6 @@ As a supplement to the catalogue, we publish selected works as [Open Content edi
   - XXVIII E 162 (mass)
   - XXVIII E 163 (mass)
 - H-Bn: [Ms. mus. IV. 1.907](https://rism.online/sources/1001333801) (vesperae)
-- prior editions (see @Bartos2018 [p. 89ff])
 
 
 ## Methods

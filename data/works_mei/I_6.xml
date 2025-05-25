@@ -81,6 +81,14 @@
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@Schroeder1991</ref>
           </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@Racek1965 [no. 2]</ref>
+          </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@DrechslerNoYear</ref>
+          </bibl>
         </biblList>
         <classification>
           <termList>

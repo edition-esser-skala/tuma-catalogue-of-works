@@ -103,6 +103,14 @@
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@Riedel1979 [p. 282]</ref>
           </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@Schmid1900a [no. 5]</ref>
+          </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@Plavec1959</ref>
+          </bibl>
         </biblList>
         <classification>
           <termList>

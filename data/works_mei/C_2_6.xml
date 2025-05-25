@@ -65,6 +65,14 @@
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@Sherman2001 [p. 111]</ref>
           </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@AndersonNoYearB</ref>
+          </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@LindbergNoYearB</ref>
+          </bibl>
         </biblList>
         <notesStmt>
           <annot type="links">

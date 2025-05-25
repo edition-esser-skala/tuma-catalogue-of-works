@@ -84,6 +84,14 @@
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@Eybl1996 [p. 56]</ref>
           </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@Klinka1975e</ref>
+          </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@Schmid1902a</ref>
+          </bibl>
         </biblList>
         <notesStmt>
           <annot type="links">

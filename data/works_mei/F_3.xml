@@ -57,6 +57,7 @@
           <eventList type="performances">
             <event>
               <date isodate="1748-03-30">1748-03-30</date>
+              <geogName role="venue"/>
               <geogName role="place">Ottobeuren</geogName>
             </event>
           </eventList>
@@ -70,6 +71,10 @@
           <bibl>
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@Haberkamp1986 [p. 207]</ref>
+          </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@Schmid1908</ref>
           </bibl>
         </biblList>
         <classification>

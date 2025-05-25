@@ -240,6 +240,10 @@
             <genre>reference</genre>
             <ref targettype="pandoc-citation">KlosterneuburgInvA [p. 71, no. 5]</ref>
           </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@Schmid1900a [no. 3]</ref>
+          </bibl>
         </biblList>
         <classification>
           <termList>

@@ -18,7 +18,7 @@ source("script/utils.R")
 options(readr.show_col_types = FALSE)
 ```
 
-The following table collects all known modern editions of Werner's works. These editions are also cited in each entry.
+The following table collects all known modern editions of Tůma's works. These editions are also cited in each entry.
 
 ```{r}
 #| echo: false

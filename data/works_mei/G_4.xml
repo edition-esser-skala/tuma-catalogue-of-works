@@ -107,6 +107,10 @@
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@Armstrong1993 [pp. 118-121, 257, 286, 317]</ref>
           </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@Wagemakers2016</ref>
+          </bibl>
         </biblList>
         <classification>
           <termList>

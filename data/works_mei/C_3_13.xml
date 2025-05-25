@@ -107,6 +107,14 @@
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@Strakova1965</ref>
           </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@AndersonNoYearA</ref>
+          </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@LindbergNoYearA</ref>
+          </bibl>
         </biblList>
         <classification>
           <termList>

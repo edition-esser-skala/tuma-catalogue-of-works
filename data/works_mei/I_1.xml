@@ -58,6 +58,10 @@
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@Vogg1951 [p. 170f]</ref>
           </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@Racek1967 [no. 1]</ref>
+          </bibl>
         </biblList>
         <classification>
           <termList>
