@@ -1,5 +1,47 @@
 # Changelog {.unnumbered}
 
+## 0.12.0 – 2025-05-25
+
+### Added
+
+- works: TumW A.L15, E.5.1/2/6, and G.L11
+- incipits and metadata: TumW D.2.11/12, D.3.3, D.4.4, E.1.2, E.2.5/6, E.5.7, F.6, G.16, I.9, and J.17
+- sources
+  - A-KR H 50/175
+  - A-Sd A 854
+  - A-Wdtö scores
+  - CZ-Pnm XLIX F 146
+  - D-B Mus.ms. 9101/2 (3)
+  - D-Mbs Mus.ms. 5520
+  - D-MT Mus.ms. 1738
+  - H-Bn Ms. mus. IV. 1.907
+  - H-Sp, Vpl, a) 19
+  - I-Rama A-Mss-523
+  - PL-KŁwnm M-67
+  - PL-Wu RM 5158 and RM 5186
+- reference MelkInv and many modern editions
+- acknowledgements for CZ-KRA/CZ-UO
+- A-Wst sources to be catalogued
+- a siglum A-Wdtö for sources in the archive of the Denkmäler der Tonkunst in Österreich
+- an appendix “Prints” that contains a table with all known modern editions
+- links to the Klostermusiksammlungen database for A-GÖ, A-M, and A-KN sources
+- TumW C.3.12: alternative title from A-Wgm source
+- TumW H.2: details on A-Ws source
+- TumW L.1: info that single known source A-Wn Mus.Hs.24412 is currently undiscoverable
+- TumW L.4: info that single known source in CZ-KRA/CZ-UO is currently undiscoverable
+
+### Changed
+
+- Group E has been renamed (again) to “Marian antiphons”.
+- In subgroup E.2, the following works have been renumbered: 1 → 8, 2 → 6, 3 → 2, 4 → 1, 5 → 4, 6 → 7, 7 → 5, and 8 → 3.
+- TumW E.5.1–3/4–6 have been renumbered to E.5.7–9/3–5.
+- updated the favicon and title block banner background
+
+### Fixed
+
+- Source A-Ws E 3/25 has been correctly assigned to TumW A.18 (instead of TumW A.39).
+
+
 ## 0.11.0 – 2025-04-19
 
 ### Added
