@@ -140,7 +140,7 @@ SOURCE_TEMPLATE <- '
 
 ##### Scribe(s)
 
-{copyists}
+{scribes}
 
 ##### Title page(s)
 
@@ -221,6 +221,17 @@ support-what: {support_what}
 
 
 # Functions ---------------------------------------------------------------
+
+# get the value of <elem_name attr_name="attr_value">
+get_elem_value <- function(l, elem_name, attr_name, attr_value) {
+  ids <- str_which(names(l), elem_name)
+  res <-
+    l[ids] %>%
+    keep(\(e) !is.null(attr(e, attr_name)) &&
+           attr(e, attr_name) == attr_value) %>%
+    pluck(1, 1)
+  res %||% NA_character_
+}
 
 # add an attribute "markdown_text" to each XML node with rich text,
 # which contains the node contents with markdown formatting instead
@@ -596,17 +607,28 @@ format_creation <- function(c) {
   str_flatten_comma(c(place, date), na.rm = TRUE)
 }
 
-# format performances (date and place)
+# format performances (date, place, venue)
 # h: <history>
 format_performances <- function(h) {
   if (length(h) == 0L)
-    return("–")
+    return("(none documented)")
 
   h$eventList %>%
-    map_chr(\(e) {
-      str_glue("{e$date[[1]]} ({e$geogName[[1]]})")
-    }) %>%
-    str_flatten_comma()
+    map(\(e) tibble(
+      date = e$date[[1]],
+      place = get_elem_value(e, "geogName", "role", "place"),
+      venue = get_elem_value(e, "geogName", "role", "venue")
+    )) %>%
+    list_rbind() %>%
+    unite(place, venue, col = "place", sep = ", ", na.rm = TRUE) %>%
+    summarise(
+      .by = place,
+      n = n(),
+      dates = str_flatten_comma(date, last = ", and ")
+    ) %>%
+    arrange(place) %>%
+    pmap_chr(\(place, n, dates) str_glue("*{place}* ({n}): {dates}")) %>%
+    str_flatten("<br/>")
 }
 
 # get bibliography entries of a given genre
@@ -822,9 +844,9 @@ format_dimensions <- function(d) {
     paste(h, hu, "×", w, wu)
 }
 
-# format the copyists of a source
+# format the scribes of a source
 # p: physDesc
-format_copyists <- function(p) {
+format_scribes <- function(p) {
   hands <- pluck(p, "handList")
   if (is.null(hands)) {
     return("–")
@@ -1023,7 +1045,7 @@ format_source <- function(s) {
 
     source_locations <- get_source_locations(s, pluck(s$identifier, 1))
 
-    copyists <- "–"
+    scribes <- "–"
 
     title_pages <- format_titlepage(s$physDesc)
 
@@ -1037,7 +1059,7 @@ format_source <- function(s) {
     if (nrow(source_locations) != 1L)
       error("There must be only one item for manuscripts.")
 
-    copyists <- format_copyists(s$itemList$item$physDesc)
+    scribes <- format_scribes(s$itemList$item$physDesc)
 
     title_pages <- format_titlepage(s$itemList$item$physDesc)
 
@@ -1068,7 +1090,7 @@ format_source <- function(s) {
     locations = locations,
     rism_id = source_locations$rism_id[1],
     publication = publication,
-    copyists = copyists,
+    scribes = scribes,
     title_pages = title_pages,
     physdesc = physdesc,
     source_description = source_description
@@ -1371,7 +1393,6 @@ get_work_details <- function(group,
 # Testing -----------------------------------------------------------------
 
 # data <- read_xml("data/works_mei/D_3_7.xml")
-# get_work_details("B", NA, "46")
-# get_work_details("D", "1", "1")
-# get_work_details("I", "4", "54")
-# get_work_details("Q", NA, "2")
+# format_mei_text(data)
+# data <- as_list(data) %>% pluck("mei", "meiHead")
+# data_work <- data$workList$work

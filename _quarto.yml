@@ -36,6 +36,7 @@ book:
       chapters:
         - abbreviations.qmd
         - inventories.qmd
+        - prints.qmd
         - concordances.qmd
         - guidelines.qmd
         - changelog.qmd
