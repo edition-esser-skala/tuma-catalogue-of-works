@@ -65,6 +65,10 @@
           </bibl>
           <bibl>
             <genre>edition</genre>
+            <ref targettype="pandoc-citation">Schmid1900b [no. 2]</ref>
+          </bibl>
+          <bibl>
+            <genre>edition</genre>
             <ref targettype="pandoc-citation">@Racek1967 [no. 13]</ref>
           </bibl>
           <bibl>

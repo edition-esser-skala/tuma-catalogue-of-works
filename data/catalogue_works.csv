@@ -12,7 +12,7 @@ A,,10,Missa,,,,475/2,,,,,,,,,,,,,,,,Masses 17,B6,52,A.I.27,,"@KlosterneuburgInvB
 A,,11,Missa Sanctae Elisabethae,626,"A.2.138, B.2.138",,,,,,,,,1093,,,,XXXV B 3,XVI C 63,,,"A-Wps 42 | CH-E 297,3 | SK-BRm box 526, inv.no. 3222",Masses 18,B7,53,A.I.28,B.I.6,"@Horvath1971 [p. 317], @Mitterschiffthaler1979 [p. 236], @Riedel1979 [p. 103]",,A-H source lost; CZ-Pkřiž old signature: 168
 A,,12,Missa,,"A.2.143, B.2.143",,456,A 3/15,M 363,,,,,,,,,,,,Mus.2968-D-502,,Masses 30,B8,57,A.I.42,,"@KlosterneuburgInvA [p. 9, no. 4], @KlosterneuburgInvB [p. 114, no. 10], @Sherman2001 [pp. 47, 338], @Peschek1956 [p. 130-136]","@Schmid1900a [no. 7, 8]",A-H source lost; page in A-H inventory missing (was available to Vogg and Peschek); same Gloria as A.6
 A,,13,Missa,,H70,,A.45.4,,,,,,,,,,,,,,,,Masses 39,B9,21,A.I.d,,"@KlosterneuburgInvA [p. 45, no. 4], @HerzogenburgInvA [no. 2.141], @HerzogenburgInvB [fol. 42v, no. 2.141]",,page in A-H inventory missing (was available to Vogg and Peschek); A-KN source lost
-A,,14,Missa brevissima,,"A.1.118, B.1.115",,453/1,B 39/570,M 457,,,,,,,,,,,,,,Masses 1,C1,7,A.I.2,,"@KlosterneuburgInvA [p. 45, no. 2], @KlosterneuburgInvB [p. 113, no. 2], @KlosterneuburgInvC [vol. 1, p. 20, no. 122], @BrtniceInv [p. 111, no. 1], @Strakova1963, @Strakova1965, @Sherman2001 [p. 47, 339]",,A-H source lost
+A,,14,Missa brevissima,,"A.1.118, B.1.115",,453/1,B 39/570,M 457,,,,,,,,,,,,,,Masses 1,C1,7,A.I.2,,"@KlosterneuburgInvA [p. 45, no. 2], @KlosterneuburgInvB [p. 113, no. 2], @KlosterneuburgInvC [vol. 1, p. 20, no. 122], @BrtniceInv [p. 111, no. 1], @Strakova1963, @Strakova1965, @Sherman2001 [p. 47, 339]",@Fuerlinger1997,A-H source lost
 A,,15,Missa Sancti Eustachii,630,"A.2.103, B.2.93",,453/2,,,,,,,,,,,,,,,,Masses 37,C2,61,A.I.50,,"@KlosterneuburgInvA [p. 45, no. 5], @KlosterneuburgInvB [p. 113, no. 3], @KlosterneuburgInvC [vol. 1, p. 20, no. 123], @BrtniceInv [p. 110, no. 4], @Strakova1963, @Strakova1965, @Riedel1979 [p. 103]",,A-H source lost
 A,,16,Missa all’Onor delle cinque Piaghe,,,,,,,,,,,,,E 3/15c | E 3/19,,,,,,,Masses 61,C3,3,A.I.5,,@Czernin1995,,
 A,,17,Missa Sancti Stephani,621,"A.2.14, B.2.17",,,,,,,(no shelfmark),I 27552,1094,Mus.Hs.18992,,,,,,,D-Mbs Mus.ms. 5520,Masses 34,C4,56,A.I.46,B.I.1,"@Mitterschiffthaler1979 [p. 236], @Riedel1979 [p. 102], @MacIntyre1984, @Bartos2018 [p. 262]",,A-H source lost
@@ -297,7 +297,7 @@ H,,1,Lamentationes Jeremiae Prophetae,,,,,,,,,,I 7364,,,,,,,,Mus.2968-E-502,,Mis
 H,,2,Lectiones ad officium defunctorum,,,,,,,,,,,,Mus.Hs.15690,D 2/103,,,,,,,Miscellaneous 2,,,A.XII.2,B.XIII.2,@Eybl1996 [p. 56],,
 H,,3,Te Deum,,,,,,,,,,,1091,,,,,,,,,Miscellaneous 3,,,A.XII.3,,@Mitterschiffthaler1979 [p. 237],,
 H,,4,Martis und Irene Verbindung,,,,,,,VI,,,,,,,,,,,,,,,,,,"@Freeman1971, @Freeman1992 [p. 22, 25-28, 50]",,
-I,,1,Sonata,,,,,,,,,,,,,,,,,"Mus.ms.autogr. Tuma, F. 1 M",Mus.2968-P-504,,,,,B.I.1,,@Vogg1951 [p. 170f],@Racek1967 [no. 1],
+I,,1,Sonata,,,,,,,,,,,,,,,,,"Mus.ms.autogr. Tuma, F. 1 M",Mus.2968-P-504,,,,,B.I.1,,@Vogg1951 [p. 170f],"@Schmid1900b [no. 1], @Racek1967 [no. 1]",
 I,,2,Sonata,,B.45.23,,,,,,,(no shelfmark),,,Mus.Hs.3742/1,,,,,,,,,,,B.I.2,,@Schroeder1991,@Racek1965 [no. 4],A-H source lost
 I,,3,Sonata,,,,,,,,,(no shelfmark),,,Mus.Hs.3743/3,,,,,,,,,,,B.I.3,,@Schroeder1991,@Racek1965 [no. 3],
 I,,4,Sonata,,,,,,,,,(no shelfmark),,,Mus.Hs.3744/4,,,,,,,,,,,B.I.4,,"@Eybl1996 [p. 48], @Vogg1951 [p. 129-132]",,
@@ -329,11 +329,11 @@ I,,L2,Sonata,,,,,,,,,,,,,,,,,,,,,,,,,"@StPeterInv [p. 34, no. 42]",,
 I,,L3,Sonata,,B.45.20,,,,,,,,,,,,,,,,,,,,,,,,,
 I,,L4,Sonata,,B.45.21,,,,,,,,,,,,,,,,,,,,,,,,,
 I,,L5,Sonata,,B.45.22,,,,,,,,,,,,,,,,,,,,,,,,,
-J,,1,Sinfonia,,,,,,,,,(no shelfmark),IX 5485,,,,,,,,Mus.2968-P-502,,,,,B.II.1,A.II.2,@Schroeder1991,@Racek1965 [no. 8],
+J,,1,Sinfonia,,,,,,,,,(no shelfmark),IX 5485,,,,,,,,Mus.2968-P-502,,,,,B.II.1,A.II.2,@Schroeder1991,"@Schmid1900b [no. 8], @Racek1965 [no. 8]",
 J,,2,Sinfonia,,,,,,,,,(no shelfmark),IX 5486,,,,,,,,Mus.2968-P-513 | Mus.2968-U-500,,,,,B.II.2,A.II.1,,,movements 1 and 2 are sonata 5
 J,,3,Sinfonia,,,,,,,,,(no shelfmark),IX 29189,,,,,,,,Mus.2968-P-511,,,,,B.II.3,A.II.13,,@Racek1967 [no. 12],
 J,,4,Sinfonia,,,,,,253,,,(no shelfmark),IX 29172,,,,,,XXXIV E 99/2,,,CZ-Bu RKPMus-0450.215,,,,B.II.4,A.II.5,"@Tichy2014, @Tichy2019 [p. 240f]",,
-J,,5,Sinfonia,,,,,,,,,(no shelfmark),IX 5484,,,,,,XXXVII B 688,,Mus.2968-P-505,,,,,B.II.5,A.II.4,@Schroeder1991,"@Racek1965 [no. 7], @Lueck1968a",
+J,,5,Sinfonia,,,,,,,,,(no shelfmark),IX 5484,,,,,,XXXVII B 688,,Mus.2968-P-505,,,,,B.II.5,A.II.4,@Schroeder1991,"@Schmid1900b [no. 9, 10], @Racek1965 [no. 7], @Lueck1968a",
 J,,6,Sinfonia,,,,,,,,,(no shelfmark),IX 5767,,,,,,,,Mus.2968-P-500,S-L Saml.Engelhart 492 | D-Mbs Mus.ms. 8307 [450100637],,,,B.II.6,A.II.12,@Vogg1951 [p. 234-238],,
 J,,7,Sinfonia,,,,,,,,,(no shelfmark),IX 29178,,,,,,XXXIV E 99/4,,,CZ-Bu RKPMus-0450.217,,,,B.II.7,A.II.6,"@Tichy2014, @Tichy2019 [p. 240f]",@Racek1967 [no. 10],
 J,,8,Sinfonia,,,,,,,,,(no shelfmark),IX 29180,,,,,,XXXIV E 99/6,,,CZ-Bu RKPMus-0450.219,,,,B.II.8,A.II.7,"@Tichy2014, @Tichy2019 [p. 240f]",@Racek1967 [no. 11],
@@ -341,7 +341,7 @@ J,,9,Sinfonia,,,,,,,,,(no shelfmark),IX 29181,,,,,,,,,,,,,B.II.9,A.II.8,,,no sou
 J,,10,Sinfonia,,,,,,,,,(no shelfmark),IX 5483,,,,,,,,Mus.2968-P-506,A-Sd A 854 | H-KE 2101,,,,B.II.10,A.II.3,@Schroeder1991,@Racek1965 [no. 6],no source given in Vogg
 J,,11,Sinfonia,,,,,,252,,,(no shelfmark),IX 29182,,,,,,,,,,,,,B.II.11,A.II.10,,,movements 1 and 2 are sonata 15
 J,,12,Sinfonia,,,,,,,,,(no shelfmark),IX 29183,,,,,,XXXIV E 99/1,Mus.ms. 9101/2 (3),,CZ-Bu RKPMus-0450.214,,,,B.II.12,A.II.9,"@Tichy2014, @Tichy2019 [p. 240f]",,movements 3 and 4 are sonata 16; CZ-Pn source contains 6 sonatas
-J,,13,Sinfonia,,,,,,,,,(no shelfmark),IX 29188,,,,,,,,Mus.2968-N-1 | Mus.2968-N-1a | Mus.2968-P-514,,,,,B.II.13,A.II.11,"@StPeterInv [p. 34, no. 43], @Vogg1951 [p. 238-242]","@Racek1967 [no. 13], @Linha2001",
+J,,13,Sinfonia,,,,,,,,,(no shelfmark),IX 29188,,,,,,,,Mus.2968-N-1 | Mus.2968-N-1a | Mus.2968-P-514,,,,,B.II.13,A.II.11,"@StPeterInv [p. 34, no. 43], @Vogg1951 [p. 238-242]","@Schmid1900b [no. 2], @Racek1967 [no. 13], @Linha2001",
 J,,14,Sinfonia,,,,,,,,,,,,,,,,,55 MS 10052,,,,,,,,,,
 J,,15,Sinfonia,,"A.42.24, B.46.24 ",,,,273,,,,,,,,,,,,,D-Bsa SA 3541 (7),,,,,,"@Harich1975 [p. 47, no. D.2], @StPeterInv [p. 33, no. 40], @Sherman2001 [p. 203]",,A-H source lost
 J,,16,Sinfonia,,,,,,360,,,,,,,,,,,,Mus.2968-P-503,,,,,,,@Sherman2001 [p. 263],,
@@ -363,15 +363,15 @@ J,,L10,Sinfonia,,,,,,,,,,,,,,,,,,,,,,,,,@Kellner1956 [p. 355],,mentioned in an i
 J,,S1,Sinfonia,,,,,,,,,,,,,,,,,,,D-Bhm RH 0655,,,,,,,,
 K,,1,Partita,,,,,,,,,(no shelfmark),IX 29176,,,,,,,,,,,,,B.III.1,A.III.10,,@Racek1967 [no. 2],
 K,,2,Partita,,,,,,,,,(no shelfmark),IX 29169,,,,,,,,Mus.2968-P-508,,,,,B.III.2,A.III.4,@Vogg1951 [p. 291-294],,
-K,,3,Partita,,,,,,,,,(no shelfmark),IX 29186,,,,,,,,Mus.2968-P-515,,,,,B.III.3,A.III.14,,"@Racek1967 [no. 8], @Lueck1968c",
+K,,3,Partita,,,,,,,,,(no shelfmark),IX 29186,,,,,,,,Mus.2968-P-515,,,,,B.III.3,A.III.14,,"@Schmid1900b [no. 6], @Racek1967 [no. 8], @Lueck1968c",
 K,,4,Partita,,,,,,,,,(no shelfmark),IX 29177,,,,,,,,,,,,,B.III.4,A.III.11,,@Racek1967 [no. 3],
 K,,5,Partita,,,,,,,,,(no shelfmark),IX 29173,,,,,,,,,,,,,B.III.5,A.III.3,,,
-K,,6,Partita,,,,,,,,,(no shelfmark),IX 29185,,,,,,,,Mus.2968-P-516,,,,,B.III.6,A.III.13,,@Racek1967 [no. 5],
-K,,7,Partita,,,,,,,,,(no shelfmark),IX 29187,,,,,,,,Mus.2968-P-512,,,,,B.III.7,A.III.15,,"@Schenk1953, @Racek1967 [no. 6]",
+K,,6,Partita,,,,,,,,,(no shelfmark),IX 29185,,,,,,,,Mus.2968-P-516,,,,,B.III.6,A.III.13,,"@Schmid1900b [no. 3], @Racek1967 [no. 5]",
+K,,7,Partita,,,,,,,,,(no shelfmark),IX 29187,,,,,,,,Mus.2968-P-512,,,,,B.III.7,A.III.15,,"@Schmid1900b [no. 5], @Schenk1953, @Racek1967 [no. 6]",
 K,,8,Partita,,,,,,,,,(no shelfmark),IX 29171,,,,,,,,,,,,,B.III.8,A.III.6,,@Lueck1968d,
 K,,9,Partita,,,,,H 50/175,,,,(no shelfmark),,,,,,,,,,D-KA Mus. Hs. 969,,,,B.III.9,,@Vogg1951 [p. 267ff],,
-K,,10,Partita,,,,,,,,,(no shelfmark),IX 29184,,,,,,,,,,,,,B.III.10,A.III.12,,@Racek1967 [no. 9],
-K,,11,Partita,,,,,,,,,(no shelfmark),IX 5488,,,,,,,,Mus.2968-P-501,,,,,B.III.11,A.III.1,"@BrtniceInv [p. 48, no. 3], @Strakova1963, @Strakova1965, @Schroeder1991","@Pohanka1958, @Racek1965 [no. 9]",
+K,,10,Partita,,,,,,,,,(no shelfmark),IX 29184,,,,,,,,,,,,,B.III.10,A.III.12,,"@Schmid1900b [no. 4], @Racek1967 [no. 9]",
+K,,11,Partita,,,,,,,,,(no shelfmark),IX 5488,,,,,,,,Mus.2968-P-501,,,,,B.III.11,A.III.1,"@BrtniceInv [p. 48, no. 3], @Strakova1963, @Strakova1965, @Schroeder1991","@Schmid1900b [no. 7], @Pohanka1958, @Racek1965 [no. 9]",
 K,,12,Partita,,,,,,,,,(no shelfmark),IX 29175,,,,,,,,,,,,,B.III.12,A.III.9,,,
 K,,13,Partita,,,,,,,,,(no shelfmark),IX 29170,,,,,,,,,,,,,B.III.13,A.III.5,,,
 K,,14,Partita,,,,,,,,,(no shelfmark),IX 5766,,,,,,,,,,,,,B.III.14,A.III.7,,,
