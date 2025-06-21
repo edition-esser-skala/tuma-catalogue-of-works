@@ -4,7 +4,7 @@
 notes = \relative c' {
   \clef tenor
   \key g \major \time 4/4 \autoBeamOff \tempoMarkup "Allegro"
-  d4^\partTs g, fis8 g16 a c8 h16 a
+  r4 d8^\partTs g, fis g16 a c8 h16 a
   h8 g h e16 d cis8 d d[ cis]
   d4 r r2
 }

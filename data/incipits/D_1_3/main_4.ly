@@ -3,9 +3,9 @@
 
 notes = \relative c' {
   \clef tenor
-  \key a \minor \time 4/4 \autoBeamOff
+  \key a \minor \time 4/4 \autoBeamOff \tempoMarkup "[no tempo]"
   r8^\partTs e c a d c16 d h8. h16
-  c8 g c8. c16 h8 a16[ h] g8. g16
+  c8 g c8. c16 h8 a16[ h] gis8. gis16
   a4 r r2
 }
 
