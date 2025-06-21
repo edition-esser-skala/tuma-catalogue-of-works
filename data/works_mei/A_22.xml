@@ -140,6 +140,10 @@
           </bibl>
           <bibl>
             <genre>reference</genre>
+            <ref targettype="pandoc-citation">@Peschek1956 [p. 195-203]</ref>
+          </bibl>
+          <bibl>
+            <genre>reference</genre>
             <ref targettype="pandoc-citation">@Strakova1963</ref>
           </bibl>
           <bibl>
