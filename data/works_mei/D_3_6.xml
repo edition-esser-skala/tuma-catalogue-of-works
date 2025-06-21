@@ -765,6 +765,146 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
+          <date isodate="1775">2nd half 18th century</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Score</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier/>
+            <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="22" unit="cm">22 (height in cm)</height>
+                <width quantity="29" unit="cm">29 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[cover title]">
+                <p>[black ink, by Austerlitz] Eigenh&#xE4;ndig in Partitur | [printed] Franz Tuma | [by Austerlitz] jedoch von Beethoven | geschrieben und | [printed] Miserere | [by Austerlitz] als Studium in Abschrift | genommen</p>
+              </titlePage>
+              <titlePage label="[fol. 1r]">
+                <p>Mi&#x17F;erere overo: | Il Salmo Cinquantesimo | &#xE0; | Quatro Voci in pieno | Del Sig:re Franc:o Tuma | [by Austerlitz, in red ink] Alles, alles, eigenh&#xE4;ndig von <rend rend="underline">Beethoven</rend> ge&#x17F;chrieben</p>
+              </titlePage>
+              <extent>44 fol.</extent>
+              <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="red ink" type="notes">Siegmund Austerlitz</hand>
+              </handList>
+              <physMedium>
+                <p>hand-ruled paper, 10 staves (9 mm)</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wst</identifier>
+                <ptr target="https://permalink.obvsg.at/wbr/AC15786912" mimetype="" label="catalogue entry"/>
+              </repository>
+              <identifier>MH-9464</identifier>
+            </physLoc>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date isodate="1775">2nd half 18th century</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier/>
+            <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="22.5" unit="cm">22.5 (height in cm)</height>
+                <width quantity="29" unit="cm">29 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[cover title]">
+                <p>[black ink, by Austerlitz] Zweierlei Handschriftem | [printed] Franz Tuma | [by Austerlitz] herausgeschriebenen Stimmen | [printed] Miserere. | [by Austerlitz] 5 Hefte von der Hand des | Ludw: v: Beethoven | in Abschrift.</p>
+              </titlePage>
+              <titlePage label="[S part, fol. 1r]">
+                <p>Miserere overo: | Il Salmo | Cinquantesimo |&#xA0;&#xE2; | Quadro coci inpieno. | Del Sig Francesco Tuma. | [red ink, by Austerlitz] Beethovens Handschrift</p>
+              </titlePage>
+              <extent>6 parts</extent>
+              <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="red ink" type="notes">Siegmund Austerlitz</hand>
+              </handList>
+              <physMedium>
+                <p>hand-ruled paper, 10 staves (9 mm)</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wst</identifier>
+                <ptr target="https://permalink.obvsg.at/wbr/AC15779496" mimetype="" label="catalogue entry"/>
+              </repository>
+              <identifier>MH-9465</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>S coro (11), A coro (12), T coro (12), B coro (), vlc (11), org (17)</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
           <date isodate="1836-01-01">1836</date>
         </pubStmt>
         <classification>

@@ -651,6 +651,148 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
+          <date isodate="1775">2nd half 18th century</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Score</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier/>
+            <physDesc>
+              <titlePage label="[cover title]">
+                <p>[printed] Franz Tuma | [black ink, by Austerlitz] recte von | [printed] Il pianto della Madre dolorosa. | [remainder by Austerlitz] Ludw: van Beethoven | eigenh&#xE4;ndig in Abschrift | genommen</p>
+              </titlePage>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="23.5" unit="cm">23.5 (height in cm)</height>
+                <width quantity="33" unit="cm">33 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[fol. 1r]">
+                <p>Il Pianto | della Madre dolorosa | composto | &#xE0; Quattro Voci in pieno | per | Clementi&#x17F;simo Commando | della | Sac: Ces: e Real: Ma:ta | di | Maria Teresa | Imperatrice Regnante | Da Francesco Tuma M: D: C: della f&#xF9; Ma:ta d&#x2019;Imperadrice | Elisabetta | di pii&#x17F;sima memoria | [in red ink, by Austerlitz] Beethoven&#x2019;s Hand&#x17F;chrift</p>
+              </titlePage>
+              <extent>47 fol.</extent>
+              <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="red ink" type="notes">Siegmund Austerlitz</hand>
+              </handList>
+              <physMedium>
+                <p>hand-ruled paper, 10 staves (8 mm)</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wst</identifier>
+                <ptr target="https://permalink.obvsg.at/wbr/AC15776742" mimetype="" label="catalogue entry"/>
+              </repository>
+              <identifier>MH-9466</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date isodate="1775">2nd half 18th century</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier/>
+            <physDesc>
+              <titlePage label="[cover title]">
+                <p>[black ink, by Austerlitz] Die eigenh&#xE4;ndige Handschrift | recte |&#xA0;[printed] Franz Tuma | [by Austerlitz] Ludw: van Beethoven | [printed] Il pianto della Madre dolorosa.</p>
+              </titlePage>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="33" unit="cm">33 (height in cm)</height>
+                <width quantity="22.5" unit="cm">22.5 (width in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <extent>5 parts</extent>
+              <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="red ink" type="notes">Siegmund Austerlitz</hand>
+              </handList>
+              <physMedium>
+                <p>hand-ruled paper, 10 staves (12 mm)</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wst</identifier>
+                <ptr target="https://permalink.obvsg.at/wbr/AC15794374" mimetype="" label="catalogue entry"/>
+              </repository>
+              <identifier>MH-9467</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+              <annot type="source_description">
+                <p>S coro (11), A coro (11), T coro (11), B coro (11), vlc/vlne (10)</p>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
           <date isodate="1810-01-01">1810</date>
         </pubStmt>
         <classification>
