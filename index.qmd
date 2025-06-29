@@ -12,7 +12,7 @@ This website contains an evolving thematic catalogue of František Ignác Anton�
 ::: {.callout-important}
 ## Caution
 
-This catalogue is **work-in-progress** and likely contains errors or duplicate entries. Its contents are subject to change as we screen more and more manuscripts.
+This catalogue is **work-in-progress** and likely contains errors or duplicate entries. Its contents are subject to change as we screen more and more manuscripts. A [development version](https://dev.frantisek-tuma.at/) is available.
 :::
 
 For general and biographical information on Werner, see @Postolka2001, @Slavicky2004, @Slavicky2006, and @Schmid1901.
@@ -107,7 +107,7 @@ We consulted the following sources, of which some contain partial catalogues of 
 - @Reichert1935 – masses known in the 1930s
 - @Vogg1951 – works known around 1950
 
-### Analysis
+### Workflow
 
 The work list assembled from these sources (`data/catalogue_works.csv`) was checked against and supplemented by RISM entries. To this end, entries were downloaded via [*sru-downloader*](https://github.com/rism-international/sru-downloader) on 2024-05-26, yielding 309 entries. In the resulting XML file, all tags in the `zs` namespace were removed, yielding the XML file `data/rism_entries.xml`, which only contains [MarcXML](https://www.loc.gov/standards/marcxml/) tags:
 
@@ -126,6 +126,8 @@ rm output.xml
 Later changes in the RISM database were manually added to the catalogue (2025-05-18: 332 entries for “Tůma, František Ignác” and 4 entries for “Tůma”). Pages for all groups of works were generated automatically from `catalogue_overview.csv` and `catalogue_works.csv`. If manually curated incipits were unavailable for a work, the first incipit of the first source with a RISM entry was included. Data from the [RISM Catalogue](https://opac.rism.info) (e.g., Plaine & Easie Code for incipits) by the *Répertoire International des Sources Musicales* is licensed under a Creative Commons Attribution CC-BY 3.0 Unported License.
 
 Detailed work metadata was edited with [MerMEId v2.0](https://mermeid.edirom.de/). Incipits were either prepared with [MuseScore](https://musescore.org), polished with [mei-friend](https://mei-friend.mdw.ac.at), and rendered with [Verovio](https://www.verovio.org), or created with [LilyPond](https://lilypond.org/) and [EES Tools](https://github.com/edition-esser-skala/ees-tools). XML files were exported from MerMEId, post-processed and validated against the schema [mei-CMN](https://github.com/music-encoding/schema/blob/main/4.0.0/mei-CMN.rng). These pages are rendered using the [BravuraText](https://github.com/steinbergmedia/bravura) font v1.392 and Verovio.
+
+The technical workflow has been presented as a [poster](/publications/poster_iaml_2025.pdf) at the IAML Conference 2025 in Salzburg.
 
 
 ### ARKs
@@ -169,6 +171,7 @@ Johannes Prominczel, Spiridoula Katsarou, and Günther Faimann (Archiv der Gesel
 Ikarus Kaiser (Stift Wilhering, Musikarchiv – A-WIL),
 Michael Sipka (Erzbischöfliches Priesterseminar – A-Wps),
 Maximilian Alexander Trofaier (Schottenstift Wien – A-Ws),
+Stefan Engl and Ute Schmidthaler (Wienbibliothek im Rathaus, Musiksammlung – A-Wst),
 Jan Jirák (Vlastivědné muzeum Dr. Hostaše v Klatovech, Klatovy – CZ-KLm),
 Petr Slouka (Lobkowiczká knihovna a archiv, Nelahozeves – CZ-Nlob),
 Ludmila Šmídová (Národní knihovna České republiky, Praha – CZ-Pu),
