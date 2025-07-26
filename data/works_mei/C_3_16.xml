@@ -144,7 +144,8 @@
                 </notesStmt>
                 <componentList>
                   <expression>
-                    <title xml:lang="la">Domine Deus creator omnium (Recitativo con stromenti)</title>
+                    <title xml:lang="la">Domine Deus creator omnium</title>
+                    <title xml:lang="la">Recitativo con stromenti</title>
                     <contributor>
                       <persName role=""/>
                     </contributor>
@@ -177,7 +178,8 @@
                     </relationList>
                   </expression>
                   <expression>
-                    <title xml:lang="la">Quino meus verbo Deus (Aria)</title>
+                    <title xml:lang="la">Quino meus verbo Deus</title>
+                    <title xml:lang="la">Aria</title>
                     <contributor>
                       <persName role=""/>
                     </contributor>

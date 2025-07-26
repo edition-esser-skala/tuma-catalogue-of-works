@@ -153,7 +153,8 @@
                 </notesStmt>
                 <componentList>
                   <expression>
-                    <title xml:lang="la">Qui charitate accensus (Recitativo)</title>
+                    <title xml:lang="la">Qui charitate accensus</title>
+                    <title xml:lang="la">Recitativo</title>
                     <contributor>
                       <persName role=""/>
                     </contributor>
@@ -186,7 +187,8 @@
                     </relationList>
                   </expression>
                   <expression>
-                    <title xml:lang="la">O divinae charitatis fax (Aria)</title>
+                    <title xml:lang="la">O divinae charitatis fax</title>
+                    <title xml:lang="la">Aria</title>
                     <contributor>
                       <persName role=""/>
                     </contributor>
@@ -221,7 +223,8 @@
                     </relationList>
                   </expression>
                   <expression>
-                    <title xml:lang="la">Amans Dominum (Recitativo)</title>
+                    <title xml:lang="la">Amans Dominum</title>
+                    <title xml:lang="la">Recitativo</title>
                     <contributor>
                       <persName role=""/>
                     </contributor>
@@ -256,7 +259,8 @@
                     </relationList>
                   </expression>
                   <expression>
-                    <title xml:lang="la">Quamvis insons (Aria)</title>
+                    <title xml:lang="la">Quamvis insons</title>
+                    <title xml:lang="la">Aria</title>
                     <contributor>
                       <persName role=""/>
                     </contributor>
@@ -291,7 +295,8 @@
                     </relationList>
                   </expression>
                   <expression>
-                    <title xml:lang="la">Sanctum pii iuvenum (Coro)</title>
+                    <title xml:lang="la">Sanctum pii iuvenum</title>
+                    <title xml:lang="la">Coro</title>
                     <contributor>
                       <persName role=""/>
                     </contributor>
