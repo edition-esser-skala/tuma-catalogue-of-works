@@ -4,7 +4,7 @@
 notes = \relative c' {
   \clef treble
   \key f \minor \time 3/8 \tempoMarkup "Amoroso"
-  r8^\partVi as' f
+  r8^\part "vl" as' f
   c'16.\trill b32 c8 r
   as16.\trill g32 as8 as'~
   as g b
