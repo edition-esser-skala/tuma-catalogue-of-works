@@ -3,15 +3,15 @@
 
 notes = \relative c' {
   \clef treble
-  \key c \major \time 4/4 \tempoMarkup "Largo"
+  \key c \major \time 4/4 \tempoMarkup "Adagio"
   c16^\partVi e e g g e e c c f f a a f f c
-  \clef soprano \autoBeamOff r4^\partSc c' c h8[ a]
+  c e g c \clef soprano \autoBeamOff c4^\partSc c h8[ a]
   h2 r
 
 }
 
 text = \lyricmode {
-  \skips 16
+  \skips 20
   Ma -- gni -- fi --
   cat
 }

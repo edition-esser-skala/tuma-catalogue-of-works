@@ -110,7 +110,7 @@ C,3,15,O admirabile commercium,,,,,,,,,,,,Mus.Hs.15704,,,,,,,,Motets 14,,,A.IV.1
 C,3,16,Domine Deus creator omnium,,,,,,,,,,,,Mus.Hs.15707,,,,,,,D-OB MO 812,Motets 7,,,A.IV.16,B.VI.6,"@Haberkamp1986 [p. 206], @Eybl1996 [p. 56]",,
 C,3,17,Audite insulae,,,,,,,,,,,,Mus.Hs.15718,,,,,,,,Motets 2,,,A.IV.17,B.VI.17,@Eybl1996 [p. 56],,
 C,3,18,Venite ad me,,,,,,,,,,,,Mus.Hs.15712,,,,,,,,Motets 8,,,A.IV.18,B.VI.11,@Eybl1996 [p. 56],@Klinka1975a,
-C,3,19,Maria gustum sentio,,,,,,,,,,,,Mus.Hs.15708,,,,,,,,Motets 16,,,A.IV.19,B.VI.7,"@BrtniceInv [p. 111, no. 7], @Strakova1963, @Strakova1965",,
+C,3,19,Maria gustum sentio,,,,,,,,,,,,Mus.Hs.15708,,,,,,,,Motets 16,,,A.IV.19,B.VI.7,"@BrtniceInv [p. 111, no. 7], @Strakova1963, @Strakova1965, @Eybl1996 [p. 56]",,
 C,3,20,Mulier quae erat,,,,,,,,,,,,Mus.Hs.15713,,,,,,,,Motets 17,,,A.IV.20,B.VI.12,@Eybl1996 [p. 56],@Klinka1975b,
 C,3,21,Audivi vocem de caelo,,,,,,,,,,,,,,1330,,,,,,,,,,,"@Stefan1985 [p. 251, no. 1390]",,
 C,3,22,Tradiderunt me,,,,,,,,,,,,,,,XXXV E 137 [550266971],XVI C 72 | XLVI A 267,,,,,,,,,,,
@@ -181,7 +181,7 @@ D,1,L1,Vesper,,,,,,,,,,,,,,,,,,,PL-CZ II-364,,,,,,,,only title page available
 D,1,L2,Vesperae de Apostolis,,,,A.126.9,,,,,,,,,,,,,,,,,,,,,"@KlosterneuburgInvA [p. 126, no. 9]",,A-KN source lost
 D,1,S1,Vesperae de Dominica et Beata,,,,,,,,E XXII 9 a,,,,,,,,,,,,,,,,,,,by Reutter (HofR 110/16)
 D,2,1,Benedictus,,,,,,,,,,I 1693/29,,,,,,,,,,Vespers 1,,,A.III.1,B.XI.12.V,,,
-D,2,2,Confitebor,,,,,,,,,,,,Mus.Hs.15677,,,,,,,,Vespers 2,,,A.III.2,B.XI.5,@Bartos2018 [p. 331],,
+D,2,2,Confitebor,,,,,,,,,,,,Mus.Hs.15677,,,,,,,,Vespers 2,,,A.III.2,B.XI.5,"@Eybl1996 [p. 55], @Bartos2018 [p. 331]",,
 D,2,3,Confitebor,,,,,,,,,,,,Mus.Hs.15678,,,,,,,,Vespers 3,,,A.III.4,B.XI.6,,,"single extant source incomplete (S, A, T, B, vl 1)"
 D,2,4,Credidi,,,,,,,,,,,,,E 1/15,,,,,,,,,,,,,,
 D,2,5,Cum invocarem,,,,,,,,,(no shelfmark),I 17565/1,,Mus.Hs.19194/1,,,,,,,,Vespers 5,,,A.III.5,B.XI.1,,,
@@ -215,7 +215,7 @@ D,3,8,Miserere,,,,,,,,,,,,,,,,,,,I-Bc KK.239 ,,,,A.III.a,,,,
 D,3,9,Miserere,,,,,,,,,,,,,,1311 | 1315,,,,,,,,,,,"@Stefan1985 [p. 240, no. 1371], @Stefan1985 [p. 241, no. 1376]",,
 D,3,L1,Miserere,,"A.23.17, B.27.17",,,,,,,,,,,,,,,,,,,,,,,,,
 D,3,L2,Miserere,,,,,,,,,,,,,,,,,,,,,,,,,"@EsterhazyInv1812 [miserere, no. 10]",,
-D,4,1,Magnificat,,,,,,,,,,,,Mus.Hs.15697,,,XXXV E 139,,,,,Magnificats 1,,,A.X.1,B.VII.1,,,CZ-Pkřiž old signature: 1042
+D,4,1,Magnificat,,,,,,,,,,,,Mus.Hs.15697,,,XXXV E 139,,,,,Magnificats 1,,,A.X.1,B.VII.1,@Eybl1996 [p. 55],,CZ-Pkřiž old signature: 1042
 D,4,2,Magnificat,2119/6,"A.21.9, B.23.7",,,,,,,,,,Mus.Hs.15698,,,,,,,,Magnificats 2,,,A.X.2,B.VII.2,,@Floreen2001,A-H source lost
 D,4,3,Magnificat,,,VIII b 3 [600090620],"A.69.9, B.351.2a",,,,,,,,,,,,,,,,Magnificats 3,,,A.X.3,,"@KlosterneuburgInvA [p. 69, no. 9], @KlosterneuburgInvB [p. 351, no. 2a]",,A-KN source lost
 D,4,4,Nunc dimittis,,,,,,,,,(no shelfmark),I 17565/4,,Mus.Hs.19194/4,,,,,,,,Vespers 5,,,A.III.5,B.XI.1,@Bartos2018 [p. 343],@Schmid1900a [no. 4],
@@ -229,7 +229,7 @@ E,1,5,Alma Redemptoris mater,,,,,,,,,,,,,,,,,,,CZ-Nlob 748,,,,,,"@Pulkert1973 [v
 E,1,6,Alma Redemptoris mater,,,,,,,,,,,,,,,,,,,CZ-Bm A 13068,,,,,,"@RajhradInvA [p. 133, no. 7], @RajhradInvB [p. 253, no. 632], @Rampackova2009, @Tichy2014b",@Rampackova2009a,
 E,1,7,Alma Redemptoris mater,,,,,,,,,,,,,,,,,,,CZ-Bm A 13069,,,,,,"@RajhradInvA [p. 133, no. 8], @RajhradInvB [p. 253, no. 634], @Rampackova2009, @Tichy2014b",@Rampackova2009b,
 E,2,1,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15671,,,,,,,,Antiphons 5,,,A.VII.8,B.V.2,,,
-E,2,2,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15672,,,,,,,,Antiphons 6,,,A.VII.7,B.V.3,,,
+E,2,2,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15672,,,,,,,,Antiphons 6,,,A.VII.7,B.V.3,@Eybl1996 [p. 56],,
 E,2,3,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15673,,,,,,,,Antiphons 7,,,A.VII.12,B.V.4,@Eybl1996 [p. 57],,
 E,2,4,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15674,,,,,,,,Antiphons 8,,,A.VII.9,B.V.5,,,
 E,2,5,Ave Regina coelorum,,,,,,,,,,,,Mus.Hs.15675/1,,,,,,,,Antiphons 9,,,A.VII.11,B.V.6,@Eybl1996 [p. 57],,
@@ -243,7 +243,7 @@ E,4,2,Salve Regina,,,,,,,,,,,,,,,,,,,A-Ed K 8,,,,,,,,
 E,4,3,Salve Regina,,,,,,,,,,,,,D 2/95,,,,,,,,,,,,,,
 E,4,L1,Salve Regina,,"A.31.6, B.32.5",,,,,,,,,,,,,,,,,,,,,,,,,
 E,4,L2,Salve Regina,,A.31.93,,A.121.11,,,,,,,,,,,,,,,,,,,,,"@KlosterneuburgInvA [p. 121, no. 11]",,A-KN source lost
-E,5,1,Sub tuum praesidium,,,,,,,,,,,,Mus.Hs.15691/2,,,,,,,,,,,,,"@Armstrong1993 [pp. 118-121, 257, 283, 314f]",,
+E,5,1,Sub tuum praesidium,,,,,,,,,,,,Mus.Hs.15691/2,,,,,,,,,,,,,"@Armstrong1993 [pp. 118-121, 257, 283, 314f], @Eybl1996 [p. 58]",,
 E,5,2,Sub tuum praesidium,,,,,,,,,,,,Mus.Hs.15692/2,,,,,,,,,,,,,"@Armstrong1993 [pp. 118-121, 257, 284, 315]",,
 E,5,3,Sub tuum praesidium,,,,,,,,,,,,Mus.Hs.15693/2,,,,,,,,,,,,,"@Armstrong1993 [pp. 118-121, 257, 285, 316f]",,
 E,5,4,Sub tuum praesidium,,,,,,,,,,,,Mus.Hs.15694/2,,,,,,,,,,,,,"@Armstrong1993 [pp. 118-121, 257, 286, 317], @Eybl1996 [p. 47]",,
@@ -260,7 +260,7 @@ F,,5,Stabat mater,1785,"A.24.10, B.28.10",,,,,,,,,,,,,,,,,A-Wst MH-10575,Sequenc
 F,,6,Stabat mater,,,,,,,,R 34,,,,,,,,,,,,,,,,,"@Pfiffig1975, @Blume1992 [vol. 1, p. 149f, vol. 2, p. 101–104]",,
 F,,7,Stabat mater,,,,,,,,,,,,,,,,,,,D-OB MO 813,,,,,,@Haberkamp1986 [p. 207],,
 F,,8,Stabat mater,,,,,,,,,,,,,,1332,,,,,,,,,,,"@Stefan1985 [p. 252, no. 1394]",,
-G,,1,Litaniae lauretanae,,,,,,,,,,,,Mus.Hs.15691/1,,,,,,,,Litanies 8,,,A.IX.17,B.IX.1,"@Armstrong1993 [pp. 118-121, 257, 283, 314f]",,
+G,,1,Litaniae lauretanae,,,,,,,,,,,,Mus.Hs.15691/1,,,,,,,,Litanies 8,,,A.IX.17,B.IX.1,"@Armstrong1993 [pp. 118-121, 257, 283, 314f], @Eybl1996 [p. 58]",,
 G,,2,Litaniae lauretanae,1899,880,,,,,,,,,,Mus.Hs.15692/1,,,XXXV E 143,,,,D-OB MO 806,Litanies 16,,,A.IX.11,B.IX.2,"@HerzogenburgInvA [p. 400, no. 25.23], @Riedel1979 [p. 299], @Haberkamp1986 [p. 206], @Armstrong1993 [pp. 118-121, 257, 284, 315]",,CZ-Pkřiž old signature: 2300
 G,,3,Litaniae lauretanae,,"A.26.22, B.30.13",,,,,,,,,,Mus.Hs.15693/1,,1518,XXXVI B 193 | XXXV E 148,,,,,"Litanies 3, Litanies 17",,,"A.IX.14, A.IX.16",B.IX.3,"@BrtniceInv [p. 109, no. 2], @Fukac1959 [vol. 2, p. 45v/91, no. II.36], @Strakova1963, @Strakova1965, @Armstrong1993 [pp. 118-121, 257, 286, 316f]",,A-H source lost; one CZ-Pkřiž source by Reichenauer; old CZ-Pkřiž signatures: 2293 and 2306; in CZ-Pak by Sehling
 G,,4,Litaniae lauretanae,,"A.26.21, B.30.12",III b 3 [600090618],,,,,,,,,Mus.Hs.15694/1,,,XXXV E 146,XXXII C 125,,,,Litanies 20,,,A.IX.19,B.IX.4,"@Eybl1996 [p. 47], @HerzogenburgInvA [p. 420, no. 26.21], @HerzogenburgInvB [fol. 200r, no. 30.12], @Armstrong1993 [pp. 118-121, 257, 286, 317]",@Wagemakers2016,A-H source lost; CZ-Pkřiž old signature: 2304; A-HE source currently (2024-07) undiscoverable
