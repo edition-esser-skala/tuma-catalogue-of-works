@@ -9,7 +9,7 @@ format:
 
 # Concordances {.unnumbered}
 
-```{r}
+```{r packages and setup}
 #| include: false
 library(tidyverse)
 library(stringi)
@@ -96,7 +96,7 @@ print_concordance_ref <- function(ref, patterns, ...) {
 
 ### @Ball1900 (BalTh)
 
-```{r}
+```{r BalTh}
 #| echo: false
 #| output: asis
 print_concordance_catalogue("BalTh")
@@ -105,7 +105,7 @@ print_concordance_catalogue("BalTh")
 
 ### @Klinka1975 (KliCh)
 
-```{r}
+```{r KliCh}
 #| echo: false
 #| output: asis
 print_concordance_catalogue("KliCh")
@@ -114,7 +114,7 @@ print_concordance_catalogue("KliCh")
 
 ### @Peschek1956 (PesMa)
 
-```{r}
+```{r PesMa}
 #| echo: false
 #| output: asis
 print_concordance_catalogue("PesMa")
@@ -123,7 +123,7 @@ print_concordance_catalogue("PesMa")
 
 ### @Reichert1935 (ReiMa)
 
-```{r}
+```{r ReiMa}
 #| echo: false
 #| output: asis
 print_concordance_catalogue("ReiMa")
@@ -132,7 +132,7 @@ print_concordance_catalogue("ReiMa")
 
 ### @Vogg1951 (VogIn)
 
-```{r}
+```{r VogIn}
 #| echo: false
 #| output: asis
 print_concordance_catalogue("VogIn")
@@ -144,7 +144,7 @@ print_concordance_catalogue("VogIn")
 
 ### @BrtniceInv
 
-```{r}
+```{r Brtnice inventory}
 #| echo: false
 #| output: asis
 print_concordance_ref(
@@ -161,7 +161,7 @@ print_concordance_ref(
 
 ### @EsterhazyInv1812
 
-```{r}
+```{r Esterhazy inventory 1812}
 #| echo: false
 #| output: asis
 print_concordance_ref(
@@ -177,7 +177,7 @@ print_concordance_ref(
 
 ### @MelkInv
 
-```{r}
+```{r Melk inventory}
 #| echo: false
 #| output: asis
 print_concordance_ref(
@@ -194,7 +194,7 @@ print_concordance_ref(
 
 ### @RajhradInvA
 
-```{r}
+```{r Rajhrad inventory A}
 #| echo: false
 #| output: asis
 print_concordance_ref(
@@ -211,7 +211,7 @@ print_concordance_ref(
 
 ### @RajhradInvB
 
-```{r}
+```{r Rajhrad inventory B}
 #| echo: false
 #| output: asis
 print_concordance_ref(
@@ -231,7 +231,7 @@ print_concordance_ref(
 
 ### @Bardos1980
 
-```{r}
+```{r Bardos 1980}
 #| echo: false
 #| output: asis
 print_concordance_ref(
@@ -248,7 +248,7 @@ print_concordance_ref(
 
 ### @Stefan1985
 
-```{r}
+```{r Stefan 1985}
 #| echo: false
 #| output: asis
 print_concordance_ref(

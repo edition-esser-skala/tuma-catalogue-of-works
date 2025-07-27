@@ -9,7 +9,7 @@ format:
 
 # Inventories {.unnumbered}
 
-```{r}
+```{r packages}
 #| include: false
 library(tidyverse)
 library(gt)
@@ -19,7 +19,7 @@ options(readr.show_col_types = FALSE)
 
 ## Stift Herzogenburg
 
-```{r}
+```{r A-H setup}
 #| echo: false
 
 works <-
@@ -105,7 +105,7 @@ n_works_extant <-
 
 The two historic inventories of Stift Herzogenburg [@HerzogenburgInvA; @HerzogenburgInvB] contain `{r} n_works_1751` and `{r} n_works_1774` entries describing Tůma's works, respectively. However, only `{r} n_works_extant` works are extant.
 
-```{r}
+```{r A-H inventories}
 #| echo: false
 #| output: asis
 
@@ -130,7 +130,7 @@ table_data %>%
 
 In the table above, sections in the 1751 inventory have been consecutively numbered as follows:
 
-```{r}
+```{r A-H inventory 1751 sections}
 #| echo: false
 #| output: asis
 
@@ -147,7 +147,7 @@ read_csv("data/inventory_herzogenburg_1751.csv") %>%
 
 Likewise, sections in the 1774 inventory have been consecutively numbered as follows:
 
-```{r}
+```{r A-H inventory 1774 sections}
 #| echo: false
 #| output: asis
 
@@ -167,7 +167,7 @@ read_csv("data/inventory_herzogenburg_1774.csv") %>%
 
 ## Stift Klosterneuburg
 
-```{r}
+```{r A-KN setup}
 #| echo: false
 
 works <-
@@ -279,7 +279,7 @@ n_works_extant <-
 
 The historic inventories of Stift Klosterneuburg [@KlosterneuburgInvA; @KlosterneuburgInvB; KlosterneuburgInvC; KlosterneuburgInvE] contain `{r} n_works_a`, `{r} n_works_b`, `{r} n_works_c`, and `{r} n_works_e` entries describing Tůma's works, respectively. However, only `{r} n_works_extant` works are extant.
 
-```{r}
+```{r A-KN table}
 #| echo: false
 #| output: asis
 
