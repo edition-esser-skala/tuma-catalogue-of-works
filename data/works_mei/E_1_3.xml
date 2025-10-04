@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <altId type="ark">ark:68748/ft1e13</altId>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <pubStmt>
+        <respStmt>
+          <resp>Publisher</resp>
+          <corpName role="">
+            <abbr/>
+            <expan/>
+            <address>
+              <addrLine/>
+              <addrLine>
+                <ptr/>
+              </addrLine>
+            </address>
+          </corpName>
+          <persName role="editor">Wolfgang Esser-Skala</persName>
+        </respStmt>
+        <date/>
+        <availability>
+          <useRestrict>CC BY-SA 4.0</useRestrict>
+        </availability>
+      </pubStmt>
+      <seriesStmt>
+        <title>Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma: A thematic catalogue of his works</title>
+        <identifier type="file_collection">TumW</identifier>
+      </seriesStmt>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application version="v2.0.0">
+          <name>MerMEId</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <workList>
+      <work>
+        <identifier label="TumW">E.1.3</identifier>
+        <identifier label="BalTh">B.IV.3</identifier>
+        <identifier label="KliCh">Antiphons 3</identifier>
+        <identifier label="VogIn">A.VII.3</identifier>
+        <title xml:lang="la">Alma Redemptoris mater</title>
+        <contributor>
+          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118624539">Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma</persName>
+          <corpName role=""/>
+        </contributor>
+        <creation>
+          <date isodate="1743">1743</date>
+          <geogName role="">Vienna (?)</geogName>
+        </creation>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1743-12-27">1743-12-27</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1744-01-19">1744-01-19</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1744-11-20">1744-11-20</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1745-01-12">1745-01-12</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1745-11-30">1745-11-30</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1746-01-02">1746-01-02</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1746-12-06">1746-12-06</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1747-01-25">1747-01-25</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1747-12-06">1747-12-06</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+          </eventList>
+        </history>
+        <biblList>
+          <head>Bibliography</head>
+          <bibl>
+            <genre>reference</genre>
+            <ref targettype="pandoc-citation">@Eybl1996</ref>
+          </bibl>
+          <bibl>
+            <genre>reference</genre>
+            <ref targettype="pandoc-citation">@Eybl2011</ref>
+          </bibl>
+        </biblList>
+        <classification>
+          <termList>
+            <term>antiphon</term>
+          </termList>
+        </classification>
+        <expressionList>
+          <expression>
+            <title xml:lang="en"/>
+            <incip>
+              <graphic target="main_1" targettype="lowres"/>
+            </incip>
+            <creation>
+              <date/>
+              <geogName role=""/>
+            </creation>
+            <history/>
+            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+              <perfResList>
+                <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli">
+                  <head xml:lang="en">soli</head>
+                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en">A</perfRes>
+                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en">T</perfRes>
+                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en">B</perfRes>
+                </perfResList>
+                <perfRes codedval="sve" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vlne</perfRes>
+                <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">org</perfRes>
+              </perfResList>
+            </perfMedium>
+            <classification>
+              <termList>
+                <term/>
+              </termList>
+            </classification>
+            <componentList>
+              <expression n="1">
+                <title xml:lang="la">Alma Redemptoris mater</title>
+                <contributor>
+                  <persName role=""/>
+                </contributor>
+                <incip>
+                  <incipText>
+                    <p xml:lang="en"/>
+                  </incipText>
+                  <graphic targettype="lowres" target="1_alma"/>
+                </incip>
+                <tempo>[no tempo]</tempo>
+                <key pname="g" mode="minor"/>
+                <meter sym="common"/>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                  <perfResList>
+                    <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cve" label="soli" n="perfResList_516c9740">
+                      <head xml:lang="en">soli</head>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en" n="perfRes_36a366d7">A</perfRes>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en" n="perfRes_8ae9bb47">T</perfRes>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en" n="perfRes_54c8a0bc">B</perfRes>
+                    </perfResList>
+                    <perfRes codedval="sve" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vlne</perfRes>
+                    <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">org</perfRes>
+                  </perfResList>
+                </perfMedium>
+                <extent>28 bars</extent>
+                <notesStmt>
+                  <annot/>
+                </notesStmt>
+                <componentList/>
+                <relationList>
+                  <relation rel="hasReproduction"/>
+                </relationList>
+              </expression>
+            </componentList>
+            <relationList/>
+          </expression>
+        </expressionList>
+      </work>
+    </workList>
+    <manifestationList>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date isodate="1743">1743</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier label="RISM">600137203</identifier>
+            <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="28" unit="cm">28 (height in cm)</height>
+                <width quantity="23" unit="cm">23 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[wrapper]">
+                <p>Alma Redemptoris | &#xE0; 3 | Alto Tenore e Ba&#x17F;so | Partes | 7 | Del Sg: Fran: Tuma | M: D: C: di S. M: C: | Dell&#x2019;Imp:ce Elis: Vedova | 1743.</p>
+              </titlePage>
+              <extent>7 parts</extent>
+              <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+              </handList>
+              <physMedium>
+                <p>hand-ruled paper, 10 staves (10 mm)</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wn</identifier>
+                <ptr target="https://data.onb.ac.at/rec/AC14297559" mimetype="" label="catalogue entry"/>
+              </repository>
+              <identifier>Mus.Hs.15669</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>A solo (2), T solo (2), B solo (1), vlc (1), vlne (1), org (1), mdc (1)</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+    </manifestationList>
+  </meiHead>
+  <music/>
+</mei>
