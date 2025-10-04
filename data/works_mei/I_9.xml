@@ -60,6 +60,10 @@
           </bibl>
           <bibl>
             <genre>reference</genre>
+            <ref targettype="pandoc-citation">Vogg1951 [p. 138-141]</ref>
+          </bibl>
+          <bibl>
+            <genre>reference</genre>
             <ref targettype="pandoc-citation">@Freeman1992 [p. 50]</ref>
           </bibl>
         </biblList>

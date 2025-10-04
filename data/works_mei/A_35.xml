@@ -100,6 +100,10 @@
           <head>Bibliography</head>
           <bibl>
             <genre>reference</genre>
+            <ref targettype="pandoc-citation">Peschek1956 [p. 271-274]</ref>
+          </bibl>
+          <bibl>
+            <genre>reference</genre>
             <ref targettype="pandoc-citation">@Riedel1979 [p. 104]</ref>
           </bibl>
           <bibl>

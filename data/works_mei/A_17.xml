@@ -125,6 +125,10 @@
           <head>Bibliography</head>
           <bibl>
             <genre>reference</genre>
+            <ref targettype="pandoc-citation">Peschek1956 [p. 152-157]</ref>
+          </bibl>
+          <bibl>
+            <genre>reference</genre>
             <ref targettype="pandoc-citation">@Mitterschiffthaler1979 [p. 236]</ref>
           </bibl>
           <bibl>

@@ -123,6 +123,10 @@
           </bibl>
           <bibl>
             <genre>reference</genre>
+            <ref targettype="pandoc-citation">Peschek1956 [p. 231-235]</ref>
+          </bibl>
+          <bibl>
+            <genre>reference</genre>
             <ref targettype="pandoc-citation">@Strakova1963</ref>
           </bibl>
           <bibl>
@@ -139,7 +143,11 @@
           </bibl>
           <bibl>
             <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Eybl1996 [p. 56]</ref>
+            <ref targettype="pandoc-citation">@Eybl1996</ref>
+          </bibl>
+          <bibl>
+            <genre>reference</genre>
+            <ref targettype="pandoc-citation">@Eybl2022</ref>
           </bibl>
         </biblList>
         <notesStmt>

@@ -74,7 +74,15 @@
           <head>Bibliography</head>
           <bibl>
             <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Eybl1996 [p. 58]</ref>
+            <ref targettype="pandoc-citation">@Peschek1956 [p. 226-230]</ref>
+          </bibl>
+          <bibl>
+            <genre>reference</genre>
+            <ref targettype="pandoc-citation">@Eybl1996</ref>
+          </bibl>
+          <bibl>
+            <genre>reference</genre>
+            <ref targettype="pandoc-citation">@Eybl2022</ref>
           </bibl>
         </biblList>
         <classification>

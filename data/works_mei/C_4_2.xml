@@ -62,7 +62,7 @@
           </bibl>
           <bibl>
             <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Eybl1996 [p. 56]</ref>
+            <ref targettype="pandoc-citation">@Eybl1996</ref>
           </bibl>
           <bibl>
             <genre>reference</genre>
@@ -71,6 +71,10 @@
           <bibl>
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@Strakova1965</ref>
+          </bibl>
+          <bibl>
+            <genre>reference</genre>
+            <ref targettype="pandoc-citation">@Eybl2022</ref>
           </bibl>
         </biblList>
         <classification>

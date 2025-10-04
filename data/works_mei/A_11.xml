@@ -187,6 +187,10 @@
           <head>Bibliography</head>
           <bibl>
             <genre>reference</genre>
+            <ref targettype="pandoc-citation">Peschek1956 [p. 117-122]</ref>
+          </bibl>
+          <bibl>
+            <genre>reference</genre>
             <ref targettype="pandoc-citation">@Horvath1971 [p. 317]</ref>
           </bibl>
           <bibl>

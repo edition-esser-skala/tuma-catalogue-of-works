@@ -56,7 +56,7 @@
           <head>Bibliography</head>
           <bibl>
             <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Eybl1996 [p. 57]</ref>
+            <ref targettype="pandoc-citation">@Eybl1996</ref>
           </bibl>
           <bibl>
             <genre>reference</genre>

@@ -89,7 +89,11 @@
           </bibl>
           <bibl>
             <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Eybl1996 [p. 47]</ref>
+            <ref targettype="pandoc-citation">@Eybl1996</ref>
+          </bibl>
+          <bibl>
+            <genre>reference</genre>
+            <ref targettype="pandoc-citation">@Eybl2022</ref>
           </bibl>
           <bibl>
             <genre>reference</genre>

@@ -57,10 +57,12 @@
           <eventList type="performances">
             <event>
               <date isodate="1742-10-31">1742-10-31</date>
+              <geogName role="venue"/>
               <geogName role="place">Vienna</geogName>
             </event>
             <event>
               <date isodate="1743-10-31">1743-10-31</date>
+              <geogName role="venue"/>
               <geogName role="place">Vienna</geogName>
             </event>
           </eventList>
@@ -69,7 +71,7 @@
           <head>Bibliography</head>
           <bibl>
             <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Eybl1996 [p. 58]</ref>
+            <ref targettype="pandoc-citation">@Eybl1996</ref>
           </bibl>
         </biblList>
         <classification>
