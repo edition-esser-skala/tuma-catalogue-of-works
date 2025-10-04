@@ -82,8 +82,9 @@ rism_id,title,title_alt,genre,collection,siglum,shelfmark,notes
 600138862,Hymnus pro festo omnium Sanctorum (Placare Christi servulis),,Vocal music,,A-Wn,Mus.Hs.15685,
 600138901,Pange lingua a 4 voci con violini e 2 tromboni in concerto,,Chormusik,,A-Wn,Mus.Hs.15686,
 600138990,"Lauda Jerusalem, a 4 voci concertanti, 2 violini concertanti, 2 tromboni ripieni, e ripieni",,Chormusik,,A-Wn,Mus.Hs.15687,
-600139024,Laudate pueri et Laetatus sum a 4 voci e 2 violini in concerto,,Chormusik,,A-Wn,Mus.Hs.15688/1,duplicated manually
-600139024,Laudate pueri et Laetatus sum a 4 voci e 2 violini in concerto,,Chormusik,,A-Wn,Mus.Hs.15688/2,duplicated manually
+600139024,Laudate pueri et Laetatus sum a 4 voci e 2 violini in concerto,,Chormusik,yes,A-Wn,Mus.Hs.15688,
+1001350969,Laudate pueri,,Chormusik,,A-Wn,Mus.Hs.15688/1,shelfmark changed
+1001350972,Laetatus sum,,Chormusik,,A-Wn,Mus.Hs.15688/2,shelfmark changed
 600138732,Laudate pueri a 5 voci con 2 violini in concerto,,Chormusik,,A-Wn,Mus.Hs.15689,
 600138717,Lectiones ad officium defunctorum a 4 voci con violini e tromboni in concerto,,Chormusik,,A-Wn,Mus.Hs.15690,
 600138746,Litanie breve a 4 voci in pieno,,Chormusik,,A-Wn,Mus.Hs.15691/1,split manually

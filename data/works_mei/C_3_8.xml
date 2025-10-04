@@ -128,6 +128,7 @@
                 <componentList>
                   <expression>
                     <title xml:lang="la">Vilescit mihi mundis</title>
+                    <title xml:lang="it">Recitativo</title>
                     <contributor>
                       <persName role=""/>
                     </contributor>
@@ -136,7 +137,7 @@
                         <p xml:lang="en"/>
                       </incipText>
                     </incip>
-                    <tempo>Adagio (Recitativo)</tempo>
+                    <tempo>Adagio</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="common"/>
                     <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
@@ -162,6 +163,7 @@
                   </expression>
                   <expression>
                     <title xml:lang="la">O ter beatum cor</title>
+                    <title xml:lang="it">Aria</title>
                     <contributor>
                       <persName role=""/>
                     </contributor>
@@ -170,7 +172,7 @@
                         <p xml:lang="en"/>
                       </incipText>
                     </incip>
-                    <tempo>Allegretto (Aria)</tempo>
+                    <tempo>Allegretto</tempo>
                     <key pname="a" mode="minor"/>
                     <meter count="2" unit="4"/>
                     <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
@@ -196,6 +198,7 @@
                   </expression>
                   <expression>
                     <title xml:lang="la">Inter tanta pericla</title>
+                    <title xml:lang="it">Recitativo</title>
                     <contributor>
                       <persName role=""/>
                     </contributor>
@@ -204,7 +207,7 @@
                         <p xml:lang="en"/>
                       </incipText>
                     </incip>
-                    <tempo>Adagio (Recitativo)</tempo>
+                    <tempo>Adagio</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="common"/>
                     <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
@@ -228,6 +231,7 @@
                   </expression>
                   <expression>
                     <title xml:lang="la">O vera sincera</title>
+                    <title xml:lang="it">Aria</title>
                     <contributor>
                       <persName role=""/>
                     </contributor>
@@ -236,7 +240,7 @@
                         <p xml:lang="en"/>
                       </incipText>
                     </incip>
-                    <tempo>Allegro ma non presto (Aria)</tempo>
+                    <tempo>Allegro ma non presto</tempo>
                     <key pname="e" mode="minor"/>
                     <meter sym="common"/>
                     <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
@@ -311,7 +315,7 @@
               <extent>10 parts</extent>
               <dimensions/>
               <handList>
-                <hand medium="brown ink" type="main">Joseph Leysser</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
               </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
