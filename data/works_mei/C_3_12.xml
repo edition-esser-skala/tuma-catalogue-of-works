@@ -51,7 +51,7 @@
           <corpName role=""/>
         </contributor>
         <creation>
-          <date isodate="1744-01-01">1744</date>
+          <date isodate="1744">1744</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
         <history>
@@ -408,7 +408,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1900-01-01">ca. 1900</date>
+          <date isodate="1900">ca. 1900</date>
         </pubStmt>
         <classification>
           <termList>
@@ -454,7 +454,7 @@
           <title>Manuscript copy</title>
         </titleStmt>
         <pubStmt>
-          <date isodate="1750-01-01">mid 18th century</date>
+          <date isodate="1750">mid 18th century</date>
         </pubStmt>
         <classification>
           <termList>
@@ -509,7 +509,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1744-01-01">1744</date>
+          <date isodate="1744">1744</date>
         </pubStmt>
         <classification>
           <termList>
@@ -580,7 +580,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date notbefore="1768-01-01" notafter="1780-12-31">1768&#x2013;1780</date>
+          <date notbefore="1768" notafter="1780-12-31">1768&#x2013;1780</date>
         </pubStmt>
         <classification>
           <termList>
@@ -651,7 +651,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date notbefore="1890-01-01" notafter="1910-12-31">1890&#x2013;1910</date>
+          <date notbefore="1890" notafter="1910-12-31">1890&#x2013;1910</date>
         </pubStmt>
         <classification>
           <termList>

@@ -50,7 +50,7 @@
           <corpName role=""/>
         </contributor>
         <creation>
-          <date isodate="1747-01-01">1747</date>
+          <date isodate="1747">1747</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
         <history>
@@ -236,7 +236,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1900-01-01">20th century</date>
+          <date isodate="1900">20th century</date>
         </pubStmt>
         <classification>
           <termList>
@@ -280,7 +280,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1747-01-01">1747</date>
+          <date isodate="1747">1747</date>
         </pubStmt>
         <classification>
           <termList>
@@ -351,7 +351,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date notbefore="1890-01-01" notafter="1910-12-31">1890&#x2013;1910</date>
+          <date notbefore="1890" notafter="1910-12-31">1890&#x2013;1910</date>
         </pubStmt>
         <classification>
           <termList>

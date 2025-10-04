@@ -51,7 +51,7 @@
           <corpName role=""/>
         </contributor>
         <creation>
-          <date isodate="1741-01-01">1741</date>
+          <date isodate="1741">1741</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
         <history/>
@@ -245,7 +245,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date notbefore="1760-01-01" notafter="1768-12-31">1760&#x2013;1768</date>
+          <date notbefore="1760" notafter="1768-12-31">1760&#x2013;1768</date>
         </pubStmt>
         <classification>
           <termList>
@@ -314,7 +314,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1741-01-01">1741</date>
+          <date isodate="1741">1741</date>
         </pubStmt>
         <classification>
           <termList>

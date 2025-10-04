@@ -50,7 +50,7 @@
           <corpName role=""/>
         </contributor>
         <creation>
-          <date isodate="1741-01-01">1741</date>
+          <date isodate="1741">1741</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
         <history>
@@ -68,7 +68,7 @@
               <geogName role="place">Vienna</geogName>
             </event>
             <event>
-              <date isodate="1745-01-01">1745-01-01</date>
+              <date isodate="1745">1745</date>
               <geogName role="place">Vienna</geogName>
             </event>
             <event>
@@ -76,7 +76,7 @@
               <geogName role="place">Vienna</geogName>
             </event>
             <event>
-              <date isodate="1746-01-01">1746-01-01</date>
+              <date isodate="1746">1746</date>
               <geogName role="place">Vienna</geogName>
             </event>
           </eventList>
@@ -389,7 +389,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1741-01-01">1741</date>
+          <date isodate="1741">1741</date>
         </pubStmt>
         <classification>
           <termList>

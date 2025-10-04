@@ -50,7 +50,7 @@
           <corpName role=""/>
         </contributor>
         <creation>
-          <date isodate="1750-01-01">mid 18th century</date>
+          <date isodate="1750">mid 18th century</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
         <history>
@@ -625,7 +625,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1777-01-01">1777</date>
+          <date isodate="1777">1777</date>
         </pubStmt>
         <classification>
           <termList>
@@ -697,7 +697,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1800-01-01">19th century</date>
+          <date isodate="1800">19th century</date>
         </pubStmt>
         <classification>
           <termList>
@@ -905,7 +905,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1836-01-01">1836</date>
+          <date isodate="1836">1836</date>
         </pubStmt>
         <classification>
           <termList>
@@ -974,7 +974,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1830-01-01">1830</date>
+          <date isodate="1830">1830</date>
         </pubStmt>
         <classification>
           <termList>
@@ -1043,7 +1043,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date notbefore="1890-01-01" notafter="1910-12-31">1890&#x2013;1910</date>
+          <date notbefore="1890" notafter="1910-12-31">1890&#x2013;1910</date>
         </pubStmt>
         <classification>
           <termList>
@@ -1113,7 +1113,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1850-01-01">19th century</date>
+          <date isodate="1850">19th century</date>
         </pubStmt>
         <classification>
           <termList>
@@ -1179,7 +1179,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1750-01-01">18th century</date>
+          <date isodate="1750">18th century</date>
         </pubStmt>
         <classification>
           <termList>

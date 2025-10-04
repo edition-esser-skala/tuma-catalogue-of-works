@@ -51,7 +51,7 @@
           <corpName role=""/>
         </contributor>
         <creation>
-          <date isodate="1750-01-01">mid 18th century</date>
+          <date isodate="1750">mid 18th century</date>
           <geogName role="">unknown</geogName>
         </creation>
         <history>
@@ -563,7 +563,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1785-01-01">1785</date>
+          <date isodate="1785">1785</date>
         </pubStmt>
         <classification>
           <termList>
@@ -632,7 +632,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1750-01-01">ca. 1750</date>
+          <date isodate="1750">ca. 1750</date>
         </pubStmt>
         <classification>
           <termList>
@@ -702,7 +702,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date notbefore="1740-01-01" notafter="1799-01-01">1740&#x2013;1799</date>
+          <date notbefore="1740" notafter="1799">1740&#x2013;1799</date>
         </pubStmt>
         <classification>
           <termList>
@@ -769,7 +769,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1775-01-01">3rd quarter 18th century</date>
+          <date isodate="1775">3rd quarter 18th century</date>
         </pubStmt>
         <classification>
           <termList>
@@ -822,7 +822,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date notbefore="1890-01-01" notafter="1900-12-31">1890&#x2013;1900</date>
+          <date notbefore="1890" notafter="1900-12-31">1890&#x2013;1900</date>
         </pubStmt>
         <classification>
           <termList>

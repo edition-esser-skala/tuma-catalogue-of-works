@@ -52,7 +52,7 @@
           <corpName role=""/>
         </contributor>
         <creation>
-          <date isodate="1750-01-01">1st half 18th century</date>
+          <date isodate="1750">1st half 18th century</date>
           <geogName role="">unknown</geogName>
         </creation>
         <history>
@@ -1117,7 +1117,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1754-01-01">1754</date>
+          <date isodate="1754">1754</date>
         </pubStmt>
         <classification>
           <termList>
@@ -1186,7 +1186,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date notbefore="1734-01-01" notafter="1750-12-31">1734&#x2013;1750</date>
+          <date notbefore="1734" notafter="1750-12-31">1734&#x2013;1750</date>
         </pubStmt>
         <classification>
           <termList>
@@ -1259,7 +1259,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1775-01-01">2nd half 18th century</date>
+          <date isodate="1775">2nd half 18th century</date>
         </pubStmt>
         <classification>
           <termList>
@@ -1328,7 +1328,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1800-01-01">1st half 19th century</date>
+          <date isodate="1800">1st half 19th century</date>
         </pubStmt>
         <classification>
           <termList>
@@ -1397,7 +1397,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date notbefore="1733-01-01" notafter="1765-12-31">1733&#x2013;1765</date>
+          <date notbefore="1733" notafter="1765-12-31">1733&#x2013;1765</date>
         </pubStmt>
         <classification>
           <termList>
@@ -1467,7 +1467,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1902-01-01">1902</date>
+          <date isodate="1902">1902</date>
         </pubStmt>
         <classification>
           <termList>
@@ -1528,7 +1528,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1800-01-01">19th century</date>
+          <date isodate="1800">19th century</date>
         </pubStmt>
         <classification>
           <termList>

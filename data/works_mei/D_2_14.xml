@@ -51,7 +51,7 @@
           <corpName role=""/>
         </contributor>
         <creation>
-          <date notbefore="1740-01-01" notafter="1750-12-31">1740&#x2013;1750</date>
+          <date notbefore="1740" notafter="1750-12-31">1740&#x2013;1750</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
         <history>
@@ -295,7 +295,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1750-01-01">2nd half 18th century</date>
+          <date isodate="1750">2nd half 18th century</date>
         </pubStmt>
         <classification>
           <termList>
@@ -365,7 +365,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1752-01-01">1752</date>
+          <date isodate="1752">1752</date>
         </pubStmt>
         <classification>
           <termList>
@@ -434,7 +434,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1740-01-01">ca. 1750</date>
+          <date isodate="1740">ca. 1750</date>
         </pubStmt>
         <classification>
           <termList>
