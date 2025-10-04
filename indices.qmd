@@ -78,3 +78,59 @@ scribes %>%
     table_body.hlines.style = "none"
   )
 ```
+
+
+### Notes and writing samples
+
+#### František Ignác Antonín Tůma
+
+:::{#fig-scribes-tuma}
+![](images/scribes/tuma.png)
+
+Messa All’Onor’è Preggio del Gran’ Patriarcha San Benedetto, TumW A.22 (A-Ws E 3/26)
+:::
+
+
+
+#### Anton Ristl
+
+:::{#fig-scribes-ristl layout-ncol=3}
+![A](images/scribes/ristl_A.png)
+
+![org](images/scribes/ristl_org.png)
+
+![vl 1](images/scribes/ristl_vl1.png)
+
+Pange lingua, TumW C.2.1 (A-Wn Mus.Hs.15686)
+:::
+
+
+
+#### Joseph Leysser
+
+The hands of Leysser and Ristl are highly similar [@Eybl1996]. However, they can be distinguished by the bass clef and the dating of the sources (Ristl mainly worked in 1741/42, while Leysser was active throughout the 1740s).
+
+:::{#fig-scribes-leysser layout-ncol=3}
+![A](images/scribes/leysser_A.png)
+
+![org](images/scribes/leysser_org.png)
+
+![vl 1](images/scribes/leysser_vl1.png)
+
+Vesperae de Confessore, TumW D.1.4 (A-Wn Mus.Hs.15726)
+:::
+
+
+#### Copyist E
+
+This scribe was likely involved in the rapid creation of the initial performance material for Empress Elisabeth Christine's chapel in 1741. However, their manuscripts are also found in the Schottenstift archive, e.g., in the parts for Missa tibi solo, TumW A.25 (A-Ws E 3/21).
+
+:::{#fig-scribes-copyist-e layout-ncol=3}
+![S](images/scribes/copyist_e_S.png)
+
+![vl 1](images/scribes/copyist_e_vl1.png)
+
+![org](images/scribes/copyist_e_org.png)
+
+Dixit Dominus, TumW D.2.8 (A-Wn Mus.Hs.15680)
+:::
