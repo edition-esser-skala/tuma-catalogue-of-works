@@ -8,10 +8,17 @@ notes = \relative c' {
   g,1
   b4 a b g
   a2 d
-  g, c
+  g, c~
+  c b
 }
 
 text = \lyricmode {
+  Cre -- di --
+  di,
+  pro -- pter quod lo --
+  cu -- tus
+  sum, e -- 
+  go
 }
 
 \score {

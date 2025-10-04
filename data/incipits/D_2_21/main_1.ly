@@ -6,15 +6,15 @@ notes = \relative c {
   \key d \dorian \time 4/4 \autoBeamOff \tempoMarkup "Vivace"
   d4.^\partBc d8 e4. e8
   f4. f8 e d16[ c] h8 e16 d
-  c4 f e2
-  a,4 r r2
+  \clef soprano a''4.^\partSc a8 h4. h8
+  c c c c b8. c16 d4
 }
 
 text = \lyricmode {
   Ni -- si Do -- mi --
   nus ae -- di -- fi -- ca -- ve -- rit
-  do -- _ _
-  mum
+  Ni -- si Do -- mi -- %3
+  nus ae -- di -- fi -- ca -- ve -- rit
 }
 
 \score {
