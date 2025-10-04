@@ -336,7 +336,8 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (8), A solo and coro (8), T solo and coro (8), B solo and coro (8), clno 1 (2), clno 2 (2), vl 1 (8), vl 2 (8), org (10)</p>
-                <p>at end of org: <rend fontstyle="italic">O. A. M. D: Gl: | Descripsit: Carl A: Schlotz die 5:ta May 1762</rend></p>
+                <p>at end of org: <rend fontstyle="italic">O. A. M. D: Gl: | Descripsit: Carl A: Schlotz die 5:ta May 1762</rend>
+                                </p>
                 <p>This manuscript combines six works into a Marian vesper: <rend fontstyle="italic">Dixit Dominus</rend> TumW D.2.8, <rend fontstyle="italic">Laudate pueri</rend> TumW D.2.16, <rend fontstyle="italic">Laetatus sum</rend> TumW D.2.13, <rend fontstyle="italic">Nisi Dominus</rend> TumW D.2.21, <rend fontstyle="italic">Lauda Jerusalem</rend> TumW D.2.14, and <rend fontstyle="italic">Magnificat</rend> TumW D.4.2.</p>
               </annot>
               <annot type="links">
@@ -390,7 +391,7 @@
               <extent>22 parts</extent>
               <dimensions/>
               <handList>
-                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">copyist E</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Copyist E</hand>
                 <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
               </handList>
               <physMedium>
@@ -409,7 +410,7 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (2), A solo and coro (2), T solo and coro (2), B solo and coro (2), S coro (2), A coro (2), T coro (1), B coro (1), cnto (1), fag (1), clno 1 (1), clno 2 (1), timp (1), trb 1 (1), trb 2 (1), vl 1 (2x; 2, 2), vl 2 (2), vlc (2), vlne (2), org (2), mdc (2)</p>
-                <p>S coro, T coro, and timp by unidentified hand; remaining parts by copyist E</p>
+                <p>S coro, T coro, and timp by unidentified hand; remaining parts by Copyist E</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
