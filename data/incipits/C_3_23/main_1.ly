@@ -4,14 +4,17 @@
 notes = \relative c' {
   \clef soprano
   \key c \major \time 4/4 \autoBeamOff \tempoMarkup "Recitativo"
-  r4 g'^\partSs c c8 d
-  e4 e r2 \gotoBar "9"
-  \clef treble \autoBeamOn \tempoMarkup "Tempo moderato"
-    g8^\partVi g4 a16 h c h c4 c,8
+  r4^\partSs g' c c8 d
+  e4 e r8 c c g
+  b4. b8 a4 h8 c
+  c16 g g8
 }
 
 text = \lyricmode {
-  In cor -- de Ger -- tru -- dis
+  In cor -- de Ger --
+  tru -- dis in -- ve -- ni --
+  e -- tis me, di -- cit
+  Do -- mi -- nus:
 }
 
 \score {
