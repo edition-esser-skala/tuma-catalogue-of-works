@@ -41,34 +41,19 @@
     <workList>
       <work>
         <identifier label="TumW">L.2</identifier>
-        <title xml:lang="fr">Ouverture</title>
+        <title xml:lang="it">Fuga</title>
         <contributor>
           <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118624539">Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma</persName>
           <corpName role=""/>
         </contributor>
         <creation>
           <date isodate="1750">mid 18th century</date>
-          <geogName role="">unknown</geogName>
+          <geogName role="">Vienna (?)</geogName>
         </creation>
         <history/>
-        <biblList>
-          <head>Bibliography</head>
-          <bibl>
-            <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Bardos1980 [p. 526, no. 1415]</ref>
-          </bibl>
-          <bibl>
-            <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Brown1996</ref>
-          </bibl>
-          <bibl>
-            <genre>edition</genre>
-            <ref targettype="pandoc-citation">@Thielemann2015e</ref>
-          </bibl>
-        </biblList>
         <classification>
           <termList>
-            <term>overture</term>
+            <term>sonata</term>
           </termList>
         </classification>
         <expressionList>
@@ -76,9 +61,6 @@
             <title xml:lang="en"/>
             <incip>
               <graphic target="main_1" targettype="lowres"/>
-              <graphic target="main_2" targettype="lowres"/>
-              <graphic target="main_3" targettype="lowres"/>
-              <graphic target="main_4" targettype="lowres"/>
             </incip>
             <creation>
               <date/>
@@ -87,9 +69,6 @@
             <history/>
             <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
               <perfResList>
-                <perfRes codedval="bcl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">clno</perfRes>
-                <perfRes codedval="btr" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">tr</perfRes>
-                <perfRes codedval="pti" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">timp</perfRes>
                 <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
                 <perfRes codedval="mco" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">bc</perfRes>
               </perfResList>
@@ -109,112 +88,13 @@
                   <incipText>
                     <p xml:lang="en"/>
                   </incipText>
-                  <graphic targettype="lowres" target="1_ouverture"/>
+                  <graphic targettype="lowres" target="1_allegro"/>
                 </incip>
-                <tempo>[no tempo]</tempo>
-                <key pname="c" mode="major"/>
+                <tempo>Allegro</tempo>
+                <key pname="c" mode="dorian"/>
                 <meter sym="common"/>
                 <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
-                    <perfRes codedval="bcl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">clno</perfRes>
-                    <perfRes codedval="btr" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">tr</perfRes>
-                    <perfRes codedval="pti" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">timp</perfRes>
-                    <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
-                    <perfRes codedval="mco" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">bc</perfRes>
-                  </perfResList>
-                </perfMedium>
-                <extent>13 bars</extent>
-                <notesStmt>
-                  <annot/>
-                </notesStmt>
-                <componentList/>
-                <relationList>
-                  <relation rel="hasReproduction"/>
-                </relationList>
-              </expression>
-              <expression n="2">
-                <title xml:lang="en">Fuga</title>
-                <contributor>
-                  <persName role=""/>
-                </contributor>
-                <incip>
-                  <incipText>
-                    <p xml:lang="en"/>
-                  </incipText>
-                  <graphic targettype="lowres" target="2_fuga"/>
-                </incip>
-                <tempo>[no tempo]</tempo>
-                <key pname="c" mode="major"/>
-                <meter count="3" unit="8"/>
-                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-                  <perfResList>
-                    <perfRes codedval="bcl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">clno</perfRes>
-                    <perfRes codedval="btr" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">tr</perfRes>
-                    <perfRes codedval="pti" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">timp</perfRes>
-                    <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
-                    <perfRes codedval="mco" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">bc</perfRes>
-                  </perfResList>
-                </perfMedium>
-                <extent>100 bars</extent>
-                <notesStmt>
-                  <annot/>
-                </notesStmt>
-                <componentList/>
-                <relationList>
-                  <relation rel="hasReproduction"/>
-                </relationList>
-              </expression>
-              <expression n="3">
-                <title xml:lang="en">[no title]</title>
-                <contributor>
-                  <persName role=""/>
-                </contributor>
-                <incip>
-                  <incipText>
-                    <p xml:lang="en"/>
-                  </incipText>
-                  <graphic targettype="lowres" target="3_adagio"/>
-                </incip>
-                <tempo>Adagio</tempo>
-                <key pname="a" mode="minor"/>
-                <meter count="3" unit="4"/>
-                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-                  <perfResList>
-                    <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
-                    <perfRes codedval="mco" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">bc</perfRes>
-                  </perfResList>
-                </perfMedium>
-                <extent>23 bars</extent>
-                <notesStmt>
-                  <annot>
-                    <p>at end of movement: <rend fontstyle="italic">Fuga da capo</rend>
-                                        </p>
-                  </annot>
-                </notesStmt>
-                <componentList/>
-                <relationList>
-                  <relation rel="hasReproduction"/>
-                </relationList>
-              </expression>
-              <expression n="4">
-                <title xml:lang="la">Menuet</title>
-                <contributor>
-                  <persName role=""/>
-                </contributor>
-                <incip>
-                  <incipText>
-                    <p xml:lang="en"/>
-                  </incipText>
-                  <graphic targettype="lowres" target="4_menuet"/>
-                </incip>
-                <tempo>[no tempo]</tempo>
-                <key pname="c" mode="major"/>
-                <meter count="3" unit="4"/>
-                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-                  <perfResList>
-                    <perfRes codedval="bcl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">clno</perfRes>
-                    <perfRes codedval="btr" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">tr</perfRes>
-                    <perfRes codedval="pti" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">timp</perfRes>
                     <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
                     <perfRes codedval="mco" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">bc</perfRes>
                   </perfResList>
@@ -243,7 +123,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1750">18th century</date>
+          <date isodate="1750">2nd half 18th century</date>
         </pubStmt>
         <classification>
           <termList>
@@ -257,40 +137,41 @@
         </classification>
         <itemList>
           <item>
-            <identifier label="RISM">530012240</identifier>
+            <identifier label="RISM">469354105</identifier>
             <physDesc>
               <dimensions>
                 <locusGrp>
                   <locus/>
                 </locusGrp>
-                <height quantity="33" unit="cm">33 (height in cm)</height>
-                <width quantity="23" unit="cm">23 (width in cm)</width>
+                <height quantity="37" unit="cm">37 (height in cm)</height>
+                <width quantity="23" unit="cm">23 (height in cm)</width>
                 <term/>
                 <extent> lines</extent>
               </dimensions>
-              <titlePage label="[wrapper]">
-                <p>Ouverture |&#xA0;&#xE0; | 2 - Violini | 2 - Clarini |&#xA0;&#xE8; | Ba&#x17F;so | 2 - Trombe&#xA0;&#xE8; Timpani | al piacere | Di Francesco Tuma.</p>
+              <titlePage label="[fol. 5r of each part]">
+                <p>[top left] 5. Allegro [right] del Sig Thuma</p>
               </titlePage>
-              <extent>11 parts</extent>
+              <extent>3 parts</extent>
               <dimensions/>
               <handList>
-                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
               </handList>
               <physMedium>
-                <p>hand-ruled paper, 10-12 staves (11 mm)</p>
+                <p>hand-ruled paper, 10 staves (9 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
               <repository>
                 <corpName role=""/>
                 <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">H-Gk</identifier>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">D-Bsa</identifier>
               </repository>
-              <identifier>AMC, T. 8.</identifier>
+              <identifier>SA 3541 (5)</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>clno 1 (1), clno 2 (1), tr 1 (1), tr 2 (1), timp (1), vl 1 (2x; 3, 2), vl 2 (2x; 3, 2), b (2x; 2, 2)</p>
+                <p>vl 1 (1), vl 2 (1), bc (1)</p>
+                <p>This manuscript comprises seven works. The current work is written on fol. 5r of each part.</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
