@@ -1,0 +1,25 @@
+/*-- scss:defaults --*/
+$code-bg: rgba(67, 67, 67, 0.65);
+$code-color: rgb(255, 255, 255);
+
+
+/*-- scss:rules --*/
+
+img.switches-dark-mode {
+  filter: invert(.87);
+}
+
+.gt_table {
+  background-color: #222222 !important;
+  color: #ffffff !important;
+}
+
+.gt_table th {
+  background-color: #343a40 !important;
+  color: #ffffff !important;
+}
+
+.gt_table td {
+  background-color: #222222 !important;
+  color: #ffffff !important;
+}

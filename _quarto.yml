@@ -34,10 +34,13 @@ book:
     - bibliography.qmd
     - part: "Appendix"
       chapters:
-        - abbreviations.qmd
+        - concordances.qmd
         - inventories.qmd
         - prints.qmd
-        - concordances.qmd
+        - indices.qmd
+        - abbreviations.qmd
+    - part: "Technical documentation"
+      chapters:
         - guidelines.qmd
         - changelog.qmd
   page-navigation: false
@@ -53,4 +56,7 @@ format:
     toc-depth: 2
     theme:
       light: [flatly, styling.scss]
-      dark: [darkly, styling.scss]
+      dark: [darkly, styling.scss, styling-dark.scss]
+include-after-body:
+  text: |
+    <script type="application/javascript" src="/light-dark.js"></script>

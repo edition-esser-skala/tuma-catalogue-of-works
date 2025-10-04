@@ -7,8 +7,8 @@
    viewBox="0 0 7.0679004 2.5682227"
    version="1.1"
    id="svg5"
-   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
-   sodipodi:docname="ees_link.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="ees_link_dark.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -31,12 +31,12 @@
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="true"
      inkscape:zoom="18.270259"
-     inkscape:cx="13.382405"
-     inkscape:cy="1.7788472"
+     inkscape:cx="13.409772"
+     inkscape:cy="1.7788473"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="0"
-     inkscape:window-y="1015"
+     inkscape:window-y="1026"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:bbox-paths="true"
@@ -63,7 +63,9 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3 Bold';fill:#000000;stroke-width:0.176389"
          x="98.607887"
          y="33.651226"><tspan
-   style="font-size:4.23333px;fill:#d40000"
-   id="tspan2">e</tspan>es</tspan></text>
+           style="font-size:4.23333px;fill:#d40000"
+           id="tspan2">e</tspan><tspan
+           style="fill:#ffffff"
+           id="tspan3">es</tspan></tspan></text>
   </g>
 </svg>

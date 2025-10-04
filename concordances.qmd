@@ -5,6 +5,7 @@ editor_options:
 format:
   html:
     html-table-processing: none
+    toc-depth: 3
 ---
 
 # Concordances {.unnumbered}
@@ -35,6 +36,7 @@ print_concordance_catalogue <- function(catalogue) {
     ) %>%
     separate_longer_delim(number, delim = ", ") %>% 
     select(number, TumW) %>% 
+    mutate(number = str_remove(number, " \\(\\?\\)$")) %>% 
     bind_rows(notes) %>% 
     filter(!is.na(number)) %>%
     summarise(
@@ -57,7 +59,7 @@ print_concordance_catalogue <- function(catalogue) {
     )
 }
 
-print_concordance_ref <- function(ref, patterns, ...) {
+print_concordance_ref <- function(ref, patterns) {
   patterns <- c(
     ".+\\[",
     patterns,
@@ -89,7 +91,6 @@ print_concordance_ref <- function(ref, patterns, ...) {
     )
 }
 ```
-
 
 
 ## Catalogues
@@ -154,7 +155,7 @@ print_concordance_ref(
     p. = ".+",
     ", no. ",
     no. = "\\d+"
-  ),
+  )
 )
 ```
 

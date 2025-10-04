@@ -70,7 +70,7 @@ In addition, we are annotating more and more works with [detailed metadata](meta
 
 Works in the catalogue should be cited by the abbreviation “TumW”, followed by the group, subgroup (if applicable), and work number; the latter three components should be separated by a period.
 
-As a supplement to the catalogue, we publish selected works as [Open Content editions](https://edition.esser-skala.at/scores/frantisek-ignac-antonin-tuma/). Available works are marked with the symbol ![](../images/ees_link.svg) in the work details.
+As a supplement to the catalogue, we publish selected works as [Open Content editions](https://edition.esser-skala.at/scores/frantisek-ignac-antonin-tuma/). Available works are marked with the symbol ![](images/ees_link_light.svg) in the work details.
 
 
 ## Works not yet catalogued
@@ -88,7 +88,7 @@ As a supplement to the catalogue, we publish selected works as [Open Content edi
   - XXVIII E 161 (mass)
   - XXVIII E 162 (mass)
   - XXVIII E 163 (mass)
-- H-Bn: [Ms. mus. IV. 1.907](https://rism.online/sources/1001333801) (vesperae)
+- H-Bn: [Ms. mus. IV. 1.907](https://nektar.oszk.hu/hu/manifestation/2685051) (vesperae)
 
 
 ## Methods
@@ -141,6 +141,8 @@ ARKs are resolved by `https://ark.esser-skala.at` via a [minimal ARK resolver](h
 
 - The object variant `.mei` directly resolves to the metadata in MEI format.<br/>
 Example: [ark:68748/ft1a9.mei](https://n2t.net/ark:68748/ft1a9.mei)
+- The object variant `score` directly resolves to the full score.<br/>
+Example: [ark:68748/ft1a9.score](https://n2t.net/ark:68748/ft1a9.score)
 - The inflection `?info` yields a brief metadata record following the [Dublin Kernel](https://www.dublincore.org/groups/kernel/spec/) specification, including a persistence statement using the [NLM vocabulary](https://www.nlm.nih.gov/pubs/techbull/ma05/ma05_archive.html).<br/>
 Examples: [ark:68748/ft1a9?info](https://n2t.net/ark:68748/ft1a9?info) and [ark:68748/ft1a9.mei?info](https://n2t.net/ark:68748/ft1a9.mei?info)
 
