@@ -173,7 +173,7 @@ C,5,29,Tenebrae factae sunt,,,,452/2,,,,,,,,,,,,,,,,Responsories 3,,,A.VI.3,,"@K
 C,5,S1,Tenebrae factae sunt,,,,452/4,,,,,,,,,,,,,,,,,,,,,,,
 C,6,1,Exaudivit de templo,,,,413,,,,,,,,,,,,,,,,,,,,,"@KlosterneuburgInvA [p. 166, no. 7]",,
 C,6,2,Veni Sancte Spiritus,,,,464/2,,,,,,,,,,,,,,,,Sequences 6,,,A.VIII.6,,"@KlosterneuburgInvA [p. 162, no. 5], @KlosterneuburgInvB [p. 538, no. 1], @KlosterneuburgInvC [vol. 2, p. 37, no. 4]",,
-D,1,1,Vesperae de Confessore,2117,882,,119/1,,,,,,,,Mus.Hs.15726,,1595,XXXV E 138,XX D 560,,,,Vespers 24,,,A.III.8,B.XI.2,"@KlosterneuburgInvA [p. 126, no. 8], @KlosterneuburgInvB [p. 351, no. 1a], @HerzogenburgInvA [p. 257, no. 15.11], @HerzogenburgInvB [fol. 102r, no. 13.12], @Riedel1979 [p. 332], @Stefan1985 [p. 377f, no. 1696], @Eybl1996, @Bartos2013, @Eybl2022, @Hornbacher2023 [p. 214-217]",@Bartos2013a,A-KN only Dixit; CZ-Pkřiž old signature: 1034
+D,1,1,Vesperae de Confessore,2117,882,,119/1,,,,,,,,Mus.Hs.15726,,1595,XXXV E 138,XX D 560,,,A-Ed G 1,Vespers 24,,,A.III.8,B.XI.2,"@KlosterneuburgInvA [p. 126, no. 8], @KlosterneuburgInvB [p. 351, no. 1a], @HerzogenburgInvA [p. 257, no. 15.11], @HerzogenburgInvB [fol. 102r, no. 13.12], @Riedel1979 [p. 332], @Stefan1985 [p. 377f, no. 1696], @Eybl1996, @Bartos2013, @Eybl2022, @Hornbacher2023 [p. 214-217]",@Bartos2013a,"A-Ed only title page (contains a litany by Schmidt, same as G 60); A-KN only Dixit; CZ-Pkřiž old signature: 1034"
 D,1,2,Vesperae de Beatissima Maria Virgine,2118,A.16.6,,119/2,E 26/172,582,,E XXII 9 b | E XXII 9 c,,,,,E 1/16,,,,,,D-OB MO 815 | H-P C 25,Vespers 27,,,A.III.9,,"@KlosterneuburgInvA [p. 126, no. 10], @KlosterneuburgInvB [p. 351, no. 1b], @Riedel1979 [p. 332], @Haberkamp1986 [p. 207]",,A-H source lost; A-KN only Dixit
 D,1,3,Vesperae de Dominica et Confessore,,B.14.12,,A.72.2,,583,,,,,,Mus.Hs.15727,,,,,,,"CZ-Bm A 13075 | H-Gk AMC, T. 9. | H-Sp Vpl, a) 19",Vespers 25,,,A.III.12,B.XI.3,"@KlosterneuburgInvA [p. 72, no. 2], @RajhradInvA [p. 122, no. 7], @RajhradInvB [p. 271, no. 985], @Bardos1980 [p. 526, no. 1416], @Eybl1996, @Tichy2014b, @Eybl2022",,A-H and A-KN sources lost
 D,1,4,Vesperae de Confessore,,884,,A.71.5,E 11/31 | E 12/38,,,,,,,Mus.Hs.15728,,,,,,Mus.2968-D-508,,Vespers 26,,,A.III.13,B.XI.4,"@KlosterneuburgInvA [p. 71, no. 5], @Eybl1996, @HerzogenburgInvB [fol. 107r, no. 14.11], @Eybl1996, @Eybl2022, @Hornbacher2023 [p. 214-217]",@Schmid1900a [no. 3],A-KN source lost; A-KR E 11/31 attributed to Ehrenhardt
@@ -293,7 +293,6 @@ G,,L8,Litaniae lauretanae,,"A.26.60, B.30.54",,,,,,,,,,,,,,,,,,,,,,,,,
 G,,L9,Litaniae lauretanae,,"A.26.62, B.30.56",,,,,,,,,,,,,,,,,,,,,,,,,
 G,,L10,Litaniae,,,,A.91.2,,,,,,,,,,,,,,,,,,,,,"@KlosterneuburgInvA [p. 91, no. 2]",,A-KN source lost
 G,,L11,Litaniae,,,,,,,,,,,,,,,,,,,,,,,,,@Kim1998 [p. 345f],,mentioned in the inventory of Nagyszombat
-G,,S1,Litaniae lauretanae,,,,,,,,,,,,,,,,,,,A-Ed G 1,,,,,,,,"title page describes a vesper, but shelfmark contains a litany by Schmidt (same as A-Ed G 60)"
 H,,1,Lamentationes Jeremiae Prophetae,,,,,,,,,,I 7364,,,,,,,,Mus.2968-E-502,,Miscellaneous 1,,,A.XII.1,B.XIII.8,,,
 H,,2,Lectiones ad officium defunctorum,,,,,,,,,,,,Mus.Hs.15690,D 2/103,,,,,,,Miscellaneous 2,,,A.XII.2,B.XIII.2,@Eybl1996,,
 H,,3,Te Deum,,,,,,,,,,,1091,,,,,,,,,Miscellaneous 3,,,A.XII.3,,@Mitterschiffthaler1979 [p. 237],,
