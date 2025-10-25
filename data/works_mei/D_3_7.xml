@@ -868,6 +868,79 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
+          <date isodate="1949">1949</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Score and parts</term>
+            <term>Fair copy</term>
+            <term>Excerpt</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier/>
+            <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[full score, cover]">
+                <p>Fr. T&#x16F;ma | 1. Miserere mei Deus | 2. Nunc dimittis servum tuum | 3. In te Domine speravi | Partitura | Fr. Mich&#xE1;lek</p>
+              </titlePage>
+              <titlePage label="[full score, fol. 1r]">
+                <p>Franti&#x161;ek T&#x16F;ma | (1704 &#x2013; 1774) |&#xA0;1. Miserere mei Deus | 2. Nunc dimittis servum tuum, Domine | 3. In te, Domine, speravi | 4. Fac me tecum | Instrumentivel Fr. Mich&#xE1;lek. | (&#xF3; 1, 2, 3)</p>
+              </titlePage>
+              <extent>20 fol. (28 p.); 49 parts</extent>
+              <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="blue ink" type="main">Franti&#x161;ek Mich&#xE1;lek</hand>
+              </handList>
+              <physMedium>
+                <p>full score: 34 x 26 cm, printed staff paper, 14 staves (6 mm)<lb/>instrumental parts: 34 x 26 cm, printed staff paper, 12 staves (9 mm)<lb/>vocal parts: 26 x 17 cm, printed staff paper, 12 staves (8 mm)</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">CZ-Bm</identifier>
+              </repository>
+              <identifier>A 32609/1</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>The full score comprises four works: fol. 1r, title; fol. 1v&#x2013;5r (p. 1&#x2013;8): first movement of&#xA0;<rend fontstyle="italic">Miserere</rend> TumW D.3.7; fol. 5v&#x2013;8v (p. 9&#x2013;15): <rend fontstyle="italic">Nunc dimittis</rend> TumW D.4.4; fol. 9r&#x2013;15r (p. 16&#x2013;28): <rend fontstyle="italic">In te, Domine, speravi</rend> TumW D.2.12; fol. 15v&#x2013;17r (p. 29&#x2013;32):&#xA0;<rend fontstyle="italic">Fac me tecum</rend> from&#xA0;<rend fontstyle="italic">Stabat mater</rend> TumW F.2; fol. 17v&#x2013;20v: empty staves.</p>
+                <p>Parts comprise two works: <rend fontstyle="italic">Miserere</rend> TumW D.3.7 (first movement, on first page if there are two) and <rend fontstyle="italic">Nunc dimittis</rend> TumW D.4.4 (on second page): S coro (11x; each 2), A coro (8x; each 2), T coro (7x; each 2), B coro (8x; each 2), tr (1), fag (1), trb 1 (1), trb 2 (1), vl 1 (3x; 2, 2, 2),&#xA0;vl 2 (3x; 2, 2, 2),&#xA0;vla (2x; 2, 2), b (3x; 2, 2, 2).</p>
+                <p>A part for&#xA0;T solo (1) only comprises the <rend fontstyle="italic">Nunc dimittis</rend> TumW D.4.4.</p>
+                <p>collection: 17 (Brno &#x2013; soukrom&#xE1; sb&#xED;rka Franti&#x161;ka Mich&#xE1;lka)</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
           <date startdate="1890" enddate="1900">1890&#x2013;1900</date>
         </pubStmt>
         <classification>
@@ -969,7 +1042,7 @@
               <extent>11 parts</extent>
               <dimensions/>
               <handList>
-                <hand medium="brown ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
               </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (9 mm)</p>

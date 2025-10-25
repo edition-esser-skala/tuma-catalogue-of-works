@@ -242,6 +242,10 @@
           </bibl>
           <bibl>
             <genre>reference</genre>
+            <ref targettype="pandoc-citation">@Hug2007 [vol. 1, p. 154]</ref>
+          </bibl>
+          <bibl>
+            <genre>reference</genre>
             <ref targettype="pandoc-citation">KlosterneuburgInvA [p. 71, no. 5]</ref>
           </bibl>
           <bibl>

@@ -1024,6 +1024,82 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
+          <date isodate="1860">1860-03</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier/>
+            <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="26" unit="cm">26 (height in cm)</height>
+                <width quantity="33" unit="cm">33 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[wrapper]">
+                <p>Mi&#x17F;sa in E minore | a | 4 Voci, 2 Violini, Viol. Due | Trombone alto &amp; Tenore | &amp; | Organo. | Auctore Tuma.</p>
+              </titlePage>
+              <extent>11 parts</extent>
+              <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">J. Krizkowsk&#xFD;</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">Beschel</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">Mathias Anton</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">Franz Lang</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
+              <physMedium>
+                <p>hand-ruled paper, 12 staves (9 mm)</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">CZ-Bm</identifier>
+              </repository>
+              <identifier>A 20185</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>T solo (1), S solo and coro (5), A solo and coro (6), T solo and coro (6), B solo and coro (5), trb 1 (3), trb 2 (3), vl 1 (8), vl 2 (7), vla 1/2 (6), org (7)</p>
+                <p>T solo part only comprises <rend fontstyle="italic">Benedictus</rend></p>
+                <p>at end of trb 1 part: Anton Matias | scrip.<lb/>at end of trb 2 part: Mathias Anton | scrip.<lb/>at end of vl 2 part: Lang Franz | descripsit | III. a.[?] 1860<lb/>at end of vla 1/2 part: Lang Franz | 860 III a[?]<lb/>at end of A part: J. Krizkow&#x17F;k&#xFD; 1860 | ge&#x17F;chrieben u revid.<lb/>at end of B part: Beschel.<lb/>at end of org part: Lang Franz | III. G. [?] | scripsit | 1860</p>
+                <p>collection: 8 (Brno &#x2013; kl&#xE1;&#x161;ter augustini&#xE1;n&#x16F;)</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
           <date isodate="1750">mid 18th century</date>
         </pubStmt>
         <classification>
@@ -1185,8 +1261,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>comprises only <rend fontstyle="italic">Benedictus</rend>
-                                </p>
+                <p>comprises only <rend fontstyle="italic">Benedictus</rend></p>
                 <p>catalogued according to index card</p>
               </annot>
               <annot type="links">
