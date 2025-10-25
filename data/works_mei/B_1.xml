@@ -84,6 +84,10 @@
             <genre>reference</genre>
             <ref targettype="pandoc-citation">@Eybl2022</ref>
           </bibl>
+          <bibl>
+            <genre>edition</genre>
+            <ref targettype="pandoc-citation">@Hofer1952</ref>
+          </bibl>
         </biblList>
         <classification>
           <termList>
