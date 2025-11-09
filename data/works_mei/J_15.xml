@@ -65,6 +65,10 @@
             <genre>inventory</genre>
             <ref targettype="pandoc-citation">@Sherman2001 [p. 203, no. 2]</ref>
           </bibl>
+          <bibl>
+            <genre>reference</genre>
+            <ref targettype="pandoc-citation">@Petermayr2020 [p. 456]</ref>
+          </bibl>
         </biblList>
         <notesStmt>
           <annot type="links">
