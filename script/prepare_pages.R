@@ -68,7 +68,8 @@ WORK_TEMPLATE_OVERVIEW <- '
 |*ARK*|{ark}|
 |*Sources*|{sources}|
 |*Notes*|{notes}|
-|*Literature*|{literature}|
+|*References*|{references}|
+|*Inventories*|{inventories}|
 |*Editions*|{editions}|
 
 : {{tbl-colwidths="[12,87]" .movement-details}}
@@ -184,6 +185,11 @@ make_work_entry <- function(group, subgroup, number, sources, file, ...) {
       str_sort() %>%
       str_flatten(" · ")
 
+    notes <-
+      metadata$notes %>%
+      str_replace_all(PATTERN_WORK, link_work) %>%
+      str_replace_all(PATTERN_RISM, link_rism)
+
     entry <- use_template(
       WORK_TEMPLATE_OVERVIEW,
       group = group,
@@ -195,8 +201,9 @@ make_work_entry <- function(group, subgroup, number, sources, file, ...) {
       identification = identification,
       ark = ark,
       sources = sources,
-      notes = metadata$notes,
-      literature = str_sort(metadata$literature),
+      notes = notes,
+      references = str_sort(metadata$references),
+      inventories = str_sort(metadata$inventories),
       editions = str_sort(metadata$editions)
     )
   }

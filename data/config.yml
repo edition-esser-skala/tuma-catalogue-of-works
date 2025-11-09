@@ -1,10 +1,13 @@
 catalogue_prefix: TumW  # abbreviation of the catalogue
 
+main_author: František Ignác Antonín Tůma  # main author of the catalogue
+
 catalogue_columns:
   # columns in data/catalogue_works.csv that contain general metadata
   metadata:
     - title
-    - literature
+    - references
+    - inventories
     - editions
     - notes
 

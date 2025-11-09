@@ -47,6 +47,12 @@ get_available_editions <- function() {
 AVAILABLE_EDITIONS <- get_available_editions()
 
 
+## Regex patterns ----
+
+PATTERN_WORK <- paste(catalogue_prefix, "([A-Z](?:\\.[\\dSL]+){1,2})")
+PATTERN_RISM <- "RISM (\\d+)"
+
+
 
 # Templates ---------------------------------------------------------------
 
@@ -67,6 +73,8 @@ Identification
 
 ARKs
 : {ark}
+
+{author}
 
 Scoring
 : {work_scoring}
@@ -228,6 +236,24 @@ support-what: {support_what}
 
 # Functions ---------------------------------------------------------------
 
+# replaces a string “WerW X” with a link to the respective work
+link_work <- function(s) {
+  ref <- str_match(s, PATTERN_WORK)[1,]
+  link_text <- ref[1]
+  blade <-
+    ref[2] %>%
+    str_replace_all("\\.", "") %>%
+    str_to_lower()
+
+  str_glue("[{link_text}](https://n2t.net/ark:{params$ark}{blade})")
+}
+
+# replaces a string “RISM X” with a link to the respective RISM entry
+link_rism <- function(s) {
+  ref <- str_match(s, PATTERN_RISM)[1,]
+  use_template(RISM_TEMPLATE, label = ref[1], rism_id = ref[2])
+}
+
 # get the value of <elem_name attr_name="attr_value">
 get_elem_value <- function(l, elem_name, attr_name, attr_value) {
   ids <- str_which(names(l), elem_name)
@@ -244,33 +270,6 @@ get_elem_value <- function(l, elem_name, attr_name, attr_value) {
 # of the MEI formatting nodes
 # add hyperlinks when referencing other works or RISM entries
 format_mei_text <- function(xml_data) {
-  pattern_work <- paste(catalogue_prefix, "([A-Z](?:\\.[\\dSL]+){1,2})")
-  pattern_rism <- "RISM (\\d+)"
-
-  link_work <- function(s) {
-    ref <- str_match(s, pattern_work)[1,]
-    link_text <- ref[1]
-    blade <-
-      ref[2] %>%
-      str_replace_all("\\.", "") %>%
-      str_to_lower()
-
-    str_glue("[{link_text}](https://n2t.net/ark:{params$ark}{blade})")
-  }
-
-  link_rism <- function(s) {
-    ref <- str_match(s, pattern_rism)[1,]
-    use_template(RISM_TEMPLATE, label = ref[1], rism_id = ref[2])
-  }
-
-  xpath <-
-    c(
-      "//d1:titlePage",
-      "//d1:physMedium",
-      "//d1:annot"
-    ) %>%
-    str_c(collapse = " | ")
-
   make_markdown <- function(n, as_list = FALSE) {
     if (as_list)
       sep <- "\n- "
@@ -284,12 +283,22 @@ format_mei_text <- function(xml_data) {
       str_replace_all(c(
         "<p>" = "",
         "</p>" = "",
+
+        # newlines
         "<lb/>" = "<br/>",
+
+        # italics
         "<rend fontstyle=\"italic\">(.+?)</rend>" = "<i>\\1</i>",
-        "<rend rend=\"underline\\(2\\)\">(.+?)</rend>" = "<u>\\1</u>"
+
+        # underlines
+        "<rend rend=\"underline\\(2\\)\">(.+?)</rend>" = "<u>\\1</u>",
+
+        # superscripts (RISM notation)
+        "\\|(\\w)" = "^\\1^"
       )) %>%
-      str_replace_all(pattern_work, link_work) %>%
-      str_replace_all(pattern_rism, link_rism)
+      str_replace_all("\\^\\^", "") %>%
+      str_replace_all(PATTERN_WORK, link_work) %>%
+      str_replace_all(PATTERN_RISM, link_rism)
 
     if (as_list)
       res <- paste0("- ", res)
@@ -297,13 +306,21 @@ format_mei_text <- function(xml_data) {
     res
   }
 
-  res <- map_chr(
-    xml_data %>% xml_find_all(xpath),
-    \(n) {
+  xpath <-
+    c(
+      "//d1:titlePage",
+      "//d1:physMedium",
+      "//d1:annot"
+    ) %>%
+    str_flatten(" | ")
+
+  res <-
+    xml_data %>%
+    xml_find_all(xpath) %>%
+    map_chr(\(n) {
       xml_set_attr(n, "markdown_text", make_markdown(n))
       xml_set_attr(n, "markdown_list", make_markdown(n, as_list = TRUE))
-    }
-  )
+    })
 
   # map() with invisible return instead of walk() to allow debugging
   invisible(res)
@@ -608,6 +625,21 @@ format_scoring <- function(s) {
   )
 }
 
+# format author suprious works
+# c: <workList><work><contributor>
+format_author <- function(c) {
+  person_indices <-
+    names(c) %>%
+    str_which("persName")
+
+  # if there is only the main author, do not print it
+  if (length(person_indices) == 1 & c$persName[[1]] == params$main_author)
+    return("")
+
+  map_chr(person_indices, \(i) c[[i]][[1]]) %>%
+    str_flatten_comma()
+}
+
 # format genre(s)
 format_genre <- function(c) {
   if (is.null(c))
@@ -683,7 +715,8 @@ get_bibliography_entries <- function(bibllist, genre) {
 # as well as the raw entries for references and edition
 format_bibliography <- function(b, work_id) {
   b <- b %||% list()
-  entries_ref <- get_bibliography_entries(b, "reference")
+  entries_reference <- get_bibliography_entries(b, "reference")
+  entries_inventory <- get_bibliography_entries(b, "inventory")
   entries_edition <- get_bibliography_entries(b, "edition")
 
   # check whether there is an EES edition
@@ -700,8 +733,13 @@ format_bibliography <- function(b, work_id) {
   markdown <- str_flatten(
     c(
       if_else(
-        length(entries_ref) > 0,
-        paste("Bibliography\n:", str_flatten_comma(entries_ref)),
+        length(entries_reference) > 0,
+        paste("References\n:", str_flatten_comma(entries_reference)),
+        ""
+      ),
+      if_else(
+        length(entries_inventory) > 0,
+        paste("Inventories\n:", str_flatten_comma(entries_inventory)),
         ""
       ),
       if_else(
@@ -715,7 +753,8 @@ format_bibliography <- function(b, work_id) {
 
   list(
     markdown = markdown,
-    entries_ref = entries_ref,
+    entries_reference = entries_reference,
+    entries_inventory = entries_inventory,
     entries_edition = entries_edition
   )
 }
@@ -1232,8 +1271,8 @@ check_classification <- function(terms, source_title) {
 
 # stops the script if two strings are not equal
 check_equal_string <- function(a, b) {
-  if (a == b) return()
-  str_glue("These strings must be the same:\n(MEI) {a}\n(CSV) {b}")
+  if (a != b)
+    error("These strings must be the same:\n(MEI) {a}\n(CSV) {b}")
 }
 
 # stops the script if two string lists contain different elements
@@ -1242,7 +1281,7 @@ check_equal_list <- function(a, b) {
   a <- str_sort(a) %>% unique()
   b <- str_sort(b) %>% unique()
   if (length(a) == length(b) && all(a == b)) return()
-  str_glue("These lists must be the same:",
+  error("These lists must be the same:",
            "\n(MEI) {str_flatten_comma(a)}",
            "\n(CSV) {str_flatten_comma(b)}")
 }
@@ -1253,43 +1292,59 @@ validate_metadata <- function(group,
                               number,
                               title,
                               references,
+                              inventories,
                               editions,
                               identifiers,
                               sources,
                               table_metadata,
                               table_sources) {
-  report <- function(msg) {
-    if (is.null(msg))
-      return()
-    error(msg)
-  }
+
 
   # work title
   title <- str_split_1(title, "<br/>")[1]
-  check_equal_string(title, table_metadata$title) %>%
-    report()
+  check_equal_string(title, table_metadata$title)
 
   # references
-  if (is.na(table_metadata$literature))
+  if (is.na(table_metadata$references)) {
     table_references <- character(0)
-  else
+  } else {
     table_references <-
-      table_metadata$literature %>%
+      table_metadata$references %>%
       str_split_1(", @") %>%
       str_remove("@")
-  check_equal_list(str_remove(references, "@"), table_references) %>%
-    report()
+  }
+  check_equal_list(
+    str_remove(references, "@"),
+    table_references
+  )
+
+  # inventories
+  if (is.na(table_metadata$inventories)) {
+    table_editions <- character(0)
+  } else {
+    table_editions <-
+      table_metadata$inventories %>%
+      str_split_1(", @") %>%
+      str_remove("@")
+  }
+  check_equal_list(
+    str_remove(inventories, "@"),
+    table_editions
+  )
 
   # editions
-  if (is.na(table_metadata$editions))
+  if (is.na(table_metadata$editions)) {
     table_editions <- character(0)
-  else
+  } else {
     table_editions <-
-    table_metadata$editions %>%
-    str_split_1(", @") %>%
-    str_remove("@")
-  check_equal_list(str_remove(editions, "@"), table_editions) %>%
-    report()
+      table_metadata$editions %>%
+      str_split_1(", @") %>%
+      str_remove("@")
+  }
+  check_equal_list(
+    str_remove(editions, "@"),
+    table_editions
+  )
 
   # identifiers
   table_metadata[[catalogue_prefix]] <-
@@ -1297,8 +1352,7 @@ validate_metadata <- function(group,
   check_equal_string(
     format_identifiers(identifiers, sep = " · ", add_links = FALSE),
     format_identifiers(table_metadata, sep = " · ", add_links = FALSE)
-  ) %>%
-    report()
+  )
 
   # sources
   mei_sources <-
@@ -1310,8 +1364,10 @@ validate_metadata <- function(group,
       .keep = "none"
     ) %>%
     pull(source)
-  check_equal_list(mei_sources, table_sources$source) %>%
-    report()
+  check_equal_list(
+    mei_sources,
+    table_sources$source
+  )
 }
 
 
@@ -1374,6 +1430,10 @@ get_work_details <- function(group,
     sep = "<br/>"
   )
 
+  author <- format_author(data_work$contributor)
+  if (author != "")
+    author <- paste0("Author(s)\n: ", author)
+
   work_scoring <- format_scoring(data_music$perfMedium$perfResList)
 
   roles <- format_roles(data_music$perfMedium$castList)
@@ -1408,7 +1468,8 @@ get_work_details <- function(group,
     subgroup = subgroup,
     number = number,
     title = title$all,
-    references = bibliography$entries_ref,
+    references = bibliography$entries_reference,
+    inventories = bibliography$entries_inventory,
     editions = bibliography$entries_edition,
     identifiers = set_names(identifier_ids, identifier_catalogues),
     sources = data_sources,
@@ -1427,6 +1488,7 @@ get_work_details <- function(group,
     sources_short = sources_short,
     identifiers = identifiers,
     ark = ark,
+    author = author,
     work_scoring = work_scoring$markdown,
     roles = roles,
     genre = genre,
@@ -1444,7 +1506,7 @@ get_work_details <- function(group,
 
 # Testing -----------------------------------------------------------------
 
-# data <- read_xml("data/works_mei/D_3_7.xml")
+# data <- read_xml("data/works_mei/C_2.xml")
 # format_mei_text(data)
 # data <- as_list(data) %>% pluck("mei", "meiHead")
 # data_work <- data$workList$work
