@@ -107,11 +107,11 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@KlosterneuburgInvA [p. 69, no. 9]</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@KlosterneuburgInvB [p. 351, no. 2a]</ref>
           </bibl>
         </biblList>

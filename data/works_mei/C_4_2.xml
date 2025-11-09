@@ -57,7 +57,7 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@BrtniceInv [p. 111, no. 3]</ref>
           </bibl>
           <bibl>

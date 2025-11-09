@@ -55,7 +55,7 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@MelkInv [vol. V, no. 1087]</ref>
           </bibl>
           <bibl>

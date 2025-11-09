@@ -117,7 +117,7 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@MelkInv [vol. I, no. 11]</ref>
           </bibl>
           <bibl>
@@ -125,8 +125,8 @@
             <ref targettype="pandoc-citation">Peschek1956 [p. 117-122]</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Riedel1979 [p. 104]</ref>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">@Riedel1979 [p. 104, no. 637]</ref>
           </bibl>
           <bibl>
             <genre>reference</genre>

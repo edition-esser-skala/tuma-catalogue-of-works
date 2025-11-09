@@ -58,16 +58,16 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@KlosterneuburgInvA [p. 9, no. 4]</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@KlosterneuburgInvB [p. 114, no. 10]</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Sherman2001 [pp. 47, 338]</ref>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">@Sherman2001 [{p. 47, no. 1, p. 338, no. 254}]</ref>
           </bibl>
           <bibl>
             <genre>reference</genre>

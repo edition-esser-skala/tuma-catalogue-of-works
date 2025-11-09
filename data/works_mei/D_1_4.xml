@@ -225,7 +225,7 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@HerzogenburgInvB [fol. 107r, no. 14.11]</ref>
           </bibl>
           <bibl>
@@ -245,7 +245,7 @@
             <ref targettype="pandoc-citation">@Hug2007 [vol. 1, p. 154]</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">KlosterneuburgInvA [p. 71, no. 5]</ref>
           </bibl>
           <bibl>

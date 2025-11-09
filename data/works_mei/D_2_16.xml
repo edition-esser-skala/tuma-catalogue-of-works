@@ -112,12 +112,12 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@HerzogenburgInvA [p. 297, no. 18.5]</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Riedel1979 [p. 335]</ref>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">@Riedel1979 [p. 332, no. 2119]</ref>
           </bibl>
           <bibl>
             <genre>reference</genre>

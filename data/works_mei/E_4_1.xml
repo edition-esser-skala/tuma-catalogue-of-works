@@ -75,11 +75,11 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@Pulkert1973 [vol. 1, p. 84, no. 31, p. 278, no. 651, vol. 2, p. 106f]</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@Pielech2019 [p. 373, 419]</ref>
           </bibl>
         </biblList>

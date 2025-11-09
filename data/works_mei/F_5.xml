@@ -56,8 +56,8 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Riedel1979 [p. 282]</ref>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">@Riedel1979 [p. 282, no. 1785]</ref>
           </bibl>
         </biblList>
         <classification>

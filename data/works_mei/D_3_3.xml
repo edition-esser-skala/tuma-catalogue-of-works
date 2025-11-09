@@ -167,8 +167,8 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Riedel1979 [p. 410]</ref>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">@Riedel1979 [p. 410, no. 2589]</ref>
           </bibl>
         </biblList>
         <classification>

@@ -54,7 +54,7 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@Bardos1980 [p. 526, no. 1415]</ref>
           </bibl>
           <bibl>
@@ -187,7 +187,8 @@
                 <extent>23 bars</extent>
                 <notesStmt>
                   <annot>
-                    <p>at end of movement: <rend fontstyle="italic">Fuga da capo</rend></p>
+                    <p>at end of movement: <rend fontstyle="italic">Fuga da capo</rend>
+                                        </p>
                   </annot>
                 </notesStmt>
                 <componentList/>

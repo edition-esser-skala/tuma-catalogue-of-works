@@ -118,7 +118,7 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@BrtniceInv [p. 110, no. 9]</ref>
           </bibl>
           <bibl>
@@ -1218,7 +1218,8 @@
             <notesStmt>
               <annot type="source_description">
                 <p>collection: 8 (Brno &#x2013; kl&#xE1;&#x161;ter augustini&#xE1;n&#x16F;)</p>
-                <p>lacks <rend fontstyle="italic">Gloria</rend></p>
+                <p>lacks <rend fontstyle="italic">Gloria</rend>
+                                </p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

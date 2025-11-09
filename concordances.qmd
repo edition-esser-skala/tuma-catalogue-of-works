@@ -10,15 +10,19 @@ format:
 
 # Concordances {.unnumbered}
 
-```{r packages and setup}
+This appendix lists concordances between prior catalogues of Tůma's works and TumW. For concordances of historic and modern inventories, see [Inventories](inventories.qmd).
+
+```{r packages and functions}
 #| include: false
 library(tidyverse)
-library(stringi)
+library(yaml)
 library(gt)
 source("script/utils.R")
 options(readr.show_col_types = FALSE)
 
-print_concordance_catalogue <- function(catalogue) {
+params <- read_yaml("data/config.yml")
+
+print_concordance <- function(catalogue) {
   notes <-
     read_csv("data/catalogue_notes.csv") %>% 
     filter(catalogue == {{catalogue}}) %>% 
@@ -29,28 +33,27 @@ print_concordance_catalogue <- function(catalogue) {
       read_csv("data/catalogue_overview.csv") %>% distinct(group, file),
       by = "group"
     ) %>% 
-    unite(group:number, col = "TumW", sep = ".", na.rm = TRUE) %>%
+    unite(group:number, col = "id", sep = ".", na.rm = TRUE) %>%
     mutate(
       number = .data[[catalogue]],
-      TumW = str_glue("[{TumW}](/groups/{file}.html#work-{TumW})")
+      id = str_glue("[{id}](/groups/{file}.html#work-{id})")
     ) %>%
     separate_longer_delim(number, delim = ", ") %>% 
-    select(number, TumW) %>% 
+    select(number, id) %>% 
     mutate(number = str_remove(number, " \\(\\?\\)$")) %>% 
     bind_rows(notes) %>% 
     filter(!is.na(number)) %>%
     summarise(
       .by = number,
-      TumW = str_flatten_comma(TumW, na.rm = TRUE),
+      id = str_flatten_comma(id, na.rm = TRUE),
       notes = str_flatten_comma(notes, na.rm = TRUE)
     ) %>%
-    mutate(TumW = if_else(TumW == "", "–", TumW)) %>% 
-    arrange(
-      stri_rank(number, opts_collator = stri_opts_collator(numeric = TRUE))
-    ) %>% 
+    mutate(id = if_else(id == "", "–", id)) %>% 
+    arrange(str_rank(number, numeric = TRUE)) %>% 
     gt() %>%
-    cols_width(number ~ px(80), TumW ~ px(160)) %>%
-    fmt_markdown(columns = TumW) %>% 
+    cols_width(number ~ px(80), id ~ px(160)) %>%
+    fmt_markdown(columns = id) %>% 
+    cols_label(id = params$catalogue_prefix) %>% 
     sub_missing(columns = notes, missing_text = "") %>% 
     tab_options(
       column_labels.font.weight = "bold",
@@ -58,207 +61,49 @@ print_concordance_catalogue <- function(catalogue) {
       table_body.hlines.style = "none"
     )
 }
-
-print_concordance_ref <- function(ref, patterns) {
-  patterns <- c(
-    ".+\\[",
-    patterns,
-    "]"
-  )
-
-  read_rds("data_generated/works.rds") %>%
-    left_join(
-      read_csv("data/catalogue_overview.csv") %>% distinct(group, file),
-      by = "group"
-    ) %>%
-    unite(group:number, col = "TumW", sep = ".", na.rm = TRUE) %>%
-    mutate(TumW = str_glue("[{TumW}](/groups/{file}.html#work-{TumW})")) %>%
-    separate_longer_delim(literature, ", @") %>%
-    filter(str_detect(literature, ref)) %>%
-    select(literature, TumW) %>%
-    separate_wider_regex(
-      literature,
-      patterns = {{patterns}}
-    ) %>%
-    mutate(across(!TumW, parse_guess)) %>%
-    arrange(pick(!TumW)) %>%
-    gt() %>%
-    fmt_markdown(columns = TumW) %>%
-    tab_options(
-      column_labels.font.weight = "bold",
-      table.align = "left",
-      table_body.hlines.style = "none"
-    )
-}
 ```
 
 
-## Catalogues
-
-### @Ball1900 (BalTh)
+## @Ball1900 (BalTh)
 
 ```{r BalTh}
 #| echo: false
 #| output: asis
-print_concordance_catalogue("BalTh")
+print_concordance("BalTh")
 ```
 
 
-### @Klinka1975 (KliCh)
+## @Klinka1975 (KliCh)
 
 ```{r KliCh}
 #| echo: false
 #| output: asis
-print_concordance_catalogue("KliCh")
+print_concordance("KliCh")
 ```
 
 
-### @Peschek1956 (PesMa)
+## @Peschek1956 (PesMa)
 
 ```{r PesMa}
 #| echo: false
 #| output: asis
-print_concordance_catalogue("PesMa")
+print_concordance("PesMa")
 ```
 
 
-### @Reichert1935 (ReiMa)
+## @Reichert1935 (ReiMa)
 
 ```{r ReiMa}
 #| echo: false
 #| output: asis
-print_concordance_catalogue("ReiMa")
+print_concordance("ReiMa")
 ```
 
 
-### @Vogg1951 (VogIn)
+## @Vogg1951 (VogIn)
 
 ```{r VogIn}
 #| echo: false
 #| output: asis
-print_concordance_catalogue("VogIn")
-```
-
-
-
-## Inventories (historic)
-
-### @BrtniceInv
-
-```{r Brtnice inventory}
-#| echo: false
-#| output: asis
-print_concordance_ref(
-  "BrtniceInv",
-  c(
-    "p. ",
-    p. = ".+",
-    ", no. ",
-    no. = "\\d+"
-  )
-)
-```
-
-
-### @EsterhazyInv1812
-
-```{r Esterhazy inventory 1812}
-#| echo: false
-#| output: asis
-print_concordance_ref(
-  "EsterhazyInv1812",
-  c(
-    genre = ".+",
-    ", no. ",
-    no. = "\\d+"
-  )
-)
-```
-
-
-### @MelkInv
-
-```{r Melk inventory}
-#| echo: false
-#| output: asis
-print_concordance_ref(
-  "MelkInv",
-  c(
-    "vol. ",
-    vol. = ".+",
-    ", no. ",
-    no. = "\\d+"
-  )
-)
-```
-
-
-### @RajhradInvA
-
-```{r Rajhrad inventory A}
-#| echo: false
-#| output: asis
-print_concordance_ref(
-  "RajhradInvA",
-  c(
-    "p. ",
-    p. = "\\d+",
-    ", no. ",
-    no. = "\\d+"
-  )
-)
-```
-
-
-### @RajhradInvB
-
-```{r Rajhrad inventory B}
-#| echo: false
-#| output: asis
-print_concordance_ref(
-  "RajhradInvB",
-  c(
-    "p. ",
-    p. = "\\d+",
-    ", no. ",
-    no. = "\\d+"
-  )
-)
-```
-
-
-
-## Inventories (modern)
-
-### @Bardos1980
-
-```{r Bardos 1980}
-#| echo: false
-#| output: asis
-print_concordance_ref(
-  "Bardos1980",
-  patterns = c(
-    "p. ",
-    p. = ".+",
-    ", no. ",
-    no. = ".+"
-  )
-)
-```
-
-
-### @Stefan1985
-
-```{r Stefan 1985}
-#| echo: false
-#| output: asis
-print_concordance_ref(
-  "Stefan1985",
-  c(
-    "p. ",
-    p. = ".+",
-    ", no. ",
-    no. = "\\d+"
-  )
-)
+print_concordance("VogIn")
 ```

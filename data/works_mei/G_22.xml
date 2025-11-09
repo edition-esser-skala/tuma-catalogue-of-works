@@ -137,7 +137,7 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@HerzogenburgInvA [p. 429, no. 26.57]</ref>
           </bibl>
           <bibl>

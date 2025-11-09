@@ -104,11 +104,11 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@HerzogenburgInvA [p. 165, no. 7.5]</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@HerzogenburgInvB [fol. 65v, no. 7.5]</ref>
           </bibl>
           <bibl>

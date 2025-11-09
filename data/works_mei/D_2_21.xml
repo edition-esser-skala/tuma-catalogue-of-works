@@ -104,7 +104,7 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@HerzogenburgInvA [p. 297, no. 18.5]</ref>
           </bibl>
           <bibl>

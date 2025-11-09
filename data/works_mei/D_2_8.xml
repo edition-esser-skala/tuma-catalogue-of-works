@@ -84,8 +84,8 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Riedel1979 [p. 332]</ref>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">@Riedel1979 [p. 332, no. 2119]</ref>
           </bibl>
           <bibl>
             <genre>reference</genre>
@@ -96,7 +96,7 @@
             <ref targettype="pandoc-citation">@Eybl2022</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@HerzogenburgInvB [fol. 122r, no. 17.12]</ref>
           </bibl>
         </biblList>

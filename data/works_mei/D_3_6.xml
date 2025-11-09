@@ -57,7 +57,6 @@
           <eventList type="performances">
             <event>
               <date isodate="1777-03-20">1777-03-20</date>
-              <geogName role="venue"/>
               <geogName role="place">G&#xF6;ttweig</geogName>
             </event>
           </eventList>
@@ -65,19 +64,19 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Riedel1979 [p. 410]</ref>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">@Riedel1979 [p. 410, no. 2588]</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@Kiesewetter1847 [p. 84]</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@HerzogenburgInvA [p. 370, no. 23.24]</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@HerzogenburgInvB [fol. 180v, no. 27.24]</ref>
           </bibl>
         </biblList>

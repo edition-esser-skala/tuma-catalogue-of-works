@@ -131,11 +131,11 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@KlosterneuburgInvA [p. 45, no. 1]</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@BrtniceInv [p. 108d, no. 1]</ref>
           </bibl>
           <bibl>
@@ -151,11 +151,11 @@
             <ref targettype="pandoc-citation">@Strakova1965</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Riedel1979 [p. 103]</ref>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">@Riedel1979 [p. 103, no. 629]</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@Haberkamp1986 [p. 207]</ref>
           </bibl>
           <bibl>
@@ -163,8 +163,8 @@
             <ref targettype="pandoc-citation">@Czernin1995</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Sherman2001 [p. 47, 339]</ref>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">@Sherman2001 [{p. 47, no. 4, p. 339, no. 257}]</ref>
           </bibl>
         </biblList>
         <notesStmt>

@@ -56,15 +56,15 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@KlosterneuburgInvA [p. 162, no. 5]</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@KlosterneuburgInvB [p. 538, no. 1]</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@KlosterneuburgInvC [vol. 2, p. 37, no. 4]</ref>
           </bibl>
         </biblList>

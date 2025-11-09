@@ -61,8 +61,8 @@
             <ref targettype="pandoc-citation">@Eybl1996</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Riedel1979 [p. 257]</ref>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">@Riedel1979 [p. 257, no. 1637]</ref>
           </bibl>
           <bibl>
             <genre>reference</genre>
@@ -73,7 +73,7 @@
             <ref targettype="pandoc-citation">@Strakova1965</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@BrtniceInv [p. 111, no. 6]</ref>
           </bibl>
         </biblList>

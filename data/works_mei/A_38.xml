@@ -59,7 +59,7 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@KlosterneuburgInvB [p. 113, no. 7]</ref>
           </bibl>
         </biblList>

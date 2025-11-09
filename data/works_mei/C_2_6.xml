@@ -62,8 +62,8 @@
             <ref targettype="pandoc-citation">@Eybl1996</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Sherman2001 [p. 111]</ref>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">@Sherman2001 [p. 111, no. 1]</ref>
           </bibl>
           <bibl>
             <genre>reference</genre>

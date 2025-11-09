@@ -54,30 +54,37 @@
           <eventList type="performances">
             <event>
               <date isodate="1772-04-02">1772-04-02</date>
+              <geogName role="venue"/>
               <geogName role="place">Seitenstetten</geogName>
             </event>
             <event>
               <date isodate="1773-03-14">1773-03-14</date>
+              <geogName role="venue"/>
               <geogName role="place">Seitenstetten</geogName>
             </event>
             <event>
               <date isodate="1774-02-25">1774-02-25</date>
+              <geogName role="venue"/>
               <geogName role="place">Seitenstetten</geogName>
             </event>
             <event>
               <date isodate="1781-03-10">1781-03-10</date>
+              <geogName role="venue"/>
               <geogName role="place">Seitenstetten</geogName>
             </event>
             <event>
               <date isodate="1782-03-23">1782-03-23</date>
+              <geogName role="venue"/>
               <geogName role="place">Seitenstetten</geogName>
             </event>
             <event>
               <date isodate="1783-03-29">1783-03-29</date>
+              <geogName role="venue"/>
               <geogName role="place">Seitenstetten</geogName>
             </event>
             <event>
               <date isodate="1784-04-03">1784-04-03</date>
+              <geogName role="venue"/>
               <geogName role="place">Seitenstetten</geogName>
             </event>
           </eventList>

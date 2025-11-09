@@ -87,8 +87,8 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Riedel1979 [p. 257]</ref>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">@Riedel1979 [p. 257, no. 1636]</ref>
           </bibl>
         </biblList>
         <notesStmt>

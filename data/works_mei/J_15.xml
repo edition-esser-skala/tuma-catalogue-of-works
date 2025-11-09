@@ -54,16 +54,16 @@
         <biblList>
           <head>Bibliography</head>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@Harich1975 [p. 47, no. D.2]</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@StPeterInv [p. 33, no. 40]</ref>
           </bibl>
           <bibl>
-            <genre>reference</genre>
-            <ref targettype="pandoc-citation">@Sherman2001 [p. 203]</ref>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">@Sherman2001 [p. 203, no. 2]</ref>
           </bibl>
         </biblList>
         <notesStmt>
