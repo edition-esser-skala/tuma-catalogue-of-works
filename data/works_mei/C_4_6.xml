@@ -208,7 +208,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1750">18th century</date>
+          <date isodate="1850">19th century</date>
         </pubStmt>
         <classification>
           <termList>
@@ -224,9 +224,24 @@
           <item>
             <identifier/>
             <physDesc>
-              <titlePage label="[from index card]">
-                <p>Offertorium pro dom. sexagesima &#xE0; C. A. T. B. 2 V. Va. Vne. Org. Fr. Tuma.</p>
+              <titlePage label="[org part, fol. 1r] ">
+                <p>Offertorium | pro. | Dom. Sexagesim&#xE6; | F. Tuma. | Organo.</p>
               </titlePage>
+              <extent>9 parts, 1 full score</extent>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+              </handList>
+              <physMedium>
+                <p>org, full score: 33 x 25.5 cm, hand-ruled paper, 12 staves (7 mm)<lb/>S, A, T, B: 32 x 24.5 cm, hand-ruled paper, 12 staves (10 mm)<lb/>vl 1, vl 2, vla, vlne: 31 x 24 cm, hand-ruled paper, 12 staves (10 mm)</p>
+              </physMedium>
             </physDesc>
             <physLoc>
               <repository>
@@ -234,11 +249,12 @@
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">CZ-Pn</identifier>
               </repository>
-              <identifier>X E 235</identifier>
+              <identifier>X E 235 (1)</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>catalogued according to index card</p>
+                <p>S coro (1), A coro (1), T coro (1), B coro (1), vl 1 (1), vl 2 (1), vla (1), vlne (1), org (5); fragment full score (3)</p>
+                <p>This shelfmark contains two works: <rend fontstyle="italic">Benedictus es, Domine</rend> TumW C.4.5 and <rend fontstyle="italic">Perfice gressus meos</rend> TumW C.4.6.</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -260,7 +276,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1750">18th century</date>
+          <date isodate="1901">1901</date>
         </pubStmt>
         <classification>
           <termList>
@@ -276,61 +292,26 @@
           <item>
             <identifier/>
             <physDesc>
-              <titlePage label="[from index card]">
-                <p>Perfice gressos meos.</p>
+              <titlePage label="[wrapper]">
+                <p>a-mol. | Perfice gressus. | Offertorium | Pro | sopran, alt, tenor, bas, la 2 houste, violu | a varhany | slo&#x17E;. | Fr.&#xA0;T&#x16F;ma | (1704-1774) | O. Horn&#xED;k | 19 2/7 01</p>
               </titlePage>
-            </physDesc>
-            <physLoc>
-              <repository>
-                <corpName role=""/>
-                <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">CZ-Pn</identifier>
-              </repository>
-              <identifier>XLVI A 268</identifier>
-            </physLoc>
-            <notesStmt>
-              <annot type="source_description">
-                <p>catalogued according to index card</p>
-              </annot>
-              <annot type="links">
-                <ptr mimetype=""/>
-              </annot>
-            </notesStmt>
-            <componentList/>
-          </item>
-        </itemList>
-        <componentList/>
-        <relationList>
-          <relation rel="isEmbodimentOf"/>
-        </relationList>
-      </manifestation>
-      <manifestation>
-        <identifier/>
-        <titleStmt>
-          <title>Manuscript copy</title>
-        </titleStmt>
-        <pubStmt>
-          <publisher/>
-          <pubPlace/>
-          <date isodate="1750">18th century</date>
-        </pubStmt>
-        <classification>
-          <termList>
-            <term>Notated music</term>
-            <term>Manuscript</term>
-            <term>Copy</term>
-            <term>Parts</term>
-            <term>Fair copy</term>
-            <term>Complete</term>
-          </termList>
-        </classification>
-        <itemList>
-          <item>
-            <identifier/>
-            <physDesc>
-              <titlePage label="[from index card]">
-                <p>Offertorium Perfice gressos meos</p>
-              </titlePage>
+              <extent>8 parts</extent>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="33" unit="cm">33 (height in cm)</height>
+                <width quantity="25.5" unit="cm">25.5 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">Ond&#x159;ej Horn&#xED;k</hand>
+              </handList>
+              <physMedium>
+                <p>hand-ruled paper, 14 staves (9 mm)</p>
+              </physMedium>
             </physDesc>
             <physLoc>
               <repository>
@@ -342,7 +323,67 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>catalogued according to index card</p>
+                <p>S coro (1), A coro (1), T coro (1), B coro (1), vl 1 (1), vl 2 (1), vla (1), org (1)</p>
+                <p>at end of org part: Zevn&#xED;ho archivu kl&#xE1;stera Premonstr&#xE1;ti r&#xE1;hno na Strahove v Praze</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date isodate="1836">1836</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Score and parts</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier/>
+            <physDesc>
+              <titlePage label="[wrapper]">
+                <p>Perfice gressos meos. | Offertorium in A minore | Dominicis: Sexagesim&#xE6; et 6|t|a post Pentecosten, | a | 4 Vocibus, | 2 Violinis, | Viola, | et | Organo. | Authore Tuma. | Gerlaci Strnischtie [manu propria] | in Strahof. | Tuma: Perfice gressus meos. Stimmen.</p>
+              </titlePage>
+              <extent>1 full score, 10 parts</extent>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">Gerlak Strni&#x161;t&#x11B;</hand>
+              </handList>
+              <physMedium>
+                <p>full score: 20 x 26 cm, hand-ruled paper, 8 staves (9 mm)<lb/>parts: 29.5 x 23 cm, hand-ruled paper, 12 staves (9 mm)</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">CZ-Pn</identifier>
+              </repository>
+              <identifier>XLVI A 268</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>S coro (2), A coro (2), T coro (2), B coro (2), vl 1 (2x; 2, 2), vl 2 (2x; 2, 2), vla (1), org (2); full score (24)</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

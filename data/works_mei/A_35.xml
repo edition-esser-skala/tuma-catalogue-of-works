@@ -1076,8 +1076,7 @@
             <notesStmt>
               <annot type="source_description">
                 <p>T solo (1), S solo and coro (5), A solo and coro (6), T solo and coro (6), B solo and coro (5), trb 1 (3), trb 2 (3), vl 1 (8), vl 2 (7), vla 1/2 (6), org (7)</p>
-                <p>T solo part only comprises <rend fontstyle="italic">Benedictus</rend>
-                                </p>
+                <p>T solo part only comprises <rend fontstyle="italic">Benedictus</rend></p>
                 <p>at end of trb 1 part: Anton Matias | scrip.<lb/>at end of trb 2 part: Mathias Anton | scrip.<lb/>at end of vl 2 part: Lang Franz | descripsit | III. a.[?] 1860<lb/>at end of vla 1/2 part: Lang Franz | 860 III a[?]<lb/>at end of A part: J. Krizkow&#x17F;k&#xFD; 1860 | ge&#x17F;chrieben u revid.<lb/>at end of B part: Beschel.<lb/>at end of org part: Lang Franz | III. G. [?] | scripsit | 1860</p>
                 <p>collection: 8 (Brno &#x2013; kl&#xE1;&#x161;ter augustini&#xE1;n&#x16F;)</p>
               </annot>
@@ -1229,14 +1228,14 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1750">mid 18th century</date>
+          <date isodate="1904">1904</date>
         </pubStmt>
         <classification>
           <termList>
             <term>Notated music</term>
             <term>Manuscript</term>
             <term>Copy</term>
-            <term>Parts</term>
+            <term>Score</term>
             <term>Fair copy</term>
             <term>Excerpt</term>
           </termList>
@@ -1245,12 +1244,30 @@
           <item>
             <identifier/>
             <physDesc>
-              <titlePage>
-                <p>Benedictus aus der Fastenmesse von Franz Tuma (Pro dva tenory a smy&#x10D;ce n&#xE1;stroje)</p>
+              <titlePage label="[wrapper, by Horn&#xED;k]">
+                <p>C-dur. | Z postui m&#x161;e. | Benedictus | Pro | solov&#xFD; tenor, la 2 housle, violu, (cello, bassu) | a varhany | slo&#x17E; | Fr.&#xA0;T&#x16F;ma. | (1704-1774) | O Horn&#xED;k | 1904.</p>
               </titlePage>
+              <titlePage label="[full score. fol. 1r, by unidentified hand]">
+                <p>Benedictus | aus der Fastenmesse | von | Franz Tuma | [by Horn&#xED;k:] Z. Bud&#x11B;jovic 1904 O Horn&#xED;k</p>
+              </titlePage>
+              <extent>6 p.</extent>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="33" unit="cm">33 (height in cm)</height>
+                <width quantity="25.5" unit="cm">25.5 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <dimensions/>
               <handList>
-                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="title">Ond&#x159;ej Horn&#xED;k</hand>
               </handList>
+              <physMedium>
+                <p>hand-ruled paper, 12 staves (9 mm)</p>
+              </physMedium>
             </physDesc>
             <physLoc>
               <repository>
@@ -1262,9 +1279,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>comprises only <rend fontstyle="italic">Benedictus</rend>
-                                </p>
-                <p>catalogued according to index card</p>
+                <p>comprises only <rend fontstyle="italic">Benedictus</rend></p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

@@ -1474,7 +1474,7 @@
             <term>Notated music</term>
             <term>Manuscript</term>
             <term>Copy</term>
-            <term>Parts</term>
+            <term>Score</term>
             <term>Fair copy</term>
             <term>Complete</term>
           </termList>
@@ -1486,15 +1486,22 @@
                 <locusGrp>
                   <locus/>
                 </locusGrp>
+                <height quantity="33" unit="cm">33 (height in cm)</height>
+                <width quantity="25" unit="cm">25 (height in cm)</width>
                 <term/>
                 <extent> lines</extent>
               </dimensions>
-              <extent>20 parts</extent>
+              <titlePage label="[wrapper]">
+                <p>M&#x161;e e-mol. | Pro | sopran, alt, tenor, bas, la 2 housle, la 2 | trombon a varhany | slo&#x17E; | Fr.&#xA0;T&#x16F;ma. | (1704-1774). | O.&#xA0;Horn&#xED;k | 19 10/1 02</p>
+              </titlePage>
+              <extent>20 p.</extent>
               <dimensions/>
               <handList>
-                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">Ond&#x159;ej Horn&#xED;k</hand>
               </handList>
-              <physMedium/>
+              <physMedium>
+                <p>hand-ruled paper, 20 staves (6 mm)</p>
+              </physMedium>
             </physDesc>
             <physLoc>
               <repository>
@@ -1505,11 +1512,11 @@
               <identifier>XVI C 63</identifier>
             </physLoc>
             <notesStmt>
-              <annot type="source_description">
-                <p>catalogued according to index card</p>
-              </annot>
               <annot type="links">
                 <ptr mimetype=""/>
+              </annot>
+              <annot type="source_description">
+                <p>at end of score: <rend fontstyle="italic">Ops&#xE1;no z cenn&#xED;ho archivu Kl&#xE1;stera K&#x159;izovnick&#xE9;ho | u sv. Franti&#x161;ka u Kamcn mostu v Praze</rend></p>
               </annot>
             </notesStmt>
             <componentList/>

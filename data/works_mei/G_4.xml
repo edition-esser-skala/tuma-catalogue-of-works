@@ -635,20 +635,20 @@
                   <locus/>
                 </locusGrp>
                 <height quantity="35" unit="cm">35 (height in cm)</height>
-                <width quantity="22" unit="cm">22 (height in cm)</width>
+                <width quantity="23" unit="cm">23 (width in cm)</width>
                 <term/>
                 <extent> lines</extent>
               </dimensions>
               <titlePage label="[wrapper]">
-                <p>LYTANIAE | LAURETANAE | &#xE1; | Canto, Alto, Tenore, Basso | Violinis duobus | Violone et Organo. | AUthore Francisco Tuma.</p>
+                <p>Lytani&#xE6; | Lauretan&#xE6; | &#xE0; | Canto, Alto, Tenore, Ba&#x17F;so | Violinis duobus | Violone et Organo. | Authore Francisco Tuma. | Num: 8v&#xF4; [incipit] | Procuravit pro Choro | O&#x17F;secensi P. Nivardus | Sommer ibidem prof: | A: 1751.</p>
               </titlePage>
               <extent>8 parts</extent>
               <dimensions/>
               <handList>
-                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
               </handList>
               <physMedium>
-                <p>hand-ruled paper</p>
+                <p>hand-ruled paper, 12 staves (10 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -661,8 +661,8 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>S solo and coro, A solo and coro, T solo and coro, B solo and coro, vl 1, vl 2, vlne, org</p>
-                <p>catalogued according to index card</p>
+                <p>S solo and coro (2), A solo and coro (2), T solo and coro (2), B solo and coro (2), vl 1 (3), vl 2 (2), vlne (3), org (4)</p>
+                <p>org transposed to F minor</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
