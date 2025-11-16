@@ -166,6 +166,14 @@
             <genre>inventory</genre>
             <ref targettype="pandoc-citation">@Sherman2001 [{p. 47, no. 4, p. 339, no. 257}]</ref>
           </bibl>
+          <bibl>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">HerzogenburgInvA [p. 25, no. 49]</ref>
+          </bibl>
+          <bibl>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">HerzogenburgInvB [fol. 8r, no. 59]</ref>
+          </bibl>
         </biblList>
         <notesStmt>
           <annot type="links">
@@ -1964,46 +1972,6 @@
                 <ptr mimetype=""/>
               </annot>
             </notesStmt>
-            <componentList/>
-          </item>
-        </itemList>
-        <componentList/>
-        <relationList>
-          <relation rel="isEmbodimentOf"/>
-        </relationList>
-      </manifestation>
-      <manifestation>
-        <identifier/>
-        <titleStmt>
-          <title>Lost manuscript</title>
-        </titleStmt>
-        <pubStmt>
-          <publisher/>
-          <pubPlace/>
-          <date isodate="1750">mid 18th century</date>
-        </pubStmt>
-        <classification>
-          <termList>
-            <term>Notated music</term>
-            <term>Manuscript</term>
-            <term>Copy</term>
-            <term>Parts</term>
-            <term>Fair copy</term>
-            <term>Lost</term>
-          </termList>
-        </classification>
-        <itemList>
-          <item>
-            <identifier/>
-            <physDesc/>
-            <physLoc>
-              <repository>
-                <corpName role=""/>
-                <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">A-H</identifier>
-              </repository>
-              <identifier>A.1.49, B.1.59</identifier>
-            </physLoc>
             <componentList/>
           </item>
         </itemList>

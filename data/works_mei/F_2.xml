@@ -111,6 +111,14 @@
             <genre>edition</genre>
             <ref targettype="pandoc-citation">@Plavec1959</ref>
           </bibl>
+          <bibl>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">HerzogenburgInvA [p. 381, no. 11]</ref>
+          </bibl>
+          <bibl>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">HerzogenburgInvB [fol. 187v, no. 11]</ref>
+          </bibl>
         </biblList>
         <classification>
           <termList>
@@ -1743,41 +1751,6 @@
                 <ptr mimetype=""/>
               </annot>
             </notesStmt>
-            <componentList/>
-          </item>
-        </itemList>
-        <componentList/>
-        <relationList>
-          <relation rel="isEmbodimentOf"/>
-        </relationList>
-      </manifestation>
-      <manifestation>
-        <identifier/>
-        <titleStmt>
-          <title>Lost manuscript</title>
-        </titleStmt>
-        <classification>
-          <termList>
-            <term>Notated music</term>
-            <term>Manuscript</term>
-            <term>Copy</term>
-            <term>Parts</term>
-            <term>Fair copy</term>
-            <term>Lost</term>
-          </termList>
-        </classification>
-        <itemList>
-          <item>
-            <identifier/>
-            <physDesc/>
-            <physLoc>
-              <repository>
-                <corpName role=""/>
-                <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">A-H</identifier>
-              </repository>
-              <identifier>A.24.11, B.28.11</identifier>
-            </physLoc>
             <componentList/>
           </item>
         </itemList>

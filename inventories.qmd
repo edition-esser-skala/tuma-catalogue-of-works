@@ -95,62 +95,79 @@ print_inventory(
 
 ```{r A-H setup}
 #| echo: false
-
-works <-
-  read_rds("data_generated/works.rds") %>% 
-  unnest(sources, names_sep = "_") %>% 
-  filter(str_starts(sources_source, "A-H ")) %>%
-  left_join(
-    read_csv("data/catalogue_overview.csv") %>% distinct(group, file),
-    by = "group"
+inv_a <-
+  print_inventory(
+    "HerzogenburgInvA",
+    pattern = "p. (\\w+), no. (\\w+)",
+    cols = c("p.", "no."),
+    return_tibble = TRUE
   ) %>%
-  unite(group:number, col = "TumW", sep = ".", na.rm = TRUE) %>%
-  select(number = sources_source, TumW, file) %>%
-  mutate(number = str_replace(number, "A-H ", "")) %>%
-  separate_longer_delim(number, ", ")
+  summarise(
+    .by = c(p., no.),
+    id = str_flatten_comma(id)
+  )
+
+inv_b <-
+  print_inventory(
+    "HerzogenburgInvB",
+    pattern = "fol. (\\w+), no. (\\w+)",
+    cols = c("fol.", "no."),
+    return_tibble = TRUE
+  ) %>%
+  summarise(
+    .by = c(fol., no.),
+    id = str_flatten_comma(id)
+  )
+
+works_herzogenburg <- read_csv("data/inventory_herzogenburg_works.csv")
+
+# all citations of inventory A in work table are in inventory table
+stopifnot(
+  anti_join(
+    inv_a,
+    works_herzogenburg,
+    by = join_by(p. == page_1751, no. == number_1751)
+  ) %>%
+    nrow == 0L
+)
+
+# all citations of inventory B in work table are in inventory table
+stopifnot(
+  anti_join(
+    inv_b,
+    works_herzogenburg,
+    by = join_by(fol. == folio_1774, no. == number_1774)
+  ) %>%
+    nrow == 0L
+)
 
 table_data <-
-  read_csv("data/inventory_herzogenburg_works.csv") %>% 
-  mutate(
-    inv_a = str_glue("A.{section_1751}.{number_1751}"),
-    inv_b = str_glue("B.{section_1774}.{number_1774}")
-  ) %>%
-  separate_longer_delim(shelfmark, delim = " | ") %>% 
+  works_herzogenburg %>%
   left_join(
-    works %>% select(inv_a = number, TumW_a = TumW),
-    by = "inv_a"
+    inv_a,
+    by = join_by(page_1751 == p., number_1751 == no.)
   ) %>%
   left_join(
-    works %>% select(inv_b = number, TumW_b = TumW),
-    by = "inv_b"
-  ) %>%
-  left_join(
-    works %>% select(shelfmark = number, TumW_s = TumW),
-    by = "shelfmark"
+    inv_b,
+    by = join_by(folio_1774 == fol., number_1774 == no.),
+    suffix = c("_1751", "_1774")
   ) %>%
   rowwise() %>%
   mutate(
     is_error = any(
-      !is.na(shelfmark) &
-        is.na(TumW_s),
       is.na(shelfmark) &
         !is.na(section_1751) &
-        is.na(TumW_a),
+        is.na(id_1751),
       is.na(shelfmark) &
         !is.na(section_1774) &
-        is.na(TumW_b),
+        is.na(id_1774),
       is.na(shelfmark) &
         !is.na(section_1751) &
         !is.na(section_1774) &
-        TumW_a != TumW_b
+        id_1751 != id_1774
     )
   ) %>%
-  mutate(TumW = coalesce(TumW_s, TumW_a, TumW_b)) %>%
-  left_join(
-    works %>% distinct(TumW, file),
-    by = "TumW"
-  ) %>%
-  mutate(TumW = str_glue("[{TumW}](/groups/{file}.html#work-{TumW})"))
+  mutate(TumW = coalesce(id_1751, id_1774))
 
 if (any(table_data$is_error)) {
   print(table_data %>% filter(is_error))
@@ -176,24 +193,26 @@ n_works_extant <-
   nrow()
 ```
 
-The two historic inventories of Stift Herzogenburg [@HerzogenburgInvA; @HerzogenburgInvB] contain `{r} n_works_1751` and `{r} n_works_1774` entries describing Tůma's works, respectively. However, only `{r} n_works_extant` works are extant.
+The two historic inventories of Stift Herzogenburg [@HerzogenburgInvA; @HerzogenburgInvB] contain `{r} n_works_1751` and `{r} n_works_1774` entries describing Tůma's works, respectively. However, only `{r} n_works_extant` shelfmarks are extant.
 
 ```{r A-H inventories}
 #| echo: false
 #| output: asis
 
 table_data %>% 
-  select(!c(inv_a:TumW_s, is_error, file)) %>%
+  select(!id_1751:is_error) %>%
+  relocate(TumW, .after = shelfmark) %>% 
   gt() %>%
-  tab_spanner("inventory 1751 (A)", columns = ends_with("1751")) %>% 
-  tab_spanner("inventory 1774 (B)", columns = ends_with("1774")) %>% 
+  tab_spanner("inventory 1751 (A)", columns = ends_with("1751")) %>%
+  tab_spanner("inventory 1774 (B)", columns = ends_with("1774")) %>%
   cols_label(
     starts_with("section") ~ "section",
     starts_with("page") ~ "p.",
+    starts_with("folio") ~ "fol.",
     starts_with("number") ~ "no."
   ) %>%
-  cols_align("right") %>% 
-  fmt_markdown(columns = TumW) %>% 
+  cols_align("right", section_1751:shelfmark) %>%
+  fmt_markdown(columns = TumW) %>%
   sub_missing(missing_text = "") %>%
   tab_options(
     column_labels.font.weight = "bold",

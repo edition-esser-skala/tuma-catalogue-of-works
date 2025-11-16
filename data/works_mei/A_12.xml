@@ -77,6 +77,14 @@
             <genre>edition</genre>
             <ref targettype="pandoc-citation">Schmid1900a [no. 7, 8]</ref>
           </bibl>
+          <bibl>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">HerzogenburgInvA [p. 100a, no. 143]</ref>
+          </bibl>
+          <bibl>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">HerzogenburgInvB [fol. 43r, no. 143]</ref>
+          </bibl>
         </biblList>
         <notesStmt>
           <annot type="links">
@@ -950,7 +958,7 @@
               <extent>27 p.</extent>
               <dimensions/>
               <handList>
-                <hand medium="black ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
               </handList>
               <physMedium>
                 <p>printed staff paper (C. A. KLEMM. | A. N&#xB0; 6), 20 staves (6 mm)</p>
@@ -968,54 +976,6 @@
             <notesStmt>
               <annot type="source_description">
                 <p>from the collection of Otto Schmid</p>
-              </annot>
-              <annot type="links">
-                <ptr mimetype=""/>
-              </annot>
-            </notesStmt>
-            <componentList/>
-          </item>
-        </itemList>
-        <componentList/>
-        <relationList>
-          <relation rel="isEmbodimentOf"/>
-        </relationList>
-      </manifestation>
-      <manifestation>
-        <identifier/>
-        <titleStmt>
-          <title>Lost manuscript</title>
-        </titleStmt>
-        <pubStmt>
-          <publisher/>
-          <pubPlace/>
-          <date isodate="1750">18th century</date>
-        </pubStmt>
-        <classification>
-          <termList>
-            <term>Notated music</term>
-            <term>Manuscript</term>
-            <term>Copy</term>
-            <term>Parts</term>
-            <term>Fair copy</term>
-            <term>Lost</term>
-          </termList>
-        </classification>
-        <itemList>
-          <item>
-            <identifier/>
-            <physDesc/>
-            <physLoc>
-              <repository>
-                <corpName role=""/>
-                <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">A-H</identifier>
-              </repository>
-              <identifier>A.2.143, B.2.143</identifier>
-            </physLoc>
-            <notesStmt>
-              <annot type="source_description">
-                <p>The page containing the description of this work is missing in @HerzogenburgInvA (between p. 100 and 101).</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

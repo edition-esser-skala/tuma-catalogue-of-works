@@ -62,6 +62,14 @@
             <genre>inventory</genre>
             <ref targettype="pandoc-citation">@KlosterneuburgInvB [p. 113, no. 7]</ref>
           </bibl>
+          <bibl>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">HerzogenburgInvA [p. 60, no. 185]</ref>
+          </bibl>
+          <bibl>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">HerzogenburgInvB [fol. 23v, no. 180]</ref>
+          </bibl>
         </biblList>
         <classification>
           <termList>
@@ -1147,54 +1155,6 @@
                 <p>S solo and coro (14), A solo and coro (12), T solo and coro (13), B solo and coro (13), S coro (2x; 8, 8), A coro (2x; 8, 8), T coro (8), B coro (8), fl (2), clno 1 (4), clno 2 (4), trb 1 (7), trb 2 (6), vl 1 (2x; 20, 20), vl 2 (2x; 18, 18), vlc (15)</p>
                 <p>one S and A part by unidentified hand, remaining parts by Leysser</p>
                 <p>In the <rend fontstyle="italic">Inventar B</rend>, the title of the mass is spelled &#x201C;MI&#x17F;sa noVa sanC- | to BerthoLDo sa- | Cra&#x201D;. The sum of the uppercase Roman numerals is M+I+V+C+L+D+C = 1756, which may be the year of composition or copying.</p>
-              </annot>
-              <annot type="links">
-                <ptr mimetype=""/>
-              </annot>
-            </notesStmt>
-            <componentList/>
-          </item>
-        </itemList>
-        <componentList/>
-        <relationList>
-          <relation rel="isEmbodimentOf"/>
-        </relationList>
-      </manifestation>
-      <manifestation>
-        <identifier/>
-        <titleStmt>
-          <title>Lost manuscript</title>
-        </titleStmt>
-        <pubStmt>
-          <publisher/>
-          <pubPlace/>
-          <date isodate="1750">18th century</date>
-        </pubStmt>
-        <classification>
-          <termList>
-            <term>Notated music</term>
-            <term>Manuscript</term>
-            <term>Copy</term>
-            <term>Parts</term>
-            <term>Fair copy</term>
-            <term>Lost</term>
-          </termList>
-        </classification>
-        <itemList>
-          <item>
-            <identifier/>
-            <physDesc/>
-            <physLoc>
-              <repository>
-                <corpName role=""/>
-                <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">A-H</identifier>
-              </repository>
-              <identifier>A.1.185, B.1.180</identifier>
-            </physLoc>
-            <notesStmt>
-              <annot type="source_description">
-                <p>denoted &#x201C;Missa Bernardi&#x201D; in both inventories</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

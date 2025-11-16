@@ -59,6 +59,14 @@
             <genre>inventory</genre>
             <ref targettype="pandoc-citation">@Riedel1979 [p. 282, no. 1785]</ref>
           </bibl>
+          <bibl>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">HerzogenburgInvA [p. 381, no. 10]</ref>
+          </bibl>
+          <bibl>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">HerzogenburgInvB [fol. 187v, no. 10]</ref>
+          </bibl>
         </biblList>
         <classification>
           <termList>
@@ -564,7 +572,7 @@
               <extent>25 parts</extent>
               <dimensions/>
               <handList>
-                <hand medium="brown ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
               </handList>
               <physMedium>
                 <p>two sets of parts:<lb/>(1) 16 parts, hand-ruled paper, 30 x 22 cm, 10 staves (12 mm)<lb/>(2) 9 parts, hand-ruled paper, 28.5 x 22.5 cm, 10 staves (10 mm)</p>
@@ -587,41 +595,6 @@
                 <ptr mimetype=""/>
               </annot>
             </notesStmt>
-            <componentList/>
-          </item>
-        </itemList>
-        <componentList/>
-        <relationList>
-          <relation rel="isEmbodimentOf"/>
-        </relationList>
-      </manifestation>
-      <manifestation>
-        <identifier/>
-        <titleStmt>
-          <title>Lost manuscript</title>
-        </titleStmt>
-        <classification>
-          <termList>
-            <term>Notated music</term>
-            <term>Manuscript</term>
-            <term>Copy</term>
-            <term>Parts</term>
-            <term>Fair copy</term>
-            <term>Lost</term>
-          </termList>
-        </classification>
-        <itemList>
-          <item>
-            <identifier/>
-            <physDesc/>
-            <physLoc>
-              <repository>
-                <corpName role=""/>
-                <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">A-H</identifier>
-              </repository>
-              <identifier>A.24.10, B.28.10</identifier>
-            </physLoc>
             <componentList/>
           </item>
         </itemList>

@@ -55,11 +55,11 @@
           <head>Bibliography</head>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">@HerzogenburgInvA [p. 430, no. 26.61]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvA [p. 430, no. 61]</ref>
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">@HerzogenburgInvB [fol. 205r, no. 30.55]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvB [fol. 205r, no. 55]</ref>
           </bibl>
         </biblList>
         <classification>
