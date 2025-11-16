@@ -452,7 +452,7 @@ n_works_extant <-
   nrow()
 ```
 
-The historic inventories of Stift Klosterneuburg [@KlosterneuburgInvA; @KlosterneuburgInvB; KlosterneuburgInvC; KlosterneuburgInvE] contain `{r} n_works_a`, `{r} n_works_b`, `{r} n_works_c`, and `{r} n_works_e` entries describing Tůma's works, respectively. However, only `{r} n_works_extant` shelfmarks are extant.
+The historic inventories of Stift Klosterneuburg [@KlosterneuburgInvA; @KlosterneuburgInvB; @KlosterneuburgInvC; @KlosterneuburgInvE] contain `{r} n_works_a`, `{r} n_works_b`, `{r} n_works_c`, and `{r} n_works_e` entries describing Tůma's works, respectively. However, only `{r} n_works_extant` shelfmarks are extant.
 
 ```{r A-KN table}
 #| echo: false
