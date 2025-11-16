@@ -260,81 +260,165 @@ read_csv("data/inventory_herzogenburg_1774.csv") %>%
 
 ```{r A-KN setup}
 #| echo: false
+inv_a <-
+  print_inventory(
+    "KlosterneuburgInvA",
+    pattern = "p. (\\w+), no. (\\w+)",
+    cols = c("p.", "no."),
+    return_tibble = TRUE
+  ) %>%
+  summarise(
+    .by = c(p., no.),
+    id = str_flatten_comma(id)
+  )
 
-works <-
-  read_rds("data_generated/works.rds") %>% 
-  unnest(sources, names_sep = "_") %>% 
+inv_b <-
+  print_inventory(
+    "KlosterneuburgInvB",
+    pattern = "p. (\\w+), no. (\\w+)",
+    cols = c("p.", "no."),
+    return_tibble = TRUE
+  ) %>%
+  summarise(
+    .by = c(p., no.),
+    id = str_flatten_comma(id)
+  )
+
+inv_c <-
+  print_inventory(
+    "KlosterneuburgInvC",
+    pattern = "vol. (\\w+), p. (\\w+), no. (\\w+)",
+    cols = c("vol.", "p.", "no."),
+    return_tibble = TRUE
+  ) %>%
+  summarise(
+    .by = c(vol., p., no.),
+    id = str_flatten_comma(id)
+  )
+
+inv_e <-
+  print_inventory(
+    "KlosterneuburgInvE",
+    pattern = "p. (\\w+), no. (\\w+)",
+    cols = c("p.", "no."),
+    return_tibble = TRUE
+  ) %>%
+  summarise(
+    .by = c(p., no.),
+    id = str_flatten_comma(id)
+  )
+
+shelfmarks <- 
+  read_rds("data_generated/works.rds") %>%
+  unnest(sources, names_sep = "_") %>%
   filter(str_starts(sources_source, "A-KN ")) %>%
   left_join(
     read_csv("data/catalogue_overview.csv") %>% distinct(group, file),
     by = "group"
   ) %>%
-  unite(group:number, col = "TumW", sep = ".", na.rm = TRUE) %>%
-  select(number = sources_source, TumW, file) %>%
-  mutate(number = str_replace(number, "A-KN ", "")) %>%
-  separate_longer_delim(number, ", ")
+  unite(group:number, col = "id", sep = ".", na.rm = TRUE) %>%
+  mutate(id = str_glue("[{id}](/groups/{file}.html#work-{id})")) %>% 
+  select(shelfmark = sources_source, id) %>%
+  mutate(shelfmark = str_replace(shelfmark, "A-KN ", ""))
+
+works_klosterneuburg <- read_csv("data/inventory_klosterneuburg.csv")
+
+# all citations of inventory A in work table are in inventory table
+stopifnot(
+  anti_join(
+    inv_a,
+    works_klosterneuburg,
+    by = join_by(p. == page_a, no. == number_a)
+  ) %>%
+    nrow == 0L
+)
+
+# all citations of inventory B in work table are in inventory table
+stopifnot(
+  anti_join(
+    inv_b,
+    works_klosterneuburg,
+    by = join_by(p. == page_b, no. == number_b)
+  ) %>%
+    nrow == 0L
+)
+
+# all citations of inventory C in work table are in inventory table
+stopifnot(
+  anti_join(
+    inv_c,
+    works_klosterneuburg,
+    by = join_by(vol. == volume_c, p. == page_c, no. == number_c)
+  ) %>%
+    nrow == 0L
+)
+
+# all citations of inventory E in work table are in inventory table
+stopifnot(
+  anti_join(
+    inv_e,
+    works_klosterneuburg,
+    by = join_by(p. == page_e, no. == number_e)
+  ) %>%
+    nrow == 0L
+)
+
+# all extant shelfmarks are in inventory table
+stopifnot(
+  anti_join(
+    shelfmarks,
+    works_klosterneuburg,
+    by = "shelfmark"
+  ) %>%
+    nrow == 0L
+)
 
 table_data <-
-  read_csv("data/inventory_klosterneuburg.csv") %>% 
-  mutate(
-    inv_a = str_glue("A.{page_a}.{number_a}"),
-    inv_b = str_glue("B.{page_b}.{number_b}"),
-    inv_c = str_glue("C{volume_c}.{page_c}.{number_c}"),
-    inv_e = str_glue("E.{page_e}.{number_e}")
-  ) %>% 
-  separate_longer_delim(shelfmark, delim = " | ") %>% 
+  works_klosterneuburg %>%
   left_join(
-    works %>% select(inv_a = number, TumW_a = TumW),
-    by = "inv_a"
+    inv_a %>% rename(id_a = id),
+    by = join_by(page_a == p., number_a == no.)
   ) %>%
   left_join(
-    works %>% select(inv_b = number, TumW_b = TumW),
-    by = "inv_b"
+    inv_b %>% rename(id_b = id),
+    by = join_by(page_b == p., number_b == no.)
   ) %>%
   left_join(
-    works %>% select(inv_c = number, TumW_c = TumW),
-    by = "inv_c"
+    inv_c %>% rename(id_c = id),
+    by = join_by(volume_c == vol., page_c == p., number_c == no.)
   ) %>%
   left_join(
-    works %>% select(inv_e = number, TumW_e = TumW),
-    by = "inv_e"
+    inv_e %>% rename(id_e = id),
+    by = join_by(page_e == p., number_e == no.)
   ) %>%
   left_join(
-    works %>% select(shelfmark = number, TumW_s = TumW),
+    shelfmarks %>% rename(id_s = id),
     by = "shelfmark"
-  ) %>% 
+  ) %>%
   rowwise() %>%
   mutate(
-    is_error_a = any(
+    is_error = any(
       !is.na(shelfmark) &
-        is.na(TumW_s),
+        is.na(id_s),
       is.na(shelfmark) &
         !is.na(page_a) &
-        is.na(TumW_a),
+        is.na(id_a),
       is.na(shelfmark) &
         !is.na(page_b) &
-        is.na(TumW_b),
+        is.na(id_b),
       is.na(shelfmark) &
         !is.na(page_c) &
-        is.na(TumW_c),
+        is.na(id_c),
       is.na(shelfmark) &
         !is.na(page_e) &
-        is.na(TumW_e)
-    ),
-    is_error_b = n_distinct(c(TumW_s, TumW_a, TumW_b,
-                              TumW_c, TumW_e), na.rm = TRUE) != 1,
-    is_error = is_error_a | is_error_b,
-    TumW = coalesce(TumW_s, TumW_a, TumW_b, TumW_c, TumW_e)
+        is.na(id_e)
+    )
   ) %>%
-  left_join(
-    works %>% distinct(TumW, file),
-    by = "TumW"
-  ) %>%
-  mutate(TumW = str_glue("[{TumW}](/groups/{file}.html#work-{TumW})"))
+  mutate(TumW = coalesce(id_a, id_b, id_c, id_e, id_s))
 
 if (any(table_data$is_error)) {
   print(table_data %>% filter(is_error))
-  error("Problems found in A-KN inventory")
+  error("Problems found in A-H inventory")
 }
 
 n_works_a <- 
@@ -368,14 +452,14 @@ n_works_extant <-
   nrow()
 ```
 
-The historic inventories of Stift Klosterneuburg [@KlosterneuburgInvA; @KlosterneuburgInvB; KlosterneuburgInvC; KlosterneuburgInvE] contain `{r} n_works_a`, `{r} n_works_b`, `{r} n_works_c`, and `{r} n_works_e` entries describing Tůma's works, respectively. However, only `{r} n_works_extant` works are extant.
+The historic inventories of Stift Klosterneuburg [@KlosterneuburgInvA; @KlosterneuburgInvB; KlosterneuburgInvC; KlosterneuburgInvE] contain `{r} n_works_a`, `{r} n_works_b`, `{r} n_works_c`, and `{r} n_works_e` entries describing Tůma's works, respectively. However, only `{r} n_works_extant` shelfmarks are extant.
 
 ```{r A-KN table}
 #| echo: false
 #| output: asis
 
 table_data %>% 
-  select(!c(inv_a:TumW_s, contains("is_error"), file)) %>%
+  select(!id_a:is_error) %>%
   gt() %>%
   tab_spanner("inventory A", columns = ends_with("_a")) %>% 
   tab_spanner("inventory B", columns = ends_with("_b")) %>% 
@@ -386,7 +470,7 @@ table_data %>%
     starts_with("page") ~ "p.",
     starts_with("number") ~ "no."
   ) %>%
-  cols_align("right") %>% 
+  cols_align("right", !TumW) %>% 
   fmt_markdown(columns = TumW) %>% 
   sub_missing(missing_text = "") %>%
   tab_options(
