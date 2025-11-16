@@ -310,23 +310,25 @@
           <item>
             <identifier/>
             <physDesc>
-              <titlePage label="[org part]">
-                <p>Franz [?] 746 | Sinfonia &#xE0;3 | Violino Primo. | Violino Secondo. | con | Basso. &#xE8; Violone. | Del Sig:re Fran:co: Thuma.</p>
+              <titlePage label="[wrapper]">
+                <p>Sinfonia &#xE0; 3 | Violino Primo. | Violino Secondo. | Con | Ba&#x17F;so.&#xA0;&#xEA; Violone. | Del Sig:|r Fran.co: Thuma. | C. M. | 1827</p>
               </titlePage>
               <extent>4 parts</extent>
               <dimensions>
                 <locusGrp>
                   <locus/>
                 </locusGrp>
+                <height quantity="32" unit="cm">32 (height in cm)</height>
+                <width quantity="21.5" unit="cm">21.5 (height in cm)</width>
                 <term/>
                 <extent> lines</extent>
               </dimensions>
               <dimensions/>
               <handList>
-                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
               </handList>
               <physMedium>
-                <p>hand-ruled paper</p>
+                <p>hand-ruled paper, 10 staves (11 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -339,8 +341,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>vl 1, vl 2, vlne, org</p>
-                <p>catalogued according to @Freeman1992</p>
+                <p>vl 1 (2), vl 2 (2), vlne (2), org (3)</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

@@ -785,9 +785,25 @@
           <item>
             <physDesc>
               <extent>8 parts</extent>
+              <titlePage label="[wrapper]">
+                <p>I. N11. | Thuma. | Missa | ord. tutti. | 4 Voci | 2 Tromboni | Organo | Violone</p>
+              </titlePage>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="34" unit="cm">34 (height in cm)</height>
+                <width quantity="22" unit="cm">22 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <dimensions/>
               <handList>
-                <hand medium="ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
               </handList>
+              <physMedium>
+                <p>hand-ruled paper, 12 staves (10 mm)</p>
+              </physMedium>
             </physDesc>
             <physLoc>
               <repository>
@@ -799,8 +815,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>S coro, A coro, T coro, B coro, trb 1, trb 2, vlne, org</p>
-                <p>catalogued according to @Freeman1992</p>
+                <p>S coro (4), A coro (4), T coro (4), B coro (4), trb 1 (4), trb 2 (4), vlne (4), org (4)</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
