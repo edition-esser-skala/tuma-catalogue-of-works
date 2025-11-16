@@ -390,6 +390,19 @@ print_inventory(
 ```
 
 
+### @OsekInv
+
+```{r Melk}
+#| echo: false
+#| output: asis
+print_inventory(
+  "OsekInv",
+  pattern = "fol. (\\w+), no. (\\w+)",
+  cols = c("fol.", "no.")
+)
+```
+
+
 ### @RajhradInvA
 
 ```{r Rajhrad A}
