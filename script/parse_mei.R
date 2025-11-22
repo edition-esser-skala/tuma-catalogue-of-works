@@ -826,11 +826,15 @@ format_section <- function(s) {
   if (!is.null(incipit_file))
     error("Section must not have an incipit {incipit_file}")
 
+  extent_formatted <-
+    extent %>%
+    str_extract("\\d+") %>%
+    as.integer()
+  if (is.na(extent_formatted))
+    extent_formatted <- extent
+
   tibble_row(
-    extent =
-      extent %>%
-      str_extract("\\d+") %>%
-      as.integer(),
+    extent = extent_formatted,
     scoring =
       scoring$scoring,
     markdown =
