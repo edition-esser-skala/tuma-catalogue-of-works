@@ -328,6 +328,10 @@ format_mei_text <- function(xml_data) {
 
 # format the time signature with common/cut time symbols or fraction
 format_meter <- function(m) {
+  meter <- pluck(m, 1)
+  if (!is.null(meter))
+    return(meter)
+
   meter <- attr(m, "sym")
   if (is.null(meter))
     meter <- paste(attr(m, "count"), attr(m, "unit"), sep = "_")
@@ -344,6 +348,15 @@ format_meter <- function(m) {
 
 # format the key signature
 format_key <- function(k) {
+  key <- attr(k, "pname")
+  if (is.null(key)) {
+    key <- pluck(k, 1)
+    if (is.null(key))
+      error("Key missing")
+    else
+      return(key)
+  }
+
   accidentals <- c(
     n = "",
     f = "♭",
@@ -352,7 +365,7 @@ format_key <- function(k) {
   a <- attr(k, "accid") %||% "n"
 
   paste0(
-    attr(k, "pname") %>% str_to_upper(),
+    str_to_upper(key),
     accidentals[a],
     " ",
     attr(k, "mode")
@@ -871,11 +884,14 @@ format_movement <- function(m, work_id) {
   if (nrow(sections) > 0) {
     # ensure that number of bars in sections
     # sums up to number of bars in movement
-    movement_extent <- str_extract(extent, "\\d+") %>% as.integer()
-    section_extent <- sum(sections$extent)
-    if (movement_extent != section_extent)
-      error("    sum of section extent ({section_extent}) ",
-            "must be equal to movement extent ({movement_extent})")
+    # skip if extent is unknown
+    if (extent != "[?]") {
+      movement_extent <- str_extract(extent, "\\d+") %>% as.integer()
+      section_extent <- sum(sections$extent)
+      if (movement_extent != section_extent)
+        error("    sum of section extent ({section_extent}) ",
+              "must be equal to movement extent ({movement_extent})")
+    }
 
     # ensure that the scoring of sections
     # sums up to the scoring of the movement
