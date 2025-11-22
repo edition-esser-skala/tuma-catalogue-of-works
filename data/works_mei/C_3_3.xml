@@ -92,11 +92,11 @@
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvA [p. 193, no. 47]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvA [p. 193, no. 47]</ref>
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvB [fol. 73r, no. 33]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvB [fol. 73r, no. 33]</ref>
           </bibl>
         </biblList>
         <notesStmt>

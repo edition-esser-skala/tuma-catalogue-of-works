@@ -203,11 +203,11 @@
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvA [p. 100, no. 138]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvA [p. 100, no. 138]</ref>
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvB [fol. 42v, no. 138]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvB [fol. 42v, no. 138]</ref>
           </bibl>
         </biblList>
         <classification>

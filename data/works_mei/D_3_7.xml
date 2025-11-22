@@ -189,11 +189,11 @@
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvA [p. 369, no. 18]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvA [p. 369, no. 18]</ref>
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvB [fol. 180r, no. 18]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvB [fol. 180r, no. 18]</ref>
           </bibl>
         </biblList>
         <classification>

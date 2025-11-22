@@ -145,11 +145,11 @@
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvA [p. 66, no. 14]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvA [p. 66, no. 14]</ref>
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvB [fol. 29r, no. 17]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvB [fol. 29r, no. 17]</ref>
           </bibl>
         </biblList>
         <classification>

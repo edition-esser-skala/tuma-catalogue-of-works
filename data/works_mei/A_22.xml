@@ -168,11 +168,11 @@
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvA [p. 25, no. 49]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvA [p. 25, no. 49]</ref>
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvB [fol. 8r, no. 59]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvB [fol. 8r, no. 59]</ref>
           </bibl>
         </biblList>
         <notesStmt>

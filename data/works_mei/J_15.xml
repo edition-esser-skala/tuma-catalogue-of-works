@@ -71,11 +71,11 @@
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvA [p. 696, no. 24]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvA [p. 696, no. 24]</ref>
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvB [fol. 320r, no. 24]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvB [fol. 320r, no. 24]</ref>
           </bibl>
         </biblList>
         <notesStmt>

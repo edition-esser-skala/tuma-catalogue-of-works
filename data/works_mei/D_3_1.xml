@@ -181,11 +181,11 @@
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvA [p. 368, no. 16]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvA [p. 368, no. 16]</ref>
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvB [fol. 178r, no. 4]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvB [fol. 178r, no. 4]</ref>
           </bibl>
         </biblList>
         <classification>

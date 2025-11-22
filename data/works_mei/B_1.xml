@@ -90,11 +90,11 @@
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvA [p. 353, no. 18]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvA [p. 353, no. 18]</ref>
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvB [fol. 168r, no. 27]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvB [fol. 168r, no. 27]</ref>
           </bibl>
         </biblList>
         <classification>

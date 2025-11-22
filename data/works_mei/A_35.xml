@@ -112,11 +112,11 @@
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvA [p. 92, no. 108]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvA [p. 92, no. 108]</ref>
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvB [fol. 39r, no. 100]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvB [fol. 39r, no. 100]</ref>
           </bibl>
         </biblList>
         <classification>

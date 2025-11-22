@@ -64,11 +64,11 @@
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvA [p. 60, no. 185]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvA [p. 60, no. 185]</ref>
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">HerzogenburgInvB [fol. 23v, no. 180]</ref>
+            <ref targettype="pandoc-citation">@HerzogenburgInvB [fol. 23v, no. 180]</ref>
           </bibl>
         </biblList>
         <classification>
