@@ -1,5 +1,42 @@
 # Changelog {.unnumbered}
 
+## 0.16.0 – 2025-11-23
+
+### Added
+
+- works: TumW A.L16/S11/S12, C.3.L11, D.1.S2, E.5.S1/S2, and G.23/24/L12/L13
+- incipits and metadata: TumW A.24 and H.4
+- sources:
+  - A-HE: VIII a 2
+  - CZ-Bm: A 1854, A 1855, A 2250, A 3437, A 13937, A 17575, A 20181–7, A 32609/1–5, and A 42890
+  - CZ-K: 125 and 126
+  - CZ-Pn: XXVIII E 159 to 163
+  - D-OB: MO 372
+  - H-Bn: Ms. mus. IV. 1.907
+  - PL-KŁwnm: M-109
+- references:
+  - general: @Deutsch1994, @Hofer1947, @Hug2007, @Petermayr2020
+  - inventories: @EisenstadtInv, @Freemanova1998, @Lukes2021, @OsekInv, @Pielech2019
+  - editions: @Haberl1882, @Hofer1952, @Marak1919, @Schmid1903a
+- acknowledgements: A-M, CZ-K, and Manas
+- indication of the license on the homepage
+- index of works by library
+- details on Eisenstadt inventory
+- a colophon with infos on R packages
+
+### Changed
+
+- revised information on spurious and lost works for which detailed metadata will not be created
+- updated metadata for TumW G.20, since an accessible source was discovered
+- revised A-H and A-KN inventories, added all references to them
+- References are now classified as general references or inventories. Accordingly, the appendix “Concordances” now only describes prior catalogues of Werner's works, while all inventories are now in the appendix with the same name. Several inventory entries for a single work are now correctly represented.
+- technically equivalent to WerW v0.18.0
+
+### Removed
+
+- unnecessary lost manuscripts (notably, A-H and A-KN)
+
+
 ## 0.15.0 – 2025-10-04
 
 ### Added
