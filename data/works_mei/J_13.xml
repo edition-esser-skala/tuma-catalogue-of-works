@@ -378,6 +378,76 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
+          <date isodate="1750">18th century</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier/>
+            <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="33.5" unit="cm">33.5 (height in cm)</height>
+                <width quantity="21" unit="cm">21 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[wrapper]">
+                <p>Lamento Sopra la Morte | dei Patroni della Musica. | Violino 1:|m|o | Violino 2:|d|o | Con | Ba&#x17F;so. | Auth:|r|e Sig:|r|e Thuma.</p>
+              </titlePage>
+              <extent>3 parts</extent>
+              <dimensions/>
+              <handList>
+                <hand medium="brown ink" type="main">unidentified</hand>
+              </handList>
+              <physMedium>
+                <p>hand-ruled paper, 10 staves (12 mm)</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wgm</identifier>
+              </repository>
+              <identifier>XI 75073</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>vl 1 (4), vl 2 (4), b (4)</p>
+                <p>lacks <rend fontstyle="italic">Staffada</rend>; instead, remark after <rend fontstyle="italic">Menuet</rend>: &#x201C;Ballo di Libitina Da Capo&#x201D;</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
           <date isodate="1775">2nd half 18th century</date>
         </pubStmt>
         <classification>
@@ -409,7 +479,7 @@
               <extent>3 parts</extent>
               <dimensions/>
               <handList>
-                <hand medium="black ink" type="main">Andreas Franciscus Hofmann</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">Andreas Franciscus Hofmann</hand>
               </handList>
               <physMedium>
                 <p>hand-ruled paper, 12 staves (10 mm)</p>

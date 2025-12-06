@@ -206,7 +206,7 @@
       <manifestation>
         <identifier/>
         <titleStmt>
-          <title>Autograph manuscript</title>
+          <title>Manuscript copy</title>
         </titleStmt>
         <pubStmt>
           <publisher/>
@@ -217,7 +217,7 @@
           <termList>
             <term>Notated music</term>
             <term>Manuscript</term>
-            <term>Autograph</term>
+            <term>Copy</term>
             <term>Score</term>
             <term>Fair copy</term>
             <term>Complete</term>
@@ -231,19 +231,24 @@
                 <locusGrp>
                   <locus/>
                 </locusGrp>
+                <height quantity="21.5" unit="cm">21.5 (height in cm)</height>
+                <width quantity="30.5" unit="cm">30.5 (height in cm)</width>
                 <term/>
                 <extent> lines</extent>
               </dimensions>
-              <titlePage label="[wrapper]">
-                <p>Lamentationes Jeremiae Prophetae Feria quinta in coena Dni. &#xC0; 4 Voci da Francesco Tuma</p>
+              <titlePage label="[cover title]">
+                <p>I 7364 Musik Verein Archiv | Lamentationen | von | F. Tuma | Partitur</p>
               </titlePage>
-              <extent>40 p.</extent>
+              <titlePage label="[fol. 1r]">
+                <p>Lamentationes | Jeremi&#xE6; Prophet&#xE6;. | Feria quinta in c&#x153;na Dno. | &#xE0; [crossed out: 5; in pencil: 4] Voci. | [by different hand in black ink:] da | Francesco Tuma.</p>
+              </titlePage>
+              <extent>18 fol.</extent>
               <dimensions/>
               <handList>
-                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
               </handList>
               <physMedium>
-                <p>hand-ruled paper</p>
+                <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -256,7 +261,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>catalogued according to catalogue entry</p>
+                <p>fol. 1r: title; fol. 1v&#x2013;5v: <rend fontstyle="italic">Lectio prima</rend>; fol. 6r&#x2013;12r: <rend fontstyle="italic">Lectio secunda</rend>; fol. 12v&#x2013;18r: <rend fontstyle="italic">Lectio tertia</rend>; fol. 18v: empty</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -309,7 +314,7 @@
               <extent>24 p.</extent>
               <dimensions/>
               <handList>
-                <hand medium="black ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
               </handList>
               <physMedium>
                 <p>printed staff paper, 14 staves (8 mm)</p>

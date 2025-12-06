@@ -50,7 +50,7 @@
           <corpName role=""/>
         </contributor>
         <creation>
-          <date isodate="1750">mid 18th century</date>
+          <date isodate="1750">1767</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
         <history/>
@@ -245,12 +245,28 @@
           <item>
             <identifier/>
             <physDesc>
-              <titlePage label="[title]">
-                <p>Graduale : &#xE0; 4 Vocibus, Violinis 2bus, Trombonis 2bus Rip.nis con Organo et Violone : Auth.re Franc. Tuma : 1767 : Justus ut palma florebit</p>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="22" unit="cm">22 (height in cm)</height>
+                <width quantity="30" unit="cm">30 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[cover]">
+                <p>I 1648 Musik Vereins Archiv | Graduale &amp; Offertorium | von | F. Tuma | Partitur</p>
               </titlePage>
+              <titlePage label="[fol. 1r]">
+                <p>Graduale | &#xE0; | 4 Vocibus | Violinis 2|b|u|s | Trombonis 2|b|u|s Rip:|n|i|s | con | Organo e Violone | Auth|r|e Franc: Tuma. | 1767.</p>
+              </titlePage>
+              <extent>17 fol.</extent>
               <handList>
-                <hand medium="ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
               </handList>
+              <physMedium>
+                <p>hand-ruled paper, 12 staves (7 mm)</p>
+              </physMedium>
             </physDesc>
             <physLoc>
               <repository>
@@ -262,7 +278,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>catalogued according to catalogue entry</p>
+                <p>This shelfmark comprises two works: <rend fontstyle="italic">Iustus ut palma florebit</rend> TumW C.1.2 (music on fol. 1v&#x2013;6r) and <rend fontstyle="italic">Confitebor Domino</rend> TumW C.4.1 (fol. 7v&#x2013;17r).</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

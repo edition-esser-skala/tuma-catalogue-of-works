@@ -91,7 +91,7 @@ C,2,1,Pange lingua,,,,,,,,,,,,Mus.Hs.15686,,,,,,,,,Hymns 8,,,A.V.1,B.XIII.1,@Eyb
 C,2,2,Invictus heros numinis,,,,,,,,,,,,Mus.Hs.15682,,,,,,,,,Hymns 2,,,A.V.3,B.II.4,@Eybl1996,,,
 C,2,3,Iam faces lictor ferat,,,,,,,,,,,,Mus.Hs.15683,,,,,,,,,Hymns 3,,,A.V.4,B.II.5,@Eybl1996,,,
 C,2,4,Iam sol recedit igneus,,,,,,,,,,,,Mus.Hs.15684,,,,,,,,,Hymns 4,,,A.V.5,B.II.6,@Eybl1996,,,
-C,2,5,Te lucis ante terminum,,,,,,,,,,,,Mus.Hs.15772,,,,,,"Mus.ms.autogr. Salieri, A. 4/5 | Mus.ms.autogr. Tuma, F. 2 M",,,Hymns 1,,,A.V.6,B.II.2,,,,
+C,2,5,Te lucis ante terminum,,,,,,,,,,I 17565:5,,Mus.Hs.15772,,,,,,"Mus.ms.autogr. Salieri, A. 4/5 | Mus.ms.autogr. Tuma, F. 2 M",,,Hymns 1,,,A.V.6,B.II.2,,,,
 C,2,6,Regis superni nuntia,,,,,,525,,,,,,Mus.Hs.15681,,,,,,,,,Hymns 7,,,A.V.7,B.II.3,"@Eybl1996, @Eybl2022","@LindbergNoYearB, @AndersonNoYearB","@Sherman2001 [p. 111, no. 1]",
 C,2,7,Placare Christe servulis,,,,,,,,,,,,Mus.Hs.15685,,,,,,,,,Hymns 6,,,A.V.8,B.II.7,@Eybl1996,,,
 C,2,8,Pange lingua,,,,,,,,,,,,,,,,,XLVII B 34,,,,,,,,,,,,
@@ -189,14 +189,14 @@ D,2,1,Benedictus,,,,,,,,,,I 1693/29,,,,,,,,,,,Vespers 1,,,A.III.1,B.XI.12.V,,,,
 D,2,2,Confitebor,,,,,,,,,,,,Mus.Hs.15677,,,,,,,,,Vespers 2,,,A.III.2,B.XI.5,"@Bartos2018 [p. 331], @Eybl1996, @Eybl2022",,,
 D,2,3,Confitebor,,,,,,,,,,,,Mus.Hs.15678,,,,,,,,,Vespers 3,,,A.III.4,B.XI.6,@Eybl1996,,,"single extant source incomplete (S, A, T, B, vl 1)"
 D,2,4,Credidi,,,,,,,,,,,,,E 1/15,,,,,,,,,,,,,,,,
-D,2,5,Cum invocarem,,,,,,,,,(no shelfmark),I 17565/1,,Mus.Hs.19194/1,,,,,,,,,Vespers 5,,,A.III.5,B.XI.1,,,,
+D,2,5,Cum invocarem,,,,,,,,,(no shelfmark),I 17565:1,,Mus.Hs.19194/1,,,,,,,,,Vespers 5,,,A.III.5,B.XI.1,,,,
 D,2,6,De profundis,,,,,,,,,,,,Mus.Hs.15724/1,,,,,,,,,Vespers 7,,,A.III.6,B.XIII.5a,@Eybl1996,,,
 D,2,7,De profundis,,,,,,,,,,,,Mus.Hs.15723,,,,,,,Mus.2968-E-500,,Vespers 6,,,A.III.7,B.XIII.7,@Eybl1996,,,
 D,2,8,Dixit Dominus,2119/1,,,,,,,E XV 2 a IV/2,,,,Mus.Hs.15680,,,,,,,,,Vespers 9,,,A.III.10,B.XI.8,"@Eybl1996, @Eybl2022",,"@HerzogenburgInvB [fol. 122r, no. 12], @Riedel1979 [p. 332, no. 2119]",A-SEI also contains trb 1/2 of another Dixit
 D,2,9,Dixit Dominus,,,,,,,,,,,,Mus.Hs.15679,,,,,,,,,Vespers 8,,,A.III.11,B.XI.7,"@Eybl1996, @Eybl2022",,,
 D,2,10,Domine probasti me,,,,119/4,,,,,,,,,,,,,,,,,Vespers 28,,,A.III.14,,,,"@KlosterneuburgInvB [p. 351, no. 1d]",
-D,2,11,Ecce nunc benedicite,,,,,,,,,(no shelfmark),I 17565/3,,Mus.Hs.19194/3,,,,,,,,,Vespers 5,,,A.III.5,B.XI.1,,,,
-D,2,12,"In te, Domine, speravi",,,,,,,,,(no shelfmark),I 17565/2,,Mus.Hs.19194/2,,A 32609/3,,,,,,,Vespers 5,,,A.III.5,B.XI.1,,@Schmid1900a [no. 2],,
+D,2,11,Ecce nunc benedicite,,,,,,,,,(no shelfmark),I 17565:4,,Mus.Hs.19194/3,,,,,,,,,Vespers 5,,,A.III.5,B.XI.1,,,,
+D,2,12,"In te, Domine, speravi",,,,,,,,,(no shelfmark),I 17565:2,,Mus.Hs.19194/2,,A 32609/3,,,,,,,Vespers 5,,,A.III.5,B.XI.1,,@Schmid1900a [no. 2],,
 D,2,13,Laetatus sum,2119/3 | 2143/2,883/2,,,,,,,,,,Mus.Hs.15688/2,,,,,,,,,Vespers 10,,,A.III.15,B.XI.10b,"@Eybl1996, @Eybl2022",,"@HerzogenburgInvA [p. 297, no. 5], @Riedel1979 [p. 332, no. 2119]",
 D,2,14,Lauda Jerusalem,2119/5,883/4,VIII b 3 [600090617],,,,,,,,,Mus.Hs.15687,,,,,,,,,"Vespers 4, Vespers 11",,,"A.III.3, A.III.16",B.XI.9,"@Eybl1996, @Eybl2022",,"@HerzogenburgInvA [p. 297, no. 5]",lyrics in A-HE: Confitebor
 D,2,15,Laudate Dominum,,,,119/3,,,,,,,,,,,,,,,,,Vespers 29,,,A.III.17,,,,"@KlosterneuburgInvB [p. 351, no. 1c]",
@@ -224,7 +224,7 @@ D,3,L2,Miserere,,,,,,,,,,,,,,,,,,,,,,,,,,,,@EsterhazyInv1812 [miserere no. 10],l
 D,4,1,Magnificat,,,,,,,,,,,,Mus.Hs.15697,,,,XXXV E 139,,,,,Magnificats 1,,,A.X.1,B.VII.1,"@Eybl1996, @Eybl2022",,,CZ-Pkřiž old signature: 1042
 D,4,2,Magnificat,2119/6,,,,,,,,,,,Mus.Hs.15698,,,,,,,,,Magnificats 2,,,A.X.2,B.VII.2,"@Eybl1996, @Eybl2022",@Floreen2001,"@HerzogenburgInvA [p. 327, no. 9], @HerzogenburgInvB [fol. 154v, no. 7]",
 D,4,3,Magnificat,,,VIII b 3 [600090620],,,,,,,,,,,,,,,,,,Magnificats 3,,,A.X.3,,,,"@KlosterneuburgInvA [p. 69, no. 9], @KlosterneuburgInvB [p. 351, no. 2a]",
-D,4,4,Nunc dimittis,,,,,,,,,(no shelfmark),I 17565/4,,Mus.Hs.19194/4,,A 32609/2,,,,,,,Vespers 5,,,A.III.5,B.XI.1,@Bartos2018 [p. 343],@Schmid1900a [no. 4],,
+D,4,4,Nunc dimittis,,,,,,,,,(no shelfmark),I 17565:6,,Mus.Hs.19194/4,,A 32609/2,,,,,,,Vespers 5,,,A.III.5,B.XI.1,@Bartos2018 [p. 343],@Schmid1900a [no. 4],,
 D,4,L1,Magnificat,,,,,,,,,,,,,,,,,,,,,,,,,,,,"@KlosterneuburgInvB [p. 351, no. 2b]",listed in Klosterneuburg inventory B
 D,4,L2,Magnificat,,,,,,,,,,,,,,,,,,,,,,,,,,,,"@KlosterneuburgInvB [p. 351, no. 2c]",listed in Klosterneuburg inventory B
 E,1,1,Alma Redemptoris mater,,,,,,,,,,,,Mus.Hs.15667,,,,,,,,,Antiphons 1,,,A.VII.1,B.IV.1,"@Eybl1996, @Eybl2011",,,
@@ -264,8 +264,8 @@ F,,1,Stabat mater,,,,,,,,,(no shelfmark),,,Mus.Hs.15725,,,,,,,Mus.2968-D-509,,Se
 F,,2,Stabat mater,1786,,,,,,,,,,,SA.67.H.5,,A 32609/4,,,,Mus.ms. 22100 | Mus.ms. 22100/1 | Mus.ms. 30180,Mus.2968-D-5 | Mus.2968-D-515,A-Wst MH-9466 | A-Wst MH-9467 | US-Bp M.222.47 (2) | US-R ML96.C127 | RUS-Mk XI-433 | H-PH Mus.sacr.ant. T 1 | D-MÜs SANT Hs 4196 | D-MHjk ohne Signatur | D-LEm PM 7189 | I-Rama A-Mss-523,Sequences 2,,,A.VIII.2,B.VIII.3,,"@Schmid1900a [no. 5], @Plavec1959","@HerzogenburgInvA [p. 381, no. 11], @HerzogenburgInvB [fol. 187v, no. 11], @Kiesewetter1847 [p. 84], @Riedel1979 [p. 282, no. 1786]",
 F,,3,Stabat mater,,,,,,,,,,I 1718,,,,A 32609/5,1333,,,,Mus.2968-D-514,D-OB MO 814,Sequences 3,,,A.VIII.3,B.VIII.2,,@Schmid1908,"@Haberkamp1986 [p. 207], @Stefan1985 [p. 252, no. 1393]",
 F,,4,Stabat mater,,,,,,,,,,,,,,,,XXXV E 137 [550266970],XVI C 74 | XLVI A 266,,,,Sequences 4,,,A.VIII.4,B.VIII.1,,,,CZ-Pkřiž old signature: 787
-F,,5,Stabat mater,1785,,,,,,,,,,,,,,,,,,,A-Wst MH-10575 | A-Wst ZPM-823/2:4,Sequences 5,,,A.VIII.5,,,,"@HerzogenburgInvA [p. 381, no. 10], @HerzogenburgInvB [fol. 187v, no. 10], @Riedel1979 [p. 282, no. 1785]",
-F,,6,Stabat mater,,,,,,,,R 34,,,,,,,,,,,,,,,,,,"@Blume1992 [vol. 1, p. 149f, vol. 2, p. 101–104], @Pfiffig1975",,,
+F,,5,Stabat mater,1785,,,,,,,,,,,,,,,,,,,A-Wst MH-10575,Sequences 5,,,A.VIII.5,,,,"@HerzogenburgInvA [p. 381, no. 10], @HerzogenburgInvB [fol. 187v, no. 10], @Riedel1979 [p. 282, no. 1785]",
+F,,6,Stabat mater,,,,,,,,R 34,,,,,,,,,,,,A-Wst ZPM-823/2:4,,,,,,"@Blume1992 [vol. 1, p. 149f, vol. 2, p. 101–104], @Pfiffig1975",,,
 F,,7,Stabat mater,,,,,,,,,,,,,,,,,,,,D-OB MO 813,,,,,,,,@Haberkamp1986 [p. 207],
 F,,8,Stabat mater,,,,,,,,,,,,,,,1332,,,,,,,,,,,,,"@Stefan1985 [p. 252, no. 1394]",
 G,,1,Litaniae lauretanae,,,,,,,,,,,,Mus.Hs.15691/1,,,,,,,,,Litanies 8,,,A.IX.17,B.IX.1,"@Armstrong1993 [pp. 118-121, 257, 283, 314f], @Eybl1996",,,

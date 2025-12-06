@@ -199,8 +199,26 @@
             <identifier/>
             <physDesc>
               <handList>
-                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+                <hand medium="brown ink" type="main">unidentified</hand>
               </handList>
+              <titlePage label="[wrapper]">
+                <p>Ave Regina. | &#xE0; 4 Voci Capella | Pro Hebdomada Sancta | Ad Vesperas | Del Sig: Francesco Thuma | Partes 24. et spartitura</p>
+              </titlePage>
+              <extent>13 parts</extent>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="28" unit="cm">28 (height in cm)</height>
+                <width quantity="23" unit="cm">23 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <dimensions/>
+              <physMedium>
+                <p>hand-ruled paper, 10 staves (10 mm)</p>
+              </physMedium>
             </physDesc>
             <physLoc>
               <repository>
@@ -212,8 +230,8 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>S coro, A coro, T coro, B coro</p>
-                <p>catalogued according to @Ball1900</p>
+                <p>S coro (3x; 1, 1, 1), A coro (3x; 1, 1, 1), T coro (3x; 1, 1, 1), B coro (4x; 1, 1, 1, 1)</p>
+                <p>one A part and two B parts by unidentified hand, remaining parts by Leysser</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -266,7 +284,7 @@
               <extent>2 p.</extent>
               <dimensions/>
               <handList>
-                <hand medium="brown ink" type="main">Joseph Leysser</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
               </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>

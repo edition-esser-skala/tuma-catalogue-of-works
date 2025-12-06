@@ -57,6 +57,14 @@
         <history>
           <eventList type="performances">
             <event>
+              <date isodate="1742">1742</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1744">1744</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
               <date isodate="1744-08">1744-08-[?]</date>
               <geogName role="place">Vienna</geogName>
             </event>
@@ -463,19 +471,32 @@
             <term>Copy</term>
             <term>Parts</term>
             <term>Fair copy</term>
-            <term>Complete</term>
+            <term>Incomplete</term>
           </termList>
         </classification>
         <itemList>
           <item>
             <identifier/>
             <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="30" unit="cm">30 (height in cm)</height>
+                <width quantity="22" unit="cm">22 (width in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
               <titlePage label="[wrapper]">
-                <p>Hymnus in Nativitate Domini &#xE0; 4 con Instrumenti; Partes 24 | Del Sig. Francesco Tuma Maestro die Capella della Imperatrice Elisabete</p>
+                <p>Hymnus. | In Nativitate Domini | &#xE0; 4 | con Instrumenti | Partes. 24. | Del Sig: Francesco Tuma | Maestro di Cappella della | Imperatrice Elisabete.</p>
               </titlePage>
+              <extent>22 parts</extent>
               <handList>
-                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Copyist E</hand>
               </handList>
+              <physMedium>
+                <p>hand-ruled paper, 10 staves (10 mm)</p>
+              </physMedium>
             </physDesc>
             <physLoc>
               <repository>
@@ -487,8 +508,8 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
+                <p>S solo and coro (2), A solo and coro (2), T solo and coro (3), B solo and coro (3), S coro (2x; 2, 2), A coro (2x; 2, 2), T coro (2x; 1, 2), B coro (2x; 2, 1), cnto (2), fag (1), vl 1 (2x; 3, 3), vl 2 (2x; 3, 3), vlc (3), vlne (3), org (4), mdc (4); trb 1 and 2 likely missing</p>
                 <p>lyrics: Jesu Redemptor omnium</p>
-                <p>catalogued according to @Ball1900</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

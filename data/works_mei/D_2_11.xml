@@ -53,7 +53,26 @@
           <date isodate="1742">1742</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
-        <history/>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1744">1744</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1744">1744[?]</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1746">1746</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1747">1747</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+          </eventList>
+        </history>
         <classification>
           <termList>
             <term>psalm</term>
@@ -288,12 +307,27 @@
           <item>
             <identifier/>
             <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="28" unit="cm">28 (height in cm)</height>
+                <width quantity="23" unit="cm">23 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
               <titlePage label="[wrapper]">
-                <p>compoeta a 4 Voci con Violino e Tromboni in conc del sgr. Fr. Tuma l&#x2019;anno 1742 Partes 24.</p>
+                <p>[by different hand: Vespern und P&#x17F;almen] | Compieta | &#xE0; | 4 Voci | con Violini | e | Tromboni | in | [added later by Leysser/Ristl: Partes 24.] Conc: | Del Sg: Fran: Tuma | M: D: C: Di S: M: C: | L: Imp:|c|e Elisabetta | Vedova. | L&#x2019;Anno 1742.</p>
               </titlePage>
+              <extent>18 parts</extent>
+              <dimensions/>
               <handList>
-                <hand medium="ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Anton Ristl</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
               </handList>
+              <physMedium>
+                <p>hand-ruled paper, 10 staves (10 mm)</p>
+              </physMedium>
             </physDesc>
             <physLoc>
               <repository>
@@ -301,12 +335,13 @@
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wgm</identifier>
               </repository>
-              <identifier>I 17565/3</identifier>
+              <identifier>I 17565:4</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>S solo and coro, A solo and coro, T solo and coro, B coro, trb 1, trb 2 , vl 1, vl 2, vlne, org</p>
-                <p>catalogued according to @Ball1900</p>
+                <p>S solo and coro (11), A solo and coro (11), T solo and coro (11), B solo and coro (11), S coro (8), A coro (8), T coro (8), B coro (8), cnto (5), fag (5), trb 1 (6), trb 2 (6), vl 1 (8), vl 2 (8), vlc (8), vlne (8), org (11), mdc (9)</p>
+                <p>in the mdc part, <rend fontstyle="italic">Qui habitat</rend> and the remaining movements are probably in the hand of Leysser; all remaining parts by Ristl</p>
+                <p>This manuscript combines six works into a completorium: <rend fontstyle="italic">Cum invocarem</rend> TumW D.2.5, <rend fontstyle="italic">In te Domine speravi</rend> TumW D.2.12, <rend fontstyle="italic">Qui habitat in adiutorio</rend> TumW D.2.23, <rend fontstyle="italic">Ecce nunc benedicite</rend> TumW D.2.11, <rend fontstyle="italic">Te lucis ante terminum</rend> TumW C.2.5, and <rend fontstyle="italic">Nunc dimittis</rend> TumW D.4.4.</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

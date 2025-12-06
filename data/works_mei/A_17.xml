@@ -55,7 +55,7 @@
         </contributor>
         <creation>
           <date isodate="1750">mid 18th century</date>
-          <geogName role="">unknown</geogName>
+          <geogName role="">Vienna (?)</geogName>
         </creation>
         <history>
           <eventList type="performances">
@@ -90,6 +90,30 @@
             <event>
               <date isodate="1756-12-08">1756-12-08</date>
               <geogName role="place">G&#xF6;ttweig</geogName>
+            </event>
+            <event>
+              <date isodate="1763">1763</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1764-06-09">[1764?]-06-09</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1765-04-08">1765-04-08</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1766-04-25">1766-04-25</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1766-07-22">1766-07-22</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1770-03-26">1770-03-26</date>
+              <geogName role="place">Vienna</geogName>
             </event>
             <event>
               <date isodate="1764-07-15">1764-07-15</date>
@@ -1118,8 +1142,25 @@
             <identifier/>
             <physDesc>
               <handList>
-                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
               </handList>
+              <titlePage label="[wrapper]">
+                <p>Mi&#x17F;sa | Scti Stephani | a | 4 Voces Conct: | 2 Violini: Conc: | 2 Tromb Conc: | Organo | con | Violone | Del Sig:|r|e | Francesco Tuma</p>
+              </titlePage>
+              <extent>10 parts</extent>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="32" unit="cm">32 (height in cm)</height>
+                <width quantity="21" unit="cm">21 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <dimensions/>
+              <physMedium>
+                <p>hand-ruled paper, 12 staves (10 mm)</p>
+              </physMedium>
             </physDesc>
             <physLoc>
               <repository>
@@ -1131,7 +1172,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>catalogued according to @Peschek1956</p>
+                <p>S solo and coro (7), A solo and coro (5), T solo and coro (5), B solo and coro (5), trb 1 (6), trb 2 (6), vl 1 (7), vl 2 (7), vlne (5), org (8)</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
