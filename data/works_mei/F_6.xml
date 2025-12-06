@@ -526,6 +526,56 @@
           <relation rel="isEmbodimentOf"/>
         </relationList>
       </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date isodate="1974">ca. 1974</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Score</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier/>
+            <physDesc>
+              <handList>
+                <hand medium="black ink" type="main">Alexander Weinmann</hand>
+              </handList>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wst</identifier>
+                <ptr target="https://permalink.obvsg.at/wbr/AC16444621" mimetype="" label="catalogue entry"/>
+              </repository>
+              <identifier>ZPM-823/2:4</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>part of the estate of Alexander Weinmann, who copied from the A-SEI source</p>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
     </manifestationList>
   </meiHead>
   <music/>
