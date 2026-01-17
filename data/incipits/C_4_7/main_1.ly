@@ -2,9 +2,9 @@
 \include "header.ly"
 
 notes = \relative c' {
-  \clef soprano
+  \clef tenor
   \key d \minor \time 2/2 \autoBeamOff \tempoMarkup "Moderato"
-  a'2^\partSc a
+  a2^\partTc a
   b1
   a2 b4 a
   g a b c

@@ -3,11 +3,11 @@
 
 notes = \relative c' {
   \clef bass
-  \key c \major \time 2/2 \autoBeamOff
+  \key c \major \time 2/2 \autoBeamOff \tempoMarkup "Allabreve"
   c,2.^\partBc c4
   d2 d
   e f
-  \clef soprano g'2. g4
+  \clef tenor g2.^\partTc g4
   a2 a
   h c
 }

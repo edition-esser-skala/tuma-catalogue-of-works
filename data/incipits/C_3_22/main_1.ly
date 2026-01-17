@@ -3,7 +3,7 @@
 
 notes = \relative c' {
   \clef soprano
-  \key f \major \time 2/2 \autoBeamOff
+  \key f \major \time 2/2 \autoBeamOff \tempoMarkup "Allabreve"
   a'1^\partSc
   a
   b2 c
