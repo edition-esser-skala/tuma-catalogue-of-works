@@ -22,11 +22,11 @@ options(readr.show_col_types = FALSE)
 
 params <- read_yaml("data/config.yml")
 
-print_concordance <- function(catalogue) {
-  notes <-
-    read_csv("data/catalogue_notes.csv") %>% 
-    filter(catalogue == {{catalogue}}) %>% 
-    select(number, notes)
+print_concordance <- function(catalogue, notes = NULL) {
+  if (!is.null(notes))
+    notes <- read_csv(notes)
+  else
+    notes <- tibble(number = "__none__", notes = "")
   
   read_rds("data_generated/works.rds") %>% 
     left_join(
@@ -42,7 +42,7 @@ print_concordance <- function(catalogue) {
     select(number, id) %>% 
     mutate(number = str_remove(number, " \\(\\?\\)$")) %>% 
     bind_rows(notes) %>% 
-    filter(!is.na(number)) %>%
+    filter(!is.na(number), number != "__none__") %>%
     summarise(
       .by = number,
       id = str_flatten_comma(id, na.rm = TRUE),

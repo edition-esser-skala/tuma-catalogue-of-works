@@ -49,19 +49,8 @@ gotoBar = #(define-music-function
                         time-signature))
   #})
 
-fC = \set Staff.forceClef = ##t
-hA = \once \override Accidental.stencil = ##f
 hy = \markup { \override #'(thickness . 1.25) \raise #.52 \draw-line #'(.5 . 0) }
 
-aDue = \markup \remark "a 2"
-aTre = \markup \remark "a 3"
-aQuattro = \markup \remark "a 4"
-
-skips = #(define-music-function
-  (parser location n)
-  (number?)
-  #{ \repeat unfold #n { \skip 8 } #})
-  
 \layout {
   \context {
     \Staff
