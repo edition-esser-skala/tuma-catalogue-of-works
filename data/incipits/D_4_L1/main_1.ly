@@ -3,18 +3,16 @@
 
 notes = \relative c {
   \clef bass
-  \key c \major \time 4/4 \tempoMarkup "Adagio"
-  r4^\partOrg c g'4. g8
-  c,4 r a a'8 a,
-  fis4 g d'2
-  d4. d8 g,2\fermata
+  \key c \major \time 4/4 \tempoMarkup "Moderato"
+  c8^\partOrg c' h g c c, f fis
+  g e f g c, c e g
+  g g h, g
 }
 
 bassfigures = \figuremode {
-  r1
-  r
-  <6 5>2 <5 _+>4 <6 4>
-  <5 4> <_ _+>2.
+  r4 <6>2 q8 <5>
+  r4 <6 5>2.
+  <6 4>8 <5 3> <6>4
 }
 
 \score {
