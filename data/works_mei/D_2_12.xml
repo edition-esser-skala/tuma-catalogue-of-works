@@ -312,7 +312,7 @@
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wn</identifier>
                 <ptr target="https://data.onb.ac.at/rec/AC14297557" mimetype="" label="catalogue entry"/>
               </repository>
-              <identifier>Mus.Hs.19194/2</identifier>
+              <identifier>Mus.Hs.19194:2</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
@@ -503,7 +503,7 @@
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">CZ-Bm</identifier>
               </repository>
-              <identifier>A 32609/3</identifier>
+              <identifier>A 32609:3</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">

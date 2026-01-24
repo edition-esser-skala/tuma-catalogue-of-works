@@ -1213,12 +1213,12 @@
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-HE</identifier>
               </repository>
-              <identifier>VIII a 5</identifier>
+              <identifier>VIII a 5:2</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (9), A solo and coro (9), T solo and coro (8), B solo and coro (8), clno 1 (3), clno 2 (2), a-trb (2), timp (2), vl 1 (9), vl 2 (8), vlne (12), org (14)</p>
-                <p>only comprises <rend fontstyle="italic">Gloria</rend> to <rend fontstyle="italic">Agnus Dei</rend> of this work; the&#xA0;<rend fontstyle="italic">Kyrie</rend> is from the mass TumW A.22</p>
+                <p>only comprises <rend fontstyle="italic">Gloria</rend> to <rend fontstyle="italic">Agnus Dei</rend> of this work; the <rend fontstyle="italic">Kyrie</rend> is from the mass TumW A.22</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

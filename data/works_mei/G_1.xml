@@ -261,7 +261,7 @@
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wn</identifier>
                 <ptr target="https://data.onb.ac.at/rec/AC14297586" mimetype="" label="catalogue entry"/>
               </repository>
-              <identifier>Mus.Hs.15691/1</identifier>
+              <identifier>Mus.Hs.15691:1</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">

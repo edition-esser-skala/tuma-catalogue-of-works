@@ -443,7 +443,7 @@
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-HE</identifier>
               </repository>
-              <identifier>III b 3</identifier>
+              <identifier>III b 3:1</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
@@ -516,7 +516,7 @@
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wn</identifier>
                 <ptr target="https://data.onb.ac.at/rec/AC14253267" mimetype="" label="digitized version"/>
               </repository>
-              <identifier>Mus.Hs.15694/1</identifier>
+              <identifier>Mus.Hs.15694:1</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">

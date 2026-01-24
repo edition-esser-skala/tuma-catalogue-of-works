@@ -367,7 +367,7 @@
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-G&#xD6;</identifier>
                 <ptr target="https://db.klostermusiksammlungen.at/scores/4740" mimetype="" label="catalogue entry"/>
               </repository>
-              <identifier>2119/3</identifier>
+              <identifier>2119:3</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
@@ -440,7 +440,7 @@
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-G&#xD6;</identifier>
                 <ptr target="https://db.klostermusiksammlungen.at/scores/4764" mimetype="" label="catalogue entry"/>
               </repository>
-              <identifier>2143/2</identifier>
+              <identifier>2143:2</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
@@ -512,7 +512,7 @@
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-H</identifier>
               </repository>
-              <identifier>883/2</identifier>
+              <identifier>883:2</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
@@ -583,7 +583,7 @@
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wn</identifier>
                 <ptr target="https://data.onb.ac.at/rec/AC14297583" mimetype="" label="catalogue entry"/>
               </repository>
-              <identifier>Mus.Hs.15688/2</identifier>
+              <identifier>Mus.Hs.15688:2</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">

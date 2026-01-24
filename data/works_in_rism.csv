@@ -1,17 +1,17 @@
-rism_id,title,title_alt,genre,collection,siglum,shelfmark,notes
+rism_id,title,title_alt,genre,collection,siglum,shelfmark,manual_intervention
 600038399,Vespers,,Vespers,,A-Ed,G 1,
-600038463,Litanies,,Litanies,,A-Ed,G 61/1,added manually
-600038463,Sub tuum praesidium,,Litanies,,A-Ed,G 61/2,added manually
+600038463,Litanies,,Litanies,,A-Ed,G 61:1,added and split manually
+600038463,Sub tuum praesidium,,Litanies,,A-Ed,G 61:2,added and split manually
 600038567,Salve regina,,Antiphons,,A-Ed,K 8,
 600090622,Masses,Missa S Antonii,Masses,,A-HE,III a,
-600090618,Litanies,,Litanies,,A-HE,III b 3,
-600090619,Litanies,,Litanies,,A-HE,III b 3,
+600090618,Litanies,,Litanies,,A-HE,III b 3:1,shelfmark changed manually
+600090619,Litanies,,Litanies,,A-HE,III b 3:2,shelfmark changed manually
 600091446,Masses,,Masses,,A-HE,VIII a 2,added manually
-600090621,Masses,,Masses,,A-HE,VIII a 5,
-600090623,Masses,Missa S Francisci,Masses,,A-HE,VIII a 5,
+600090621,Masses,,Masses,,A-HE,VIII a 5:1,
+600090623,Masses,Missa S Francisci,Masses,,A-HE,VIII a 5:2,
 600090487,Masses,,Masses,,A-HE,VIII a 6,added manually
-600090617,Confitebor,,Psalms,,A-HE,VIII b 3,
-600090620,Magnificat,,Sacred songs,,A-HE,VIII b 3,
+600090617,Confitebor,,Psalms,,A-HE,VIII b 3:1,
+600090620,Magnificat,,Sacred songs,,A-HE,VIII b 3:2,
 600178673,Masses,,Masses,,A-KR,A 3/15,
 600178672,Masses,,Masses,,A-KR,B 12/316,
 600178666,Masses,,Masses,,A-KR,B 39/570,
@@ -27,13 +27,13 @@ rism_id,title,title_alt,genre,collection,siglum,shelfmark,notes
 600178682,Vespers,Vesperae de Confessore,Vespers,,A-KR,E 12/38,
 600178681,Vespers,,Vespers,,A-KR,E 26/172,
 600178675,Litanies,,Litanies,,A-KR,E 48/130,
-600178678,Litanies,,Litanies,,A-KR,E 48/131/1,shelfmark changed manually
-600178679,Sub tuum praesidium,,Sacred songs,,A-KR,E 48/131/2,shelfmark changed manually
+600178678,Litanies,,Litanies,,A-KR,E 48/131:1,shelfmark changed manually
+600178679,Sub tuum praesidium,,Sacred songs,,A-KR,E 48/131:2,shelfmark changed manually
 600178680,Miserere,,Psalms,,A-KR,F 21/12,
 600178676,Salve regina,,Antiphons,,A-KR,F 5/128,
 603000421,Sonatas,,Sonatas,,A-LA,112,
-603000427,Sonatas,,Trio sonatas,,A-LA,251/1,duplicated manually
-603000427,Sonatas,,Trio sonatas,,A-LA,251/2,duplicated manually
+603000427,Sonatas,,Trio sonatas,,A-LA,251:1,split manually
+603000427,Sonatas,,Trio sonatas,,A-LA,251:2,split manually
 603000428,Sonatas,,Trio sonatas,,A-LA,252,
 603000429,Divertimentos,,Divertimentos,,A-LA,253,
 1001169626,Sarabandes,,Sarabandes,,A-LA,273,
@@ -69,8 +69,8 @@ rism_id,title,title_alt,genre,collection,siglum,shelfmark,notes
 600137159,Ave regina a tenore solo con 2 violini,,Vocal music,,A-Wn,Mus.Hs.15672,
 600137175,Ave regina,,Vocal music,,A-Wn,Mus.Hs.15673,
 600137115,Ave regina a 4 voci in pieno con stromenti,,Chormusik,,A-Wn,Mus.Hs.15674,
-600137294,Ave regina a 4 in pieno,,Chormusik,,A-Wn,Mus.Hs.15675/1,duplicated manually
-600137294,Ave regina a 4 in pieno,,Chormusik,,A-Wn,Mus.Hs.15675/2,duplicated manually
+600137294,Ave regina a 4 in pieno,,Chormusik,,A-Wn,Mus.Hs.15675:1,split manually
+600137294,Ave regina a 4 in pieno,,Chormusik,,A-Wn,Mus.Hs.15675:2,split manually
 600137165,Ave regina a 2: alto e tenore,,Vocal music,,A-Wn,Mus.Hs.15676,
 600137198,Confitebor (tibi domine) a 4 voci con 2 violini in concerto,,Chormusik,,A-Wn,Mus.Hs.15677,
 600137241,"Confitebor (tibi domine) a 4 voci, violino primo e trombone primo in concerto con ripieni",,Chormusik,,A-Wn,Mus.Hs.15678,
@@ -84,22 +84,22 @@ rism_id,title,title_alt,genre,collection,siglum,shelfmark,notes
 600138901,Pange lingua a 4 voci con violini e 2 tromboni in concerto,,Chormusik,,A-Wn,Mus.Hs.15686,
 600138990,"Lauda Jerusalem, a 4 voci concertanti, 2 violini concertanti, 2 tromboni ripieni, e ripieni",,Chormusik,,A-Wn,Mus.Hs.15687,
 600139024,Laudate pueri et Laetatus sum a 4 voci e 2 violini in concerto,,Chormusik,yes,A-Wn,Mus.Hs.15688,
-1001350969,Laudate pueri,,Chormusik,,A-Wn,Mus.Hs.15688/1,shelfmark changed
-1001350972,Laetatus sum,,Chormusik,,A-Wn,Mus.Hs.15688/2,shelfmark changed
+1001350969,Laudate pueri,,Chormusik,,A-Wn,Mus.Hs.15688:1,shelfmark changed
+1001350972,Laetatus sum,,Chormusik,,A-Wn,Mus.Hs.15688:2,shelfmark changed
 600138732,Laudate pueri a 5 voci con 2 violini in concerto,,Chormusik,,A-Wn,Mus.Hs.15689,
 600138717,Lectiones ad officium defunctorum a 4 voci con violini e tromboni in concerto,,Chormusik,,A-Wn,Mus.Hs.15690,
-600138746,Litanie breve a 4 voci in pieno,,Chormusik,,A-Wn,Mus.Hs.15691/1,split manually
-600138746,Sub tuum praesidium,,Chormusik,,A-Wn,Mus.Hs.15691/2,split manually
-600138807,Litaniae della madonna santissima,,Chormusik,,A-Wn,Mus.Hs.15692/1,split manually
-600138807,Sub tuum praesidium,,Chormusik,,A-Wn,Mus.Hs.15692/2,split manually
-600138848,"Litaniae a 4 voci concerti, 2 violini, violino primo obligato e ripieni",,Chormusik,,A-Wn,Mus.Hs.15693/1,split manually
-600138848,Sub tuum praesidium,,Chormusik,,A-Wn,Mus.Hs.15693/2,split manually
-600101474,Lytaniae lauretanae,,Chormusik,,A-Wn,Mus.Hs.15694/1,split manually
-600101474,Sub tuum praesidium,,Chormusik,,A-Wn,Mus.Hs.15694/2,split manually
-600138844,"Litaniae a 4 voci concertanti, 2 violini concertanti e organo concertante",,Chormusik,,A-Wn,Mus.Hs.15695/1,split manually
-600138844,Sub tuum,,Chormusik,,A-Wn,Mus.Hs.15695/2,split manually
-600138872,Litanie breve a 5 voci in pieno,,Chormusik,,A-Wn,Mus.Hs.15696/1,split manually
-600138872,Sub tuum praesidium,,Chormusik,,A-Wn,Mus.Hs.15696/2,split manually
+600138746,Litanie breve a 4 voci in pieno,,Chormusik,,A-Wn,Mus.Hs.15691:1,split manually
+600138746,Sub tuum praesidium,,Chormusik,,A-Wn,Mus.Hs.15691:2,split manually
+600138807,Litaniae della madonna santissima,,Chormusik,,A-Wn,Mus.Hs.15692:1,split manually
+600138807,Sub tuum praesidium,,Chormusik,,A-Wn,Mus.Hs.15692:2,split manually
+600138848,"Litaniae a 4 voci concerti, 2 violini, violino primo obligato e ripieni",,Chormusik,,A-Wn,Mus.Hs.15693:1,split manually
+600138848,Sub tuum praesidium,,Chormusik,,A-Wn,Mus.Hs.15693:2,split manually
+600101474,Lytaniae lauretanae,,Chormusik,,A-Wn,Mus.Hs.15694:1,split manually
+600101474,Sub tuum praesidium,,Chormusik,,A-Wn,Mus.Hs.15694:2,split manually
+600138844,"Litaniae a 4 voci concertanti, 2 violini concertanti e organo concertante",,Chormusik,,A-Wn,Mus.Hs.15695:1,split manually
+600138844,Sub tuum,,Chormusik,,A-Wn,Mus.Hs.15695:2,split manually
+600138872,Litanie breve a 5 voci in pieno,,Chormusik,,A-Wn,Mus.Hs.15696:1,split manually
+600138872,Sub tuum praesidium,,Chormusik,,A-Wn,Mus.Hs.15696:2,split manually
 600138949,Magnificat,,Canticles,,A-Wn,Mus.Hs.15697,
 600138978,Magnificat,,Canticles,,A-Wn,Mus.Hs.15698,
 600138964,Memento (domine David) a 4 voci con 2 violini in concerto,,Chormusik,,A-Wn,Mus.Hs.15699,
@@ -127,8 +127,8 @@ rism_id,title,title_alt,genre,collection,siglum,shelfmark,notes
 600138711,"Offertorium pro sabbato in albis proprium, alias motettum de tempore (Benedictus qui venit)",,Chormusik,,A-Wn,Mus.Hs.15721,
 600138768,Nisi Dominus,,Chormusik,,A-Wn,Mus.Hs.15722,
 600137268,De profundis,,Chormusik,,A-Wn,Mus.Hs.15723,
-600137260,De profundis et Memento (Domine David),,Chormusik,,A-Wn,Mus.Hs.15724/1,duplicated manually
-600137260,De profundis et Memento (Domine David),,Chormusik,,A-Wn,Mus.Hs.15724/2,duplicated manually
+600137260,De profundis et Memento (Domine David),,Chormusik,,A-Wn,Mus.Hs.15724:1,split manually
+600137260,De profundis et Memento (Domine David),,Chormusik,,A-Wn,Mus.Hs.15724:2,split manually
 600138806,"Stabat mater, ovvero sequenza per la messa dei 7 dolori della madonna",,Chormusik,,A-Wn,Mus.Hs.15725,
 600138835,Vesperae de Confessore,,Vespers,,A-Wn,Mus.Hs.15726,
 600138915,Vespers,,Vespers,,A-Wn,Mus.Hs.15727,
@@ -140,24 +140,24 @@ rism_id,title,title_alt,genre,collection,siglum,shelfmark,notes
 600137151,Messa della morte,,Chormusik,,A-Wn,Mus.Hs.16934,
 600137120,Missa Sti. Stephani,,Chormusik,,A-Wn,Mus.Hs.18992,
 600137126,Missa a 4 voci con violini e tromboni in concerti,,Chormusik,,A-Wn,Mus.Hs.19009,
-600137195,"Psalmi vesperales tres, videlicet: ""Cum invocarem"", ""In te Domine speravi"", ""Ecce nunc benedicite"" et canticum Simeonis: ""Nunc dimittis servum tuum""",,Chormusik,,A-Wn,Mus.Hs.19194/1,duplicated manually
-600137195,"Psalmi vesperales tres, videlicet: ""Cum invocarem"", ""In te Domine speravi"", ""Ecce nunc benedicite"" et canticum Simeonis: ""Nunc dimittis servum tuum""",,Chormusik,,A-Wn,Mus.Hs.19194/2,duplicated manually
-600137195,"Psalmi vesperales tres, videlicet: ""Cum invocarem"", ""In te Domine speravi"", ""Ecce nunc benedicite"" et canticum Simeonis: ""Nunc dimittis servum tuum""",,Chormusik,,A-Wn,Mus.Hs.19194/3,duplicated manually
-600137195,"Psalmi vesperales tres, videlicet: ""Cum invocarem"", ""In te Domine speravi"", ""Ecce nunc benedicite"" et canticum Simeonis: ""Nunc dimittis servum tuum""",,Chormusik,,A-Wn,Mus.Hs.19194/4,duplicated manually
+600137195,"Psalmi vesperales tres, videlicet: ""Cum invocarem"", ""In te Domine speravi"", ""Ecce nunc benedicite"" et canticum Simeonis: ""Nunc dimittis servum tuum""",,Chormusik,,A-Wn,Mus.Hs.19194:1,split manually
+600137195,"Psalmi vesperales tres, videlicet: ""Cum invocarem"", ""In te Domine speravi"", ""Ecce nunc benedicite"" et canticum Simeonis: ""Nunc dimittis servum tuum""",,Chormusik,,A-Wn,Mus.Hs.19194:2,split manually
+600137195,"Psalmi vesperales tres, videlicet: ""Cum invocarem"", ""In te Domine speravi"", ""Ecce nunc benedicite"" et canticum Simeonis: ""Nunc dimittis servum tuum""",,Chormusik,,A-Wn,Mus.Hs.19194:3,split manually
+600137195,"Psalmi vesperales tres, videlicet: ""Cum invocarem"", ""In te Domine speravi"", ""Ecce nunc benedicite"" et canticum Simeonis: ""Nunc dimittis servum tuum""",,Chormusik,,A-Wn,Mus.Hs.19194:4,split manually
 600112774,Fugen für die Orgel,,"Solo, Instrumentalmusik",,A-Wn,Mus.Hs.24412,added manually
 600138936,Sonata (in e) à 2 Violini e 2 Tromboni in Concerti,,Chamber music,,A-Wn,Mus.Hs.3741,
 600138962,2 Sonatas,,,yes,A-Wn,Mus.Hs.3742,
-1001310685,2 Sonaten für 2 konzertierende Violinen,,Chamber music,,A-Wn,Mus.Hs.3742/1,duplicated manually
-1001310688,2 Sonaten für 2 konzertierende Violinen,,Chamber music,,A-Wn,Mus.Hs.3742/2,duplicated manually
-600138992,1 Streichquartett und 2 Streichtrios,,Chamber music,,A-Wn,Mus.Hs.3743/1,duplicated manually
-600138992,1 Streichquartett und 2 Streichtrios,,Chamber music,,A-Wn,Mus.Hs.3743/2,duplicated manually
-600138992,1 Streichquartett und 2 Streichtrios,,Chamber music,,A-Wn,Mus.Hs.3743/3,duplicated manually
-600138741,Sonata à 3,,Chamber music,,A-Wn,Mus.Hs.3744/1,duplicated manually
-600138741,Sonata à 3,,Chamber music,,A-Wn,Mus.Hs.3744/2,duplicated manually
-600138741,Sonata à 3,,Chamber music,,A-Wn,Mus.Hs.3744/3,duplicated manually
-600138741,Sonata à 3,,Chamber music,,A-Wn,Mus.Hs.3744/4,duplicated manually
-600138741,Sonata à 3,,Chamber music,,A-Wn,Mus.Hs.3744/5,duplicated manually
-600138741,Sonata à 3,,Chamber music,,A-Wn,Mus.Hs.3744/6,duplicated manually
+1001310685,2 Sonaten für 2 konzertierende Violinen,,Chamber music,,A-Wn,Mus.Hs.3742:1,split manually
+1001310688,2 Sonaten für 2 konzertierende Violinen,,Chamber music,,A-Wn,Mus.Hs.3742:2,split manually
+600138992,1 Streichquartett und 2 Streichtrios,,Chamber music,,A-Wn,Mus.Hs.3743:1,split manually
+600138992,1 Streichquartett und 2 Streichtrios,,Chamber music,,A-Wn,Mus.Hs.3743:2,split manually
+600138992,1 Streichquartett und 2 Streichtrios,,Chamber music,,A-Wn,Mus.Hs.3743:3,split manually
+600138741,Sonata à 3,,Chamber music,,A-Wn,Mus.Hs.3744:1,split manually
+600138741,Sonata à 3,,Chamber music,,A-Wn,Mus.Hs.3744:2,split manually
+600138741,Sonata à 3,,Chamber music,,A-Wn,Mus.Hs.3744:3,split manually
+600138741,Sonata à 3,,Chamber music,,A-Wn,Mus.Hs.3744:4,split manually
+600138741,Sonata à 3,,Chamber music,,A-Wn,Mus.Hs.3744:5,split manually
+600138741,Sonata à 3,,Chamber music,,A-Wn,Mus.Hs.3744:6,split manually
 600251203,Masses,,Masses,,A-Wps,42,
 600251204,Masses,,Masses,,A-Wps,43,
 600500422,Masses,,Masses,,A-Ws,Fonds Doppler 231,
@@ -176,10 +176,10 @@ rism_id,title,title_alt,genre,collection,siglum,shelfmark,notes
 553014641,Sonatas,,Trio sonatas,,CZ-Bu,RKPMus-0450.219,
 553015047,Requiems,,Requiems,,CZ-Bu,RKPMus-0538.954,
 1001041832,Masses,,Masses,,CZ-K,273 K I,added manually
-1001016978,Litanies,,Litanies,,CZ-K,125/1,added manually and shelfmark changed
-1001016978,Sub tuum praesidium,,Antiphons,,CZ-K,125/2,added manually and shelfmark changed
-1001016981,Litanies,,Litanies,,CZ-K,126/1,added manually and shelfmark changed
-1001016981,Sub tuum praesidium,,Antiphons,,CZ-K,126/2,added manually and shelfmark changed
+1001016978,Litanies,,Litanies,,CZ-K,125:1,added manually and shelfmark changed
+1001016978,Sub tuum praesidium,,Antiphons,,CZ-K,125:2,added manually and shelfmark changed
+1001016981,Litanies,,Litanies,,CZ-K,126:1,added manually and shelfmark changed
+1001016981,Sub tuum praesidium,,Antiphons,,CZ-K,126:2,added manually and shelfmark changed
 1001016983,Litanies,,Litanies,,CZ-K,127,added manually
 550041330,Improperium exspectavit,,Motets,,CZ-Nlob,168,siglum changed
 550041331,Masses,,Masses,,CZ-Nlob,525,siglum changed
@@ -223,8 +223,8 @@ rism_id,title,title_alt,genre,collection,siglum,shelfmark,notes
 550248337,Masses,,Masses,,CZ-Pkřiž,XXXV B 3,
 550248439,Masses,,Masses,,CZ-Pkřiž,XXXV B 87,
 550248343,Masses,,Masses,,CZ-Pkřiž,XXXV B 9,
-550266970,Stabat mater,,Motets,,CZ-Pkřiž,XXXV E 137,
-550266971,Tradiderunt me,,Motets,,CZ-Pkřiž,XXXV E 137,
+550266970,Stabat mater,,Motets,,CZ-Pkřiž,XXXV E 137:1,shelfmark changed
+550266971,Tradiderunt me,,Motets,,CZ-Pkřiž,XXXV E 137:2,shelfmark changed
 550266972,Vespers,,Vespers,,CZ-Pkřiž,XXXV E 138,
 550266973,Magnificat,,Canticles,,CZ-Pkřiž,XXXV E 139,
 550266974,Masses,Missa festivalis,Masses,,CZ-Pkřiž,XXXV E 140,
@@ -249,8 +249,8 @@ rism_id,title,title_alt,genre,collection,siglum,shelfmark,notes
 1001062685,Instrumental pieces,,Instrumental pieces,,CZ-Pmua,KZN 38,
 550041329,Benedictus es Domine doce me justificationes tuas,,Offertories,,CZ-Pnm,XLVI B 212,
 551003276,2 Offertories,,,yes,CZ-Pu,59 R 1640,
-551003277,Perfice gressus meos,,Offertories,,CZ-Pu,59 R 1640,
-551003278,Benedictus es Domine doce me justificationes tuas,,Offertories,,CZ-Pu,59 R 1640,
+551003277,Perfice gressus meos,,Offertories,,CZ-Pu,59 R 1640:1,
+551003278,Benedictus es Domine doce me justificationes tuas,,Offertories,,CZ-Pu,59 R 1640:2,
 1001262901,Masses,Missa choralis,Masses,,CZ-Pu,59 R 6209,added manually
 1001262905,Masses,Missa quadragesimalis,Masses,,CZ-Pu,59 R 6210,
 461005200,Symphonies,"Sinfonien, C-Dur",Symphonies,,D-B,55 MS 10052,
@@ -284,21 +284,21 @@ rism_id,title,title_alt,genre,collection,siglum,shelfmark,notes
 1001167079,Masses,,Masses,,D-Dl,Mus.2968-D-511,
 1001167077,Masses,,Masses,,D-Dl,Mus.2968-D-512,
 1001167117,15 Responsories,,Responsories,yes,D-Dl,Mus.2968-D-513,
-1001304114,In monte oliveti,,Responsories,,D-Dl,Mus.2968-D-513/1,
-1001304144,Tristis est anima mea,,Responsories,,D-Dl,Mus.2968-D-513/2,
-1001304149,Ecce vidimus eum non habentem speciem,,Responsories,,D-Dl,Mus.2968-D-513/3,
-1001304151,Amicus meus osculi,,Responsories,,D-Dl,Mus.2968-D-513/4,
-1001304152,Judas mercator pessimus,,Responsories,,D-Dl,Mus.2968-D-513/5,
-1001304467,Unus ex discipulis,,Responsories,,D-Dl,Mus.2968-D-513/6,
-1001304476,Eram quasi agnus innocens,,Responsories,,D-Dl,Mus.2968-D-513/7,
-1001304485,Una hora,,Responsories,,D-Dl,Mus.2968-D-513/8,
-1001312242,Seniores populi,,Responsories,,D-Dl,Mus.2968-D-513/9,
-1001304719,Omnes amici mei,,Responsories,,D-Dl,Mus.2968-D-513/10,
-1001304796,Velum templi,,Responsories,,D-Dl,Mus.2968-D-513/11,
-1001304806,Vinea mea electa,,Responsories,,D-Dl,Mus.2968-D-513/12,
-1001304809,Tamquam ad latronem,,Responsories,,D-Dl,Mus.2968-D-513/13,
-1001304817,Tenebrae factae sunt,,Responsories,,D-Dl,Mus.2968-D-513/14,
-1001304823,Animam meam,,Responsories,,D-Dl,Mus.2968-D-513/15,
+1001304114,In monte oliveti,,Responsories,,D-Dl,Mus.2968-D-513:1,shelfmark changed
+1001304144,Tristis est anima mea,,Responsories,,D-Dl,Mus.2968-D-513:2,shelfmark changed
+1001304149,Ecce vidimus eum non habentem speciem,,Responsories,,D-Dl,Mus.2968-D-513:3,shelfmark changed
+1001304151,Amicus meus osculi,,Responsories,,D-Dl,Mus.2968-D-513:4,shelfmark changed
+1001304152,Judas mercator pessimus,,Responsories,,D-Dl,Mus.2968-D-513:5,shelfmark changed
+1001304467,Unus ex discipulis,,Responsories,,D-Dl,Mus.2968-D-513:6,shelfmark changed
+1001304476,Eram quasi agnus innocens,,Responsories,,D-Dl,Mus.2968-D-513:7,shelfmark changed
+1001304485,Una hora,,Responsories,,D-Dl,Mus.2968-D-513:8,shelfmark changed
+1001312242,Seniores populi,,Responsories,,D-Dl,Mus.2968-D-513:9,shelfmark changed
+1001304719,Omnes amici mei,,Responsories,,D-Dl,Mus.2968-D-513:10,shelfmark changed
+1001304796,Velum templi,,Responsories,,D-Dl,Mus.2968-D-513:11,shelfmark changed
+1001304806,Vinea mea electa,,Responsories,,D-Dl,Mus.2968-D-513:12,shelfmark changed
+1001304809,Tamquam ad latronem,,Responsories,,D-Dl,Mus.2968-D-513:13,shelfmark changed
+1001304817,Tenebrae factae sunt,,Responsories,,D-Dl,Mus.2968-D-513:14,shelfmark changed
+1001304823,Animam meam,,Responsories,,D-Dl,Mus.2968-D-513:15,shelfmark changed
 1001001293,Stabat mater,,Sequences,,D-Dl,Mus.2968-D-514,
 1001167055,Stabat mater,,Sequences,,D-Dl,Mus.2968-D-515,
 1001166553,Credo solenne,,Sacred songs,,D-Dl,Mus.2968-D-516,
@@ -330,8 +330,8 @@ rism_id,title,title_alt,genre,collection,siglum,shelfmark,notes
 453002790,Trios,,Trios (inst.),,D-KA,Mus. Hs. 969,
 201004985,Stabat mater,,Sequences,,D-LEm,PM 7189,
 455003089,Stabat mater,,Sequences,,D-MHjk,ohne Signatur,
-450100635,Trios,Sonatas,Trios (inst.),,D-Mbs,Mus.ms. 8307,
-450100637,Trios,Sonatas,Trios (inst.),,D-Mbs,Mus.ms. 8307,
+450100635,Trios,Sonatas,Trios (inst.),,D-Mbs,Mus.ms. 8307:1,shelfmark changed
+450100637,Trios,Sonatas,Trios (inst.),,D-Mbs,Mus.ms. 8307:2,shelfmark changed
 451022946,Miserere,,Sacred songs,,D-MÜs,SANT Hs 4195,
 451022947,Stabat mater,Il Pianto della madre dolorosa,Sacred songs,,D-MÜs,SANT Hs 4196,
 450007738,Vespers,,Vespers,,D-OB,MO 371,

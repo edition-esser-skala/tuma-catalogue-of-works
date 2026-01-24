@@ -339,7 +339,7 @@
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-G&#xD6;</identifier>
                 <ptr target="https://db.klostermusiksammlungen.at/scores/4740" mimetype="" label="catalogue entry"/>
               </repository>
-              <identifier>2119/6</identifier>
+              <identifier>2119:6</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">

@@ -221,7 +221,7 @@
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wn</identifier>
                 <ptr target="https://data.onb.ac.at/rec/AC14297557" mimetype="" label="catalogue entry"/>
               </repository>
-              <identifier>Mus.Hs.19194/1</identifier>
+              <identifier>Mus.Hs.19194:1</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">

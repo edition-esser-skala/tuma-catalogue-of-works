@@ -183,7 +183,7 @@
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">CZ-Pu</identifier>
               </repository>
-              <identifier>59 R 1640</identifier>
+              <identifier>59 R 1640:2</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
@@ -322,7 +322,7 @@
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">CZ-Pn</identifier>
               </repository>
-              <identifier>X E 235 (2)</identifier>
+              <identifier>X E 235:2</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">

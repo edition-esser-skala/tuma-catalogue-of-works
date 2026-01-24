@@ -257,7 +257,7 @@
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-G&#xD6;</identifier>
                 <ptr target="https://db.klostermusiksammlungen.at/scores/4740" mimetype="" label="catalogue entry"/>
               </repository>
-              <identifier>2119/1</identifier>
+              <identifier>2119:1</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
@@ -329,7 +329,7 @@
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-SEI</identifier>
               </repository>
-              <identifier>E XV 2 a IV/2</identifier>
+              <identifier>E XV 2 a IV:2</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
