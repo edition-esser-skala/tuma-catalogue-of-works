@@ -40,7 +40,8 @@ rism_id,title,title_alt,genre,collection,siglum,shelfmark,manual_intervention
 603000432,Symphonies,,Symphonies,,A-LA,360,
 603002305,Altitudo gloriae Jesu,,Motets,,A-LA,525,
 603002307,Vespers,,Vespers,,A-LA,582,
-603002308,Vespers,,Vespers,,A-LA,583,
+603002308,Vespers,,Vespers,,A-LA,583:1,split manually
+603002308,Vespers,,Vespers,,A-LA,583:2,split manually
 603001570,Masses,,Masses,,A-LA,M 363,
 603001571,Masses,,Masses,,A-LA,M 364,
 603001574,Masses,,Masses,,A-LA,M 397,

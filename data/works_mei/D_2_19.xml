@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
-    <altId type="ark">ark:68748/ft1d223</altId>
+    <altId type="ark">ark:68748/ft1d219</altId>
     <fileDesc>
       <titleStmt>
         <title/>
@@ -40,38 +40,42 @@
     </encodingDesc>
     <workList>
       <work>
-        <identifier label="TumW">D.2.23</identifier>
-        <identifier label="BalTh">B.XI.1</identifier>
-        <identifier label="KliCh">Vespers 5</identifier>
-        <title xml:lang="la">Qui habitat in adiutorio</title>
+        <identifier label="TumW">D.2.19</identifier>
+        <identifier label="BalTh">B.XIII.4/5b</identifier>
+        <identifier label="KliCh">Vespers 22</identifier>
+        <identifier label="VogIn">A.III.21</identifier>
+        <title xml:lang="la">Memento</title>
         <contributor>
           <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118624539">Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma</persName>
           <corpName role=""/>
         </contributor>
         <creation>
-          <date isodate="1742">1742</date>
+          <date isodate="1746">1746</date>
           <geogName role="">Vienna (?)</geogName>
         </creation>
         <history>
           <eventList type="performances">
             <event>
-              <date isodate="1744">1744</date>
+              <date isodate="1753-12-05">1753-12-05</date>
               <geogName role="place">Vienna</geogName>
             </event>
             <event>
-              <date isodate="1744">1744[?]</date>
+              <date isodate="1754-01-29">1754-01-29</date>
               <geogName role="place">Vienna</geogName>
             </event>
             <event>
-              <date isodate="1746">1746</date>
-              <geogName role="place">Vienna</geogName>
-            </event>
-            <event>
-              <date isodate="1747">1747</date>
+              <date isodate="1756-12-25">1756-12-25</date>
               <geogName role="place">Vienna</geogName>
             </event>
           </eventList>
         </history>
+        <biblList>
+          <head>Bibliography</head>
+          <bibl>
+            <genre>reference</genre>
+            <ref targettype="pandoc-citation">@Eybl1996</ref>
+          </bibl>
+        </biblList>
         <classification>
           <termList>
             <term>psalm</term>
@@ -90,6 +94,12 @@
             <history/>
             <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
               <perfResList>
+                <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
+                <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
+                <perfRes codedval="btb" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">trb</perfRes>
+                <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
+                <perfRes codedval="sve" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vlne</perfRes>
+                <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">org</perfRes>
                 <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro">
                   <head xml:lang="en">coro</head>
                   <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en">S</perfRes>
@@ -97,12 +107,6 @@
                   <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en">T</perfRes>
                   <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en">B</perfRes>
                 </perfResList>
-                <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
-                <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
-                <perfRes codedval="btb" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">trb</perfRes>
-                <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
-                <perfRes codedval="sve" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vlne</perfRes>
-                <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">org</perfRes>
               </perfResList>
             </perfMedium>
             <classification>
@@ -112,7 +116,7 @@
             </classification>
             <componentList>
               <expression n="1">
-                <title xml:lang="la">Qui habitat in adiutorio</title>
+                <title xml:lang="la">Memento</title>
                 <contributor>
                   <persName role=""/>
                 </contributor>
@@ -120,29 +124,29 @@
                   <incipText>
                     <p xml:lang="en"/>
                   </incipText>
-                  <graphic targettype="lowres" target="1_qui_habitat"/>
+                  <graphic targettype="lowres" target="1_memento"/>
                 </incip>
                 <tempo>[no tempo]</tempo>
-                <key pname="d" mode="dorian"/>
-                <meter count="3" unit="4"/>
+                <key pname="d" mode="minor"/>
+                <meter sym="common"/>
                 <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
                   <perfResList>
-                    <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_11d8eb28">
-                      <head xml:lang="en">coro</head>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en" n="perfRes_9347ef97">S</perfRes>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en" n="perfRes_304faaab">A</perfRes>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en" n="perfRes_108197dc">T</perfRes>
-                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en" n="perfRes_84f9b989">B</perfRes>
-                    </perfResList>
                     <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
                     <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
                     <perfRes codedval="btb" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">trb</perfRes>
                     <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
                     <perfRes codedval="sve" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vlne</perfRes>
                     <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">org</perfRes>
+                    <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_3503e6cc">
+                      <head xml:lang="en">coro</head>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en" n="perfRes_52a2d962">S</perfRes>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en" n="perfRes_f9bdfac1">A</perfRes>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en" n="perfRes_272d906e">T</perfRes>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en" n="perfRes_5c63dbba">B</perfRes>
+                    </perfResList>
                   </perfResList>
                 </perfMedium>
-                <extent>143 bars</extent>
+                <extent>31 bars</extent>
                 <notesStmt>
                   <annot/>
                 </notesStmt>
@@ -166,7 +170,7 @@
         <pubStmt>
           <publisher/>
           <pubPlace/>
-          <date isodate="1742">1742</date>
+          <date isodate="1746">1746</date>
         </pubStmt>
         <classification>
           <termList>
@@ -180,7 +184,77 @@
         </classification>
         <itemList>
           <item>
-            <identifier/>
+            <identifier label="RISM">600138995</identifier>
+            <physDesc>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="28.5" unit="cm">28.5 (height in cm)</height>
+                <width quantity="23.5" unit="cm">23.5 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <titlePage label="[wrapper]">
+                <p>Memento | &#xE0; | 4 voci in pieno | con | stromenti. | Del Sg: Francesco Tuma | M: D: C: di S: C: M: dell' | Imp:ce Elisabetta vedova | 1746.</p>
+              </titlePage>
+              <extent>19 parts</extent>
+              <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+              </handList>
+              <physMedium>
+                <p>hand-ruled paper, 10 staves (10 mm)</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wn</identifier>
+                <ptr target="https://data.onb.ac.at/rec/AC14297594" mimetype="" label="catalogue entry"/>
+              </repository>
+              <identifier>Mus.Hs.15700</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>S coro (2x; 2, 2), A coro (2x; 2, 2), T coro (2x; 2, 2), B coro (3x; 2, 2, 2), cnto (1), fag (1), trb 1 (1), trb 2 (1), vl 1 (1), vl 2 (1), vlc (1), vlne (1), org (1), mdc (1)</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date isodate="1746">1746</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier label="RISM">600137260</identifier>
             <physDesc>
               <dimensions>
                 <locusGrp>
@@ -192,13 +266,13 @@
                 <extent> lines</extent>
               </dimensions>
               <titlePage label="[wrapper]">
-                <p>[by different hand: Vespern und P&#x17F;almen] | Compieta | &#xE0; | 4 Voci | con Violini | e | Tromboni | in | [added later by Leysser/Ristl: Partes 24.] Conc: | Del Sg: Fran: Tuma | M: D: C: Di S: M: C: | L: Imp:|c|e Elisabetta | Vedova. | L&#x2019;Anno 1742.</p>
+                <p>De profundis et | Memento. | a | 4 voci in conc. | con Violini conc:ti | 2 Tromboni Rip: | e Ripieni | Del Sg: Francesco Tuma | M: D: C: di S. C: M. dell' | Imp:ce Elisabetta vedova. | 1746. | Partes 34.</p>
               </titlePage>
               <extent>18 parts</extent>
               <dimensions/>
               <handList>
-                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Anton Ristl</hand>
                 <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
               </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)</p>
@@ -208,15 +282,16 @@
               <repository>
                 <corpName role=""/>
                 <geogName role=""/>
-                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wgm</identifier>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wn</identifier>
+                <ptr target="https://data.onb.ac.at/rec/AC14297572" mimetype="" label="digitized version"/>
               </repository>
-              <identifier>I 17565:3</identifier>
+              <identifier>Mus.Hs.15724:2</identifier>
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>S solo and coro (11), A solo and coro (11), T solo and coro (11), B solo and coro (11), S coro (8), A coro (8), T coro (8), B coro (8), cnto (5), fag (5), trb 1 (6), trb 2 (6), vl 1 (8), vl 2 (8), vlc (8), vlne (8), org (11), mdc (9)</p>
-                <p>in the mdc part, <rend fontstyle="italic">Qui habitat</rend> and the remaining movements are probably in the hand of Leysser; all remaining parts by Ristl</p>
-                <p>This manuscript combines six works into a completorium: <rend fontstyle="italic">Cum invocarem</rend> TumW D.2.5, <rend fontstyle="italic">In te Domine speravi</rend> TumW D.2.12, <rend fontstyle="italic">Qui habitat in adiutorio</rend> TumW D.2.23, <rend fontstyle="italic">Ecce nunc benedicite</rend> TumW D.2.11, <rend fontstyle="italic">Te lucis ante terminum</rend> TumW C.2.5, and <rend fontstyle="italic">Nunc dimittis</rend> TumW D.4.4.</p>
+                <p>S solo and coro (3), A solo and coro (3), T solo and coro (3), B solo and coro (3), S coro (3), A coro (3), T coro (3), B coro (3), cnto (2), fag (2), trb 1 (2), trb 2 (2), vl 1 (2), vl 2 (2), vlc (2), vlne (2), org (3), mdc (2)</p>
+                <p>S coro, A coro, T coro, and vl 2 by unidentified hand, remaining parts by Leysser</p>
+                <p>This manuscript comprises two works, the present work and the psalm <rend fontstyle="italic">De profundis</rend> TumW D.2.6.</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
