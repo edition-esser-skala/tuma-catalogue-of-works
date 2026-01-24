@@ -2,17 +2,19 @@
 \include "header.ly"
 
 notes = \relative c' {
-  \clef soprano
-  \key c \major \time 4/4 \tempoMarkup "Andante" \autoBeamOff
-  c'4.^\partSc c8 d d d4
-  c8 c c c c4 f
-  h,2 r4 h8 h
+  \clef tenor
+  \key f \major \time 4/4 \autoBeamOff \tempoMarkup "Larghetto"
+  c4.^\partTc d8 b4. c8
+  a4. b8 g4. a8
+  f4. g8 \clef soprano c'4.^\partSc d8
+  b4. c8 a4. b8
 }
 
 text = \lyricmode {
-  Ky -- ri -- e e -- lei --
-  son, Chri -- ste e -- lei -- _
-  son, Chri -- ste
+  Ky -- ri -- e e --
+  lei -- _ son, e --
+  lei -- _ Ky -- ri --
+  e e -- lei -- \hy
 }
 
 \score {

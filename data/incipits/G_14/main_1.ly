@@ -2,19 +2,20 @@
 \include "header.ly"
 
 notes = \relative c' {
-  \clef soprano
-  \key b \major \time 4/4 \autoBeamOff \tempoMarkup "Adagio"
-  b'4.^\partSc b8 b4 b
-  h2 c4 c
-  a4. a8 b4 b8 b
-  b4 es a, r
+  \clef treble
+  \key c \major \time 3/2 \tempoMarkup "[no tempo]" 
+  g''2^\partVi e4 f g2
+  g gis4 a fis \hA gis \gotoBar "16"
+  \clef soprano \autoBeamOff e2.^\partSs e4 e2
+  d d1
+  c c2
 }
 
 text = \lyricmode {
-  Ky -- ri -- e e --
-  lei -- son, Chri --
-  ste e -- lei -- son, e --
-  lei -- _ son,
+  \skips 9
+  Ky -- ri -- e
+  e -- lei --
+  son, "e -"
 }
 
 \score {

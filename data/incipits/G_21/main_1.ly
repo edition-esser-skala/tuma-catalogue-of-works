@@ -2,17 +2,18 @@
 \include "header.ly"
 
 notes = \relative c' {
-  \clef treble
-  \key h \minor \time 4/4 \tempoMarkup "Adagio" 
-  fis'8^\partVi fis fis16 h ais h e,2
-  e8 e e16 cis' h cis dis,2 \gotoBar "6"
-  \clef soprano \autoBeamOff d4.^\partSc d8 cis2
-  cis dis
-  e4
+  \clef soprano
+  \key c \major \time 4/4 \tempoMarkup "Adagio" \autoBeamOff
+  e'2.^\partSc e4
+  e2 r
+  e2 e4 d8 d
+  d4 d d2
+  c c4. c8
+  c2. c4
+  c h
 }
 
 text = \lyricmode {
-  \skips 14
   "[Ky" -- ri -- "e]"
 }
 

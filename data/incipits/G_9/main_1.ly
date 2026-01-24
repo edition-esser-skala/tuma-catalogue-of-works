@@ -2,17 +2,18 @@
 \include "header.ly"
 
 notes = \relative c' {
-  \clef alto
-  \key d \dorian \time 4/4 \tempoMarkup "Andante" \autoBeamOff
-  a'4.^\partAs a8 f e16[ d] b'4
-  a4. a8 g[ a16 b] a8[ g]
-  f f e4 f4. g8
+  \clef treble
+  \key e \minor \time 3/4 \tempoMarkup "Larghetto"
+  e'4^\partVi c h
+  r8 c h c \grace c h4 \gotoBar "11"
+  \clef soprano \autoBeamOff e4^\partSc c h
+  r8 c h[ c] h4
 }
 
 text = \lyricmode {
-  Ky -- ri -- e e -- lei --
-  son, e -- lei -- _
-  son, e -- lei -- son, "e -"
+  \skips 7
+  Ky -- ri -- e
+  e -- lei -- son,
 }
 
 \score {
@@ -20,4 +21,5 @@ text = \lyricmode {
     \new Voice = "incipit" { \notes }
     \new Lyrics \lyricsto "incipit" { \text }
   >>
+  \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
 }

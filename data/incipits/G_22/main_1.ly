@@ -2,19 +2,18 @@
 \include "header.ly"
 
 notes = \relative c' {
-  \clef soprano
-  \key h \minor \time 3/2 \tempoMarkup "Larghetto"
-  h'2.^\partSc fis4 fis2
-  d'2. h4 h2
-  c h ais
-  h r r
+  \clef treble
+  \key h \minor \time 4/4 \tempoMarkup "Adagio" 
+  fis'8^\partVi fis fis16 h ais h e,2
+  e8 e e16 cis' h cis dis,2 \gotoBar "6"
+  \clef soprano \autoBeamOff d4.^\partSc d8 cis2
+  cis dis
+  e4
 }
 
 text = \lyricmode {
-  Ky -- ri -- e,
-  Ky -- ri -- e
-  e -- lei -- _
-  son,
+  \skips 14
+  "[Ky" -- ri -- "e]"
 }
 
 \score {
@@ -22,5 +21,4 @@ text = \lyricmode {
     \new Voice = "incipit" { \notes }
     \new Lyrics \lyricsto "incipit" { \text }
   >>
-  \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
 }

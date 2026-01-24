@@ -3,17 +3,17 @@
 
 notes = \relative c' {
   \clef treble
-  \key e \minor \time 3/4 \tempoMarkup "Larghetto"
-  e'4^\partVi c h
-  r8 c h c \grace c h4 \gotoBar "11"
-  \clef soprano \autoBeamOff e4^\partSc c h
-  r8 c h[ c] h4
+  \key a \major \time 4/4 \tempoMarkup "Allegro" 
+  a''8^\partVi a,16 h cis8 d e16 cis a8~ a h
+  cis4 cis8 d e fis16 gis a8 d,
+  cis4 h \clef soprano \autoBeamOff e8^\partSs a,16[ h] cis8 d
+  e16[ cis] a4
 }
 
 text = \lyricmode {
-  \skips 7
-  Ky -- ri -- e
-  e -- lei -- son,
+  \skips 19
+  Ky -- ri -- e e -- 
+  lei -- son,
 }
 
 \score {
@@ -21,5 +21,4 @@ text = \lyricmode {
     \new Voice = "incipit" { \notes }
     \new Lyrics \lyricsto "incipit" { \text }
   >>
-  \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
 }
