@@ -7,10 +7,14 @@ notes = \relative c' {
   d'4.^\partSc d8 b es d c
   d g, c2 b8[ a]
   g[ a] b4 a2
+  g4
 }
 
 text = \lyricmode {
-  Al -- ma
+  Al -- ma Re -- dem -- pto -- ris
+  Ma -- ter, Re -- dem --
+  pto -- ris Ma --
+  ter,
 }
 
 \score {

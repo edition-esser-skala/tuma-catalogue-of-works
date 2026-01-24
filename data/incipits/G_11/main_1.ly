@@ -6,12 +6,16 @@ notes = \relative c' {
   \key e \minor \time 3/2 \tempoMarkup "Andante" \autoBeamOff
   h'2.^\partSs h4 h2
   h h a
-  h r r
+  h \clef bass h,,^\partBs e
+  a, h1
+  e2
 }
 
 text = \lyricmode {
   Ky -- ri -- e
   e -- lei -- _
+  son, Chri -- ste
+  e -- lei --
   son,
 }
 

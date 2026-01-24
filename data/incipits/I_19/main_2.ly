@@ -4,7 +4,7 @@
 notes = \relative c' {
   \clef tenor
   \key a \major \time 3/8 \tempoMarkup "Presto capriccio"
-  r8 e^\part "vlc" e
+  r8^\part "vlc" e e
   cis d16 e fis8
   h, e e
   a, a'4~
