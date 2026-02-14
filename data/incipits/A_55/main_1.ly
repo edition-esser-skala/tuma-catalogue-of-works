@@ -6,7 +6,7 @@ notes = \relative c' {
   \key c \major \time 4/4 \autoBeamOff \tempoMarkup "Adagio"
   c'4.^\partSc c8 c4 r
   r2 a4. g16[ f]
-  g4. f16[ e] a8 a a[ ais]
+  g4. f16[ e] f8 f f[ fis]
 }
 
 text = \lyricmode {
