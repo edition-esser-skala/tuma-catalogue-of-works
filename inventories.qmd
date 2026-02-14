@@ -65,6 +65,19 @@ print_inventory <- function(ref, pattern, cols, return_tibble = FALSE) {
 
 ## Historic
 
+### @BlizkoviceInv
+
+```{r Blizkovice}
+#| echo: false
+#| output: asis
+print_inventory(
+  "BlizkoviceInv",
+  pattern = "p. (\\w+), no. (\\w+)",
+  cols = c("p.", "no.")
+)
+```
+
+
 ### @BrtniceInv
 
 ```{r Brtnice}

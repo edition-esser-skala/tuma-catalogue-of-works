@@ -84,6 +84,10 @@
           </bibl>
           <bibl>
             <genre>inventory</genre>
+            <ref targettype="pandoc-citation">@BlizkoviceInv [p. 4, no. XIV]</ref>
+          </bibl>
+          <bibl>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@BrtniceInv [p. 109, no. L4]</ref>
           </bibl>
         </biblList>
