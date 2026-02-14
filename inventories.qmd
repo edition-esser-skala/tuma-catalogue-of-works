@@ -431,7 +431,7 @@ table_data <-
 
 if (any(table_data$is_error)) {
   print(table_data %>% filter(is_error))
-  error("Problems found in A-H inventory")
+  error("Problems found in A-KN inventory")
 }
 
 n_works_a <- 
