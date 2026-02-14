@@ -430,15 +430,15 @@
                 <extent> lines</extent>
               </dimensions>
               <titlePage label="[wrapper]">
-                <p>Litaniae Lauretanae. | a | Canto. Alto. | Tenore. Basso | Violinis Duobus | Con Organo | Del Sig. Francesco Tuma. Maestro | di Capella della Imperatrice Elisabette. | Ex Rebus | Antonij Ignatij Joannis Krimer</p>
+                <p>Litani&#xE6; Lauretan&#xE6; | a | Canto. Alto. | Tenore. Ba&#x17F;so | Violinis Duobus | Con Organo | Del Sig. Francesco Tuma. Maestro | di Capella della Imperatrice Elisabette. | Ex Rebus | Antonii Ignatii Joannis Krimer</p>
               </titlePage>
               <extent>7 parts</extent>
               <dimensions/>
               <handList>
-                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">Anton&#xED;n Ign&#xE1;c Jan Krimer</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Anton&#xED;n Ign&#xE1;c Jan Krimer</hand>
               </handList>
               <physMedium>
-                <p>hand-ruled paper</p>
+                <p>hand-ruled paper, 12 staves (10 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -451,8 +451,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>S, A, T, B, vl 1, 2, org</p>
-                <p>catalogued according to RISM entry</p>
+                <p>S solo and coro (2), A solo and coro (2), T solo and coro (2), B solo and coro (2), vl 1 (2), vl 2 (2), org (2)</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
