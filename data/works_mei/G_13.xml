@@ -90,6 +90,10 @@
             <genre>inventory</genre>
             <ref targettype="pandoc-citation">@BrtniceInv [p. 109, no. L4]</ref>
           </bibl>
+          <bibl>
+            <genre>inventory</genre>
+            <ref targettype="pandoc-citation">BrnoSvJakubaInv[p. 61, no. 44]</ref>
+          </bibl>
         </biblList>
         <classification>
           <termList>

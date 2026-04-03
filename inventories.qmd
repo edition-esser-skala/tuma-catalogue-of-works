@@ -78,6 +78,21 @@ print_inventory(
 ```
 
 
+### @BrnoSvJakubaInv
+
+see @Ratolistkova2018 for details on the inventory
+
+```{r Brno Sv Jakuba}
+#| echo: false
+#| output: asis
+print_inventory(
+  "BrnoSvJakubaInv",
+  pattern = "p. (\\w+), no. (\\w+)",
+  cols = c("p.", "no.")
+)
+```
+
+
 ### @BrtniceInv
 
 ```{r Brtnice}
