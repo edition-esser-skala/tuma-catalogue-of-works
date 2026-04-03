@@ -292,19 +292,21 @@
                 <locusGrp>
                   <locus/>
                 </locusGrp>
+                <height quantity="31" unit="cm">31 (height in cm)</height>
+                <width quantity="23" unit="cm">23 (height in cm)</width>
                 <term/>
                 <extent> lines</extent>
               </dimensions>
               <titlePage label="[wrapper]">
-                <p>No. 5. Partita &#xE0; 3. Del Sg. Thuma.</p>
+                <p>N: 5. | Partita &#xE0; 3. | Del Sig: Thuma. | [incipit]</p>
               </titlePage>
               <extent>3 parts</extent>
               <dimensions/>
               <handList>
-                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
               </handList>
               <physMedium>
-                <p>hand-ruled paper</p>
+                <p>hand-ruled paper, 10 staves (10 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -317,8 +319,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>vl 1, vl 2 , vlc</p>
-                <p>catalogued according to @Ball1900</p>
+                <p>vl 1 (4), vl 2 (4), vlc (4)</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -371,7 +372,7 @@
               <extent>15 p.</extent>
               <dimensions/>
               <handList>
-                <hand medium="black ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
               </handList>
               <physMedium>
                 <p>printed staff paper, 16 staves (9 mm)</p>

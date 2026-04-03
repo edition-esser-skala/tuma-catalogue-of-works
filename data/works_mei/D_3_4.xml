@@ -712,7 +712,28 @@
         <itemList>
           <item>
             <identifier/>
-            <physDesc/>
+            <physDesc>
+              <extent>17 parts</extent>
+              <titlePage label="[wrapper]">
+                <p>[first line by different hand:] al Barone du Beine | [shelfmarks] | # | Miserere. | &#xE2; | Soprano. | Alto | Tenore | Ba&#x17F;so. } in Conc: | Violino Primo Conc: | Violino Primo Rip: | Violino 2:|d|o | Trombone Imo Conc: | Trombone 2:|d|o | Con | Organo | Violoncello oblig: | Violone | 4:|t|r|o e Ripp: | Parti 17. | Del Sig: Franc: Thuma | M: D: C: d: S: M: L&#x2019;Imp: | Elisabetta</p>
+              </titlePage>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="30.5" unit="cm">30.5 (height in cm)</height>
+                <width quantity="23" unit="cm">23 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <dimensions/>
+              <handList>
+                <hand medium="black ink" type="main">unidentified</hand>
+              </handList>
+              <physMedium>
+                <p>hand-ruled paper, 10 staves (10 mm)</p>
+              </physMedium>
+            </physDesc>
             <physLoc>
               <repository>
                 <corpName role=""/>
@@ -721,6 +742,14 @@
               </repository>
               <identifier>I 1709</identifier>
             </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>S solo (7), A solo (7), T solo (8), B solo (7), S coro (5), A coro (6), T coro (6), B coro (5), org (11), vl 1 (2x; 8, 8), vl 2 (2x; 7, 7), vlne (10), vlc (15), trb 1 (7), trb 2 (6)</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
             <componentList/>
           </item>
         </itemList>

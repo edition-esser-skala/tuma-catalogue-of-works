@@ -290,13 +290,22 @@
             <physDesc>
               <extent>3 parts</extent>
               <titlePage label="[wrapper]">
-                <p>Sinfonia a tre. Violino Primo, Violino Secundo, e Basso. Authore Signor Tuma</p>
+                <p>[in ink, original:] Sinfonia &#xE0; 3tre | Violino Primo | Violino Secondo | &#xE8; | Pa&#x17F;so [sic!] | Authore Signor Thuma<lb/>[top left corner, in blue pencil, by later hand:] 8.5. | 28 | Fdur</p>
               </titlePage>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="32" unit="cm">32 (height in cm)</height>
+                <width quantity="22" unit="cm">22 (width in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
               <handList>
-                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
               </handList>
               <physMedium>
-                <p>hand-ruled paper</p>
+                <p>hand-ruled paper, 12 staves (12 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -309,8 +318,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>vl 1, vl 2, bc</p>
-                <p>catalogued according to @Ball1900</p>
+                <p>vl 1 (4), vl 2 (4), b (4)</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -503,7 +511,7 @@
               <extent>3 parts</extent>
               <dimensions/>
               <handList>
-                <hand medium="black ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
               </handList>
               <physMedium>
                 <p>hand ruled paper, 12 staves (9 mm)</p>

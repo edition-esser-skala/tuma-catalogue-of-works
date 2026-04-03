@@ -225,8 +225,7 @@
             <identifier/>
             <physDesc>
               <handList>
-                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black pen" type="main">Herbert Vogg<persName role=""/>
-                                </hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black pen" type="main">Herbert Vogg<persName role=""/></hand>
               </handList>
             </physDesc>
             <physLoc>
@@ -268,7 +267,28 @@
         <itemList>
           <item>
             <identifier/>
-            <physDesc/>
+            <physDesc>
+              <extent>4 parts</extent>
+              <titlePage label="[wrapper]">
+                <p>Sinfonia &#xE0; 4|t|r|o. | [in blue pencil:] Gdur | Del Sig Thuma. | [incipit]<lb/>[top left corner, blue pencil:] O.S. | 31</p>
+              </titlePage>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="31" unit="cm">31 (height in cm)</height>
+                <width quantity="22.5" unit="cm">22.5 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <dimensions/>
+              <handList>
+                <hand medium="brown ink" type="main">unidentified</hand>
+              </handList>
+              <physMedium>
+                <p>hand-ruled paper, 10 staves (10 mm)</p>
+              </physMedium>
+            </physDesc>
             <physLoc>
               <repository>
                 <corpName role=""/>
@@ -277,6 +297,14 @@
               </repository>
               <identifier>IX 5485</identifier>
             </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>vl 1 (4), vl 2 (4), vla (4), vlne (4)</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
             <componentList/>
           </item>
         </itemList>

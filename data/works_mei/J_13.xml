@@ -335,14 +335,23 @@
             <identifier/>
             <physDesc>
               <extent>3 parts</extent>
-              <titlePage label="[wrapper]">
-                <p>Tuma, Sinfonia Lamento</p>
+              <titlePage label="[modern wrapper]">
+                <p>[in blue pencil:] 6.5. | 26 | Tuma | Sinfonia Lamento</p>
               </titlePage>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="33.5" unit="cm">33.5 (height in cm)</height>
+                <width quantity="22" unit="cm">22 (width in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
               <handList>
-                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
               </handList>
               <physMedium>
-                <p>hand-ruled paper</p>
+                <p>hand-ruled paper, 12 staves (11 mm)</p>
               </physMedium>
             </physDesc>
             <physLoc>
@@ -355,8 +364,7 @@
             </physLoc>
             <notesStmt>
               <annot type="source_description">
-                <p>vl 1, vl 2, b</p>
-                <p>catalogued according to @Ball1900</p>
+                <p>vl 1 (2), vl 2 (2), b (2)</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -409,7 +417,7 @@
               <extent>3 parts</extent>
               <dimensions/>
               <handList>
-                <hand medium="brown ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
               </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (12 mm)</p>
