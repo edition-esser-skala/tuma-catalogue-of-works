@@ -63,6 +63,10 @@
           </bibl>
           <bibl>
             <genre>inventory</genre>
+            <ref targettype="pandoc-citation">Lang1978 [p. 717]</ref>
+          </bibl>
+          <bibl>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@Sherman2001 [p. 111, no. 1]</ref>
           </bibl>
           <bibl>

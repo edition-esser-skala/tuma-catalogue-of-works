@@ -55,6 +55,10 @@
           <head>Bibliography</head>
           <bibl>
             <genre>inventory</genre>
+            <ref targettype="pandoc-citation">Lang1978 [p. 718]</ref>
+          </bibl>
+          <bibl>
+            <genre>inventory</genre>
             <ref targettype="pandoc-citation">@Sherman2001 [p. 263, no. 5]</ref>
           </bibl>
         </biblList>
