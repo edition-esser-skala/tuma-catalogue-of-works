@@ -3,12 +3,14 @@
 
 notes = \relative c' {
   \clef soprano
-  \key c \major \time 2/2 \autoBeamOff
+  \key c \major \time 2/2 \autoBeamOff \tempoMarkup "Alla capella · Tempo moderato"
   c'1~^\partSc
   c2 c
   c1
   c2 c
   c h
+  e e
+  d4 c d2
 }
 
 text = \lyricmode {
@@ -17,6 +19,8 @@ text = \lyricmode {
   di --
   vit de
   tem -- plo
+  san -- cto
+  su -- _ o
 }
 
 \score {
