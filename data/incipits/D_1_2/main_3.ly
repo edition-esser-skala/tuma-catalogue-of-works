@@ -3,7 +3,7 @@
 
 notes = \relative c' {
   \clef tenor
-  \key e \minor \time 4/4 \autoBeamOff
+  \key e \minor \time 4/4 \autoBeamOff \tempoMarkup "[no tempo]"
   r8^\partTs h e4~ e8[ d16 e] c8. c16
   h8 h g e e' fis16 cis dis4
   e r r2
@@ -12,7 +12,7 @@ notes = \relative c' {
 text = \lyricmode {
   Lae -- ta -- _ tus
   sum in his quae di -- cta sunt mi --
-  hi
+  hi.
 }
 
 \score {
