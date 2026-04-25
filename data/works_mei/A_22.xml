@@ -321,8 +321,7 @@
                     <extent>59 bars</extent>
                     <notesStmt>
                       <annot>
-                        <p>bars 1&#x2013;7: <rend fontstyle="italic">Adagio</rend>
-                                                </p>
+                        <p>bars 1&#x2013;7: <rend fontstyle="italic">Adagio</rend></p>
                       </annot>
                     </notesStmt>
                     <componentList/>
@@ -398,8 +397,7 @@
                     <extent>58 bars</extent>
                     <notesStmt>
                       <annot>
-                        <p>bars 1&#x2013;3: <rend fontstyle="italic">Adagio</rend>
-                                                </p>
+                        <p>bars 1&#x2013;3: <rend fontstyle="italic">Adagio</rend></p>
                       </annot>
                     </notesStmt>
                     <componentList/>
@@ -1950,6 +1948,7 @@
               <dimensions/>
               <handList>
                 <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+                <hand medium="black ink" type="title">Copyist Ottobeuren 1</hand>
               </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (11 mm)</p>

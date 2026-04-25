@@ -614,8 +614,7 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (3), A solo and coro (3), T solo and coro (3), B solo and coro (3), clno 1 (1), clno 2 (1), vl 1 (2), vl 2 (2), vlne (3), org (2)</p>
-                <p>lacks <rend fontstyle="italic">Lauda Jerusalem</rend>
-                                </p>
+                <p>lacks <rend fontstyle="italic">Lauda Jerusalem</rend></p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -683,8 +682,7 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (1), A solo and coro (1), T solo and coro (1), B solo and coro (1), clno 1 (1), clno 2 (1), vl 1 (1), vl 2 (1), vlne (1), org (1)</p>
-                <p>only <rend fontstyle="italic">Dixit Dominus</rend>
-                                </p>
+                <p>only <rend fontstyle="italic">Dixit Dominus</rend></p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -893,8 +891,7 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (4), A solo and coro (4), T solo and coro (4), B solo and coro (4), vlne (3), org (3)</p>
-                <p>lacks <rend fontstyle="italic">Lauda Jerusalem</rend>
-                                </p>
+                <p>lacks <rend fontstyle="italic">Lauda Jerusalem</rend></p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -1084,7 +1081,7 @@
               </dimensions>
               <dimensions/>
               <handList>
-                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Copyist Ottobeuren 1</hand>
               </handList>
               <physMedium>
                 <p>hand-ruled paper, 10 staves (10 mm)<lb/>vlne part: 28 x 20.5 cm</p>
