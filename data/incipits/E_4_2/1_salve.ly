@@ -4,83 +4,84 @@
 ViolinoI = {
   \relative c' {
     \clef treble
-    \key a \minor \time 3/4 \tempoMarkup "Larghetto"
-    R2.*6
-    r4 r a'~
-    a8( gis) c( h) dis,( e)
-    c'( h) d( c) dis,( e)
+    \key es \major \time 3/4 \tempoMarkup "Andante"
+    es'4( b8) r r4
+    es( g,8) r r4
+    es' f,8( c') b( as)
+    g32 f es16 r8 r4 r \gotoBar "27"
+    r4 r8 g'4\p as16 b
+    es,,4 r8 es'4 f16 g
+    c,,4 c' d\trill
+    es8 r r4 r
   }
 }
 
 ViolinoII = {
   \relative c' {
     \clef treble
-    \key a \minor \time 3/4 \tempoMarkup "Larghetto"
-    R2.*7
-    e4 r r
-    a8( gis) r4 r
+    \key es \major \time 3/4 \tempoMarkup "Andante"
+    g'4 r r
+    g r r
+    f2 d4
+    es8 r r4 r \gotoBar "27"
+    r r8 es'4\p f16( g)
+    g,4 r8 c4 d16( es)
+    f,2.\trill
+    g8 r r4 r
+  }
+}
+
+Viola = {
+  \relative c' {
+    \clef alto
+    \key es \major \time 3/4 \tempoMarkup "Andante"
+    b4 r8 g' g as16( b)
+    es,4 r8 es es f16( g)
+    c,4 r r
+    r8 b es16-! es( f g) f-! f( g as) \gotoBar "27"
+    R2.*3
+    r8 b, es16-! es( f g) f-! f( g as)
   }
 }
 
 Soprano = {
   \relative c' {
     \clef soprano
-    \key a \minor \time 3/4 \autoBeamOff \tempoMarkup "Larghetto"
-    r4 e'2~^\solo
-    e2.~
-    e4 d8[ c] h[ a]
-    gis[ fis] e4 a
-    b8[ gis] a e' c a
-    b gis a4 d~
-    d8 e c2\trill
-    h4 r r
-    R2.
+    \key es \major \time 3/4 \tempoMarkup "Andante" \autoBeamOff
+    R2.*4 \gotoBar "27"
+    es'4^\solo b r
+    es g, r
+    es' f,8[ c'] b[ as]
+    g[ f] es4 r
   }
 }
 
 SopranoLyrics = \lyricmode {
-  Sal --
-
-  ve Re --
-  gi -- na, ma --
-  _ ter mi -- se -- ri --
-  cor -- di -- ae, sal --
-  ve, sal --
-  ve,
+  Sal -- ve,
+  sal -- ve,
+  sal -- ve Re --
+  gi -- na,
 }
 
 Organo = {
   \relative c {
     \clef bass
-    \key a \minor \time 3/4 \tempoMarkup "Larghetto"
-    \mvTr a'8 gis c a gis a
-    c h a g f e
-    f2 f4
-    e2 c4
-    d c r
-    d c h8 a
-    gis4 a8 h c d
-    e4 r r
-    e r r
+    \key es \major \time 3/4 \tempoMarkup "Andante"
+    \mvTr es4 r8 es es d
+    c4 r8 c c b
+    as2 b4
+    es r d \gotoBar "27"
+    es4 r8 es es d
+    c4 r8 c c b
+    as2 b4
+    es r d
   }
-}
-
-BassFigures = \figuremode {
-  r2.
-  r
-  <7>4 <6>2
-  <_+> <6>4
-  <6-> <6>2
-  <6->4 <6>2
-  r2.
-  <4>8 <_+> r2
-  <6 4>8 <5 _+> r2
 }
 
 \score {
   <<
     \new StaffGroup <<
-      \new GrandStaff <<
+      \new GrandStaff \with { \smallGroupDistance } <<
         \set GrandStaff.instrumentName = "vl"
         \new Staff {
           \set Staff.instrumentName = "1"
@@ -91,6 +92,10 @@ BassFigures = \figuremode {
           \ViolinoII
         }
       >>
+      \new Staff {
+        \set Staff.instrumentName = "vla"
+        \Viola
+      }
     >>
     \new ChoirStaff <<
       \new Staff {
@@ -105,6 +110,5 @@ BassFigures = \figuremode {
         \Organo
       }
     >>
-    \new FiguredBass { \BassFigures }
   >>
 }

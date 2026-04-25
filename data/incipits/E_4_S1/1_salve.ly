@@ -4,77 +4,66 @@
 ViolinoI = {
   \relative c' {
     \clef treble
-    \key a \minor \time 3/4 \tempoMarkup "Larghetto"
-    R2.*6
-    r4 r a'~
-    a8( gis) c( h) dis,( e)
-    c'( h) d( c) dis,( e)
+    \key es \major \time 4/4 \tempoMarkup "Adagio"
+    r8 b'\p b b es2
+    r8 b d f as2
+    g8 b-!\fp g,( b) r as'-!\fp f,( as) \gotoBar "6"
+    R1
+    r2 r8 b'-!\fp g,( b)
+    r as'-!\fp f,( as) g4 r
   }
 }
 
 ViolinoII = {
   \relative c' {
     \clef treble
-    \key a \minor \time 3/4 \tempoMarkup "Larghetto"
-    R2.*7
-    e4 r r
-    a8( gis) r4 r
+    \key es \major \time 4/4 \tempoMarkup "Adagio"
+    r2 r8 g'\p b c
+    d4 r r8 d f d
+    es g-!\fp es,( g) r f'-!\fp d,( f) \gotoBar "6"
+    R1
+    r2 r8 g'-!\fp es,( g)
+    r f'-!\fp d,( f) es4 r
   }
 }
 
 Soprano = {
   \relative c' {
     \clef soprano
-    \key a \minor \time 3/4 \autoBeamOff \tempoMarkup "Larghetto"
-    r4 e'2~^\solo
-    e2.~
-    e4 d8[ c] h[ a]
-    gis[ fis] e4 a
-    b8[ gis] a e' c a
-    b gis a4 d~
-    d8 e c2\trill
-    h4 r r
-    R2.
+    \key es \major \time 4/4 \tempoMarkup "Adagio" \autoBeamOff
+    R1*3 \gotoBar "6"
+    b'4~^\solo b16[ g] f[ es] c'2
+    b4 r b2
+    \grace b4 as2\trill g8 d' es g,
   }
 }
 
 SopranoLyrics = \lyricmode {
-  Sal --
-
-  ve Re --
-  gi -- na, ma --
-  _ ter mi -- se -- ri --
-  cor -- di -- ae, sal --
+  Sal -- ve, sal --
   ve, sal --
-  ve,
+  _ ve, sal -- ve "Re -"
 }
 
 Organo = {
   \relative c {
     \clef bass
-    \key a \minor \time 3/4 \tempoMarkup "Larghetto"
-    \mvTr a'8 gis c a gis a
-    c h a g f e
-    f2 f4
-    e2 c4
-    d c r
-    d c h8 a
-    gis4 a8 h c d
-    e4 r r
-    e r r
+    \key es \major \time 4/4 \tempoMarkup "Adagio"
+    \mvTr es4\p-\solo r r8 es g as
+    b4 r r8 b, d b
+    es4\f r b' r \gotoBar "6"
+    r8 es,\p es es r as as, as'
+    g4 r g r
+    d r es8 f g es
   }
 }
 
 BassFigures = \figuremode {
-  r2.
+  r2. <6>4
+  r2 r8 <7>4.
+  r2 q
   r
-  <7>4 <6>2
-  <_+> <6>4
-  <6-> <6>2
-  <6->4 <6>2
-  r2.
-  <4>8 <_+> r2
-  <6 4>8 <5 _+> r2
+  r
+  <6 5>1
 }
 
 \score {
