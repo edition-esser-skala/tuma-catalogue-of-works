@@ -8,13 +8,23 @@ notes = \relative c' {
   a2 a
   b a
   b1
+  a2 c
+  c1
+  c2 c
+  c h
+  c r
 }
 
 text = \lyricmode {
   In
   mon -- te
-  o -- li --
-  "ve -"
+  O -- li --
+  ve --
+  ti o --
+  ra --
+  vit ad
+  Pa -- _
+  trem:
 }
 
 \score {

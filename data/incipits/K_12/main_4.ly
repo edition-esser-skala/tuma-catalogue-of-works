@@ -8,6 +8,8 @@ notes = \relative c' {
   b,,2.
   c'4 f, c'
   d b r
+  d8 f f2
+  c8 f f2
 }
 
 \score {
