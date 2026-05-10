@@ -3,15 +3,15 @@
 
 notes = \relative c' {
   \clef treble
-  \key f \major \time 3/2 \tempoMarkup "Largo"
-  f2^\partVi c'4 a g f
-  e c e f g a
-  b c8 d \grace d4 c2. b4
-  \tuplet 3/2 2 { a g f } f2
+  \key d \dorian \time 4/4 \tempoMarkup "Adagio"
+  d'2^\partVii \fC e~^\partVi
+  e16 d a16. g32 f16. d32 f'16. d32 g2~
+  g16 f c16. b32 a16. f32 a'16. f32 b2
 }
 
 \score {
   <<
     \new Voice = "incipit" { \notes }
   >>
+  \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
 }
