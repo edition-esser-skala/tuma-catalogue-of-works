@@ -6,7 +6,7 @@ notes = \relative c' {
   \key es \major \time 4/4 \tempoMarkup "Allegro assai"
   \partial 8 es'8^\partVi b' es, f, d' es es, r f'
   g es g a b b, r b'
-  as g a h c c, r c'
+  a f \hA a h c c, r c'
 }
 
 \score {

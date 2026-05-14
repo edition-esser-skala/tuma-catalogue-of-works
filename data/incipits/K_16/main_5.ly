@@ -7,11 +7,12 @@ notes = \relative c' {
   \partial 4 es'8.^\partVi g,16 g8 f f4 as
   \grace as g2 b'8 es,16 d
   d8 c c4 c'
-  \grace es,4 d2
+  \grace es,4 d2 b'8. b,16
 }
 
 \score {
   <<
     \new Voice = "incipit" { \notes }
   >>
+  \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
 }

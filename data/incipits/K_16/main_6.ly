@@ -8,6 +8,7 @@ notes = \relative c' {
   es,4 es2
   f4 b, as'
   \grace b8 as4 g r
+  es' b g'
 }
 
 \score {

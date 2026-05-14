@@ -3,10 +3,10 @@
 
 notes = \relative c' {
   \clef treble
-  \key a \minor \time 3/4 \tempoMarkup "Menuet · Allegro"
+  \key a \minor \time 3/4 \tempoMarkup "Menuet · Allegro assai"
   e'4^\partVi c a
-  a'2 h8\trill a16 h
-  c4  d8 c h a
+  a'2 h8.\trill a32 h
+  c4 d8 c h a
   gis4 e r
 }
 

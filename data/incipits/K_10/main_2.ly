@@ -3,7 +3,7 @@
 
 notes = \relative c' {
   \clef treble
-  \key f \dorian \time 3/4 \tempoMarkup "Sarabande · Largo"
+  \key f \dorian \time 3/4 \tempoMarkup "Largo"
   \partial 4 f4^\partVi \grace f e2 as4
   \grace as g2 c4~
   c8 des c b as g

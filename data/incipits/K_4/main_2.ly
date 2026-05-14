@@ -7,7 +7,7 @@ notes = \relative c' {
   \partial 4 g''4^\partVi g, \grace h8 a4.\trill g16 a
   h4 g g,
   a'8 h c h c d
-  \grace c4 h2
+  \grace c4 h2 g'4
 }
 
 \score {

@@ -7,7 +7,7 @@ notes = \relative c' {
   \partial 8 f8^\partVi a[ c f a]
   c4. f,8
   e16 g f8 r f,
-  e16 g f8 r
+  e16 g f8 r c'
 }
 
 \score {

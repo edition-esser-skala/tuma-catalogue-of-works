@@ -4,9 +4,9 @@
 notes = \relative c' {
   \clef treble
   \key e \minor \time 3/4 \tempoMarkup "Largo"
-  h''8^\partVi e, dis4.\trill cis16 dis
+  h''8^\partVi e, dis4.\trill cis16 \hA dis
   e4 h r
-  c8 a \grace a gis4.\trill fis16 gis
+  c8 a \grace a gis4.\trill fis16 \hA gis
   a4 dis, r
 }
 

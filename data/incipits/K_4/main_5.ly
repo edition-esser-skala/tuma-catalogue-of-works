@@ -8,6 +8,7 @@ notes = \relative c' {
   d g, r
   g' fis r
   a g r
+  h a r
 }
 
 \score {

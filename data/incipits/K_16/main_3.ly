@@ -8,7 +8,7 @@ notes = \relative c' {
   c8 h h4 g'
   \grace f8 es4 \grace d8 c4 es
   \grace es d2 h4
-  c r
+  c r g'
 }
 
 \score {
