@@ -101,7 +101,7 @@
                     <perfRes codedval="mco" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">bc</perfRes>
                   </perfResList>
                 </perfMedium>
-                <extent>100 bars</extent>
+                <extent>50 bars</extent>
                 <notesStmt>
                   <annot/>
                 </notesStmt>
@@ -130,7 +130,7 @@
                     <perfRes codedval="mco" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">bc</perfRes>
                   </perfResList>
                 </perfMedium>
-                <extent>96 bars</extent>
+                <extent>43 bars</extent>
                 <notesStmt>
                   <annot/>
                 </notesStmt>
@@ -159,7 +159,7 @@
                     <perfRes codedval="mco" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">bc</perfRes>
                   </perfResList>
                 </perfMedium>
-                <extent>210 bars</extent>
+                <extent>105 bars</extent>
                 <notesStmt>
                   <annot/>
                 </notesStmt>

@@ -100,7 +100,7 @@
                     <perfRes codedval="mco" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">bc</perfRes>
                   </perfResList>
                 </perfMedium>
-                <extent>36 bars</extent>
+                <extent>24 bars</extent>
                 <notesStmt>
                   <annot/>
                 </notesStmt>
