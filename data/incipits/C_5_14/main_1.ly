@@ -3,18 +3,22 @@
 
 notes = \relative c' {
   \clef soprano
-  \key d \minor \time 2/2 \autoBeamOff \tempoMarkup "Allegro"
+  \twotwotime \key d \minor \time 2/2 \tempoMarkup "[no tempo]" \autoBeamOff
   cis'2^\partSc cis4 cis
   d1~
   d2 cis
-  d a
+  d a~
+  a d
+  c! a
 }
 
 text = \lyricmode {
   Te -- ne -- brae
   fa --
   ctae
-  sunt
+  sunt dum __
+  cru --
+  ci -- "fi -"
 }
 
 \score {

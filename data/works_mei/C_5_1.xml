@@ -1,0 +1,404 @@
+<?xml version="1.0"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <altId type="ark">ark:68748/ft1c51</altId>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <pubStmt>
+        <respStmt>
+          <resp>Publisher</resp>
+          <corpName role="">
+            <abbr/>
+            <expan/>
+            <address>
+              <addrLine/>
+              <addrLine>
+                <ptr/>
+              </addrLine>
+            </address>
+          </corpName>
+          <persName role="editor">Wolfgang Esser-Skala</persName>
+        </respStmt>
+        <date/>
+        <availability>
+          <useRestrict>CC BY-SA 4.0</useRestrict>
+        </availability>
+      </pubStmt>
+      <seriesStmt>
+        <title>Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma: A thematic catalogue of his works</title>
+        <identifier type="file_collection">TumW</identifier>
+      </seriesStmt>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application version="v2.0.0">
+          <name>MerMEId</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <workList>
+      <work>
+        <identifier label="TumW">C.5.1</identifier>
+        <identifier label="BalTh">B.XI.12.I</identifier>
+        <identifier label="KliCh">Responsories 1</identifier>
+        <identifier label="VogIn">A.VI.1a</identifier>
+        <title xml:lang="la">In monte oliveti</title>
+        <contributor>
+          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118624539">Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma</persName>
+          <corpName role=""/>
+        </contributor>
+        <creation>
+          <date isodate="1759">1759</date>
+          <geogName role="">Vienna (?)</geogName>
+        </creation>
+        <history/>
+        <notesStmt>
+          <annot type="links">
+            <ptr mimetype=""/>
+          </annot>
+          <annot type="general_description">
+            <p>(a) TumW C.5.1 to TumW C.5.27, TumW D.3.2, and TumW D.2.1 are transmitted in a single collection in A-Wgm. In addition, TumW C.5.1 to TumW C.5.15 are also collected in a later copy in D-Dl. Thus, these two sources are only fully described in the metadata for TumW C.5.1.</p>
+            <p>(b) Most of the responsories TumW C.5.1 to 27 follow the classical ternary structure, i.e., chorus (consisting of two parts)&#x2013;solo verse&#x2013;repetendum (the second part of the respond repeated), or ABCB. Some responsories have an extended structure ABCBAB. In the description of the music, the total number of bars always refers to the sum of bars in ABC.</p>
+          </annot>
+        </notesStmt>
+        <classification>
+          <termList>
+            <term>responsorium</term>
+          </termList>
+        </classification>
+        <expressionList>
+          <expression>
+            <title xml:lang="en"/>
+            <incip>
+              <graphic target="main_1" targettype="lowres"/>
+            </incip>
+            <creation>
+              <date/>
+              <geogName role=""/>
+            </creation>
+            <history/>
+            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+              <perfResList>
+                <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro">
+                  <head xml:lang="en">coro</head>
+                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en">S</perfRes>
+                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en">A</perfRes>
+                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en">T</perfRes>
+                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en">B</perfRes>
+                </perfResList>
+                <perfRes codedval="sve" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vlne</perfRes>
+                <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">org</perfRes>
+              </perfResList>
+            </perfMedium>
+            <classification>
+              <termList>
+                <term/>
+              </termList>
+            </classification>
+            <componentList>
+              <expression n="1">
+                <title xml:lang="la">In monte oliveti</title>
+                <contributor>
+                  <persName role=""/>
+                </contributor>
+                <incip>
+                  <incipText>
+                    <p xml:lang="en"/>
+                  </incipText>
+                  <graphic targettype="lowres" target="1_in_monte"/>
+                </incip>
+                <tempo>Allegretto</tempo>
+                <key pname="f" mode="major"/>
+                <meter sym="cut"/>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                  <perfResList>
+                    <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_e0cc38c0">
+                      <head xml:lang="en">coro</head>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en" n="perfRes_d419387e">S</perfRes>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en" n="perfRes_e348029d">A</perfRes>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en" n="perfRes_eb4c93af">T</perfRes>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en" n="perfRes_05d33faf">B</perfRes>
+                    </perfResList>
+                    <perfRes codedval="sve" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vlne</perfRes>
+                    <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">org</perfRes>
+                  </perfResList>
+                </perfMedium>
+                <extent>50 bars</extent>
+                <notesStmt>
+                  <annot/>
+                </notesStmt>
+                <componentList>
+                  <expression>
+                    <title xml:lang="la">In monte oliveti</title>
+                    <contributor>
+                      <persName role=""/>
+                    </contributor>
+                    <incip>
+                      <incipText>
+                        <p xml:lang="en"/>
+                      </incipText>
+                    </incip>
+                    <tempo>Allegretto</tempo>
+                    <key pname="f" mode="major"/>
+                    <meter sym="cut"/>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                      <perfResList>
+                        <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_e0cc38c0">
+                          <head xml:lang="en">coro</head>
+                          <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en" n="perfRes_d419387e">S</perfRes>
+                          <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en" n="perfRes_e348029d">A</perfRes>
+                          <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en" n="perfRes_eb4c93af">T</perfRes>
+                          <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en" n="perfRes_05d33faf">B</perfRes>
+                        </perfResList>
+                        <perfRes codedval="sve" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vlne</perfRes>
+                        <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">org</perfRes>
+                      </perfResList>
+                    </perfMedium>
+                    <extent>20 bars</extent>
+                    <notesStmt>
+                      <annot/>
+                    </notesStmt>
+                    <componentList/>
+                    <relationList>
+                      <relation rel="hasReproduction"/>
+                    </relationList>
+                  </expression>
+                  <expression>
+                    <title xml:lang="la">Spiritus quidem promptus</title>
+                    <contributor>
+                      <persName role=""/>
+                    </contributor>
+                    <incip>
+                      <incipText>
+                        <p xml:lang="en"/>
+                      </incipText>
+                    </incip>
+                    <tempo>Allegretto</tempo>
+                    <key pname="f" mode="major"/>
+                    <meter sym="cut"/>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                      <perfResList>
+                        <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_e0cc38c0">
+                          <head xml:lang="en">coro</head>
+                          <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en" n="perfRes_d419387e">S</perfRes>
+                          <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en" n="perfRes_e348029d">A</perfRes>
+                          <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en" n="perfRes_eb4c93af">T</perfRes>
+                          <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en" n="perfRes_05d33faf">B</perfRes>
+                        </perfResList>
+                        <perfRes codedval="sve" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vlne</perfRes>
+                        <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">org</perfRes>
+                      </perfResList>
+                    </perfMedium>
+                    <extent>16 bars</extent>
+                    <notesStmt>
+                      <annot/>
+                    </notesStmt>
+                    <componentList/>
+                    <relationList>
+                      <relation rel="hasReproduction"/>
+                    </relationList>
+                  </expression>
+                  <expression>
+                    <title xml:lang="la">Vigilate et orate</title>
+                    <title xml:lang="la">Vers solo</title>
+                    <contributor>
+                      <persName role=""/>
+                    </contributor>
+                    <incip>
+                      <incipText>
+                        <p xml:lang="en"/>
+                      </incipText>
+                    </incip>
+                    <tempo>Andante</tempo>
+                    <key pname="f" mode="major"/>
+                    <meter sym="cut"/>
+                    <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                      <perfResList>
+                        <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_e0cc38c0">
+                          <head xml:lang="en">coro</head>
+                          <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en" n="perfRes_d419387e">S</perfRes>
+                          <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en" n="perfRes_e348029d">A</perfRes>
+                          <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en" n="perfRes_eb4c93af">T</perfRes>
+                        </perfResList>
+                        <perfRes codedval="sve" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vlne</perfRes>
+                        <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">org</perfRes>
+                      </perfResList>
+                    </perfMedium>
+                    <extent>14 bars</extent>
+                    <notesStmt>
+                      <annot>
+                        <p>followed by a da capo of <rend fontstyle="italic">Spiritus quidem promptus</rend>
+                                                </p>
+                      </annot>
+                    </notesStmt>
+                    <componentList/>
+                    <relationList>
+                      <relation rel="hasReproduction"/>
+                    </relationList>
+                  </expression>
+                </componentList>
+                <relationList>
+                  <relation rel="hasReproduction"/>
+                </relationList>
+              </expression>
+            </componentList>
+            <relationList/>
+          </expression>
+        </expressionList>
+      </work>
+    </workList>
+    <manifestationList>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date isodate="1759">1759</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Score</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier/>
+            <physDesc>
+              <extent>70 fol.</extent>
+              <titlePage label="[fol. 1r = p. 1]">
+                <p>H&#xE6;c | Responsoria | Cum Psalmis Miserere, et Benedictus | Pro Matutinis Hebdomad&#xE6; Sacr&#xE6; Con&#xE6; Domini, Parasceves | et Sabbathi Sancti &#xE2; Pr&#xE6;nobili Domino Francisco Tuma | Augusti&#x17F;sim&#xE6; Imperatricis Elisabeth&#xE6; Chori Musici Pr&#xE6;- | fecto in Contrapunctis cum Clavi-Cymbalo composita | prima vice producta sunt in Sacra Hebdomada | 1759.</p>
+              </titlePage>
+              <titlePage label="[p. 3]">
+                <p>R.1.</p>
+              </titlePage>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="22" unit="cm">22 (height in cm)</height>
+                <width quantity="31" unit="cm">31 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">unidentified</hand>
+              </handList>
+              <physMedium>
+                <p>Source consists of a full score bound in brown marbled cardboard and comprises 70 leaves. Each recto page is numbered in the upper right corner. Contents: p. 1: title; p. 2: empty; p. 3&#x2013;36: music (TumW C.5.1 to TumW C.5.9; caption title on p. 3: &#x201C;Responsoria pro Hebdomada Sancta in Coena Domini.&#x201D;; hand-ruled paper, 12 staves (7 mm) in light brown ink and music in same ink); p. 37&#x2013;38: empty; p. 39&#x2013;79: music (TumW C.5.10 to TumW C.5.18; caption title on p. 39: &#x201C;In Parasceve.&#x201D;); p. 80: empty; p. 81&#x2013;113: music (TumW C.5.19 to TumW C.5.29; caption title on p. 81: &#x201C;Pro Sabbatho Sancto.&#x201D;); p. 114: empty; p. 115&#x2013;129: music (TumW D.3.1; caption title on p. 115: &#x201C;Miserere.&#x201D;); p. 130: empty; p. 131&#x2013;137: music (TumW D.2.1; no title); p. 138: empty; and p. 139&#x2013;140: composer's note.</p>
+                <p>The composer's note is: [fol. 70r = p. 139] Notanda Compositoris. | In primis omnis versus hoc signo notatus V. a vocibus Solis et non reduplica- | tis cantari debet, et in mensura temporis tardiori, reliqua vero cantantur | in pleno, et sub mensura velociori. Requiruntur autem tres ad minimum Te- | norist&#xE6; et Ba&#x17F;sist&#xE6; ad productionem huius operis, ut bonum sortiatur effec- | tum. Deinde Cantaros et pr&#xE6;cipue pueri per laborem indefe&#x17F;sum debent | instrui ut rem cum summa facilitate sciant decantare, et ideo frequen- | tes prob&#xE6; instituend&#xE6;, et labori tamdiu insistendum, donec res ad votum | succedat: alias enim compositio audientibus fieret insipida, et labor | meus irritus. In locis ubi signatum est Adagio et piano debet vox in | tractu suo jam augeri jam diminui, sed tamen cum comuni omnium | Cantorum annutu, et intelligentia, et eodem momento ab omnibus | exequatur. Hoc pr&#xE6;cipue potest effici in notis longioris valoris, [fol. 70v = p. 140] quia sunt majoris durationis, et extensionis. Un&#xF4; verb&#xF4; | ejusmodi compositiones sunt difficillim&#xE6; productionis, et | ideo maximam exercitationem requirunt.</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wgm</identifier>
+              </repository>
+              <identifier>I 1693 (Q 476):1</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>The present responsorium is written on p. 3&#x2013;5.</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date notbefore="1890" notafter="1900">1890&#x2013;1900</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Score</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier label="RISM">1001304114</identifier>
+            <physDesc>
+              <extent>40 fol.</extent>
+              <titlePage label="[p. 1, by Schmid]">
+                <p>Haec | Responsoria cum Psalmis Miserere et Benedictus | pro Matutinis Hebdomadae Sacrae: Coenae Domini, Parasceves | et Sabbati Sancti &#xE2; Praenobili Domini Francisco Tuma, | Augustissimae Imperatricis Elisabethae Chori Musici | Praefecto in Contrapunctis cum Clavi-Cymbalo composita | prima vice producta sunt in Sacra Hebdomada | MDCCLIX. | Notanda Compositoris. | [followed by a transcription of the composer's note in the A-Wgm source]</p>
+              </titlePage>
+              <titlePage label="[p. 2]">
+                <p>N|o 1.</p>
+              </titlePage>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="35.5" unit="cm">35.5 (height in cm)</height>
+                <width quantity="27" unit="cm">27 (width in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black ink" type="main">unidentified</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="title">Otto Schmid</hand>
+              </handList>
+              <physMedium>
+                <p>Source consists of a full score bound in brown cardboard and comprises 40 leaves. Each page is numbered in the upper outer corner. Contents: p. 1: title and composer's note; p. 2&#x2013;48: music (TumW C.5.1 to TumW C.5.9; caption title on p. 2: &#x201C;In Caena Domini.&#x201D;; printed staff paper (&#x201C;C. A. KLEMM. | A. N&#xB0; 4.&#x201D;), 16 staves (8 mm) with music in black ink); and p. 49&#x2013;80: music (TumW C.5.10 to TumW C.5.15; caption title on p. 49: &#x201C;In Parasceve.&#x201D;).</p>
+                <p>Since the source does not contain all the responsories published in @Schmid1901, it may not be complete and one or more fascicles may be missing (the binding is of more recent origin).</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">D-Dl</identifier>
+                <ptr target="https://digital.slub-dresden.de/id1902244087" mimetype="" label="digitized version"/>
+              </repository>
+              <identifier>Mus.2968-D-513:1</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>The present responsorium is written on p. 2&#x2013;6.</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+    </manifestationList>
+  </meiHead>
+  <music/>
+</mei>

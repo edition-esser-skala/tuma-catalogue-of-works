@@ -3,11 +3,13 @@
 
 notes = \relative c' {
   \clef soprano
-  \key b \major \time 2/2 \autoBeamOff \tempoMarkup "Allegretto"
+  \twotwotime \key f \major \time 2/2 \tempoMarkup "Allegretto" \autoBeamOff
   b'1^\partSc
   b
   a
   d2 d
+  d1
+  c2 c
 }
 
 text = \lyricmode {
@@ -15,6 +17,8 @@ text = \lyricmode {
   sum
   tra --
   di -- dit
+  im --
+  _ "pi -"
 }
 
 \score {

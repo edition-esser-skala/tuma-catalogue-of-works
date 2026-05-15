@@ -5,7 +5,7 @@ Soprano = {
   \relative c' {
     \clef soprano
     \twotwotime \key g \minor \time 2/2 \tempoMarkup "Moderato" \autoBeamOff
-    b'2 b
+    b'2^\partSc b
     c1
     b2 b4 b
     g2 g4 g
