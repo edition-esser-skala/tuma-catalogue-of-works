@@ -3,9 +3,12 @@
 
 notes = \relative c' {
   \clef treble
-  \key c \major \time 4/4 \tempoMarkup "Vivace"
-  g''4~^\partFl g16 c a f g8 c,~ c16 c' a f
-  g f e g f e d f e8 c r d
+  \twotwotime \key c \major \time 2/2 \tempoMarkup "Bourlesque"
+  g'2^\partFl e'~
+  e4 d8 c d2
+  g, f'~
+  f4 e8 d e2
+  a4 a~ a8 h c a
 }
 
 \score {
