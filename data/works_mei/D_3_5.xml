@@ -75,6 +75,14 @@
               <date isodate="1783-03-11">1783-03-11</date>
               <geogName role="place">Eisenstadt</geogName>
             </event>
+            <event>
+              <date isodate="1764-04-11">1764-04-11</date>
+              <geogName role="place">Bratislava</geogName>
+            </event>
+            <event>
+              <date isodate="1766-03-17">1766-03-17</date>
+              <geogName role="place">Bratislava</geogName>
+            </event>
           </eventList>
         </history>
         <biblList>
@@ -942,6 +950,76 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (6), A solo and coro (6), T solo and coro (6), B solo and coro (2x; 4, 5), fl (2), a-trb (1), vl 1 (6), vl 2 (5), org (7)</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date isodate="1764">1764</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier label="RISM">1001365795</identifier>
+            <physDesc>
+              <extent>11 parts</extent>
+              <titlePage label="[wrapper]">
+                <p>Miserere | a | 4 Voci Conc. | 2 Violini | 2 Tromboni conc: | Violone | con | Organo conc: | Del Sig|r|e: Francesco Tuma. | Collegii S. J. ad S. Salvat. 1764.</p>
+              </titlePage>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <height quantity="30" unit="cm">30 (height in cm)</height>
+                <width quantity="22.5" unit="cm">22.5 (height in cm)</width>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <dimensions/>
+              <handList>
+                <hand medium="ink" type="main">unidentified</hand>
+              </handList>
+              <physMedium>
+                <p>hand-ruled paper</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">SK-BRj</identifier>
+              </repository>
+              <identifier>HJ 350</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>S solo and coro (5 fol.), A solo and coro (5 fol.), T solo and coro (5 fol.), B solo and coro (4 fol.), trb 1 (3 fol.), trb 2 (3 fol.), vl 1 (4 fol.), vl 2 (4 fol.), vla (1 fol.), vlne (5 fol.), org (7 fol.)</p>
+                <p>catalogue daccording to RISM entry</p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
