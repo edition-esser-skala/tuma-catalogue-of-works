@@ -1,5 +1,23 @@
 # Changelog {.unnumbered}
 
+## 0.19.0 – 2026-06-21
+
+### Added
+
+- work: TumW G.L14
+- incipits and metadata for TumW C.5.1–27, D.2.1, D.3.2, E.1.5, E.2.4, E.5.S2, F.6, G.11, I.11, J.19, and K.1/4/10/12/16/19
+- sources SK-BRj HJ 29, HJ 159, and HJ 350
+- reference: @ZinkovyInv
+- acknowledgements for Das Lehotská
+- location numbers of A-Wgm sources where available
+
+
+### Changed
+
+- Bar numbers in instrumental works now only count unique bars.
+- technically equivalent to WerW v0.21.0
+
+
 ## 0.18.0 – 2026-04-25
 
 ### Added
