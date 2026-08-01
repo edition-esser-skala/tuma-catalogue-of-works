@@ -3,9 +3,9 @@
 
 notes = \relative c' {
   \clef tenor
-  \key g \major \time 4/4 \autoBeamOff
+  \key g \major \time 4/4 \autoBeamOff \tempoMarkup "Andante"
   r8^\partTs g h g d' d16 d d8 c
-  h \clef soprano g'^\partSc h g d' d d c
+  h \clef soprano g'^\partSs h g d' d d c
   h8. a16 g8 r r2
 }
 
