@@ -4,14 +4,20 @@
 notes = \relative c' {
   \clef treble
   \key c \major \time 4/4 \tempoMarkup "Andante"
-  g''4.^\partVi g8 c,4. c8
-  d16 c d e d e f g e d e f e f g a
-  d, c d e d e f g c,8 d16 e f4~
-  f8 e d4\trill c
+  g''4.^\part "clno 1" g8 c,4. c8
+  d16 c d e d e f g \gotoBar "4" \clef alto \autoBeamOff g,4.^\partAs g8
+  c,4. c8 d16[ c d e] d[ e f g]
+}
+
+text = \lyricmode {
+  \skips 12
+  Ky -- ri --
+  e e -- lei -- \hy
 }
 
 \score {
   <<
     \new Voice = "incipit" { \notes }
+    \new Lyrics \lyricsto "incipit" { \text }
   >>
 }
