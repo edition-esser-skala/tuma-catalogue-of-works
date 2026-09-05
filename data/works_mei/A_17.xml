@@ -1305,7 +1305,7 @@
                 <corpName role=""/>
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wn</identifier>
-                <ptr target="https://data.onb.ac.at/dtl/5905307" mimetype="" label="digitized version"/>
+                <ptr target="https://data.onb.ac.at/rec/AC14297554" mimetype="" label="digitized version"/>
               </repository>
               <identifier>Mus.Hs.18992</identifier>
             </physLoc>

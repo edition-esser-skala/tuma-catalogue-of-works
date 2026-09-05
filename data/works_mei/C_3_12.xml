@@ -44,7 +44,7 @@
         <identifier label="BalTh">B.II.1, B.VI.18</identifier>
         <identifier label="KliCh">Motets 10, Hymns 5</identifier>
         <identifier label="VogIn">A.IV.12, A.V.2</identifier>
-        <title xml:lang="la">Laudes Mariae resonans</title>
+        <title xml:lang="la">Laudes Mariae resonas</title>
         <title type="alternative" xml:lang="la">Jesu Redemptor omnium</title>
         <contributor>
           <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118624539">Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma</persName>
@@ -106,7 +106,7 @@
             <ptr mimetype=""/>
           </annot>
           <annot type="general_description">
-            <p>This work is available with two different texts (and thus has been catalogued twice in the previous catalogues): <rend fontstyle="italic">Laudes Mariae resonans</rend> in the A-Wn and CZ-Bm sources, and <rend fontstyle="italic">Jesu Redemptor omnium</rend> in the A-Wgm and D-Dl sources.</p>
+            <p>This work is available with two different texts (and thus has been catalogued twice in the previous catalogues): <rend fontstyle="italic">Laudes Mariae resonas</rend> in the A-Wn and CZ-Bm sources, and <rend fontstyle="italic">Jesu Redemptor omnium</rend> in the A-Wgm and D-Dl sources.</p>
           </annot>
         </notesStmt>
         <classification>
@@ -156,7 +156,7 @@
             </classification>
             <componentList>
               <expression n="1">
-                <title xml:lang="la">Laudes Mariae resonans</title>
+                <title xml:lang="la">Laudes Mariae resonas</title>
                 <contributor>
                   <persName role=""/>
                 </contributor>
@@ -199,7 +199,7 @@
                 </notesStmt>
                 <componentList>
                   <expression>
-                    <title xml:lang="la">Laudes Mariae resonans</title>
+                    <title xml:lang="la">Laudes Mariae resonas</title>
                     <contributor>
                       <persName role=""/>
                     </contributor>
@@ -579,7 +579,8 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (2), A solo and coro (2), T solo and coro (3), B solo and coro (3), S coro (2), A coro (2), T coro (2), B coro (1), cnto (1), fag (1), trb 1 (2), trb 2 (2), vl 1 (3), vl 2 (3), vlc (4), vlne (3), org (4), mdc (4)</p>
-                <p>lyrics: <rend fontstyle="italic">Laudes Mariae resonans</rend></p>
+                <p>lyrics: <rend fontstyle="italic">Laudes Mariae resonas</rend>
+                                </p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -648,7 +649,8 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (2), A solo and coro (2), T solo and coro (3), B solo and coro (2), trb 1 (1), trb 2 (1), vl 1 (2), vl 2 (2), org (3)</p>
-                <p>lyrics: <rend fontstyle="italic">Laudes Mariae resonans</rend></p>
+                <p>lyrics: <rend fontstyle="italic">Laudes Mariae resonas</rend>
+                                </p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
@@ -718,7 +720,8 @@
             <notesStmt>
               <annot type="source_description">
                 <p>from the collection of Otto Schmid</p>
-                <p>lyrics: <rend fontstyle="italic">Jesu Redemptor omnium</rend></p>
+                <p>lyrics: <rend fontstyle="italic">Jesu Redemptor omnium</rend>
+                                </p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>

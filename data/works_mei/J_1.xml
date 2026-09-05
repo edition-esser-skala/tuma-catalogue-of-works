@@ -225,7 +225,8 @@
             <identifier/>
             <physDesc>
               <handList>
-                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black pen" type="main">Herbert Vogg<persName role=""/></hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="black pen" type="main">Herbert Vogg<persName role=""/>
+                                </hand>
               </handList>
             </physDesc>
             <physLoc>
@@ -363,7 +364,7 @@
                 <corpName role=""/>
                 <geogName role=""/>
                 <identifier auth="RISM" auth.uri="http://www.rism.info">D-Dl</identifier>
-                <ptr target="http://digital.slub-dresden.de/id1898731381" mimetype="" label="digitized version"/>
+                <ptr target="https://digital.slub-dresden.de/id1898731381" mimetype="" label="digitized version"/>
               </repository>
               <identifier>Mus.2968-P-502</identifier>
             </physLoc>

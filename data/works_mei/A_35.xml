@@ -100,7 +100,7 @@
           <head>Bibliography</head>
           <bibl>
             <genre>reference</genre>
-            <ref targettype="pandoc-citation">Peschek1956 [p. 271-274]</ref>
+            <ref targettype="pandoc-citation">@Peschek1956 [p. 271-274]</ref>
           </bibl>
           <bibl>
             <genre>inventory</genre>
@@ -119,6 +119,14 @@
             <ref targettype="pandoc-citation">@HerzogenburgInvB [fol. 39r, no. 100]</ref>
           </bibl>
         </biblList>
+        <notesStmt>
+          <annot type="links">
+            <ptr mimetype=""/>
+          </annot>
+          <annot type="general_description">
+            <p>The title of this mass is only mentioned in the inventories of Herzogenburg, but not on any of the extant sources.</p>
+          </annot>
+        </notesStmt>
         <classification>
           <termList>
             <term>mass</term>
