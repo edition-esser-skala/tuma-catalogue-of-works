@@ -11,7 +11,7 @@ notes = \relative c' {
 
 text = \lyricmode {
   Ky -- ri -- e e -- lei -- son, Spi --
-  ri -- tus San -- cte De -- us,
+  ri -- tus San -- cte, De -- us,
   san -- cta Ma -- ri -- a, "o -"
 }
 

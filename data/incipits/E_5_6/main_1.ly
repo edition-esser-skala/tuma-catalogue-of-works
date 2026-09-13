@@ -10,7 +10,7 @@ notes = \relative c' {
 }
 
 text = \lyricmode {
-  Con -- fu -- gi -- mus, san -- cta
+  Con -- fu -- gi -- mus, San -- cta
   De -- i Ge -- ni -- trix, in ne --
   ces -- si -- ta -- ti -- bus no -- stris
 }
