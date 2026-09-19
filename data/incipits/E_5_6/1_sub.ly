@@ -144,14 +144,14 @@ BassFigures = \figuremode {
       \new Lyrics \lyricsto TenoreII \TenoreIILyrics
 
       \new Staff {
-        \set Staff.instrumentName = "B"
+        \set Staff.instrumentName = \markup \center-column { "B" "fag" }
         \new Voice = "Basso" { \dynamicUp \Basso }
       }
       \new Lyrics \lyricsto Basso \BassoLyrics
     >>
     \new StaffGroup <<
       \new Staff {
-        \set Staff.instrumentName = \markup \center-column { "org" "fag" "b" }
+        \set Staff.instrumentName = \markup \center-column { "org" "b" }
         \Organo
       }
     >>

@@ -6,13 +6,13 @@ notes = \relative c' {
   \key a \major \time 4/4 \autoBeamOff \tempoMarkup "Andante"
   e'4.^\partSs d8 cis h16[ a] h4
   a8 h cis4 h8 cis d4
-  cis8 dis e2 dis4
+  cis8 dis e2 \hA dis4
 }
 
 text = \lyricmode {
   Ky -- ri -- e e -- lei --
   son, e -- lei -- son, e -- lei --
-  son, e -- lei -- \hy
+  son, e -- lei \hy
 }
 
 \score {
