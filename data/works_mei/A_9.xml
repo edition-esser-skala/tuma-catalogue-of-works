@@ -122,7 +122,7 @@
           </bibl>
           <bibl>
             <genre>reference</genre>
-            <ref targettype="pandoc-citation">Peschek1956 [p. 117-122]</ref>
+            <ref targettype="pandoc-citation">@Peschek1956 [p. 117-122]</ref>
           </bibl>
           <bibl>
             <genre>inventory</genre>
@@ -134,7 +134,7 @@
           </bibl>
           <bibl>
             <genre>edition</genre>
-            <ref targettype="pandoc-citation">Schmid1900a [no. 10-12]</ref>
+            <ref targettype="pandoc-citation">@Schmid1900a [no. 10-12]</ref>
           </bibl>
           <bibl>
             <genre>inventory</genre>
@@ -146,7 +146,7 @@
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">Lang1978 [p. 716]</ref>
+            <ref targettype="pandoc-citation">@Lang1978 [p. 716]</ref>
           </bibl>
         </biblList>
         <notesStmt>

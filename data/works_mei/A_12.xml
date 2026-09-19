@@ -67,7 +67,7 @@
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">Lang1978 [p. 715]</ref>
+            <ref targettype="pandoc-citation">@Lang1978 [p. 715]</ref>
           </bibl>
           <bibl>
             <genre>inventory</genre>
@@ -79,7 +79,7 @@
           </bibl>
           <bibl>
             <genre>edition</genre>
-            <ref targettype="pandoc-citation">Schmid1900a [no. 7, 8]</ref>
+            <ref targettype="pandoc-citation">@Schmid1900a [no. 7, 8]</ref>
           </bibl>
           <bibl>
             <genre>inventory</genre>

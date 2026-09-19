@@ -55,7 +55,7 @@
           <head>Bibliography</head>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">Lang1978 [p. 718]</ref>
+            <ref targettype="pandoc-citation">@Lang1978 [p. 718]</ref>
           </bibl>
           <bibl>
             <genre>inventory</genre>

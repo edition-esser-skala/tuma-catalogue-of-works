@@ -92,7 +92,7 @@
           </bibl>
           <bibl>
             <genre>inventory</genre>
-            <ref targettype="pandoc-citation">BrnoSvJakubaInv[p. 61, no. 44]</ref>
+            <ref targettype="pandoc-citation">@BrnoSvJakubaInv[p. 61, no. 44]</ref>
           </bibl>
         </biblList>
         <classification>

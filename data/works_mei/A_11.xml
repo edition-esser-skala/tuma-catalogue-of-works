@@ -187,7 +187,7 @@
           <head>Bibliography</head>
           <bibl>
             <genre>reference</genre>
-            <ref targettype="pandoc-citation">Peschek1956 [p. 117-122]</ref>
+            <ref targettype="pandoc-citation">@Peschek1956 [p. 117-122]</ref>
           </bibl>
           <bibl>
             <genre>inventory</genre>
