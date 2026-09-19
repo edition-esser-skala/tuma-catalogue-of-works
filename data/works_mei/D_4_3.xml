@@ -243,7 +243,7 @@
                 <extent> lines</extent>
               </dimensions>
               <titlePage label="[wrapper, fol. 1r]">
-                <p>Magnificat | &#xE0; | Canto, Alto, Tenore, Ba&#x17F;so Conct: | 2 Violini Conc:t Violone | con Organo | Chori Cisterc: | ad Ss: Trinitatem. | Partes 8. | Del Signore Francesco | Tuma : co | [at bottom, glued-on piece of paper, printed] Am 10. X. 1913 aus der | Neuklosterbibliothek | zu Wr.-Neustadt &#xFC;ber- | nommen durch | P. Norbert Hofer.</p>
+                <p>Magnificat | &#xE0; | Canto, Alto, Tenore, Ba&#x17F;so Conc|t: | 2 Violini Conc|t: Violone | con Organo | Chori Cisterc: | ad Ss: Trinitatem. | Partes 8. | Del Signore Francesco | Tuma | [at bottom, glued-on piece of paper, printed] Am 10. X. 1913 aus der | Neuklosterbibliothek | zu Wr.-Neustadt &#xFC;ber- | nommen durch | P. Norbert Hofer.</p>
               </titlePage>
               <titlePage label="[wrapper, fol. 2r]">
                 <p>Motetto d&#x2019;ogni Sancto | &#xE0; | 4 Voc: Alto Conc:to | 2 Violini | 1 Viola. | con | Organo &#xE8; Violone | Ex rebus Pris Engelberti | Forth [manu propria?]</p>
@@ -268,8 +268,7 @@
             <notesStmt>
               <annot type="source_description">
                 <p>S solo and coro (1), A solo and coro (2), T solo and coro (1), B solo and coro (1), vl 1 (1), vl 2 (1), vlne (1), org (1)</p>
-                <p>fol. 1v of vlne contains T part for an unidentified <rend fontstyle="italic">Litaniae lauretanae</rend>
-                                </p>
+                <p>fol. 1v of vlne contains T part for an unidentified <rend fontstyle="italic">Litaniae lauretanae</rend></p>
               </annot>
               <annot type="links">
                 <ptr mimetype=""/>
