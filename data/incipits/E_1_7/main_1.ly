@@ -6,7 +6,7 @@ notes = \relative c' {
   \key es \lydian \time 3/4 \tempoMarkup "Andante"
   r4^\partVi es8 f g as
   b[ g] es b'4 b8 \gotoBar "5"
-  \clef bass \autoBeamOff r4^\partBs es,,8[ f] g[ as] b[ g] es4 r
+  \clef bass \autoBeamOff r4^\part "B 1 solo" es,,8[ f] g[ as] b[ g] es4 r
 }
 
 text = \lyricmode {
@@ -21,4 +21,3 @@ text = \lyricmode {
     \new Lyrics \lyricsto "incipit" { \text }
   >>
 }
-

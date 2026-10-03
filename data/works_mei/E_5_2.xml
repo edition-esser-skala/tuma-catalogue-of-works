@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <altId type="ark">ark:68748/ft1e52</altId>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <pubStmt>
+        <respStmt>
+          <resp>Publisher</resp>
+          <corpName role="">
+            <abbr/>
+            <expan/>
+            <address>
+              <addrLine/>
+              <addrLine>
+                <ptr/>
+              </addrLine>
+            </address>
+          </corpName>
+          <persName role="editor">Wolfgang Esser-Skala</persName>
+        </respStmt>
+        <date/>
+        <availability>
+          <useRestrict>CC BY-SA 4.0</useRestrict>
+        </availability>
+      </pubStmt>
+      <seriesStmt>
+        <title>Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma: A thematic catalogue of his works</title>
+        <identifier type="file_collection">TumW</identifier>
+      </seriesStmt>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application version="v2.0.0">
+          <name>MerMEId</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <workList>
+      <work>
+        <identifier label="TumW">E.5.2</identifier>
+        <title xml:lang="la">Sub tuum praesidium</title>
+        <contributor>
+          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118624539">Franti&#x161;ek Ign&#xE1;c Anton&#xED;n T&#x16F;ma</persName>
+          <corpName role=""/>
+        </contributor>
+        <creation>
+          <date notbefore="1730" notafter="1740">ca. 1730&#x2013;40</date>
+          <geogName role="">Vienna (?)</geogName>
+        </creation>
+        <history>
+          <eventList type="performances">
+            <event>
+              <date isodate="1763-06-27">1763-06-27</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1763-12-06">1763-12-06</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1764-02-26">1764-02-26</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1764-07-16">1764-07-16</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1764-12-06">1764-12-06</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1764-03-30">1764-03-30</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1764-07-14">1764-07-14</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1764-11-12">1764-11-12</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1766-04-19">1766-04-19</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1766-07-26">1766-07-26</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1766-11-08">1766-11-08</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1769-10-08">1769-10-08</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+            <event>
+              <date isodate="1770-11-18">1770-11-18</date>
+              <geogName role="place">Vienna</geogName>
+            </event>
+          </eventList>
+        </history>
+        <biblList>
+          <head>Bibliography</head>
+          <bibl>
+            <genre>reference</genre>
+            <ref targettype="pandoc-citation">@Armstrong1993 [pp. 118-121, 257, 284, 315]</ref>
+          </bibl>
+          <bibl>
+            <genre>reference</genre>
+            <ref targettype="pandoc-citation">@Eybl1996</ref>
+          </bibl>
+        </biblList>
+        <classification>
+          <termList>
+            <term>antiphon</term>
+          </termList>
+        </classification>
+        <expressionList>
+          <expression>
+            <title xml:lang="en"/>
+            <incip>
+              <graphic target="main_1" targettype="lowres"/>
+            </incip>
+            <creation>
+              <date/>
+              <geogName role=""/>
+            </creation>
+            <history/>
+            <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+              <perfResList>
+                <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
+                <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
+                <perfRes codedval="btb" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">trb</perfRes>
+                <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
+                <perfRes codedval="sve" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vlne</perfRes>
+                <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">org</perfRes>
+                <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro">
+                  <head xml:lang="en">coro</head>
+                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en">S</perfRes>
+                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en">A</perfRes>
+                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en">T</perfRes>
+                  <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en">B</perfRes>
+                </perfResList>
+              </perfResList>
+            </perfMedium>
+            <classification>
+              <termList>
+                <term/>
+              </termList>
+            </classification>
+            <componentList>
+              <expression n="1">
+                <title xml:lang="la">Sub tuum praesidium</title>
+                <contributor>
+                  <persName role=""/>
+                </contributor>
+                <incip>
+                  <incipText>
+                    <p xml:lang="en"/>
+                  </incipText>
+                  <graphic targettype="lowres" target="1_sub"/>
+                </incip>
+                <tempo>[no tempo]</tempo>
+                <key pname="d" mode="major"/>
+                <meter sym="cut"/>
+                <perfMedium xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                  <perfResList>
+                    <perfRes codedval="bct" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">cnto</perfRes>
+                    <perfRes codedval="wba" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">fag</perfRes>
+                    <perfRes codedval="btb" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">trb</perfRes>
+                    <perfRes codedval="svl" count="2" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vl</perfRes>
+                    <perfRes codedval="sve" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">vlne</perfRes>
+                    <perfRes codedval="kor" count="1" solo="false" auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/">org</perfRes>
+                    <perfResList auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="cmi" label="coro" n="perfResList_42718bc4">
+                      <head xml:lang="en">coro</head>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vso" xml:lang="en" n="perfRes_66c883da">S</perfRes>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="val" xml:lang="en" n="perfRes_5db6fef4">A</perfRes>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vte" xml:lang="en" n="perfRes_7a9ebd1d">T</perfRes>
+                      <perfRes auth="UNIMARC" auth.uri="http://iflastandards.info/ns/unimarc/terms/mop/" codedval="vbs" xml:lang="en" n="perfRes_1bdb9eef">B</perfRes>
+                    </perfResList>
+                  </perfResList>
+                </perfMedium>
+                <extent>14 bars</extent>
+                <notesStmt>
+                  <annot>
+                    <p>four half notes per bar</p>
+                  </annot>
+                </notesStmt>
+                <componentList/>
+                <relationList>
+                  <relation rel="hasReproduction"/>
+                </relationList>
+              </expression>
+            </componentList>
+            <relationList/>
+          </expression>
+        </expressionList>
+      </work>
+    </workList>
+    <manifestationList>
+      <manifestation>
+        <identifier/>
+        <titleStmt>
+          <title>Manuscript copy</title>
+        </titleStmt>
+        <pubStmt>
+          <publisher/>
+          <pubPlace/>
+          <date isodate="1741">ca. 1741</date>
+        </pubStmt>
+        <classification>
+          <termList>
+            <term>Notated music</term>
+            <term>Manuscript</term>
+            <term>Copy</term>
+            <term>Parts</term>
+            <term>Fair copy</term>
+            <term>Complete</term>
+          </termList>
+        </classification>
+        <itemList>
+          <item>
+            <identifier label="RISM">600138807</identifier>
+            <physDesc>
+              <extent>17 parts</extent>
+              <titlePage label="[wrapper]">
+                <p>Lytani&#xE6; | Della Madonna Sancti&#x17F;sima | &#xE0; 4 Voci Conc: | 2 Violini 2 Tromboni | 2 Clarini ad Libitum | con | Ripieni | Del Sig: Francesco Tuma | Partes. 26.</p>
+              </titlePage>
+              <dimensions>
+                <locusGrp>
+                  <locus/>
+                </locusGrp>
+                <term/>
+                <extent> lines</extent>
+              </dimensions>
+              <dimensions/>
+              <handList>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="main">Joseph Leysser</hand>
+                <hand xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" medium="brown ink" type="title">unidentified</hand>
+              </handList>
+              <physMedium>
+                <p>two sets of parts:<lb/>(1) 13 parts: 29 x 20.5 cm, hand-ruled paper, 10 staves (11 mm)<lb/>(2) 4 parts (cnto, A coro, T coro, B coro): 28 x 23 cm, hand-ruled paper, 10 staves (10 mm)</p>
+              </physMedium>
+            </physDesc>
+            <physLoc>
+              <repository>
+                <corpName role=""/>
+                <geogName role=""/>
+                <identifier auth="RISM" auth.uri="http://www.rism.info">A-Wn</identifier>
+                <ptr target="https://data.onb.ac.at/rec/AC14297587" mimetype="" label="catalogue entry"/>
+              </repository>
+              <identifier>Mus.Hs.15692:2</identifier>
+            </physLoc>
+            <notesStmt>
+              <annot type="source_description">
+                <p>S coro (2x; 1, 1), A coro (2x; 1, 1), T coro (2x; 1, 1), B coro (1), cnto (1), fag (1), trb 1 (1), trb 2 (1), vl 1 (1), vl 2 (1), vlc (1), vlne (1), org (1), mdc (1)</p>
+                <p>The work has been copied by Leysser in both sets of parts, while the litany in the first set is in the hand of copyist E.</p>
+                <p>This source comprises two works: The <rend fontstyle="italic">Litaniae lauretanae</rend> TumW G.2 and the <rend fontstyle="italic">Sub tuum praesidium</rend> TumW E.5.2.</p>
+              </annot>
+              <annot type="links">
+                <ptr mimetype=""/>
+              </annot>
+            </notesStmt>
+            <componentList/>
+          </item>
+        </itemList>
+        <componentList/>
+        <relationList>
+          <relation rel="isEmbodimentOf"/>
+        </relationList>
+      </manifestation>
+    </manifestationList>
+  </meiHead>
+  <music/>
+</mei>

@@ -3,7 +3,7 @@
 
 notes = \relative c' {
   \clef alto
-  \key g \minor \time 4/4 \autoBeamOff
+  \key g \minor \time 4/4 \autoBeamOff \tempoMarkup "Tempo giusto"
   g'4^\partAs d8 b' a4 g8 fis
   g16[ fis] g8 r4 r g8 g
   g f16[ es] f8 f f es r4
@@ -11,7 +11,8 @@ notes = \relative c' {
 
 text = \lyricmode {
   A -- ve Re -- gi -- na coe --
-  lo -- rum
+  lo -- rum, sal -- ve
+  ra -- dix, sal -- ve por -- ta
 }
 
 \score {
