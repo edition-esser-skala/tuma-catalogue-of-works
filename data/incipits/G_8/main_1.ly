@@ -3,7 +3,7 @@
 
 notes = \relative c' {
   \clef treble
-  \key a \minor \time 4/4 \tempoMarkup "Allegro"
+  \key a \minor \time 4/4 \tempoMarkup "Allegro [un poco]"
   a'4^\partVi a,8 a' g f e d
   c e' e8. f,16 e8 d c h \gotoBar "5"
   f'' d h4\trill \clef soprano \autoBeamOff a8.^\partSc a16 a8 a
